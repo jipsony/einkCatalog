@@ -7,6 +7,7 @@ export default function EICLogo(props) {
     <Box
       fontWeight={"bold"}
       className="appHeaderLink"
+      fontSize={"20px"}
     >
       E-INK CATALOG
     </Box>

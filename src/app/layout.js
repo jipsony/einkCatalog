@@ -39,7 +39,7 @@ export default function RootLayout({ children }) {
       className={`${geistSans.variable} ${geistMono.variable} ${robotoMono.variable} ${lora.variable} h-full antialiased`}
       suppressHydrationWarning
     >
-      <body className="min-h-full flex flex-col">
+      <body className="min-h-full flex flex-col" suppressHydrationWarning>
         <Provider>
           <Box px={{lg:"10rem", md: "2rem", base: "1rem"}}>
             <AppHeader logoComponent={<EICLogo></EICLogo>} />

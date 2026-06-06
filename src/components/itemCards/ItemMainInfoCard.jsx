@@ -13,10 +13,10 @@ import AppLink from "../toolsComponents/AppLink";
 import { FaArrowRightArrowLeft, FaList } from "react-icons/fa6";
 
 export default function ItemMainInfoCard(props) {
-  const compareLink = `/compare/${props.handheldInfo?.id}`;
+  const compareLink = `/compare/${props.itemInfo?.id}`;
 
   const formatReleaseDate = (date) => {
-    if (props.handheldInfo?.isUpcoming)
+    if (props.itemInfo?.isUpcoming)
       return (
         <AppTooltip
           content={
@@ -56,14 +56,14 @@ export default function ItemMainInfoCard(props) {
     const osWithVersion = [];
     os?.map((osRow) => {
       if (osRow === "Windows") {
-        if (props.handheldInfo?.windowsVersion) {
-          osWithVersion.push(`Windows ${props.handheldInfo?.windowsVersion}`);
+        if (props.itemInfo?.windowsVersion) {
+          osWithVersion.push(`Windows ${props.itemInfo?.windowsVersion}`);
         } else {
           osWithVersion.push(`Windows`);
         }
       } else if (osRow === "Android") {
-        if (props.handheldInfo?.androidVersion) {
-          osWithVersion.push(`Android ${props.handheldInfo?.androidVersion}`);
+        if (props.itemInfo?.androidVersion) {
+          osWithVersion.push(`Android ${props.itemInfo?.androidVersion}`);
         } else {
           osWithVersion.push(`Android`);
         }
@@ -76,44 +76,18 @@ export default function ItemMainInfoCard(props) {
     const screenSizeText =
       screenSize && screenSize !== "" ? `${screenSize}”` : undefined;
     const aspectRatioText =
-      props.handheldInfo?.aspectRatio && props.handheldInfo?.aspectRatio !== ""
-        ? `, ${props.handheldInfo?.aspectRatio}`
+      props.itemInfo?.aspectRatio && props.itemInfo?.aspectRatio !== ""
+        ? `  ${props.itemInfo?.aspectRatio}`
         : undefined;
-    return `${screenSizeText}${aspectRatioText}`;
+    return `${screenSizeText}${aspectRatioText ?? ""}`;
   };
 
   const formatPrice = (price) => {
     price = parseFloat(price);
     let priceText = `~$${price ? price : "?"}`;
 
-    return priceText;
+    return <Box color="var(--appColorAccent)">{priceText}</Box>;
   };
-
-  const attributes = [
-    {
-      id: "releaseDate",
-      label: "Released",
-      formatFunction: formatReleaseDate,
-      compareFunction: compareReleaseDate,
-    },
-    {
-      id: "operatingSystem",
-      label: "OS",
-      formatFunction: formatOperatingSystem,
-    },
-    {
-      id: "screenSize",
-      label: "Screen",
-      formatFunction: formatScreenSize,
-      compareFunction: compareScreenSize,
-    },
-    {
-      id: "approximativePrice",
-      label: "Price",
-      formatFunction: formatPrice,
-      compareFunction: (a, b) => parseInt(-compareFloat(a, b)),
-    },
-  ];
 
   const isCompareValueUndefined = (attribute) => {
     return (
@@ -130,8 +104,8 @@ export default function ItemMainInfoCard(props) {
     const renderCompare = () => {
       if (isCompareValueUndefined(attributeId)) return;
       const compareResult = attributeInfo?.compareFunction(
-        props.handheldInfo?.[attributeId],
-        props.compareWithHandheldInfo?.[attributeId],
+        props.itemInfo?.[attributeId],
+        props.compareWithitemInfo?.[attributeId],
       );
       return compareColor(compareResult);
     };
@@ -139,7 +113,7 @@ export default function ItemMainInfoCard(props) {
     if (
       attributeInfo?.compareFunction &&
       !attributeInfo.dontCompare &&
-      props.compareWithHandheldInfo
+      props.compareWithitemInfo
     ) {
       return (
         <CompareKeyValueIcon
@@ -155,6 +129,33 @@ export default function ItemMainInfoCard(props) {
     else return value;
   };
 
+  const attributes = [
+    {
+      id: "releaseDate",
+      label: "Released",
+      formatFunction: formatReleaseDate,
+      compareFunction: compareReleaseDate,
+    },
+    {
+      id: "screenSize",
+      label: "Screen",
+      formatFunction: formatScreenSize,
+      compareFunction: compareScreenSize,
+    },
+    {
+      id: "operatingSystem",
+      label: "OS",
+      formatFunction: formatOperatingSystem,
+    },
+
+    {
+      id: "price",
+      label: "Price",
+      formatFunction: formatPrice,
+      compareFunction: (a, b) => parseInt(-compareFloat(a, b)),
+    },
+  ];
+
   return (
     <ItemCard>
       <Box
@@ -167,30 +168,29 @@ export default function ItemMainInfoCard(props) {
         borderRadius="inherit"
       >
         <Box
-          pt="1rem"
-          pb={props.isFullPage && "1rem"}
           px="1rem"
+          pb={props.isFullPage && "1rem"}
           w="100%"
           flex={1}
           alignContent={"center"}
           as="dl"
+          divideY={"1px"}
+          divideStyle="dashed"
+          gap={"10rem"}
         >
-          {props.handheldInfo &&
+          {props.itemInfo &&
             attributes.map((mainAttribute, idx) => {
               if (
                 mainAttribute.hide ||
-                (mainAttribute.hideIfEmpty &&
-                  !props.handheldInfo[mainAttribute.id])
+                (mainAttribute.hideIfEmpty && !props.itemInfo[mainAttribute.id])
               )
                 return;
               else
                 return (
                   <Box
                     key={`${idx}KV`}
-                    ml={props.compareWithHandheldInfo && "2px"}
-                    borderTop={
-                      idx !== 0 ? "1px solid var(--appColorDivider)" : null
-                    }
+                    ml={props.compareWithitemInfo && "2px"}
+                    pt="6px"
                   >
                     {mainAttribute?.id === "approximativePrice" && (
                       <Box float="right">
@@ -200,21 +200,21 @@ export default function ItemMainInfoCard(props) {
                     <Box
                       width={{ base: "50%", md: "40%" }}
                       float="left"
-                      fontWeight={"600"}
                       as="dt"
-                      className="appColorDark"
                     >
                       {mainAttribute.label}
                     </Box>
                     <Box
-                      width={{ base: "50%", md: "60%" }}
+                      //   width={{ base: "50%", md: "60%" }}
                       float="right"
+                      textAlign="right"
                       as="dd"
+                      fontWeight={"600"}
                     >
                       {renderValue(
                         mainAttribute,
-                        props.handheldInfo[mainAttribute.id],
-                      )}{" "}
+                        props.itemInfo[mainAttribute.id],
+                      )}
                     </Box>
                     <br style={{ clear: "both" }} />
                   </Box>
@@ -225,8 +225,6 @@ export default function ItemMainInfoCard(props) {
           bottom="0px"
           w={"100%"}
           maxW={"100%"}
-          overflow={"hidden"}
-          // right={"1rem"}
           gap={0}
           templateColumns={"1fr 1fr"}
           borderRadius="inherit"
@@ -243,7 +241,7 @@ export default function ItemMainInfoCard(props) {
               <AppLink
                 href={
                   props?.showDetailsLink?.href ??
-                  "/retro-handhelds/" + props.handheldInfo?.id
+                  "/retro-handhelds/" + props.itemInfo?.id
                 }
               >
                 <Box

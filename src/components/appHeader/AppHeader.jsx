@@ -21,7 +21,7 @@ export default function AppHeader(props) {
       m={0}
       p={0}
       width={{ base: "100%", lg: "auto" }}
-      backgroundColor={"var(--appColorAccent)"}
+      backgroundColor={"var(--background)"}
     >
       <Center
         pt={1}
