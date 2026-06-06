@@ -1,5 +1,5 @@
 import React from "react";
-import { Geist, Geist_Mono, Roboto_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Roboto_Mono, Lora } from "next/font/google";
 import "./globals.css";
 import { Provider } from "@/components/ui/provider";
 import AppHeader from "@/components/appHeader/AppHeader";
@@ -21,6 +21,12 @@ const robotoMono = Roboto_Mono({
   subsets: ["latin"],
 });
 
+const lora = Lora({
+  variable: "--font-lora",
+  subsets: ["latin"],
+  style: ["italic"],
+});
+
 export const metadata = {
   title: "E-INK CATALOG",
   description: "E-INK CATALOG",
@@ -30,12 +36,12 @@ export default function RootLayout({ children }) {
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} ${robotoMono.variable} h-full antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable} ${robotoMono.variable} ${lora.variable} h-full antialiased`}
       suppressHydrationWarning
     >
       <body className="min-h-full flex flex-col">
         <Provider>
-          <Box px={{lg:"10rem"}}>
+          <Box px={{lg:"10rem", md: "2rem", base: "1rem"}}>
             <AppHeader logoComponent={<EICLogo></EICLogo>} />
             <Box paddingBottom={"8rem"}>{children}</Box>
           </Box>

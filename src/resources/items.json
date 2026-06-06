@@ -1,0 +1,42 @@
+[
+  {
+    "id": "xteink-x4",
+    "brand": "Xteink",
+    "name": "X4",
+    "releaseDate": "10 / 2025",
+    "price": 69,
+    "screenSize": 4.3,
+    "pixelDensity": 220,
+    "dimensions": "114 × 69 × 5.9",
+    "weight": 74,
+    "cpu": "ESP32",
+    "storage": "16 GB",
+    "battery": "650 mAh",
+    "supportedFormats": {
+      "document": ["EPUB", "TXT"],
+      "image": ["JPG", "BMP"],
+      "fonts": ["BIN"]
+    },
+    "colors": ["black", "white"],
+    "languages": [
+      "English",
+      "Simplified Chinese",
+      "Traditional Chinese",
+      "Japanese"
+    ],
+    "thirdPartyApps": false,
+    "frontLight": false,
+    "touchscreen": false,
+    "wifi": true,
+    "bluetooth": true,
+    "speakers": false,
+    "browser": false,
+    "usbc": true,
+    "sdCard": true,
+    "backlight": false,
+    "stylusSupport": false,
+    "color": false,
+    "automaticRotation": false,
+    "pageTurnButtons": true
+  }
+]

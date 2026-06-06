@@ -1,13 +1,16 @@
 @import "tailwindcss";
 
 :root {
-  --background: #f4f0e6;
+  --background: #fefaf1;
   --foreground: #171717;
+  --appBorderColor: #a2a2a2;
 }
 
 :root.dark {
     --background: #202125; /* #0a0a0a */
     --foreground: #ededed;
+  --appBorderColor: #666666;
+
 
 }
 

@@ -3,7 +3,7 @@ const nextConfig = {
   /* config options here */
   experimental: {
     reactCompiler: true,
-    optimizePackageImports: ["@chakra-ui/react"],
+    optimizePackageImports: ["@chakra-ui/react", "react-icons"],
   },
 };
 

@@ -29,11 +29,11 @@ export default function AppHeader(props) {
         m={0}
         height={headerHeight}
         width={{ base: "100%", lg: "100%" }}
-        pl={"1rem"}
+        // pl={"1rem"}
       >
         <Flex width={"100%"} justifyContent={"space-between"} p={0}>
           <AppLink href="/" style={{ alignSelf: "center" }}>
-            <HStack gap={0} mr={".6rem"}>
+            <HStack gap={0}>
               {props.logoComponent}
               {/* <Image
                 alt="Retro Handhelds logo - Image"
