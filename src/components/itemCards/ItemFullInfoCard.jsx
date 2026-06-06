@@ -84,8 +84,9 @@ export default function ItemFullInfoCard(props) {
             <Flex
               alignItems="baseline"
               key={`${idx}KV`}
-              ml={5}
-              pt={1}
+              ml={6}
+              //   pt={1}
+              pt="6px"
               borderBottom={
                 idx < kvs.length - 1 ? "1px solid var(--appColorDivider)" : null
               }

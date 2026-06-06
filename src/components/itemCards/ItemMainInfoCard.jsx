@@ -202,7 +202,7 @@ export default function ItemMainInfoCard(props) {
                       </Box>
                     )}
                     <Box
-                    //   width={{ base: "50%", md: "40%" }}
+                      //   width={{ base: "50%", md: "40%" }}
                       float="left"
                       as="dt"
                       fontWeight={"600"}
@@ -214,6 +214,7 @@ export default function ItemMainInfoCard(props) {
                       float="right"
                       textAlign="right"
                       as="dd"
+                      
                     >
                       {renderValue(
                         mainAttribute,
