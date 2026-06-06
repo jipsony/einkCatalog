@@ -132,7 +132,7 @@ export default function ItemMainInfoCard(props) {
   const attributes = [
     {
       id: "releaseDate",
-      label: "Released",
+      label: "Release Date",
       formatFunction: formatReleaseDate,
       compareFunction: compareReleaseDate,
     },

@@ -3,7 +3,7 @@
 :root {
   --background: #fefaf1;
   --foreground: #171717;
-  --appBorderColor: #c0c0c0;
+  --appBorderColor: #dfdfdf;
   font-family: var(--font-roboto-mono), Arial, sans-serif;
   --appColorAccent: #18519b;
 }

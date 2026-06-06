@@ -51,3 +51,10 @@ export const compareColor = (compareResult) => {
   if (compareResult > 0) return "green"; // green
   if (compareResult < 0) return "red"; // red
 };
+
+export const compareBool = (a, b) => {
+  if (a === b) return 0;
+  if (a && !b) return 1;
+  if (!a && b) return -1;
+  return 0;
+};

@@ -10,6 +10,7 @@ export default function ItemCard({ children , ...props }) {
       p="1rem"
       my="1rem"
       w="100%"
+      boxShadow="sm"
       {...props}
     >
       {children}

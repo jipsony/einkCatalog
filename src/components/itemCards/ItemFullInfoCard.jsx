@@ -1,7 +1,220 @@
+"use client";
 import React from "react";
-import { Box } from "@chakra-ui/react";
+import {
+  Box,
+  Card,
+  Grid,
+  GridItem,
+  Flex,
+  HStack,
+  Heading,
+} from "@chakra-ui/react";
+import FeatureTag from "../toolsComponents/FeatureTag";
+import sections from "@/resources/sections";
+import CompareKeyValueIcon from "../compare/CompareKeyValueIcon";
+import CompareTagIcon from "../compare/CompareTagIcon";
+import AppLink from "../toolsComponents/AppLink";
+import { compareBool, compareColor } from "@/lib/compare/compare";
 import ItemCard from "./ItemCard";
 
 export default function ItemFullInfoCard(props) {
-  return <ItemCard>a</ItemCard>;
+  const templateColumns = props.isFullPage
+    ? { "2xl": "repeat(6, 1fr)", xl: "repeat(6, 1fr)", base: "repeat(3, 1fr)" }
+    : "1fr 1fr 1fr";
+
+  const isCompareValueUndefined = (attribute) => {
+    return (
+      props.itemInfo?.[attribute] === "?" ||
+      props.compareWithItemInfo?.[attribute] === "?"
+    );
+  };
+
+  const renderCompareByType = (attribute) => {
+    const isTag = attribute.type === "tag";
+
+    const renderCompare = () => {
+      if (isCompareValueUndefined(attribute.attribute)) return;
+      if (isTag) {
+        return compareColor(
+          compareBool(
+            props.itemInfo?.[attribute.attribute],
+            props.compareWithItemInfo?.[attribute.attribute],
+          ),
+        );
+      }
+      const compareResult = attribute?.compareFunction(
+        props.itemInfo?.[attribute.attribute],
+        props.compareWithItemInfo?.[attribute.attribute],
+      );
+      return compareColor(compareResult);
+    };
+
+    if (
+      props.compareWithItemInfo &&
+      ((attribute?.compareFunction && !attribute.dontCompare) ||
+        attribute.type === "tag")
+    ) {
+      if (isTag) {
+        return (
+          <CompareTagIcon
+            attribute={attribute.attribute}
+            compareColor={() => renderCompare()}
+          />
+        );
+      }
+      return (
+        <CompareKeyValueIcon
+          key={attribute.attribute}
+          compareColor={() => renderCompare()}
+        />
+      );
+    }
+  };
+
+  const renderValue = (attribute, value) => {
+    return `${value && value !== " " && attribute.prefix ? attribute.prefix : ""}${value ? value?.toString() : ""}${value && value !== " " && attribute.unit ? `${attribute.unit}` : ""}`;
+  };
+
+  const renderKeyValueAttributes = (kvs) => {
+    return (
+      <Box as="dl" m={0} divideY={"1px"} divideStyle="dashed" gap={"10rem"}>
+        {kvs.map((attribute, idx) => {
+          const value = props.itemInfo[attribute.attribute];
+          return (
+            <Flex
+              alignItems="baseline"
+              key={`${idx}KV`}
+              ml={5}
+              pt={1}
+              borderBottom={
+                idx < kvs.length - 1 ? "1px solid var(--appColorDivider)" : null
+              }
+            >
+              {renderCompareByType(attribute)}
+              <Box as="dt" width="50%" flexShrink={0} fontWeight="600">
+                {attribute.label}
+              </Box>
+              <Box
+                as="dd"
+                m={0}
+                style={{ width: "30%" }}
+                textAlign={{ base: "right", md: "left" }}
+              >
+                {renderValue(attribute, value)}
+              </Box>
+            </Flex>
+          );
+        })}
+      </Box>
+    );
+  };
+
+  const renderTags = (tags) => {
+    return (
+      <Grid templateColumns={templateColumns} rowGap={1} columnGap={2}>
+        {tags.map((attribute) => (
+          <GridItem key={attribute.attribute}>
+            {renderCompareByType(attribute)}
+            <FeatureTag
+              label={attribute.label}
+              value={props.itemInfo[attribute.attribute]}
+              detail={
+                attribute?.detail && props.itemInfo[attribute?.detail]
+                  ? props.itemInfo[attribute?.detail]
+                  : undefined
+              }
+            />
+          </GridItem>
+        ))}
+      </Grid>
+    );
+  };
+
+  const renderAttributes = (sectionKey, section) => {
+    const tags = section.attributes.filter(
+      (attribute) =>
+        attribute.type === "tag" && attribute.isFilterOnly !== true,
+    );
+    const kvs = section.attributes.filter((attribute) => {
+      if (attribute.type === "tag") return false;
+      if (attribute.hideIfEmpty && !props.itemInfo[attribute.attribute])
+        return false;
+      if (!props.isFullPage && !props.isComparePage)
+        return !attribute.hideOnListPage;
+      return true;
+    });
+
+    return (
+      <Box>
+        <Box pl={5}>{renderTags(tags)}</Box>
+        {tags?.length > 0 && kvs?.length > 0 && <Box mt={".5rem"} />}
+        {renderKeyValueAttributes(kvs)}
+      </Box>
+    );
+  };
+
+  const renderSectionTitle = (section) => {
+    return (
+      <Heading
+        as={props.isFullPage ? "h2" : "h3"}
+        style={{ fontSize: "13px" }}
+        fontFamily={"inherit"}
+      >
+        {section.label}
+      </Heading>
+    );
+  };
+
+  return (
+    <ItemCard>
+      {Object.entries(sections).map(([sectionKey, section]) => (
+        <Box
+          key={sectionKey}
+          borderTop={0}
+          borderBottom={0}
+          pr={"1rem"}
+          pl={"1rem"}
+          pb="1rem"
+        >
+          <Box as="span" flex="1" textAlign="left" fontWeight={"bold"}>
+            <HStack ml={"-0.4em"} p={1} mb={1} borderRadius={3}>
+              {renderSectionTitle(section)}
+            </HStack>
+          </Box>
+          <Box pb={4} pt={1}>
+            {props.itemInfo && renderAttributes(sectionKey, section)}
+          </Box>
+        </Box>
+      ))}
+
+      {props.itemInfo && props.clickable && (
+        <Flex alignItems={"stretch"}>
+          <Flex
+            flexWrap={"wrap"}
+            position="absolute"
+            bottom="0.6rem"
+            pb={0}
+            mb={0}
+          >
+            <Box
+              color="var(--appColorLinkBlue)"
+              display={"inline"}
+              fontSize={".9rem"}
+            >
+              <AppLink href={`/e-readers/${props.itemInfo.id}`}>
+                <HStack
+                  gap={1}
+                  _hover={{ color: "var(--appColorText)" }}
+                  textDecor={"underline"}
+                  fontWeight={"600"}
+                >
+                  <Box>More details</Box>
+                </HStack>
+              </AppLink>
+            </Box>
+          </Flex>
+        </Flex>
+      )}
+    </ItemCard>
+  );
 }
