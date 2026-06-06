@@ -1,6 +1,7 @@
 import { Steps, Box, Button } from "@chakra-ui/react";
 import React from "react";
 import IconsWrapper from "./IconsWrapper";
+import Image from "next/image";
 
 export default function ListLinkButton(props) {
   // (text, link, icon, isOutline
@@ -31,15 +32,12 @@ export default function ListLinkButton(props) {
         <a href={props.link}>
           {props.image && (
             <Box mr=".5rem" flexShrink={0}>
-              <img
+              <Image
                 src={props.image}
                 alt=""
-                style={{
-                  width: "20px",
-                  height: "20px",
-                  objectFit: "contain",
-                  borderRadius: "20px",
-                }}
+                width={20}
+                height={20}
+                style={{ objectFit: "contain", borderRadius: "20px" }}
               />
             </Box>
           )}

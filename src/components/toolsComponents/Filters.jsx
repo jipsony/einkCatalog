@@ -1,4 +1,3 @@
-/* eslint-disable react-hooks/immutability */
 // Beware of Spaghetti.
 "use client";
 import {

@@ -24,7 +24,7 @@ export default function FilterButton(props) {
       width={"100%"}
       loading={isPending || props.isPendingFilter || props.isLoadingFilter}
     >
-      <IconsWrapper icon="fa-sliders" style={{ width: "2rem" }}></IconsWrapper>Filter  
+      <IconsWrapper icon="fa-sliders" style={{ width: "2rem" }}></IconsWrapper>Filter
           </Button>
   );
 }
