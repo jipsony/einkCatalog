@@ -6,6 +6,8 @@
   --appBorderColor: #dfdfdf;
   font-family: var(--font-roboto-mono), Arial, sans-serif;
   --appColorAccent: #18519b;
+    --appColorLight: #e0eeff;
+
 }
 
 :root.dark {

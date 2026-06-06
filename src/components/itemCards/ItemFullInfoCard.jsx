@@ -155,13 +155,26 @@ export default function ItemFullInfoCard(props) {
 
   const renderSectionTitle = (section) => {
     return (
-      <Heading
-        as={props.isFullPage ? "h2" : "h3"}
-        style={{ fontSize: "13px" }}
-        fontFamily={"inherit"}
-      >
-        {section.label}
-      </Heading>
+      <>
+        <Heading
+          as={props.isFullPage ? "h2" : "h3"}
+          fontFamily={"inherit"}
+          fontSize={"lg"}
+        >
+          {section.label}
+        </Heading>
+
+        <Box
+          ml="1rem"
+          flex="1"
+          borderTopWidth="1px"
+          borderRadius={"4px"}
+          borderColor={"var(--appBorderColor)"}
+          position="relative"
+          alignSelf="center"
+          opacity={0.6}
+        ></Box>
+      </>
     );
   };
 
@@ -174,7 +187,7 @@ export default function ItemFullInfoCard(props) {
           borderBottom={0}
           pr={"1rem"}
           pl={"1rem"}
-          pb="1rem"
+        //   pb="1rem"
         >
           <Box as="span" flex="1" textAlign="left" fontWeight={"bold"}>
             <HStack ml={"-0.4em"} p={1} mb={1} borderRadius={3}>

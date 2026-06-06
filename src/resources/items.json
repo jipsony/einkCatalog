@@ -38,7 +38,7 @@
     "sdCard": true,
     "backlight": false,
     "stylusSupport": false,
-    "color": false,
+    "colorScreen": false,
     "automaticRotation": false,
     "pageTurnButtons": true
   }

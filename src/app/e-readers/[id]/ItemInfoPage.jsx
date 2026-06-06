@@ -17,7 +17,7 @@ export default function ItemInfoPage(props) {
           <ItemMainInfoCard itemInfo={props?.itemInfo} ></ItemMainInfoCard>
         </Box>
         <Box w="100%">
-          <ItemFullInfoCard itemInfo={props?.itemInfo}></ItemFullInfoCard>
+          <ItemFullInfoCard itemInfo={props?.itemInfo} isFullPage></ItemFullInfoCard>
         </Box>
       </Stack>
     </>

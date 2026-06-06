@@ -86,7 +86,11 @@ export default function ItemMainInfoCard(props) {
     price = parseFloat(price);
     let priceText = `~$${price ? price : "?"}`;
 
-    return <Box color="var(--appColorAccent)">{priceText}</Box>;
+    return (
+      <Box color="var(--appColorAccent)" fontWeight={"600"}>
+        {priceText}
+      </Box>
+    );
   };
 
   const isCompareValueUndefined = (attribute) => {
@@ -201,6 +205,7 @@ export default function ItemMainInfoCard(props) {
                       width={{ base: "50%", md: "40%" }}
                       float="left"
                       as="dt"
+                      fontWeight={"600"}
                     >
                       {mainAttribute.label}
                     </Box>
@@ -209,7 +214,6 @@ export default function ItemMainInfoCard(props) {
                       float="right"
                       textAlign="right"
                       as="dd"
-                      fontWeight={"600"}
                     >
                       {renderValue(
                         mainAttribute,

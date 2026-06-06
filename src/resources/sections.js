@@ -1,13 +1,34 @@
 import { compareFloat, compareScreenSize } from "@/lib/compare/compare";
 
 const sections = {
+  features: {
+    label: "Features",
+    attributes: [
+      { attribute: "touchscreen", label: "Touchscreen", type: "tag" },
+      { attribute: "stylusSupport", label: "Stylus Support", type: "tag" },
+
+      { attribute: "frontLight", label: "Front Light", type: "tag" },
+      { attribute: "backlight", label: "Back Light", type: "tag" },
+      //   { attribute: "frontLightCold", label: "Front Light (Cold)", type: "tag" },
+      { attribute: "colorDisplay", label: "Color Display", type: "tag" },
+      { attribute: "wifi", label: "WiFi", type: "tag" },
+      { attribute: "sdCard", label: "SD Card Slot", type: "tag" },
+      { attribute: "browser", label: "Modern Browser", type: "tag" },
+
+      { attribute: "bluetooth", label: "Bluetooth", type: "tag" },
+      { attribute: "speakers", label: "Speakers", type: "tag" },
+      { attribute: "textToSpeech", label: "Text To Speech", type: "tag" },
+
+      //   { attribute: "waterproofRating", label: "Waterproof Rating" },
+    ],
+  },
   display: {
     label: "Screen",
     attributes: [
       {
         attribute: "screenSize",
-        label: "Size",
-        unit: "\"",
+        label: "Screen size",
+        unit: '"',
         compareFunction: (a, b) => compareScreenSize(a, b),
       },
       {
@@ -15,14 +36,18 @@ const sections = {
         label: "Resolution",
       },
       {
-        attribute: "screenType",
-        label: "Technology",
+        attribute: "aspectRatio",
+        label: "Aspect Ratio",
       },
       {
         attribute: "pixelDensity",
-        label: "PPI",
+        label: "Pixel Density",
         unit: " PPI",
         compareFunction: (a, b) => compareFloat(a, b),
+      },
+      {
+        attribute: "screenType",
+        label: "Technology",
       },
     ],
   },
@@ -40,68 +65,57 @@ const sections = {
         unit: " g",
         compareFunction: (a, b) => parseFloat(-compareFloat(a, b)),
       },
-      {
-        attribute: "replaceableBattery",
-        label: "Replaceable Battery",
-        type: "tag",
-      },
+    //   {
+    //     attribute: "replaceableBattery",
+    //     label: "Replaceable Battery",
+    //     type: "tag",
+    //   },
     ],
   },
-  features: {
-    label: "Features",
-    attributes: [
-      { attribute: "backlight", label: "Backlight", type: "tag" },
-      { attribute: "textToSpeech", label: "Text To Speech", type: "tag" },
-      { attribute: "frontLightWarm", label: "Front Light (Warm)", type: "tag" },
-      { attribute: "frontLightCold", label: "Front Light (Cold)", type: "tag" },
-      { attribute: "wifi", label: "WiFi", type: "tag" },
-      { attribute: "bluetooth", label: "Bluetooth", type: "tag" },
-      { attribute: "stylusSupport", label: "Stylus Support", type: "tag" },
-      { attribute: "color", label: "Color Display", type: "tag" },
-      { attribute: "waterproofRating", label: "Waterproof Rating" },
-      { attribute: "speakers", label: "Speakers", type: "tag" },
-      { attribute: "microphone", label: "Microphone", type: "tag" },
-      { attribute: "sdCard", label: "MicroSD Card Slot", type: "tag" },
-      { attribute: "browser", label: "Modern Browser", type: "tag" },
-    ],
-  },
+
   controls: {
     label: "Controls",
     attributes: [
-      { attribute: "pageTurnButtons", label: "Page Buttons", type: "tag" },
       { attribute: "touchscreen", label: "Touchscreen", type: "tag" },
-      { attribute: "automaticRotation", label: "Automatic Rotation", type: "tag" },
+      { attribute: "pageTurnButtons", label: "Page Buttons", type: "tag" },
+      {
+        attribute: "automaticRotation",
+        label: "Automatic Rotation",
+        type: "tag",
+      },
     ],
   },
   techSpecs: {
     label: "Specs",
     attributes: [
-      {
-        attribute: "storage",
-        label: "Storage",
-      },
+      //   {
+      //     attribute: "batteryLife",
+      //     label: "Battery Life",
+      //   },
       {
         attribute: "battery",
         label: "Battery",
       },
       {
-        attribute: "batteryLife",
-        label: "Battery Life",
-      },
-      {
-        attribute: "ram",
-        label: "RAM",
+        attribute: "storage",
+        label: "Storage",
       },
       {
         attribute: "cpu",
         label: "CPU",
+      },
+      {
+        attribute: "ram",
+        label: "RAM",
       },
     ],
   },
 };
 
 const allFeatures = Object.values(sections)
-  ?.map((s) => s.attributes?.filter((r) => r?.type === "tag" && !r?.isFilterOnly))
+  ?.map((s) =>
+    s.attributes?.filter((r) => r?.type === "tag" && !r?.isFilterOnly),
+  )
   ?.flat();
 
 export default sections;
