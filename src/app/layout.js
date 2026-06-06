@@ -41,7 +41,7 @@ export default function RootLayout({ children }) {
     >
       <body className="min-h-full flex flex-col" suppressHydrationWarning>
         <Provider>
-          <Box px={{lg:"10rem", md: "2rem", base: "1rem"}}>
+          <Box px={{xl:"10rem", base: "1rem"}}>
             <AppHeader logoComponent={<EICLogo></EICLogo>} />
             <Box paddingBottom={"8rem"}>{children}</Box>
           </Box>

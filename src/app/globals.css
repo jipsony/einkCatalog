@@ -1,20 +1,22 @@
 @import "tailwindcss";
 
 :root {
+  /* font-family: var(--font-roboto-mono), Arial, sans-serif; */
   --background: #fefaf1;
   --foreground: #171717;
   --appBorderColor: #dfdfdf;
-  font-family: var(--font-roboto-mono), Arial, sans-serif;
   --appColorAccent: #18519b;
-    --appColorLight: #e0eeff;
-
+  --appColorLight: #e0eeff;
+  --appColorDarkGrey: #707e91;
 }
 
 :root.dark {
   --background: #202125; /* #0a0a0a */
   --foreground: #ededed;
   --appBorderColor: #666666;
-  --appColorAccent: #20c9ff;
+  --appColorAccent: #66a7fc;
+  --appColorLight: var(--background);
+  --appColorDarkGrey: #b0c7e9;
 }
 
 @theme inline {

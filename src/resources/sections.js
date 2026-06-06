@@ -1,8 +1,13 @@
 import { compareFloat, compareScreenSize } from "@/lib/compare/compare";
+import { FaHandSparkles, FaMobileScreen } from "react-icons/fa6";
+import { IoMdRadioButtonOn } from "react-icons/io";
+import { LuMonitor, LuPackage, LuStar, LuFingerprint, LuCpu } from "react-icons/lu";
+import { PiRadioButtonFill } from "react-icons/pi";
 
 const sections = {
   features: {
     label: "Features",
+    icon: LuStar,
     attributes: [
       { attribute: "touchscreen", label: "Touchscreen", type: "tag" },
       { attribute: "stylusSupport", label: "Stylus Support", type: "tag" },
@@ -24,6 +29,7 @@ const sections = {
   },
   display: {
     label: "Screen",
+    icon: FaMobileScreen,
     attributes: [
       {
         attribute: "screenSize",
@@ -53,6 +59,7 @@ const sections = {
   },
   ergonomics: {
     label: "Build & Ergonomics",
+    icon: FaHandSparkles,
     attributes: [
       {
         attribute: "dimensions",
@@ -75,6 +82,7 @@ const sections = {
 
   controls: {
     label: "Controls",
+    icon: IoMdRadioButtonOn,
     attributes: [
       { attribute: "touchscreen", label: "Touchscreen", type: "tag" },
       { attribute: "pageTurnButtons", label: "Page Buttons", type: "tag" },
@@ -87,6 +95,7 @@ const sections = {
   },
   techSpecs: {
     label: "Specs",
+    icon: LuCpu,
     attributes: [
       //   {
       //     attribute: "batteryLife",

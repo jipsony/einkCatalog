@@ -19,7 +19,7 @@ const DashLine = () => (
 export default function ItemTitleCard(props) {
   return (
     <Box width="100%" py={3}>
-      <DashLine />
+      {/* <DashLine /> */}
 
       <Text
         fontSize="2xl"
@@ -30,7 +30,7 @@ export default function ItemTitleCard(props) {
       >
         {props?.itemInfo?.brand} {props?.itemInfo?.name}
       </Text>
-      <DashLine />
+      {/* <DashLine /> */}
     </Box>
   );
 }

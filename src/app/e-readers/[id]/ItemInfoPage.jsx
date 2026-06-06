@@ -11,13 +11,19 @@ export default function ItemInfoPage(props) {
   return (
     <>
       <ItemTitleCard itemInfo={props?.itemInfo}></ItemTitleCard>
-      <Stack direction={{ base: "column", [directionBreakpoint]: "row" }}>
-        <Box minWidth={{ [directionBreakpoint]: "20rem" }}>
+      <Stack
+        direction={{ base: "column", [directionBreakpoint]: "row" }}
+        fontFamily={"var(--font-roboto-mono), Arial, sans-serif"}
+      >
+        <Box minWidth={{ [directionBreakpoint]: "18rem" }}>
           <ItemImageCard itemInfo={props?.itemInfo}></ItemImageCard>
-          <ItemMainInfoCard itemInfo={props?.itemInfo} ></ItemMainInfoCard>
+          <ItemMainInfoCard itemInfo={props?.itemInfo}></ItemMainInfoCard>
         </Box>
         <Box w="100%">
-          <ItemFullInfoCard itemInfo={props?.itemInfo} isFullPage></ItemFullInfoCard>
+          <ItemFullInfoCard
+            itemInfo={props?.itemInfo}
+            isFullPage
+          ></ItemFullInfoCard>
         </Box>
       </Stack>
     </>

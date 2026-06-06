@@ -19,7 +19,7 @@ import ItemCard from "./ItemCard";
 
 export default function ItemFullInfoCard(props) {
   const templateColumns = props.isFullPage
-    ? { "2xl": "repeat(6, 1fr)", xl: "repeat(6, 1fr)", base: "repeat(3, 1fr)" }
+    ? { xl: "repeat(6, 1fr)", base: "repeat(3, 1fr)" }
     : "1fr 1fr 1fr";
 
   const isCompareValueUndefined = (attribute) => {
@@ -154,12 +154,20 @@ export default function ItemFullInfoCard(props) {
   };
 
   const renderSectionTitle = (section) => {
+    const Icon = section.icon;
     return (
       <>
+        {Icon && (
+          <Icon
+            size="18"
+            style={{ flexShrink: 0 }}
+            color="var(--appColorDarkGrey)"
+          />
+        )}
         <Heading
           as={props.isFullPage ? "h2" : "h3"}
-          fontFamily={"inherit"}
           fontSize={"lg"}
+          fontFamily={"var(--font-roboto-mono), Arial, sans-serif"}
         >
           {section.label}
         </Heading>
@@ -187,7 +195,7 @@ export default function ItemFullInfoCard(props) {
           borderBottom={0}
           pr={"1rem"}
           pl={"1rem"}
-        //   pb="1rem"
+          pb=".5rem"
         >
           <Box as="span" flex="1" textAlign="left" fontWeight={"bold"}>
             <HStack ml={"-0.4em"} p={1} mb={1} borderRadius={3}>
