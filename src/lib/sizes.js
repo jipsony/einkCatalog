@@ -5,8 +5,8 @@ export const layoutPaddingX = { md: 0, base: "1rem" };
 export const featureTagTemplateColumns = {
   // xl: "repeat(4,1fr)",
   lg: "repeat(3, 1fr)",
-  sm: "1fr 1fr",
-  base: "1fr",
+  base: "1fr 1fr",
+  // base: "1fr",
 };
 
 export const layoutMinWidth = "320px"
