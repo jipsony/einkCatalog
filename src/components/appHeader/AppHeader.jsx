@@ -63,7 +63,7 @@ export default function AppHeader(props) {
               <AppHeaderLinks />
               {/* <AppHeaderAccountButton></AppHeaderAccountButton> */}
 
-              <Box mr={{ lg: "1.5rem" }}>
+              <Box >
                 {" "}
                 <AppHeaderColorMode />
               </Box>

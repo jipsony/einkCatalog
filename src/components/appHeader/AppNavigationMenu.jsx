@@ -1,5 +1,4 @@
-
-"use client"
+"use client";
 import { React } from "react";
 import {
   useDisclosure,
@@ -10,13 +9,12 @@ import {
   Icon,
 } from "@chakra-ui/react";
 import AppHeaderLinks from "./AppHeaderLinks";
-import { LuMenu } from 'react-icons/lu';
+import { LuMenu } from "react-icons/lu";
 export default function AppNavigationMenu(props) {
   const { open, onOpen, onClose } = useDisclosure();
   return (
     <>
       <Box
-        // p={0}
         pr={"1rem"}
         pl={"1rem"}
         display={{ base: "flex", lg: "none" }}
@@ -26,19 +24,20 @@ export default function AppNavigationMenu(props) {
         className="hoverFloat"
         cursor={"pointer"}
       >
-        <Icon boxSize="1.8rem" className="appHeaderLink" asChild><LuMenu /></Icon>
+        <Icon boxSize="1.8rem" className="appHeaderLink" asChild>
+          <LuMenu />
+        </Icon>
       </Box>
       <Drawer.Root
         open={open}
-        placement='end'
-        onOpenChange={e => {
+        placement="end"
+        onOpenChange={(e) => {
           if (!e.open) {
             onClose();
           }
         }}
       >
         <Portal>
-
           <Drawer.Backdrop />
           <Drawer.Positioner>
             <Drawer.Content>
@@ -47,12 +46,11 @@ export default function AppNavigationMenu(props) {
               </Drawer.Header>
               <Drawer.Body>
                 <Stack size="md" variant="outline">
-                  <AppHeaderLinks closeHeaderDrawer={() => onClose()}/>
+                  <AppHeaderLinks closeHeaderDrawer={() => onClose()} />
                 </Stack>
               </Drawer.Body>
             </Drawer.Content>
           </Drawer.Positioner>
-
         </Portal>
       </Drawer.Root>
     </>

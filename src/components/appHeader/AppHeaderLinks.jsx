@@ -5,9 +5,28 @@ import { Steps, Box, Flex, Heading, Stack } from "@chakra-ui/react";
 import AppLink from "../toolsComponents/AppLink";
 
 export default function AppHeaderLinks(props) {
+  const renderNew = () => {
+    return (
+      <Box
+        color="white"
+        // boxShadow="md"
+        fontWeight={600}
+        px={2}
+        py={0}
+        letterSpacing="wide"
+        borderRadius={"full"}
+        fontSize={9}
+        lineHeight={2}
+        mb={{ lg: "1rem" }}
+        ml="1"
+      >
+        New{" "}
+      </Box>
+    );
+  };
   const renderAppHeaderLink = (title, href, isNew) => {
     return (
-      <AppLink href={href} >
+      <AppLink href={href}>
         <Flex
           justifyContent={{ lg: "center" }}
           alignItems={{ lg: "center" }}
@@ -19,26 +38,15 @@ export default function AppHeaderLinks(props) {
             if (props.closeHeaderDrawer) props.closeHeaderDrawer();
           }}
         >
-          <Heading as="span" fontWeight={"600"} fontSize={"16px"} className="appHeaderLink">
+          <Heading
+            as="span"
+            fontWeight={"600"}
+            fontSize={"16px"}
+            className="appHeaderLink"
+          >
             {title}
           </Heading>
-          {isNew && (
-            <Box
-              color="white"
-              // boxShadow="md"
-              fontWeight={600}
-              px={2}
-              py={0}
-              letterSpacing="wide"
-              borderRadius={"full"}
-              fontSize={9}
-              lineHeight={2}
-              mb={{ lg: "1rem" }}
-              ml="1"
-            >
-              New{" "}
-            </Box>
-          )}
+          {isNew && renderNew()}
         </Flex>
       </AppLink>
     );

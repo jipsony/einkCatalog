@@ -18,9 +18,9 @@ import { compareBool, compareColor } from "@/lib/compare/compare";
 import ItemCard from "./ItemCard";
 
 export default function ItemFullInfoCard(props) {
-  const templateColumns = props.isFullPage
-    ? { xl: "repeat(6, 1fr)", base: "repeat(3, 1fr)" }
-    : "1fr 1fr 1fr";
+  const featureTagTemplateColumn = props.isFullPage
+    ? { xl: "repeat(4,1fr)", lg: "repeat(3, 1fr)", base: "repeat(2, 1fr)" }
+    : "repeat(2, 1fr)";
 
   const isCompareValueUndefined = (attribute) => {
     return (
@@ -112,7 +112,7 @@ export default function ItemFullInfoCard(props) {
 
   const renderTags = (tags) => {
     return (
-      <Grid templateColumns={templateColumns} rowGap={1} columnGap={2}>
+      <Grid templateColumns={featureTagTemplateColumn} rowGap={1} columnGap={2}>
         {tags.map((attribute) => (
           <GridItem key={attribute.attribute}>
             {renderCompareByType(attribute)}
