@@ -9,11 +9,9 @@ export default function ItemCard({ children, ...props }) {
       backgroundColor={"var(--appColorCardBackground)"}
       borderRadius={"4px"}
       p="1rem"
-      //   my="1rem"
       mb="1rem"
       w="100%"
       boxShadow="sm"
-      // borderStyle={"dotted"}
       {...props}
     >
       {children}
