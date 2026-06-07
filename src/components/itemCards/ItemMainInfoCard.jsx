@@ -173,7 +173,7 @@ export default function ItemMainInfoCard(props) {
       >
         <Box
           px="1rem"
-          pb={props.isFullPage && "1rem"}
+        //   pb={props.isFullPage && "1rem"}
           w="100%"
           flex={1}
           alignContent={"center"}
