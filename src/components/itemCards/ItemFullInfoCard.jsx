@@ -16,6 +16,7 @@ import CompareTagIcon from "../compare/CompareTagIcon";
 import AppLink from "../toolsComponents/AppLink";
 import { compareBool, compareColor } from "@/lib/compare/compare";
 import ItemCard from "./ItemCard";
+import ItemKeyValueAttributes from "./ItemKeyValueAttributes";
 
 export default function ItemFullInfoCard(props) {
   const featureTagTemplateColumn = props.isFullPage
@@ -75,43 +76,6 @@ export default function ItemFullInfoCard(props) {
     return `${value && value !== " " && attribute.prefix ? attribute.prefix : ""}${value ? value?.toString() : ""}${value && value !== " " && attribute.unit ? `${attribute.unit}` : ""}`;
   };
 
-  const renderKeyValueAttributes = (kvs) => {
-    return (
-      <Box as="dl" m={0} divideY={"1px"} divideStyle="dashed" gap={"10rem"}>
-        {kvs.map((attribute, idx) => {
-          const value = props.itemInfo[attribute.attribute];
-          return (
-            <Flex
-              alignItems="baseline"
-              key={`${idx}KV`}
-              ml={6}
-              //   pt={1}
-              pt="6px"
-              borderBottom={
-                idx < kvs.length - 1 ? "1px solid var(--appColorDivider)" : null
-              }
-            >
-              {renderCompareByType(attribute)}
-              <Box as="dt"
-              
-              width="40%"
-               flexShrink={0} fontWeight="600">
-                {attribute.label}
-              </Box>
-              <Box
-                as="dd"
-                m={0}
-                textAlign={{ base: "right", md: "left" }}
-              >
-                {renderValue(attribute, value)}
-              </Box>
-            </Flex>
-          );
-        })}
-      </Box>
-    );
-  };
-
   const renderTags = (tags) => {
     return (
       <Grid templateColumns={featureTagTemplateColumn} rowGap={1} columnGap={2}>
@@ -151,7 +115,11 @@ export default function ItemFullInfoCard(props) {
       <Box>
         <Box pl={5}>{renderTags(tags)}</Box>
         {tags?.length > 0 && kvs?.length > 0 && <Box mt={".5rem"} />}
-        {renderKeyValueAttributes(kvs)}
+        <ItemKeyValueAttributes
+          kvs={kvs}
+          itemInfo={props.itemInfo}
+          compareWithItemInfo={props.compareWithItemInfo}
+        />
       </Box>
     );
   };

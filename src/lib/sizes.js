@@ -1,5 +1,4 @@
-const headerHeight = "4rem";
+export const headerHeight = "4rem";
 
-const layoutPadding = {};
+export const layoutPaddingX = { xl: "10rem", base: "1rem" };
 
-export { headerHeight };

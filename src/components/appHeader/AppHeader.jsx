@@ -9,7 +9,7 @@ import AppHeaderLinks from "./AppHeaderLinks";
 // import AppHeaderSearch from "./AppHeaderSearch";
 import AppHeaderColorMode from "./AppHeaderColorMode";
 import AppLink from "../toolsComponents/AppLink";
-import { headerHeight } from "@/lib/sizes";
+import { headerHeight, layoutPaddingX } from "@/lib/sizes";
 
 export default function AppHeader(props) {
   return (
@@ -29,6 +29,7 @@ export default function AppHeader(props) {
         m={0}
         height={headerHeight}
         width={{ base: "100%", lg: "100%" }}
+        px={layoutPaddingX}
         // pl={"1rem"}
       >
         <Flex width={"100%"} justifyContent={"space-between"} p={0}>
@@ -63,7 +64,7 @@ export default function AppHeader(props) {
               <AppHeaderLinks />
               {/* <AppHeaderAccountButton></AppHeaderAccountButton> */}
 
-              <Box >
+              <Box>
                 {" "}
                 <AppHeaderColorMode />
               </Box>
