@@ -1,5 +1,9 @@
 import { compareFloat, compareScreenSize } from "@/lib/compare/compare";
-import { FaHandSparkles, FaMobileScreen } from "react-icons/fa6";
+import {
+  FaHandSparkles,
+  FaMobileScreen,
+  FaPlugCircleBolt,
+} from "react-icons/fa6";
 import { IoMdRadioButtonOn } from "react-icons/io";
 import {
   LuMonitor,
@@ -15,21 +19,21 @@ const sections = {
     label: "Features",
     icon: LuStar,
     attributes: [
-      { attribute: "touchscreen", label: "Touchscreen", type: "tag" },
-      { attribute: "stylusSupport", label: "Stylus Support", type: "tag" },
-
-      { attribute: "frontLight", label: "Front Light", type: "tag" },
-      { attribute: "backlight", label: "Back Light", type: "tag" },
+      //   { attribute: "frontLight", label: "Front Light", type: "tag" },
+      //   { attribute: "backlight", label: "Back Light", type: "tag" },
+      { attribute: "screenLight", label: "Screen Light", type: "tag" },
       //   { attribute: "frontLightCold", label: "Front Light (Cold)", type: "tag" },
       { attribute: "colorDisplay", label: "Color Display", type: "tag" },
+      { attribute: "darkMode", label: "Dark Mode", type: "tag" },
       { attribute: "wifi", label: "WiFi", type: "tag" },
-      { attribute: "sdCard", label: "SD Card Slot", type: "tag" },
-      { attribute: "browser", label: "Modern Browser", type: "tag" },
-
       { attribute: "bluetooth", label: "Bluetooth", type: "tag" },
+      { attribute: "sdCard", label: "SD Card Slot", type: "tag" },
+      { attribute: "usbc", label: "USB C", type: "tag" },
+      { attribute: "mobileData", label: "Mobile Data", type: "tag" },
       { attribute: "speakers", label: "Speakers", type: "tag" },
+      { attribute: "browser", label: "Modern Browser", type: "tag" },
       { attribute: "textToSpeech", label: "Text To Speech", type: "tag" },
-
+      { attribute: "waterproof", label: "Waterproofing", type: "tag" },
       //   { attribute: "waterproofRating", label: "Waterproof Rating" },
     ],
   },
@@ -63,6 +67,19 @@ const sections = {
       },
     ],
   },
+  //   portsAndConnectivity: {
+  //     label: "Ports and Connectivity",
+  //     icon: FaPlugCircleBolt,
+  //     attributes: [
+  //       { attribute: "wifi", label: "WiFi", type: "tag" },
+  //       { attribute: "bluetooth", label: "Bluetooth", type: "tag" },
+  //       { attribute: "mobileData", label: "Mobile Data", type: "tag" },
+  //       { attribute: "sdCard", label: "SD Card Slot", type: "tag" },
+  //       { attribute: "speakers", label: "Speakers", type: "tag" },
+  //       { attribute: "usbc", label: "USB C", type: "tag" },
+  //     ],
+  //   },
+
   ergonomics: {
     label: "Build & Ergonomics",
     icon: FaHandSparkles,
@@ -85,7 +102,6 @@ const sections = {
       //   },
     ],
   },
-
   controls: {
     label: "Controls",
     icon: IoMdRadioButtonOn,
@@ -97,10 +113,11 @@ const sections = {
         label: "Auto-Rotation",
         type: "tag",
       },
+      { attribute: "stylusSupport", label: "Stylus Support", type: "tag" },
     ],
   },
   techSpecs: {
-    label: "Technical Specifications",
+    label: "Technical Specs",
     icon: LuCpu,
     attributes: [
       //   {
@@ -115,13 +132,14 @@ const sections = {
         attribute: "storage",
         label: "Storage",
       },
-      {
-        attribute: "cpu",
-        label: "CPU",
-      },
+
       {
         attribute: "ram",
         label: "RAM",
+      },
+      {
+        attribute: "cpu",
+        label: "CPU",
       },
     ],
   },

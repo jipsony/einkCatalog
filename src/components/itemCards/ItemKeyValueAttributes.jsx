@@ -78,7 +78,9 @@ export default function ItemKeyValueAttributes(props) {
               as="dd"
               m={0}
               flex="1"
-              textAlign={{ base: "right", md: "left" }}
+              textAlign={
+                props?.isFullPage ? { base: "right", lg: "left" } : "right"
+              }
             >
               {renderValue(attribute, value)}
             </Box>

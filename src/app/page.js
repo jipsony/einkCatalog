@@ -1,9 +1,7 @@
 import React from "react";
 import { Box } from "@chakra-ui/react";
+import FrontPage from "./FrontPage";
 
 export default function Home() {
-  return (
-    <Box>
-    </Box>
-  );
+  return <FrontPage></FrontPage>;
 }

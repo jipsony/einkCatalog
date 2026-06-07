@@ -124,6 +124,7 @@ export default function ItemFullInfoCard(props) {
           kvs={kvs}
           itemInfo={props.itemInfo}
           compareWithItemInfo={props.compareWithItemInfo}
+          isFullPage={props?.isFullPage}
         />
       </Box>
     );
