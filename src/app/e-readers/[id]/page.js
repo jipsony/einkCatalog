@@ -2,7 +2,7 @@ import React from "react";
 
 import { getItemInfo } from "@/lib/item/items";
 import ItemTitleCard from "@/components/itemCards/ItemTitleCard";
-import ItemInfoPage from "./ItemInfoPage";
+import ItemFullInfoPage from "./ItemFullInfoPage";
 
 export default async function Page(props) {
   const params = await props.params;
@@ -11,7 +11,7 @@ export default async function Page(props) {
   const itemInfo = getItemInfo(id);
   return (
     <div>
-      <ItemInfoPage itemInfo={itemInfo}></ItemInfoPage>
+      <ItemFullInfoPage itemInfo={itemInfo}></ItemFullInfoPage>
     </div>
   );
 }

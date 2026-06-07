@@ -5,7 +5,7 @@ import ItemTitleCard from "@/components/itemCards/ItemTitleCard";
 import { Box, Stack } from "@chakra-ui/react";
 import React from "react";
 
-export default function ItemInfoPage(props) {
+export default function ItemFullInfoPage(props) {
   const directionBreakpoint = "md";
 
   return (
@@ -14,7 +14,6 @@ export default function ItemInfoPage(props) {
       <Stack
         direction={{ base: "column", [directionBreakpoint]: "row" }}
         fontFamily={"var(--font-roboto-mono), Arial, sans-serif"}
-        gap={0}
         rowGap={0}
       >
         <Box minWidth={{ [directionBreakpoint]: "18rem" }}>
