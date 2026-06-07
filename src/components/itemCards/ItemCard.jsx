@@ -6,7 +6,7 @@ export default function ItemCard({ children , ...props }) {
     <Box
       border="1px solid"
       borderColor="var(--appBorderColor)"
-      backgroundColor={"#faf8f1"}
+      backgroundColor={"var(--appColorCardBackground)"}
       borderRadius={"4px"}
       p="1rem"
       my="1rem"

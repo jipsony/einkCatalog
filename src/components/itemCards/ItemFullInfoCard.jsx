@@ -92,13 +92,15 @@ export default function ItemFullInfoCard(props) {
               }
             >
               {renderCompareByType(attribute)}
-              <Box as="dt" width="50%" flexShrink={0} fontWeight="600">
+              <Box as="dt"
+              
+              width="40%"
+               flexShrink={0} fontWeight="600">
                 {attribute.label}
               </Box>
               <Box
                 as="dd"
                 m={0}
-                style={{ width: "30%" }}
                 textAlign={{ base: "right", md: "left" }}
               >
                 {renderValue(attribute, value)}
