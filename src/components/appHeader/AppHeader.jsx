@@ -28,7 +28,7 @@ export default function AppHeader(props) {
         pb={1}
         m={0}
         height={headerHeight}
-        width={{ base: "100%", lg: "100%" }}
+        width={"100%"}
         px={layoutPaddingX}
         // pl={"1rem"}
       >
@@ -59,13 +59,15 @@ export default function AppHeader(props) {
           <HStack flexGrow={1} justifyContent={"flex-end"} userSelect={"none"}>
             {/* <AppHeaderSearch searchList={props.searchList}></AppHeaderSearch> */}
 
+            <Box display={{ base: "flex", lg: "none" }}>
+              <AppHeaderColorMode />
+            </Box>
             <AppNavigationMenu />
             <HStack display={{ base: "none", lg: "flex" }} height={"100%"}>
               <AppHeaderLinks />
               {/* <AppHeaderAccountButton></AppHeaderAccountButton> */}
 
               <Box>
-                {" "}
                 <AppHeaderColorMode />
               </Box>
             </HStack>

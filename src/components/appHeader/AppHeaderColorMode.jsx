@@ -14,19 +14,19 @@ export default function AppHeaderColorMode() {
       height={"100%"}
       cursor={"pointer"}
       onClick={toggleColorMode}
-      color={{ base: "white", lg: "black" }}
-      _dark={{ color: "white" }}
+      // color={{ base: "white", lg: "black" }}
+      // _dark={{ color: "white" }}
       className="appHeaderLink"
     >
       {mounted ? (colorMode === "light" ? ( 
         <Icon
-          boxSize={{ base: "2rem", lg: "1.6rem" }}
+          boxSize={"1.6rem" }
           mt={{ base: "0", lg: "2px" }}
           asChild><LuSun /></Icon>
       ) : (
-        <Icon boxSize={{ base: "1.7rem", lg: "1.4rem" }} asChild><LuMoon /></Icon>
+        <Icon boxSize= "1.4rem" asChild><LuMoon /></Icon>
       )) : (
-        <Icon boxSize={{ base: "2rem", lg: "1.6rem" }} mt={{ base: "0", lg: "2px" }} visibility="hidden" asChild><LuSun /></Icon>
+        <Icon boxSize="1.6rem" mt={{ base: "0", lg: "2px" }} visibility="hidden" asChild><LuSun /></Icon>
       )}
     </Center>
   );
