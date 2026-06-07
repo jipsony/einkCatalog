@@ -9,10 +9,13 @@ export const featureTagTemplateColumns = {
   // base: "1fr",
 };
 
-export const layoutMinWidth = "320px"
+// export const layoutMinWidth = "320px"
 export const layoutWidth = {
-  "2xl": "80rem",
-  base: "100%"
+  base: "100%",
+  sm: "400px",
+  md: "666px",
+  lg: "807px",
+  "2xl": "1280px",
 };
 
 // 3xs 14rem

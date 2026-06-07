@@ -5,7 +5,11 @@ import { Provider } from "@/components/ui/provider";
 import AppHeader from "@/components/appHeader/AppHeader";
 import { Box } from "@chakra-ui/react";
 import AppLogo from "@/components/appHeader/AppLogo";
-import { layoutMinWidth, layoutPaddingX, layoutWidth, pageWidth } from "@/lib/sizes";
+import {
+  layoutPaddingX,
+  layoutWidth,
+  pageWidth,
+} from "@/lib/sizes";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -40,15 +44,17 @@ export default function RootLayout({ children }) {
       className={`${geistSans.variable} ${geistMono.variable} ${robotoMono.variable} ${lora.variable} h-full antialiased`}
       suppressHydrationWarning
     >
-      <body className="min-h-full flex flex-col" suppressHydrationWarning>
+      <body className="min-h-full flex flex-col items-center" suppressHydrationWarning>
         <Provider>
-          <Box mx="auto">
-          <Box w={layoutWidth} minW={layoutMinWidth}>
-            <AppHeader logoComponent={<AppLogo></AppLogo>} />
-            <Box paddingBottom={"8rem"} px={layoutPaddingX}>
-              {children}
-            </Box>
-          </Box>
+          <Box
+            width={layoutWidth}
+          >
+            {/* <Box w={layoutWidth}> */}
+              <AppHeader logoComponent={<AppLogo></AppLogo>} />
+              <Box paddingBottom={"8rem"} px={layoutPaddingX}>
+                {children}
+              </Box>
+            {/* </Box> */}
           </Box>
         </Provider>
       </body>
