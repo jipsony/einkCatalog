@@ -15,13 +15,11 @@ export default function AppNavigationMenu(props) {
   return (
     <>
       <Box
-        pr={"1rem"}
         pl={"1rem"}
         display={{ base: "flex", lg: "none" }}
         variant="ghost"
         borderWidth={0}
         onClick={onOpen}
-        className="hoverFloat"
         cursor={"pointer"}
       >
         <Icon boxSize="1.8rem" className="appHeaderLink" asChild>
