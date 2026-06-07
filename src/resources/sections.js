@@ -1,7 +1,13 @@
 import { compareFloat, compareScreenSize } from "@/lib/compare/compare";
 import { FaHandSparkles, FaMobileScreen } from "react-icons/fa6";
 import { IoMdRadioButtonOn } from "react-icons/io";
-import { LuMonitor, LuPackage, LuStar, LuFingerprint, LuCpu } from "react-icons/lu";
+import {
+  LuMonitor,
+  LuPackage,
+  LuStar,
+  LuFingerprint,
+  LuCpu,
+} from "react-icons/lu";
 import { PiRadioButtonFill } from "react-icons/pi";
 
 const sections = {
@@ -33,7 +39,7 @@ const sections = {
     attributes: [
       {
         attribute: "screenSize",
-        label: "Screen size",
+        label: "Screen Size",
         unit: '"',
         compareFunction: (a, b) => compareScreenSize(a, b),
       },
@@ -46,14 +52,14 @@ const sections = {
         label: "Aspect Ratio",
       },
       {
+        attribute: "screenType",
+        label: "Technology",
+      },
+      {
         attribute: "pixelDensity",
         label: "Pixel Density",
         unit: " PPI",
         compareFunction: (a, b) => compareFloat(a, b),
-      },
-      {
-        attribute: "screenType",
-        label: "Technology",
       },
     ],
   },
@@ -63,7 +69,7 @@ const sections = {
     attributes: [
       {
         attribute: "dimensions",
-        label: "Size",
+        label: "Dimensions",
         unit: " mm",
       },
       {
@@ -72,11 +78,11 @@ const sections = {
         unit: " g",
         compareFunction: (a, b) => parseFloat(-compareFloat(a, b)),
       },
-    //   {
-    //     attribute: "replaceableBattery",
-    //     label: "Replaceable Battery",
-    //     type: "tag",
-    //   },
+      //   {
+      //     attribute: "replaceableBattery",
+      //     label: "Replaceable Battery",
+      //     type: "tag",
+      //   },
     ],
   },
 
@@ -88,13 +94,13 @@ const sections = {
       { attribute: "pageTurnButtons", label: "Page Buttons", type: "tag" },
       {
         attribute: "automaticRotation",
-        label: "Automatic Rotation",
+        label: "Auto-Rotation",
         type: "tag",
       },
     ],
   },
   techSpecs: {
-    label: "Specs",
+    label: "Technical Specifications",
     icon: LuCpu,
     attributes: [
       //   {

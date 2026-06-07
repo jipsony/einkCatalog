@@ -1,4 +1,42 @@
 export const headerHeight = "4rem";
 
-export const layoutPaddingX = { xl: "10rem", base: "1rem" };
+export const layoutPaddingX = { md: 0, base: "1rem" };
 
+export const featureTagTemplateColumns = {
+  // xl: "repeat(4,1fr)",
+  lg: "repeat(3, 1fr)",
+  sm: "1fr 1fr",
+  base: "1fr",
+};
+
+export const layoutWidth = {
+  "2xl": "80rem",
+};
+
+// 3xs 14rem
+
+// 2xs 16rem
+
+// xs 20rem
+
+// sm 24rem
+
+// md 28rem
+
+// lg 32rem
+
+// xl 36rem
+
+// 2xl 42rem
+
+// 3xl 48rem
+
+// 4xl 56rem
+
+// 5xl 64rem
+
+// 6xl 72rem
+
+// 7xl 80rem
+
+// 8xl 90rem

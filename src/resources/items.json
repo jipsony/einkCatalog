@@ -9,11 +9,13 @@
     "pixelDensity": 220,
     "resolution": "480 x 800",
     "aspectRatio": "3:5",
+    "screenType": "E INK",
     "operatingSystem": ["Proprietary"],
     "dimensions": "114 × 69 × 5.9",
     "weight": 74,
     "cpu": "ESP32",
     "storage": "16 GB",
+    "ram": "400 KB",
     "battery": "650 mAh",
     "supportedFormats": {
       "document": ["EPUB", "TXT"],

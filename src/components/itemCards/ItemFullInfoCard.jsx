@@ -17,10 +17,11 @@ import AppLink from "../toolsComponents/AppLink";
 import { compareBool, compareColor } from "@/lib/compare/compare";
 import ItemCard from "./ItemCard";
 import ItemKeyValueAttributes from "./ItemKeyValueAttributes";
+import { featureTagTemplateColumns } from "@/lib/sizes";
 
 export default function ItemFullInfoCard(props) {
-  const featureTagTemplateColumn = props.isFullPage
-    ? { xl: "repeat(4,1fr)", lg: "repeat(3, 1fr)", base: "repeat(2, 1fr)" }
+  const templateColumnsForFeaturesTag = props.isFullPage
+    ? featureTagTemplateColumns
     : "repeat(2, 1fr)";
 
   const isCompareValueUndefined = (attribute) => {
@@ -78,7 +79,11 @@ export default function ItemFullInfoCard(props) {
 
   const renderTags = (tags) => {
     return (
-      <Grid templateColumns={featureTagTemplateColumn} rowGap={1} columnGap={2}>
+      <Grid
+        templateColumns={templateColumnsForFeaturesTag}
+        rowGap={1}
+        columnGap={2}
+      >
         {tags.map((attribute) => (
           <GridItem key={attribute.attribute}>
             {renderCompareByType(attribute)}
@@ -113,7 +118,7 @@ export default function ItemFullInfoCard(props) {
 
     return (
       <Box>
-        <Box pl={5}>{renderTags(tags)}</Box>
+        <Box>{renderTags(tags)}</Box>
         {tags?.length > 0 && kvs?.length > 0 && <Box mt={".5rem"} />}
         <ItemKeyValueAttributes
           kvs={kvs}
@@ -127,33 +132,43 @@ export default function ItemFullInfoCard(props) {
   const renderSectionTitle = (section) => {
     const Icon = section.icon;
     return (
-      <>
-        {Icon && (
-          <Icon
-            size="18"
-            style={{ flexShrink: 0 }}
-            color="var(--appColorDarkGrey)"
-          />
-        )}
-        <Heading
-          as={props.isFullPage ? "h2" : "h3"}
-          fontSize={"lg"}
-          fontFamily={"var(--font-roboto-mono), Arial, sans-serif"}
-        >
-          {section.label}
-        </Heading>
+      <Box
+        as="span"
+        flex="1"
+        textAlign="left"
+        fontWeight={"bold"}
+        color="var(--appColorAccent)"
+      >
+                 
+        <HStack ml={"-0.4em"} mb={1} borderRadius={3}>
+          {Icon && (
+            <Icon
+              size="18"
+              style={{ flexShrink: 0 }}
+              opacity=".6"
+              //   color="var(--appColorDarkGrey)"
+            />
+          )}
+          <Heading
+            as={props.isFullPage ? "h2" : "h3"}
+            fontSize={"lg"}
+            fontFamily={"var(--font-roboto-mono), Arial, sans-serif"}
+          >
+            {section.label}
+          </Heading>
 
-        <Box
-          ml="1rem"
-          flex="1"
-          borderTopWidth="1px"
-          borderRadius={"4px"}
-          borderColor={"var(--appBorderColor)"}
-          position="relative"
-          alignSelf="center"
-          opacity={0.6}
-        ></Box>
-      </>
+          <Box
+            ml="1rem"
+            flex="1"
+            borderTopWidth="1px"
+            borderRadius={"4px"}
+            borderColor={"var(--appColorAccent)"}
+            position="relative"
+            alignSelf="center"
+            opacity={0.1}
+          ></Box>
+        </HStack>
+      </Box>
     );
   };
 
@@ -168,11 +183,7 @@ export default function ItemFullInfoCard(props) {
           pl={"1rem"}
           pb=".5rem"
         >
-          <Box as="span" flex="1" textAlign="left" fontWeight={"bold"}>
-            <HStack ml={"-0.4em"} p={1} mb={1} borderRadius={3}>
-              {renderSectionTitle(section)}
-            </HStack>
-          </Box>
+          {renderSectionTitle(section)}
           <Box pb={4} pt={1}>
             {props.itemInfo && renderAttributes(sectionKey, section)}
           </Box>

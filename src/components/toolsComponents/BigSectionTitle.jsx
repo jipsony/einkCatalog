@@ -36,10 +36,9 @@ export default function BigSectionTitle(props) {
     >
       {props?.lineBefore && (
         <Separator
-          mr="1rem"
+          // mr="1rem"
           flex="1"
-        opacity={.6}
-
+          opacity={0.6}
           borderTopWidth="2px"
           borderRadius={"4px"}
           borderColor={"var(--appColorBlue)"}
@@ -72,7 +71,7 @@ export default function BigSectionTitle(props) {
         borderColor={"var(--appColorBlue)"}
         position="relative"
         alignSelf="center"
-        opacity={.6}
+        opacity={0.6}
       ></Separator>
     </Flex>
   );

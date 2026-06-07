@@ -180,7 +180,6 @@ export default function ItemMainInfoCard(props) {
           as="dl"
           divideY={"1px"}
           divideStyle="dashed"
-          gap={"10rem"}
         >
           {props.itemInfo &&
             attributes.map((mainAttribute, idx) => {

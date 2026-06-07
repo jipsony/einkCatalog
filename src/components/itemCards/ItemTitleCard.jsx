@@ -22,7 +22,7 @@ export default function ItemTitleCard(props) {
       {/* <DashLine /> */}
 
       <Text
-        fontSize="2xl"
+        fontSize="3xl"
         textAlign="center"
         fontFamily="var(--font-lora)"
         fontStyle="italic"

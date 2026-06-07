@@ -60,26 +60,26 @@ export default function ItemKeyValueAttributes(props) {
   };
 
   return (
-    <Box as="dl" m={0}>
+    <Box as="dl" m={0} divideY={"1px"} divideStyle="dashed">
       {props.kvs.map((attribute, idx) => {
         const value = props.itemInfo[attribute.attribute];
         return (
-          <Flex
-            alignItems="baseline"
-            key={`${idx}KV`}
-            ml={6}
-            pt="6px"
-            borderBottom={
-              idx < props.kvs.length - 1
-                ? "1px solid var(--appColorDivider)"
-                : null
-            }
-          >
+          <Flex alignItems="baseline" key={`${idx}KV`} ml={5} pt="6px">
             {renderCompareByType(attribute)}
-            <Box as="dt" width="40%" flexShrink={0} fontWeight="600">
+            <Box
+              as="dt"
+              fontWeight="600"
+              w={{ md: "40%" }}
+              //   minWidth={{sm:}}
+            >
               {attribute.label}
             </Box>
-            <Box as="dd" m={0} textAlign={{ base: "right", md: "left" }}>
+            <Box
+              as="dd"
+              m={0}
+              flex="1"
+              textAlign={{ base: "right", md: "left" }}
+            >
               {renderValue(attribute, value)}
             </Box>
           </Flex>

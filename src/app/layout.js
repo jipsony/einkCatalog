@@ -4,8 +4,8 @@ import "./globals.css";
 import { Provider } from "@/components/ui/provider";
 import AppHeader from "@/components/appHeader/AppHeader";
 import { Box } from "@chakra-ui/react";
-import EICLogo from "@/components/appHeader/EICLogo";
-import { layoutPaddingX } from "@/lib/sizes";
+import AppLogo from "@/components/appHeader/AppLogo";
+import { layoutPaddingX, layoutWidth, pageWidth } from "@/lib/sizes";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -42,8 +42,14 @@ export default function RootLayout({ children }) {
     >
       <body className="min-h-full flex flex-col" suppressHydrationWarning>
         <Provider>
-            <AppHeader logoComponent={<EICLogo></EICLogo>} />
-            <Box paddingBottom={"8rem"} px={layoutPaddingX}>{children}</Box>
+          <Box mx="auto">
+          <Box w={layoutWidth}>
+            <AppHeader logoComponent={<AppLogo></AppLogo>} />
+            <Box paddingBottom={"8rem"} px={layoutPaddingX}>
+              {children}
+            </Box>
+          </Box>
+          </Box>
         </Provider>
       </body>
     </html>
