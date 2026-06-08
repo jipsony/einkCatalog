@@ -158,7 +158,7 @@ export default function ItemFullInfoCard(props) {
             {section.label}
           </Heading>
 
-          <Box
+          {/* <Box
             ml="1rem"
             flex="1"
             borderTopWidth="1px"
@@ -167,7 +167,7 @@ export default function ItemFullInfoCard(props) {
             position="relative"
             alignSelf="center"
             opacity={0.1}
-          ></Box>
+          ></Box> */}
         </HStack>
       </Box>
     );
