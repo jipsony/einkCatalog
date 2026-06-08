@@ -4,6 +4,7 @@ import { Box, Flex } from "@chakra-ui/react";
 import CompareKeyValueIcon from "../compare/CompareKeyValueIcon";
 import CompareTagIcon from "../compare/CompareTagIcon";
 import { compareBool, compareColor } from "@/lib/compare/compare";
+import { attributeMarginLeft } from "@/lib/sizes";
 
 export default function ItemKeyValueAttributes(props) {
   const isCompareValueUndefined = (attribute) => {
@@ -64,7 +65,13 @@ export default function ItemKeyValueAttributes(props) {
       {props.kvs.map((attribute, idx) => {
         const value = props.itemInfo[attribute.attribute];
         return (
-          <Flex alignItems="baseline" key={`${idx}KV`} ml={5} pt="6px">
+          <Flex
+            alignItems="baseline"
+            key={`${idx}KV`}
+            ml={props?.isFullPage && attributeMarginLeft}
+            pt="6px"
+            //
+          >
             {renderCompareByType(attribute)}
             <Box
               as="dt"

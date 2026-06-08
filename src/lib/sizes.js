@@ -2,6 +2,7 @@ export const headerHeight = "4rem";
 
 export const layoutPaddingX = { md: 0, base: "1rem" };
 
+export const attributeMarginLeft = { md: "25px" }
 export const featureTagTemplateColumns = {
   // xl: "repeat(4,1fr)",
   lg: "repeat(3, 1fr)",

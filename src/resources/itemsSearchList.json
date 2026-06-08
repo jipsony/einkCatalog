@@ -1,0 +1,78 @@
+{
+  "unsorted": [
+    {
+      "id": "kindle-colorsoft",
+      "fullName": "Amazon Kindle Colorsoft"
+    },
+    {
+      "id": "kobo-libra-color",
+      "fullName": "Kobo Libra Color"
+    },
+    {
+      "id": "xteink-x4",
+      "fullName": "Xteink X4"
+    },
+    {
+      "id": "Amazon",
+      "fullName": "Amazon",
+      "specialType": "link",
+      "link": "/brands/Amazon",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "Kobo",
+      "fullName": "Kobo",
+      "specialType": "link",
+      "link": "/brands/Kobo",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "Xteink",
+      "fullName": "Xteink",
+      "specialType": "link",
+      "link": "/brands/Xteink",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    }
+  ],
+  "alphabetical": [
+    {
+      "id": "Amazon",
+      "fullName": "Amazon",
+      "specialType": "link",
+      "link": "/brands/Amazon",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "kindle-colorsoft",
+      "fullName": "Amazon Kindle Colorsoft"
+    },
+    {
+      "id": "Kobo",
+      "fullName": "Kobo",
+      "specialType": "link",
+      "link": "/brands/Kobo",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "kobo-libra-color",
+      "fullName": "Kobo Libra Color"
+    },
+    {
+      "id": "Xteink",
+      "fullName": "Xteink",
+      "specialType": "link",
+      "link": "/brands/Xteink",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "xteink-x4",
+      "fullName": "Xteink X4"
+    }
+  ]
+}

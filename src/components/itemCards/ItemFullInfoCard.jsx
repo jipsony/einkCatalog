@@ -17,7 +17,7 @@ import AppLink from "../toolsComponents/AppLink";
 import { compareBool, compareColor } from "@/lib/compare/compare";
 import ItemCard from "./ItemCard";
 import ItemKeyValueAttributes from "./ItemKeyValueAttributes";
-import { featureTagTemplateColumns } from "@/lib/sizes";
+import { attributeMarginLeft, featureTagTemplateColumns } from "@/lib/sizes";
 
 export default function ItemFullInfoCard(props) {
   const templateColumnsForFeaturesTag = props.isFullPage
@@ -83,6 +83,7 @@ export default function ItemFullInfoCard(props) {
         templateColumns={templateColumnsForFeaturesTag}
         rowGap={1}
         columnGap={2}
+        ml={props?.isFullPage && attributeMarginLeft}
       >
         {tags.map((attribute) => (
           <GridItem key={attribute.attribute}>
@@ -140,8 +141,11 @@ export default function ItemFullInfoCard(props) {
         fontWeight={"bold"}
         color="var(--appColorAccent)"
       >
-                 
-        <HStack ml={"-0.4em"} mb={1} borderRadius={3}>
+        <HStack
+          //  ml={"-0.4em"}
+          mb={1}
+          borderRadius={3}
+        >
           {Icon && (
             <Icon
               size="18"

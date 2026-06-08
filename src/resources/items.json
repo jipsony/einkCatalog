@@ -10,14 +10,18 @@
     "resolution": "1264 × 1680",
     "aspectRatio": "3:4",
     "screenType": "E Ink Kaleido 3",
-    "operatingSystem": ["Kindle firmware"],
+    "operatingSystem": [
+      "Kindle firmware"
+    ],
     "dimensions": "176.7 × 127.6 × 7.8",
     "weight": 215,
     "cpu": "2.0 GHz dual core",
     "storage": "16 GB",
     "ram": "1 GB",
     "battery": "2310 mAh",
-    "colors": ["black"],
+    "colors": [
+      "black"
+    ],
     "screenLight": true,
     "colorDisplay": true,
     "darkMode": true,
@@ -33,7 +37,8 @@
     "touchscreen": true,
     "pageTurnButtons": false,
     "automaticRotation": false,
-    "stylusSupport": false
+    "stylusSupport": false,
+    "fullName": "Amazon Kindle Colorsoft"
   },
   {
     "id": "kobo-libra-color",
@@ -46,14 +51,19 @@
     "resolution": "1264 × 1680",
     "aspectRatio": "3:4",
     "screenType": "E Ink Kaleido 3",
-    "operatingSystem": ["Kobo firmware"],
+    "operatingSystem": [
+      "Kobo firmware"
+    ],
     "dimensions": "161 × 144.6 × 8.3",
     "weight": 199.5,
     "cpu": "2 GHz dual core",
     "storage": "32 GB",
     "ram": "1 GB",
     "battery": "2050 mAh",
-    "colors": ["black", "white"],
+    "colors": [
+      "black",
+      "white"
+    ],
     "screenLight": true,
     "colorDisplay": true,
     "darkMode": true,
@@ -69,7 +79,8 @@
     "touchscreen": true,
     "pageTurnButtons": true,
     "automaticRotation": true,
-    "stylusSupport": true
+    "stylusSupport": true,
+    "fullName": "Kobo Libra Color"
   },
   {
     "id": "xteink-x4",
@@ -82,7 +93,9 @@
     "resolution": "480 x 800",
     "aspectRatio": "3:5",
     "screenType": "E INK",
-    "operatingSystem": ["Proprietary"],
+    "operatingSystem": [
+      "Proprietary"
+    ],
     "dimensions": "114 × 69 × 5.9",
     "weight": 74,
     "cpu": "ESP32",
@@ -90,11 +103,22 @@
     "ram": "400 KB",
     "battery": "650 mAh",
     "supportedFormats": {
-      "document": ["EPUB", "TXT"],
-      "image": ["JPG", "BMP"],
-      "fonts": ["BIN"]
+      "document": [
+        "EPUB",
+        "TXT"
+      ],
+      "image": [
+        "JPG",
+        "BMP"
+      ],
+      "fonts": [
+        "BIN"
+      ]
     },
-    "colors": ["black", "white"],
+    "colors": [
+      "black",
+      "white"
+    ],
     "languages": [
       "English",
       "Simplified Chinese",
@@ -116,6 +140,7 @@
     "automaticRotation": false,
     "pageTurnButtons": true,
     "darkMode": true,
-    "waterproof": false
+    "waterproof": false,
+    "fullName": "Xteink X4"
   }
 ]
