@@ -43,3 +43,7 @@ body {
   /* opacity: 0.6; */
   color:var(--appColorAccent)
 }
+
+button { 
+  transition: none!important;
+}

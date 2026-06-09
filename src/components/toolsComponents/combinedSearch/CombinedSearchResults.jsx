@@ -261,13 +261,15 @@ export default function CombinedSearchResults(props) {
               onClick={() => {
                 onSelect(row);
               }}
+              onMouseEnter={() => {
+                setHoverIndex(idx);
+              }}
               data-active={idx === hoverIndex}
               minH={`${buttonHeight}rem`}
               overflow={"hidden"}
               disabled={props.disabledRows?.includes(row.id)}
               maxW="100%"
               backgroundColor={idx=== hoverIndex && "var(--chakra-colors-color-palette-subtle)"}
-              transition={"none"}
             >
               <Box style={{ display: "flex" }} alignItems={"center"}>
                 <Center
