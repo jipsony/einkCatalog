@@ -40,5 +40,6 @@ body {
   font-family: var(--font-roboto-mono), Arial, sans-serif;
 }
 .appHeaderLink:hover {
-  opacity: 0.6;
+  /* opacity: 0.6; */
+  color:var(--appColorAccent)
 }
