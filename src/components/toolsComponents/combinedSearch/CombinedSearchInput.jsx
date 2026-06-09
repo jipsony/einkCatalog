@@ -1,9 +1,10 @@
-import { Box, Input } from "@chakra-ui/react";
+import { Box, Icon, Input, InputGroup } from "@chakra-ui/react";
 import React, { useEffect, useRef, useState } from "react";
-import { LuCheck, LuSearch, LuX } from 'react-icons/lu';
+import { FaMagnifyingGlass } from "react-icons/fa6";
+import { LuCheck, LuSearch, LuX } from "react-icons/lu";
 export default function CombinedSearchInput(props) {
   const [placeholder, setPlaceHolder] = useState(
-    props.initialPlaceholder ?? "Search"
+    props.initialPlaceholder ?? "Search",
   );
 
   useEffect(() => {
@@ -14,44 +15,37 @@ export default function CombinedSearchInput(props) {
 
   return (
     <Box position={"relative"} mb="1rem">
-      <Box position="relative">
+      <InputGroup
+        endElement={
+          <Box
+            onClick={() => {
+              props.searchText?.length > 0
+                ? props.setSearchText("")
+                : undefined;
+            }}
+            cursor={props.searchText?.length > 0 ? "pointer" : "default"}
+          >
+            <Icon asChild boxSize={"1.2rem"}>
+              {props.searchText?.length > 0 ? <LuX /> : <FaMagnifyingGlass />}
+            </Icon>
+          </Box>
+        }
+      >
         <Input
           ref={inputRef}
-          // onBlur={() => inputRef.current && inputRef.current.focus()}
           placeholder={placeholder ?? "Search"}
           value={props.searchText ?? ""}
           onChange={(event) => props.setSearchText(event.target.value)}
           autoFocus
-          // ref={input => input && input.focus()}
-
-          // onFocus={() => setIsSearchActive(true)}
           borderColor="var(--appColorAccent)"
-          // focusBorderColor= "var(--appColorAccent)"
           _focus={{
             borderColor: "var(--appColorAccent)",
           }}
           position={"relative"}
-          // backgroundColor={"var(--appColorCardBackground)"}
-          size={"5xl"}
+          size={"2xl"}
           height={"3rem"}
-          paddingRight="2.5rem"
         ></Input>
-        <Box
-          position="absolute"
-          right="0.75rem"
-          top="50%"
-          transform="translateY(-50%)"
-          display="flex"
-          alignItems="center"
-          color={"var(--appColorDarkGrey)"}
-          onClick={() => {
-            props.searchText?.length > 0 ? props.setSearchText("") : undefined;
-          }}
-          cursor={props.searchText?.length > 0 ? "pointer" : "default"}
-        >
-          {props.searchText?.length > 0 ? <LuX /> : <LuSearch />}
-        </Box>
-      </Box>
+      </InputGroup>
     </Box>
   );
 }

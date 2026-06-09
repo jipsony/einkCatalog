@@ -1,5 +1,4 @@
 import {
-  Steps,
   Box,
   useDisclosure,
   Dialog,
@@ -7,82 +6,33 @@ import {
   Tabs,
 } from "@chakra-ui/react";
 import React, { useEffect, useState } from "react";
-import {
-  constructGameCoverThumbnailUrl,
-  getHandheldThumbnailImageUrl,
-} from "@/app/lib/globalFuncs";
 import CombinedSearchInput from "./CombinedSearchInput";
 import CombinedSearchResults from "./CombinedSearchResults";
-import handheldSearchList from "@/resources/def/searchList.json";
+import itemsSearchList from "@/resources/itemsSearchList.json";
 import { navigate } from "@/app/navigate";
 
 export default function CombinedSearchModal(props) {
   const { open, onOpen, onClose } = useDisclosure();
 
-  const [placeholder, setPlaceHolder] = useState(
-    props.initialPlaceholder ?? "Search",
-  );
   const [searchText, setSearchText] = useState("");
 
   const [keyEvent, setKeyEvent] = useState(null);
 
-  const [isGamseSearchListImported, setIsGamesSearchListImported] =
-    useState(false);
-
-  const [gamesSearchList, setGamesSearchList] = useState(props.gamesSearchList);
-  const importSearchList = async () => {
-    const { default: gamesSearchList } =
-      await import("@/resources/def/games/gamesSearchList.json");
-
-    setGamesSearchList(gamesSearchList);
-    setIsGamesSearchListImported(true);
-  };
-  useEffect(() => {
-    if (!isGamseSearchListImported && !props.gamesSearchList) {
-      importSearchList();
-    }
-  }, []);
-
   const tabs = [
     {
-      id: "handhelds",
-      label: "Handhelds",
+      id: "e-readers",
+      label: "E-readers",
       render: () => {
         return (
           <CombinedSearchResults
             searchText={searchText}
-            searchList={handheldSearchList}
-            getThumbnailImageUrl={(row) => getHandheldThumbnailImageUrl(row)}
+            searchList={itemsSearchList}
+            getThumbnailImageUrl={(row) => {}} ////////
             onSelect={(selectId) =>
-              props.onSelect
-                ? props.onSelect(selectId, "handheld")
-                : navigate("/retro-handhelds/" + selectId)
-            }
-            onClose={() => {
-              if (!props.doNotCloseAfterSelect) props.setIsModalOpen(false);
-            }}
-            disabledRows={props.disabledRows}
-            renderRightSideIcon={props.renderRightSideIcon}
-            noSpecialType={props.noSpecialType}
-          />
-        );
-      },
-    },
-    {
-      id: "games",
-      label: "Games",
-      render: () => {
-        return (
-          <CombinedSearchResults
-            searchText={searchText}
-            searchList={gamesSearchList}
-            getThumbnailImageUrl={(row) =>
-              constructGameCoverThumbnailUrl(row.cover)
-            }
-            onSelect={(selectId) =>
-              props.onSelect
-                ? props.onSelect(selectId, "game")
-                : navigate("/games/" + selectId)
+              // props.onSelect
+              // ? props.onSelect(selectId, "e-reader")
+              // :
+              navigate("/e-readers/" + selectId)
             }
             onClose={() => {
               if (!props.doNotCloseAfterSelect) props.setIsModalOpen(false);
@@ -148,6 +98,9 @@ export default function CombinedSearchModal(props) {
             mx=".5rem"
             pt="2rem"
             minWidth={{ base: "100%", sm: "auto" }}
+            backgroundColor={"var(--background)"}
+            border={"solid 1px"}
+            borderColor={"var(--appBorderColor)"}
           >
             {props.closeButton && (
               <Dialog.CloseTrigger
@@ -158,7 +111,7 @@ export default function CombinedSearchModal(props) {
             {props.text && (
               <Dialog.Header textAlign={"center"}>{props.text}</Dialog.Header>
             )}
-            <Dialog.Body>
+            <Dialog.Body p={{md:"2rem"}}>
               <CombinedSearchInput
                 searchText={searchText}
                 setSearchText={setSearchText}
@@ -199,9 +152,10 @@ export default function CombinedSearchModal(props) {
                       borderRadius="1px"
                     />
                     {tabs.map((t) => (
-                      <Tabs.Content key={t.id} value={t.id}>{t.render()}</Tabs.Content>
+                      <Tabs.Content key={t.id} value={t.id}>
+                        {t.render()}
+                      </Tabs.Content>
                     ))}
-                    {/* </Tabs.Panels> */}
                   </Tabs.Root>
                 )}
               </Box>

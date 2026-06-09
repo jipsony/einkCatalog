@@ -10,6 +10,7 @@ import AppHeaderLinks from "./AppHeaderLinks";
 import AppHeaderColorMode from "./AppHeaderColorMode";
 import AppLink from "../toolsComponents/AppLink";
 import { headerHeight, layoutPaddingX } from "@/lib/sizes";
+import AppHeaderSearch from "./AppHeaderSearch";
 
 export default function AppHeader(props) {
   return (
@@ -56,21 +57,28 @@ export default function AppHeader(props) {
             </HStack>
           </AppLink>
 
-          <HStack flexGrow={1} justifyContent={"flex-end"} userSelect={"none"}>
-            {/* <AppHeaderSearch searchList={props.searchList}></AppHeaderSearch> */}
+          <HStack
+            flexGrow={1}
+            justifyContent= "flex-end"
+            userSelect={"none"}
+            gap="1rem"
+            // {{base:, lg:".5rem"}}
+          >
+            <Box display={{ base: "block", lg: "none" }} order={4}>
+              <AppNavigationMenu />
+            </Box>
+            <Box display={{ base: "none", lg: "block" }} order={1}>
+              <AppHeaderLinks />
+            </Box>
+            <Box order={2}>
+              <AppHeaderSearch></AppHeaderSearch>
+            </Box>
 
-            <Box display={{ base: "flex", lg: "none" }}>
+            {/* <AppHeaderAccountButton></AppHeaderAccountButton> */}
+
+            <Box order={3}>
               <AppHeaderColorMode />
             </Box>
-            <AppNavigationMenu />
-            <HStack display={{ base: "none", lg: "flex" }} height={"100%"}>
-              <AppHeaderLinks />
-              {/* <AppHeaderAccountButton></AppHeaderAccountButton> */}
-
-              <Box>
-                <AppHeaderColorMode />
-              </Box>
-            </HStack>
           </HStack>
         </Flex>
       </Center>

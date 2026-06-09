@@ -15,7 +15,7 @@ export default function AppNavigationMenu(props) {
   return (
     <>
       <Box
-        pl={"1rem"}
+        // pl={"1rem"}
         display={{ base: "flex", lg: "none" }}
         variant="ghost"
         borderWidth={0}

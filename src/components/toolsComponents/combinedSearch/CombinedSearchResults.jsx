@@ -1,9 +1,15 @@
-import { Steps, Box, Button, Center, Flex, Image, Stack } from "@chakra-ui/react";
+import {
+  Steps,
+  Box,
+  Button,
+  Center,
+  Flex,
+  Image,
+  Stack,
+} from "@chakra-ui/react";
 import React, { useEffect, useState } from "react";
-import transparentHandheld from "@/resources/images/transparentHandheld.webp";
-import IconsWrapper from "../IconsWrapper";
 import { navigate } from "@/app/navigate";
-import { getHandheldThumbnailImageUrl } from "@/app/lib/globalFuncs";
+import { FaBuilding, FaRightToBracket } from "react-icons/fa6";
 
 export default function CombinedSearchResults(props) {
   const searchResultsLimit = 10;
@@ -16,7 +22,6 @@ export default function CombinedSearchResults(props) {
   const [isMoreActive, setIsMoreActive] = useState(false);
 
   const highlightSubText = (row, searchText) => {
-    // if (text?.length <= 0 || subText?.length <= 0) return text;
     const text = row.fullName;
     const trimmedText = replaceSpecialCharacters(text.toLowerCase());
     const trimmedSubText = replaceSpecialCharacters(searchText.toLowerCase());
@@ -95,7 +100,7 @@ export default function CombinedSearchResults(props) {
     let replacedText = text;
     specialCharacters.forEach(
       (specialCharacter) =>
-        (replacedText = replacedText.replaceAll(specialCharacter, ""))
+        (replacedText = replacedText.replaceAll(specialCharacter, "")),
     );
 
     replaces.forEach((r) => {
@@ -109,7 +114,7 @@ export default function CombinedSearchResults(props) {
       return true;
     else if (
       replaceSpecialCharacters(searchableName.toLowerCase())?.includes(
-        replaceSpecialCharacters(props.searchText.toLowerCase())
+        replaceSpecialCharacters(props.searchText.toLowerCase()),
       )
     )
       return true;
@@ -151,10 +156,6 @@ export default function CombinedSearchResults(props) {
       if (props.onClose) props.onClose();
       return;
     }
-    // if (!row?.specialType) {
-    //   // No type => normal item / handheld
-    //   props.onSelect(row.id);
-    // }
 
     if (row?.specialType === "function") {
       row.onSelect();
@@ -171,7 +172,8 @@ export default function CombinedSearchResults(props) {
       setHoverIndex((prev) => {
         event.preventDefault();
 
-        if (prev === searchResults.length - 1) return 0; // wrap back
+        if (prev === searchResults.length - 1)
+          return 0; // wrap back
         else return prev + 1;
       });
     }
@@ -191,12 +193,9 @@ export default function CombinedSearchResults(props) {
   };
 
   const renderThumbnail = (row) => {
-    if (row?.icon) {
+    if (row?.icon && row?.icon === "fa-building") {
       return (
-        <IconsWrapper
-          icon={row?.icon}
-          style={{ marginRight: 5, marginLeft: -12 }}
-        ></IconsWrapper>
+        <FaBuilding style={{ marginRight: 5, marginLeft: -12 }}></FaBuilding>
       ); // offset button padding
     } else if (!row?.specialType)
       return (
@@ -204,7 +203,7 @@ export default function CombinedSearchResults(props) {
           src={
             props.getThumbnailImageUrl
               ? props.getThumbnailImageUrl(row)
-              : getHandheldThumbnailImageUrl(row)
+              : () => {}
           }
           pt={1}
           pb={1}
@@ -212,7 +211,8 @@ export default function CombinedSearchResults(props) {
           display={"inline"}
           alt={`${row.fullName} thumbnail`}
           height={"inherit"}
-          objectFit={"contain"} />
+          objectFit={"contain"}
+        />
       );
   };
   useEffect(() => {
@@ -266,6 +266,7 @@ export default function CombinedSearchResults(props) {
               overflow={"hidden"}
               disabled={props.disabledRows?.includes(row.id)}
               maxW="100%"
+              
             >
               <Box style={{ display: "flex" }} alignItems={"center"}>
                 <Center
@@ -286,11 +287,9 @@ export default function CombinedSearchResults(props) {
                 </Flex>
               </Box>
               {!props.renderRightSideIcon && idx === hoverIndex && (
-                <IconsWrapper
-                  icon={"right-to-bracket"}
-                  alignSelf={"right"}
-                  color={"grey"}
-                ></IconsWrapper>
+                <FaRightToBracket
+                  style={{ alignSelf: "right", color: "grey" }}
+                ></FaRightToBracket>
               )}{" "}
               {props.renderRightSideIcon && props.renderRightSideIcon(row.id)}
             </Button>
