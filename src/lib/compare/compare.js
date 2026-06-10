@@ -1,7 +1,7 @@
 export const compareColorsRender = {
   red: "#e5534b",
   green: "#3fb950",
-  yellow:  "#ecc94b",
+  yellow: "#ecc94b",
   grey: "#525157",
 };
 
@@ -36,11 +36,13 @@ export const compareReleaseDate = (a, b) => {
 };
 
 export const compareScreenSize = (a, b) => {
-  if (a === b) return 0;
-  if (a?.toLowerCase()?.includes("secondary"))
-    a = a?.toLowerCase()?.split("main:")?.[1]?.split("secondary:")?.[0];
-  if (b?.toLowerCase()?.includes("bottom"))
-    b = b?.toLowerCase()?.split("top:")?.[1]?.split("bottom:")?.[0];
+  if (typeof a === "string" && typeof b === "string") {
+    if (a === b) return 0;
+    if (a?.toLowerCase()?.includes("secondary"))
+      a = a?.toLowerCase()?.split("main:")?.[1]?.split("secondary:")?.[0];
+    if (b?.toLowerCase()?.includes("bottom"))
+      b = b?.toLowerCase()?.split("top:")?.[1]?.split("bottom:")?.[0];
+  }
   return compareFloat(a, b);
 };
 

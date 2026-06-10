@@ -11,13 +11,13 @@ import {
 } from "@chakra-ui/react";
 import FeatureTag from "../toolsComponents/FeatureTag";
 import sections from "@/resources/sections";
-import CompareKeyValueIcon from "../compare/CompareKeyValueIcon";
-import CompareTagIcon from "../compare/CompareTagIcon";
 import AppLink from "../toolsComponents/AppLink";
 import { compareBool, compareColor } from "@/lib/compare/compare";
 import ItemCard from "./ItemCard";
 import ItemKeyValueAttributes from "./ItemKeyValueAttributes";
 import { attributeMarginLeft, featureTagTemplateColumns } from "@/lib/sizes";
+import CompareKeyValueIcon from "@/app/e-readers/compare/CompareKeyValueIcon";
+import CompareTagIcon from "@/app/e-readers/compare/CompareTagIcon";
 
 export default function ItemFullInfoCard(props) {
   const templateColumnsForFeaturesTag = props.isFullPage

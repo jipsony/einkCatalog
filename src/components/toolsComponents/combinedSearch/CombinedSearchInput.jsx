@@ -19,11 +19,19 @@ export default function CombinedSearchInput(props) {
         endElement={
           <Box
             onClick={() => {
-              props.searchText?.length > 0
+              if (props.onClick) {
+                props.onClick();
+                return;
+              }
+              props.searchText?.length > 0 && props.setSearchText
                 ? props.setSearchText("")
                 : undefined;
             }}
-            cursor={props.searchText?.length > 0 ? "pointer" : "default"}
+            cursor={
+              props.onClick || props.searchText?.length > 0
+                ? "pointer"
+                : "default"
+            }
           >
             <Icon asChild boxSize={"1.2rem"}>
               {props.searchText?.length > 0 ? <LuX /> : <FaMagnifyingGlass />}
@@ -35,8 +43,13 @@ export default function CombinedSearchInput(props) {
           ref={inputRef}
           placeholder={placeholder ?? "Search"}
           value={props.searchText ?? ""}
-          onChange={(event) => props.setSearchText(event.target.value)}
-          autoFocus
+          onChange={(event) => {
+            if (props.setSearchText) props.setSearchText(event.target.value);
+          }}
+          onClick={props.onClick}
+          readOnly={props.readOnly}
+          cursor={props.onClick ? "pointer" : "text"}
+          autoFocus={props.autoFocus ?? true}
           borderColor="var(--appColorAccent)"
           _focus={{
             borderColor: "var(--appColorAccent)",

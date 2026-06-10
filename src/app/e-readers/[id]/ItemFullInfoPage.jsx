@@ -13,7 +13,7 @@ export default function ItemFullInfoPage(props) {
       <ItemTitleCard itemInfo={props?.itemInfo}></ItemTitleCard>
       <Stack
         direction={{ base: "column", [directionBreakpoint]: "row" }}
-        fontFamily={"var(--font-roboto-mono), Arial, sans-serif"}
+        // fontFamily={"var(--font-roboto-mono), Arial, sans-serif"}
         rowGap={0}
       >
         <Box minWidth={{ [directionBreakpoint]: "18rem" }}>

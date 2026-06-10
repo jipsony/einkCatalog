@@ -47,3 +47,11 @@ body {
 button { 
   transition: none!important;
 }
+
+.appTitle {
+  font-family: var(--font-lora);
+}
+
+.appTextFont {
+  font-family: var(--font-roboto-mono), Arial, sans-serif;
+}

@@ -1,10 +1,10 @@
 "use client";
 import React from "react";
 import { Box, Flex } from "@chakra-ui/react";
-import CompareKeyValueIcon from "../compare/CompareKeyValueIcon";
-import CompareTagIcon from "../compare/CompareTagIcon";
 import { compareBool, compareColor } from "@/lib/compare/compare";
 import { attributeMarginLeft } from "@/lib/sizes";
+import CompareKeyValueIcon from "@/app/e-readers/compare/CompareKeyValueIcon";
+import CompareTagIcon from "@/app/e-readers/compare/CompareTagIcon";
 
 export default function ItemKeyValueAttributes(props) {
   const isCompareValueUndefined = (attribute) => {

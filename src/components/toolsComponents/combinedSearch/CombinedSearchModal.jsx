@@ -6,13 +6,15 @@ import {
   Tabs,
 } from "@chakra-ui/react";
 import React, { useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
 import CombinedSearchInput from "./CombinedSearchInput";
 import CombinedSearchResults from "./CombinedSearchResults";
 import itemsSearchList from "@/resources/itemsSearchList.json";
-import { navigate } from "@/app/navigate";
+import { itemRoute } from "@/lib/appGlobals";
 
 export default function CombinedSearchModal(props) {
   const { open, onOpen, onClose } = useDisclosure();
+  const router = useRouter();
 
   const [searchText, setSearchText] = useState("");
 
@@ -26,13 +28,12 @@ export default function CombinedSearchModal(props) {
         return (
           <CombinedSearchResults
             searchText={searchText}
-            searchList={itemsSearchList}
-            getThumbnailImageUrl={(row) => {}} ////////
+            searchList={props.searchList ?? itemsSearchList}
+            getThumbnailImageUrl={props.getThumbnailImageUrl}
             onSelect={(selectId) =>
-              // props.onSelect
-              // ? props.onSelect(selectId, "e-reader")
-              // :
-              navigate("/e-readers/" + selectId)
+              props.onSelect
+                ? props.onSelect(selectId)
+                : router.push(itemRoute + selectId)
             }
             onClose={() => {
               if (!props.doNotCloseAfterSelect) props.setIsModalOpen(false);
@@ -40,6 +41,8 @@ export default function CombinedSearchModal(props) {
             disabledRows={props.disabledRows}
             renderRightSideIcon={props.renderRightSideIcon}
             noSpecialType={props.noSpecialType}
+            thumbnailWidth={props.thumbnailWidth}
+            thumbnailHeight={props.thumbnailHeight}
           />
         );
       },
@@ -115,6 +118,7 @@ export default function CombinedSearchModal(props) {
               <CombinedSearchInput
                 searchText={searchText}
                 setSearchText={setSearchText}
+                initialPlaceholder={props.initialPlaceholder}
               ></CombinedSearchInput>
               <Box>
                 {props.singleTab &&

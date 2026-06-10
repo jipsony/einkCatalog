@@ -19,6 +19,9 @@ export const layoutWidth = {
   "2xl": "1280px",
 };
 
+
+
+
 // 3xs 14rem
 
 // 2xs 16rem
@@ -46,3 +49,11 @@ export const layoutWidth = {
 // 7xl 80rem
 
 // 8xl 90rem
+
+
+
+
+export const cardHeight = "20em";
+export const cardHeightPixels = parseFloat(cardHeight) * 16;
+export const cardPadding = 30;
+export const cardSize = 454;

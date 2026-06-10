@@ -38,6 +38,9 @@
     "pageTurnButtons": false,
     "automaticRotation": false,
     "stylusSupport": false,
+    "dimensionsH": 7,
+    "dimensionsL": 1,
+    "dimensionsW": 6,
     "fullName": "Amazon Kindle Colorsoft"
   },
   {
@@ -80,6 +83,9 @@
     "pageTurnButtons": true,
     "automaticRotation": true,
     "stylusSupport": true,
+    "dimensionsH": 6,
+    "dimensionsL": 1,
+    "dimensionsW": 1,
     "fullName": "Kobo Libra Color"
   },
   {
@@ -141,6 +147,9 @@
     "pageTurnButtons": true,
     "darkMode": true,
     "waterproof": false,
+    "dimensionsH": 1,
+    "dimensionsL": 1,
+    "dimensionsW": 4,
     "fullName": "Xteink X4"
   }
 ]

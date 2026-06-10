@@ -13,6 +13,7 @@ export default function ItemCard({ children, ...props }) {
       w="100%"
       boxShadow="sm"
       {...props}
+      className="appTextFont"
     >
       {children}
     </Box>

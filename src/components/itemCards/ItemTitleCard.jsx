@@ -18,13 +18,13 @@ const DashLine = () => (
 
 export default function ItemTitleCard(props) {
   return (
-    <Box width="100%" py={3}>
+    <Box width="100%" py={3} backgroundColor={"var(--background)"}>
       {/* <DashLine /> */}
 
       <Text
         fontSize="3xl"
         textAlign="center"
-        fontFamily="var(--font-lora)"
+        className="appTitle"
         fontStyle="italic"
         fontWeight={"bold"}
       >

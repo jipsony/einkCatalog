@@ -2,15 +2,11 @@ import React from "react";
 import { Box, SimpleGrid } from "@chakra-ui/react";
 import ItemCard from "./ItemCard";
 import AppTooltip from "../toolsComponents/AppTooltip";
-import {
-  compareColor,
-  compareFloat,
-  compareReleaseDate,
-  compareScreenSize,
-} from "@/lib/compare/compare";
-import CompareKeyValueIcon from "../compare/CompareKeyValueIcon";
 import AppLink from "../toolsComponents/AppLink";
 import { FaArrowRightArrowLeft, FaList } from "react-icons/fa6";
+import CompareKeyValueIcon from "@/app/e-readers/compare/CompareKeyValueIcon";
+import { buildItemFullInfoLink } from "@/lib/appGlobals";
+import { compareColor, compareFloat, compareReleaseDate, compareScreenSize } from "@/lib/compare/compare";
 
 export default function ItemMainInfoCard(props) {
   const compareLink = `/compare/${props.itemInfo?.id}`;
@@ -173,7 +169,7 @@ export default function ItemMainInfoCard(props) {
       >
         <Box
           px="1rem"
-        //   pb={props.isFullPage && "1rem"}
+          //   pb={props.isFullPage && "1rem"}
           w="100%"
           flex={1}
           alignContent={"center"}
@@ -195,7 +191,7 @@ export default function ItemMainInfoCard(props) {
                     ml={props.compareWithitemInfo && "2px"}
                     pt="6px"
                   >
-                    {mainAttribute?.id === "approximativePrice" && (
+                    {mainAttribute?.id === "price" && (
                       <Box float="right">
                         {renderCompareKeyValue(mainAttribute.id)}
                       </Box>
@@ -213,7 +209,6 @@ export default function ItemMainInfoCard(props) {
                       float="right"
                       textAlign="right"
                       as="dd"
-                      
                     >
                       {renderValue(
                         mainAttribute,
@@ -245,7 +240,7 @@ export default function ItemMainInfoCard(props) {
               <AppLink
                 href={
                   props?.showDetailsLink?.href ??
-                  "/retro-handhelds/" + props.itemInfo?.id
+                  buildItemFullInfoLink(props?.itemInfo)
                 }
               >
                 <Box

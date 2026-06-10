@@ -199,20 +199,21 @@ export default function CombinedSearchResults(props) {
       ); // offset button padding
     } else if (!row?.specialType)
       return (
-        <Image
-          src={
-            props.getThumbnailImageUrl
-              ? props.getThumbnailImageUrl(row)
-              : () => {}
-          }
-          pt={1}
-          pb={1}
-          mr={5}
-          display={"inline"}
-          alt={`${row.fullName} thumbnail`}
-          height={"inherit"}
-          objectFit={"contain"}
-        />
+        <></>
+        // <Image
+        //   src={
+        //     props.getThumbnailImageUrl
+        //       ? props.getThumbnailImageUrl(row)
+        //       : () => {}
+        //   }
+        //   pt={1}
+        //   pb={1}
+        //   mr={5}
+        //   display={"inline"}
+        //   alt={`${row.fullName} thumbnail`}
+        //   height={"inherit"}
+        //   objectFit={"contain"}
+        // />
       );
   };
   useEffect(() => {
