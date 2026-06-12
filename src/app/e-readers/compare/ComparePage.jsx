@@ -16,7 +16,6 @@ import {
   Spinner,
   Icon,
 } from "@chakra-ui/react";
-import { useSearchParams } from "next/navigation";
 import { FaArrowRightArrowLeft } from "react-icons/fa6";
 import { buildFullName, generateCompareTitle } from "@/lib/appGlobals";
 import { getItemInfo } from "@/lib/item/items";
@@ -45,8 +44,6 @@ export default function ComparePage(props) {
   const [compareInfo, setCompareInfo] = useState();
   const [compareWithInfo, setCompareWithInfo] = useState();
   const [isPendingCompare, startTransitionCompare] = useTransition();
-  const searchParams = useSearchParams();
-
   const updateUrlWithCompare = (compareId, compareWithId) => {
     let newPath = parentPagePath;
     if (compareId) newPath += "/" + compareId;
