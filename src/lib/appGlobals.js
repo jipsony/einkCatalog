@@ -1,7 +1,10 @@
-export const appName= "E-Ink Catalog"
-export const appDomain = "https://einkcatalog.com"
-export const itemRoute = "/e-readers"
-export const items = "E-readers"
+export const appName = "E-Ink Catalog";
+export const appDomain = "https://einkcatalog.com";
+export const imagesURLDomain = "https://dev.einkcatalog.com/images"; ////////////////////////////////////////////////// TODO remove the .dev once DNS is done
+export const itemRoute = "/e-readers";
+export const itemsLabel = "E-readers";
+export const individualItemLabel = "E-reader";
+export const individualItem = "e-reader";
 
 export const generateCompareTitle = (compareName, compareWithName) => {
   return compareName && compareWithName
@@ -10,9 +13,9 @@ export const generateCompareTitle = (compareName, compareWithName) => {
 };
 
 export const buildFullName = (itemInfo) => {
-    return `${itemInfo?.brand} ${itemInfo?.name}`
-}
+  return `${itemInfo?.brand} ${itemInfo?.name}`;
+};
 
-export const buildItemFullInfoLink = (itemInfo) => {
-    return `${itemRoute}/${itemInfo?.id}`
-}
+export const buildItemFullInfoLink = (id) => {
+  return `${itemRoute}/${id}`;
+};

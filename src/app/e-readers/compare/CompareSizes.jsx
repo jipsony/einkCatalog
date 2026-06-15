@@ -25,10 +25,17 @@ import {
   cardSize,
 } from "@/lib/sizes";
 import { getItemInfo } from "@/lib/item/items";
-import { FaEllipsisVertical, FaRotateLeft, FaTrashCan } from "react-icons/fa6";
+import {
+  FaEllipsisVertical,
+  FaMagnifyingGlass,
+  FaRotateLeft,
+  FaTrashCan,
+} from "react-icons/fa6";
 import { initialReferences } from "@/lib/compareSizesInitialReferences";
 import { buildFittedImageUrl } from "@/lib/images";
 import CombinedSearchModal from "@/components/toolsComponents/combinedSearch/CombinedSearchModal";
+import { individualItemLabel, itemsLabel } from "@/lib/appGlobals";
+import CompareReferencesSubMenu from "./CompareReferencesSubMenu";
 
 export default function CompareSizes(props) {
   const defaultSettings = {
@@ -505,7 +512,6 @@ export default function CompareSizes(props) {
                             <Menu.Positioner>
                               <Menu.Content>
                                 <Menu.ItemGroup
-                                  title="References"
                                   value={
                                     references
                                       .filter(
@@ -518,6 +524,9 @@ export default function CompareSizes(props) {
                                       ?.map((row) => row.id) ?? []
                                   }
                                 >
+                                  <Menu.ItemGroupLabel>
+                                    References
+                                  </Menu.ItemGroupLabel>
                                   <Menu.CheckboxItem
                                     key={"handheldSearch"}
                                     value={"handheldSearch"}
@@ -525,11 +534,53 @@ export default function CompareSizes(props) {
                                       setIsModalOpen(true);
                                     }}
                                   >
-                                    <Icon mr={".5rem"} mt={-1} asChild>
-                                      <LuSearch />
+                                    <Icon asChild>
+                                      <FaMagnifyingGlass />
                                     </Icon>
-                                    Add Handheld
+                                    Add {individualItemLabel}
                                   </Menu.CheckboxItem>
+                                  <CompareReferencesSubMenu
+                                    label="Add Phone"
+                                    filterKey="phone"
+                                    references={references}
+                                    objectsToCompare={objectsToCompare}
+                                    onSelectReference={onSelectReference}
+                                  />
+                                  {references
+                                    ?.filter(
+                                      (r) => !r.originalHardware && !r.phone,
+                                    )
+                                    .map((menuRow) => {
+                                      return (
+                                        <Menu.CheckboxItem
+                                          key={menuRow.id}
+                                          value={menuRow.id}
+                                          onClick={() =>
+                                            onSelectReference(menuRow.id)
+                                          }
+                                        >
+                                          {menuRow.name}
+                                        </Menu.CheckboxItem>
+                                      );
+                                    })}
+                                  {objectsToCompare?.filter(
+                                    (r) => r.isFromClient,
+                                  )?.length > 0 && (
+                                    <Menu.CheckboxItem
+                                      color={deleteColor}
+                                      onClick={() => {
+                                        prepareAndSetObjectsToCompare(
+                                          objectsToCompare.filter(
+                                            (r) => !r.isFromClient,
+                                          ),
+                                        );
+                                        setLastSelected(null);
+                                        onMenuClose();
+                                      }}
+                                    >
+                                      Clear All References
+                                    </Menu.CheckboxItem>
+                                  )}
                                 </Menu.ItemGroup>
                               </Menu.Content>
                             </Menu.Positioner>
@@ -595,22 +646,6 @@ export default function CompareSizes(props) {
                         <Portal>
                           <Menu.Positioner>
                             <Menu.Content>
-                              <Menu.ItemGroup
-                                defaultValue={"borders"}
-                                value={settings?.showBorders ? ["borders"] : []}
-                              >
-                                <Menu.CheckboxItem
-                                  onClick={() => {
-                                    setSettings((prev) => ({
-                                      ...prev,
-                                      showBorders: !prev.showBorders,
-                                    }));
-                                  }}
-                                  value={"borders"}
-                                >
-                                  Image borders
-                                </Menu.CheckboxItem>
-                              </Menu.ItemGroup>
                               <Menu.ItemGroup
                                 value={
                                   settings?.transparency ? ["transparency"] : []
@@ -685,9 +720,7 @@ export default function CompareSizes(props) {
                           <>{formatSelectedInfo(lastSelected)}</>
                           <Box
                             ml="1rem"
-                            top={"-2px"}
                             position={"relative"}
-                            height={"10px"}
                             cursor={"pointer"}
                             _hover={{ opacity: 0.6 }}
                             onClick={(e) => {
@@ -714,9 +747,8 @@ export default function CompareSizes(props) {
                           </Box>
                           <Box
                             ml="1rem"
-                            top={"-2px"}
+                            top={"-1px"}
                             position={"relative"}
-                            height={"10px"}
                             cursor={"pointer"}
                             _hover={{ opacity: 0.6 }}
                             onClick={() => {
@@ -780,7 +812,7 @@ export default function CompareSizes(props) {
       )}
       <CombinedSearchModal
         isModalOpen={isModalOpen}
-        text="Add a Handheld as a Reference"
+        text={`Add an ${individualItemLabel} as a Reference`}
         setIsModalOpen={setIsModalOpen}
         onSelect={onAddHandheldReference}
         searchList={{

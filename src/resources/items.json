@@ -13,7 +13,7 @@
     "operatingSystem": [
       "Kindle firmware"
     ],
-    "dimensions": "176.7 × 127.6 × 7.8",
+    "dimensions": " 127.6 x 176.7 x 7.8",
     "weight": 215,
     "cpu": "2.0 GHz dual core",
     "storage": "16 GB",
@@ -38,9 +38,9 @@
     "pageTurnButtons": false,
     "automaticRotation": false,
     "stylusSupport": false,
-    "dimensionsH": 7,
-    "dimensionsL": 1,
-    "dimensionsW": 6,
+    "dimensionsH": 176.7,
+    "dimensionsL": 127.6,
+    "dimensionsW": 7.8,
     "fullName": "Amazon Kindle Colorsoft"
   },
   {
@@ -57,7 +57,7 @@
     "operatingSystem": [
       "Kobo firmware"
     ],
-    "dimensions": "161 × 144.6 × 8.3",
+    "dimensions": "144.6 x 161 x 8.3",
     "weight": 199.5,
     "cpu": "2 GHz dual core",
     "storage": "32 GB",
@@ -83,9 +83,9 @@
     "pageTurnButtons": true,
     "automaticRotation": true,
     "stylusSupport": true,
-    "dimensionsH": 6,
-    "dimensionsL": 1,
-    "dimensionsW": 1,
+    "dimensionsH": 161,
+    "dimensionsL": 144.6,
+    "dimensionsW": 8.3,
     "fullName": "Kobo Libra Color"
   },
   {
@@ -102,7 +102,7 @@
     "operatingSystem": [
       "Proprietary"
     ],
-    "dimensions": "114 × 69 × 5.9",
+    "dimensions": "69 × 114 × 5.9",
     "weight": 74,
     "cpu": "ESP32",
     "storage": "16 GB",
@@ -147,9 +147,9 @@
     "pageTurnButtons": true,
     "darkMode": true,
     "waterproof": false,
-    "dimensionsH": 1,
-    "dimensionsL": 1,
-    "dimensionsW": 4,
+    "dimensionsH": 114,
+    "dimensionsL": 69,
+    "dimensionsW": 5.9,
     "fullName": "Xteink X4"
   }
 ]

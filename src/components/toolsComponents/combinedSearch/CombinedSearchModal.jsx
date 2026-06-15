@@ -1,16 +1,10 @@
-import {
-  Box,
-  useDisclosure,
-  Dialog,
-  Portal,
-  Tabs,
-} from "@chakra-ui/react";
+import { Box, useDisclosure, Dialog, Portal, Tabs } from "@chakra-ui/react";
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import CombinedSearchInput from "./CombinedSearchInput";
 import CombinedSearchResults from "./CombinedSearchResults";
 import itemsSearchList from "@/resources/itemsSearchList.json";
-import { itemRoute } from "@/lib/appGlobals";
+import { buildItemFullInfoLink, itemRoute } from "@/lib/appGlobals";
 
 export default function CombinedSearchModal(props) {
   const { open, onOpen, onClose } = useDisclosure();
@@ -29,11 +23,11 @@ export default function CombinedSearchModal(props) {
           <CombinedSearchResults
             searchText={searchText}
             searchList={props.searchList ?? itemsSearchList}
-            getThumbnailImageUrl={props.getThumbnailImageUrl}
+            // getThumbnailImageUrl={props.getThumbnailImageUrl}
             onSelect={(selectId) =>
               props.onSelect
                 ? props.onSelect(selectId)
-                : router.push(itemRoute + selectId)
+                : router.push(buildItemFullInfoLink(selectId))
             }
             onClose={() => {
               if (!props.doNotCloseAfterSelect) props.setIsModalOpen(false);
@@ -41,8 +35,8 @@ export default function CombinedSearchModal(props) {
             disabledRows={props.disabledRows}
             renderRightSideIcon={props.renderRightSideIcon}
             noSpecialType={props.noSpecialType}
-            thumbnailWidth={props.thumbnailWidth}
-            thumbnailHeight={props.thumbnailHeight}
+            // thumbnailWidth={props.thumbnailWidth}
+            // thumbnailHeight={props.thumbnailHeight}
           />
         );
       },
@@ -112,9 +106,11 @@ export default function CombinedSearchModal(props) {
               ></Dialog.CloseTrigger>
             )}
             {props.text && (
-              <Dialog.Header textAlign={"center"}>{props.text}</Dialog.Header>
+              <Dialog.Header w={"100%"} justifyContent={"center"}>
+                <Dialog.Title>{props.text}</Dialog.Title>
+              </Dialog.Header>
             )}
-            <Dialog.Body p={{md:"2rem"}}>
+            <Dialog.Body p={{ md: "2rem" }}>
               <CombinedSearchInput
                 searchText={searchText}
                 setSearchText={setSearchText}

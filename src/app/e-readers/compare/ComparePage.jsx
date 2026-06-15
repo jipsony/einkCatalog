@@ -17,7 +17,7 @@ import {
   Icon,
 } from "@chakra-ui/react";
 import { FaArrowRightArrowLeft } from "react-icons/fa6";
-import { buildFullName, generateCompareTitle } from "@/lib/appGlobals";
+import { buildFullName, generateCompareTitle, itemsLabel } from "@/lib/appGlobals";
 import { getItemInfo } from "@/lib/item/items";
 import {
   compareColor,
@@ -29,9 +29,10 @@ import ItemVertical from "@/components/itemCards/ItemVertical";
 import CombinedSearchInput from "@/components/toolsComponents/combinedSearch/CombinedSearchInput";
 import CombinedSearchModal from "@/components/toolsComponents/combinedSearch/CombinedSearchModal";
 import CompareKeyValueIcon from "./CompareKeyValueIcon";
+import { itemsSearchList } from "@/lib/item/itemSearchList";
 
 export default function ComparePage(props) {
-  const parentPagePath = "/compare";
+  const parentPagePath = "/e-readers/compare";
   const [isActiveSearchCompare, setIsActiveSearchCompare] = useState(true);
   const [isActiveSearchCompareWith, setIsActiveSearchCompareWith] =
     useState(true);
@@ -152,7 +153,7 @@ export default function ComparePage(props) {
   ) => {
     return (
       <Box width={"100%"}>
-        <Heading as="div" size={"lg"} mb={"4px"} className="appHeaderLink">
+        <Heading as="div" size={"lg"} mb={"4px"} className="appHeader">
           {label}
         </Heading>
 
@@ -218,7 +219,7 @@ export default function ComparePage(props) {
   const renderPageTitle = () => {
     let title = "";
     if (!compareInfo?.id && !compareWithInfo?.id)
-      title = "Compare Gaming Handhelds";
+      title = `Compare ${itemsLabel}`;
 
     if (compareInfo?.fullName) {
       title = compareInfo?.fullName + " Comparison";
@@ -391,7 +392,7 @@ export default function ComparePage(props) {
                 <Flex
                   direction={{ base: "column", lg: "row" }}
                   align={{ base: "stretch", lg: "flex-end" }}
-                  gap={{ base: 2, lg: 3 }}
+                  gap={{ base: 2, lg: "2rem" }}
                   // mx="1rem"
                   mb="1rem"
                 >
@@ -446,7 +447,7 @@ export default function ComparePage(props) {
                     objectsToCompare={[compareInfo, compareWithInfo].filter(
                       (e) => !!e?.id,
                     )}
-                    searchList={props.searchList}
+                    searchList={itemsSearchList}
                   ></CompareSizes>
                 </Box>
               </GridItem>

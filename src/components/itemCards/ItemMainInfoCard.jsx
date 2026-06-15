@@ -240,7 +240,7 @@ export default function ItemMainInfoCard(props) {
               <AppLink
                 href={
                   props?.showDetailsLink?.href ??
-                  buildItemFullInfoLink(props?.itemInfo)
+                  buildItemFullInfoLink(props?.itemInfo?.id)
                 }
               >
                 <Box

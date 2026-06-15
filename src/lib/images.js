@@ -1,6 +1,18 @@
-const imagesURLDomain = "https://einkcatalog.com/images";
+import { imagesURLDomain, individualItem } from "./appGlobals";
 
 
-export const buildFittedImageUrl = (handheldId) => {
-  return `${imagesURLDomain}/retro-handheld_fitted_${handheldId}`;
+export const getPreviewImageUrl = (item) => {
+  return getHandheldThumbnailImageUrl(item);
+};
+
+export const getHandheldThumbnailImageUrl = (item) => {
+  return `${imagesURLDomain}/${individualItem}_thumbnail_${item?.id}`;
+};
+
+export const buildFrontImageUrl = (itemId) => {
+  return `${imagesURLDomain}/${individualItem}_front_${itemId}`;
+};
+
+export const buildFittedImageUrl = (itemId) => {
+  return `${imagesURLDomain}/${individualItem}_fitted_${itemId}`;
 };

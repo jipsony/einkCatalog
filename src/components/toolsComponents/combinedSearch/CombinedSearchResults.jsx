@@ -10,6 +10,7 @@ import {
 import React, { useEffect, useState } from "react";
 import { navigate } from "@/app/navigate";
 import { FaBuilding, FaRightToBracket } from "react-icons/fa6";
+import { getHandheldThumbnailImageUrl } from "@/lib/images";
 
 export default function CombinedSearchResults(props) {
   const searchResultsLimit = 10;
@@ -199,21 +200,16 @@ export default function CombinedSearchResults(props) {
       ); // offset button padding
     } else if (!row?.specialType)
       return (
-        <></>
-        // <Image
-        //   src={
-        //     props.getThumbnailImageUrl
-        //       ? props.getThumbnailImageUrl(row)
-        //       : () => {}
-        //   }
-        //   pt={1}
-        //   pb={1}
-        //   mr={5}
-        //   display={"inline"}
-        //   alt={`${row.fullName} thumbnail`}
-        //   height={"inherit"}
-        //   objectFit={"contain"}
-        // />
+        <Image
+          src={getHandheldThumbnailImageUrl(row)}
+          pt={1}
+          pb={1}
+          mr={5}
+          display={"inline"}
+          alt={`${row.fullName} thumbnail`}
+          height={"inherit"}
+          objectFit={"contain"}
+        />
       );
   };
   useEffect(() => {
@@ -270,7 +266,10 @@ export default function CombinedSearchResults(props) {
               overflow={"hidden"}
               disabled={props.disabledRows?.includes(row.id)}
               maxW="100%"
-              backgroundColor={idx=== hoverIndex && "var(--chakra-colors-color-palette-subtle)"}
+              backgroundColor={
+                idx === hoverIndex &&
+                "var(--chakra-colors-color-palette-subtle)"
+              }
             >
               <Box style={{ display: "flex" }} alignItems={"center"}>
                 <Center

@@ -1,16 +1,16 @@
 import { React } from "react";
 import { Box } from "@chakra-ui/react";
 import ComparePage from "./ComparePage";
-import { appName, appDomain, itemRoute, items } from "@/lib/appGlobals";
+import { appName, appDomain, itemRoute, itemsLabel } from "@/lib/appGlobals";
  
 export async function generateMetadata({ params, searchParams }, parent) {
   const defaultMetadata = {
-  title: `${items} Comparison - ${appName}`,
+  title: `${itemsLabel} Comparison - ${appName}`,
   metadataBase: new URL(`${appDomain}`),
     alternates: {
     canonical: `${itemRoute}/compare`,
     },
-  description: `Compare features and specifications of ${items.toLowerCase()}, and visualize the size difference between devices`
+  description: `Compare features and specifications of ${itemsLabel.toLowerCase()}, and visualize the size difference between devices`
   };
   const compareString = (await searchParams).compare
 
