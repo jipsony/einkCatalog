@@ -55,7 +55,7 @@ export default function CombinedSearchInput(props) {
             borderColor: "var(--appColorAccent)",
           }}
           position={"relative"}
-          size={"2xl"}
+          size={props?.size ?? "2xl"}
           height={"3rem"}
         ></Input>
       </InputGroup>

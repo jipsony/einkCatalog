@@ -1,6 +1,6 @@
 {
-  "name": "EINK CATALOG",
-  "short_name": "Eink Catalog",
+  "name": "EINK Catalog",
+  "short_name": "EINK Catalog",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",

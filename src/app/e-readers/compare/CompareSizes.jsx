@@ -83,7 +83,7 @@ export default function CompareSizes(props) {
 
     let containerWidth = containerRef?.current?.offsetWidth - 2 * cardPadding;
     // if (!isScreenLg)
-      // containerWidth = Math.min(containerWidth, cardSize - 2 * cardPadding); // espaghet
+    // containerWidth = Math.min(containerWidth, cardSize - 2 * cardPadding); // espaghet
 
     let widthMultiplier;
     if (displayMode === "sideBySide") {
@@ -444,7 +444,8 @@ export default function CompareSizes(props) {
     borderLeftColor: "var(--appColorLighterGrey)!important",
     lineHeight: "normal",
   };
-  const excludedFromSearchIds = objectsToCompare?.map((rowOtc) => rowOtc.id) ?? [];
+  const excludedFromSearchIds =
+    objectsToCompare?.map((rowOtc) => rowOtc.id) ?? [];
   return (
     <>
       {props.objectsToCompare?.filter((e) => !!e)?.length > 0 && (
@@ -476,8 +477,13 @@ export default function CompareSizes(props) {
                     justifyContent={"flex-start"}
                     m={0}
                     variant={"ghost"}
+                    flexGrow={1}
+                    borderLeftRadius={"6px"}
                   >
-                    <Heading size={"md"}> Size Difference</Heading>
+                    <Heading size={"md"} className="appHeaderLink">
+                      {" "}
+                      Size Difference
+                    </Heading>
                   </Button>
                   {isActive && (
                     <Flex>
@@ -725,7 +731,9 @@ export default function CompareSizes(props) {
                             {references
                               .map((row) => row.id)
                               ?.includes(lastSelected?.id) && (
-                              <Icon asChild color={deleteColor}><FaTrashCan></FaTrashCan></Icon>
+                              <Icon asChild color={deleteColor}>
+                                <FaTrashCan></FaTrashCan>
+                              </Icon>
                             )}
                           </Box>
                         </Center>

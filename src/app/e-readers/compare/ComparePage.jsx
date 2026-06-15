@@ -28,7 +28,6 @@ import CompareSizes from "./CompareSizes";
 import ItemVertical from "@/components/itemCards/ItemVertical";
 import CombinedSearchInput from "@/components/toolsComponents/combinedSearch/CombinedSearchInput";
 import CombinedSearchModal from "@/components/toolsComponents/combinedSearch/CombinedSearchModal";
-import { cardSize } from "@/lib/sizes";
 import CompareKeyValueIcon from "./CompareKeyValueIcon";
 
 export default function ComparePage(props) {
@@ -153,7 +152,7 @@ export default function ComparePage(props) {
   ) => {
     return (
       <Box width={"100%"}>
-        <Heading as="div" size={"md"} mb={"4px"}>
+        <Heading as="div" size={"lg"} mb={"4px"} className="appHeaderLink">
           {label}
         </Heading>
 
@@ -185,6 +184,7 @@ export default function ComparePage(props) {
               onClick={() => {
                 setIsModalOpen(true);
               }}
+              size="xl"
             ></CombinedSearchInput>
           </>
         )}
@@ -231,7 +231,7 @@ export default function ComparePage(props) {
         " Comparison";
     }
     return (
-      <Box mb="1rem" ml="1.2rem" mr="1.2rem">
+      <Box mb="2rem" ml="1.2rem" mr="1.2rem">
         <Heading
           textAlign="center"
           fontSize={"1.8rem"}
