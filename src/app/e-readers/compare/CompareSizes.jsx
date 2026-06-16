@@ -26,6 +26,7 @@ import {
 } from "@/lib/sizes";
 import { getItemInfo } from "@/lib/item/items";
 import {
+  FaChevronLeft,
   FaEllipsisVertical,
   FaMagnifyingGlass,
   FaRotateLeft,
@@ -594,52 +595,6 @@ export default function CompareSizes(props) {
                         </Menu.ItemGroup>
                       </Menu.Root>
 
-                      <Menu.Root>
-                        <Menu.Trigger asChild>
-                          <Button {...menuButtonStyle}>Sort</Button>
-                        </Menu.Trigger>
-                        <Menu.ItemGroup>
-                          <Portal>
-                            <Menu.Positioner>
-                              <Menu.Content>
-                                <Menu.Item
-                                  onSelect={() => {
-                                    onSortClick("height");
-                                  }}
-                                  value="height"
-                                >
-                                  By Height
-                                </Menu.Item>
-                                <Menu.Item
-                                  onSelect={() => {
-                                    onSortClick("length");
-                                  }}
-                                  value="length"
-                                >
-                                  By Length
-                                </Menu.Item>
-                                <Menu.Item
-                                  onSelect={() => {
-                                    onSortClick("area");
-                                  }}
-                                  value="area"
-                                >
-                                  By Area
-                                </Menu.Item>
-                              </Menu.Content>
-                            </Menu.Positioner>
-                          </Portal>
-                        </Menu.ItemGroup>
-                      </Menu.Root>
-                      <Button
-                        onClick={() => {
-                          setResetCounter(resetCounter + 1);
-                          setDisplayMode("overlapCenter");
-                        }}
-                        {...menuButtonStyle}
-                      >
-                        Center
-                      </Button>
                       <Menu.Root closeOnSelect={false}>
                         <Menu.Trigger asChild>
                           <Button
@@ -671,6 +626,60 @@ export default function CompareSizes(props) {
                                   <Menu.ItemIndicator />
                                 </Menu.CheckboxItem>
                               </Menu.ItemGroup>
+                              <Menu.ItemGroup>
+                                <Menu.ItemGroupLabel>
+                                  Position
+                                </Menu.ItemGroupLabel>
+                                <Menu.Item
+                                pl="32px"
+                                  value="center"
+                                  onSelect={() => {
+                                    setResetCounter((prev) => prev + 1);
+                                    setDisplayMode("overlapCenter");
+                                  }}
+                                >
+                                  Center
+                                </Menu.Item>
+                                <Menu.Root
+                                  positioning={{
+                                    placement: "left",
+                                    gutter: 2,
+                                  }}
+                                >
+                                  <Menu.TriggerItem>
+                                    <Icon asChild ml="1.5rem">
+                                      <FaChevronLeft />
+                                    </Icon>
+                                    Sort
+                                  </Menu.TriggerItem>
+                                  <Portal>
+                                    <Menu.Positioner>
+                                      <Menu.Content>
+                                        <Menu.RadioItemGroup
+                                          value={sortObjectsToCompare || ""}
+                                          onValueChange={(e) => {
+                                            onSortClick(e.value);
+                                          }}
+                                        >
+                                          <Menu.RadioItem value={"height"}>
+                                            By Height
+                                            <Menu.ItemIndicator />
+                                          </Menu.RadioItem>
+                                          <Menu.RadioItem value={"length"}>
+                                            By Length
+                                            <Menu.ItemIndicator />
+                                          </Menu.RadioItem>
+                                          <Menu.RadioItem value={"area"}>
+                                            By Area
+                                            <Menu.ItemIndicator />
+                                          </Menu.RadioItem>
+                                        </Menu.RadioItemGroup>
+                                      </Menu.Content>
+                                    </Menu.Positioner>
+                                  </Portal>
+                                </Menu.Root>
+                              </Menu.ItemGroup>
+
                               <Menu.RadioItemGroup
                                 title="Unit"
                                 value={settings?.unit}
@@ -681,6 +690,7 @@ export default function CompareSizes(props) {
                                   }));
                                 }}
                               >
+                                <Menu.ItemGroupLabel>Unit</Menu.ItemGroupLabel>
                                 <Menu.RadioItem value={"metric"}>
                                   Metric (mm, g)
                                   <Menu.ItemIndicator />

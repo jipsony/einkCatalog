@@ -352,6 +352,29 @@ export default function ComparePage(props) {
     );
   };
 
+  const renderSwapCompareButton = () => {
+    if (!compareInfo || !compareWithInfo) return null;
+
+    return (
+      <Icon
+        size="md"
+        color={"var(--appColorAccent)"}
+        asChild
+        cursor="pointer"
+        _hover={{ opacity: 0.6 }}
+        onClick={() => {
+          const temp = compareInfo;
+          setCompareInfo({ ...compareWithInfo });
+          setCompareWithInfo({ ...temp });
+        }}
+        alignSelf={"center"}
+        mt={4}
+      >
+        <FaArrowRightArrowLeft></FaArrowRightArrowLeft>
+      </Icon>
+    );
+  };
+
   return (
     <Box className="background" pb={"4rem"}>
       <Center>
@@ -406,24 +429,7 @@ export default function ComparePage(props) {
                       setIsCompareSearchModalOpen,
                     )}
                   </Box>
-                  {compareInfo && compareWithInfo && (
-                    <Icon
-                      size="md"
-                      color={"var(--appColorAccent)"}
-                      asChild
-                      cursor="pointer"
-                      _hover={{ opacity: 0.6 }}
-                      onClick={() => {
-                        const temp = compareInfo;
-                        setCompareInfo({ ...compareWithInfo });
-                        setCompareWithInfo({ ...temp });
-                      }}
-                      alignSelf={"center"}
-                      mt={4}
-                    >
-                      <FaArrowRightArrowLeft></FaArrowRightArrowLeft>
-                    </Icon>
-                  )}
+                  {/* {renderSwapCompareButton()} */}
                   <Box flex="1">
                     {renderCompareInput(
                       "With",
