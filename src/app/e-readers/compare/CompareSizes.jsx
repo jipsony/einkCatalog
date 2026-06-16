@@ -530,7 +530,8 @@ export default function CompareSizes(props) {
                                   <Menu.CheckboxItem
                                     key={"handheldSearch"}
                                     value={"handheldSearch"}
-                                    onClick={() => {
+                                    checked={false}
+                                    onCheckedChange={() => {
                                       setIsModalOpen(true);
                                     }}
                                   >
@@ -538,6 +539,7 @@ export default function CompareSizes(props) {
                                       <FaMagnifyingGlass />
                                     </Icon>
                                     Add {individualItemLabel}
+                                    <Menu.ItemIndicator />
                                   </Menu.CheckboxItem>
                                   <CompareReferencesSubMenu
                                     label="Add Phone"
@@ -555,11 +557,15 @@ export default function CompareSizes(props) {
                                         <Menu.CheckboxItem
                                           key={menuRow.id}
                                           value={menuRow.id}
-                                          onClick={() =>
+                                          checked={objectsToCompare?.some(
+                                            (row) => row.id === menuRow.id,
+                                          )}
+                                          onCheckedChange={() =>
                                             onSelectReference(menuRow.id)
                                           }
                                         >
                                           {menuRow.name}
+                                          <Menu.ItemIndicator />
                                         </Menu.CheckboxItem>
                                       );
                                     })}
@@ -652,7 +658,8 @@ export default function CompareSizes(props) {
                                 }
                               >
                                 <Menu.CheckboxItem
-                                  onClick={() => {
+                                  checked={!!settings?.transparency}
+                                  onCheckedChange={() => {
                                     setSettings((prev) => ({
                                       ...prev,
                                       transparency: !prev.transparency,
@@ -661,33 +668,26 @@ export default function CompareSizes(props) {
                                   value={"transparency"}
                                 >
                                   Transparency
+                                  <Menu.ItemIndicator />
                                 </Menu.CheckboxItem>
                               </Menu.ItemGroup>
                               <Menu.RadioItemGroup
                                 title="Unit"
-                                defaultValue={settings?.unit}
+                                value={settings?.unit}
+                                onValueChange={(e) => {
+                                  setSettings((prev) => ({
+                                    ...prev,
+                                    unit: e.value,
+                                  }));
+                                }}
                               >
-                                <Menu.RadioItem
-                                  onClick={() => {
-                                    setSettings((prev) => ({
-                                      ...prev,
-                                      unit: "metric",
-                                    }));
-                                  }}
-                                  value={"metric"}
-                                >
+                                <Menu.RadioItem value={"metric"}>
                                   Metric (mm, g)
+                                  <Menu.ItemIndicator />
                                 </Menu.RadioItem>
-                                <Menu.RadioItem
-                                  onClick={() => {
-                                    setSettings((prev) => ({
-                                      ...prev,
-                                      unit: "imperial",
-                                    }));
-                                  }}
-                                  value={"imperial"}
-                                >
+                                <Menu.RadioItem value={"imperial"}>
                                   Imperial (inch, oz)
+                                  <Menu.ItemIndicator />
                                 </Menu.RadioItem>
                               </Menu.RadioItemGroup>
                             </Menu.Content>
@@ -792,7 +792,7 @@ export default function CompareSizes(props) {
                         : objectsToCompare
                       ).map((row, idx) => {
                         return (
-                          <React.Fragment key={row.id}>
+                          <React.Fragment key={`${row.id}-${idx}`}>
                             {renderCompareImage(row, idx)}
                             {displayMode === "sideBySide" &&
                               idx !== objectsToCompare.length - 1 && (

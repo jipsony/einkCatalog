@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Icon, Menu, Portal } from "@chakra-ui/react";
+import { Icon, Menu, Portal } from "@chakra-ui/react";
 import { FaChevronLeft } from "react-icons/fa6";
 
 export default function CompareReferencesSubMenu(props) {
@@ -38,9 +38,11 @@ export default function CompareReferencesSubMenu(props) {
                   <Menu.CheckboxItem
                     key={menuRow.id}
                     value={menuRow.id}
-                    onClick={() => props.onSelectReference?.(menuRow.id)}
+                    checked={selectedReferenceIds.includes(menuRow.id)}
+                    onCheckedChange={() => props.onSelectReference?.(menuRow.id)}
                   >
                     {menuRow.name}
+                    <Menu.ItemIndicator />
                   </Menu.CheckboxItem>
                 );
               })}

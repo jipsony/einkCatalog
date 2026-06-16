@@ -142,7 +142,6 @@ export default function ItemFullInfoCard(props) {
         color="var(--appColorAccent)"
       >
         <HStack
-          //  ml={"-0.4em"}
           mb={1}
           borderRadius={3}
         >
@@ -151,7 +150,6 @@ export default function ItemFullInfoCard(props) {
               size="18"
               style={{ flexShrink: 0 }}
               opacity=".6"
-              //   color="var(--appColorDarkGrey)"
             />
           )}
           <Heading
@@ -161,17 +159,6 @@ export default function ItemFullInfoCard(props) {
           >
             {section.label}
           </Heading>
-
-          {/* <Box
-            ml="1rem"
-            flex="1"
-            borderTopWidth="1px"
-            borderRadius={"4px"}
-            borderColor={"var(--appColorAccent)"}
-            position="relative"
-            alignSelf="center"
-            opacity={0.1}
-          ></Box> */}
         </HStack>
       </Box>
     );
@@ -184,8 +171,8 @@ export default function ItemFullInfoCard(props) {
           key={sectionKey}
           borderTop={0}
           borderBottom={0}
-          pr={"1rem"}
-          pl={"1rem"}
+          px={"1rem"}
+          // pl={"1rem"}
           pb=".5rem"
         >
           {renderSectionTitle(section)}
@@ -199,20 +186,21 @@ export default function ItemFullInfoCard(props) {
         <Flex alignItems={"stretch"}>
           <Flex
             flexWrap={"wrap"}
-            position="absolute"
+            // position="absolute"
             bottom="0.6rem"
             pb={0}
             mb={0}
+            px="1rem"
           >
             <Box
-              color="var(--appColorLinkBlue)"
+              color="var(--appColorAccent)"
               display={"inline"}
-              fontSize={".9rem"}
+              // fontSize={".9rem"}
             >
               <AppLink href={`/e-readers/${props.itemInfo.id}`}>
                 <HStack
                   gap={1}
-                  _hover={{ color: "var(--appColorText)" }}
+                  _hover={{ color: "var(--foreground)" }}
                   textDecor={"underline"}
                   fontWeight={"600"}
                 >
