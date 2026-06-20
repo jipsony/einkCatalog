@@ -15,7 +15,11 @@ export const renderAtrributeIcons = (itemInfo) => {
     <Flex gap="4px" alignItems="center">
       {iconFeatures.map((f) => {
         const Icon = f.icon;
-        return <Icon key={f.attribute} size={14} />;
+        return (
+          <Box key={f.attribute} as="span" title={f.label} display="inline-flex">
+            <Icon size={14} />
+          </Box>
+        );
       })}
     </Flex>
   );
@@ -23,8 +27,10 @@ export const renderAtrributeIcons = (itemInfo) => {
 
 export const renderScreenSpecsPreview = (itemInfo) => {
   return (
-    <Box flexShrink={0} overflow="hidden">
-      {itemInfo?.screenSize}” &bull; {itemInfo?.aspectRatio}
+    <Box flexShrink={0} overflow="hidden" as="span">
+      <Box as="span" title="Screen Size">{itemInfo?.screenSize}"</Box>
+      {" "}&bull;{" "}
+      <Box as="span" title="Aspect Ratio">{itemInfo?.aspectRatio}</Box>
     </Box>
   );
 };
