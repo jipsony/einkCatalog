@@ -8,7 +8,9 @@
   --appColorAccent: #18519b;
   --appColorLight: #e0eeff;
   --appColorDarkGrey: #707e91;
+  --appColorLightGrey: #e4e4e7;
   --appColorCardBackground: #faf8f1;
+
 }
 
 :root.dark {
@@ -19,6 +21,8 @@
   --appColorLight: var(--background);
   --appColorCardBackground: #1e2027;
   --appColorDarkGrey: #b0c7e9;
+  --appColorLightGrey: #191b25;
+
 }
 
 @theme inline {
@@ -63,3 +67,6 @@ button {
 .chakra-menu__item {
   cursor: pointer;
 }
+
+
+

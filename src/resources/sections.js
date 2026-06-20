@@ -11,8 +11,16 @@ import {
   LuStar,
   LuFingerprint,
   LuCpu,
+  LuBluetooth,
+  LuWifiHigh,
+  LuLamp,
+  LuPen,
+  LuWifi,
+  LuSun,
 } from "react-icons/lu";
+import { MdColorLens, MdOutlineTouchApp } from "react-icons/md";
 import { PiRadioButtonFill } from "react-icons/pi";
+import { TbMobiledata } from "react-icons/tb";
 
 const sections = {
   features: {
@@ -21,15 +29,25 @@ const sections = {
     attributes: [
       //   { attribute: "frontLight", label: "Front Light", type: "tag" },
       //   { attribute: "backlight", label: "Back Light", type: "tag" },
-      { attribute: "screenLight", label: "Screen Light", type: "tag" },
+      { attribute: "screenLight", label: "Screen Light", type: "tag", icon: LuSun },
       //   { attribute: "frontLightCold", label: "Front Light (Cold)", type: "tag" },
-      { attribute: "colorDisplay", label: "Color Display", type: "tag" },
+      { attribute: "colorDisplay", label: "Color Display", type: "tag", icon: MdColorLens },
       { attribute: "darkMode", label: "Dark Mode", type: "tag" },
-      { attribute: "wifi", label: "WiFi", type: "tag" },
-      { attribute: "bluetooth", label: "Bluetooth", type: "tag" },
+      { attribute: "wifi", label: "WiFi", type: "tag", icon: LuWifi },
+      {
+        attribute: "bluetooth",
+        label: "Bluetooth",
+        type: "tag",
+        icon: LuBluetooth,
+      },
       { attribute: "sdCard", label: "SD Card Slot", type: "tag" },
       { attribute: "usbc", label: "USB C", type: "tag" },
-      { attribute: "mobileData", label: "Mobile Data", type: "tag" },
+      {
+        attribute: "mobileData",
+        label: "Mobile Data",
+        type: "tag",
+        icon: TbMobiledata,
+      },
       { attribute: "speakers", label: "Speakers", type: "tag" },
       { attribute: "browser", label: "Modern Browser", type: "tag" },
       { attribute: "textToSpeech", label: "Text To Speech", type: "tag" },
@@ -106,14 +124,14 @@ const sections = {
     label: "Controls",
     icon: IoMdRadioButtonOn,
     attributes: [
-      { attribute: "touchscreen", label: "Touchscreen", type: "tag" },
+      { attribute: "touchscreen", label: "Touchscreen", type: "tag", icon: MdOutlineTouchApp },
       { attribute: "pageTurnButtons", label: "Page Buttons", type: "tag" },
       {
         attribute: "automaticRotation",
         label: "Auto-Rotation",
         type: "tag",
       },
-      { attribute: "stylusSupport", label: "Stylus Support", type: "tag" },
+      { attribute: "stylusSupport", label: "Stylus Support", type: "tag", icon: LuPen },
     ],
   },
   techSpecs: {

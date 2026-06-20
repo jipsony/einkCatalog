@@ -13,7 +13,7 @@
     "operatingSystem": [
       "Kindle firmware"
     ],
-    "dimensions": " 127.6 x 176.7 x 7.8",
+    "dimensions": "127.6 x 176.7 x 7.8",
     "weight": 215,
     "cpu": "2.0 GHz dual core",
     "storage": "16 GB",
@@ -38,6 +38,11 @@
     "pageTurnButtons": false,
     "automaticRotation": false,
     "stylusSupport": false,
+    "categories": [
+      "Color",
+      "Touch screen",
+      "Screen light"
+    ],
     "dimensionsH": 176.7,
     "dimensionsL": 127.6,
     "dimensionsW": 7.8,
@@ -83,6 +88,11 @@
     "pageTurnButtons": true,
     "automaticRotation": true,
     "stylusSupport": true,
+    "categories": [
+      "Color",
+      "Screen light",
+      "Kindle alternative"
+    ],
     "dimensionsH": 161,
     "dimensionsL": 144.6,
     "dimensionsW": 8.3,
@@ -147,6 +157,11 @@
     "pageTurnButtons": true,
     "darkMode": true,
     "waterproof": false,
+    "categories": [
+      "Compact",
+      "Budget",
+      "mini-ereader"
+    ],
     "dimensionsH": 114,
     "dimensionsL": 69,
     "dimensionsW": 5.9,

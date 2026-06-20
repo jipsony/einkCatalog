@@ -1,6 +1,8 @@
+import ItemHorizontalPreviewCard from "@/components/itemCards/ItemHorizontalPreviewCard";
+import ItemVerticalPreviewCard from "@/components/itemCards/ItemVerticalPreviewCard";
 import AppLink from "@/components/toolsComponents/AppLink";
 import { items } from "@/lib/item/items";
-import { Box, Stack } from "@chakra-ui/react";
+import { Box, Grid, Separator, SimpleGrid, Stack } from "@chakra-ui/react";
 import React from "react";
 
 export default function FrontPage(props) {
@@ -9,8 +11,29 @@ export default function FrontPage(props) {
       {items?.map((row) => (
         <Stack key={row?.id}>
           <AppLink key={row?.id} href={"/e-readers/" + row?.id}>
-            {row?.brand}{" "}{row?.name}
+            {row?.brand} {row?.name}
           </AppLink>
+        </Stack>
+      ))}
+
+      <Separator my="2rem"></Separator>
+
+      <SimpleGrid
+        templateColumns={{ lg: "1fr 1fr 1fr", md: "1fr 1fr" }}
+        gap="1rem"
+      >
+        {items?.map((row) => (
+          <Box key={row?.id}>
+            <ItemVerticalPreviewCard itemInfo={row} />
+          </Box>
+        ))}
+      </SimpleGrid>
+
+      <Separator my="2rem"></Separator>
+
+      {items?.map((row) => (
+        <Stack key={row?.id} gap="1rem" dir="horizontal">
+          <ItemHorizontalPreviewCard itemInfo={row}></ItemHorizontalPreviewCard>
         </Stack>
       ))}
     </Box>

@@ -15,6 +15,7 @@ export default function ItemFullInfoPage(props) {
         direction={{ base: "column", [directionBreakpoint]: "row" }}
         // fontFamily={"var(--font-roboto-mono), Arial, sans-serif"}
         rowGap={0}
+        columnGap={"1rem"}
       >
         <Box minWidth={{ [directionBreakpoint]: "18rem" }}>
           <ItemImageCard itemInfo={props?.itemInfo}></ItemImageCard>
