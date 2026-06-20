@@ -21,6 +21,8 @@ export default function AppHeader(props) {
       zIndex={1100}
       m={0}
       p={0}
+      mx={"-5px"}
+      px={"5px"}
       width={{ base: "100%", lg: "auto" }}
       backgroundColor={"var(--background)"}
     >
