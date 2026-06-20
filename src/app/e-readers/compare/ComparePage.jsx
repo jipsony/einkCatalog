@@ -81,7 +81,7 @@ export default function ComparePage(props) {
             fontWeight={"bold"}
             pl={"2rem"}
             pr={"1rem"}
-            color="var(--appColorLightGrey)"
+            // color="var(--appColorLightGrey)"
           >
             <Stack
               direction={{ base: "column", lg: "row" }}

@@ -6,6 +6,29 @@ import { buildItemFullInfoLink } from "@/lib/appGlobals";
 import { allFeatures } from "@/resources/sections";
 import { MdBorderColor } from "react-icons/md";
 
+export const renderAtrributeIcons = (itemInfo) => {
+  const iconFeatures = allFeatures.filter(
+    (f) => f.icon && itemInfo?.[f.attribute],
+  );
+  if (!iconFeatures.length) return null;
+  return (
+    <Flex gap="4px" alignItems="center">
+      {iconFeatures.map((f) => {
+        const Icon = f.icon;
+        return <Icon key={f.attribute} size={14} />;
+      })}
+    </Flex>
+  );
+};
+
+export const renderScreenSpecsPreview = (itemInfo) => {
+  return (
+    <Box flexShrink={0} overflow="hidden">
+      {itemInfo?.screenSize}” &bull; {itemInfo?.aspectRatio}
+    </Box>
+  );
+};
+
 export default function ItemVerticalPreviewCard(props) {
   const categories = props.itemInfo?.categories ?? [];
 
@@ -35,29 +58,15 @@ export default function ItemVerticalPreviewCard(props) {
     </Flex>;
   };
 
-  const renderAtrributeIcons = (itemInfo) => {
-    const iconFeatures = allFeatures.filter(
-      (f) => f.icon && itemInfo?.[f.attribute],
-    );
-    if (!iconFeatures.length) return null;
-    return (
-      <Flex gap="4px" alignItems="center">
-        {iconFeatures.map((f) => {
-          const Icon = f.icon;
-          return <Icon key={f.attribute} size={14} />;
-        })}
-      </Flex>
-    );
-  };
-
   return (
-    <ItemCard
-      minH={"18rem"}
-      p={0}
-      _hover={{ borderColor: "black" }}
-      h="100%"
-    >
-      <a href={buildItemFullInfoLink(props?.itemInfo?.id)}>
+    <ItemCard minH={"18rem"} p={0} _hover={{ borderColor: "var(--foreground)" }} h="100%">
+      <Box
+        as="a"
+        height="100%"
+        display="flex"
+        flexDirection="column"
+        href={buildItemFullInfoLink(props?.itemInfo?.id)}
+      >
         <Box
           mx="1rem"
           mt="1rem"
@@ -90,19 +99,18 @@ export default function ItemVerticalPreviewCard(props) {
               <Box overflow="hidden" flexShrink={1} minW={0}>
                 {renderAtrributeIcons(props.itemInfo)}
               </Box>
-              <Box flexShrink={0} overflow="hidden">
-                {props.itemInfo?.screenSize}” &bull;{" "}
-                {props.itemInfo?.aspectRatio}
-              </Box>
+              {renderScreenSpecsPreview(props.itemInfo)}
             </Flex>
           </Box>
         </Box>
 
         <Box
-          h="4rem"
+          minHeight="6rem"
           display="flex"
           alignItems="center"
           justifyContent="center"
+          flexGrow={1}
+
         >
           <Text fontSize="sm" textAlign="center" fontWeight={800}>
             {props.itemInfo?.fullName}
@@ -110,7 +118,7 @@ export default function ItemVerticalPreviewCard(props) {
         </Box>
 
         {/* {renderCategories()} */}
-      </a>
+      </Box>
     </ItemCard>
   );
 }
