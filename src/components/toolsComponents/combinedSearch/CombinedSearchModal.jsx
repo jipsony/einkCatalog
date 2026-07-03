@@ -4,7 +4,7 @@ import { useRouter } from "next/navigation";
 import CombinedSearchInput from "./CombinedSearchInput";
 import CombinedSearchResults from "./CombinedSearchResults";
 import itemsSearchList from "@/resources/itemsSearchList.json";
-import { buildItemFullInfoLink, itemRoute } from "@/lib/appGlobals";
+import { buildItemFullInfoLink, itemMainRoute } from "@/lib/appGlobals";
 
 export default function CombinedSearchModal(props) {
   const { open, onOpen, onClose } = useDisclosure();

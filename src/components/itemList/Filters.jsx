@@ -28,9 +28,6 @@ import {
   Portal,
 } from "@chakra-ui/react";
 
-import consoleDefInitial from "@/resources/def/consoleDefForHandhelds.json";
-
-const consoleDef = consoleDefInitial.toReversed();
 
 import IconsWrapper from "./IconsWrapper";
 import { fetchFilterValues } from "../../app/lib/serverRequests";
@@ -230,85 +227,6 @@ export default function Filters(props) {
       },
     }));
     props.setFilters(clearedFilters);
-  };
-
-  // TODO: Communilize all render filters functions
-  const renderConsoleCompatibilityFilters = () => {
-    const defaultIndex = consoleDef.some((console) => {
-      if (props.filtersToOpenByDefault) {
-        return isFilterToOpenByDefault(console, true, "attribute");
-      }
-      return props.filters.find((f) => f.key === console.attribute)?.active;
-    })
-      ? [0]
-      : undefined;
-    return (
-      <>
-        <Accordion.Root
-          multiple
-          collapsible={false}
-          defaultValue={defaultIndex}
-        >
-          <Accordion.Item value="item-consoleCompatibility">
-            <Accordion.ItemTrigger>
-              <Box
-                as="span"
-                flex="1"
-                textAlign="left"
-                // fontWeight={"bold"}
-              >
-                <Box display="inline">
-                  <IconsWrapper
-                    icon={sections.consoleCompatibility.icon}
-                    style={{ width: "2rem" }}
-                    color={
-                      consoleDef.some(
-                        (console) => localWipValues[console.attribute]?.active,
-                      )
-                        ? "var(--appColorAccent)"
-                        : undefined
-                    }
-                  ></IconsWrapper>
-                </Box>
-                <Box display={"inline"}>Consoles - Emulation Performance</Box>
-              </Box>
-              <Accordion.ItemIndicator />
-            </Accordion.ItemTrigger>
-            <Accordion.ItemContent>
-              <Accordion.ItemBody>
-                <Box
-                  borderLeftWidth={"2px"}
-                  borderColor={"var(--appColorLighterGrey)"}
-                  ml={5}
-                  display="flex"
-                  flexDirection={"column"}
-                >
-                  {consoleDef.map((console) => (
-                    <Checkbox.Root
-                      key={console.label}
-                      ml={3}
-                      onCheckedChange={({ checked }) =>
-                        handleFilterChange(console.attribute, checked)
-                      }
-                      checked={
-                        localWipValues[console.attribute]?.active || false
-                      }
-                      mb="3px"
-                    >
-                      <Checkbox.HiddenInput />
-                      <Checkbox.Control>
-                        <Checkbox.Indicator />
-                      </Checkbox.Control>
-                      <Checkbox.Label>{console.label}</Checkbox.Label>
-                    </Checkbox.Root>
-                  ))}
-                </Box>
-              </Accordion.ItemBody>
-            </Accordion.ItemContent>
-          </Accordion.Item>
-        </Accordion.Root>
-      </>
-    );
   };
 
   const renderSpecialCategoryFilters = () => {
@@ -779,7 +697,6 @@ export default function Filters(props) {
                     Specifications
                   </Heading>
                 </Center>
-                {renderConsoleCompatibilityFilters()}
                 {renderSectionFilters()}
               </Drawer.Body>
               <Drawer.Footer>

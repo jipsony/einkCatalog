@@ -9,7 +9,7 @@ export default function AppLogo(props) {
       className="appHeaderLink"
       fontSize={"20px"}
     >
-      E-INK CATALOG
+      E-READER CATALOG
     </Box>
   );
 }

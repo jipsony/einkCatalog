@@ -10,6 +10,7 @@ import {
   layoutWidth,
   pageWidth,
 } from "@/lib/sizes";
+import Sandbox from "@/components/Sandbox";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -37,7 +38,7 @@ export const metadata = {
   description: "E-INK CATALOG",
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ children, ...props }) {
   return (
     <html
       lang="en"

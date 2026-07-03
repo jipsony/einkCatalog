@@ -234,7 +234,7 @@ export default function ItemMainInfoCard(props) {
             <Box
               cursor={"pointer"}
               // color="var(--appColorAccentDark)"
-              color="var(--appColorLinkBlue)"
+              color="var(--appColorLink)"
               fontSize={"12px"}
             >
               <AppLink
@@ -265,7 +265,7 @@ export default function ItemMainInfoCard(props) {
             <Box
               cursor={"pointer"}
               // color="var(--appColorAccentDark)"
-              color="var(--appColorLinkBlue)"
+              color="var(--appColorLink)"
               fontSize={"12px"}
               textAlign={"end"}
               alignSelf={"flex-end"}

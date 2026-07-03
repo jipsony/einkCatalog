@@ -1,7 +1,7 @@
 "use client";
 import { React, useTransition } from "react";
 
-import { Steps, Button, Center, Flex, HStack } from "@chakra-ui/react";
+import { Button, Center, Flex, HStack } from "@chakra-ui/react";
 
 import IconsWrapper from "./IconsWrapper";
 
@@ -73,11 +73,11 @@ export default function Pagination(props) {
                 borderRightRadius={0}
                 borderRight={0}
                 onClick={handleLoadMore}
-                disabled={
+                isDisabled={
                   props.pagination.to >=
                   props.defJsonBeforePagination.length - 1
                 }
-                loading={isLoading}
+                isLoading={isLoading}
               >
                 Load More...
               </Button>
@@ -97,7 +97,7 @@ export default function Pagination(props) {
                     props.openFilters(true);
                   });
                 }}
-                loading={
+                isLoading={
                   isPendingSmallFilterButton ||
                   props.isLoadingSmallFilterButton
                 }

@@ -27,7 +27,7 @@ export default function BigSectionTitle(props) {
     <Flex
       mb=".8rem"
       textAlign="left"
-      style={{ wordSpacing: "3px" }}
+      // style={{ wordSpacing: "3px" }}
       fontWeight={"700"}
       color={"var(--appColorText)"}
       {...props}

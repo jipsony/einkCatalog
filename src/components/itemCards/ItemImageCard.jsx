@@ -11,7 +11,9 @@ export default function ItemImageCard(props) {
       alignItems="center"
       justifyContent="center"
     >
-      <Image maxH={"10rem"} src={buildFrontImageUrl(props.itemInfo?.id)}></Image>
+      <Image
+       maxH={"15rem"}
+       src={buildFrontImageUrl(props.itemInfo?.id)}></Image>
     </ItemCard>
   );
 }

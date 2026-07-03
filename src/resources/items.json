@@ -13,7 +13,7 @@
     "operatingSystem": [
       "Kindle firmware"
     ],
-    "dimensions": "127.6 x 176.7 x 7.8",
+    "dimensions": " 127.6 x 176.7 x 7.8",
     "weight": 215,
     "cpu": "2.0 GHz dual core",
     "storage": "16 GB",
@@ -39,14 +39,47 @@
     "automaticRotation": false,
     "stylusSupport": false,
     "categories": [
-      "Color",
-      "Touch screen",
-      "Screen light"
+      "Mid-Range",
+      "Medium Size"
     ],
     "dimensionsH": 176.7,
     "dimensionsL": 127.6,
     "dimensionsW": 7.8,
-    "fullName": "Amazon Kindle Colorsoft"
+    "priceCategory": "Mid-Range",
+    "sizeCategory": "Medium Size",
+    "fullName": "Amazon Kindle Colorsoft",
+    "similar": [
+      "kobo-libra-color",
+      "xteink-x4"
+    ],
+    "pros": [
+      {
+        "text": "Sharp text thanks to the 300 PPI screen"
+      },
+      {
+        "text": "Color screen is great for comics, magazines, and illustrated books"
+      },
+      {
+        "text": "Good 2310 mAh battery for everyday use"
+      },
+      {
+        "text": "Adjustable front light for comfortable reading in any lighting"
+      },
+      {
+        "text": "Bluetooth support enables connecting accessories"
+      },
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "No physical page turn buttons, all navigation is done via the touchscreen"
+      },
+      {
+        "text": "No expandable storage"
+      }
+    ]
   },
   {
     "id": "kobo-libra-color",
@@ -89,14 +122,50 @@
     "automaticRotation": true,
     "stylusSupport": true,
     "categories": [
-      "Color",
-      "Screen light",
-      "Kindle alternative"
+      "Mid-Range",
+      "Medium Size"
     ],
     "dimensionsH": 161,
     "dimensionsL": 144.6,
     "dimensionsW": 8.3,
-    "fullName": "Kobo Libra Color"
+    "priceCategory": "Mid-Range",
+    "sizeCategory": "Medium Size",
+    "fullName": "Kobo Libra Color",
+    "similar": [
+      "kindle-colorsoft",
+      "xteink-x4"
+    ],
+    "pros": [
+      {
+        "text": "Sharp text thanks to the 300 PPI screen"
+      },
+      {
+        "text": "Color screen is great for comics, magazines, and illustrated books"
+      },
+      {
+        "text": "Physical page turn buttons"
+      },
+      {
+        "text": "Stylus support is great for annotations and note-taking"
+      },
+      {
+        "text": "Good 2050 mAh battery for everyday use"
+      },
+      {
+        "text": "Adjustable front light for comfortable reading in any lighting"
+      },
+      {
+        "text": "Bluetooth support enables connecting accessories"
+      },
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "No expandable storage"
+      }
+    ]
   },
   {
     "id": "xteink-x4",
@@ -158,13 +227,55 @@
     "darkMode": true,
     "waterproof": false,
     "categories": [
-      "Compact",
       "Budget",
-      "mini-ereader"
+      "Compact"
     ],
     "dimensionsH": 114,
     "dimensionsL": 69,
     "dimensionsW": 5.9,
-    "fullName": "Xteink X4"
+    "priceCategory": "Budget",
+    "sizeCategory": "Compact",
+    "fullName": "Xteink X4",
+    "similar": [
+      "kindle-colorsoft",
+      "kobo-libra-color"
+    ],
+    "pros": [
+      {
+        "text": "Budget-friendly"
+      },
+      {
+        "text": "Physical page turn buttons"
+      },
+      {
+        "text": "Expandable storage via SD card"
+      },
+      {
+        "text": "Small form factor makes it very portable"
+      },
+      {
+        "text": "Slim design at only 5.9mm thick"
+      },
+      {
+        "text": "Bluetooth support enables connecting accessories"
+      },
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "No front light, requires external lighting to read in the dark"
+      },
+      {
+        "text": "No touchscreen, navigation relies entirely on physical buttons"
+      },
+      {
+        "text": "4.3\" screen may be too small for some"
+      },
+      {
+        "text": "Small 650 mAh battery, may require more frequent charging than other e-readers"
+      }
+    ]
   }
 ]

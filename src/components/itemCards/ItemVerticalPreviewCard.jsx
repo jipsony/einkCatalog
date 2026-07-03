@@ -3,27 +3,7 @@ import { Box, Flex, Image, Text } from "@chakra-ui/react";
 import ItemCard from "./ItemCard";
 import { buildFrontImageUrl } from "@/lib/images";
 import { buildItemFullInfoLink } from "@/lib/appGlobals";
-import { allFeatures } from "@/resources/sections";
-import { MdBorderColor } from "react-icons/md";
-
-export const renderAtrributeIcons = (itemInfo) => {
-  const iconFeatures = allFeatures.filter(
-    (f) => f.icon && itemInfo?.[f.attribute],
-  );
-  if (!iconFeatures.length) return null;
-  return (
-    <Flex gap="4px" alignItems="center">
-      {iconFeatures.map((f) => {
-        const Icon = f.icon;
-        return (
-          <Box key={f.attribute} as="span" title={f.label} display="inline-flex">
-            <Icon size={14} />
-          </Box>
-        );
-      })}
-    </Flex>
-  );
-};
+import ItemAttributeIcons from "./ItemAttributeIcons";
 
 export const renderScreenSpecsPreview = (itemInfo) => {
   return (
@@ -103,7 +83,7 @@ export default function ItemVerticalPreviewCard(props) {
               flexWrap="nowrap"
             >
               <Box overflow="hidden" flexShrink={1} minW={0}>
-                {renderAtrributeIcons(props.itemInfo)}
+                <ItemAttributeIcons itemInfo={props.itemInfo} />
               </Box>
               {renderScreenSpecsPreview(props.itemInfo)}
             </Flex>

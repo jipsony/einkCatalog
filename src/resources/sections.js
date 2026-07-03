@@ -53,6 +53,8 @@ const sections = {
       { attribute: "textToSpeech", label: "Text To Speech", type: "tag" },
       { attribute: "waterproof", label: "Waterproofing", type: "tag" },
       //   { attribute: "waterproofRating", label: "Waterproof Rating" },
+      //   { attribute: "wirelessCharging", label: "Wireless Charging" },
+      
     ],
   },
   display: {

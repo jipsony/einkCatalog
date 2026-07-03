@@ -1,10 +1,8 @@
 import { Box, HStack, Image, Stack, Text } from "@chakra-ui/react";
 import React from "react";
 import ItemCard from "./ItemCard";
-import {
-  renderAtrributeIcons,
-  renderScreenSpecsPreview,
-} from "./ItemVerticalPreviewCard";
+import { renderScreenSpecsPreview } from "./ItemVerticalPreviewCard";
+import ItemAttributeIcons from "./ItemAttributeIcons";
 import { buildFrontImageUrl } from "@/lib/images";
 import { buildItemFullInfoLink } from "@/lib/appGlobals";
 import { LuArrowLeftRight } from "react-icons/lu";
@@ -15,9 +13,9 @@ export default function ItemHorizontalPreviewCard(props) {
       <HStack gap={0} h="100%">
         <a
           href={buildItemFullInfoLink(props?.itemInfo?.id)}
-          style={{ flex: 1, minWidth: 0, display: "flex" }}
+          style={{ flex: 1, minWidth: 0, display: "flex", height: "100%" }}
         >
-          <HStack gap={0} flex={1} minW={0}>
+          <HStack gap={0} flex={1} minW={0} h={"100%"}>  
             <Box
               flexShrink={0}
               display="flex"
@@ -25,9 +23,11 @@ export default function ItemHorizontalPreviewCard(props) {
               justifyContent="center"
               backgroundColor={"var(--appColorLightGrey)"}
               w={"8rem"}
+              // h={"100%"}
+              // minH={"6rem"}
               h={"100%"}
-              minH={"6rem"}
-              p={"0.5rem"}
+              // p={"0.5rem"}
+              borderLeftRadius={"4px"}
             >
               <Image
                 src={buildFrontImageUrl(props.itemInfo?.id)}
@@ -45,7 +45,7 @@ export default function ItemHorizontalPreviewCard(props) {
                 color={"var(--appColorAccent)"}
                 opacity={0.8}
               >
-                {renderAtrributeIcons(props.itemInfo)}
+                <ItemAttributeIcons itemInfo={props.itemInfo} />
               </Box>
               <Box
                 fontSize="11px"

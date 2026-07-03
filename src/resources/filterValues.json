@@ -1,0 +1,37 @@
+{
+  "brand": [
+    "Amazon",
+    "Kobo",
+    "Xteink"
+  ],
+  "operatingSystem": [
+    "Kindle firmware",
+    "Kobo firmware",
+    "Proprietary"
+  ],
+  "aspectRatio": [
+    "3:4",
+    "3:5"
+  ],
+  "sizeCategory": [
+    "Micro",
+    "Compact",
+    "Medium",
+    "Big",
+    "Medium Size"
+  ],
+  "priceCategory": [
+    "Ultra Budget",
+    "Budget",
+    "Mid-Range",
+    "High-End"
+  ],
+  "screenSize": [
+    4.3,
+    7
+  ],
+  "screenType": [
+    "E INK",
+    "E Ink Kaleido 3"
+  ]
+}

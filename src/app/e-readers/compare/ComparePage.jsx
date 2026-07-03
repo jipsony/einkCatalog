@@ -17,7 +17,12 @@ import {
   Icon,
 } from "@chakra-ui/react";
 import { FaArrowRightArrowLeft } from "react-icons/fa6";
-import { buildFullName, generateCompareTitle, itemsLabel } from "@/lib/appGlobals";
+import {
+  buildFullName,
+  generateCompareTitle,
+  itemMainRoute,
+  itemsLabel,
+} from "@/lib/appGlobals";
 import { getItemInfo } from "@/lib/item/items";
 import {
   compareColor,
@@ -30,9 +35,10 @@ import CombinedSearchInput from "@/components/toolsComponents/combinedSearch/Com
 import CombinedSearchModal from "@/components/toolsComponents/combinedSearch/CombinedSearchModal";
 import CompareKeyValueIcon from "./CompareKeyValueIcon";
 import { itemsSearchList } from "@/lib/item/itemSearchList";
+import AppBreadcrumbs from "@/components/toolsComponents/AppBreadcrumbs";
 
 export default function ComparePage(props) {
-  const parentPagePath = "/e-readers/compare";
+  const parentPagePath = `${itemMainRoute}/compare`;
   const [isActiveSearchCompare, setIsActiveSearchCompare] = useState(true);
   const [isActiveSearchCompareWith, setIsActiveSearchCompareWith] =
     useState(true);
@@ -200,18 +206,14 @@ export default function ComparePage(props) {
     }
   };
 
-  const breadCrumbsList = [
+  const breadcrumbList = [
     {
-      label: "Home",
-      path: "/",
-    },
-    {
-      label: "Retro Handheld List",
-      path: "/retro-handhelds",
+      label: itemsLabel,
+      path: itemMainRoute,
     },
     {
       label: `Comparison Tool`,
-      path: `/compare`,
+      path: `/${itemMainRoute}/compare`,
       isCurrentPage: true,
     },
   ];
@@ -376,88 +378,90 @@ export default function ComparePage(props) {
   };
 
   return (
-    <Box className="background" pb={"4rem"}>
-      <Center>
-        <Box
-          // width={{ base: cardSize, lg: cardSize * 2 }}
-          w="100%"
-        >
-          {/* <Box ml={"1.2rem"}>
-            <AppBreadcrumbs breadCrumbsList={breadCrumbsList}></AppBreadcrumbs>
+    <>
+      <AppBreadcrumbs breadcrumbList={breadcrumbList}></AppBreadcrumbs>
+      <Box className="background" pb={"4rem"}>
+        <Center>
+          <Box
+            // width={{ base: cardSize, lg: cardSize * 2 }}
+            w="100%"
+          >
+            {/* <Box ml={"1.2rem"}>
+            <AppBreadcrumbs breadcrumbList={breadcrumbList}></AppBreadcrumbs>
           </Box> */}
-          {renderPageTitle()}
-          <Box position="relative">
-            {isPendingCompare && (
-              <Box
-                position="fixed"
-                top="50%"
-                left="50%"
-                transform="translate(-50%, -50%)"
-                zIndex={10}
-                pointerEvents="none"
-              >
-                <Spinner
-                  size="xl"
-                  color="var(--appColorDarkGrey)"
-                  borderWidth="4px"
-                />
-              </Box>
-            )}
-            <Grid
-              templateColumns={{
-                base: "1fr",
-                lg: "1fr 1fr",
-              }}
-              opacity={isPendingCompare ? 0.3 : 1}
-              columnGap={"2rem"}
-            >
-              <GridItem gridColumn={{ lg: "span 2" }}>
-                <Flex
-                  direction={{ base: "column", lg: "row" }}
-                  align={{ base: "stretch", lg: "flex-end" }}
-                  gap={{ base: 2, lg: "2rem" }}
-                  // mx="1rem"
-                  mb="1rem"
-                >
-                  <Box flex="1">
-                    {renderCompareInput(
-                      "Compare",
-                      setCompareInfo,
-                      isActiveSearchCompare,
-                      compareInfo?.fullName,
-                      isCompareSearchModalOpen,
-                      setIsCompareSearchModalOpen,
-                    )}
-                  </Box>
-                  {/* {renderSwapCompareButton()} */}
-                  <Box flex="1">
-                    {renderCompareInput(
-                      "With",
-                      setCompareWithInfo,
-                      isActiveSearchCompareWith,
-                      compareWithInfo?.fullName,
-                      isCompareWithSearchModalOpen,
-                      setIsCompareWithSearchModalOpen,
-                    )}
-                  </Box>
-                </Flex>
-              </GridItem>
-
-              <GridItem gridColumn={{ lg: "span 2" }}>
+            {renderPageTitle()}
+            <Box position="relative">
+              {isPendingCompare && (
                 <Box
-                  mb={"1rem"}
-                  // ml={"1rem"}
-                  // mr={"1rem"}
+                  position="fixed"
+                  top="50%"
+                  left="50%"
+                  transform="translate(-50%, -50%)"
+                  zIndex={10}
+                  pointerEvents="none"
                 >
-                  <CompareSizes
-                    objectsToCompare={[compareInfo, compareWithInfo].filter(
-                      (e) => !!e?.id,
-                    )}
-                    searchList={itemsSearchList}
-                  ></CompareSizes>
+                  <Spinner
+                    size="xl"
+                    color="var(--appColorDarkGrey)"
+                    borderWidth="4px"
+                  />
                 </Box>
-              </GridItem>
-              {/* {compareInfo &&
+              )}
+              <Grid
+                templateColumns={{
+                  base: "1fr",
+                  lg: "1fr 1fr",
+                }}
+                opacity={isPendingCompare ? 0.3 : 1}
+                columnGap={"2rem"}
+              >
+                <GridItem gridColumn={{ lg: "span 2" }}>
+                  <Flex
+                    direction={{ base: "column", lg: "row" }}
+                    align={{ base: "stretch", lg: "flex-end" }}
+                    gap={{ base: 2, lg: "2rem" }}
+                    // mx="1rem"
+                    mb="1rem"
+                  >
+                    <Box flex="1">
+                      {renderCompareInput(
+                        "Compare",
+                        setCompareInfo,
+                        isActiveSearchCompare,
+                        compareInfo?.fullName,
+                        isCompareSearchModalOpen,
+                        setIsCompareSearchModalOpen,
+                      )}
+                    </Box>
+                    {/* {renderSwapCompareButton()} */}
+                    <Box flex="1">
+                      {renderCompareInput(
+                        "With",
+                        setCompareWithInfo,
+                        isActiveSearchCompareWith,
+                        compareWithInfo?.fullName,
+                        isCompareWithSearchModalOpen,
+                        setIsCompareWithSearchModalOpen,
+                      )}
+                    </Box>
+                  </Flex>
+                </GridItem>
+
+                <GridItem gridColumn={{ lg: "span 2" }}>
+                  <Box
+                    mb={"1rem"}
+                    // ml={"1rem"}
+                    // mr={"1rem"}
+                  >
+                    <CompareSizes
+                      objectsToCompare={[compareInfo, compareWithInfo].filter(
+                        (e) => !!e?.id,
+                      )}
+                      searchList={itemsSearchList}
+                    ></CompareSizes>
+                  </Box>
+                </GridItem>
+                {/* {compareInfo &&
                 compareWithInfo &&
                 compareInfo?.id !== compareWithInfo?.id && (
                   <GridItem gridColumn={{ lg: "span 2" }} mx="1rem" mb="1rem">
@@ -467,75 +471,80 @@ export default function ComparePage(props) {
                     ></CompareRecap>
                   </GridItem>
                 )} */}
-              {compareInfo && (
-                <GridItem
-                  height={{ base: "auto", lg: "100%" }}
-                  mb={"2rem"}
-                  // mx="1rem"
-                >
-                  <Stack height={"100%"}>
-                    <ItemVertical
-                      clickable
-                      showSpecs={true}
-                      itemInfo={compareInfo}
-                      compareWithItemInfo={compareWithInfo}
-                      borderColor={computeBorderColor(
-                        compareInfo?.rating,
-                        compareWithInfo?.rating,
-                      )}
-                      showCompareLink={false}
-                      isComparePage
-                      showFlavorImage="end"
-                      itemsWithBuyLinks={props.itemsWithBuyLinks}
-                      appContextFromNextServer={props?.appContextFromNextServer}
-                    ></ItemVertical>
-                  </Stack>
-                </GridItem>
-              )}
-              {compareWithInfo && (
-                <GridItem
-                  height={{ base: "auto", lg: "100%" }}
-                  mt={{ base: "2rem", lg: "0" }}
-                  mb={"2rem"}
-                  // mx="1rem"
-                >
-                  <Stack height={"100%"} position="relative">
-                    <ItemVertical
-                      clickable
-                      showSpecs={true}
-                      itemInfo={compareWithInfo}
-                      compareWithItemInfo={compareInfo}
-                      borderColor={computeBorderColor(
-                        compareWithInfo?.rating,
-                        compareInfo?.rating,
-                      )}
-                      showCompareLink={false}
-                      isComparePage
-                      showFlavorImage="end"
-                      actionButton={{
-                        icon: "xmark",
-                        // color: "var(--appColorError)",
-                        color: "var(--appColorDarkGrey)",
-                        onClick: () => setCompareWithInfo(null),
-                        _hover: { opacity: 0.6 },
-                      }}
-                      itemsWithBuyLinks={props.itemsWithBuyLinks}
-                      appContextFromNextServer={props?.appContextFromNextServer}
-                    ></ItemVertical>
-                  </Stack>
-                </GridItem>
-              )}
+                {compareInfo && (
+                  <GridItem
+                    height={{ base: "auto", lg: "100%" }}
+                    mb={"2rem"}
+                    // mx="1rem"
+                  >
+                    <Stack height={"100%"}>
+                      <ItemVertical
+                        clickable
+                        showSpecs={true}
+                        itemInfo={compareInfo}
+                        compareWithItemInfo={compareWithInfo}
+                        borderColor={computeBorderColor(
+                          compareInfo?.rating,
+                          compareWithInfo?.rating,
+                        )}
+                        showCompareLink={false}
+                        isComparePage
+                        showFlavorImage="end"
+                        itemsWithBuyLinks={props.itemsWithBuyLinks}
+                        appContextFromNextServer={
+                          props?.appContextFromNextServer
+                        }
+                      ></ItemVertical>
+                    </Stack>
+                  </GridItem>
+                )}
+                {compareWithInfo && (
+                  <GridItem
+                    height={{ base: "auto", lg: "100%" }}
+                    mt={{ base: "2rem", lg: "0" }}
+                    mb={"2rem"}
+                    // mx="1rem"
+                  >
+                    <Stack height={"100%"} position="relative">
+                      <ItemVertical
+                        clickable
+                        showSpecs={true}
+                        itemInfo={compareWithInfo}
+                        compareWithItemInfo={compareInfo}
+                        borderColor={computeBorderColor(
+                          compareWithInfo?.rating,
+                          compareInfo?.rating,
+                        )}
+                        showCompareLink={false}
+                        isComparePage
+                        showFlavorImage="end"
+                        actionButton={{
+                          icon: "xmark",
+                          // color: "var(--appColorError)",
+                          color: "var(--appColorDarkGrey)",
+                          onClick: () => setCompareWithInfo(null),
+                          _hover: { opacity: 0.6 },
+                        }}
+                        itemsWithBuyLinks={props.itemsWithBuyLinks}
+                        appContextFromNextServer={
+                          props?.appContextFromNextServer
+                        }
+                      ></ItemVertical>
+                    </Stack>
+                  </GridItem>
+                )}
 
-              {/* {compareInfo &&
+                {/* {compareInfo &&
                 !compareWithInfo &&
                 renderCompareWithSuggestions()} */}
-            </Grid>
-          </Box>
+              </Grid>
+            </Box>
 
-          {compareInfo && compareWithInfo && renderLegend()}
-          {/* {!props.compare && <GlobalCompareSuggestions />} */}
-        </Box>
-      </Center>
-    </Box>
+            {compareInfo && compareWithInfo && renderLegend()}
+            {/* {!props.compare && <GlobalCompareSuggestions />} */}
+          </Box>
+        </Center>
+      </Box>
+    </>
   );
 }

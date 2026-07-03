@@ -8,9 +8,12 @@
   --appColorAccent: #18519b;
   --appColorLight: #e0eeff;
   --appColorDarkGrey: #707e91;
-  --appColorLightGrey: #e4e4e7;
+  --appColorLightGrey: #ededef;
   --appColorCardBackground: #faf8f1;
-
+  --appColorLink: var(--appColorAccent);
+    --appColorSuccess: #08ac68;
+  --appColorWarning: orange;
+  --appColorError: #ed5a5a;
 }
 
 :root.dark {
@@ -22,7 +25,9 @@
   --appColorCardBackground: #1e2027;
   --appColorDarkGrey: #b0c7e9;
   --appColorLightGrey: #191b25;
-
+  --appColorSuccess: #76ccb4;
+  --appColorWarning: orange;
+  --appColorError: #ed5a5a;
 }
 
 @theme inline {

@@ -1,7 +1,7 @@
 export const appName = "E-Ink Catalog";
 export const appDomain = "https://einkcatalog.com";
 export const imagesURLDomain = "https://dev.einkcatalog.com/images"; ////////////////////////////////////////////////// TODO remove the .dev once DNS is done
-export const itemRoute = "/e-readers";
+export const itemMainRoute = "/e-readers";
 export const itemsLabel = "E-readers";
 export const individualItemLabel = "E-reader";
 export const individualItem = "e-reader";
@@ -17,5 +17,5 @@ export const buildFullName = (itemInfo) => {
 };
 
 export const buildItemFullInfoLink = (id) => {
-  return `${itemRoute}/${id}`;
+  return `${itemMainRoute}/${id}`;
 };
