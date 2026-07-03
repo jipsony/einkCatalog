@@ -24,7 +24,7 @@
   --appColorLight: var(--background);
   --appColorCardBackground: #1e2027;
   --appColorDarkGrey: #b0c7e9;
-  --appColorLightGrey: #191b25;
+  --appColorLightGrey: #333956;
   --appColorSuccess: #76ccb4;
   --appColorWarning: orange;
   --appColorError: #ed5a5a;
@@ -45,8 +45,17 @@ body {
   font-size: 14px;
 }
 
+/* @keyframes app-header-border {
+  from { border-bottom-color: transparent; }
+  to   { border-bottom-color: var(--appBorderColor); }
+} */
+
 .appHeader {
   font-family: var(--font-roboto-mono), Arial, sans-serif;
+  /* border-bottom: 1px solid transparent;
+  animation: app-header-border linear both;
+  animation-timeline: scroll(root);
+  animation-range: 0px 1px; */
 }
 
 .appHeaderLink {

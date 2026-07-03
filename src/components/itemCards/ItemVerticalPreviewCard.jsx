@@ -4,16 +4,7 @@ import ItemCard from "./ItemCard";
 import { buildFrontImageUrl } from "@/lib/images";
 import { buildItemFullInfoLink } from "@/lib/appGlobals";
 import ItemAttributeIcons from "./ItemAttributeIcons";
-
-export const renderScreenSpecsPreview = (itemInfo) => {
-  return (
-    <Box flexShrink={0} overflow="hidden" as="span">
-      <Box as="span" title="Screen Size">{itemInfo?.screenSize}&quot;</Box>
-      {" "}&bull;{" "}
-      <Box as="span" title="Aspect Ratio">{itemInfo?.aspectRatio}</Box>
-    </Box>
-  );
-};
+import ItemScreenSpecsPreview from "./ItemScreenSpecsPreview";
 
 export default function ItemVerticalPreviewCard(props) {
   const categories = props.itemInfo?.categories ?? [];
@@ -45,7 +36,12 @@ export default function ItemVerticalPreviewCard(props) {
   };
 
   return (
-    <ItemCard minH={"18rem"} p={0} _hover={{ borderColor: "var(--foreground)" }} h="100%">
+    <ItemCard
+      minH={"18rem"}
+      p={0}
+      _hover={{ borderColor: "var(--foreground)" }}
+      h="100%"
+    >
       <Box
         as="a"
         height="100%"
@@ -85,7 +81,9 @@ export default function ItemVerticalPreviewCard(props) {
               <Box overflow="hidden" flexShrink={1} minW={0}>
                 <ItemAttributeIcons itemInfo={props.itemInfo} />
               </Box>
-              {renderScreenSpecsPreview(props.itemInfo)}
+              <ItemScreenSpecsPreview
+                itemInfo={props?.itemInfo}
+              ></ItemScreenSpecsPreview>
             </Flex>
           </Box>
         </Box>
@@ -96,7 +94,6 @@ export default function ItemVerticalPreviewCard(props) {
           alignItems="center"
           justifyContent="center"
           flexGrow={1}
-
         >
           <Text fontSize="sm" textAlign="center" fontWeight={800}>
             {props.itemInfo?.fullName}

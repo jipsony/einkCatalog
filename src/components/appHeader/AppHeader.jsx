@@ -15,6 +15,7 @@ import AppHeaderSearch from "./AppHeaderSearch";
 export default function AppHeader(props) {
   return (
     <Flex
+      // className="appHeader"
       position={"sticky"}
       top={0}
       justifyContent={"center"}

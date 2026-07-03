@@ -8,6 +8,7 @@ import {
   Flex,
   HStack,
   Heading,
+  Separator,
 } from "@chakra-ui/react";
 import FeatureTag from "../toolsComponents/FeatureTag";
 import sections from "@/resources/sections";
@@ -141,17 +142,8 @@ export default function ItemFullInfoCard(props) {
         fontWeight={"bold"}
         color="var(--appColorAccent)"
       >
-        <HStack
-          mb={1}
-          borderRadius={3}
-        >
-          {Icon && (
-            <Icon
-              size="18"
-              style={{ flexShrink: 0 }}
-              opacity=".6"
-            />
-          )}
+        <HStack mb={1} borderRadius={3}>
+          {Icon && <Icon size="18" style={{ flexShrink: 0 }} opacity=".6" />}
           <Heading
             as={props.isFullPage ? "h2" : "h3"}
             fontSize={"lg"}
@@ -166,6 +158,13 @@ export default function ItemFullInfoCard(props) {
 
   return (
     <ItemCard>
+      {/* {props?.withTitle && (
+        <Box textAlign="center" fontWeight={"bold"} as="h1" fontSize={"xl"}>
+          <Box as="span">{props?.itemInfo?.brand}</Box>
+          <Box as="span"> {props?.itemInfo?.name}</Box>
+          <Separator my="1rem"></Separator>
+        </Box>
+      )} */}
       {Object.entries(sections).map(([sectionKey, section]) => (
         <Box
           key={sectionKey}

@@ -15,7 +15,21 @@ export default function ItemCard({ children, ...props }) {
       {...props}
       className="appTextFont"
     >
-      {children}
+      {props?.paddedBackground ? (
+        <Box
+          flex={1}
+          display="flex"
+          alignItems="center"
+          justifyContent="center"
+          backgroundColor={"var(--appColorLightGrey)"}
+          borderRadius={"md"}
+          position={"relative"}
+        >
+          {children}
+        </Box>
+      ) : (
+        children
+      )}
     </Box>
   );
 }

@@ -1,9 +1,11 @@
+import ItemAttributeIcons from "@/components/itemCards/ItemAttributeIcons";
 import ItemFullInfoCard from "@/components/itemCards/ItemFullInfoCard";
 import ItemHorizontalPreviewCard from "@/components/itemCards/ItemHorizontalPreviewCard";
 import ItemImageCard from "@/components/itemCards/ItemImageCard";
 import ItemMainInfoCard from "@/components/itemCards/ItemMainInfoCard";
 import ItemProsAndCons from "@/components/itemCards/ItemProsAndCons";
 import ItemTitle from "@/components/itemCards/ItemTitle";
+import ItemVerticalPreviewCard from "@/components/itemCards/ItemVerticalPreviewCard";
 import BigSectionTitle from "@/components/toolsComponents/BigSectionTitle";
 import { itemMainRoute } from "@/lib/appGlobals";
 import { items } from "@/lib/item/items";
@@ -44,7 +46,6 @@ export default function ItemFullInfoPage(props) {
   };
   return (
     <>
-      {/* <ItemTitle itemInfo={props?.itemInfo}></ItemTitle> */}
       <Stack
         direction={{ base: "column", [directionBreakpoint]: "row" }}
         // fontFamily={"var(--font-roboto-mono), Arial, sans-serif"}
@@ -53,13 +54,21 @@ export default function ItemFullInfoPage(props) {
       >
         <Box minWidth={{ [directionBreakpoint]: "20rem" }}>
           <ItemTitle itemInfo={props?.itemInfo}></ItemTitle>
+
           <ItemImageCard itemInfo={props?.itemInfo}></ItemImageCard>
           <ItemMainInfoCard itemInfo={props?.itemInfo}></ItemMainInfoCard>
         </Box>
+        {/* <Box minWidth={{ [directionBreakpoint]: "20rem" }}>
+          <Box>
+            <ItemVerticalPreviewCard itemInfo={props?.itemInfo} />
+          </Box>
+          <ItemMainInfoCard itemInfo={props?.itemInfo}></ItemMainInfoCard>
+        </Box> */}
         <Box w="100%">
           <ItemFullInfoCard
             itemInfo={props?.itemInfo}
             isFullPage
+            withTitle
           ></ItemFullInfoCard>
           <Box
           // fontSize={"13px"}

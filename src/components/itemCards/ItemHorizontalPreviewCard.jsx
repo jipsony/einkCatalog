@@ -6,6 +6,7 @@ import ItemAttributeIcons from "./ItemAttributeIcons";
 import { buildFrontImageUrl } from "@/lib/images";
 import { buildItemFullInfoLink } from "@/lib/appGlobals";
 import { LuArrowLeftRight } from "react-icons/lu";
+import ItemScreenSpecsPreview from "./ItemScreenSpecsPreview";
 
 export default function ItemHorizontalPreviewCard(props) {
   return (
@@ -15,7 +16,7 @@ export default function ItemHorizontalPreviewCard(props) {
           href={buildItemFullInfoLink(props?.itemInfo?.id)}
           style={{ flex: 1, minWidth: 0, display: "flex", height: "100%" }}
         >
-          <HStack gap={0} flex={1} minW={0} h={"100%"}>  
+          <HStack gap={0} flex={1} minW={0} h={"100%"}>
             <Box
               flexShrink={0}
               display="flex"
@@ -52,7 +53,9 @@ export default function ItemHorizontalPreviewCard(props) {
                 color={"var(--appColorAccent)"}
                 opacity={0.7}
               >
-                {renderScreenSpecsPreview(props.itemInfo)}
+                <ItemScreenSpecsPreview
+                  itemInfo={props?.itemInfo}
+                ></ItemScreenSpecsPreview>
               </Box>
             </Stack>
           </HStack>

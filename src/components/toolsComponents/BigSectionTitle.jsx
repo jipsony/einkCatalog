@@ -41,7 +41,7 @@ export default function BigSectionTitle(props) {
           opacity={0.6}
           borderTopWidth="2px"
           borderRadius={"4px"}
-          borderColor={"var(--appColorBlue)"}
+          borderColor={"var(--appColorDarkGrey)"}
           position="relative"
           alignSelf="center"
           display={Object.fromEntries(
@@ -68,7 +68,7 @@ export default function BigSectionTitle(props) {
         flex="1"
         borderTopWidth="2px"
         borderRadius={"4px"}
-        borderColor={"var(--appColorBlue)"}
+        borderColor={"var(--appColorDarkGrey)"}
         position="relative"
         alignSelf="center"
         opacity={0.6}
