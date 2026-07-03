@@ -13,6 +13,242 @@
       "fullName": "Xteink X4"
     },
     {
+      "id": "remarkable-paper-pro",
+      "fullName": "reMarkable Paper Pro"
+    },
+    {
+      "id": "remarkable-paper-pro-move",
+      "fullName": "reMarkable Paper Pro Move"
+    },
+    {
+      "id": "remarkable-paper-pure",
+      "fullName": "reMarkable Paper Pure"
+    },
+    {
+      "id": "remarkable-2",
+      "fullName": "reMarkable 2"
+    },
+    {
+      "id": "remarkable-1",
+      "fullName": "reMarkable 1"
+    },
+    {
+      "id": "kindle-scribe-colorsoft",
+      "fullName": "Amazon Kindle Scribe Colorsoft"
+    },
+    {
+      "id": "kindle-scribe-3",
+      "fullName": "Amazon Kindle Scribe 3"
+    },
+    {
+      "id": "kindle-scribe-3-no-front-light",
+      "fullName": "Amazon Kindle Scribe 3 without Front Light"
+    },
+    {
+      "id": "kindle-scribe-2024",
+      "fullName": "Amazon Kindle Scribe 2024"
+    },
+    {
+      "id": "kindle-colorsoft-signature-edition",
+      "fullName": "Amazon Kindle Colorsoft Signature Edition"
+    },
+    {
+      "id": "kindle-paperwhite-6-signature-edition",
+      "fullName": "Amazon Kindle Paperwhite 6 Signature Edition"
+    },
+    {
+      "id": "kindle-paperwhite-6",
+      "fullName": "Amazon Kindle Paperwhite 6"
+    },
+    {
+      "id": "kindle-2024",
+      "fullName": "Amazon Kindle 2024"
+    },
+    {
+      "id": "kindle-scribe",
+      "fullName": "Amazon Kindle Scribe"
+    },
+    {
+      "id": "kindle-11",
+      "fullName": "Amazon Kindle 11"
+    },
+    {
+      "id": "kindle-paperwhite-5-signature-edition",
+      "fullName": "Amazon Kindle Paperwhite 5 Signature Edition"
+    },
+    {
+      "id": "kindle-paperwhite-5",
+      "fullName": "Amazon Kindle Paperwhite 5"
+    },
+    {
+      "id": "kindle-oasis-3",
+      "fullName": "Amazon Kindle Oasis 3"
+    },
+    {
+      "id": "kindle-10",
+      "fullName": "Amazon Kindle 10"
+    },
+    {
+      "id": "kindle-paperwhite-4",
+      "fullName": "Amazon Kindle Paperwhite 4"
+    },
+    {
+      "id": "kindle-oasis-2",
+      "fullName": "Amazon Kindle Oasis 2"
+    },
+    {
+      "id": "kindle-8",
+      "fullName": "Amazon Kindle 8"
+    },
+    {
+      "id": "kindle-oasis",
+      "fullName": "Amazon Kindle Oasis"
+    },
+    {
+      "id": "kindle-paperwhite-3",
+      "fullName": "Amazon Kindle Paperwhite 3"
+    },
+    {
+      "id": "kindle-voyage",
+      "fullName": "Amazon Kindle Voyage"
+    },
+    {
+      "id": "kindle-7",
+      "fullName": "Amazon Kindle 7"
+    },
+    {
+      "id": "kindle-paperwhite-2",
+      "fullName": "Amazon Kindle Paperwhite 2"
+    },
+    {
+      "id": "kindle-paperwhite",
+      "fullName": "Amazon Kindle Paperwhite"
+    },
+    {
+      "id": "kindle-5",
+      "fullName": "Amazon Kindle 5"
+    },
+    {
+      "id": "kindle-touch",
+      "fullName": "Amazon Kindle Touch"
+    },
+    {
+      "id": "kindle-4",
+      "fullName": "Amazon Kindle 4"
+    },
+    {
+      "id": "kindle-keyboard",
+      "fullName": "Amazon Kindle Keyboard"
+    },
+    {
+      "id": "kindle-dx",
+      "fullName": "Amazon Kindle DX"
+    },
+    {
+      "id": "kindle-2",
+      "fullName": "Amazon Kindle 2"
+    },
+    {
+      "id": "kindle-1",
+      "fullName": "Amazon Kindle 1"
+    },
+    {
+      "id": "kobo-clara-colour",
+      "fullName": "Kobo Clara Colour"
+    },
+    {
+      "id": "kobo-clara-bw",
+      "fullName": "Kobo Clara BW"
+    },
+    {
+      "id": "kobo-elipsa-2e",
+      "fullName": "Kobo Elipsa 2E"
+    },
+    {
+      "id": "kobo-clara-2e",
+      "fullName": "Kobo Clara 2E"
+    },
+    {
+      "id": "kobo-sage",
+      "fullName": "Kobo Sage"
+    },
+    {
+      "id": "kobo-libra-2",
+      "fullName": "Kobo Libra 2"
+    },
+    {
+      "id": "kobo-elipsa",
+      "fullName": "Kobo Elipsa"
+    },
+    {
+      "id": "kobo-nia",
+      "fullName": "Kobo Nia"
+    },
+    {
+      "id": "kobo-libra-h2o",
+      "fullName": "Kobo Libra H2O"
+    },
+    {
+      "id": "kobo-forma",
+      "fullName": "Kobo Forma"
+    },
+    {
+      "id": "kobo-clara-hd",
+      "fullName": "Kobo Clara HD"
+    },
+    {
+      "id": "kobo-aura-h2o-edition-2",
+      "fullName": "Kobo Aura H2O Edition 2"
+    },
+    {
+      "id": "kobo-aura-one",
+      "fullName": "Kobo Aura One"
+    },
+    {
+      "id": "kobo-aura-edition-2",
+      "fullName": "Kobo Aura Edition 2"
+    },
+    {
+      "id": "kobo-touch-2",
+      "fullName": "Kobo Touch 2.0"
+    },
+    {
+      "id": "kobo-glo-hd",
+      "fullName": "Kobo Glo HD"
+    },
+    {
+      "id": "kobo-aura-h2o",
+      "fullName": "Kobo Aura H2O"
+    },
+    {
+      "id": "kobo-aura",
+      "fullName": "Kobo Aura"
+    },
+    {
+      "id": "kobo-aura-hd",
+      "fullName": "Kobo Aura HD"
+    },
+    {
+      "id": "kobo-mini",
+      "fullName": "Kobo Mini"
+    },
+    {
+      "id": "kobo-glo",
+      "fullName": "Kobo Glo"
+    },
+    {
+      "id": "kobo-touch",
+      "fullName": "Kobo Touch"
+    },
+    {
+      "id": "kobo-wifi",
+      "fullName": "Kobo WiFi"
+    },
+    {
+      "id": "kobo-original",
+      "fullName": "Kobo Original"
+    },
+    {
       "id": "Amazon",
       "fullName": "Amazon",
       "specialType": "link",
@@ -35,6 +271,14 @@
       "link": "/brands/Xteink",
       "prefix": "Brand",
       "icon": "fa-building"
+    },
+    {
+      "id": "reMarkable",
+      "fullName": "reMarkable",
+      "specialType": "link",
+      "link": "/brands/reMarkable",
+      "prefix": "Brand",
+      "icon": "fa-building"
     }
   ],
   "alphabetical": [
@@ -47,8 +291,128 @@
       "icon": "fa-building"
     },
     {
+      "id": "kindle-1",
+      "fullName": "Amazon Kindle 1"
+    },
+    {
+      "id": "kindle-10",
+      "fullName": "Amazon Kindle 10"
+    },
+    {
+      "id": "kindle-11",
+      "fullName": "Amazon Kindle 11"
+    },
+    {
+      "id": "kindle-2",
+      "fullName": "Amazon Kindle 2"
+    },
+    {
+      "id": "kindle-2024",
+      "fullName": "Amazon Kindle 2024"
+    },
+    {
+      "id": "kindle-4",
+      "fullName": "Amazon Kindle 4"
+    },
+    {
+      "id": "kindle-5",
+      "fullName": "Amazon Kindle 5"
+    },
+    {
+      "id": "kindle-7",
+      "fullName": "Amazon Kindle 7"
+    },
+    {
+      "id": "kindle-8",
+      "fullName": "Amazon Kindle 8"
+    },
+    {
       "id": "kindle-colorsoft",
       "fullName": "Amazon Kindle Colorsoft"
+    },
+    {
+      "id": "kindle-colorsoft-signature-edition",
+      "fullName": "Amazon Kindle Colorsoft Signature Edition"
+    },
+    {
+      "id": "kindle-dx",
+      "fullName": "Amazon Kindle DX"
+    },
+    {
+      "id": "kindle-keyboard",
+      "fullName": "Amazon Kindle Keyboard"
+    },
+    {
+      "id": "kindle-oasis",
+      "fullName": "Amazon Kindle Oasis"
+    },
+    {
+      "id": "kindle-oasis-2",
+      "fullName": "Amazon Kindle Oasis 2"
+    },
+    {
+      "id": "kindle-oasis-3",
+      "fullName": "Amazon Kindle Oasis 3"
+    },
+    {
+      "id": "kindle-paperwhite",
+      "fullName": "Amazon Kindle Paperwhite"
+    },
+    {
+      "id": "kindle-paperwhite-2",
+      "fullName": "Amazon Kindle Paperwhite 2"
+    },
+    {
+      "id": "kindle-paperwhite-3",
+      "fullName": "Amazon Kindle Paperwhite 3"
+    },
+    {
+      "id": "kindle-paperwhite-4",
+      "fullName": "Amazon Kindle Paperwhite 4"
+    },
+    {
+      "id": "kindle-paperwhite-5",
+      "fullName": "Amazon Kindle Paperwhite 5"
+    },
+    {
+      "id": "kindle-paperwhite-5-signature-edition",
+      "fullName": "Amazon Kindle Paperwhite 5 Signature Edition"
+    },
+    {
+      "id": "kindle-paperwhite-6",
+      "fullName": "Amazon Kindle Paperwhite 6"
+    },
+    {
+      "id": "kindle-paperwhite-6-signature-edition",
+      "fullName": "Amazon Kindle Paperwhite 6 Signature Edition"
+    },
+    {
+      "id": "kindle-scribe",
+      "fullName": "Amazon Kindle Scribe"
+    },
+    {
+      "id": "kindle-scribe-2024",
+      "fullName": "Amazon Kindle Scribe 2024"
+    },
+    {
+      "id": "kindle-scribe-3",
+      "fullName": "Amazon Kindle Scribe 3"
+    },
+    {
+      "id": "kindle-scribe-3-no-front-light",
+      "fullName": "Amazon Kindle Scribe 3 without Front Light"
+    },
+    {
+      "id": "kindle-scribe-colorsoft",
+      "fullName": "Amazon Kindle Scribe Colorsoft"
+    },
+    {
+      "id": "kindle-touch",
+      "fullName": "Amazon Kindle Touch"
+    },
+    {
+      "id": "kindle-voyage",
+      "fullName": "Amazon Kindle Voyage"
     },
     {
       "id": "Kobo",
@@ -59,8 +423,132 @@
       "icon": "fa-building"
     },
     {
+      "id": "kobo-aura",
+      "fullName": "Kobo Aura"
+    },
+    {
+      "id": "kobo-aura-edition-2",
+      "fullName": "Kobo Aura Edition 2"
+    },
+    {
+      "id": "kobo-aura-h2o",
+      "fullName": "Kobo Aura H2O"
+    },
+    {
+      "id": "kobo-aura-h2o-edition-2",
+      "fullName": "Kobo Aura H2O Edition 2"
+    },
+    {
+      "id": "kobo-aura-hd",
+      "fullName": "Kobo Aura HD"
+    },
+    {
+      "id": "kobo-aura-one",
+      "fullName": "Kobo Aura One"
+    },
+    {
+      "id": "kobo-clara-2e",
+      "fullName": "Kobo Clara 2E"
+    },
+    {
+      "id": "kobo-clara-bw",
+      "fullName": "Kobo Clara BW"
+    },
+    {
+      "id": "kobo-clara-colour",
+      "fullName": "Kobo Clara Colour"
+    },
+    {
+      "id": "kobo-clara-hd",
+      "fullName": "Kobo Clara HD"
+    },
+    {
+      "id": "kobo-elipsa",
+      "fullName": "Kobo Elipsa"
+    },
+    {
+      "id": "kobo-elipsa-2e",
+      "fullName": "Kobo Elipsa 2E"
+    },
+    {
+      "id": "kobo-forma",
+      "fullName": "Kobo Forma"
+    },
+    {
+      "id": "kobo-glo",
+      "fullName": "Kobo Glo"
+    },
+    {
+      "id": "kobo-glo-hd",
+      "fullName": "Kobo Glo HD"
+    },
+    {
+      "id": "kobo-libra-2",
+      "fullName": "Kobo Libra 2"
+    },
+    {
       "id": "kobo-libra-color",
       "fullName": "Kobo Libra Color"
+    },
+    {
+      "id": "kobo-libra-h2o",
+      "fullName": "Kobo Libra H2O"
+    },
+    {
+      "id": "kobo-mini",
+      "fullName": "Kobo Mini"
+    },
+    {
+      "id": "kobo-nia",
+      "fullName": "Kobo Nia"
+    },
+    {
+      "id": "kobo-original",
+      "fullName": "Kobo Original"
+    },
+    {
+      "id": "kobo-sage",
+      "fullName": "Kobo Sage"
+    },
+    {
+      "id": "kobo-touch",
+      "fullName": "Kobo Touch"
+    },
+    {
+      "id": "kobo-touch-2",
+      "fullName": "Kobo Touch 2.0"
+    },
+    {
+      "id": "kobo-wifi",
+      "fullName": "Kobo WiFi"
+    },
+    {
+      "id": "reMarkable",
+      "fullName": "reMarkable",
+      "specialType": "link",
+      "link": "/brands/reMarkable",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "remarkable-1",
+      "fullName": "reMarkable 1"
+    },
+    {
+      "id": "remarkable-2",
+      "fullName": "reMarkable 2"
+    },
+    {
+      "id": "remarkable-paper-pro",
+      "fullName": "reMarkable Paper Pro"
+    },
+    {
+      "id": "remarkable-paper-pro-move",
+      "fullName": "reMarkable Paper Pro Move"
+    },
+    {
+      "id": "remarkable-paper-pure",
+      "fullName": "reMarkable Paper Pure"
     },
     {
       "id": "Xteink",

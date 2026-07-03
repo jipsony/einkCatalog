@@ -24,6 +24,7 @@ export default function ItemCard({ children, ...props }) {
           backgroundColor={"var(--appColorLightGrey)"}
           borderRadius={"md"}
           position={"relative"}
+          
         >
           {children}
         </Box>

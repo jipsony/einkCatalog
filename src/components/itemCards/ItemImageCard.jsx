@@ -16,6 +16,7 @@ export default function ItemImageCard(props) {
     >
       <Stack>
         <Image
+        
           maxH={"15rem"}
           src={buildFrontImageUrl(props.itemInfo?.id)}
         ></Image>{" "}

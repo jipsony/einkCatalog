@@ -49,8 +49,10 @@
     "sizeCategory": "Medium Size",
     "fullName": "Amazon Kindle Colorsoft",
     "similar": [
-      "kobo-libra-color",
-      "xteink-x4"
+      "kindle-colorsoft-signature-edition",
+      "kindle-2024",
+      "kindle-1",
+      "kindle-2"
     ],
     "pros": [
       {
@@ -132,8 +134,10 @@
     "sizeCategory": "Medium Size",
     "fullName": "Kobo Libra Color",
     "similar": [
-      "kindle-colorsoft",
-      "xteink-x4"
+      "kobo-clara-colour",
+      "kindle-colorsoft-signature-edition",
+      "kobo-libra-2",
+      "kobo-clara-bw"
     ],
     "pros": [
       {
@@ -237,8 +241,10 @@
     "sizeCategory": "Compact",
     "fullName": "Xteink X4",
     "similar": [
-      "kindle-colorsoft",
-      "kobo-libra-color"
+      "kobo-touch-2",
+      "kindle-5",
+      "kindle-7",
+      "kindle-8"
     ],
     "pros": [
       {
@@ -275,6 +281,4850 @@
       },
       {
         "text": "Small 650 mAh battery, may require more frequent charging than other e-readers"
+      }
+    ]
+  },
+  {
+    "id": "remarkable-paper-pro",
+    "brand": "reMarkable",
+    "name": "Paper Pro",
+    "releaseDate": "2024",
+    "price": 579,
+    "screenSize": 11.8,
+    "pixelDensity": 229,
+    "resolution": "1620 × 2160",
+    "aspectRatio": "3:4",
+    "screenType": "E Ink Gallery 3",
+    "operatingSystem": [
+      "reMarkable OS (Codex)"
+    ],
+    "dimensions": "196.6 x 274.1 x 5.1",
+    "weight": 525,
+    "cpu": "1.8 GHz quad core",
+    "storage": "64 GB",
+    "ram": "2 GB",
+    "battery": "5030 mAh",
+    "colors": [
+      "silver"
+    ],
+    "screenLight": true,
+    "colorDisplay": true,
+    "darkMode": false,
+    "wifi": true,
+    "bluetooth": false,
+    "sdCard": false,
+    "usbc": true,
+    "mobileData": false,
+    "speakers": false,
+    "browser": false,
+    "textToSpeech": false,
+    "waterproof": false,
+    "touchscreen": true,
+    "pageTurnButtons": false,
+    "automaticRotation": true,
+    "stylusSupport": true,
+    "categories": [
+      "High-End",
+      "Large Size"
+    ],
+    "dimensionsH": 274.1,
+    "dimensionsL": 196.6,
+    "dimensionsW": 5.1,
+    "priceCategory": "High-End",
+    "sizeCategory": "Large Size",
+    "fullName": "reMarkable Paper Pro",
+    "similar": [
+      "remarkable-paper-pro-move",
+      "remarkable-1",
+      "remarkable-2",
+      "remarkable-paper-pure"
+    ],
+    "pros": [
+      {
+        "text": "Color screen is great for comics, magazines, and illustrated books"
+      },
+      {
+        "text": "Stylus support is great for annotations and note-taking"
+      },
+      {
+        "text": "Big 5030 mAh battery, weeks of reading on a single charge"
+      },
+      {
+        "text": "Adjustable front light for comfortable reading in any lighting"
+      },
+      {
+        "text": "Slim design at only 5.1mm thick"
+      },
+      {
+        "text": "Large 11.8\" screen, ideal for PDFs and comics"
+      },
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "No physical page turn buttons, all navigation is done via the touchscreen"
+      },
+      {
+        "text": "Heavy device at 525g"
+      },
+      {
+        "text": "No expandable storage"
+      },
+      {
+        "text": "No Bluetooth, can't connect wireless headphones for audiobooks"
+      }
+    ]
+  },
+  {
+    "id": "remarkable-paper-pro-move",
+    "brand": "reMarkable",
+    "name": "Paper Pro Move",
+    "releaseDate": "2025",
+    "price": 449,
+    "screenSize": 7.3,
+    "pixelDensity": 264,
+    "resolution": "954 × 1696",
+    "aspectRatio": "9:16",
+    "screenType": "E Ink Gallery 3",
+    "operatingSystem": [
+      "reMarkable OS (Codex)"
+    ],
+    "dimensions": "107.8 x 195.6 x 6.5",
+    "weight": 230,
+    "cpu": "1.7 GHz dual core",
+    "storage": "64 GB",
+    "ram": "2 GB",
+    "battery": "2334 mAh",
+    "colors": [
+      "silver"
+    ],
+    "screenLight": true,
+    "colorDisplay": true,
+    "darkMode": false,
+    "wifi": true,
+    "bluetooth": false,
+    "sdCard": false,
+    "usbc": true,
+    "mobileData": false,
+    "speakers": false,
+    "browser": false,
+    "textToSpeech": false,
+    "waterproof": false,
+    "touchscreen": true,
+    "pageTurnButtons": false,
+    "automaticRotation": true,
+    "stylusSupport": true,
+    "categories": [
+      "High-End",
+      "Medium Size"
+    ],
+    "dimensionsH": 195.6,
+    "dimensionsL": 107.8,
+    "dimensionsW": 6.5,
+    "priceCategory": "High-End",
+    "sizeCategory": "Medium Size",
+    "fullName": "reMarkable Paper Pro Move",
+    "similar": [
+      "remarkable-paper-pro",
+      "remarkable-2",
+      "remarkable-paper-pure",
+      "kindle-scribe-3"
+    ],
+    "pros": [
+      {
+        "text": "Color screen is great for comics, magazines, and illustrated books"
+      },
+      {
+        "text": "Stylus support is great for annotations and note-taking"
+      },
+      {
+        "text": "Good 2334 mAh battery for everyday use"
+      },
+      {
+        "text": "Front light lets you read comfortably in the dark"
+      },
+      {
+        "text": "Slim design at only 6.5mm thick"
+      },
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "No physical page turn buttons, all navigation is done via the touchscreen"
+      },
+      {
+        "text": "No SD card slot, limited to built-in storage"
+      },
+      {
+        "text": "No Bluetooth, can't connect wireless headphones for audiobooks"
+      }
+    ]
+  },
+  {
+    "id": "remarkable-paper-pure",
+    "brand": "reMarkable",
+    "name": "Paper Pure",
+    "releaseDate": "2026",
+    "price": 399,
+    "screenSize": 10.3,
+    "pixelDensity": 226,
+    "resolution": "1404 × 1872",
+    "aspectRatio": "3:4",
+    "screenType": "E Ink Carta 1300",
+    "operatingSystem": [
+      "reMarkable OS (Codex)"
+    ],
+    "dimensions": "187.1 x 228.1 x 6.0",
+    "weight": 360,
+    "cpu": "1.7 GHz dual core",
+    "storage": "32 GB",
+    "ram": "2 GB",
+    "battery": "3820 mAh",
+    "colors": [
+      "gray"
+    ],
+    "screenLight": false,
+    "colorDisplay": false,
+    "darkMode": false,
+    "wifi": true,
+    "bluetooth": false,
+    "sdCard": false,
+    "usbc": true,
+    "mobileData": false,
+    "speakers": false,
+    "browser": false,
+    "textToSpeech": false,
+    "waterproof": false,
+    "touchscreen": true,
+    "pageTurnButtons": false,
+    "automaticRotation": false,
+    "stylusSupport": true,
+    "categories": [
+      "Mid-Range",
+      "Medium Size"
+    ],
+    "dimensionsH": 228.1,
+    "dimensionsL": 187.1,
+    "dimensionsW": 6,
+    "priceCategory": "Mid-Range",
+    "sizeCategory": "Medium Size",
+    "fullName": "reMarkable Paper Pure",
+    "similar": [
+      "remarkable-2",
+      "remarkable-1",
+      "kobo-clara-bw",
+      "kindle-paperwhite-6"
+    ],
+    "pros": [
+      {
+        "text": "Stylus support is great for annotations and note-taking"
+      },
+      {
+        "text": "Big 3820 mAh battery, weeks of reading on a single charge"
+      },
+      {
+        "text": "Slim design at only 6mm thick"
+      },
+      {
+        "text": "Big screen makes reading easier, especially for documents and illustrated content"
+      },
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "No front light, requires external lighting to read in the dark"
+      },
+      {
+        "text": "No physical page turn buttons, all navigation is done via the touchscreen"
+      },
+      {
+        "text": "Heavy device at 360g"
+      },
+      {
+        "text": "No SD card slot, limited to built-in storage"
+      },
+      {
+        "text": "No Bluetooth, can't connect wireless headphones for audiobooks"
+      }
+    ]
+  },
+  {
+    "id": "remarkable-2",
+    "brand": "reMarkable",
+    "name": "2",
+    "releaseDate": "2020",
+    "price": 399,
+    "screenSize": 10.3,
+    "pixelDensity": 226,
+    "resolution": "1404 × 1872",
+    "aspectRatio": "3:4",
+    "screenType": "E Ink Carta",
+    "operatingSystem": [
+      "reMarkable OS (Codex)"
+    ],
+    "dimensions": "188 x 246 x 4.7",
+    "weight": 403.5,
+    "cpu": "1.2 GHz dual core",
+    "storage": "8 GB",
+    "ram": "1 GB",
+    "battery": "3000 mAh",
+    "colors": [
+      "silver"
+    ],
+    "screenLight": false,
+    "colorDisplay": false,
+    "darkMode": false,
+    "wifi": true,
+    "bluetooth": false,
+    "sdCard": false,
+    "usbc": true,
+    "mobileData": false,
+    "speakers": false,
+    "browser": false,
+    "textToSpeech": false,
+    "waterproof": false,
+    "touchscreen": true,
+    "pageTurnButtons": false,
+    "automaticRotation": false,
+    "stylusSupport": true,
+    "categories": [
+      "Mid-Range",
+      "Medium Size"
+    ],
+    "dimensionsH": 246,
+    "dimensionsL": 188,
+    "dimensionsW": 4.7,
+    "priceCategory": "Mid-Range",
+    "sizeCategory": "Medium Size",
+    "fullName": "reMarkable 2",
+    "similar": [
+      "remarkable-paper-pure",
+      "remarkable-1",
+      "kobo-nia",
+      "kindle-scribe"
+    ],
+    "pros": [
+      {
+        "text": "Stylus support is great for annotations and note-taking"
+      },
+      {
+        "text": "Big 3000 mAh battery, weeks of reading on a single charge"
+      },
+      {
+        "text": "Slim design at only 4.7mm thick"
+      },
+      {
+        "text": "Large 10.3\" screen, ideal for PDFs and comics"
+      },
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "No front light, requires external lighting to read in the dark"
+      },
+      {
+        "text": "No physical page turn buttons, all navigation is done via the touchscreen"
+      },
+      {
+        "text": "Heavy device at 403.5g"
+      },
+      {
+        "text": "No expandable storage"
+      },
+      {
+        "text": "No Bluetooth, can't connect wireless headphones for audiobooks"
+      }
+    ]
+  },
+  {
+    "id": "remarkable-1",
+    "brand": "reMarkable",
+    "name": "1",
+    "releaseDate": "2017",
+    "price": 399,
+    "screenSize": 10.3,
+    "pixelDensity": 226,
+    "resolution": "1404 × 1872",
+    "aspectRatio": "3:4",
+    "screenType": "E Ink Carta",
+    "operatingSystem": [
+      "reMarkable OS (Codex)"
+    ],
+    "dimensions": "177 x 256 x 6.7",
+    "weight": 350,
+    "cpu": "1 GHz",
+    "storage": "8 GB",
+    "ram": "512 MB",
+    "battery": "3000 mAh",
+    "colors": [
+      "white"
+    ],
+    "screenLight": false,
+    "colorDisplay": false,
+    "darkMode": false,
+    "wifi": true,
+    "bluetooth": false,
+    "sdCard": false,
+    "usbc": false,
+    "mobileData": false,
+    "speakers": false,
+    "browser": false,
+    "textToSpeech": false,
+    "waterproof": false,
+    "touchscreen": true,
+    "pageTurnButtons": true,
+    "automaticRotation": false,
+    "stylusSupport": true,
+    "categories": [
+      "Mid-Range",
+      "Large Size"
+    ],
+    "dimensionsH": 256,
+    "dimensionsL": 177,
+    "dimensionsW": 6.7,
+    "priceCategory": "Mid-Range",
+    "sizeCategory": "Large Size",
+    "fullName": "reMarkable 1",
+    "similar": [
+      "remarkable-2",
+      "remarkable-paper-pure",
+      "remarkable-paper-pro",
+      "kindle-oasis-2"
+    ],
+    "pros": [
+      {
+        "text": "Physical page turn buttons"
+      },
+      {
+        "text": "Stylus support is great for annotations and note-taking"
+      },
+      {
+        "text": "Big 3000 mAh battery, weeks of reading on a single charge"
+      },
+      {
+        "text": "Large 10.3\" screen, ideal for PDFs and comics"
+      },
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "No front light, requires external lighting to read in the dark"
+      },
+      {
+        "text": "Heavy device at 350g"
+      },
+      {
+        "text": "No expandable storage"
+      },
+      {
+        "text": "No Bluetooth, can't connect wireless headphones for audiobooks"
+      }
+    ]
+  },
+  {
+    "id": "kindle-scribe-colorsoft",
+    "brand": "Amazon",
+    "name": "Kindle Scribe Colorsoft",
+    "releaseDate": "2025",
+    "price": 629.99,
+    "screenSize": 11,
+    "pixelDensity": 300,
+    "resolution": "1980 × 2640",
+    "aspectRatio": "3:4",
+    "screenType": "E Ink Kaleido 3",
+    "operatingSystem": [
+      "Kindle firmware"
+    ],
+    "dimensions": "189 x 245 x 5.4",
+    "weight": 400,
+    "cpu": null,
+    "storage": "32 GB",
+    "ram": null,
+    "battery": null,
+    "colors": [
+      "graphite",
+      "fig"
+    ],
+    "screenLight": true,
+    "colorDisplay": true,
+    "darkMode": true,
+    "wifi": true,
+    "bluetooth": true,
+    "sdCard": false,
+    "usbc": true,
+    "mobileData": false,
+    "speakers": false,
+    "browser": true,
+    "textToSpeech": true,
+    "waterproof": false,
+    "touchscreen": true,
+    "pageTurnButtons": false,
+    "automaticRotation": true,
+    "stylusSupport": true,
+    "categories": [
+      "High-End",
+      "Medium Size"
+    ],
+    "dimensionsH": 245,
+    "dimensionsL": 189,
+    "dimensionsW": 5.4,
+    "priceCategory": "High-End",
+    "sizeCategory": "Medium Size",
+    "fullName": "Amazon Kindle Scribe Colorsoft",
+    "similar": [
+      "kindle-scribe-3",
+      "kindle-scribe-3-no-front-light",
+      "kindle-scribe-2024",
+      "kindle-colorsoft"
+    ],
+    "pros": [
+      {
+        "text": "High resolution display"
+      },
+      {
+        "text": "Color screen is great for comics, magazines, and illustrated books"
+      },
+      {
+        "text": "Stylus support is great for annotations and note-taking"
+      },
+      {
+        "text": "Front light lets you read comfortably in the dark"
+      },
+      {
+        "text": "Slim design at only 5.4mm thick"
+      },
+      {
+        "text": "Big screen makes reading easier, especially for documents and illustrated content"
+      },
+      {
+        "text": "Bluetooth support enables connecting accessories"
+      },
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "No physical page turn buttons, all navigation is done via the touchscreen"
+      },
+      {
+        "text": "Heavy device at 400g"
+      },
+      {
+        "text": "No SD card slot, limited to built-in storage"
+      }
+    ]
+  },
+  {
+    "id": "kindle-scribe-3",
+    "brand": "Amazon",
+    "name": "Kindle Scribe 3",
+    "releaseDate": "2025",
+    "price": 499.99,
+    "screenSize": 11,
+    "pixelDensity": 300,
+    "resolution": "1980 × 2640",
+    "aspectRatio": "3:4",
+    "screenType": "E Ink",
+    "operatingSystem": [
+      "Kindle firmware"
+    ],
+    "dimensions": "189 x 245 x 5.4",
+    "weight": 400,
+    "cpu": null,
+    "storage": "32 GB",
+    "ram": null,
+    "battery": null,
+    "colors": [
+      "graphite",
+      "fig"
+    ],
+    "screenLight": true,
+    "colorDisplay": false,
+    "darkMode": true,
+    "wifi": true,
+    "bluetooth": true,
+    "sdCard": false,
+    "usbc": true,
+    "mobileData": false,
+    "speakers": false,
+    "browser": true,
+    "textToSpeech": true,
+    "waterproof": false,
+    "touchscreen": true,
+    "pageTurnButtons": false,
+    "automaticRotation": true,
+    "stylusSupport": true,
+    "categories": [
+      "High-End",
+      "Medium Size"
+    ],
+    "dimensionsH": 245,
+    "dimensionsL": 189,
+    "dimensionsW": 5.4,
+    "priceCategory": "High-End",
+    "sizeCategory": "Medium Size",
+    "fullName": "Amazon Kindle Scribe 3",
+    "similar": [
+      "kindle-scribe-3-no-front-light",
+      "kindle-scribe-colorsoft",
+      "kindle-scribe-2024",
+      "kobo-elipsa"
+    ],
+    "pros": [
+      {
+        "text": "High resolution display"
+      },
+      {
+        "text": "Stylus support is great for annotations and note-taking"
+      },
+      {
+        "text": "Front light lets you read comfortably in the dark"
+      },
+      {
+        "text": "Slim design at only 5.4mm thick"
+      },
+      {
+        "text": "Big screen makes reading easier, especially for documents and illustrated content"
+      },
+      {
+        "text": "Bluetooth support enables connecting accessories"
+      },
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "No physical page turn buttons, all navigation is done via the touchscreen"
+      },
+      {
+        "text": "Heavy device at 400g"
+      },
+      {
+        "text": "No SD card slot, limited to built-in storage"
+      }
+    ]
+  },
+  {
+    "id": "kindle-scribe-3-no-front-light",
+    "brand": "Amazon",
+    "name": "Kindle Scribe 3 without Front Light",
+    "releaseDate": "2026",
+    "price": 429.99,
+    "screenSize": 11,
+    "pixelDensity": 300,
+    "resolution": "1980 × 2640",
+    "aspectRatio": "3:4",
+    "screenType": "E Ink",
+    "operatingSystem": [
+      "Kindle firmware"
+    ],
+    "dimensions": "189 x 245 x 5.4",
+    "weight": 400,
+    "cpu": null,
+    "storage": "16 GB",
+    "ram": null,
+    "battery": null,
+    "colors": [
+      "graphite"
+    ],
+    "screenLight": false,
+    "colorDisplay": false,
+    "darkMode": true,
+    "wifi": true,
+    "bluetooth": true,
+    "sdCard": false,
+    "usbc": true,
+    "mobileData": false,
+    "speakers": false,
+    "browser": true,
+    "textToSpeech": true,
+    "waterproof": false,
+    "touchscreen": true,
+    "pageTurnButtons": false,
+    "automaticRotation": true,
+    "stylusSupport": true,
+    "categories": [
+      "High-End",
+      "Medium Size"
+    ],
+    "dimensionsH": 245,
+    "dimensionsL": 189,
+    "dimensionsW": 5.4,
+    "priceCategory": "High-End",
+    "sizeCategory": "Medium Size",
+    "fullName": "Amazon Kindle Scribe 3 without Front Light",
+    "similar": [
+      "kindle-scribe-3",
+      "kindle-scribe-2024",
+      "kindle-scribe-colorsoft",
+      "kobo-elipsa"
+    ],
+    "pros": [
+      {
+        "text": "Sharp text thanks to the 300 PPI screen"
+      },
+      {
+        "text": "Stylus support is great for annotations and note-taking"
+      },
+      {
+        "text": "Slim design at only 5.4mm thick"
+      },
+      {
+        "text": "Large 11\" screen, ideal for PDFs and comics"
+      },
+      {
+        "text": "Bluetooth support enables connecting accessories"
+      },
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "No front light, requires external lighting to read in the dark"
+      },
+      {
+        "text": "No physical page turn buttons, all navigation is done via the touchscreen"
+      },
+      {
+        "text": "Heavy device at 400g"
+      },
+      {
+        "text": "No expandable storage"
+      }
+    ]
+  },
+  {
+    "id": "kindle-scribe-2024",
+    "brand": "Amazon",
+    "name": "Kindle Scribe 2024",
+    "releaseDate": "2024",
+    "price": 399.99,
+    "screenSize": 10.2,
+    "pixelDensity": 300,
+    "resolution": "1860 × 2480",
+    "aspectRatio": "3:4",
+    "screenType": "E Ink",
+    "operatingSystem": [
+      "Kindle firmware"
+    ],
+    "dimensions": "196 x 230 x 5.7",
+    "weight": 433,
+    "cpu": null,
+    "storage": "16 GB",
+    "ram": null,
+    "battery": null,
+    "colors": [
+      "tungsten",
+      "jade"
+    ],
+    "screenLight": true,
+    "colorDisplay": false,
+    "darkMode": true,
+    "wifi": true,
+    "bluetooth": true,
+    "sdCard": false,
+    "usbc": true,
+    "mobileData": false,
+    "speakers": false,
+    "browser": true,
+    "textToSpeech": true,
+    "waterproof": false,
+    "touchscreen": true,
+    "pageTurnButtons": false,
+    "automaticRotation": true,
+    "stylusSupport": true,
+    "categories": [
+      "High-End",
+      "Medium Size"
+    ],
+    "dimensionsH": 230,
+    "dimensionsL": 196,
+    "dimensionsW": 5.7,
+    "priceCategory": "High-End",
+    "sizeCategory": "Medium Size",
+    "fullName": "Amazon Kindle Scribe 2024",
+    "similar": [
+      "kindle-scribe-3-no-front-light",
+      "kindle-scribe-3",
+      "kindle-scribe-colorsoft",
+      "kobo-elipsa-2e"
+    ],
+    "pros": [
+      {
+        "text": "Sharp text thanks to the 300 PPI screen"
+      },
+      {
+        "text": "Stylus support is great for annotations and note-taking"
+      },
+      {
+        "text": "Adjustable front light for comfortable reading in any lighting"
+      },
+      {
+        "text": "Slim design at only 5.7mm thick"
+      },
+      {
+        "text": "Large 10.2\" screen, ideal for PDFs and comics"
+      },
+      {
+        "text": "Bluetooth support enables connecting accessories"
+      },
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "No physical page turn buttons, all navigation is done via the touchscreen"
+      },
+      {
+        "text": "Heavy device at 433g"
+      },
+      {
+        "text": "No expandable storage"
+      }
+    ]
+  },
+  {
+    "id": "kindle-colorsoft-signature-edition",
+    "brand": "Amazon",
+    "name": "Kindle Colorsoft Signature Edition",
+    "releaseDate": "2024",
+    "price": 279.99,
+    "screenSize": 7,
+    "pixelDensity": 300,
+    "resolution": "1264 × 1680",
+    "aspectRatio": "3:4",
+    "screenType": "E Ink Kaleido 3",
+    "operatingSystem": [
+      "Kindle firmware"
+    ],
+    "dimensions": "127.6 x 176.7 x 7.8",
+    "weight": 219,
+    "cpu": "2.0 GHz dual core",
+    "storage": "32 GB",
+    "ram": "1 GB",
+    "battery": "2310 mAh",
+    "colors": [
+      "metallic black"
+    ],
+    "screenLight": true,
+    "colorDisplay": true,
+    "darkMode": true,
+    "wifi": true,
+    "bluetooth": true,
+    "sdCard": false,
+    "usbc": true,
+    "mobileData": false,
+    "speakers": false,
+    "browser": true,
+    "textToSpeech": true,
+    "waterproof": true,
+    "touchscreen": true,
+    "pageTurnButtons": false,
+    "automaticRotation": false,
+    "stylusSupport": false,
+    "categories": [
+      "Mid-Range",
+      "Medium Size"
+    ],
+    "dimensionsH": 176.7,
+    "dimensionsL": 127.6,
+    "dimensionsW": 7.8,
+    "priceCategory": "Mid-Range",
+    "sizeCategory": "Medium Size",
+    "fullName": "Amazon Kindle Colorsoft Signature Edition",
+    "similar": [
+      "kindle-colorsoft",
+      "kindle-2024",
+      "kindle-paperwhite-6",
+      "kindle-paperwhite-6-signature-edition"
+    ],
+    "pros": [
+      {
+        "text": "Sharp text thanks to the 300 PPI screen"
+      },
+      {
+        "text": "Color screen is great for comics, magazines, and illustrated books"
+      },
+      {
+        "text": "Good 2310 mAh battery for everyday use"
+      },
+      {
+        "text": "Adjustable front light for comfortable reading in any lighting"
+      },
+      {
+        "text": "Bluetooth support enables connecting accessories"
+      },
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "No physical page turn buttons, all navigation is done via the touchscreen"
+      },
+      {
+        "text": "No expandable storage"
+      }
+    ]
+  },
+  {
+    "id": "kindle-paperwhite-6-signature-edition",
+    "brand": "Amazon",
+    "name": "Kindle Paperwhite 6 Signature Edition",
+    "releaseDate": "2024",
+    "price": 199.99,
+    "screenSize": 7,
+    "pixelDensity": 300,
+    "resolution": "1264 × 1680",
+    "aspectRatio": "3:4",
+    "screenType": "E Ink Carta 1300",
+    "operatingSystem": [
+      "Kindle firmware"
+    ],
+    "dimensions": "127.6 x 176.7 x 7.8",
+    "weight": 214,
+    "cpu": null,
+    "storage": "32 GB",
+    "ram": null,
+    "battery": "1900 mAh",
+    "colors": [
+      "black",
+      "jade",
+      "raspberry"
+    ],
+    "screenLight": true,
+    "colorDisplay": false,
+    "darkMode": true,
+    "wifi": true,
+    "bluetooth": true,
+    "sdCard": false,
+    "usbc": true,
+    "mobileData": false,
+    "speakers": false,
+    "browser": true,
+    "textToSpeech": true,
+    "waterproof": true,
+    "touchscreen": true,
+    "pageTurnButtons": false,
+    "automaticRotation": false,
+    "stylusSupport": false,
+    "categories": [
+      "Mid-Range",
+      "Medium Size"
+    ],
+    "dimensionsH": 176.7,
+    "dimensionsL": 127.6,
+    "dimensionsW": 7.8,
+    "priceCategory": "Mid-Range",
+    "sizeCategory": "Medium Size",
+    "fullName": "Amazon Kindle Paperwhite 6 Signature Edition",
+    "similar": [
+      "kindle-paperwhite-6",
+      "kindle-oasis-2",
+      "kindle-oasis-3",
+      "kindle-paperwhite-2"
+    ],
+    "pros": [
+      {
+        "text": "High resolution display"
+      },
+      {
+        "text": "Good 1900 mAh battery for everyday use"
+      },
+      {
+        "text": "Front light lets you read comfortably in the dark"
+      },
+      {
+        "text": "Bluetooth support enables connecting accessories"
+      },
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "No physical page turn buttons, all navigation is done via the touchscreen"
+      },
+      {
+        "text": "No SD card slot, limited to built-in storage"
+      }
+    ]
+  },
+  {
+    "id": "kindle-paperwhite-6",
+    "brand": "Amazon",
+    "name": "Kindle Paperwhite 6",
+    "releaseDate": "2024",
+    "price": 179.99,
+    "screenSize": 7,
+    "pixelDensity": 300,
+    "resolution": "1264 × 1680",
+    "aspectRatio": "3:4",
+    "screenType": "E Ink Carta 1300",
+    "operatingSystem": [
+      "Kindle firmware"
+    ],
+    "dimensions": "127.6 x 176.7 x 7.8",
+    "weight": 214,
+    "cpu": null,
+    "storage": "16 GB",
+    "ram": null,
+    "battery": "1900 mAh",
+    "colors": [
+      "black",
+      "jade",
+      "raspberry"
+    ],
+    "screenLight": true,
+    "colorDisplay": false,
+    "darkMode": true,
+    "wifi": true,
+    "bluetooth": true,
+    "sdCard": false,
+    "usbc": true,
+    "mobileData": false,
+    "speakers": false,
+    "browser": true,
+    "textToSpeech": true,
+    "waterproof": true,
+    "touchscreen": true,
+    "pageTurnButtons": false,
+    "automaticRotation": false,
+    "stylusSupport": false,
+    "categories": [
+      "Mid-Range",
+      "Medium Size"
+    ],
+    "dimensionsH": 176.7,
+    "dimensionsL": 127.6,
+    "dimensionsW": 7.8,
+    "priceCategory": "Mid-Range",
+    "sizeCategory": "Medium Size",
+    "fullName": "Amazon Kindle Paperwhite 6",
+    "similar": [
+      "kindle-paperwhite-6-signature-edition",
+      "kindle-oasis-2",
+      "kindle-oasis-3",
+      "kindle-paperwhite-2"
+    ],
+    "pros": [
+      {
+        "text": "High resolution display"
+      },
+      {
+        "text": "Good 1900 mAh battery for everyday use"
+      },
+      {
+        "text": "Front light lets you read comfortably in the dark"
+      },
+      {
+        "text": "Bluetooth support enables connecting accessories"
+      },
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "No physical page turn buttons, all navigation is done via the touchscreen"
+      },
+      {
+        "text": "No SD card slot, limited to built-in storage"
+      }
+    ]
+  },
+  {
+    "id": "kindle-2024",
+    "brand": "Amazon",
+    "name": "Kindle 2024",
+    "releaseDate": "2024",
+    "price": 129.99,
+    "screenSize": 6,
+    "pixelDensity": 300,
+    "resolution": "1072 × 1448",
+    "aspectRatio": "3:4",
+    "screenType": "E Ink",
+    "operatingSystem": [
+      "Kindle firmware"
+    ],
+    "dimensions": "108.6 x 157.8 x 8.0",
+    "weight": 158,
+    "cpu": null,
+    "storage": "16 GB",
+    "ram": null,
+    "battery": null,
+    "colors": [
+      "black",
+      "matcha"
+    ],
+    "screenLight": true,
+    "colorDisplay": false,
+    "darkMode": true,
+    "wifi": true,
+    "bluetooth": true,
+    "sdCard": false,
+    "usbc": true,
+    "mobileData": false,
+    "speakers": false,
+    "browser": true,
+    "textToSpeech": true,
+    "waterproof": false,
+    "touchscreen": true,
+    "pageTurnButtons": false,
+    "automaticRotation": false,
+    "stylusSupport": false,
+    "categories": [
+      "Mid-Range",
+      "Medium Size"
+    ],
+    "dimensionsH": 157.8,
+    "dimensionsL": 108.6,
+    "dimensionsW": 8,
+    "priceCategory": "Mid-Range",
+    "sizeCategory": "Medium Size",
+    "fullName": "Amazon Kindle 2024",
+    "similar": [
+      "kindle-1",
+      "kindle-2",
+      "kindle-11",
+      "kindle-voyage"
+    ],
+    "pros": [
+      {
+        "text": "High resolution display"
+      },
+      {
+        "text": "Front light lets you read comfortably in the dark"
+      },
+      {
+        "text": "Bluetooth support enables connecting accessories"
+      },
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "No physical page turn buttons, all navigation is done via the touchscreen"
+      },
+      {
+        "text": "No SD card slot, limited to built-in storage"
+      }
+    ]
+  },
+  {
+    "id": "kindle-scribe",
+    "brand": "Amazon",
+    "name": "Kindle Scribe",
+    "releaseDate": "2022",
+    "price": 339.99,
+    "screenSize": 10.2,
+    "pixelDensity": 300,
+    "resolution": "1860 × 2480",
+    "aspectRatio": "3:4",
+    "screenType": "E Ink Carta 1200",
+    "operatingSystem": [
+      "Kindle firmware"
+    ],
+    "dimensions": "196 x 230 x 5.8",
+    "weight": 433,
+    "cpu": "1 GHz dual core",
+    "storage": "16 GB",
+    "ram": "1 GB",
+    "battery": "3000 mAh",
+    "colors": [
+      "black"
+    ],
+    "screenLight": true,
+    "colorDisplay": false,
+    "darkMode": true,
+    "wifi": true,
+    "bluetooth": true,
+    "sdCard": false,
+    "usbc": true,
+    "mobileData": false,
+    "speakers": false,
+    "browser": true,
+    "textToSpeech": true,
+    "waterproof": false,
+    "touchscreen": true,
+    "pageTurnButtons": false,
+    "automaticRotation": true,
+    "stylusSupport": true,
+    "categories": [
+      "Mid-Range",
+      "Medium Size"
+    ],
+    "dimensionsH": 230,
+    "dimensionsL": 196,
+    "dimensionsW": 5.8,
+    "priceCategory": "Mid-Range",
+    "sizeCategory": "Medium Size",
+    "fullName": "Amazon Kindle Scribe",
+    "similar": [
+      "kindle-11",
+      "kindle-paperwhite-5",
+      "kindle-paperwhite-5-signature-edition",
+      "kindle-paperwhite-6"
+    ],
+    "pros": [
+      {
+        "text": "High resolution display"
+      },
+      {
+        "text": "Stylus support is great for annotations and note-taking"
+      },
+      {
+        "text": "Big 3000 mAh battery, weeks of reading on a single charge"
+      },
+      {
+        "text": "Front light lets you read comfortably in the dark"
+      },
+      {
+        "text": "Slim design at only 5.8mm thick"
+      },
+      {
+        "text": "Big screen makes reading easier, especially for documents and illustrated content"
+      },
+      {
+        "text": "Bluetooth support enables connecting accessories"
+      },
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "No physical page turn buttons, all navigation is done via the touchscreen"
+      },
+      {
+        "text": "Heavy device at 433g"
+      },
+      {
+        "text": "No SD card slot, limited to built-in storage"
+      }
+    ]
+  },
+  {
+    "id": "kindle-11",
+    "brand": "Amazon",
+    "name": "Kindle 11",
+    "releaseDate": "2022",
+    "price": 119.99,
+    "screenSize": 6,
+    "pixelDensity": 300,
+    "resolution": "1072 × 1448",
+    "aspectRatio": "3:4",
+    "screenType": "E Ink Carta",
+    "operatingSystem": [
+      "Kindle firmware"
+    ],
+    "dimensions": "108.6 x 157.8 x 8.0",
+    "weight": 158,
+    "cpu": "1 GHz dual core",
+    "storage": "16 GB",
+    "ram": "512 MB",
+    "battery": "1040 mAh",
+    "colors": [
+      "black",
+      "blue"
+    ],
+    "screenLight": true,
+    "colorDisplay": false,
+    "darkMode": true,
+    "wifi": true,
+    "bluetooth": true,
+    "sdCard": false,
+    "usbc": true,
+    "mobileData": false,
+    "speakers": false,
+    "browser": true,
+    "textToSpeech": true,
+    "waterproof": false,
+    "touchscreen": true,
+    "pageTurnButtons": false,
+    "automaticRotation": false,
+    "stylusSupport": false,
+    "categories": [
+      "Mid-Range",
+      "Medium Size"
+    ],
+    "dimensionsH": 157.8,
+    "dimensionsL": 108.6,
+    "dimensionsW": 8,
+    "priceCategory": "Mid-Range",
+    "sizeCategory": "Medium Size",
+    "fullName": "Amazon Kindle 11",
+    "similar": [
+      "kindle-paperwhite-2",
+      "kindle-oasis",
+      "kindle-10",
+      "kindle-voyage"
+    ],
+    "pros": [
+      {
+        "text": "High resolution display"
+      },
+      {
+        "text": "Front light lets you read comfortably in the dark"
+      },
+      {
+        "text": "Bluetooth support enables connecting accessories"
+      },
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "No physical page turn buttons, all navigation is done via the touchscreen"
+      },
+      {
+        "text": "No SD card slot, limited to built-in storage"
+      },
+      {
+        "text": "Small 1040 mAh battery, may require more frequent charging than other e-readers"
+      }
+    ]
+  },
+  {
+    "id": "kindle-paperwhite-5-signature-edition",
+    "brand": "Amazon",
+    "name": "Kindle Paperwhite 5 Signature Edition",
+    "releaseDate": "2021",
+    "price": 189.99,
+    "screenSize": 6.8,
+    "pixelDensity": 300,
+    "resolution": "1236 × 1648",
+    "aspectRatio": "3:4",
+    "screenType": "E Ink Carta 1200",
+    "operatingSystem": [
+      "Kindle firmware"
+    ],
+    "dimensions": "125 x 174 x 8.1",
+    "weight": 208,
+    "cpu": "1 GHz dual core",
+    "storage": "32 GB",
+    "ram": "512 MB",
+    "battery": "1700 mAh",
+    "colors": [
+      "black",
+      "blue",
+      "green"
+    ],
+    "screenLight": true,
+    "colorDisplay": false,
+    "darkMode": true,
+    "wifi": true,
+    "bluetooth": true,
+    "sdCard": false,
+    "usbc": true,
+    "mobileData": false,
+    "speakers": false,
+    "browser": true,
+    "textToSpeech": true,
+    "waterproof": true,
+    "touchscreen": true,
+    "pageTurnButtons": false,
+    "automaticRotation": false,
+    "stylusSupport": false,
+    "categories": [
+      "Mid-Range",
+      "Medium Size"
+    ],
+    "dimensionsH": 174,
+    "dimensionsL": 125,
+    "dimensionsW": 8.1,
+    "priceCategory": "Mid-Range",
+    "sizeCategory": "Medium Size",
+    "fullName": "Amazon Kindle Paperwhite 5 Signature Edition",
+    "similar": [
+      "kindle-paperwhite-5",
+      "kindle-11",
+      "kindle-scribe",
+      "kindle-paperwhite-6"
+    ],
+    "pros": [
+      {
+        "text": "High resolution display"
+      },
+      {
+        "text": "Front light lets you read comfortably in the dark"
+      },
+      {
+        "text": "Bluetooth support enables connecting accessories"
+      },
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "No physical page turn buttons, all navigation is done via the touchscreen"
+      },
+      {
+        "text": "No SD card slot, limited to built-in storage"
+      }
+    ]
+  },
+  {
+    "id": "kindle-paperwhite-5",
+    "brand": "Amazon",
+    "name": "Kindle Paperwhite 5",
+    "releaseDate": "2021",
+    "price": 159.99,
+    "screenSize": 6.8,
+    "pixelDensity": 300,
+    "resolution": "1236 × 1648",
+    "aspectRatio": "3:4",
+    "screenType": "E Ink Carta 1200",
+    "operatingSystem": [
+      "Kindle firmware"
+    ],
+    "dimensions": "125 x 174 x 8.1",
+    "weight": 205,
+    "cpu": "1 GHz",
+    "storage": "8 GB",
+    "ram": "512 MB",
+    "battery": "1700 mAh",
+    "colors": [
+      "black",
+      "blue",
+      "green"
+    ],
+    "screenLight": true,
+    "colorDisplay": false,
+    "darkMode": true,
+    "wifi": true,
+    "bluetooth": true,
+    "sdCard": false,
+    "usbc": true,
+    "mobileData": false,
+    "speakers": false,
+    "browser": true,
+    "textToSpeech": true,
+    "waterproof": true,
+    "touchscreen": true,
+    "pageTurnButtons": false,
+    "automaticRotation": false,
+    "stylusSupport": false,
+    "categories": [
+      "Mid-Range",
+      "Medium Size"
+    ],
+    "dimensionsH": 174,
+    "dimensionsL": 125,
+    "dimensionsW": 8.1,
+    "priceCategory": "Mid-Range",
+    "sizeCategory": "Medium Size",
+    "fullName": "Amazon Kindle Paperwhite 5",
+    "similar": [
+      "kindle-paperwhite-5-signature-edition",
+      "kindle-11",
+      "kindle-scribe",
+      "kindle-paperwhite-6"
+    ],
+    "pros": [
+      {
+        "text": "High resolution display"
+      },
+      {
+        "text": "Front light lets you read comfortably in the dark"
+      },
+      {
+        "text": "Bluetooth support enables connecting accessories"
+      },
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "No physical page turn buttons, all navigation is done via the touchscreen"
+      },
+      {
+        "text": "No SD card slot, limited to built-in storage"
+      }
+    ]
+  },
+  {
+    "id": "kindle-oasis-3",
+    "brand": "Amazon",
+    "name": "Kindle Oasis 3",
+    "releaseDate": "2019",
+    "price": 249.99,
+    "screenSize": 7,
+    "pixelDensity": 300,
+    "resolution": "1264 × 1680",
+    "aspectRatio": "3:4",
+    "screenType": "E Ink Carta",
+    "operatingSystem": [
+      "Kindle firmware"
+    ],
+    "dimensions": "141 x 159 x 8.4",
+    "weight": 188,
+    "cpu": "1 GHz dual core",
+    "storage": "8 GB",
+    "ram": "512 MB",
+    "battery": "1130 mAh",
+    "colors": [
+      "graphite",
+      "gold"
+    ],
+    "screenLight": true,
+    "colorDisplay": false,
+    "darkMode": true,
+    "wifi": true,
+    "bluetooth": true,
+    "sdCard": false,
+    "usbc": false,
+    "mobileData": false,
+    "speakers": false,
+    "browser": true,
+    "textToSpeech": true,
+    "waterproof": true,
+    "touchscreen": true,
+    "pageTurnButtons": true,
+    "automaticRotation": true,
+    "stylusSupport": false,
+    "categories": [
+      "Mid-Range",
+      "Medium Size"
+    ],
+    "dimensionsH": 159,
+    "dimensionsL": 141,
+    "dimensionsW": 8.4,
+    "priceCategory": "Mid-Range",
+    "sizeCategory": "Medium Size",
+    "fullName": "Amazon Kindle Oasis 3",
+    "similar": [
+      "kindle-oasis-2",
+      "kindle-10",
+      "kindle-paperwhite-2",
+      "kindle-oasis"
+    ],
+    "pros": [
+      {
+        "text": "Sharp text thanks to the 300 PPI screen"
+      },
+      {
+        "text": "Physical page turn buttons"
+      },
+      {
+        "text": "Adjustable front light for comfortable reading in any lighting"
+      },
+      {
+        "text": "Bluetooth support enables connecting accessories"
+      },
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "No expandable storage"
+      },
+      {
+        "text": "Small 1130 mAh battery, may require more frequent charging than other e-readers"
+      }
+    ]
+  },
+  {
+    "id": "kindle-10",
+    "brand": "Amazon",
+    "name": "Kindle 10",
+    "releaseDate": "2019",
+    "price": 109.99,
+    "screenSize": 6,
+    "pixelDensity": 167,
+    "resolution": "600 × 800",
+    "aspectRatio": "3:4",
+    "screenType": "E Ink Carta",
+    "operatingSystem": [
+      "Kindle firmware"
+    ],
+    "dimensions": "113 x 160 x 8.7",
+    "weight": 174,
+    "cpu": "1 GHz",
+    "storage": "8 GB",
+    "ram": "512 MB",
+    "battery": "1040 mAh",
+    "colors": [
+      "black",
+      "white"
+    ],
+    "screenLight": true,
+    "colorDisplay": false,
+    "darkMode": false,
+    "wifi": true,
+    "bluetooth": true,
+    "sdCard": false,
+    "usbc": false,
+    "mobileData": false,
+    "speakers": false,
+    "browser": true,
+    "textToSpeech": true,
+    "waterproof": false,
+    "touchscreen": true,
+    "pageTurnButtons": false,
+    "automaticRotation": false,
+    "stylusSupport": false,
+    "categories": [
+      "Mid-Range",
+      "Medium Size"
+    ],
+    "dimensionsH": 160,
+    "dimensionsL": 113,
+    "dimensionsW": 8.7,
+    "priceCategory": "Mid-Range",
+    "sizeCategory": "Medium Size",
+    "fullName": "Amazon Kindle 10",
+    "similar": [
+      "kindle-paperwhite-2",
+      "kindle-oasis",
+      "kindle-oasis-3",
+      "kindle-voyage"
+    ],
+    "pros": [
+      {
+        "text": "Front light lets you read comfortably in the dark"
+      },
+      {
+        "text": "Bluetooth support enables connecting accessories"
+      },
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "Low resolution screen, text is as sharp as on some other devices"
+      },
+      {
+        "text": "No physical page turn buttons, all navigation is done via the touchscreen"
+      },
+      {
+        "text": "No SD card slot, limited to built-in storage"
+      },
+      {
+        "text": "Small 1040 mAh battery, may require more frequent charging than other e-readers"
+      }
+    ]
+  },
+  {
+    "id": "kindle-paperwhite-4",
+    "brand": "Amazon",
+    "name": "Kindle Paperwhite 4",
+    "releaseDate": "2018",
+    "price": 129.99,
+    "screenSize": 6,
+    "pixelDensity": 300,
+    "resolution": "1072 × 1448",
+    "aspectRatio": "3:4",
+    "screenType": "E Ink Carta HD",
+    "operatingSystem": [
+      "Kindle firmware"
+    ],
+    "dimensions": "116 x 167 x 8.2",
+    "weight": 182,
+    "cpu": "1 GHz",
+    "storage": "8 GB",
+    "ram": "512 MB",
+    "battery": "1500 mAh",
+    "colors": [
+      "black",
+      "plum",
+      "sage",
+      "twilight blue"
+    ],
+    "screenLight": true,
+    "colorDisplay": false,
+    "darkMode": true,
+    "wifi": true,
+    "bluetooth": true,
+    "sdCard": false,
+    "usbc": false,
+    "mobileData": false,
+    "speakers": false,
+    "browser": true,
+    "textToSpeech": true,
+    "waterproof": true,
+    "touchscreen": true,
+    "pageTurnButtons": false,
+    "automaticRotation": false,
+    "stylusSupport": false,
+    "categories": [
+      "Mid-Range",
+      "Medium Size"
+    ],
+    "dimensionsH": 167,
+    "dimensionsL": 116,
+    "dimensionsW": 8.2,
+    "priceCategory": "Mid-Range",
+    "sizeCategory": "Medium Size",
+    "fullName": "Amazon Kindle Paperwhite 4",
+    "similar": [
+      "kindle-voyage",
+      "kindle-paperwhite-3",
+      "kindle-paperwhite-2",
+      "kindle-oasis"
+    ],
+    "pros": [
+      {
+        "text": "High resolution display"
+      },
+      {
+        "text": "Front light lets you read comfortably in the dark"
+      },
+      {
+        "text": "Bluetooth support enables connecting accessories"
+      },
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "No physical page turn buttons, all navigation is done via the touchscreen"
+      },
+      {
+        "text": "No SD card slot, limited to built-in storage"
+      }
+    ]
+  },
+  {
+    "id": "kindle-oasis-2",
+    "brand": "Amazon",
+    "name": "Kindle Oasis 2",
+    "releaseDate": "2017",
+    "price": 249.99,
+    "screenSize": 7,
+    "pixelDensity": 300,
+    "resolution": "1264 × 1680",
+    "aspectRatio": "3:4",
+    "screenType": "E Ink Carta",
+    "operatingSystem": [
+      "Kindle firmware"
+    ],
+    "dimensions": "141 x 159 x 8.3",
+    "weight": 194,
+    "cpu": "1 GHz dual core",
+    "storage": "8 GB",
+    "ram": "512 MB",
+    "battery": "1000 mAh",
+    "colors": [
+      "graphite",
+      "gold"
+    ],
+    "screenLight": true,
+    "colorDisplay": false,
+    "darkMode": true,
+    "wifi": true,
+    "bluetooth": true,
+    "sdCard": false,
+    "usbc": false,
+    "mobileData": false,
+    "speakers": false,
+    "browser": true,
+    "textToSpeech": true,
+    "waterproof": true,
+    "touchscreen": true,
+    "pageTurnButtons": true,
+    "automaticRotation": true,
+    "stylusSupport": false,
+    "categories": [
+      "Mid-Range",
+      "Medium Size"
+    ],
+    "dimensionsH": 159,
+    "dimensionsL": 141,
+    "dimensionsW": 8.3,
+    "priceCategory": "Mid-Range",
+    "sizeCategory": "Medium Size",
+    "fullName": "Amazon Kindle Oasis 2",
+    "similar": [
+      "kindle-oasis-3",
+      "kindle-paperwhite-2",
+      "kindle-oasis",
+      "kindle-10"
+    ],
+    "pros": [
+      {
+        "text": "Sharp text thanks to the 300 PPI screen"
+      },
+      {
+        "text": "Physical page turn buttons"
+      },
+      {
+        "text": "Adjustable front light for comfortable reading in any lighting"
+      },
+      {
+        "text": "Bluetooth support enables connecting accessories"
+      },
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "No expandable storage"
+      },
+      {
+        "text": "Small 1000 mAh battery, may require more frequent charging than other e-readers"
+      }
+    ]
+  },
+  {
+    "id": "kindle-8",
+    "brand": "Amazon",
+    "name": "Kindle 8",
+    "releaseDate": "2016",
+    "price": 100,
+    "screenSize": 6,
+    "pixelDensity": 167,
+    "resolution": "600 × 800",
+    "aspectRatio": "3:4",
+    "screenType": "E Ink Pearl",
+    "operatingSystem": [
+      "Kindle firmware"
+    ],
+    "dimensions": "115 x 160 x 9.1",
+    "weight": 161,
+    "cpu": "1 GHz",
+    "storage": "4 GB",
+    "ram": "512 MB",
+    "battery": "890 mAh",
+    "colors": [
+      "black",
+      "white"
+    ],
+    "screenLight": false,
+    "colorDisplay": false,
+    "darkMode": false,
+    "wifi": true,
+    "bluetooth": true,
+    "sdCard": false,
+    "usbc": false,
+    "mobileData": false,
+    "speakers": false,
+    "browser": true,
+    "textToSpeech": true,
+    "waterproof": false,
+    "touchscreen": true,
+    "pageTurnButtons": false,
+    "automaticRotation": false,
+    "stylusSupport": false,
+    "categories": [
+      "Budget",
+      "Medium Size"
+    ],
+    "dimensionsH": 160,
+    "dimensionsL": 115,
+    "dimensionsW": 9.1,
+    "priceCategory": "Budget",
+    "sizeCategory": "Medium Size",
+    "fullName": "Amazon Kindle 8",
+    "similar": [
+      "kindle-5",
+      "kindle-7",
+      "kobo-touch-2",
+      "kindle-keyboard"
+    ],
+    "pros": [
+      {
+        "text": "Bluetooth support enables connecting accessories"
+      },
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "Low resolution screen, text is as sharp as on some other devices"
+      },
+      {
+        "text": "No front light, requires external lighting to read in the dark"
+      },
+      {
+        "text": "No physical page turn buttons, all navigation is done via the touchscreen"
+      },
+      {
+        "text": "No expandable storage"
+      },
+      {
+        "text": "Small 890 mAh battery, may require more frequent charging than other e-readers"
+      }
+    ]
+  },
+  {
+    "id": "kindle-oasis",
+    "brand": "Amazon",
+    "name": "Kindle Oasis",
+    "releaseDate": "2016",
+    "price": 309,
+    "screenSize": 6,
+    "pixelDensity": 300,
+    "resolution": "1072 × 1448",
+    "aspectRatio": "3:4",
+    "screenType": "E Ink Carta",
+    "operatingSystem": [
+      "Kindle firmware"
+    ],
+    "dimensions": "122 x 144 x 8.5",
+    "weight": 130,
+    "cpu": "1 GHz",
+    "storage": "4 GB",
+    "ram": "512 MB",
+    "battery": "1535 mAh",
+    "colors": [
+      "black"
+    ],
+    "screenLight": true,
+    "colorDisplay": false,
+    "darkMode": false,
+    "wifi": true,
+    "bluetooth": false,
+    "sdCard": false,
+    "usbc": false,
+    "mobileData": false,
+    "speakers": false,
+    "browser": true,
+    "textToSpeech": true,
+    "waterproof": false,
+    "touchscreen": true,
+    "pageTurnButtons": true,
+    "automaticRotation": true,
+    "stylusSupport": false,
+    "categories": [
+      "Mid-Range",
+      "Medium Size"
+    ],
+    "dimensionsH": 144,
+    "dimensionsL": 122,
+    "dimensionsW": 8.5,
+    "priceCategory": "Mid-Range",
+    "sizeCategory": "Medium Size",
+    "fullName": "Amazon Kindle Oasis",
+    "similar": [
+      "kindle-paperwhite-2",
+      "kindle-10",
+      "kindle-voyage",
+      "kindle-paperwhite-3"
+    ],
+    "pros": [
+      {
+        "text": "Sharp text thanks to the 300 PPI screen"
+      },
+      {
+        "text": "Physical page turn buttons"
+      },
+      {
+        "text": "Adjustable front light for comfortable reading in any lighting"
+      },
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "No expandable storage"
+      },
+      {
+        "text": "No Bluetooth, can't connect wireless headphones for audiobooks"
+      }
+    ]
+  },
+  {
+    "id": "kindle-paperwhite-3",
+    "brand": "Amazon",
+    "name": "Kindle Paperwhite 3",
+    "releaseDate": "2015",
+    "price": 140,
+    "screenSize": 6,
+    "pixelDensity": 300,
+    "resolution": "1072 × 1448",
+    "aspectRatio": "3:4",
+    "screenType": "E Ink Carta HD",
+    "operatingSystem": [
+      "Kindle firmware"
+    ],
+    "dimensions": "117 x 169 x 9.1",
+    "weight": 205,
+    "cpu": "1 GHz",
+    "storage": "4 GB",
+    "ram": "512 MB",
+    "battery": "1420 mAh",
+    "colors": [
+      "black",
+      "white"
+    ],
+    "screenLight": true,
+    "colorDisplay": false,
+    "darkMode": false,
+    "wifi": true,
+    "bluetooth": false,
+    "sdCard": false,
+    "usbc": false,
+    "mobileData": false,
+    "speakers": false,
+    "browser": true,
+    "textToSpeech": false,
+    "waterproof": false,
+    "touchscreen": true,
+    "pageTurnButtons": false,
+    "automaticRotation": false,
+    "stylusSupport": false,
+    "categories": [
+      "Mid-Range",
+      "Medium Size"
+    ],
+    "dimensionsH": 169,
+    "dimensionsL": 117,
+    "dimensionsW": 9.1,
+    "priceCategory": "Mid-Range",
+    "sizeCategory": "Medium Size",
+    "fullName": "Amazon Kindle Paperwhite 3",
+    "similar": [
+      "kindle-voyage",
+      "kindle-paperwhite-4",
+      "kindle-paperwhite-2",
+      "kindle-oasis"
+    ],
+    "pros": [
+      {
+        "text": "High resolution display"
+      },
+      {
+        "text": "Front light lets you read comfortably in the dark"
+      },
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "No physical page turn buttons, all navigation is done via the touchscreen"
+      },
+      {
+        "text": "No SD card slot, limited to built-in storage"
+      },
+      {
+        "text": "No Bluetooth, can't connect wireless headphones for audiobooks"
+      }
+    ]
+  },
+  {
+    "id": "kindle-voyage",
+    "brand": "Amazon",
+    "name": "Kindle Voyage",
+    "releaseDate": "2014",
+    "price": 220,
+    "screenSize": 6,
+    "pixelDensity": 300,
+    "resolution": "1072 × 1448",
+    "aspectRatio": "3:4",
+    "screenType": "E Ink Carta HD",
+    "operatingSystem": [
+      "Kindle firmware"
+    ],
+    "dimensions": "115 x 162 x 7.6",
+    "weight": 179,
+    "cpu": "1 GHz",
+    "storage": "4 GB",
+    "ram": "512 MB",
+    "battery": "1320 mAh",
+    "colors": [
+      "black"
+    ],
+    "screenLight": true,
+    "colorDisplay": false,
+    "darkMode": false,
+    "wifi": true,
+    "bluetooth": false,
+    "sdCard": false,
+    "usbc": false,
+    "mobileData": false,
+    "speakers": false,
+    "browser": true,
+    "textToSpeech": false,
+    "waterproof": false,
+    "touchscreen": true,
+    "pageTurnButtons": true,
+    "automaticRotation": false,
+    "stylusSupport": false,
+    "categories": [
+      "Mid-Range",
+      "Medium Size"
+    ],
+    "dimensionsH": 162,
+    "dimensionsL": 115,
+    "dimensionsW": 7.6,
+    "priceCategory": "Mid-Range",
+    "sizeCategory": "Medium Size",
+    "fullName": "Amazon Kindle Voyage",
+    "similar": [
+      "kindle-paperwhite-3",
+      "kindle-paperwhite-4",
+      "kindle-paperwhite-2",
+      "kindle-oasis"
+    ],
+    "pros": [
+      {
+        "text": "High resolution display"
+      },
+      {
+        "text": "Physical page turn buttons"
+      },
+      {
+        "text": "Front light lets you read comfortably in the dark"
+      },
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "No SD card slot, limited to built-in storage"
+      },
+      {
+        "text": "No Bluetooth, can't connect wireless headphones for audiobooks"
+      }
+    ]
+  },
+  {
+    "id": "kindle-7",
+    "brand": "Amazon",
+    "name": "Kindle 7",
+    "releaseDate": "2014",
+    "price": 100,
+    "screenSize": 6,
+    "pixelDensity": 167,
+    "resolution": "600 × 800",
+    "aspectRatio": "3:4",
+    "screenType": "E Ink Pearl",
+    "operatingSystem": [
+      "Kindle firmware"
+    ],
+    "dimensions": "119 x 169 x 10.2",
+    "weight": 191,
+    "cpu": "1 GHz",
+    "storage": "4 GB",
+    "ram": "256 MB",
+    "battery": "890 mAh",
+    "colors": [
+      "black",
+      "white"
+    ],
+    "screenLight": false,
+    "colorDisplay": false,
+    "darkMode": false,
+    "wifi": true,
+    "bluetooth": false,
+    "sdCard": false,
+    "usbc": false,
+    "mobileData": false,
+    "speakers": false,
+    "browser": true,
+    "textToSpeech": false,
+    "waterproof": false,
+    "touchscreen": true,
+    "pageTurnButtons": false,
+    "automaticRotation": false,
+    "stylusSupport": false,
+    "categories": [
+      "Budget",
+      "Medium Size"
+    ],
+    "dimensionsH": 169,
+    "dimensionsL": 119,
+    "dimensionsW": 10.2,
+    "priceCategory": "Budget",
+    "sizeCategory": "Medium Size",
+    "fullName": "Amazon Kindle 7",
+    "similar": [
+      "kindle-5",
+      "kindle-8",
+      "kobo-touch-2",
+      "kindle-keyboard"
+    ],
+    "pros": [
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "Low resolution screen, text is as sharp as on some other devices"
+      },
+      {
+        "text": "No front light, requires external lighting to read in the dark"
+      },
+      {
+        "text": "No physical page turn buttons, all navigation is done via the touchscreen"
+      },
+      {
+        "text": "No expandable storage"
+      },
+      {
+        "text": "Small 890 mAh battery, may require more frequent charging than other e-readers"
+      },
+      {
+        "text": "No Bluetooth, can't connect wireless headphones for audiobooks"
+      }
+    ]
+  },
+  {
+    "id": "kindle-paperwhite-2",
+    "brand": "Amazon",
+    "name": "Kindle Paperwhite 2",
+    "releaseDate": "2013",
+    "price": 140,
+    "screenSize": 6,
+    "pixelDensity": 212,
+    "resolution": "758 × 1024",
+    "aspectRatio": "3:4",
+    "screenType": "E Ink Carta",
+    "operatingSystem": [
+      "Kindle firmware"
+    ],
+    "dimensions": "117 x 169 x 9.1",
+    "weight": 206,
+    "cpu": "1 GHz",
+    "storage": "2 GB",
+    "ram": "256 MB",
+    "battery": "1420 mAh",
+    "colors": [
+      "black"
+    ],
+    "screenLight": true,
+    "colorDisplay": false,
+    "darkMode": false,
+    "wifi": true,
+    "bluetooth": false,
+    "sdCard": false,
+    "usbc": false,
+    "mobileData": false,
+    "speakers": false,
+    "browser": true,
+    "textToSpeech": false,
+    "waterproof": false,
+    "touchscreen": true,
+    "pageTurnButtons": false,
+    "automaticRotation": false,
+    "stylusSupport": false,
+    "categories": [
+      "Mid-Range",
+      "Medium Size"
+    ],
+    "dimensionsH": 169,
+    "dimensionsL": 117,
+    "dimensionsW": 9.1,
+    "priceCategory": "Mid-Range",
+    "sizeCategory": "Medium Size",
+    "fullName": "Amazon Kindle Paperwhite 2",
+    "similar": [
+      "kindle-oasis",
+      "kindle-10",
+      "kindle-voyage",
+      "kindle-paperwhite-3"
+    ],
+    "pros": [
+      {
+        "text": "Front light lets you read comfortably in the dark"
+      },
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "Low resolution screen, text is as sharp as on some other devices"
+      },
+      {
+        "text": "No physical page turn buttons, all navigation is done via the touchscreen"
+      },
+      {
+        "text": "No SD card slot, limited to built-in storage"
+      },
+      {
+        "text": "No Bluetooth, can't connect wireless headphones for audiobooks"
+      }
+    ]
+  },
+  {
+    "id": "kindle-paperwhite",
+    "brand": "Amazon",
+    "name": "Kindle Paperwhite",
+    "releaseDate": "2012",
+    "price": 140,
+    "screenSize": 6,
+    "pixelDensity": 212,
+    "resolution": "758 × 1024",
+    "aspectRatio": "3:4",
+    "screenType": "E Ink Pearl",
+    "operatingSystem": [
+      "Kindle firmware"
+    ],
+    "dimensions": "117 x 169 x 9.1",
+    "weight": 213,
+    "cpu": "0.8 GHz",
+    "storage": "2 GB",
+    "ram": "256 MB",
+    "battery": "1420 mAh",
+    "colors": [
+      "black"
+    ],
+    "screenLight": true,
+    "colorDisplay": false,
+    "darkMode": false,
+    "wifi": true,
+    "bluetooth": false,
+    "sdCard": false,
+    "usbc": false,
+    "mobileData": false,
+    "speakers": false,
+    "browser": true,
+    "textToSpeech": false,
+    "waterproof": false,
+    "touchscreen": true,
+    "pageTurnButtons": false,
+    "automaticRotation": false,
+    "stylusSupport": false,
+    "categories": [
+      "Mid-Range",
+      "Medium Size"
+    ],
+    "dimensionsH": 169,
+    "dimensionsL": 117,
+    "dimensionsW": 9.1,
+    "priceCategory": "Mid-Range",
+    "sizeCategory": "Medium Size",
+    "fullName": "Amazon Kindle Paperwhite",
+    "similar": [
+      "kindle-keyboard",
+      "kindle-4",
+      "kindle-touch",
+      "kindle-1"
+    ],
+    "pros": [
+      {
+        "text": "Front light lets you read comfortably in the dark"
+      },
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "Low resolution screen, text is as sharp as on some other devices"
+      },
+      {
+        "text": "No physical page turn buttons, all navigation is done via the touchscreen"
+      },
+      {
+        "text": "No SD card slot, limited to built-in storage"
+      },
+      {
+        "text": "No Bluetooth, can't connect wireless headphones for audiobooks"
+      }
+    ]
+  },
+  {
+    "id": "kindle-5",
+    "brand": "Amazon",
+    "name": "Kindle 5",
+    "releaseDate": "2012",
+    "price": 90,
+    "screenSize": 6,
+    "pixelDensity": 167,
+    "resolution": "600 × 800",
+    "aspectRatio": "3:4",
+    "screenType": "E Ink Pearl",
+    "operatingSystem": [
+      "Kindle firmware"
+    ],
+    "dimensions": "114 x 166 x 8.7",
+    "weight": 170,
+    "cpu": "0.8 GHz",
+    "storage": "2 GB",
+    "ram": "256 MB",
+    "battery": "890 mAh",
+    "colors": [
+      "black"
+    ],
+    "screenLight": false,
+    "colorDisplay": false,
+    "darkMode": false,
+    "wifi": true,
+    "bluetooth": false,
+    "sdCard": false,
+    "usbc": false,
+    "mobileData": false,
+    "speakers": false,
+    "browser": true,
+    "textToSpeech": false,
+    "waterproof": false,
+    "touchscreen": false,
+    "pageTurnButtons": true,
+    "automaticRotation": false,
+    "stylusSupport": false,
+    "categories": [
+      "Budget",
+      "Medium Size"
+    ],
+    "dimensionsH": 166,
+    "dimensionsL": 114,
+    "dimensionsW": 8.7,
+    "priceCategory": "Budget",
+    "sizeCategory": "Medium Size",
+    "fullName": "Amazon Kindle 5",
+    "similar": [
+      "kindle-7",
+      "kindle-8",
+      "kobo-touch-2",
+      "kindle-paperwhite"
+    ],
+    "pros": [
+      {
+        "text": "Physical page turn buttons"
+      },
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "Low resolution screen, text is as sharp as on some other devices"
+      },
+      {
+        "text": "No front light, requires external lighting to read in the dark"
+      },
+      {
+        "text": "No touchscreen, navigation relies entirely on physical buttons"
+      },
+      {
+        "text": "No expandable storage"
+      },
+      {
+        "text": "Small 890 mAh battery, may require more frequent charging than other e-readers"
+      },
+      {
+        "text": "No Bluetooth, can't connect wireless headphones for audiobooks"
+      }
+    ]
+  },
+  {
+    "id": "kindle-touch",
+    "brand": "Amazon",
+    "name": "Kindle Touch",
+    "releaseDate": "2011",
+    "price": 149,
+    "screenSize": 6,
+    "pixelDensity": 167,
+    "resolution": "600 × 800",
+    "aspectRatio": "3:4",
+    "screenType": "E Ink Pearl",
+    "operatingSystem": [
+      "Kindle firmware"
+    ],
+    "dimensions": "120 x 172 x 10.1",
+    "weight": 213,
+    "cpu": "0.8 GHz",
+    "storage": "4 GB",
+    "ram": "256 MB",
+    "battery": "1420 mAh",
+    "colors": [
+      "silver"
+    ],
+    "screenLight": false,
+    "colorDisplay": false,
+    "darkMode": false,
+    "wifi": true,
+    "bluetooth": false,
+    "sdCard": false,
+    "usbc": false,
+    "mobileData": false,
+    "speakers": true,
+    "browser": true,
+    "textToSpeech": true,
+    "waterproof": false,
+    "touchscreen": true,
+    "pageTurnButtons": false,
+    "automaticRotation": false,
+    "stylusSupport": false,
+    "categories": [
+      "Mid-Range",
+      "Medium Size"
+    ],
+    "dimensionsH": 172,
+    "dimensionsL": 120,
+    "dimensionsW": 10.1,
+    "priceCategory": "Mid-Range",
+    "sizeCategory": "Medium Size",
+    "fullName": "Amazon Kindle Touch",
+    "similar": [
+      "kindle-4",
+      "kindle-keyboard",
+      "kindle-paperwhite",
+      "kindle-1"
+    ],
+    "pros": [
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "Low resolution screen, text is as sharp as on some other devices"
+      },
+      {
+        "text": "No front light, requires external lighting to read in the dark"
+      },
+      {
+        "text": "No physical page turn buttons, all navigation is done via the touchscreen"
+      },
+      {
+        "text": "No expandable storage"
+      },
+      {
+        "text": "No Bluetooth, can't connect wireless headphones for audiobooks"
+      }
+    ]
+  },
+  {
+    "id": "kindle-4",
+    "brand": "Amazon",
+    "name": "Kindle 4",
+    "releaseDate": "2011",
+    "price": 109,
+    "screenSize": 6,
+    "pixelDensity": 167,
+    "resolution": "600 × 800",
+    "aspectRatio": "3:4",
+    "screenType": "E Ink Pearl",
+    "operatingSystem": [
+      "Kindle firmware"
+    ],
+    "dimensions": "114 x 166 x 8.7",
+    "weight": 170,
+    "cpu": "0.8 GHz",
+    "storage": "2 GB",
+    "ram": "256 MB",
+    "battery": "890 mAh",
+    "colors": [
+      "silver"
+    ],
+    "screenLight": false,
+    "colorDisplay": false,
+    "darkMode": false,
+    "wifi": true,
+    "bluetooth": false,
+    "sdCard": false,
+    "usbc": false,
+    "mobileData": false,
+    "speakers": false,
+    "browser": true,
+    "textToSpeech": false,
+    "waterproof": false,
+    "touchscreen": false,
+    "pageTurnButtons": true,
+    "automaticRotation": false,
+    "stylusSupport": false,
+    "categories": [
+      "Mid-Range",
+      "Medium Size"
+    ],
+    "dimensionsH": 166,
+    "dimensionsL": 114,
+    "dimensionsW": 8.7,
+    "priceCategory": "Mid-Range",
+    "sizeCategory": "Medium Size",
+    "fullName": "Amazon Kindle 4",
+    "similar": [
+      "kindle-touch",
+      "kindle-keyboard",
+      "kindle-paperwhite",
+      "kindle-1"
+    ],
+    "pros": [
+      {
+        "text": "Physical page turn buttons"
+      },
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "Low resolution screen, text is as sharp as on some other devices"
+      },
+      {
+        "text": "No front light, requires external lighting to read in the dark"
+      },
+      {
+        "text": "No touchscreen, navigation relies entirely on physical buttons"
+      },
+      {
+        "text": "No expandable storage"
+      },
+      {
+        "text": "Small 890 mAh battery, may require more frequent charging than other e-readers"
+      },
+      {
+        "text": "No Bluetooth, can't connect wireless headphones for audiobooks"
+      }
+    ]
+  },
+  {
+    "id": "kindle-keyboard",
+    "brand": "Amazon",
+    "name": "Kindle Keyboard",
+    "releaseDate": "2010",
+    "price": 139,
+    "screenSize": 6,
+    "pixelDensity": 167,
+    "resolution": "600 × 800",
+    "aspectRatio": "3:4",
+    "screenType": "E Ink Pearl",
+    "operatingSystem": [
+      "Kindle firmware"
+    ],
+    "dimensions": "121.9 x 190.5 x 8.5",
+    "weight": 241,
+    "cpu": "0.532 GHz",
+    "storage": "4 GB",
+    "ram": "256 MB",
+    "battery": "1750 mAh",
+    "colors": [
+      "black",
+      "silver"
+    ],
+    "screenLight": false,
+    "colorDisplay": false,
+    "darkMode": false,
+    "wifi": true,
+    "bluetooth": false,
+    "sdCard": false,
+    "usbc": false,
+    "mobileData": false,
+    "speakers": true,
+    "browser": true,
+    "textToSpeech": true,
+    "waterproof": false,
+    "touchscreen": false,
+    "pageTurnButtons": false,
+    "automaticRotation": false,
+    "stylusSupport": false,
+    "categories": [
+      "Mid-Range",
+      "Medium Size"
+    ],
+    "dimensionsH": 190.5,
+    "dimensionsL": 121.9,
+    "dimensionsW": 8.5,
+    "priceCategory": "Mid-Range",
+    "sizeCategory": "Medium Size",
+    "fullName": "Amazon Kindle Keyboard",
+    "similar": [
+      "kindle-4",
+      "kindle-touch",
+      "kindle-paperwhite",
+      "kindle-1"
+    ],
+    "pros": [
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "Low resolution screen, text is as sharp as on some other devices"
+      },
+      {
+        "text": "No front light, requires external lighting to read in the dark"
+      },
+      {
+        "text": "No touchscreen, navigation relies entirely on physical buttons"
+      },
+      {
+        "text": "No SD card slot, limited to built-in storage"
+      },
+      {
+        "text": "No Bluetooth, can't connect wireless headphones for audiobooks"
+      }
+    ]
+  },
+  {
+    "id": "kindle-dx",
+    "brand": "Amazon",
+    "name": "Kindle DX",
+    "releaseDate": "2009",
+    "price": 489,
+    "screenSize": 9.7,
+    "pixelDensity": 150,
+    "resolution": "824 × 1200",
+    "aspectRatio": "103:150",
+    "screenType": "E Ink Pearl",
+    "operatingSystem": [
+      "Kindle firmware"
+    ],
+    "dimensions": "183 x 264 x 10",
+    "weight": 536,
+    "cpu": "0.532 GHz",
+    "storage": "4 GB",
+    "ram": "128 MB",
+    "battery": "1530 mAh",
+    "colors": [
+      "black",
+      "white"
+    ],
+    "screenLight": false,
+    "colorDisplay": false,
+    "darkMode": false,
+    "wifi": false,
+    "bluetooth": false,
+    "sdCard": false,
+    "usbc": false,
+    "mobileData": true,
+    "speakers": true,
+    "browser": true,
+    "textToSpeech": true,
+    "waterproof": false,
+    "touchscreen": false,
+    "pageTurnButtons": false,
+    "automaticRotation": false,
+    "stylusSupport": false,
+    "categories": [
+      "High-End",
+      "Large Size"
+    ],
+    "dimensionsH": 264,
+    "dimensionsL": 183,
+    "dimensionsW": 10,
+    "priceCategory": "High-End",
+    "sizeCategory": "Large Size",
+    "fullName": "Amazon Kindle DX",
+    "similar": [
+      "kindle-scribe-2024",
+      "kindle-scribe-3-no-front-light",
+      "kindle-scribe-3",
+      "kindle-scribe-colorsoft"
+    ],
+    "pros": [
+      {
+        "text": "Big screen makes reading easier, especially for documents and illustrated content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "Low resolution screen, text is as sharp as on some other devices"
+      },
+      {
+        "text": "No front light, requires external lighting to read in the dark"
+      },
+      {
+        "text": "No touchscreen, navigation relies entirely on physical buttons"
+      },
+      {
+        "text": "No wireless connectivity"
+      },
+      {
+        "text": "Heavy device at 536g"
+      },
+      {
+        "text": "No SD card slot, limited to built-in storage"
+      },
+      {
+        "text": "No Bluetooth, can't connect wireless headphones for audiobooks"
+      }
+    ]
+  },
+  {
+    "id": "kindle-2",
+    "brand": "Amazon",
+    "name": "Kindle 2",
+    "releaseDate": "2009",
+    "price": 299,
+    "screenSize": 6,
+    "pixelDensity": 167,
+    "resolution": "600 × 800",
+    "aspectRatio": "3:4",
+    "screenType": "E Ink",
+    "operatingSystem": [
+      "Kindle firmware"
+    ],
+    "dimensions": "135 x 203 x 9",
+    "weight": 289,
+    "cpu": "0.532 GHz",
+    "storage": "2 GB",
+    "ram": "32 MB",
+    "battery": "1530 mAh",
+    "colors": [
+      "white"
+    ],
+    "screenLight": false,
+    "colorDisplay": false,
+    "darkMode": false,
+    "wifi": false,
+    "bluetooth": false,
+    "sdCard": false,
+    "usbc": false,
+    "mobileData": true,
+    "speakers": true,
+    "browser": true,
+    "textToSpeech": true,
+    "waterproof": false,
+    "touchscreen": false,
+    "pageTurnButtons": false,
+    "automaticRotation": false,
+    "stylusSupport": false,
+    "categories": [
+      "Mid-Range",
+      "Medium Size"
+    ],
+    "dimensionsH": 203,
+    "dimensionsL": 135,
+    "dimensionsW": 9,
+    "priceCategory": "Mid-Range",
+    "sizeCategory": "Medium Size",
+    "fullName": "Amazon Kindle 2",
+    "similar": [
+      "kindle-1",
+      "kindle-2024",
+      "kindle-10",
+      "kindle-keyboard"
+    ],
+    "pros": [],
+    "cons": [
+      {
+        "text": "Low resolution screen, text is as sharp as on some other devices"
+      },
+      {
+        "text": "No front light, requires external lighting to read in the dark"
+      },
+      {
+        "text": "No touchscreen, navigation relies entirely on physical buttons"
+      },
+      {
+        "text": "No wireless connectivity"
+      },
+      {
+        "text": "No expandable storage"
+      },
+      {
+        "text": "No Bluetooth, can't connect wireless headphones for audiobooks"
+      }
+    ]
+  },
+  {
+    "id": "kindle-1",
+    "brand": "Amazon",
+    "name": "Kindle 1",
+    "releaseDate": "2007",
+    "price": 399,
+    "screenSize": 6,
+    "pixelDensity": 167,
+    "resolution": "600 × 800",
+    "aspectRatio": "3:4",
+    "screenType": "E Ink",
+    "operatingSystem": [
+      "Kindle firmware"
+    ],
+    "dimensions": "134.6 x 190.5 x 17.8",
+    "weight": 289,
+    "cpu": "0.4 GHz",
+    "storage": "256 MB",
+    "ram": "64 MB",
+    "battery": "1530 mAh",
+    "colors": [
+      "white"
+    ],
+    "screenLight": false,
+    "colorDisplay": false,
+    "darkMode": false,
+    "wifi": false,
+    "bluetooth": false,
+    "sdCard": true,
+    "usbc": false,
+    "mobileData": true,
+    "speakers": true,
+    "browser": true,
+    "textToSpeech": true,
+    "waterproof": false,
+    "touchscreen": false,
+    "pageTurnButtons": false,
+    "automaticRotation": false,
+    "stylusSupport": false,
+    "categories": [
+      "Mid-Range",
+      "Medium Size"
+    ],
+    "dimensionsH": 190.5,
+    "dimensionsL": 134.6,
+    "dimensionsW": 17.8,
+    "priceCategory": "Mid-Range",
+    "sizeCategory": "Medium Size",
+    "fullName": "Amazon Kindle 1",
+    "similar": [
+      "kindle-2",
+      "kindle-2024",
+      "kindle-keyboard",
+      "kindle-4"
+    ],
+    "pros": [
+      {
+        "text": "Expandable storage via SD card"
+      }
+    ],
+    "cons": [
+      {
+        "text": "Low resolution screen, text is as sharp as on some other devices"
+      },
+      {
+        "text": "No front light, requires external lighting to read in the dark"
+      },
+      {
+        "text": "No touchscreen, navigation relies entirely on physical buttons"
+      },
+      {
+        "text": "No wireless connectivity"
+      },
+      {
+        "text": "No Bluetooth, can't connect wireless headphones for audiobooks"
+      }
+    ]
+  },
+  {
+    "id": "kobo-clara-colour",
+    "brand": "Kobo",
+    "name": "Clara Colour",
+    "releaseDate": "2024",
+    "price": 159.99,
+    "screenSize": 6,
+    "pixelDensity": 300,
+    "resolution": "1072 × 1448",
+    "aspectRatio": "3:4",
+    "screenType": "E Ink Kaleido 3",
+    "operatingSystem": [
+      "Kobo firmware"
+    ],
+    "dimensions": "112 x 160 x 9.2",
+    "weight": 174,
+    "cpu": "2 GHz dual core",
+    "storage": "16 GB",
+    "ram": "512 MB",
+    "battery": "1500 mAh",
+    "colors": [
+      "black",
+      "white"
+    ],
+    "screenLight": true,
+    "colorDisplay": true,
+    "darkMode": true,
+    "wifi": true,
+    "bluetooth": true,
+    "sdCard": false,
+    "usbc": true,
+    "mobileData": false,
+    "speakers": false,
+    "browser": true,
+    "textToSpeech": true,
+    "waterproof": true,
+    "touchscreen": true,
+    "pageTurnButtons": false,
+    "automaticRotation": false,
+    "stylusSupport": false,
+    "categories": [
+      "Mid-Range",
+      "Medium Size"
+    ],
+    "dimensionsH": 160,
+    "dimensionsL": 112,
+    "dimensionsW": 9.2,
+    "priceCategory": "Mid-Range",
+    "sizeCategory": "Medium Size",
+    "fullName": "Kobo Clara Colour",
+    "similar": [
+      "kobo-libra-color",
+      "kobo-clara-bw",
+      "kobo-nia",
+      "kobo-original"
+    ],
+    "pros": [
+      {
+        "text": "High resolution display"
+      },
+      {
+        "text": "Color screen is great for comics, magazines, and illustrated books"
+      },
+      {
+        "text": "Front light lets you read comfortably in the dark"
+      },
+      {
+        "text": "Bluetooth support enables connecting accessories"
+      },
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "No physical page turn buttons, all navigation is done via the touchscreen"
+      },
+      {
+        "text": "No SD card slot, limited to built-in storage"
+      }
+    ]
+  },
+  {
+    "id": "kobo-clara-bw",
+    "brand": "Kobo",
+    "name": "Clara BW",
+    "releaseDate": "2024",
+    "price": 139.99,
+    "screenSize": 6,
+    "pixelDensity": 300,
+    "resolution": "1072 × 1448",
+    "aspectRatio": "3:4",
+    "screenType": "E Ink Carta 1300",
+    "operatingSystem": [
+      "Kobo firmware"
+    ],
+    "dimensions": "112 x 160 x 9.2",
+    "weight": 174,
+    "cpu": "1 GHz",
+    "storage": "16 GB",
+    "ram": "512 MB",
+    "battery": "1500 mAh",
+    "colors": [
+      "black"
+    ],
+    "screenLight": true,
+    "colorDisplay": false,
+    "darkMode": true,
+    "wifi": true,
+    "bluetooth": true,
+    "sdCard": false,
+    "usbc": true,
+    "mobileData": false,
+    "speakers": false,
+    "browser": true,
+    "textToSpeech": true,
+    "waterproof": true,
+    "touchscreen": true,
+    "pageTurnButtons": false,
+    "automaticRotation": false,
+    "stylusSupport": false,
+    "categories": [
+      "Mid-Range",
+      "Medium Size"
+    ],
+    "dimensionsH": 160,
+    "dimensionsL": 112,
+    "dimensionsW": 9.2,
+    "priceCategory": "Mid-Range",
+    "sizeCategory": "Medium Size",
+    "fullName": "Kobo Clara BW",
+    "similar": [
+      "kobo-clara-2e",
+      "kobo-nia",
+      "kobo-glo-hd",
+      "kobo-aura-edition-2"
+    ],
+    "pros": [
+      {
+        "text": "High resolution display"
+      },
+      {
+        "text": "Front light lets you read comfortably in the dark"
+      },
+      {
+        "text": "Bluetooth support enables connecting accessories"
+      },
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "No physical page turn buttons, all navigation is done via the touchscreen"
+      },
+      {
+        "text": "No SD card slot, limited to built-in storage"
+      }
+    ]
+  },
+  {
+    "id": "kobo-elipsa-2e",
+    "brand": "Kobo",
+    "name": "Elipsa 2E",
+    "releaseDate": "2023",
+    "price": 399.99,
+    "screenSize": 10.3,
+    "pixelDensity": 227,
+    "resolution": "1404 × 1872",
+    "aspectRatio": "3:4",
+    "screenType": "E Ink Carta 1200",
+    "operatingSystem": [
+      "Kobo firmware"
+    ],
+    "dimensions": "193 x 227 x 7.5",
+    "weight": 390,
+    "cpu": "2 GHz dual core",
+    "storage": "32 GB",
+    "ram": "1 GB",
+    "battery": "2400 mAh",
+    "colors": [
+      "black"
+    ],
+    "screenLight": true,
+    "colorDisplay": false,
+    "darkMode": true,
+    "wifi": true,
+    "bluetooth": true,
+    "sdCard": false,
+    "usbc": true,
+    "mobileData": false,
+    "speakers": false,
+    "browser": true,
+    "textToSpeech": true,
+    "waterproof": false,
+    "touchscreen": true,
+    "pageTurnButtons": false,
+    "automaticRotation": true,
+    "stylusSupport": true,
+    "categories": [
+      "High-End",
+      "Medium Size"
+    ],
+    "dimensionsH": 227,
+    "dimensionsL": 193,
+    "dimensionsW": 7.5,
+    "priceCategory": "High-End",
+    "sizeCategory": "Medium Size",
+    "fullName": "Kobo Elipsa 2E",
+    "similar": [
+      "kobo-elipsa",
+      "kindle-scribe-2024",
+      "kindle-scribe-3-no-front-light",
+      "kindle-scribe-3"
+    ],
+    "pros": [
+      {
+        "text": "Stylus support is great for annotations and note-taking"
+      },
+      {
+        "text": "Good 2400 mAh battery for everyday use"
+      },
+      {
+        "text": "Adjustable front light for comfortable reading in any lighting"
+      },
+      {
+        "text": "Large 10.3\" screen, ideal for PDFs and comics"
+      },
+      {
+        "text": "Bluetooth support enables connecting accessories"
+      },
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "No physical page turn buttons, all navigation is done via the touchscreen"
+      },
+      {
+        "text": "Heavy device at 390g"
+      },
+      {
+        "text": "No expandable storage"
+      }
+    ]
+  },
+  {
+    "id": "kobo-clara-2e",
+    "brand": "Kobo",
+    "name": "Clara 2E",
+    "releaseDate": "2022",
+    "price": 129.99,
+    "screenSize": 6,
+    "pixelDensity": 300,
+    "resolution": "1072 × 1448",
+    "aspectRatio": "3:4",
+    "screenType": "E Ink Carta 1200",
+    "operatingSystem": [
+      "Kobo firmware"
+    ],
+    "dimensions": "112 x 159 x 8.7",
+    "weight": 171,
+    "cpu": "1 GHz",
+    "storage": "16 GB",
+    "ram": "512 MB",
+    "battery": "1500 mAh",
+    "colors": [
+      "black",
+      "blue"
+    ],
+    "screenLight": true,
+    "colorDisplay": false,
+    "darkMode": true,
+    "wifi": true,
+    "bluetooth": true,
+    "sdCard": false,
+    "usbc": true,
+    "mobileData": false,
+    "speakers": false,
+    "browser": true,
+    "textToSpeech": true,
+    "waterproof": true,
+    "touchscreen": true,
+    "pageTurnButtons": false,
+    "automaticRotation": false,
+    "stylusSupport": false,
+    "categories": [
+      "Mid-Range",
+      "Medium Size"
+    ],
+    "dimensionsH": 159,
+    "dimensionsL": 112,
+    "dimensionsW": 8.7,
+    "priceCategory": "Mid-Range",
+    "sizeCategory": "Medium Size",
+    "fullName": "Kobo Clara 2E",
+    "similar": [
+      "kobo-nia",
+      "kobo-libra-2",
+      "kobo-sage",
+      "kobo-clara-bw"
+    ],
+    "pros": [
+      {
+        "text": "High resolution display"
+      },
+      {
+        "text": "Front light lets you read comfortably in the dark"
+      },
+      {
+        "text": "Bluetooth support enables connecting accessories"
+      },
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "No physical page turn buttons, all navigation is done via the touchscreen"
+      },
+      {
+        "text": "No SD card slot, limited to built-in storage"
+      }
+    ]
+  },
+  {
+    "id": "kobo-sage",
+    "brand": "Kobo",
+    "name": "Sage",
+    "releaseDate": "2021",
+    "price": 259.99,
+    "screenSize": 8,
+    "pixelDensity": 300,
+    "resolution": "1440 × 1920",
+    "aspectRatio": "3:4",
+    "screenType": "E Ink Carta 1200",
+    "operatingSystem": [
+      "Kobo firmware"
+    ],
+    "dimensions": "160.5 x 181.4 x 7.6",
+    "weight": 240.8,
+    "cpu": "1.8 GHz quad core",
+    "storage": "32 GB",
+    "ram": "512 MB",
+    "battery": "1200 mAh",
+    "colors": [
+      "black"
+    ],
+    "screenLight": true,
+    "colorDisplay": false,
+    "darkMode": true,
+    "wifi": true,
+    "bluetooth": true,
+    "sdCard": false,
+    "usbc": true,
+    "mobileData": false,
+    "speakers": false,
+    "browser": true,
+    "textToSpeech": true,
+    "waterproof": true,
+    "touchscreen": true,
+    "pageTurnButtons": true,
+    "automaticRotation": true,
+    "stylusSupport": true,
+    "categories": [
+      "Mid-Range",
+      "Medium Size"
+    ],
+    "dimensionsH": 181.4,
+    "dimensionsL": 160.5,
+    "dimensionsW": 7.6,
+    "priceCategory": "Mid-Range",
+    "sizeCategory": "Medium Size",
+    "fullName": "Kobo Sage",
+    "similar": [
+      "kobo-libra-2",
+      "kobo-clara-2e",
+      "kobo-nia",
+      "kobo-clara-bw"
+    ],
+    "pros": [
+      {
+        "text": "High resolution display"
+      },
+      {
+        "text": "Physical page turn buttons"
+      },
+      {
+        "text": "Stylus support is great for annotations and note-taking"
+      },
+      {
+        "text": "Front light lets you read comfortably in the dark"
+      },
+      {
+        "text": "Bluetooth support enables connecting accessories"
+      },
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "No SD card slot, limited to built-in storage"
+      }
+    ]
+  },
+  {
+    "id": "kobo-libra-2",
+    "brand": "Kobo",
+    "name": "Libra 2",
+    "releaseDate": "2021",
+    "price": 179.99,
+    "screenSize": 7,
+    "pixelDensity": 300,
+    "resolution": "1264 × 1680",
+    "aspectRatio": "3:4",
+    "screenType": "E Ink Carta 1200",
+    "operatingSystem": [
+      "Kobo firmware"
+    ],
+    "dimensions": "144.6 x 161.6 x 9.0",
+    "weight": 215,
+    "cpu": "1 GHz",
+    "storage": "32 GB",
+    "ram": "512 MB",
+    "battery": "1500 mAh",
+    "colors": [
+      "black",
+      "white"
+    ],
+    "screenLight": true,
+    "colorDisplay": false,
+    "darkMode": true,
+    "wifi": true,
+    "bluetooth": true,
+    "sdCard": false,
+    "usbc": true,
+    "mobileData": false,
+    "speakers": false,
+    "browser": true,
+    "textToSpeech": true,
+    "waterproof": true,
+    "touchscreen": true,
+    "pageTurnButtons": true,
+    "automaticRotation": true,
+    "stylusSupport": false,
+    "categories": [
+      "Mid-Range",
+      "Medium Size"
+    ],
+    "dimensionsH": 161.6,
+    "dimensionsL": 144.6,
+    "dimensionsW": 9,
+    "priceCategory": "Mid-Range",
+    "sizeCategory": "Medium Size",
+    "fullName": "Kobo Libra 2",
+    "similar": [
+      "kobo-sage",
+      "kobo-clara-2e",
+      "kobo-nia",
+      "kobo-clara-bw"
+    ],
+    "pros": [
+      {
+        "text": "Sharp text thanks to the 300 PPI screen"
+      },
+      {
+        "text": "Physical page turn buttons"
+      },
+      {
+        "text": "Adjustable front light for comfortable reading in any lighting"
+      },
+      {
+        "text": "Bluetooth support enables connecting accessories"
+      },
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "No expandable storage"
+      }
+    ]
+  },
+  {
+    "id": "kobo-elipsa",
+    "brand": "Kobo",
+    "name": "Elipsa",
+    "releaseDate": "2021",
+    "price": 399.99,
+    "screenSize": 10.3,
+    "pixelDensity": 227,
+    "resolution": "1404 × 1872",
+    "aspectRatio": "3:4",
+    "screenType": "E Ink Carta 1200",
+    "operatingSystem": [
+      "Kobo firmware"
+    ],
+    "dimensions": "193 x 227.5 x 7.6",
+    "weight": 383,
+    "cpu": "1.8 GHz quad core",
+    "storage": "32 GB",
+    "ram": "1 GB",
+    "battery": "2400 mAh",
+    "colors": [
+      "black"
+    ],
+    "screenLight": true,
+    "colorDisplay": false,
+    "darkMode": true,
+    "wifi": true,
+    "bluetooth": true,
+    "sdCard": false,
+    "usbc": true,
+    "mobileData": false,
+    "speakers": false,
+    "browser": true,
+    "textToSpeech": true,
+    "waterproof": false,
+    "touchscreen": true,
+    "pageTurnButtons": false,
+    "automaticRotation": true,
+    "stylusSupport": true,
+    "categories": [
+      "High-End",
+      "Medium Size"
+    ],
+    "dimensionsH": 227.5,
+    "dimensionsL": 193,
+    "dimensionsW": 7.6,
+    "priceCategory": "High-End",
+    "sizeCategory": "Medium Size",
+    "fullName": "Kobo Elipsa",
+    "similar": [
+      "kobo-elipsa-2e",
+      "kindle-scribe-2024",
+      "kindle-scribe-3-no-front-light",
+      "kindle-scribe-3"
+    ],
+    "pros": [
+      {
+        "text": "Stylus support is great for annotations and note-taking"
+      },
+      {
+        "text": "Good 2400 mAh battery for everyday use"
+      },
+      {
+        "text": "Front light lets you read comfortably in the dark"
+      },
+      {
+        "text": "Big screen makes reading easier, especially for documents and illustrated content"
+      },
+      {
+        "text": "Bluetooth support enables connecting accessories"
+      },
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "No physical page turn buttons, all navigation is done via the touchscreen"
+      },
+      {
+        "text": "Heavy device at 383g"
+      },
+      {
+        "text": "No SD card slot, limited to built-in storage"
+      }
+    ]
+  },
+  {
+    "id": "kobo-nia",
+    "brand": "Kobo",
+    "name": "Nia",
+    "releaseDate": "2020",
+    "price": 109.99,
+    "screenSize": 6,
+    "pixelDensity": 212,
+    "resolution": "758 × 1024",
+    "aspectRatio": "3:4",
+    "screenType": "E Ink Carta",
+    "operatingSystem": [
+      "Kobo firmware"
+    ],
+    "dimensions": "112 x 159 x 9.0",
+    "weight": 172,
+    "cpu": "0.9 GHz",
+    "storage": "8 GB",
+    "ram": "256 MB",
+    "battery": "1000 mAh",
+    "colors": [
+      "black"
+    ],
+    "screenLight": true,
+    "colorDisplay": false,
+    "darkMode": false,
+    "wifi": true,
+    "bluetooth": false,
+    "sdCard": false,
+    "usbc": false,
+    "mobileData": false,
+    "speakers": false,
+    "browser": true,
+    "textToSpeech": false,
+    "waterproof": false,
+    "touchscreen": true,
+    "pageTurnButtons": false,
+    "automaticRotation": false,
+    "stylusSupport": false,
+    "categories": [
+      "Mid-Range",
+      "Medium Size"
+    ],
+    "dimensionsH": 159,
+    "dimensionsL": 112,
+    "dimensionsW": 9,
+    "priceCategory": "Mid-Range",
+    "sizeCategory": "Medium Size",
+    "fullName": "Kobo Nia",
+    "similar": [
+      "kobo-clara-2e",
+      "kobo-glo-hd",
+      "kobo-aura-edition-2",
+      "kobo-clara-hd"
+    ],
+    "pros": [
+      {
+        "text": "Adjustable front light for comfortable reading in any lighting"
+      },
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "Low resolution screen, text is as sharp as on some other devices"
+      },
+      {
+        "text": "No physical page turn buttons, all navigation is done via the touchscreen"
+      },
+      {
+        "text": "No expandable storage"
+      },
+      {
+        "text": "Small 1000 mAh battery, may require more frequent charging than other e-readers"
+      },
+      {
+        "text": "No Bluetooth, can't connect wireless headphones for audiobooks"
+      }
+    ]
+  },
+  {
+    "id": "kobo-libra-h2o",
+    "brand": "Kobo",
+    "name": "Libra H2O",
+    "releaseDate": "2019",
+    "price": 169.99,
+    "screenSize": 7,
+    "pixelDensity": 300,
+    "resolution": "1264 × 1680",
+    "aspectRatio": "3:4",
+    "screenType": "E Ink Carta HD",
+    "operatingSystem": [
+      "Kobo firmware"
+    ],
+    "dimensions": "144 x 159 x 7.8",
+    "weight": 192,
+    "cpu": "1 GHz",
+    "storage": "8 GB",
+    "ram": "512 MB",
+    "battery": "1200 mAh",
+    "colors": [
+      "black",
+      "white"
+    ],
+    "screenLight": true,
+    "colorDisplay": false,
+    "darkMode": false,
+    "wifi": true,
+    "bluetooth": false,
+    "sdCard": false,
+    "usbc": false,
+    "mobileData": false,
+    "speakers": false,
+    "browser": true,
+    "textToSpeech": false,
+    "waterproof": true,
+    "touchscreen": true,
+    "pageTurnButtons": true,
+    "automaticRotation": true,
+    "stylusSupport": false,
+    "categories": [
+      "Mid-Range",
+      "Medium Size"
+    ],
+    "dimensionsH": 159,
+    "dimensionsL": 144,
+    "dimensionsW": 7.8,
+    "priceCategory": "Mid-Range",
+    "sizeCategory": "Medium Size",
+    "fullName": "Kobo Libra H2O",
+    "similar": [
+      "kobo-aura-one",
+      "kobo-glo-hd",
+      "kobo-aura-edition-2",
+      "kobo-clara-hd"
+    ],
+    "pros": [
+      {
+        "text": "Sharp text thanks to the 300 PPI screen"
+      },
+      {
+        "text": "Physical page turn buttons"
+      },
+      {
+        "text": "Adjustable front light for comfortable reading in any lighting"
+      },
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "No expandable storage"
+      },
+      {
+        "text": "No Bluetooth, can't connect wireless headphones for audiobooks"
+      }
+    ]
+  },
+  {
+    "id": "kobo-forma",
+    "brand": "Kobo",
+    "name": "Forma",
+    "releaseDate": "2018",
+    "price": 249.99,
+    "screenSize": 8,
+    "pixelDensity": 300,
+    "resolution": "1440 × 1920",
+    "aspectRatio": "3:4",
+    "screenType": "E Ink Mobius Carta",
+    "operatingSystem": [
+      "Kobo firmware"
+    ],
+    "dimensions": "160 x 177 x 8.5",
+    "weight": 197,
+    "cpu": "1 GHz",
+    "storage": "8 GB",
+    "ram": "512 MB",
+    "battery": "1200 mAh",
+    "colors": [
+      "black"
+    ],
+    "screenLight": true,
+    "colorDisplay": false,
+    "darkMode": false,
+    "wifi": true,
+    "bluetooth": false,
+    "sdCard": false,
+    "usbc": false,
+    "mobileData": false,
+    "speakers": false,
+    "browser": true,
+    "textToSpeech": false,
+    "waterproof": true,
+    "touchscreen": true,
+    "pageTurnButtons": true,
+    "automaticRotation": true,
+    "stylusSupport": false,
+    "categories": [
+      "Mid-Range",
+      "Medium Size"
+    ],
+    "dimensionsH": 177,
+    "dimensionsL": 160,
+    "dimensionsW": 8.5,
+    "priceCategory": "Mid-Range",
+    "sizeCategory": "Medium Size",
+    "fullName": "Kobo Forma",
+    "similar": [
+      "kobo-clara-hd",
+      "kobo-aura-h2o",
+      "kobo-aura-h2o-edition-2",
+      "kobo-glo-hd"
+    ],
+    "pros": [
+      {
+        "text": "Sharp text thanks to the 300 PPI screen"
+      },
+      {
+        "text": "Physical page turn buttons"
+      },
+      {
+        "text": "Adjustable front light for comfortable reading in any lighting"
+      },
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "No expandable storage"
+      },
+      {
+        "text": "No Bluetooth, can't connect wireless headphones for audiobooks"
+      }
+    ]
+  },
+  {
+    "id": "kobo-clara-hd",
+    "brand": "Kobo",
+    "name": "Clara HD",
+    "releaseDate": "2018",
+    "price": 119.99,
+    "screenSize": 6,
+    "pixelDensity": 300,
+    "resolution": "1072 × 1448",
+    "aspectRatio": "3:4",
+    "screenType": "E Ink Carta",
+    "operatingSystem": [
+      "Kobo firmware"
+    ],
+    "dimensions": "110 x 159.6 x 8.4",
+    "weight": 166,
+    "cpu": "1 GHz",
+    "storage": "8 GB",
+    "ram": "512 MB",
+    "battery": "1500 mAh",
+    "colors": [
+      "black"
+    ],
+    "screenLight": true,
+    "colorDisplay": false,
+    "darkMode": false,
+    "wifi": true,
+    "bluetooth": false,
+    "sdCard": false,
+    "usbc": false,
+    "mobileData": false,
+    "speakers": false,
+    "browser": true,
+    "textToSpeech": false,
+    "waterproof": false,
+    "touchscreen": true,
+    "pageTurnButtons": false,
+    "automaticRotation": false,
+    "stylusSupport": false,
+    "categories": [
+      "Mid-Range",
+      "Medium Size"
+    ],
+    "dimensionsH": 159.6,
+    "dimensionsL": 110,
+    "dimensionsW": 8.4,
+    "priceCategory": "Mid-Range",
+    "sizeCategory": "Medium Size",
+    "fullName": "Kobo Clara HD",
+    "similar": [
+      "kobo-glo-hd",
+      "kobo-aura-edition-2",
+      "kobo-nia",
+      "kobo-aura-h2o"
+    ],
+    "pros": [
+      {
+        "text": "High resolution display"
+      },
+      {
+        "text": "Front light lets you read comfortably in the dark"
+      },
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "No physical page turn buttons, all navigation is done via the touchscreen"
+      },
+      {
+        "text": "No SD card slot, limited to built-in storage"
+      },
+      {
+        "text": "No Bluetooth, can't connect wireless headphones for audiobooks"
+      }
+    ]
+  },
+  {
+    "id": "kobo-aura-h2o-edition-2",
+    "brand": "Kobo",
+    "name": "Aura H2O Edition 2",
+    "releaseDate": "2017",
+    "price": 180,
+    "screenSize": 6.8,
+    "pixelDensity": 265,
+    "resolution": "1080 × 1440",
+    "aspectRatio": "3:4",
+    "screenType": "E Ink Carta",
+    "operatingSystem": [
+      "Kobo firmware"
+    ],
+    "dimensions": "129 x 172 x 8.8",
+    "weight": 207,
+    "cpu": "1 GHz",
+    "storage": "8 GB",
+    "ram": "512 MB",
+    "battery": "1500 mAh",
+    "colors": [
+      "black"
+    ],
+    "screenLight": true,
+    "colorDisplay": false,
+    "darkMode": false,
+    "wifi": true,
+    "bluetooth": false,
+    "sdCard": false,
+    "usbc": false,
+    "mobileData": false,
+    "speakers": false,
+    "browser": true,
+    "textToSpeech": false,
+    "waterproof": true,
+    "touchscreen": true,
+    "pageTurnButtons": false,
+    "automaticRotation": false,
+    "stylusSupport": false,
+    "categories": [
+      "Mid-Range",
+      "Medium Size"
+    ],
+    "dimensionsH": 172,
+    "dimensionsL": 129,
+    "dimensionsW": 8.8,
+    "priceCategory": "Mid-Range",
+    "sizeCategory": "Medium Size",
+    "fullName": "Kobo Aura H2O Edition 2",
+    "similar": [
+      "kobo-aura-h2o",
+      "kobo-glo-hd",
+      "kobo-aura-edition-2",
+      "kobo-clara-hd"
+    ],
+    "pros": [
+      {
+        "text": "Front light lets you read comfortably in the dark"
+      },
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "No physical page turn buttons, all navigation is done via the touchscreen"
+      },
+      {
+        "text": "No SD card slot, limited to built-in storage"
+      },
+      {
+        "text": "No Bluetooth, can't connect wireless headphones for audiobooks"
+      }
+    ]
+  },
+  {
+    "id": "kobo-aura-one",
+    "brand": "Kobo",
+    "name": "Aura One",
+    "releaseDate": "2016",
+    "price": 230,
+    "screenSize": 7.8,
+    "pixelDensity": 300,
+    "resolution": "1404 × 1872",
+    "aspectRatio": "3:4",
+    "screenType": "E Ink Carta HD",
+    "operatingSystem": [
+      "Kobo firmware"
+    ],
+    "dimensions": "138.5 x 195.1 x 6.9",
+    "weight": 252,
+    "cpu": "1 GHz",
+    "storage": "8 GB",
+    "ram": "512 MB",
+    "battery": "1200 mAh",
+    "colors": [
+      "black"
+    ],
+    "screenLight": true,
+    "colorDisplay": false,
+    "darkMode": false,
+    "wifi": true,
+    "bluetooth": false,
+    "sdCard": false,
+    "usbc": false,
+    "mobileData": false,
+    "speakers": false,
+    "browser": true,
+    "textToSpeech": false,
+    "waterproof": true,
+    "touchscreen": true,
+    "pageTurnButtons": false,
+    "automaticRotation": false,
+    "stylusSupport": false,
+    "categories": [
+      "Mid-Range",
+      "Medium Size"
+    ],
+    "dimensionsH": 195.1,
+    "dimensionsL": 138.5,
+    "dimensionsW": 6.9,
+    "priceCategory": "Mid-Range",
+    "sizeCategory": "Medium Size",
+    "fullName": "Kobo Aura One",
+    "similar": [
+      "kobo-libra-h2o",
+      "kobo-aura-edition-2",
+      "kobo-aura-h2o",
+      "kobo-aura-h2o-edition-2"
+    ],
+    "pros": [
+      {
+        "text": "High resolution display"
+      },
+      {
+        "text": "Front light lets you read comfortably in the dark"
+      },
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "No physical page turn buttons, all navigation is done via the touchscreen"
+      },
+      {
+        "text": "No SD card slot, limited to built-in storage"
+      },
+      {
+        "text": "No Bluetooth, can't connect wireless headphones for audiobooks"
+      }
+    ]
+  },
+  {
+    "id": "kobo-aura-edition-2",
+    "brand": "Kobo",
+    "name": "Aura Edition 2",
+    "releaseDate": "2016",
+    "price": 119,
+    "screenSize": 6,
+    "pixelDensity": 212,
+    "resolution": "768 × 1024",
+    "aspectRatio": "3:4",
+    "screenType": "E Ink Carta",
+    "operatingSystem": [
+      "Kobo firmware"
+    ],
+    "dimensions": "113 x 159 x 8.5",
+    "weight": 180,
+    "cpu": "1 GHz",
+    "storage": "4 GB",
+    "ram": "256 MB",
+    "battery": "1500 mAh",
+    "colors": [
+      "black"
+    ],
+    "screenLight": true,
+    "colorDisplay": false,
+    "darkMode": false,
+    "wifi": true,
+    "bluetooth": false,
+    "sdCard": false,
+    "usbc": false,
+    "mobileData": false,
+    "speakers": false,
+    "browser": true,
+    "textToSpeech": false,
+    "waterproof": false,
+    "touchscreen": true,
+    "pageTurnButtons": false,
+    "automaticRotation": false,
+    "stylusSupport": false,
+    "categories": [
+      "Mid-Range",
+      "Medium Size"
+    ],
+    "dimensionsH": 159,
+    "dimensionsL": 113,
+    "dimensionsW": 8.5,
+    "priceCategory": "Mid-Range",
+    "sizeCategory": "Medium Size",
+    "fullName": "Kobo Aura Edition 2",
+    "similar": [
+      "kobo-glo-hd",
+      "kobo-clara-hd",
+      "kobo-nia",
+      "kobo-aura-one"
+    ],
+    "pros": [
+      {
+        "text": "Front light lets you read comfortably in the dark"
+      },
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "Low resolution screen, text is as sharp as on some other devices"
+      },
+      {
+        "text": "No physical page turn buttons, all navigation is done via the touchscreen"
+      },
+      {
+        "text": "No SD card slot, limited to built-in storage"
+      },
+      {
+        "text": "No Bluetooth, can't connect wireless headphones for audiobooks"
+      }
+    ]
+  },
+  {
+    "id": "kobo-touch-2",
+    "brand": "Kobo",
+    "name": "Touch 2.0",
+    "releaseDate": "2015",
+    "price": 61,
+    "screenSize": 6,
+    "pixelDensity": 167,
+    "resolution": "600 × 800",
+    "aspectRatio": "3:4",
+    "screenType": "E Ink Pearl",
+    "operatingSystem": [
+      "Kobo firmware"
+    ],
+    "dimensions": "115 x 157 x 9.2",
+    "weight": 185,
+    "cpu": "1 GHz",
+    "storage": "4 GB",
+    "ram": null,
+    "battery": "1500 mAh",
+    "colors": [
+      "black"
+    ],
+    "screenLight": false,
+    "colorDisplay": false,
+    "darkMode": false,
+    "wifi": true,
+    "bluetooth": false,
+    "sdCard": false,
+    "usbc": false,
+    "mobileData": false,
+    "speakers": false,
+    "browser": true,
+    "textToSpeech": false,
+    "waterproof": false,
+    "touchscreen": true,
+    "pageTurnButtons": false,
+    "automaticRotation": false,
+    "stylusSupport": false,
+    "categories": [
+      "Budget",
+      "Medium Size"
+    ],
+    "dimensionsH": 157,
+    "dimensionsL": 115,
+    "dimensionsW": 9.2,
+    "priceCategory": "Budget",
+    "sizeCategory": "Medium Size",
+    "fullName": "Kobo Touch 2.0",
+    "similar": [
+      "kobo-mini",
+      "kindle-5",
+      "kindle-7",
+      "kindle-8"
+    ],
+    "pros": [
+      {
+        "text": "Very affordable"
+      },
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "Low resolution screen, text is as sharp as on some other devices"
+      },
+      {
+        "text": "No front light, requires external lighting to read in the dark"
+      },
+      {
+        "text": "No physical page turn buttons, all navigation is done via the touchscreen"
+      },
+      {
+        "text": "No expandable storage"
+      },
+      {
+        "text": "No Bluetooth, can't connect wireless headphones for audiobooks"
+      }
+    ]
+  },
+  {
+    "id": "kobo-glo-hd",
+    "brand": "Kobo",
+    "name": "Glo HD",
+    "releaseDate": "2015",
+    "price": 129,
+    "screenSize": 6,
+    "pixelDensity": 300,
+    "resolution": "1072 × 1448",
+    "aspectRatio": "3:4",
+    "screenType": "E Ink Carta",
+    "operatingSystem": [
+      "Kobo firmware"
+    ],
+    "dimensions": "115 x 157 x 9.2",
+    "weight": 180,
+    "cpu": "1 GHz",
+    "storage": "4 GB",
+    "ram": "512 MB",
+    "battery": "1500 mAh",
+    "colors": [
+      "black"
+    ],
+    "screenLight": true,
+    "colorDisplay": false,
+    "darkMode": false,
+    "wifi": true,
+    "bluetooth": false,
+    "sdCard": false,
+    "usbc": false,
+    "mobileData": false,
+    "speakers": false,
+    "browser": true,
+    "textToSpeech": false,
+    "waterproof": false,
+    "touchscreen": true,
+    "pageTurnButtons": false,
+    "automaticRotation": false,
+    "stylusSupport": false,
+    "categories": [
+      "Mid-Range",
+      "Medium Size"
+    ],
+    "dimensionsH": 157,
+    "dimensionsL": 115,
+    "dimensionsW": 9.2,
+    "priceCategory": "Mid-Range",
+    "sizeCategory": "Medium Size",
+    "fullName": "Kobo Glo HD",
+    "similar": [
+      "kobo-aura-edition-2",
+      "kobo-clara-hd",
+      "kobo-nia",
+      "kobo-aura-h2o"
+    ],
+    "pros": [
+      {
+        "text": "High resolution display"
+      },
+      {
+        "text": "Front light lets you read comfortably in the dark"
+      },
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "No physical page turn buttons, all navigation is done via the touchscreen"
+      },
+      {
+        "text": "No SD card slot, limited to built-in storage"
+      },
+      {
+        "text": "No Bluetooth, can't connect wireless headphones for audiobooks"
+      }
+    ]
+  },
+  {
+    "id": "kobo-aura-h2o",
+    "brand": "Kobo",
+    "name": "Aura H2O",
+    "releaseDate": "2014",
+    "price": 179,
+    "screenSize": 6.8,
+    "pixelDensity": 265,
+    "resolution": "1080 × 1440",
+    "aspectRatio": "3:4",
+    "screenType": "E Ink Carta",
+    "operatingSystem": [
+      "Kobo firmware"
+    ],
+    "dimensions": "129 x 179 x 9.7",
+    "weight": 233,
+    "cpu": "1 GHz",
+    "storage": "4 GB",
+    "ram": "512 MB",
+    "battery": "1500 mAh",
+    "colors": [
+      "black"
+    ],
+    "screenLight": true,
+    "colorDisplay": false,
+    "darkMode": false,
+    "wifi": true,
+    "bluetooth": false,
+    "sdCard": true,
+    "usbc": false,
+    "mobileData": false,
+    "speakers": false,
+    "browser": true,
+    "textToSpeech": false,
+    "waterproof": true,
+    "touchscreen": true,
+    "pageTurnButtons": false,
+    "automaticRotation": false,
+    "stylusSupport": false,
+    "categories": [
+      "Mid-Range",
+      "Medium Size"
+    ],
+    "dimensionsH": 179,
+    "dimensionsL": 129,
+    "dimensionsW": 9.7,
+    "priceCategory": "Mid-Range",
+    "sizeCategory": "Medium Size",
+    "fullName": "Kobo Aura H2O",
+    "similar": [
+      "kobo-aura-h2o-edition-2",
+      "kobo-glo-hd",
+      "kobo-aura-edition-2",
+      "kobo-clara-hd"
+    ],
+    "pros": [
+      {
+        "text": "Expandable storage via SD card"
+      },
+      {
+        "text": "Front light lets you read comfortably in the dark"
+      },
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "No physical page turn buttons, all navigation is done via the touchscreen"
+      },
+      {
+        "text": "No Bluetooth, can't connect wireless headphones for audiobooks"
+      }
+    ]
+  },
+  {
+    "id": "kobo-aura",
+    "brand": "Kobo",
+    "name": "Aura",
+    "releaseDate": "2013",
+    "price": 149,
+    "screenSize": 6,
+    "pixelDensity": 213,
+    "resolution": "768 × 1024",
+    "aspectRatio": "3:4",
+    "screenType": "E Ink Pearl",
+    "operatingSystem": [
+      "Kobo firmware"
+    ],
+    "dimensions": "114 x 150 x 8.1",
+    "weight": 174,
+    "cpu": "1 GHz",
+    "storage": "4 GB",
+    "ram": "256 MB",
+    "battery": "1500 mAh",
+    "colors": [
+      "black",
+      "pink"
+    ],
+    "screenLight": true,
+    "colorDisplay": false,
+    "darkMode": false,
+    "wifi": true,
+    "bluetooth": false,
+    "sdCard": true,
+    "usbc": false,
+    "mobileData": false,
+    "speakers": false,
+    "browser": true,
+    "textToSpeech": false,
+    "waterproof": false,
+    "touchscreen": true,
+    "pageTurnButtons": false,
+    "automaticRotation": false,
+    "stylusSupport": false,
+    "categories": [
+      "Mid-Range",
+      "Medium Size"
+    ],
+    "dimensionsH": 150,
+    "dimensionsL": 114,
+    "dimensionsW": 8.1,
+    "priceCategory": "Mid-Range",
+    "sizeCategory": "Medium Size",
+    "fullName": "Kobo Aura",
+    "similar": [
+      "kobo-aura-hd",
+      "kobo-touch",
+      "kobo-glo",
+      "kobo-glo-hd"
+    ],
+    "pros": [
+      {
+        "text": "Expandable storage via SD card"
+      },
+      {
+        "text": "Front light lets you read comfortably in the dark"
+      },
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "No physical page turn buttons, all navigation is done via the touchscreen"
+      },
+      {
+        "text": "No Bluetooth, can't connect wireless headphones for audiobooks"
+      }
+    ]
+  },
+  {
+    "id": "kobo-aura-hd",
+    "brand": "Kobo",
+    "name": "Aura HD",
+    "releaseDate": "2013",
+    "price": 169,
+    "screenSize": 6.8,
+    "pixelDensity": 265,
+    "resolution": "1080 × 1440",
+    "aspectRatio": "3:4",
+    "screenType": "E Ink Pearl",
+    "operatingSystem": [
+      "Kobo firmware"
+    ],
+    "dimensions": "128.3 x 175.7 x 11.7",
+    "weight": 240,
+    "cpu": "1 GHz",
+    "storage": "4 GB",
+    "ram": null,
+    "battery": "1500 mAh",
+    "colors": [
+      "black",
+      "white",
+      "brown"
+    ],
+    "screenLight": true,
+    "colorDisplay": false,
+    "darkMode": false,
+    "wifi": true,
+    "bluetooth": false,
+    "sdCard": true,
+    "usbc": false,
+    "mobileData": false,
+    "speakers": false,
+    "browser": true,
+    "textToSpeech": false,
+    "waterproof": false,
+    "touchscreen": true,
+    "pageTurnButtons": false,
+    "automaticRotation": false,
+    "stylusSupport": false,
+    "categories": [
+      "Mid-Range",
+      "Medium Size"
+    ],
+    "dimensionsH": 175.7,
+    "dimensionsL": 128.3,
+    "dimensionsW": 11.7,
+    "priceCategory": "Mid-Range",
+    "sizeCategory": "Medium Size",
+    "fullName": "Kobo Aura HD",
+    "similar": [
+      "kobo-aura",
+      "kobo-touch",
+      "kobo-glo",
+      "kobo-aura-h2o"
+    ],
+    "pros": [
+      {
+        "text": "Expandable storage via SD card"
+      },
+      {
+        "text": "Adjustable front light for comfortable reading in any lighting"
+      },
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "No physical page turn buttons, all navigation is done via the touchscreen"
+      },
+      {
+        "text": "No Bluetooth, can't connect wireless headphones for audiobooks"
+      }
+    ]
+  },
+  {
+    "id": "kobo-mini",
+    "brand": "Kobo",
+    "name": "Mini",
+    "releaseDate": "2012",
+    "price": 99,
+    "screenSize": 5,
+    "pixelDensity": 200,
+    "resolution": "600 × 800",
+    "aspectRatio": "3:4",
+    "screenType": "E Ink Vizplex",
+    "operatingSystem": [
+      "Kobo firmware"
+    ],
+    "dimensions": "102 x 133 x 10",
+    "weight": 134,
+    "cpu": "0.8 GHz",
+    "storage": "2 GB",
+    "ram": "256 MB",
+    "battery": "1000 mAh",
+    "colors": [
+      "black",
+      "white"
+    ],
+    "screenLight": false,
+    "colorDisplay": false,
+    "darkMode": false,
+    "wifi": true,
+    "bluetooth": false,
+    "sdCard": true,
+    "usbc": false,
+    "mobileData": false,
+    "speakers": false,
+    "browser": true,
+    "textToSpeech": false,
+    "waterproof": false,
+    "touchscreen": true,
+    "pageTurnButtons": false,
+    "automaticRotation": false,
+    "stylusSupport": false,
+    "categories": [
+      "Budget",
+      "Medium Size"
+    ],
+    "dimensionsH": 133,
+    "dimensionsL": 102,
+    "dimensionsW": 10,
+    "priceCategory": "Budget",
+    "sizeCategory": "Medium Size",
+    "fullName": "Kobo Mini",
+    "similar": [
+      "kobo-touch-2",
+      "kindle-5",
+      "kobo-original",
+      "kobo-wifi"
+    ],
+    "pros": [
+      {
+        "text": "Expandable storage via SD card"
+      },
+      {
+        "text": "Small form factor makes it very portable"
+      },
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "Low resolution screen, text is as sharp as on some other devices"
+      },
+      {
+        "text": "No front light, requires external lighting to read in the dark"
+      },
+      {
+        "text": "No physical page turn buttons, all navigation is done via the touchscreen"
+      },
+      {
+        "text": "5\" screen may be too small for some"
+      },
+      {
+        "text": "Small 1000 mAh battery, may require more frequent charging than other e-readers"
+      },
+      {
+        "text": "No Bluetooth, can't connect wireless headphones for audiobooks"
+      }
+    ]
+  },
+  {
+    "id": "kobo-glo",
+    "brand": "Kobo",
+    "name": "Glo",
+    "releaseDate": "2012",
+    "price": 129,
+    "screenSize": 6,
+    "pixelDensity": 213,
+    "resolution": "768 × 1024",
+    "aspectRatio": "3:4",
+    "screenType": "E Ink Pearl",
+    "operatingSystem": [
+      "Kobo firmware"
+    ],
+    "dimensions": "114 x 157 x 10",
+    "weight": 185,
+    "cpu": "1 GHz",
+    "storage": "2 GB",
+    "ram": "256 MB",
+    "battery": "1000 mAh",
+    "colors": [
+      "black",
+      "pink",
+      "blue",
+      "silver"
+    ],
+    "screenLight": true,
+    "colorDisplay": false,
+    "darkMode": false,
+    "wifi": true,
+    "bluetooth": false,
+    "sdCard": true,
+    "usbc": false,
+    "mobileData": false,
+    "speakers": false,
+    "browser": true,
+    "textToSpeech": false,
+    "waterproof": false,
+    "touchscreen": true,
+    "pageTurnButtons": false,
+    "automaticRotation": false,
+    "stylusSupport": false,
+    "categories": [
+      "Mid-Range",
+      "Medium Size"
+    ],
+    "dimensionsH": 157,
+    "dimensionsL": 114,
+    "dimensionsW": 10,
+    "priceCategory": "Mid-Range",
+    "sizeCategory": "Medium Size",
+    "fullName": "Kobo Glo",
+    "similar": [
+      "kobo-touch",
+      "kobo-aura",
+      "kobo-aura-hd",
+      "kobo-glo-hd"
+    ],
+    "pros": [
+      {
+        "text": "Expandable storage via SD card"
+      },
+      {
+        "text": "Adjustable front light for comfortable reading in any lighting"
+      },
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "No physical page turn buttons, all navigation is done via the touchscreen"
+      },
+      {
+        "text": "Small 1000 mAh battery, may require more frequent charging than other e-readers"
+      },
+      {
+        "text": "No Bluetooth, can't connect wireless headphones for audiobooks"
+      }
+    ]
+  },
+  {
+    "id": "kobo-touch",
+    "brand": "Kobo",
+    "name": "Touch",
+    "releaseDate": "2011",
+    "price": 129,
+    "screenSize": 6,
+    "pixelDensity": 170,
+    "resolution": "600 × 800",
+    "aspectRatio": "3:4",
+    "screenType": "E Ink Pearl",
+    "operatingSystem": [
+      "Kobo firmware"
+    ],
+    "dimensions": "114 x 165 x 10",
+    "weight": 185,
+    "cpu": "0.8 GHz",
+    "storage": "2 GB",
+    "ram": null,
+    "battery": "1000 mAh",
+    "colors": [
+      "black",
+      "white",
+      "silver",
+      "blue",
+      "lilac"
+    ],
+    "screenLight": false,
+    "colorDisplay": false,
+    "darkMode": false,
+    "wifi": true,
+    "bluetooth": false,
+    "sdCard": true,
+    "usbc": false,
+    "mobileData": false,
+    "speakers": false,
+    "browser": true,
+    "textToSpeech": false,
+    "waterproof": false,
+    "touchscreen": true,
+    "pageTurnButtons": false,
+    "automaticRotation": false,
+    "stylusSupport": false,
+    "categories": [
+      "Mid-Range",
+      "Medium Size"
+    ],
+    "dimensionsH": 165,
+    "dimensionsL": 114,
+    "dimensionsW": 10,
+    "priceCategory": "Mid-Range",
+    "sizeCategory": "Medium Size",
+    "fullName": "Kobo Touch",
+    "similar": [
+      "kobo-glo",
+      "kobo-aura",
+      "kobo-aura-hd",
+      "kobo-glo-hd"
+    ],
+    "pros": [
+      {
+        "text": "Expandable storage via SD card"
+      },
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "Low resolution screen, text is as sharp as on some other devices"
+      },
+      {
+        "text": "No front light, requires external lighting to read in the dark"
+      },
+      {
+        "text": "No physical page turn buttons, all navigation is done via the touchscreen"
+      },
+      {
+        "text": "Small 1000 mAh battery, may require more frequent charging than other e-readers"
+      },
+      {
+        "text": "No Bluetooth, can't connect wireless headphones for audiobooks"
+      }
+    ]
+  },
+  {
+    "id": "kobo-wifi",
+    "brand": "Kobo",
+    "name": "WiFi",
+    "releaseDate": "2010",
+    "price": 199,
+    "screenSize": 6,
+    "pixelDensity": 170,
+    "resolution": "600 × 800",
+    "aspectRatio": "3:4",
+    "screenType": "E Ink Vizplex",
+    "operatingSystem": [
+      "Kobo firmware"
+    ],
+    "dimensions": "120 x 184 x 10",
+    "weight": 221,
+    "cpu": null,
+    "storage": "1 GB",
+    "ram": null,
+    "battery": null,
+    "colors": [
+      "black",
+      "white",
+      "lilac"
+    ],
+    "screenLight": false,
+    "colorDisplay": false,
+    "darkMode": false,
+    "wifi": true,
+    "bluetooth": false,
+    "sdCard": true,
+    "usbc": false,
+    "mobileData": false,
+    "speakers": false,
+    "browser": true,
+    "textToSpeech": false,
+    "waterproof": false,
+    "touchscreen": false,
+    "pageTurnButtons": false,
+    "automaticRotation": false,
+    "stylusSupport": false,
+    "categories": [
+      "Mid-Range",
+      "Medium Size"
+    ],
+    "dimensionsH": 184,
+    "dimensionsL": 120,
+    "dimensionsW": 10,
+    "priceCategory": "Mid-Range",
+    "sizeCategory": "Medium Size",
+    "fullName": "Kobo WiFi",
+    "similar": [
+      "kobo-original",
+      "kobo-touch",
+      "kobo-glo",
+      "kobo-aura"
+    ],
+    "pros": [
+      {
+        "text": "Expandable storage via SD card"
+      },
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "Low resolution screen, text is as sharp as on some other devices"
+      },
+      {
+        "text": "No front light, requires external lighting to read in the dark"
+      },
+      {
+        "text": "No touchscreen, navigation relies entirely on physical buttons"
+      },
+      {
+        "text": "No Bluetooth, can't connect wireless headphones for audiobooks"
+      }
+    ]
+  },
+  {
+    "id": "kobo-original",
+    "brand": "Kobo",
+    "name": "Original",
+    "releaseDate": "2010",
+    "price": 149,
+    "screenSize": 6,
+    "pixelDensity": 170,
+    "resolution": "600 × 800",
+    "aspectRatio": "3:4",
+    "screenType": "E Ink Vizplex",
+    "operatingSystem": [
+      "Kobo firmware"
+    ],
+    "dimensions": "120 x 184 x 10",
+    "weight": 200,
+    "cpu": null,
+    "storage": "1 GB",
+    "ram": null,
+    "battery": null,
+    "colors": [
+      "black",
+      "white"
+    ],
+    "screenLight": false,
+    "colorDisplay": false,
+    "darkMode": false,
+    "wifi": false,
+    "bluetooth": false,
+    "sdCard": true,
+    "usbc": false,
+    "mobileData": false,
+    "speakers": false,
+    "browser": false,
+    "textToSpeech": false,
+    "waterproof": false,
+    "touchscreen": false,
+    "pageTurnButtons": false,
+    "automaticRotation": false,
+    "stylusSupport": false,
+    "categories": [
+      "Mid-Range",
+      "Medium Size"
+    ],
+    "dimensionsH": 184,
+    "dimensionsL": 120,
+    "dimensionsW": 10,
+    "priceCategory": "Mid-Range",
+    "sizeCategory": "Medium Size",
+    "fullName": "Kobo Original",
+    "similar": [
+      "kobo-wifi",
+      "kobo-touch",
+      "kobo-glo",
+      "kobo-aura"
+    ],
+    "pros": [
+      {
+        "text": "Expandable storage via SD card"
+      }
+    ],
+    "cons": [
+      {
+        "text": "Low resolution screen, text is as sharp as on some other devices"
+      },
+      {
+        "text": "No front light, requires external lighting to read in the dark"
+      },
+      {
+        "text": "No touchscreen, navigation relies entirely on physical buttons"
+      },
+      {
+        "text": "No wireless connectivity"
+      },
+      {
+        "text": "No Bluetooth, can't connect wireless headphones for audiobooks"
       }
     ]
   }

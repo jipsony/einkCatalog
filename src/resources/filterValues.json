@@ -2,22 +2,27 @@
   "brand": [
     "Amazon",
     "Kobo",
+    "reMarkable",
     "Xteink"
   ],
   "operatingSystem": [
     "Kindle firmware",
     "Kobo firmware",
-    "Proprietary"
+    "Proprietary",
+    "reMarkable OS (Codex)"
   ],
   "aspectRatio": [
     "3:4",
-    "3:5"
+    "3:5",
+    "9:16",
+    "103:150"
   ],
   "sizeCategory": [
     "Micro",
     "Compact",
     "Medium",
     "Big",
+    "Large Size",
     "Medium Size"
   ],
   "priceCategory": [
@@ -27,11 +32,31 @@
     "High-End"
   ],
   "screenSize": [
+    10.2,
+    10.3,
+    11,
+    11.8,
     4.3,
-    7
+    5,
+    6,
+    6.8,
+    7,
+    7.3,
+    7.8,
+    8,
+    9.7
   ],
   "screenType": [
+    "E Ink",
     "E INK",
-    "E Ink Kaleido 3"
+    "E Ink Carta",
+    "E Ink Carta 1200",
+    "E Ink Carta 1300",
+    "E Ink Carta HD",
+    "E Ink Gallery 3",
+    "E Ink Kaleido 3",
+    "E Ink Mobius Carta",
+    "E Ink Pearl",
+    "E Ink Vizplex"
   ]
 }
