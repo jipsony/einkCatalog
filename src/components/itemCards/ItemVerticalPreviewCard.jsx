@@ -8,7 +8,7 @@ import ItemAttributeIcons from "./ItemAttributeIcons";
 export const renderScreenSpecsPreview = (itemInfo) => {
   return (
     <Box flexShrink={0} overflow="hidden" as="span">
-      <Box as="span" title="Screen Size">{itemInfo?.screenSize}"</Box>
+      <Box as="span" title="Screen Size">{itemInfo?.screenSize}&quot;</Box>
       {" "}&bull;{" "}
       <Box as="span" title="Aspect Ratio">{itemInfo?.aspectRatio}</Box>
     </Box>
