@@ -1,4 +1,12 @@
 import sections from "@/resources/sections";
+import {
+  FaMoneyBill1Wave,
+  FaUpRightAndDownLeftFromCenter,
+  FaGear,
+  FaBuilding,
+  FaPlus,
+  FaEye,
+} from "react-icons/fa6";
 
 const initSectionFilters = () => {
   const filteredSections = Object.entries(sections).filter(
@@ -59,12 +67,12 @@ const generalFilters = [
   {
     key: "priceCategory",
     label: "Price",
-    icon: "fa-money-bill-1-wave",
+    icon: FaMoneyBill1Wave,
   },
   {
     key: "sizeCategory",
     label: "Size",
-    icon: "fa-up-right-and-down-left-from-center",
+    icon: FaUpRightAndDownLeftFromCenter,
   },
   {
     key: "operatingSystem",
@@ -73,12 +81,12 @@ const generalFilters = [
     filterFunction: (row, key, value) => {
       return row?.[key]?.includes(value);
     },
-    icon: "fa-gear",
+    icon: FaGear,
   },
   {
     key: "brand",
     label: "Brand",
-    icon: "fa-building",
+    icon: FaBuilding,
   },
 ];
 
@@ -86,20 +94,20 @@ const additionalSectionFilters = [
   {
     key: "display",
     label: "Screen",
-    icon: "fa-plus",
+    icon: FaPlus,
     children: ["screenSize", "screenType", "aspectRatio"],
   },
   {
     key: "aspectRatio",
     label: "Aspect Ratio",
-    icon: "fa-plus",
+    icon: FaPlus,
     type: "radio",
     parent: "screen",
   },
   {
     key: "screenSize",
     label: "Screen Size",
-    icon: "fa-eye",
+    icon: FaEye,
     type: "radio",
     // parent: "screen",
     // doNotRender: true,
@@ -109,7 +117,7 @@ const additionalSectionFilters = [
     key: "screenType",
     filterFunction: defaultFilterFunction,
     label: "Screen Type",
-    icon: "fa-plus",
+    icon: FaPlus,
     type: "radio",
     parent: "screen",
     titleRenderType: "prefix",

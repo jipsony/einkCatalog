@@ -279,7 +279,7 @@ export default function Filters(props) {
                   display="flex"
                   flexDirection={"column"}
                   borderLeftWidth={"2px"}
-                  borderColor={"var(--appColorLighterGrey)"}
+                  borderColor={"var(--appColorDarkGrey)"}
                 >
                   {specialCategoryFilters.map((specialCategory) => {
                     if (specialCategory.doNotRender) return;
@@ -407,7 +407,7 @@ export default function Filters(props) {
                     display="flex"
                     flexDirection={"column"}
                     borderLeftWidth={"2px"}
-                    borderColor={"var(--appColorLighterGrey)"}
+                    borderColor={"var(--appColorDarkGrey)"}
                   >
                     {renderAdditionalSectionFilters(sectionKey, section)}
 
@@ -522,14 +522,14 @@ export default function Filters(props) {
                   <Accordion.ItemBody>
                     <Box
                       borderLeftWidth={"2px"}
-                      borderColor={"var(--appColorLighterGrey)"}
+                      borderColor={"var(--appColorDarkGrey)"}
                       ml={5}
                     >
                       {filter.note && (
                         <Box
                           ml="1rem"
                           mb=".5rem"
-                          color="var(--appColorLightGrey)"
+                          color="var(--appColorDarkGrey)"
                         >
                           {filter.note}
                         </Box>
