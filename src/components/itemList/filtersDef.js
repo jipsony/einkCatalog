@@ -1,4 +1,4 @@
-import sections from "@/app/lib/sections";
+import sections from "@/resources/sections";
 
 const initSectionFilters = () => {
   const filteredSections = Object.entries(sections).filter(

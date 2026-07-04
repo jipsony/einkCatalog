@@ -1,10 +1,10 @@
 "use client";
 import { React, useEffect, useState, useTransition } from "react";
 
-import { Steps, Button, Box, Menu, Portal } from "@chakra-ui/react";
+import { Button, Box, Menu, Portal } from "@chakra-ui/react";
 
 import { useSearchParams, usePathname, useRouter } from "next/navigation";
-import IconsWrapper from "./IconsWrapper";
+import { FaList } from "react-icons/fa6";
 
 export default function DisplayMode(props) {
   const searchParams = useSearchParams();
@@ -32,10 +32,7 @@ export default function DisplayMode(props) {
               borderBottomWidth={props.showBorderBottom ? "0.4rem" : undefined}
               width={"100%"}
               loading={isPending}>
-              <IconsWrapper
-                icon={"fa-list"}
-                style={{ width: "2rem" }}
-              ></IconsWrapper>Layout
+              <FaList />Layout
                           {props.showSelectedInButton && (
                 <Box style={{ display: "inline" }}>{` (${
                   props.displayModeOptions[props.selectedDisplayMode]?.label

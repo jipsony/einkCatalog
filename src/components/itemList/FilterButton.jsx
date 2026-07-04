@@ -1,8 +1,8 @@
 "use client";
 import React from "react";
 import { useTransition } from "react";
-import { Steps, Button, Box } from "@chakra-ui/react";
-import IconsWrapper from "./IconsWrapper";
+import { Button } from "@chakra-ui/react";
+import { FaSliders } from "react-icons/fa6";
 
 export default function FilterButton(props) {
   const [isPending, startTransitionFilter] = useTransition();
@@ -10,6 +10,7 @@ export default function FilterButton(props) {
   return (
     <Button
       variant={"outline"}
+      borderColor={"var(--appColorDarkGrey)"}
       onClick={() => {
         startTransitionFilter(() => {
           props.setIsLoadingFilter(true);
@@ -17,14 +18,10 @@ export default function FilterButton(props) {
           props.setIsOpenFilters(true);
         });
       }}
-      bgColor={"var(--background)"}
-      color={"var(--foreground)"}
-      // className="hoverFloat hoverColor borderDarkGrey"
-      borderBottomWidth={"0.4rem"}
       width={"100%"}
       loading={isPending || props.isPendingFilter || props.isLoadingFilter}
     >
-      <IconsWrapper icon="fa-sliders" style={{ width: "2rem" }}></IconsWrapper>
+      <FaSliders />
       Filter
     </Button>
   );

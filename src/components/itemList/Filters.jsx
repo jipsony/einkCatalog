@@ -1,7 +1,6 @@
 // Beware of Spaghetti.
 "use client";
-import {
-  React,
+import React, {
   startTransition,
   useEffect,
   useState,
@@ -9,7 +8,6 @@ import {
   useCallback,
 } from "react";
 
-import sections from "../../app/lib/sections";
 import {
   Steps,
   Button,
@@ -28,9 +26,7 @@ import {
   Portal,
 } from "@chakra-ui/react";
 
-
-import IconsWrapper from "./IconsWrapper";
-import { fetchFilterValues } from "../../app/lib/serverRequests";
+import { FaList } from "react-icons/fa6";
 
 import { useSearchParams } from "next/navigation";
 import {
@@ -38,7 +34,9 @@ import {
   filtersDef,
   generalFilters,
   specialCategoryFilters,
-} from "@/resources/def/filtersDef";
+} from "./filtersDef";
+import sections from "@/resources/sections";
+import { filterValues } from "@/lib/filterValues";
 
 function ApplyFilterButton(props) {
   const [isPendingApplyFilter, startTransitionApplyFilter] = useTransition();
@@ -52,11 +50,11 @@ function ApplyFilterButton(props) {
   return (
     <Button
       onClick={handleClick}
-      backgroundColor={"var(--appColorAccent)"}
-      color={"var(--appColorCardBackgroundInvert)"}
-      _hover={{
-        backgroundColor: "var(--appColorAccentLight)",
-      }}
+      // backgroundColor={"var(--appColorAccent)"}
+      // color={"var(--appColorCardBackgroundInvert)"}
+      // _hover={{
+      //   backgroundColor: "var(--appColorAccentLight)",
+      // }}
       _active={{}}
       loading={isPendingApplyFilter || props.isLoadingApplyFilter}
     >
@@ -65,8 +63,28 @@ function ApplyFilterButton(props) {
   );
 }
 
+function FilterTriggerLabel(props) {
+  return (
+    <Box
+      as="span"
+      flex="1"
+      display="flex"
+      alignItems="center"
+      gap="2"
+      // color={"var(--appColorAccent)"}
+      _hover={{ color: "var(--appColorAccent)" }}
+      cursor={"pointer"}
+    >
+      {props.icon &&
+        React.createElement(props.icon, {
+          opacity: 0.6,
+        })}
+      {props.label}
+    </Box>
+  );
+}
+
 export default function Filters(props) {
-  const [filterValues, setFilterValues] = useState(null);
   const [maxActiveIndex, setMaxActiveIndex] = useState(0);
   const { open, onOpen, onClose } = useDisclosure();
   const [isPendingClose, startTransitionClose] = useTransition();
@@ -169,22 +187,18 @@ export default function Filters(props) {
 
   const initFilters = () => {
     if (props.setFiltersReady) props.setFiltersReady(false);
-    fetchFilterValues().then((fv) => {
-      setFilterValues(fv);
+    let allFilters = filtersDef;
+    allFilters = setFiltersFromUrl(allFilters);
+    allFilters = setFiltersFromInitialFilters(allFilters);
+    allFilters = allFilters.map((f, idx) => ({
+      ...f,
+      wip: { active: f.active, value: f.value },
+      index: idx,
+    }));
+    props.setFilters(allFilters);
 
-      let allFilters = filtersDef;
-      allFilters = setFiltersFromUrl(allFilters);
-      allFilters = setFiltersFromInitialFilters(allFilters);
-      allFilters = allFilters.map((f, idx) => ({
-        ...f,
-        wip: { active: f.active, value: f.value },
-        index: idx,
-      }));
-      props.setFilters(allFilters);
-
-      setMaxActiveIndex(allFilters.length);
-      if (props.setFiltersReady) props.setFiltersReady(true);
-    });
+    setMaxActiveIndex(allFilters.length);
+    if (props.setFiltersReady) props.setFiltersReady(true);
   };
 
   let isFirstLoad = true;
@@ -248,28 +262,14 @@ export default function Filters(props) {
         >
           <Accordion.Item value="item-specialCategory">
             <Accordion.ItemTrigger>
-              <Box
-                as="span"
-                flex="1"
-                textAlign="left"
-                // fontWeight={"bold"}
-              >
-                <Box display="inline">
-                  <IconsWrapper
-                    icon={"fa-list"}
-                    style={{ width: "2rem" }}
-                    color={
-                      specialCategoryFilters.some(
-                        (specialCategory) =>
-                          localWipValues[specialCategory.key]?.active,
-                      )
-                        ? "var(--appColorAccent)"
-                        : undefined
-                    }
-                  ></IconsWrapper>
-                </Box>
-                <Box display="inline">Category</Box>
-              </Box>
+              <FilterTriggerLabel
+                icon={FaList}
+                label="Category"
+                isActive={specialCategoryFilters.some(
+                  (specialCategory) =>
+                    localWipValues[specialCategory.key]?.active,
+                )}
+              />
               <Accordion.ItemIndicator />
             </Accordion.ItemTrigger>
             <Accordion.ItemContent>
@@ -293,8 +293,7 @@ export default function Filters(props) {
                         checked={
                           localWipValues[specialCategory.key]?.active || false
                         }
-                      mb="3px"
-                        
+                        mb="3px"
                       >
                         <Checkbox.HiddenInput />
                         <Checkbox.Control>
@@ -315,14 +314,10 @@ export default function Filters(props) {
 
   const renderAdditionalSectionFilters = (key, section) => {
     const filter = additionalSectionFilters?.find((e) => e.key === key);
+
     return (
       filter?.children?.length > 0 && (
-        <Box
-          // pl={"1rem"}
-          ml={"1rem"}
-          // borderLeftWidth={"2px"}
-          // borderColor={"var(--appColorLighterGrey)"}
-        >
+        <Box ml={"1rem"}>
           {renderRadioFilters(
             additionalSectionFilters?.filter((f) =>
               filter?.children?.includes(f.key),
@@ -389,34 +384,20 @@ export default function Filters(props) {
           <Box key={idx}>
             <Accordion.Item defaultChecked value={`item-${idx}`}>
               <Accordion.ItemTrigger>
-                <Box
-                  as="span"
-                  flex="1"
-                  textAlign="left"
-                  // FfontWeight={"bold"}
-                >
-                  <Box display="inline">
-                    <IconsWrapper
-                      icon={section.icon}
-                      color={
-                        section.attributes
-                          .filter((e) => e.type === "tag")
-                          .some(
-                            (tag) => localWipValues[tag.attribute]?.active,
-                          ) ||
-                        isOneOfTheChildrenFiltersActive(
-                          additionalSectionFilters?.find(
-                            (asf) => asf.key === sectionKey,
-                          ),
-                        )
-                          ? "var(--appColorAccent)"
-                          : undefined
-                      }
-                      style={{ width: "2rem" }}
-                    ></IconsWrapper>
-                  </Box>
-                  <Box display="inline">{section.label}</Box>
-                </Box>
+                <FilterTriggerLabel
+                  icon={section.icon}
+                  label={section.label}
+                  isActive={
+                    section.attributes
+                      .filter((e) => e.type === "tag")
+                      .some((tag) => localWipValues[tag.attribute]?.active) ||
+                    isOneOfTheChildrenFiltersActive(
+                      additionalSectionFilters?.find(
+                        (asf) => asf.key === sectionKey,
+                      ),
+                    )
+                  }
+                />
                 <Accordion.ItemIndicator />
               </Accordion.ItemTrigger>
               <Accordion.ItemContent pr={0}>
@@ -442,8 +423,7 @@ export default function Filters(props) {
                           checked={
                             localWipValues[tag.attribute]?.active || false
                           }
-                      mb="3px"
-
+                          mb="3px"
                         >
                           <Checkbox.HiddenInput />
                           <Checkbox.Control>
@@ -517,6 +497,7 @@ export default function Filters(props) {
           : appliedRadiofilters?.filter((f) => f.parent === undefined)
         )?.map((filter) => {
           if (filter.doNotRender) return;
+
           if (filterValues?.[filter.key] || filter.children?.length > 0) {
             return (
               <Accordion.Item
@@ -527,26 +508,14 @@ export default function Filters(props) {
                 value={`item-${filter.key}`}
               >
                 <Accordion.ItemTrigger>
-                  <Box
-                    as="span"
-                    flex="1"
-                    textAlign="left"
-                    // fontWeight={"bold"}
-                  >
-                    <Box display="inline">
-                      <IconsWrapper
-                        icon={filter.icon}
-                        style={{ width: "2rem" }}
-                        color={
-                          isRadioFilterActive(filter) ||
-                          isOneOfTheChildrenFiltersActive(filter)
-                            ? "var(--appColorAccent)"
-                            : undefined
-                        }
-                      ></IconsWrapper>
-                    </Box>
-                    <Box display="inline">{filter.label}</Box>
-                  </Box>
+                  <FilterTriggerLabel
+                    icon={filter.icon}
+                    label={filter.label}
+                    isActive={
+                      isRadioFilterActive(filter) ||
+                      isOneOfTheChildrenFiltersActive(filter)
+                    }
+                  />
                   <Accordion.ItemIndicator />
                 </Accordion.ItemTrigger>
                 <Accordion.ItemContent pr={0}>
@@ -596,8 +565,9 @@ export default function Filters(props) {
                         <Stack display="flex" flexDirection={"column"}>
                           {filterValues?.[filter.key]?.length && (
                             <>
-                              {filterValues?.[filter.key]?.filter((v) => v != null)?.map(
-                                (filterValue) => (
+                              {filterValues?.[filter.key]
+                                ?.filter((v) => v != null)
+                                ?.map((filterValue) => (
                                   <RadioGroup.Item
                                     key={filterValue}
                                     value={filterValue}
@@ -609,8 +579,7 @@ export default function Filters(props) {
                                       {filterValue}
                                     </RadioGroup.ItemText>
                                   </RadioGroup.Item>
-                                ),
-                              )}
+                                ))}
                               <RadioGroup.Item value="__all__" ml={3}>
                                 <RadioGroup.ItemHiddenInput />
                                 <RadioGroup.ItemIndicator />
@@ -659,7 +628,7 @@ export default function Filters(props) {
         <Portal>
           <Drawer.Backdrop />
           <Drawer.Positioner>
-            <Drawer.Content>
+            <Drawer.Content background={"var(--background)"}>
               {isPendingClose && (
                 <Box
                   position="absolute"

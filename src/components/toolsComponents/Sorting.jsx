@@ -2,9 +2,9 @@
 import { React, useTransition } from "react";
 
 import { usePathname, useSearchParams, useRouter } from "next/navigation";
-import IconsWrapper from "./IconsWrapper";
-import { sortOptions } from "@/app/lib/sorting";
-import { Steps, Menu, Button, Box, Portal } from "@chakra-ui/react";
+import { FaArrowDownWideShort } from "react-icons/fa6";
+import { sortOptions } from "@/lib/sorting";
+import { Menu, Button, Box, Portal } from "@chakra-ui/react";
 
 export default function Sorting(props) {
   const [isPending, startTransition] = useTransition();
@@ -26,18 +26,11 @@ export default function Sorting(props) {
           <Menu.Trigger asChild>
             <Button
               variant={"outline"}
-              bgColor={"var(--appColorCardBackground)"}
-              color={"var(--appColorCardBackgroundInvert)"}
-              className="hoverFloat hoverColor"
               borderColor={"var(--appColorDarkGrey)"}
-              borderBottomWidth={props.showBorderBottom ? "0.4rem" : undefined}
               width={"100%"}
               loading={isPending}
             >
-              <IconsWrapper
-                icon="fa-arrow-down-wide-short"
-                style={{ width: "2rem" }}
-              ></IconsWrapper>
+              <FaArrowDownWideShort />
               Sort
               {props.showSelectedInButton && (
                 <Box style={{ display: "inline" }}>{` (${
@@ -46,7 +39,6 @@ export default function Sorting(props) {
               )}
             </Button>
           </Menu.Trigger>
-          {/* <Menu.ItemGroup> */}
           <Portal>
             <Menu.Positioner>
               <Menu.Content>

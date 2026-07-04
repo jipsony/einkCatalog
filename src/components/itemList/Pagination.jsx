@@ -3,7 +3,7 @@ import { React, useTransition } from "react";
 
 import { Button, Center, Flex, HStack } from "@chakra-ui/react";
 
-import IconsWrapper from "./IconsWrapper";
+import { FaSliders } from "react-icons/fa6";
 
 export default function Pagination(props) {
   const [isPendingLoadMore, startTransitionLoadMore] = useTransition();
@@ -18,7 +18,7 @@ export default function Pagination(props) {
         from: 0,
         to: Math.min(
           props.pagination.to + props.pageSize + 1,
-          props.defJsonBeforePagination.length
+          props.itemsBeforePagination.length
         ),
       });
     });
@@ -35,7 +35,7 @@ export default function Pagination(props) {
 
   return (
     <>
-      {props.pagination?.to && props.defJson?.length > 0 && (
+      {props.pagination?.to && props.items?.length > 0 && (
         <Flex
           flexDirection={"column"}
           fontWeight={"600"}
@@ -51,8 +51,8 @@ export default function Pagination(props) {
           >
             {`Showing ${Math.min(
               props.pagination.to + 1,
-              props.defJsonBeforePagination.length
-            )} results out of ${props.defJsonBeforePagination.length}`}
+              props.itemsBeforePagination.length
+            )} results out of ${props.itemsBeforePagination.length}`}
           </Center>
           <Center p={0} pt="1rem">
             <HStack gap={0}>
@@ -61,10 +61,6 @@ export default function Pagination(props) {
                 pr={"2em"}
                 mr={0}
                 variant={"outline"}
-                bgColor={"var(--appColorCardBackground)"}
-                color={"var(--appColorCardBackgroundInvert)"}
-                className="hoverColor borderDarkGrey"
-                borderBottomWidth="0.4rem"
                 zIndex={2}
                 alignSelf={"stretch"}
                 //   borderBottomWidth="0.4rem"
@@ -73,9 +69,9 @@ export default function Pagination(props) {
                 borderRightRadius={0}
                 borderRight={0}
                 onClick={handleLoadMore}
-                isDisabled={
+                disabled={
                   props.pagination.to >=
-                  props.defJsonBeforePagination.length - 1
+                  props.itemsBeforePagination.length - 1
                 }
                 isLoading={isLoading}
               >
@@ -83,12 +79,9 @@ export default function Pagination(props) {
               </Button>
               <Button
                 variant={"outline"}
-                bgColor={"var(--appColorCardBackground)"}
-                color={"var(--appColorCardBackgroundInvert)"}
-                className="hoverColor borderDarkGrey"
-                borderBottomWidth="0.4rem"
                 borderLeftRadius={0}
-                borderLeft={"1 solid"}
+                borderColor={"var(--appColorDarkGrey)!important"}
+
                 // zIndex={2}
                 ml={0}
                 onClick={() => {
@@ -102,10 +95,7 @@ export default function Pagination(props) {
                   props.isLoadingSmallFilterButton
                 }
               >
-                <IconsWrapper
-                  icon="fa-sliders"
-                  // style={{ width: "2rem" }}
-                ></IconsWrapper>{" "}
+                <FaSliders />{" "}
               </Button>
             </HStack>
           </Center>

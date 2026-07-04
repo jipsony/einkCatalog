@@ -1,5 +1,7 @@
+import ItemListPage from "@/components/itemList/ItemListPage";
+import { items } from "@/lib/item/items";
 import React from "react";
 
 export default function Page() {
-  return <div>List Page</div>;
+  return <ItemListPage items={items}></ItemListPage>
 }
