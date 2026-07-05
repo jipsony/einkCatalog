@@ -1,156 +1,304 @@
 {
   "unsorted": [
     {
-      "id": "kindle-colorsoft",
-      "fullName": "Amazon Kindle Colorsoft"
+      "id": "remarkable-paper-pure",
+      "fullName": "reMarkable Paper Pure"
     },
     {
-      "id": "kobo-libra-color",
-      "fullName": "Kobo Libra Color"
+      "id": "kindle-scribe-3-without-front-light",
+      "fullName": "Kindle Scribe 3 without Front Light"
     },
     {
-      "id": "xteink-x4",
-      "fullName": "Xteink X4"
+      "id": "boox-go-103-gen-ii-lumi",
+      "fullName": "Boox Go 10.3 (Gen II) Lumi"
     },
     {
-      "id": "remarkable-paper-pro",
-      "fullName": "reMarkable Paper Pro"
+      "id": "boox-go-103-gen-ii",
+      "fullName": "Boox Go 10.3 (Gen II)"
+    },
+    {
+      "id": "boox-go-6-gen-ii",
+      "fullName": "Boox Go 6 (Gen II)"
+    },
+    {
+      "id": "pocketbook-era-lite",
+      "fullName": "PocketBook Era Lite"
+    },
+    {
+      "id": "pocketbook-inkpad-one",
+      "fullName": "PocketBook Inkpad One"
+    },
+    {
+      "id": "bigme-b10",
+      "fullName": "Bigme B10"
+    },
+    {
+      "id": "bigme-b7-pro-bw",
+      "fullName": "Bigme B7 Pro BW"
+    },
+    {
+      "id": "bigme-b6-bw",
+      "fullName": "Bigme B6 BW"
+    },
+    {
+      "id": "bigme-hibreak-dual-color",
+      "fullName": "Bigme Hibreak Dual Color"
+    },
+    {
+      "id": "bigme-hibreak-dual-bw",
+      "fullName": "Bigme Hibreak Dual BW"
+    },
+    {
+      "id": "bigme-hibreak-plus",
+      "fullName": "Bigme Hibreak Plus"
+    },
+    {
+      "id": "musnap-neo-2c",
+      "fullName": "Musnap Neo 2C"
+    },
+    {
+      "id": "musnap-neo-2",
+      "fullName": "Musnap Neo 2"
+    },
+    {
+      "id": "xteink-x3",
+      "fullName": "Xteink X3"
+    },
+    {
+      "id": "durobo-krono",
+      "fullName": "DuRoBo Krono"
+    },
+    {
+      "id": "bemi-cognita-tab-7-pro",
+      "fullName": "Bemi Cognita Tab 7 Pro"
+    },
+    {
+      "id": "bemi-cognita-tab-6e",
+      "fullName": "Bemi Cognita Tab 6e"
     },
     {
       "id": "remarkable-paper-pro-move",
       "fullName": "reMarkable Paper Pro Move"
     },
     {
-      "id": "remarkable-paper-pure",
-      "fullName": "reMarkable Paper Pure"
-    },
-    {
-      "id": "remarkable-2",
-      "fullName": "reMarkable 2"
-    },
-    {
-      "id": "remarkable-1",
-      "fullName": "reMarkable 1"
-    },
-    {
       "id": "kindle-scribe-colorsoft",
-      "fullName": "Amazon Kindle Scribe Colorsoft"
+      "fullName": "Kindle Scribe Colorsoft"
     },
     {
       "id": "kindle-scribe-3",
-      "fullName": "Amazon Kindle Scribe 3"
+      "fullName": "Kindle Scribe 3"
     },
     {
-      "id": "kindle-scribe-3-no-front-light",
-      "fullName": "Amazon Kindle Scribe 3 without Front Light"
+      "id": "kindle-colorsoft",
+      "fullName": "Kindle Colorsoft"
+    },
+    {
+      "id": "boox-go-color-7-gen-ii",
+      "fullName": "Boox Go Color 7 Gen II"
+    },
+    {
+      "id": "boox-go-7",
+      "fullName": "Boox Go 7"
+    },
+    {
+      "id": "boox-tab-x-c",
+      "fullName": "Boox Tab X C"
+    },
+    {
+      "id": "boox-note-max",
+      "fullName": "Boox Note Max"
+    },
+    {
+      "id": "boox-palma-2-pro",
+      "fullName": "Boox Palma 2 Pro"
+    },
+    {
+      "id": "boox-note-air-5-c",
+      "fullName": "Boox Note Air 5 C"
+    },
+    {
+      "id": "pocketbook-verse-lite",
+      "fullName": "PocketBook Verse Lite"
+    },
+    {
+      "id": "bigme-b7-pro",
+      "fullName": "Bigme B7 Pro"
+    },
+    {
+      "id": "bigme-b7",
+      "fullName": "Bigme B7"
+    },
+    {
+      "id": "bigme-b6",
+      "fullName": "Bigme B6"
+    },
+    {
+      "id": "bigme-hibreak-pro-color",
+      "fullName": "Bigme Hibreak Pro Color"
+    },
+    {
+      "id": "bigme-hibreak-pro",
+      "fullName": "Bigme Hibreak Pro"
+    },
+    {
+      "id": "bigme-hibreak-s-color",
+      "fullName": "Bigme Hibreak S Color"
+    },
+    {
+      "id": "bigme-hibreak-s-bw",
+      "fullName": "Bigme Hibreak S BW"
+    },
+    {
+      "id": "bigme-b751c-s",
+      "fullName": "Bigme B751C S"
+    },
+    {
+      "id": "harborinno-paper-7",
+      "fullName": "Harborinno Paper 7"
+    },
+    {
+      "id": "harborinno-paper-7-lite",
+      "fullName": "Harborinno Paper 7 Lite"
+    },
+    {
+      "id": "viwoods-aipaper-reader",
+      "fullName": "Viwoods AiPaper Reader"
+    },
+    {
+      "id": "viwoods-aipaper-reader-c",
+      "fullName": "Viwoods AiPaper Reader C"
+    },
+    {
+      "id": "inkbook-focus-color",
+      "fullName": "InkBOOK Focus Color"
+    },
+    {
+      "id": "inkbook-focus-plus",
+      "fullName": "InkBOOK Focus Plus"
+    },
+    {
+      "id": "inkbook-solaris-color",
+      "fullName": "InkBOOK Solaris Color"
+    },
+    {
+      "id": "inkbook-solaris",
+      "fullName": "InkBOOK Solaris"
+    },
+    {
+      "id": "vivlio-light-zen",
+      "fullName": "Vivlio Light Zen"
+    },
+    {
+      "id": "penstar-enote-2",
+      "fullName": "Penstar eNote 2"
+    },
+    {
+      "id": "penstar-enote-pro",
+      "fullName": "Penstar eNote Pro"
+    },
+    {
+      "id": "iflytek-ainote-2",
+      "fullName": "iFlytek AINOTE 2"
+    },
+    {
+      "id": "spc-dickens-light-2-pro",
+      "fullName": "SPC Dickens Light 2 Pro"
+    },
+    {
+      "id": "musnap-x",
+      "fullName": "Musnap X"
+    },
+    {
+      "id": "musnap-aura-c",
+      "fullName": "Musnap Aura C"
+    },
+    {
+      "id": "musnap-ocean-c",
+      "fullName": "Musnap Ocean C"
+    },
+    {
+      "id": "musnap-ocean",
+      "fullName": "Musnap Ocean"
+    },
+    {
+      "id": "musnap-neo-c",
+      "fullName": "Musnap Neo C"
+    },
+    {
+      "id": "musnap-neo",
+      "fullName": "Musnap Neo"
+    },
+    {
+      "id": "xteink-x4",
+      "fullName": "Xteink X4"
+    },
+    {
+      "id": "montblanc-digital-paper",
+      "fullName": "Montblanc Digital Paper"
+    },
+    {
+      "id": "obook-6",
+      "fullName": "Obook 6"
+    },
+    {
+      "id": "obook-5",
+      "fullName": "Obook 5"
+    },
+    {
+      "id": "bemi-cognita-tab-6-proc",
+      "fullName": "Bemi Cognita Tab 6 ProC"
+    },
+    {
+      "id": "bemi-cognita-tab-6-plus",
+      "fullName": "Bemi Cognita Tab 6 Plus"
+    },
+    {
+      "id": "bemi-cognita-tab-6",
+      "fullName": "Bemi Cognita Tab 6"
+    },
+    {
+      "id": "veidoo-e8",
+      "fullName": "Veidoo E8"
+    },
+    {
+      "id": "famue-bf07",
+      "fullName": "Famue BF07"
+    },
+    {
+      "id": "huion-ink-eb1011",
+      "fullName": "Huion Ink EB1011"
+    },
+    {
+      "id": "m5stack-papers3",
+      "fullName": "M5Stack PaperS3"
+    },
+    {
+      "id": "remarkable-paper-pro",
+      "fullName": "reMarkable Paper Pro"
     },
     {
       "id": "kindle-scribe-2024",
-      "fullName": "Amazon Kindle Scribe 2024"
+      "fullName": "Kindle Scribe 2024"
     },
     {
       "id": "kindle-colorsoft-signature-edition",
-      "fullName": "Amazon Kindle Colorsoft Signature Edition"
+      "fullName": "Kindle Colorsoft Signature Edition"
     },
     {
       "id": "kindle-paperwhite-6-signature-edition",
-      "fullName": "Amazon Kindle Paperwhite 6 Signature Edition"
+      "fullName": "Kindle Paperwhite 6 Signature Edition"
     },
     {
       "id": "kindle-paperwhite-6",
-      "fullName": "Amazon Kindle Paperwhite 6"
+      "fullName": "Kindle Paperwhite 6"
     },
     {
       "id": "kindle-2024",
-      "fullName": "Amazon Kindle 2024"
+      "fullName": "Kindle 2024"
     },
     {
-      "id": "kindle-scribe",
-      "fullName": "Amazon Kindle Scribe"
-    },
-    {
-      "id": "kindle-11",
-      "fullName": "Amazon Kindle 11"
-    },
-    {
-      "id": "kindle-paperwhite-5-signature-edition",
-      "fullName": "Amazon Kindle Paperwhite 5 Signature Edition"
-    },
-    {
-      "id": "kindle-paperwhite-5",
-      "fullName": "Amazon Kindle Paperwhite 5"
-    },
-    {
-      "id": "kindle-oasis-3",
-      "fullName": "Amazon Kindle Oasis 3"
-    },
-    {
-      "id": "kindle-10",
-      "fullName": "Amazon Kindle 10"
-    },
-    {
-      "id": "kindle-paperwhite-4",
-      "fullName": "Amazon Kindle Paperwhite 4"
-    },
-    {
-      "id": "kindle-oasis-2",
-      "fullName": "Amazon Kindle Oasis 2"
-    },
-    {
-      "id": "kindle-8",
-      "fullName": "Amazon Kindle 8"
-    },
-    {
-      "id": "kindle-oasis",
-      "fullName": "Amazon Kindle Oasis"
-    },
-    {
-      "id": "kindle-paperwhite-3",
-      "fullName": "Amazon Kindle Paperwhite 3"
-    },
-    {
-      "id": "kindle-voyage",
-      "fullName": "Amazon Kindle Voyage"
-    },
-    {
-      "id": "kindle-7",
-      "fullName": "Amazon Kindle 7"
-    },
-    {
-      "id": "kindle-paperwhite-2",
-      "fullName": "Amazon Kindle Paperwhite 2"
-    },
-    {
-      "id": "kindle-paperwhite",
-      "fullName": "Amazon Kindle Paperwhite"
-    },
-    {
-      "id": "kindle-5",
-      "fullName": "Amazon Kindle 5"
-    },
-    {
-      "id": "kindle-touch",
-      "fullName": "Amazon Kindle Touch"
-    },
-    {
-      "id": "kindle-4",
-      "fullName": "Amazon Kindle 4"
-    },
-    {
-      "id": "kindle-keyboard",
-      "fullName": "Amazon Kindle Keyboard"
-    },
-    {
-      "id": "kindle-dx",
-      "fullName": "Amazon Kindle DX"
-    },
-    {
-      "id": "kindle-2",
-      "fullName": "Amazon Kindle 2"
-    },
-    {
-      "id": "kindle-1",
-      "fullName": "Amazon Kindle 1"
+      "id": "kobo-libra-colour",
+      "fullName": "Kobo Libra Colour"
     },
     {
       "id": "kobo-clara-colour",
@@ -161,12 +309,484 @@
       "fullName": "Kobo Clara BW"
     },
     {
+      "id": "meebook-m8c",
+      "fullName": "Meebook M8C"
+    },
+    {
+      "id": "meebook-m8",
+      "fullName": "Meebook M8"
+    },
+    {
+      "id": "meebook-m6c",
+      "fullName": "Meebook M6C"
+    },
+    {
+      "id": "meebook-m103",
+      "fullName": "Meebook M103"
+    },
+    {
+      "id": "boox-palma-2",
+      "fullName": "Boox Palma 2"
+    },
+    {
+      "id": "boox-note-air-4-c",
+      "fullName": "Boox Note Air 4 C"
+    },
+    {
+      "id": "boox-go-6",
+      "fullName": "Boox Go 6"
+    },
+    {
+      "id": "boox-go-color-7",
+      "fullName": "Boox Go Color 7"
+    },
+    {
+      "id": "boox-go-103",
+      "fullName": "Boox Go 10.3"
+    },
+    {
+      "id": "ratta-supernote-a5-x2-manta",
+      "fullName": "Ratta Supernote A5 X2 Manta"
+    },
+    {
+      "id": "pocketbook-color-note",
+      "fullName": "PocketBook Color Note"
+    },
+    {
+      "id": "pocketbook-inkpad-eo",
+      "fullName": "PocketBook InkPad Eo"
+    },
+    {
+      "id": "pocketbook-era-color",
+      "fullName": "PocketBook Era Color"
+    },
+    {
+      "id": "pocketbook-verse-pro-color",
+      "fullName": "PocketBook Verse Pro Color"
+    },
+    {
+      "id": "bigme-hibreak-color",
+      "fullName": "Bigme Hibreak Color"
+    },
+    {
+      "id": "bigme-hibreak-bw",
+      "fullName": "Bigme Hibreak B&W"
+    },
+    {
+      "id": "bigme-inknote-x",
+      "fullName": "Bigme InkNote X"
+    },
+    {
+      "id": "bigme-b1051c-pro",
+      "fullName": "Bigme B1051C Pro"
+    },
+    {
+      "id": "bigme-b1051c",
+      "fullName": "Bigme B1051C"
+    },
+    {
+      "id": "bigme-b1051c-lite",
+      "fullName": "Bigme B1051C Lite"
+    },
+    {
+      "id": "bigme-b1051",
+      "fullName": "Bigme B1051"
+    },
+    {
+      "id": "bigme-b1051-lite",
+      "fullName": "Bigme B1051 Lite"
+    },
+    {
+      "id": "bigme-b751c",
+      "fullName": "Bigme B751C"
+    },
+    {
+      "id": "bigme-b751",
+      "fullName": "Bigme B751"
+    },
+    {
+      "id": "mobiscribe-wave-color-3",
+      "fullName": "MobiScribe Wave Color 3"
+    },
+    {
+      "id": "daylight-computer-dc-1",
+      "fullName": "Daylight Computer DC-1"
+    },
+    {
+      "id": "hannspree-hannsnote2",
+      "fullName": "Hannspree HannsNote2"
+    },
+    {
+      "id": "tolino-vision-color",
+      "fullName": "Tolino Vision Color"
+    },
+    {
+      "id": "tolino-shine-color",
+      "fullName": "Tolino Shine Color"
+    },
+    {
+      "id": "tolino-shine-5",
+      "fullName": "Tolino Shine 5"
+    },
+    {
+      "id": "viwoods-aipaper",
+      "fullName": "Viwoods AiPaper"
+    },
+    {
+      "id": "viwoods-aipaper-mini",
+      "fullName": "Viwoods AiPaper Mini"
+    },
+    {
+      "id": "vivlio-inkpad-color-3",
+      "fullName": "Vivlio InkPad Color 3"
+    },
+    {
+      "id": "vivlio-light-hd-color",
+      "fullName": "Vivlio Light HD Color"
+    },
+    {
+      "id": "penstar-enote",
+      "fullName": "Penstar eNote"
+    },
+    {
+      "id": "iflytek-ainote-air-2",
+      "fullName": "iFlytek AINOTE Air 2"
+    },
+    {
+      "id": "paperslate-pro",
+      "fullName": "Paperslate Pro"
+    },
+    {
+      "id": "paperslate",
+      "fullName": "Paperslate"
+    },
+    {
+      "id": "silvergear-e-reader",
+      "fullName": "Silvergear e-reader"
+    },
+    {
+      "id": "bemi-cognita-tab-8-pro",
+      "fullName": "Bemi Cognita Tab 8 Pro"
+    },
+    {
+      "id": "bemi-cognita-tab-8",
+      "fullName": "Bemi Cognita Tab 8"
+    },
+    {
+      "id": "bemi-cognita-tab-5",
+      "fullName": "Bemi Cognita Tab 5"
+    },
+    {
+      "id": "famue-bf01",
+      "fullName": "Famue BF01"
+    },
+    {
+      "id": "huion-ink-eb1010",
+      "fullName": "Huion Ink EB1010"
+    },
+    {
       "id": "kobo-elipsa-2e",
       "fullName": "Kobo Elipsa 2E"
     },
     {
+      "id": "lenovo-smart-paper",
+      "fullName": "Lenovo Smart Paper"
+    },
+    {
+      "id": "meebook-m6",
+      "fullName": "Meebook M6"
+    },
+    {
+      "id": "meebook-m7",
+      "fullName": "Meebook M7"
+    },
+    {
+      "id": "boox-tab-ultra-c-pro",
+      "fullName": "Boox Tab Ultra C Pro"
+    },
+    {
+      "id": "boox-note-air-3-c",
+      "fullName": "Boox Note Air 3 C"
+    },
+    {
+      "id": "boox-note-air-3",
+      "fullName": "Boox Note Air 3"
+    },
+    {
+      "id": "boox-page",
+      "fullName": "Boox Page"
+    },
+    {
+      "id": "boox-palma",
+      "fullName": "Boox Palma"
+    },
+    {
+      "id": "boox-tab-mini-c",
+      "fullName": "Boox Tab Mini C"
+    },
+    {
+      "id": "boox-poke-5",
+      "fullName": "Boox Poke 5"
+    },
+    {
+      "id": "boox-tab-ultra-c",
+      "fullName": "Boox Tab Ultra C"
+    },
+    {
+      "id": "boox-tab-x",
+      "fullName": "Boox Tab X"
+    },
+    {
+      "id": "ratta-supernote-a6-x2-nomad",
+      "fullName": "Ratta Supernote A6 X2 Nomad"
+    },
+    {
+      "id": "nook-glowlight-4-plus",
+      "fullName": "Nook GlowLight 4 Plus"
+    },
+    {
+      "id": "pocketbook-basic-lux-4",
+      "fullName": "PocketBook Basic Lux 4"
+    },
+    {
+      "id": "pocketbook-verse-pro",
+      "fullName": "PocketBook Verse Pro"
+    },
+    {
+      "id": "pocketbook-verse",
+      "fullName": "PocketBook Verse"
+    },
+    {
+      "id": "pocketbook-inkpad-color-3",
+      "fullName": "PocketBook InkPad Color 3"
+    },
+    {
+      "id": "pocketbook-inkpad-color-2",
+      "fullName": "PocketBook InkPad Color 2"
+    },
+    {
+      "id": "pocketbook-inkpad-x-pro",
+      "fullName": "PocketBook InkPad X Pro"
+    },
+    {
+      "id": "pocketbook-inkpad-4",
+      "fullName": "PocketBook InkPad 4"
+    },
+    {
+      "id": "bigme-s6-color-lite",
+      "fullName": "Bigme S6 Color+ Lite"
+    },
+    {
+      "id": "bigme-s6-color",
+      "fullName": "Bigme S6 Color+"
+    },
+    {
+      "id": "bigme-s6",
+      "fullName": "Bigme S6"
+    },
+    {
+      "id": "bigme-inknote-color-lite",
+      "fullName": "Bigme InkNote Color+ Lite"
+    },
+    {
+      "id": "bigme-inknote-color",
+      "fullName": "Bigme InkNote Color+"
+    },
+    {
+      "id": "bigme-inknote",
+      "fullName": "Bigme InkNote"
+    },
+    {
+      "id": "bigme-inknote-s",
+      "fullName": "Bigme InkNote S"
+    },
+    {
+      "id": "bigme-read",
+      "fullName": "Bigme Read"
+    },
+    {
+      "id": "bigme-guoyue-k3-color",
+      "fullName": "Bigme Guoyue K3 Color"
+    },
+    {
+      "id": "bigme-guoyue-v6-color",
+      "fullName": "Bigme Guoyue V6 Color"
+    },
+    {
+      "id": "mobiscribe-wave-color",
+      "fullName": "MobiScribe Wave Color"
+    },
+    {
+      "id": "mobiscribe-wave-bw",
+      "fullName": "MobiScribe Wave B&W"
+    },
+    {
+      "id": "dasung-not-ereader-133",
+      "fullName": "Dasung Not-eReader 133"
+    },
+    {
+      "id": "hisense-hi-reader",
+      "fullName": "Hisense Hi Reader"
+    },
+    {
+      "id": "hisense-hi-reader-pro",
+      "fullName": "Hisense Hi Reader Pro"
+    },
+    {
+      "id": "hisense-a7-cc",
+      "fullName": "Hisense A7 CC"
+    },
+    {
+      "id": "hisense-a7",
+      "fullName": "Hisense A7"
+    },
+    {
+      "id": "moaan-inkpalm-5-mini-pro",
+      "fullName": "Moaan InkPalm 5 Mini Pro"
+    },
+    {
+      "id": "eyemoo-epaper-s1",
+      "fullName": "Eyemoo Epaper S1"
+    },
+    {
+      "id": "bookeen-nota",
+      "fullName": "Bookeen Notéa"
+    },
+    {
+      "id": "vivlio-inkpad-4",
+      "fullName": "Vivlio InkPad 4"
+    },
+    {
+      "id": "vivlio-light-hd",
+      "fullName": "Vivlio Light HD"
+    },
+    {
+      "id": "vivlio-light",
+      "fullName": "Vivlio Light"
+    },
+    {
+      "id": "geniatech-kloudnote-slim",
+      "fullName": "Geniatech KloudNote Slim"
+    },
+    {
+      "id": "geniatech-kloudnote-s",
+      "fullName": "Geniatech KloudNote S"
+    },
+    {
+      "id": "geniatech-kloudnote-mini",
+      "fullName": "Geniatech KloudNote Mini"
+    },
+    {
+      "id": "woxter-scriba-195-s",
+      "fullName": "Woxter Scriba 195 S"
+    },
+    {
+      "id": "bemi-cognita-x",
+      "fullName": "Bemi Cognita X"
+    },
+    {
+      "id": "bemi-cognita-light-2",
+      "fullName": "Bemi Cognita Light 2"
+    },
+    {
+      "id": "veidoo-e5",
+      "fullName": "Veidoo E5"
+    },
+    {
+      "id": "kindle-scribe",
+      "fullName": "Kindle Scribe"
+    },
+    {
+      "id": "kindle-11",
+      "fullName": "Kindle 11"
+    },
+    {
       "id": "kobo-clara-2e",
       "fullName": "Kobo Clara 2E"
+    },
+    {
+      "id": "meebook-p6",
+      "fullName": "Meebook P6"
+    },
+    {
+      "id": "meebook-p78-pro",
+      "fullName": "Meebook P78 Pro"
+    },
+    {
+      "id": "meebook-p10-pro",
+      "fullName": "Meebook P10 Pro"
+    },
+    {
+      "id": "boox-tab-ultra",
+      "fullName": "Boox Tab Ultra"
+    },
+    {
+      "id": "boox-note-air-2-plus",
+      "fullName": "Boox Note Air 2 Plus"
+    },
+    {
+      "id": "boox-nova-air-2",
+      "fullName": "Boox Nova Air 2"
+    },
+    {
+      "id": "boox-leaf-2",
+      "fullName": "Boox Leaf 2"
+    },
+    {
+      "id": "boox-poke-4-lite",
+      "fullName": "Boox Poke 4 Lite"
+    },
+    {
+      "id": "boox-nova-air-c",
+      "fullName": "Boox Nova Air C"
+    },
+    {
+      "id": "nook-glowlight-4e",
+      "fullName": "Nook GlowLight 4e"
+    },
+    {
+      "id": "pocketbook-basic-lux-3",
+      "fullName": "PocketBook Basic Lux 3"
+    },
+    {
+      "id": "pocketbook-era",
+      "fullName": "PocketBook Era"
+    },
+    {
+      "id": "hisense-a9",
+      "fullName": "Hisense A9"
+    },
+    {
+      "id": "moaan-inkpalm-5-mini-gen-2",
+      "fullName": "Moaan InkPalm 5 Mini gen 2"
+    },
+    {
+      "id": "moaan-inkpalm-plus",
+      "fullName": "Moaan InkPalm Plus"
+    },
+    {
+      "id": "tolino-epos-3",
+      "fullName": "Tolino Epos 3"
+    },
+    {
+      "id": "huawei-matepad-paper",
+      "fullName": "Huawei MatePad Paper"
+    },
+    {
+      "id": "inkbook-focus",
+      "fullName": "InkBOOK Focus"
+    },
+    {
+      "id": "woxter-scriba-195-paperlight-tp",
+      "fullName": "Woxter Scriba 195 Paperlight TP"
+    },
+    {
+      "id": "kindle-paperwhite-5-signature-edition",
+      "fullName": "Kindle Paperwhite 5 Signature Edition"
+    },
+    {
+      "id": "kindle-paperwhite-5",
+      "fullName": "Kindle Paperwhite 5"
     },
     {
       "id": "kobo-sage",
@@ -181,12 +801,212 @@
       "fullName": "Kobo Elipsa"
     },
     {
+      "id": "boox-max-lumi-2",
+      "fullName": "Boox Max Lumi 2"
+    },
+    {
+      "id": "boox-leaf",
+      "fullName": "Boox Leaf"
+    },
+    {
+      "id": "boox-note-air-2",
+      "fullName": "Boox Note Air 2"
+    },
+    {
+      "id": "boox-note-5",
+      "fullName": "Boox Note 5"
+    },
+    {
+      "id": "boox-nova-air",
+      "fullName": "Boox Nova Air"
+    },
+    {
+      "id": "boox-nova-3-color",
+      "fullName": "Boox Nova 3 Color"
+    },
+    {
+      "id": "ratta-supernote-a6-x",
+      "fullName": "Ratta Supernote A6 X"
+    },
+    {
+      "id": "nook-glowlight-4",
+      "fullName": "Nook GlowLight 4"
+    },
+    {
+      "id": "reinkstone-r1",
+      "fullName": "Reinkstone R1"
+    },
+    {
+      "id": "reinkstone-r1-reader",
+      "fullName": "Reinkstone R1 Reader"
+    },
+    {
+      "id": "pocketbook-inkpad-lite",
+      "fullName": "PocketBook InkPad Lite"
+    },
+    {
+      "id": "pocketbook-inkpad-color",
+      "fullName": "PocketBook InkPad Color"
+    },
+    {
+      "id": "mobiscribe-the-origin",
+      "fullName": "MobiScribe The Origin"
+    },
+    {
+      "id": "dasung-not-ereader-078",
+      "fullName": "Dasung Not-eReader 078"
+    },
+    {
+      "id": "inkbook-calypso-plus",
+      "fullName": "InkBOOK Calypso Plus"
+    },
+    {
+      "id": "geniatech-kloudnote",
+      "fullName": "Geniatech KloudNote"
+    },
+    {
+      "id": "spc-dickens-light-2",
+      "fullName": "SPC Dickens Light 2"
+    },
+    {
+      "id": "spc-dickens-light-pro",
+      "fullName": "SPC Dickens Light Pro"
+    },
+    {
+      "id": "remarkable-2",
+      "fullName": "reMarkable 2"
+    },
+    {
       "id": "kobo-nia",
       "fullName": "Kobo Nia"
     },
     {
+      "id": "boox-poke-3",
+      "fullName": "Boox Poke 3"
+    },
+    {
+      "id": "boox-nova-3",
+      "fullName": "Boox Nova 3"
+    },
+    {
+      "id": "boox-note-3",
+      "fullName": "Boox Note 3"
+    },
+    {
+      "id": "boox-note-air",
+      "fullName": "Boox Note Air"
+    },
+    {
+      "id": "boox-max-lumi",
+      "fullName": "Boox Max Lumi"
+    },
+    {
+      "id": "boox-poke-2-color",
+      "fullName": "Boox Poke 2 Color"
+    },
+    {
+      "id": "boox-poke-2",
+      "fullName": "Boox Poke 2"
+    },
+    {
+      "id": "boox-nova-2",
+      "fullName": "Boox Nova 2"
+    },
+    {
+      "id": "ratta-supernote-a5-x",
+      "fullName": "Ratta Supernote A5 X"
+    },
+    {
+      "id": "pocketbook-basic-4",
+      "fullName": "PocketBook Basic 4"
+    },
+    {
+      "id": "pocketbook-touch-lux-5",
+      "fullName": "PocketBook Touch Lux 5"
+    },
+    {
+      "id": "pocketbook-color",
+      "fullName": "PocketBook Color"
+    },
+    {
+      "id": "hisense-a5-pro-cc",
+      "fullName": "Hisense A5 Pro CC"
+    },
+    {
+      "id": "hisense-a5-pro",
+      "fullName": "Hisense A5 Pro"
+    },
+    {
+      "id": "hisense-a5c",
+      "fullName": "Hisense A5C"
+    },
+    {
+      "id": "woxter-scriba-195-paperlight",
+      "fullName": "Woxter Scriba 195 Paperlight"
+    },
+    {
+      "id": "kindle-oasis-3",
+      "fullName": "Kindle Oasis 3"
+    },
+    {
+      "id": "kindle-10",
+      "fullName": "Kindle 10"
+    },
+    {
       "id": "kobo-libra-h2o",
       "fullName": "Kobo Libra H2O"
+    },
+    {
+      "id": "boox-max-3",
+      "fullName": "Boox Max 3"
+    },
+    {
+      "id": "boox-note-2",
+      "fullName": "Boox Note 2"
+    },
+    {
+      "id": "boox-nova-pro",
+      "fullName": "Boox Nova Pro"
+    },
+    {
+      "id": "boox-note-pro",
+      "fullName": "Boox Note Pro"
+    },
+    {
+      "id": "ratta-supernote-a6-agile",
+      "fullName": "Ratta Supernote A6 Agile"
+    },
+    {
+      "id": "ratta-supernote-a5-agile",
+      "fullName": "Ratta Supernote A5 Agile"
+    },
+    {
+      "id": "nook-glowlight-plus-78",
+      "fullName": "Nook GlowLight Plus 7.8"
+    },
+    {
+      "id": "pocketbook-inkpad-x",
+      "fullName": "PocketBook InkPad X"
+    },
+    {
+      "id": "pocketbook-touch-hd-3",
+      "fullName": "PocketBook Touch HD 3"
+    },
+    {
+      "id": "pocketbook-inkpad-3-pro",
+      "fullName": "PocketBook InkPad 3 Pro"
+    },
+    {
+      "id": "hisense-a5",
+      "fullName": "Hisense A5"
+    },
+    {
+      "id": "hisense-a6l",
+      "fullName": "Hisense A6L"
+    },
+    {
+      "id": "kindle-paperwhite-4",
+      "fullName": "Kindle Paperwhite 4"
     },
     {
       "id": "kobo-forma",
@@ -197,8 +1017,64 @@
       "fullName": "Kobo Clara HD"
     },
     {
+      "id": "boox-poke-pro",
+      "fullName": "Boox Poke Pro"
+    },
+    {
+      "id": "boox-poke",
+      "fullName": "Boox Poke"
+    },
+    {
+      "id": "boox-nova",
+      "fullName": "Boox Nova"
+    },
+    {
+      "id": "boox-note-s",
+      "fullName": "Boox Note S"
+    },
+    {
+      "id": "boox-note",
+      "fullName": "Boox Note"
+    },
+    {
+      "id": "boox-max-2-pro",
+      "fullName": "Boox Max 2 Pro"
+    },
+    {
+      "id": "pocketbook-touch-lux-4",
+      "fullName": "PocketBook Touch Lux 4"
+    },
+    {
+      "id": "pocketbook-basic-lux-2",
+      "fullName": "PocketBook Basic Lux 2"
+    },
+    {
+      "id": "pocketbook-inkpad-3",
+      "fullName": "PocketBook InkPad 3"
+    },
+    {
+      "id": "pocketbook-touch-hd-2",
+      "fullName": "PocketBook Touch HD 2"
+    },
+    {
+      "id": "kindle-oasis-2",
+      "fullName": "Kindle Oasis 2"
+    },
+    {
       "id": "kobo-aura-h2o-edition-2",
       "fullName": "Kobo Aura H2O Edition 2"
+    },
+    {
+      "id": "nook-glowlight-3",
+      "fullName": "Nook GlowLight 3"
+    },
+    {
+      "id": "kindle-8",
+      "fullName": "Kindle 8"
+    },
+    {
+      "id": "kindle-oasis",
+      "fullName": "Kindle Oasis"
     },
     {
       "id": "kobo-aura-one",
@@ -209,7 +1085,11 @@
       "fullName": "Kobo Aura Edition 2"
     },
     {
-      "id": "kobo-touch-2",
+      "id": "kindle-paperwhite-3",
+      "fullName": "Kindle Paperwhite 3"
+    },
+    {
+      "id": "kobo-touch-20",
       "fullName": "Kobo Touch 2.0"
     },
     {
@@ -217,8 +1097,24 @@
       "fullName": "Kobo Glo HD"
     },
     {
+      "id": "nook-glowlight-plus",
+      "fullName": "Nook GlowLight Plus"
+    },
+    {
+      "id": "kindle-voyage",
+      "fullName": "Kindle Voyage"
+    },
+    {
+      "id": "kindle-7",
+      "fullName": "Kindle 7"
+    },
+    {
       "id": "kobo-aura-h2o",
       "fullName": "Kobo Aura H2O"
+    },
+    {
+      "id": "kindle-paperwhite-2",
+      "fullName": "Kindle Paperwhite 2"
     },
     {
       "id": "kobo-aura",
@@ -229,6 +1125,18 @@
       "fullName": "Kobo Aura HD"
     },
     {
+      "id": "nook-glowlight",
+      "fullName": "Nook GlowLight"
+    },
+    {
+      "id": "kindle-paperwhite",
+      "fullName": "Kindle Paperwhite"
+    },
+    {
+      "id": "kindle-5",
+      "fullName": "Kindle 5"
+    },
+    {
       "id": "kobo-mini",
       "fullName": "Kobo Mini"
     },
@@ -237,8 +1145,28 @@
       "fullName": "Kobo Glo"
     },
     {
+      "id": "nook-simple-touch-glowlight",
+      "fullName": "Nook Simple Touch GlowLight"
+    },
+    {
+      "id": "kindle-touch",
+      "fullName": "Kindle Touch"
+    },
+    {
+      "id": "kindle-4",
+      "fullName": "Kindle 4"
+    },
+    {
       "id": "kobo-touch",
       "fullName": "Kobo Touch"
+    },
+    {
+      "id": "nook-simple-touch",
+      "fullName": "Nook Simple Touch"
+    },
+    {
+      "id": "kindle-keyboard",
+      "fullName": "Kindle Keyboard"
     },
     {
       "id": "kobo-wifi",
@@ -249,6 +1177,30 @@
       "fullName": "Kobo Original"
     },
     {
+      "id": "kindle-dx",
+      "fullName": "Kindle DX"
+    },
+    {
+      "id": "kindle-2",
+      "fullName": "Kindle 2"
+    },
+    {
+      "id": "nook-1st-edition",
+      "fullName": "Nook 1st Edition"
+    },
+    {
+      "id": "kindle-1",
+      "fullName": "Kindle 1"
+    },
+    {
+      "id": "reMarkable",
+      "fullName": "reMarkable",
+      "specialType": "link",
+      "link": "/brands/reMarkable",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
       "id": "Amazon",
       "fullName": "Amazon",
       "specialType": "link",
@@ -257,10 +1209,34 @@
       "icon": "fa-building"
     },
     {
-      "id": "Kobo",
-      "fullName": "Kobo",
+      "id": "Boox",
+      "fullName": "Boox",
       "specialType": "link",
-      "link": "/brands/Kobo",
+      "link": "/brands/Boox",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "PocketBook",
+      "fullName": "PocketBook",
+      "specialType": "link",
+      "link": "/brands/PocketBook",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "Bigme",
+      "fullName": "Bigme",
+      "specialType": "link",
+      "link": "/brands/Bigme",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "Musnap",
+      "fullName": "Musnap",
+      "specialType": "link",
+      "link": "/brands/Musnap",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -273,10 +1249,282 @@
       "icon": "fa-building"
     },
     {
-      "id": "reMarkable",
-      "fullName": "reMarkable",
+      "id": "DuRoBo",
+      "fullName": "DuRoBo",
       "specialType": "link",
-      "link": "/brands/reMarkable",
+      "link": "/brands/DuRoBo",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "Bemi",
+      "fullName": "Bemi",
+      "specialType": "link",
+      "link": "/brands/Bemi",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "Harborinno",
+      "fullName": "Harborinno",
+      "specialType": "link",
+      "link": "/brands/Harborinno",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "Viwoods",
+      "fullName": "Viwoods",
+      "specialType": "link",
+      "link": "/brands/Viwoods",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "InkBOOK",
+      "fullName": "InkBOOK",
+      "specialType": "link",
+      "link": "/brands/InkBOOK",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "Vivlio",
+      "fullName": "Vivlio",
+      "specialType": "link",
+      "link": "/brands/Vivlio",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "Penstar",
+      "fullName": "Penstar",
+      "specialType": "link",
+      "link": "/brands/Penstar",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "iFlytek",
+      "fullName": "iFlytek",
+      "specialType": "link",
+      "link": "/brands/iFlytek",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "SPC",
+      "fullName": "SPC",
+      "specialType": "link",
+      "link": "/brands/SPC",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "Montblanc",
+      "fullName": "Montblanc",
+      "specialType": "link",
+      "link": "/brands/Montblanc",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "Obook",
+      "fullName": "Obook",
+      "specialType": "link",
+      "link": "/brands/Obook",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "Veidoo",
+      "fullName": "Veidoo",
+      "specialType": "link",
+      "link": "/brands/Veidoo",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "Famue",
+      "fullName": "Famue",
+      "specialType": "link",
+      "link": "/brands/Famue",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "Huion",
+      "fullName": "Huion",
+      "specialType": "link",
+      "link": "/brands/Huion",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "M5Stack",
+      "fullName": "M5Stack",
+      "specialType": "link",
+      "link": "/brands/M5Stack",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "Kobo",
+      "fullName": "Kobo",
+      "specialType": "link",
+      "link": "/brands/Kobo",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "Meebook",
+      "fullName": "Meebook",
+      "specialType": "link",
+      "link": "/brands/Meebook",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "Supernote",
+      "fullName": "Supernote",
+      "specialType": "link",
+      "link": "/brands/Supernote",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "MobiScribe",
+      "fullName": "MobiScribe",
+      "specialType": "link",
+      "link": "/brands/MobiScribe",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "Daylight",
+      "fullName": "Daylight",
+      "specialType": "link",
+      "link": "/brands/Daylight",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "Hannspree",
+      "fullName": "Hannspree",
+      "specialType": "link",
+      "link": "/brands/Hannspree",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "Tolino",
+      "fullName": "Tolino",
+      "specialType": "link",
+      "link": "/brands/Tolino",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "Paperslate",
+      "fullName": "Paperslate",
+      "specialType": "link",
+      "link": "/brands/Paperslate",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "Silvergear",
+      "fullName": "Silvergear",
+      "specialType": "link",
+      "link": "/brands/Silvergear",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "Lenovo",
+      "fullName": "Lenovo",
+      "specialType": "link",
+      "link": "/brands/Lenovo",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "Barnes & Noble",
+      "fullName": "Barnes & Noble",
+      "specialType": "link",
+      "link": "/brands/Barnes & Noble",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "Dasung",
+      "fullName": "Dasung",
+      "specialType": "link",
+      "link": "/brands/Dasung",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "Hisense",
+      "fullName": "Hisense",
+      "specialType": "link",
+      "link": "/brands/Hisense",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "Moaan",
+      "fullName": "Moaan",
+      "specialType": "link",
+      "link": "/brands/Moaan",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "Eyemoo",
+      "fullName": "Eyemoo",
+      "specialType": "link",
+      "link": "/brands/Eyemoo",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "Bookeen",
+      "fullName": "Bookeen",
+      "specialType": "link",
+      "link": "/brands/Bookeen",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "Geniatech",
+      "fullName": "Geniatech",
+      "specialType": "link",
+      "link": "/brands/Geniatech",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "Woxter",
+      "fullName": "Woxter",
+      "specialType": "link",
+      "link": "/brands/Woxter",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "Huawei",
+      "fullName": "Huawei",
+      "specialType": "link",
+      "link": "/brands/Huawei",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "Reinkstone",
+      "fullName": "Reinkstone",
+      "specialType": "link",
+      "link": "/brands/Reinkstone",
       "prefix": "Brand",
       "icon": "fa-building"
     }
@@ -291,128 +1539,804 @@
       "icon": "fa-building"
     },
     {
+      "id": "Barnes & Noble",
+      "fullName": "Barnes & Noble",
+      "specialType": "link",
+      "link": "/brands/Barnes & Noble",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "Bemi",
+      "fullName": "Bemi",
+      "specialType": "link",
+      "link": "/brands/Bemi",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "bemi-cognita-light-2",
+      "fullName": "Bemi Cognita Light 2"
+    },
+    {
+      "id": "bemi-cognita-tab-5",
+      "fullName": "Bemi Cognita Tab 5"
+    },
+    {
+      "id": "bemi-cognita-tab-6",
+      "fullName": "Bemi Cognita Tab 6"
+    },
+    {
+      "id": "bemi-cognita-tab-6-plus",
+      "fullName": "Bemi Cognita Tab 6 Plus"
+    },
+    {
+      "id": "bemi-cognita-tab-6-proc",
+      "fullName": "Bemi Cognita Tab 6 ProC"
+    },
+    {
+      "id": "bemi-cognita-tab-6e",
+      "fullName": "Bemi Cognita Tab 6e"
+    },
+    {
+      "id": "bemi-cognita-tab-7-pro",
+      "fullName": "Bemi Cognita Tab 7 Pro"
+    },
+    {
+      "id": "bemi-cognita-tab-8",
+      "fullName": "Bemi Cognita Tab 8"
+    },
+    {
+      "id": "bemi-cognita-tab-8-pro",
+      "fullName": "Bemi Cognita Tab 8 Pro"
+    },
+    {
+      "id": "bemi-cognita-x",
+      "fullName": "Bemi Cognita X"
+    },
+    {
+      "id": "Bigme",
+      "fullName": "Bigme",
+      "specialType": "link",
+      "link": "/brands/Bigme",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "bigme-b10",
+      "fullName": "Bigme B10"
+    },
+    {
+      "id": "bigme-b1051",
+      "fullName": "Bigme B1051"
+    },
+    {
+      "id": "bigme-b1051-lite",
+      "fullName": "Bigme B1051 Lite"
+    },
+    {
+      "id": "bigme-b1051c",
+      "fullName": "Bigme B1051C"
+    },
+    {
+      "id": "bigme-b1051c-lite",
+      "fullName": "Bigme B1051C Lite"
+    },
+    {
+      "id": "bigme-b1051c-pro",
+      "fullName": "Bigme B1051C Pro"
+    },
+    {
+      "id": "bigme-b6",
+      "fullName": "Bigme B6"
+    },
+    {
+      "id": "bigme-b6-bw",
+      "fullName": "Bigme B6 BW"
+    },
+    {
+      "id": "bigme-b7",
+      "fullName": "Bigme B7"
+    },
+    {
+      "id": "bigme-b7-pro",
+      "fullName": "Bigme B7 Pro"
+    },
+    {
+      "id": "bigme-b7-pro-bw",
+      "fullName": "Bigme B7 Pro BW"
+    },
+    {
+      "id": "bigme-b751",
+      "fullName": "Bigme B751"
+    },
+    {
+      "id": "bigme-b751c",
+      "fullName": "Bigme B751C"
+    },
+    {
+      "id": "bigme-b751c-s",
+      "fullName": "Bigme B751C S"
+    },
+    {
+      "id": "bigme-guoyue-k3-color",
+      "fullName": "Bigme Guoyue K3 Color"
+    },
+    {
+      "id": "bigme-guoyue-v6-color",
+      "fullName": "Bigme Guoyue V6 Color"
+    },
+    {
+      "id": "bigme-hibreak-bw",
+      "fullName": "Bigme Hibreak B&W"
+    },
+    {
+      "id": "bigme-hibreak-color",
+      "fullName": "Bigme Hibreak Color"
+    },
+    {
+      "id": "bigme-hibreak-dual-bw",
+      "fullName": "Bigme Hibreak Dual BW"
+    },
+    {
+      "id": "bigme-hibreak-dual-color",
+      "fullName": "Bigme Hibreak Dual Color"
+    },
+    {
+      "id": "bigme-hibreak-plus",
+      "fullName": "Bigme Hibreak Plus"
+    },
+    {
+      "id": "bigme-hibreak-pro",
+      "fullName": "Bigme Hibreak Pro"
+    },
+    {
+      "id": "bigme-hibreak-pro-color",
+      "fullName": "Bigme Hibreak Pro Color"
+    },
+    {
+      "id": "bigme-hibreak-s-bw",
+      "fullName": "Bigme Hibreak S BW"
+    },
+    {
+      "id": "bigme-hibreak-s-color",
+      "fullName": "Bigme Hibreak S Color"
+    },
+    {
+      "id": "bigme-inknote",
+      "fullName": "Bigme InkNote"
+    },
+    {
+      "id": "bigme-inknote-color",
+      "fullName": "Bigme InkNote Color+"
+    },
+    {
+      "id": "bigme-inknote-color-lite",
+      "fullName": "Bigme InkNote Color+ Lite"
+    },
+    {
+      "id": "bigme-inknote-s",
+      "fullName": "Bigme InkNote S"
+    },
+    {
+      "id": "bigme-inknote-x",
+      "fullName": "Bigme InkNote X"
+    },
+    {
+      "id": "bigme-read",
+      "fullName": "Bigme Read"
+    },
+    {
+      "id": "bigme-s6",
+      "fullName": "Bigme S6"
+    },
+    {
+      "id": "bigme-s6-color",
+      "fullName": "Bigme S6 Color+"
+    },
+    {
+      "id": "bigme-s6-color-lite",
+      "fullName": "Bigme S6 Color+ Lite"
+    },
+    {
+      "id": "Bookeen",
+      "fullName": "Bookeen",
+      "specialType": "link",
+      "link": "/brands/Bookeen",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "bookeen-nota",
+      "fullName": "Bookeen Notéa"
+    },
+    {
+      "id": "Boox",
+      "fullName": "Boox",
+      "specialType": "link",
+      "link": "/brands/Boox",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "boox-go-103",
+      "fullName": "Boox Go 10.3"
+    },
+    {
+      "id": "boox-go-103-gen-ii",
+      "fullName": "Boox Go 10.3 (Gen II)"
+    },
+    {
+      "id": "boox-go-103-gen-ii-lumi",
+      "fullName": "Boox Go 10.3 (Gen II) Lumi"
+    },
+    {
+      "id": "boox-go-6",
+      "fullName": "Boox Go 6"
+    },
+    {
+      "id": "boox-go-6-gen-ii",
+      "fullName": "Boox Go 6 (Gen II)"
+    },
+    {
+      "id": "boox-go-7",
+      "fullName": "Boox Go 7"
+    },
+    {
+      "id": "boox-go-color-7",
+      "fullName": "Boox Go Color 7"
+    },
+    {
+      "id": "boox-go-color-7-gen-ii",
+      "fullName": "Boox Go Color 7 Gen II"
+    },
+    {
+      "id": "boox-leaf",
+      "fullName": "Boox Leaf"
+    },
+    {
+      "id": "boox-leaf-2",
+      "fullName": "Boox Leaf 2"
+    },
+    {
+      "id": "boox-max-2-pro",
+      "fullName": "Boox Max 2 Pro"
+    },
+    {
+      "id": "boox-max-3",
+      "fullName": "Boox Max 3"
+    },
+    {
+      "id": "boox-max-lumi",
+      "fullName": "Boox Max Lumi"
+    },
+    {
+      "id": "boox-max-lumi-2",
+      "fullName": "Boox Max Lumi 2"
+    },
+    {
+      "id": "boox-note",
+      "fullName": "Boox Note"
+    },
+    {
+      "id": "boox-note-2",
+      "fullName": "Boox Note 2"
+    },
+    {
+      "id": "boox-note-3",
+      "fullName": "Boox Note 3"
+    },
+    {
+      "id": "boox-note-5",
+      "fullName": "Boox Note 5"
+    },
+    {
+      "id": "boox-note-air",
+      "fullName": "Boox Note Air"
+    },
+    {
+      "id": "boox-note-air-2",
+      "fullName": "Boox Note Air 2"
+    },
+    {
+      "id": "boox-note-air-2-plus",
+      "fullName": "Boox Note Air 2 Plus"
+    },
+    {
+      "id": "boox-note-air-3",
+      "fullName": "Boox Note Air 3"
+    },
+    {
+      "id": "boox-note-air-3-c",
+      "fullName": "Boox Note Air 3 C"
+    },
+    {
+      "id": "boox-note-air-4-c",
+      "fullName": "Boox Note Air 4 C"
+    },
+    {
+      "id": "boox-note-air-5-c",
+      "fullName": "Boox Note Air 5 C"
+    },
+    {
+      "id": "boox-note-max",
+      "fullName": "Boox Note Max"
+    },
+    {
+      "id": "boox-note-pro",
+      "fullName": "Boox Note Pro"
+    },
+    {
+      "id": "boox-note-s",
+      "fullName": "Boox Note S"
+    },
+    {
+      "id": "boox-nova",
+      "fullName": "Boox Nova"
+    },
+    {
+      "id": "boox-nova-2",
+      "fullName": "Boox Nova 2"
+    },
+    {
+      "id": "boox-nova-3",
+      "fullName": "Boox Nova 3"
+    },
+    {
+      "id": "boox-nova-3-color",
+      "fullName": "Boox Nova 3 Color"
+    },
+    {
+      "id": "boox-nova-air",
+      "fullName": "Boox Nova Air"
+    },
+    {
+      "id": "boox-nova-air-2",
+      "fullName": "Boox Nova Air 2"
+    },
+    {
+      "id": "boox-nova-air-c",
+      "fullName": "Boox Nova Air C"
+    },
+    {
+      "id": "boox-nova-pro",
+      "fullName": "Boox Nova Pro"
+    },
+    {
+      "id": "boox-page",
+      "fullName": "Boox Page"
+    },
+    {
+      "id": "boox-palma",
+      "fullName": "Boox Palma"
+    },
+    {
+      "id": "boox-palma-2",
+      "fullName": "Boox Palma 2"
+    },
+    {
+      "id": "boox-palma-2-pro",
+      "fullName": "Boox Palma 2 Pro"
+    },
+    {
+      "id": "boox-poke",
+      "fullName": "Boox Poke"
+    },
+    {
+      "id": "boox-poke-2",
+      "fullName": "Boox Poke 2"
+    },
+    {
+      "id": "boox-poke-2-color",
+      "fullName": "Boox Poke 2 Color"
+    },
+    {
+      "id": "boox-poke-3",
+      "fullName": "Boox Poke 3"
+    },
+    {
+      "id": "boox-poke-4-lite",
+      "fullName": "Boox Poke 4 Lite"
+    },
+    {
+      "id": "boox-poke-5",
+      "fullName": "Boox Poke 5"
+    },
+    {
+      "id": "boox-poke-pro",
+      "fullName": "Boox Poke Pro"
+    },
+    {
+      "id": "boox-tab-mini-c",
+      "fullName": "Boox Tab Mini C"
+    },
+    {
+      "id": "boox-tab-ultra",
+      "fullName": "Boox Tab Ultra"
+    },
+    {
+      "id": "boox-tab-ultra-c",
+      "fullName": "Boox Tab Ultra C"
+    },
+    {
+      "id": "boox-tab-ultra-c-pro",
+      "fullName": "Boox Tab Ultra C Pro"
+    },
+    {
+      "id": "boox-tab-x",
+      "fullName": "Boox Tab X"
+    },
+    {
+      "id": "boox-tab-x-c",
+      "fullName": "Boox Tab X C"
+    },
+    {
+      "id": "Dasung",
+      "fullName": "Dasung",
+      "specialType": "link",
+      "link": "/brands/Dasung",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "dasung-not-ereader-078",
+      "fullName": "Dasung Not-eReader 078"
+    },
+    {
+      "id": "dasung-not-ereader-133",
+      "fullName": "Dasung Not-eReader 133"
+    },
+    {
+      "id": "Daylight",
+      "fullName": "Daylight",
+      "specialType": "link",
+      "link": "/brands/Daylight",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "daylight-computer-dc-1",
+      "fullName": "Daylight Computer DC-1"
+    },
+    {
+      "id": "DuRoBo",
+      "fullName": "DuRoBo",
+      "specialType": "link",
+      "link": "/brands/DuRoBo",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "durobo-krono",
+      "fullName": "DuRoBo Krono"
+    },
+    {
+      "id": "Eyemoo",
+      "fullName": "Eyemoo",
+      "specialType": "link",
+      "link": "/brands/Eyemoo",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "eyemoo-epaper-s1",
+      "fullName": "Eyemoo Epaper S1"
+    },
+    {
+      "id": "Famue",
+      "fullName": "Famue",
+      "specialType": "link",
+      "link": "/brands/Famue",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "famue-bf01",
+      "fullName": "Famue BF01"
+    },
+    {
+      "id": "famue-bf07",
+      "fullName": "Famue BF07"
+    },
+    {
+      "id": "Geniatech",
+      "fullName": "Geniatech",
+      "specialType": "link",
+      "link": "/brands/Geniatech",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "geniatech-kloudnote",
+      "fullName": "Geniatech KloudNote"
+    },
+    {
+      "id": "geniatech-kloudnote-mini",
+      "fullName": "Geniatech KloudNote Mini"
+    },
+    {
+      "id": "geniatech-kloudnote-s",
+      "fullName": "Geniatech KloudNote S"
+    },
+    {
+      "id": "geniatech-kloudnote-slim",
+      "fullName": "Geniatech KloudNote Slim"
+    },
+    {
+      "id": "Hannspree",
+      "fullName": "Hannspree",
+      "specialType": "link",
+      "link": "/brands/Hannspree",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "hannspree-hannsnote2",
+      "fullName": "Hannspree HannsNote2"
+    },
+    {
+      "id": "Harborinno",
+      "fullName": "Harborinno",
+      "specialType": "link",
+      "link": "/brands/Harborinno",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "harborinno-paper-7",
+      "fullName": "Harborinno Paper 7"
+    },
+    {
+      "id": "harborinno-paper-7-lite",
+      "fullName": "Harborinno Paper 7 Lite"
+    },
+    {
+      "id": "Hisense",
+      "fullName": "Hisense",
+      "specialType": "link",
+      "link": "/brands/Hisense",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "hisense-a5",
+      "fullName": "Hisense A5"
+    },
+    {
+      "id": "hisense-a5-pro",
+      "fullName": "Hisense A5 Pro"
+    },
+    {
+      "id": "hisense-a5-pro-cc",
+      "fullName": "Hisense A5 Pro CC"
+    },
+    {
+      "id": "hisense-a5c",
+      "fullName": "Hisense A5C"
+    },
+    {
+      "id": "hisense-a6l",
+      "fullName": "Hisense A6L"
+    },
+    {
+      "id": "hisense-a7",
+      "fullName": "Hisense A7"
+    },
+    {
+      "id": "hisense-a7-cc",
+      "fullName": "Hisense A7 CC"
+    },
+    {
+      "id": "hisense-a9",
+      "fullName": "Hisense A9"
+    },
+    {
+      "id": "hisense-hi-reader",
+      "fullName": "Hisense Hi Reader"
+    },
+    {
+      "id": "hisense-hi-reader-pro",
+      "fullName": "Hisense Hi Reader Pro"
+    },
+    {
+      "id": "Huawei",
+      "fullName": "Huawei",
+      "specialType": "link",
+      "link": "/brands/Huawei",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "huawei-matepad-paper",
+      "fullName": "Huawei MatePad Paper"
+    },
+    {
+      "id": "Huion",
+      "fullName": "Huion",
+      "specialType": "link",
+      "link": "/brands/Huion",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "huion-ink-eb1010",
+      "fullName": "Huion Ink EB1010"
+    },
+    {
+      "id": "huion-ink-eb1011",
+      "fullName": "Huion Ink EB1011"
+    },
+    {
+      "id": "iFlytek",
+      "fullName": "iFlytek",
+      "specialType": "link",
+      "link": "/brands/iFlytek",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "iflytek-ainote-2",
+      "fullName": "iFlytek AINOTE 2"
+    },
+    {
+      "id": "iflytek-ainote-air-2",
+      "fullName": "iFlytek AINOTE Air 2"
+    },
+    {
+      "id": "InkBOOK",
+      "fullName": "InkBOOK",
+      "specialType": "link",
+      "link": "/brands/InkBOOK",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "inkbook-calypso-plus",
+      "fullName": "InkBOOK Calypso Plus"
+    },
+    {
+      "id": "inkbook-focus",
+      "fullName": "InkBOOK Focus"
+    },
+    {
+      "id": "inkbook-focus-color",
+      "fullName": "InkBOOK Focus Color"
+    },
+    {
+      "id": "inkbook-focus-plus",
+      "fullName": "InkBOOK Focus Plus"
+    },
+    {
+      "id": "inkbook-solaris",
+      "fullName": "InkBOOK Solaris"
+    },
+    {
+      "id": "inkbook-solaris-color",
+      "fullName": "InkBOOK Solaris Color"
+    },
+    {
       "id": "kindle-1",
-      "fullName": "Amazon Kindle 1"
+      "fullName": "Kindle 1"
     },
     {
       "id": "kindle-10",
-      "fullName": "Amazon Kindle 10"
+      "fullName": "Kindle 10"
     },
     {
       "id": "kindle-11",
-      "fullName": "Amazon Kindle 11"
+      "fullName": "Kindle 11"
     },
     {
       "id": "kindle-2",
-      "fullName": "Amazon Kindle 2"
+      "fullName": "Kindle 2"
     },
     {
       "id": "kindle-2024",
-      "fullName": "Amazon Kindle 2024"
+      "fullName": "Kindle 2024"
     },
     {
       "id": "kindle-4",
-      "fullName": "Amazon Kindle 4"
+      "fullName": "Kindle 4"
     },
     {
       "id": "kindle-5",
-      "fullName": "Amazon Kindle 5"
+      "fullName": "Kindle 5"
     },
     {
       "id": "kindle-7",
-      "fullName": "Amazon Kindle 7"
+      "fullName": "Kindle 7"
     },
     {
       "id": "kindle-8",
-      "fullName": "Amazon Kindle 8"
+      "fullName": "Kindle 8"
     },
     {
       "id": "kindle-colorsoft",
-      "fullName": "Amazon Kindle Colorsoft"
+      "fullName": "Kindle Colorsoft"
     },
     {
       "id": "kindle-colorsoft-signature-edition",
-      "fullName": "Amazon Kindle Colorsoft Signature Edition"
+      "fullName": "Kindle Colorsoft Signature Edition"
     },
     {
       "id": "kindle-dx",
-      "fullName": "Amazon Kindle DX"
+      "fullName": "Kindle DX"
     },
     {
       "id": "kindle-keyboard",
-      "fullName": "Amazon Kindle Keyboard"
+      "fullName": "Kindle Keyboard"
     },
     {
       "id": "kindle-oasis",
-      "fullName": "Amazon Kindle Oasis"
+      "fullName": "Kindle Oasis"
     },
     {
       "id": "kindle-oasis-2",
-      "fullName": "Amazon Kindle Oasis 2"
+      "fullName": "Kindle Oasis 2"
     },
     {
       "id": "kindle-oasis-3",
-      "fullName": "Amazon Kindle Oasis 3"
+      "fullName": "Kindle Oasis 3"
     },
     {
       "id": "kindle-paperwhite",
-      "fullName": "Amazon Kindle Paperwhite"
+      "fullName": "Kindle Paperwhite"
     },
     {
       "id": "kindle-paperwhite-2",
-      "fullName": "Amazon Kindle Paperwhite 2"
+      "fullName": "Kindle Paperwhite 2"
     },
     {
       "id": "kindle-paperwhite-3",
-      "fullName": "Amazon Kindle Paperwhite 3"
+      "fullName": "Kindle Paperwhite 3"
     },
     {
       "id": "kindle-paperwhite-4",
-      "fullName": "Amazon Kindle Paperwhite 4"
+      "fullName": "Kindle Paperwhite 4"
     },
     {
       "id": "kindle-paperwhite-5",
-      "fullName": "Amazon Kindle Paperwhite 5"
+      "fullName": "Kindle Paperwhite 5"
     },
     {
       "id": "kindle-paperwhite-5-signature-edition",
-      "fullName": "Amazon Kindle Paperwhite 5 Signature Edition"
+      "fullName": "Kindle Paperwhite 5 Signature Edition"
     },
     {
       "id": "kindle-paperwhite-6",
-      "fullName": "Amazon Kindle Paperwhite 6"
+      "fullName": "Kindle Paperwhite 6"
     },
     {
       "id": "kindle-paperwhite-6-signature-edition",
-      "fullName": "Amazon Kindle Paperwhite 6 Signature Edition"
+      "fullName": "Kindle Paperwhite 6 Signature Edition"
     },
     {
       "id": "kindle-scribe",
-      "fullName": "Amazon Kindle Scribe"
+      "fullName": "Kindle Scribe"
     },
     {
       "id": "kindle-scribe-2024",
-      "fullName": "Amazon Kindle Scribe 2024"
+      "fullName": "Kindle Scribe 2024"
     },
     {
       "id": "kindle-scribe-3",
-      "fullName": "Amazon Kindle Scribe 3"
+      "fullName": "Kindle Scribe 3"
     },
     {
-      "id": "kindle-scribe-3-no-front-light",
-      "fullName": "Amazon Kindle Scribe 3 without Front Light"
+      "id": "kindle-scribe-3-without-front-light",
+      "fullName": "Kindle Scribe 3 without Front Light"
     },
     {
       "id": "kindle-scribe-colorsoft",
-      "fullName": "Amazon Kindle Scribe Colorsoft"
+      "fullName": "Kindle Scribe Colorsoft"
     },
     {
       "id": "kindle-touch",
-      "fullName": "Amazon Kindle Touch"
+      "fullName": "Kindle Touch"
     },
     {
       "id": "kindle-voyage",
-      "fullName": "Amazon Kindle Voyage"
+      "fullName": "Kindle Voyage"
     },
     {
       "id": "Kobo",
@@ -487,8 +2411,8 @@
       "fullName": "Kobo Libra 2"
     },
     {
-      "id": "kobo-libra-color",
-      "fullName": "Kobo Libra Color"
+      "id": "kobo-libra-colour",
+      "fullName": "Kobo Libra Colour"
     },
     {
       "id": "kobo-libra-h2o",
@@ -515,12 +2439,428 @@
       "fullName": "Kobo Touch"
     },
     {
-      "id": "kobo-touch-2",
+      "id": "kobo-touch-20",
       "fullName": "Kobo Touch 2.0"
     },
     {
       "id": "kobo-wifi",
       "fullName": "Kobo WiFi"
+    },
+    {
+      "id": "Lenovo",
+      "fullName": "Lenovo",
+      "specialType": "link",
+      "link": "/brands/Lenovo",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "lenovo-smart-paper",
+      "fullName": "Lenovo Smart Paper"
+    },
+    {
+      "id": "M5Stack",
+      "fullName": "M5Stack",
+      "specialType": "link",
+      "link": "/brands/M5Stack",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "m5stack-papers3",
+      "fullName": "M5Stack PaperS3"
+    },
+    {
+      "id": "Meebook",
+      "fullName": "Meebook",
+      "specialType": "link",
+      "link": "/brands/Meebook",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "meebook-m103",
+      "fullName": "Meebook M103"
+    },
+    {
+      "id": "meebook-m6",
+      "fullName": "Meebook M6"
+    },
+    {
+      "id": "meebook-m6c",
+      "fullName": "Meebook M6C"
+    },
+    {
+      "id": "meebook-m7",
+      "fullName": "Meebook M7"
+    },
+    {
+      "id": "meebook-m8",
+      "fullName": "Meebook M8"
+    },
+    {
+      "id": "meebook-m8c",
+      "fullName": "Meebook M8C"
+    },
+    {
+      "id": "meebook-p10-pro",
+      "fullName": "Meebook P10 Pro"
+    },
+    {
+      "id": "meebook-p6",
+      "fullName": "Meebook P6"
+    },
+    {
+      "id": "meebook-p78-pro",
+      "fullName": "Meebook P78 Pro"
+    },
+    {
+      "id": "Moaan",
+      "fullName": "Moaan",
+      "specialType": "link",
+      "link": "/brands/Moaan",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "moaan-inkpalm-5-mini-gen-2",
+      "fullName": "Moaan InkPalm 5 Mini gen 2"
+    },
+    {
+      "id": "moaan-inkpalm-5-mini-pro",
+      "fullName": "Moaan InkPalm 5 Mini Pro"
+    },
+    {
+      "id": "moaan-inkpalm-plus",
+      "fullName": "Moaan InkPalm Plus"
+    },
+    {
+      "id": "MobiScribe",
+      "fullName": "MobiScribe",
+      "specialType": "link",
+      "link": "/brands/MobiScribe",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "mobiscribe-the-origin",
+      "fullName": "MobiScribe The Origin"
+    },
+    {
+      "id": "mobiscribe-wave-bw",
+      "fullName": "MobiScribe Wave B&W"
+    },
+    {
+      "id": "mobiscribe-wave-color",
+      "fullName": "MobiScribe Wave Color"
+    },
+    {
+      "id": "mobiscribe-wave-color-3",
+      "fullName": "MobiScribe Wave Color 3"
+    },
+    {
+      "id": "Montblanc",
+      "fullName": "Montblanc",
+      "specialType": "link",
+      "link": "/brands/Montblanc",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "montblanc-digital-paper",
+      "fullName": "Montblanc Digital Paper"
+    },
+    {
+      "id": "Musnap",
+      "fullName": "Musnap",
+      "specialType": "link",
+      "link": "/brands/Musnap",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "musnap-aura-c",
+      "fullName": "Musnap Aura C"
+    },
+    {
+      "id": "musnap-neo",
+      "fullName": "Musnap Neo"
+    },
+    {
+      "id": "musnap-neo-2",
+      "fullName": "Musnap Neo 2"
+    },
+    {
+      "id": "musnap-neo-2c",
+      "fullName": "Musnap Neo 2C"
+    },
+    {
+      "id": "musnap-neo-c",
+      "fullName": "Musnap Neo C"
+    },
+    {
+      "id": "musnap-ocean",
+      "fullName": "Musnap Ocean"
+    },
+    {
+      "id": "musnap-ocean-c",
+      "fullName": "Musnap Ocean C"
+    },
+    {
+      "id": "musnap-x",
+      "fullName": "Musnap X"
+    },
+    {
+      "id": "nook-1st-edition",
+      "fullName": "Nook 1st Edition"
+    },
+    {
+      "id": "nook-glowlight",
+      "fullName": "Nook GlowLight"
+    },
+    {
+      "id": "nook-glowlight-3",
+      "fullName": "Nook GlowLight 3"
+    },
+    {
+      "id": "nook-glowlight-4",
+      "fullName": "Nook GlowLight 4"
+    },
+    {
+      "id": "nook-glowlight-4-plus",
+      "fullName": "Nook GlowLight 4 Plus"
+    },
+    {
+      "id": "nook-glowlight-4e",
+      "fullName": "Nook GlowLight 4e"
+    },
+    {
+      "id": "nook-glowlight-plus",
+      "fullName": "Nook GlowLight Plus"
+    },
+    {
+      "id": "nook-glowlight-plus-78",
+      "fullName": "Nook GlowLight Plus 7.8"
+    },
+    {
+      "id": "nook-simple-touch",
+      "fullName": "Nook Simple Touch"
+    },
+    {
+      "id": "nook-simple-touch-glowlight",
+      "fullName": "Nook Simple Touch GlowLight"
+    },
+    {
+      "id": "Obook",
+      "fullName": "Obook",
+      "specialType": "link",
+      "link": "/brands/Obook",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "obook-5",
+      "fullName": "Obook 5"
+    },
+    {
+      "id": "obook-6",
+      "fullName": "Obook 6"
+    },
+    {
+      "id": "paperslate",
+      "fullName": "Paperslate"
+    },
+    {
+      "id": "Paperslate",
+      "fullName": "Paperslate",
+      "specialType": "link",
+      "link": "/brands/Paperslate",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "paperslate-pro",
+      "fullName": "Paperslate Pro"
+    },
+    {
+      "id": "Penstar",
+      "fullName": "Penstar",
+      "specialType": "link",
+      "link": "/brands/Penstar",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "penstar-enote",
+      "fullName": "Penstar eNote"
+    },
+    {
+      "id": "penstar-enote-2",
+      "fullName": "Penstar eNote 2"
+    },
+    {
+      "id": "penstar-enote-pro",
+      "fullName": "Penstar eNote Pro"
+    },
+    {
+      "id": "PocketBook",
+      "fullName": "PocketBook",
+      "specialType": "link",
+      "link": "/brands/PocketBook",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "pocketbook-basic-4",
+      "fullName": "PocketBook Basic 4"
+    },
+    {
+      "id": "pocketbook-basic-lux-2",
+      "fullName": "PocketBook Basic Lux 2"
+    },
+    {
+      "id": "pocketbook-basic-lux-3",
+      "fullName": "PocketBook Basic Lux 3"
+    },
+    {
+      "id": "pocketbook-basic-lux-4",
+      "fullName": "PocketBook Basic Lux 4"
+    },
+    {
+      "id": "pocketbook-color",
+      "fullName": "PocketBook Color"
+    },
+    {
+      "id": "pocketbook-color-note",
+      "fullName": "PocketBook Color Note"
+    },
+    {
+      "id": "pocketbook-era",
+      "fullName": "PocketBook Era"
+    },
+    {
+      "id": "pocketbook-era-color",
+      "fullName": "PocketBook Era Color"
+    },
+    {
+      "id": "pocketbook-era-lite",
+      "fullName": "PocketBook Era Lite"
+    },
+    {
+      "id": "pocketbook-inkpad-3",
+      "fullName": "PocketBook InkPad 3"
+    },
+    {
+      "id": "pocketbook-inkpad-3-pro",
+      "fullName": "PocketBook InkPad 3 Pro"
+    },
+    {
+      "id": "pocketbook-inkpad-4",
+      "fullName": "PocketBook InkPad 4"
+    },
+    {
+      "id": "pocketbook-inkpad-color",
+      "fullName": "PocketBook InkPad Color"
+    },
+    {
+      "id": "pocketbook-inkpad-color-2",
+      "fullName": "PocketBook InkPad Color 2"
+    },
+    {
+      "id": "pocketbook-inkpad-color-3",
+      "fullName": "PocketBook InkPad Color 3"
+    },
+    {
+      "id": "pocketbook-inkpad-eo",
+      "fullName": "PocketBook InkPad Eo"
+    },
+    {
+      "id": "pocketbook-inkpad-lite",
+      "fullName": "PocketBook InkPad Lite"
+    },
+    {
+      "id": "pocketbook-inkpad-one",
+      "fullName": "PocketBook Inkpad One"
+    },
+    {
+      "id": "pocketbook-inkpad-x",
+      "fullName": "PocketBook InkPad X"
+    },
+    {
+      "id": "pocketbook-inkpad-x-pro",
+      "fullName": "PocketBook InkPad X Pro"
+    },
+    {
+      "id": "pocketbook-touch-hd-2",
+      "fullName": "PocketBook Touch HD 2"
+    },
+    {
+      "id": "pocketbook-touch-hd-3",
+      "fullName": "PocketBook Touch HD 3"
+    },
+    {
+      "id": "pocketbook-touch-lux-4",
+      "fullName": "PocketBook Touch Lux 4"
+    },
+    {
+      "id": "pocketbook-touch-lux-5",
+      "fullName": "PocketBook Touch Lux 5"
+    },
+    {
+      "id": "pocketbook-verse",
+      "fullName": "PocketBook Verse"
+    },
+    {
+      "id": "pocketbook-verse-lite",
+      "fullName": "PocketBook Verse Lite"
+    },
+    {
+      "id": "pocketbook-verse-pro",
+      "fullName": "PocketBook Verse Pro"
+    },
+    {
+      "id": "pocketbook-verse-pro-color",
+      "fullName": "PocketBook Verse Pro Color"
+    },
+    {
+      "id": "ratta-supernote-a5-agile",
+      "fullName": "Ratta Supernote A5 Agile"
+    },
+    {
+      "id": "ratta-supernote-a5-x",
+      "fullName": "Ratta Supernote A5 X"
+    },
+    {
+      "id": "ratta-supernote-a5-x2-manta",
+      "fullName": "Ratta Supernote A5 X2 Manta"
+    },
+    {
+      "id": "ratta-supernote-a6-agile",
+      "fullName": "Ratta Supernote A6 Agile"
+    },
+    {
+      "id": "ratta-supernote-a6-x",
+      "fullName": "Ratta Supernote A6 X"
+    },
+    {
+      "id": "ratta-supernote-a6-x2-nomad",
+      "fullName": "Ratta Supernote A6 X2 Nomad"
+    },
+    {
+      "id": "Reinkstone",
+      "fullName": "Reinkstone",
+      "specialType": "link",
+      "link": "/brands/Reinkstone",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "reinkstone-r1",
+      "fullName": "Reinkstone R1"
+    },
+    {
+      "id": "reinkstone-r1-reader",
+      "fullName": "Reinkstone R1 Reader"
     },
     {
       "id": "reMarkable",
@@ -529,10 +2869,6 @@
       "link": "/brands/reMarkable",
       "prefix": "Brand",
       "icon": "fa-building"
-    },
-    {
-      "id": "remarkable-1",
-      "fullName": "reMarkable 1"
     },
     {
       "id": "remarkable-2",
@@ -551,12 +2887,172 @@
       "fullName": "reMarkable Paper Pure"
     },
     {
+      "id": "Silvergear",
+      "fullName": "Silvergear",
+      "specialType": "link",
+      "link": "/brands/Silvergear",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "silvergear-e-reader",
+      "fullName": "Silvergear e-reader"
+    },
+    {
+      "id": "SPC",
+      "fullName": "SPC",
+      "specialType": "link",
+      "link": "/brands/SPC",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "spc-dickens-light-2",
+      "fullName": "SPC Dickens Light 2"
+    },
+    {
+      "id": "spc-dickens-light-2-pro",
+      "fullName": "SPC Dickens Light 2 Pro"
+    },
+    {
+      "id": "spc-dickens-light-pro",
+      "fullName": "SPC Dickens Light Pro"
+    },
+    {
+      "id": "Supernote",
+      "fullName": "Supernote",
+      "specialType": "link",
+      "link": "/brands/Supernote",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "Tolino",
+      "fullName": "Tolino",
+      "specialType": "link",
+      "link": "/brands/Tolino",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "tolino-epos-3",
+      "fullName": "Tolino Epos 3"
+    },
+    {
+      "id": "tolino-shine-5",
+      "fullName": "Tolino Shine 5"
+    },
+    {
+      "id": "tolino-shine-color",
+      "fullName": "Tolino Shine Color"
+    },
+    {
+      "id": "tolino-vision-color",
+      "fullName": "Tolino Vision Color"
+    },
+    {
+      "id": "Veidoo",
+      "fullName": "Veidoo",
+      "specialType": "link",
+      "link": "/brands/Veidoo",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "veidoo-e5",
+      "fullName": "Veidoo E5"
+    },
+    {
+      "id": "veidoo-e8",
+      "fullName": "Veidoo E8"
+    },
+    {
+      "id": "Vivlio",
+      "fullName": "Vivlio",
+      "specialType": "link",
+      "link": "/brands/Vivlio",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "vivlio-inkpad-4",
+      "fullName": "Vivlio InkPad 4"
+    },
+    {
+      "id": "vivlio-inkpad-color-3",
+      "fullName": "Vivlio InkPad Color 3"
+    },
+    {
+      "id": "vivlio-light",
+      "fullName": "Vivlio Light"
+    },
+    {
+      "id": "vivlio-light-hd",
+      "fullName": "Vivlio Light HD"
+    },
+    {
+      "id": "vivlio-light-hd-color",
+      "fullName": "Vivlio Light HD Color"
+    },
+    {
+      "id": "vivlio-light-zen",
+      "fullName": "Vivlio Light Zen"
+    },
+    {
+      "id": "Viwoods",
+      "fullName": "Viwoods",
+      "specialType": "link",
+      "link": "/brands/Viwoods",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "viwoods-aipaper",
+      "fullName": "Viwoods AiPaper"
+    },
+    {
+      "id": "viwoods-aipaper-mini",
+      "fullName": "Viwoods AiPaper Mini"
+    },
+    {
+      "id": "viwoods-aipaper-reader",
+      "fullName": "Viwoods AiPaper Reader"
+    },
+    {
+      "id": "viwoods-aipaper-reader-c",
+      "fullName": "Viwoods AiPaper Reader C"
+    },
+    {
+      "id": "Woxter",
+      "fullName": "Woxter",
+      "specialType": "link",
+      "link": "/brands/Woxter",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "woxter-scriba-195-paperlight",
+      "fullName": "Woxter Scriba 195 Paperlight"
+    },
+    {
+      "id": "woxter-scriba-195-paperlight-tp",
+      "fullName": "Woxter Scriba 195 Paperlight TP"
+    },
+    {
+      "id": "woxter-scriba-195-s",
+      "fullName": "Woxter Scriba 195 S"
+    },
+    {
       "id": "Xteink",
       "fullName": "Xteink",
       "specialType": "link",
       "link": "/brands/Xteink",
       "prefix": "Brand",
       "icon": "fa-building"
+    },
+    {
+      "id": "xteink-x3",
+      "fullName": "Xteink X3"
     },
     {
       "id": "xteink-x4",

@@ -2,24 +2,18 @@ import { compareFloat, compareScreenSize } from "@/lib/compare/compare";
 import {
   FaHandSparkles,
   FaMobileScreen,
-  FaPlugCircleBolt,
 } from "react-icons/fa6";
 import { IoMdRadioButtonOn } from "react-icons/io";
 import {
-  LuMonitor,
-  LuPackage,
   LuStar,
-  LuFingerprint,
   LuCpu,
   LuBluetooth,
-  LuWifiHigh,
-  LuLamp,
   LuPen,
   LuWifi,
   LuSun,
+  LuAppWindow,
 } from "react-icons/lu";
 import { MdColorLens, MdOutlineTouchApp } from "react-icons/md";
-import { PiRadioButtonFill } from "react-icons/pi";
 import { TbMobiledata } from "react-icons/tb";
 
 const sections = {
@@ -29,34 +23,54 @@ const sections = {
     attributes: [
       //   { attribute: "frontLight", label: "Front Light", type: "tag" },
       //   { attribute: "backlight", label: "Back Light", type: "tag" },
-      { attribute: "screenLight", label: "Screen Light", type: "tag", icon: LuSun },
+      {
+        attribute: "screenLight",
+        label: "Screen Light",
+        type: "tag",
+        icon: LuSun,
+      },
       //   { attribute: "frontLightCold", label: "Front Light (Cold)", type: "tag" },
-      { attribute: "colorDisplay", label: "Color Display", type: "tag", icon: MdColorLens },
+      {
+        attribute: "colorDisplay",
+        label: "Color Display",
+        type: "tag",
+        icon: MdColorLens,
+      },
       { attribute: "darkMode", label: "Dark Mode", type: "tag" },
       { attribute: "wifi", label: "WiFi", type: "tag", icon: LuWifi },
+
       {
         attribute: "bluetooth",
         label: "Bluetooth",
         type: "tag",
         icon: LuBluetooth,
       },
-      { attribute: "sdCard", label: "SD Card Slot", type: "tag" },
-      { attribute: "usbc", label: "USB C", type: "tag" },
       {
         attribute: "mobileData",
         label: "Mobile Data",
         type: "tag",
         icon: TbMobiledata,
       },
-      { attribute: "speakers", label: "Speakers", type: "tag" },
-      { attribute: "browser", label: "Modern Browser", type: "tag" },
-      { attribute: "textToSpeech", label: "Text To Speech", type: "tag" },
+      { attribute: "usbc", label: "USB C", type: "tag" },
+
+      { attribute: "sdCard", label: "SD Card Slot", type: "tag" },
       { attribute: "waterproof", label: "Waterproofing", type: "tag" },
+
+      { attribute: "speakers", label: "Speakers", type: "tag" },
+      { attribute: "audioOutput", label: "Audio Jack", type: "tag" },
+      {
+        attribute: "wirelessCharging",
+        label: "Wireless Charging",
+        type: "tag",
+      },
+
+      // { attribute: "textToSpeech", label: "Text To Speech", type: "tag" },
       //   { attribute: "waterproofRating", label: "Waterproof Rating" },
       //   { attribute: "wirelessCharging", label: "Wireless Charging" },
-      
     ],
   },
+
+
   display: {
     label: "Screen",
     icon: FaMobileScreen,
@@ -126,14 +140,41 @@ const sections = {
     label: "Controls",
     icon: IoMdRadioButtonOn,
     attributes: [
-      { attribute: "touchscreen", label: "Touchscreen", type: "tag", icon: MdOutlineTouchApp },
+      {
+        attribute: "touchscreen",
+        label: "Touchscreen",
+        type: "tag",
+        icon: MdOutlineTouchApp,
+      },
       { attribute: "pageTurnButtons", label: "Page Buttons", type: "tag" },
       {
         attribute: "automaticRotation",
         label: "Auto-Rotation",
         type: "tag",
       },
-      { attribute: "stylusSupport", label: "Stylus Support", type: "tag", icon: LuPen },
+      //       {
+      //   attribute: "microphone",
+      //   label: "Auto-Rotation",
+      //   type: "tag",
+      // },
+      {
+        attribute: "stylusSupport",
+        label: "Stylus Support",
+        type: "tag",
+        icon: LuPen,
+      },
+    ],
+  },
+    software: {
+    label: "Apps",
+    icon: LuAppWindow,
+    attributes: [
+      { attribute: "cloudStorage", label: "Cloud Storage", type: "tag" },
+      { attribute: "browser", label: "Browser", type: "tag" },
+      { attribute: "email", label: "E-mail", type: "tag" },
+      // { attribute: "audioBooks", label: "AudioBooks", type: "tag" },
+      // { attribute: "libby", label: "Libby", type: "tag" },
+
     ],
   },
   techSpecs: {
