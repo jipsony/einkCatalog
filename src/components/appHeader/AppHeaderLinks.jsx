@@ -56,7 +56,7 @@ export default function AppHeaderLinks(props) {
     <>
       <Stack direction={{ base: "column", lg: "row" }} height={"100%"}>
         {renderAppHeaderLink("E-Readers", "/e-readers")}
-        {renderAppHeaderLink("Categories", "/e-readers/categories")}
+        {/* {renderAppHeaderLink("Categories", "/e-readers/categories")} */}
         {renderAppHeaderLink("Compare", "/e-readers/compare")}
       </Stack>
     </>
