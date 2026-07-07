@@ -7,9 +7,15 @@ import { Box, Grid, Separator, SimpleGrid, Stack } from "@chakra-ui/react";
 import React from "react";
 
 export default function FrontPage(props) {
+  const itemsToShow = [
+    "xteink-x4",
+    "kindle-colorsoft",
+    "kobo-libra-colour",
+    // "kindle-scribe-3"
+  ]?.map((i) => items?.find((r) => r?.id === i));
   return (
     <Box>
-      {items?.map((row) => (
+      {itemsToShow?.map((row) => (
         <Stack key={row?.id}>
           <AppLink key={row?.id} href={"/e-readers/" + row?.id}>
             {row?.brand} {row?.name}
@@ -23,7 +29,7 @@ export default function FrontPage(props) {
         templateColumns={{ lg: "1fr 1fr 1fr", md: "1fr 1fr" }}
         gap="1rem"
       >
-        {items?.map((row) => (
+        {itemsToShow?.map((row) => (
           <Box key={row?.id} minHeight="15rem">
             <ItemVerticalPreviewCard itemInfo={row} />
           </Box>
@@ -32,9 +38,12 @@ export default function FrontPage(props) {
 
       <Separator my="2rem"></Separator>
 
-      {items?.map((row) => (
+      {itemsToShow?.map((row) => (
         <Stack key={row?.id} gap="1rem" dir="horizontal">
-          <ItemHorizontalPreviewCard itemInfo={row} compareLink={`${itemMainRoute}/compare/${"xteink-x4"}/${row?.id}`}></ItemHorizontalPreviewCard>
+          <ItemHorizontalPreviewCard
+            itemInfo={row}
+            compareLink={`${itemMainRoute}/compare/${"xteink-x4"}/${row?.id}`}
+          ></ItemHorizontalPreviewCard>
         </Stack>
       ))}
     </Box>
