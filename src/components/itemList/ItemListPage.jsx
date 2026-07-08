@@ -30,6 +30,7 @@ import DisplayMode from "../toolsComponents/DisplayMode";
 import Filters from "./Filters";
 import Pagination from "./Pagination";
 import ItemVerticalPreviewCard from "../itemCards/ItemVerticalPreviewCard";
+import ItemListPageTitle from "./ItemListPageTitle";
 
 export default function ItemListPage(props) {
   const pathname = usePathname();
@@ -145,8 +146,8 @@ export default function ItemListPage(props) {
     return (
       <GridItem key={row?.id}>
         {/* <Box pb={".5rem"}> */}
-          {/* <ItemHorizontalPreviewCard itemInfo={row}></ItemHorizontalPreviewCard> */}
-          <ItemVerticalPreviewCard itemInfo={row}></ItemVerticalPreviewCard>
+        {/* <ItemHorizontalPreviewCard itemInfo={row}></ItemHorizontalPreviewCard> */}
+        <ItemVerticalPreviewCard itemInfo={row}></ItemVerticalPreviewCard>
         {/* </Box> */}
       </GridItem>
     );
@@ -376,6 +377,10 @@ export default function ItemListPage(props) {
         )}
         {deferredItems && pagination?.to && (
           <>
+            <ItemListPageTitle
+              filters={filters}
+              selectedSorting={selectedSorting}
+            ></ItemListPageTitle>
             <Box
               display={"flex"}
               justifyContent={"end"}

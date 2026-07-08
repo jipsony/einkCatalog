@@ -1,7 +1,5 @@
 {
   "brand": [
-    "Amazon",
-    "Barnes & Noble",
     "Bemi",
     "Bigme",
     "Bookeen",
@@ -19,6 +17,7 @@
     "Huion",
     "iFlytek",
     "InkBOOK",
+    "Kindle",
     "Kobo",
     "Lenovo",
     "M5Stack",
@@ -27,15 +26,16 @@
     "MobiScribe",
     "Montblanc",
     "Musnap",
+    "Nook",
     "Obook",
     "Paperslate",
     "Penstar",
     "PocketBook",
+    "Ratta",
     "Reinkstone",
     "reMarkable",
     "Silvergear",
     "SPC",
-    "Supernote",
     "Tolino",
     "Veidoo",
     "Vivlio",
@@ -45,30 +45,12 @@
   ],
   "operatingSystem": [
     "Android",
-    "Android 1.5",
-    "Android 10",
-    "Android 11",
-    "Android 12",
-    "Android 13",
-    "Android 14",
-    "Android 15",
-    "Android 16",
-    "Android 2.1",
-    "Android 4.4",
-    "Android 6",
-    "Android 8.1",
-    "Android 9",
-    "Android-based",
     "Chauvet",
     "Custom",
     "HarmonyOS 2",
     "Kindle ",
     "Kobo ",
     "Linux",
-    "Linux 3.0.35",
-    "Linux 3.10.65",
-    "Linux 4.9.56",
-    "Linux Supernote UI",
     "reMarkable OS"
   ],
   "aspectRatio": [
@@ -92,15 +74,13 @@
   ],
   "sizeCategory": [
     "Compact",
-    "Large Size",
-    "Medium Size",
-    "Micro"
+    "Large",
+    "Medium"
   ],
   "priceCategory": [
-    "Ultra Budget",
     "Budget",
-    "Mid-Range",
-    "High-End"
+    "High-End",
+    "Mid-Range"
   ],
   "screenSize": [
     10,
@@ -136,11 +116,10 @@
     8.2,
     9.7
   ],
-  "technology": [],
   "screenType": [
     "DES Slurry",
     "E Ink",
-    "E Ink + 3.5″ LCD 480×144 (touch)",
+    "E Ink ",
     "E Ink Carta",
     "E Ink Carta 1000",
     "E Ink Carta 1200",

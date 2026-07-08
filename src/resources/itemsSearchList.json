@@ -1201,10 +1201,10 @@
       "icon": "fa-building"
     },
     {
-      "id": "Amazon",
-      "fullName": "Amazon",
+      "id": "Kindle",
+      "fullName": "Kindle",
       "specialType": "link",
-      "link": "/brands/Amazon",
+      "link": "/brands/Kindle",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -1385,10 +1385,10 @@
       "icon": "fa-building"
     },
     {
-      "id": "Supernote",
-      "fullName": "Supernote",
+      "id": "Ratta",
+      "fullName": "Ratta",
       "specialType": "link",
-      "link": "/brands/Supernote",
+      "link": "/brands/Ratta",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -1449,10 +1449,10 @@
       "icon": "fa-building"
     },
     {
-      "id": "Barnes & Noble",
-      "fullName": "Barnes & Noble",
+      "id": "Nook",
+      "fullName": "Nook",
       "specialType": "link",
-      "link": "/brands/Barnes & Noble",
+      "link": "/brands/Nook",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -1530,22 +1530,6 @@
     }
   ],
   "alphabetical": [
-    {
-      "id": "Amazon",
-      "fullName": "Amazon",
-      "specialType": "link",
-      "link": "/brands/Amazon",
-      "prefix": "Brand",
-      "icon": "fa-building"
-    },
-    {
-      "id": "Barnes & Noble",
-      "fullName": "Barnes & Noble",
-      "specialType": "link",
-      "link": "/brands/Barnes & Noble",
-      "prefix": "Brand",
-      "icon": "fa-building"
-    },
     {
       "id": "Bemi",
       "fullName": "Bemi",
@@ -2215,6 +2199,14 @@
       "fullName": "InkBOOK Solaris Color"
     },
     {
+      "id": "Kindle",
+      "fullName": "Kindle",
+      "specialType": "link",
+      "link": "/brands/Kindle",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
       "id": "kindle-1",
       "fullName": "Kindle 1"
     },
@@ -2611,6 +2603,14 @@
       "fullName": "Musnap X"
     },
     {
+      "id": "Nook",
+      "fullName": "Nook",
+      "specialType": "link",
+      "link": "/brands/Nook",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
       "id": "nook-1st-edition",
       "fullName": "Nook 1st Edition"
     },
@@ -2823,6 +2823,14 @@
       "fullName": "PocketBook Verse Pro Color"
     },
     {
+      "id": "Ratta",
+      "fullName": "Ratta",
+      "specialType": "link",
+      "link": "/brands/Ratta",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
       "id": "ratta-supernote-a5-agile",
       "fullName": "Ratta Supernote A5 Agile"
     },
@@ -2917,14 +2925,6 @@
     {
       "id": "spc-dickens-light-pro",
       "fullName": "SPC Dickens Light Pro"
-    },
-    {
-      "id": "Supernote",
-      "fullName": "Supernote",
-      "specialType": "link",
-      "link": "/brands/Supernote",
-      "prefix": "Brand",
-      "icon": "fa-building"
     },
     {
       "id": "Tolino",

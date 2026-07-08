@@ -78,6 +78,7 @@ function FilterTriggerLabel(props) {
       {props.icon &&
         React.createElement(props.icon, {
           opacity: 0.6,
+          color: props?.isActive ? "var(--appColorAccent)" : undefined
         })}
       {props.label}
     </Box>
@@ -250,7 +251,7 @@ export default function Filters(props) {
       }
       return props.filters.find((f) => f.key === specialCategory.key)?.active;
     })
-      ? [0]
+      ? ["item-specialCategory"]
       : undefined;
 
     return (
@@ -356,7 +357,7 @@ export default function Filters(props) {
                 props.filtersToOpenByDefault.includes(child),
               )
           )
-            return idx;
+            return `item-${idx}`;
           return null;
         })
         ?.filter((idx) => idx !== null);
@@ -372,7 +373,7 @@ export default function Filters(props) {
               additionalSectionFilters?.find((asf) => asf.key === sectionKey),
             )
           )
-            return idx;
+            return `item-${idx}`;
           return null;
         })
         ?.filter((idx) => idx !== null);
@@ -481,12 +482,12 @@ export default function Filters(props) {
     const defaultIndex = appliedRadiofilters
       ?.map((filter, idx) => {
         if (props.filtersToOpenByDefault) {
-          return isFilterToOpenByDefault(filter, idx);
+          return isFilterToOpenByDefault(filter, `item-${filter.key}`);
         } else if (
           isRadioFilterActive(filter) ||
           isOneOfTheChildrenFiltersActive(filter)
         )
-          return idx;
+          return `item-${filter.key}`;
         return null;
       })
       ?.filter((idx) => idx !== null);

@@ -19,7 +19,7 @@ export default function FilterButton(props) {
         });
       }}
       width={"100%"}
-      loading={isPending || props.isPendingFilter || props.isLoadingFilter}
+      // loading={isPending || props.isPendingFilter || props.isLoadingFilter}
     >
       <FaSliders />
       Filter

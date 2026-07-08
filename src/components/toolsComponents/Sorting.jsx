@@ -41,7 +41,7 @@ export default function Sorting(props) {
           </Menu.Trigger>
           <Portal>
             <Menu.Positioner>
-              <Menu.Content>
+              <Menu.Content minW="var(--reference-width)">
                 {Object.entries(sortOptions).map(([sortKey, sort], idx) => {
                   return (
                     <Menu.Item
@@ -54,7 +54,7 @@ export default function Sorting(props) {
                       }}
                       backgroundColor={
                         props.selectedSorting === sortKey
-                          ? "var(--appColorAccent)"
+                          ? "var(--appColorAccentLight)"
                           : undefined
                       }
                       value={sortKey}

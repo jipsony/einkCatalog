@@ -1,11 +1,22 @@
 import React from "react";
-import { sortOptions } from "../lib/sorting";
-import { setHtmlTitleFromTitleComponents } from "../lib/globalFuncs";
-import { cardSize, gap } from "../lib/sizes";
-import { Box, Heading } from "@chakra-ui/react";
+import { itemsLabel } from "@/lib/appGlobals";
+import { sortOptions } from "@/lib/sorting";
+import { Box, Center, Heading } from "@chakra-ui/react";
 
-export default function ItemListPageTitle (props) {
-    
+export default function ItemListPageTitle(props) {
+  const setHtmlTitleFromTitleComponents = (titleComponents) => {
+    const title = titleComponents
+      .filter(
+        (t, idx) =>
+          t.text &&
+          t.text !== "" &&
+          (t.renderCondition ? t.renderCondition() : true),
+      )
+      .map((f) => f.text)
+      ?.join(" ");
+
+    if (typeof window !== "undefined" && document) document.title = title;
+  };
   const renderPageTitle = () => {
     const isStaffPicked =
       props.filters?.find((e) => e.key === "staffPick")?.value === true;
@@ -17,22 +28,21 @@ export default function ItemListPageTitle (props) {
     if (isStaffPicked) sortingAdjective = "Best";
     else if (isUpcoming) sortingAdjective = "Upcoming";
     else {
-      sortingAdjective = sortOptions?.[props?.selectedSorting]?.sortingAdjective;
+      sortingAdjective =
+        sortOptions?.[props?.selectedSorting]?.sortingAdjective;
     }
 
-    const osFilter = props.filters?.find((e) => e.key === "operatingSystem");
-    const oSAdjective = osFilter?.active ? osFilter?.value : undefined;
+    // const osFilter = props.filters?.find((e) => e.key === "operatingSystem");
+    // const oSAdjective = osFilter?.active ? osFilter?.value : undefined;
 
-    const companyFilter = props?.filters.find((e) => e.key === "company");
-    const companyAdjective = companyFilter?.active
-      ? companyFilter?.value
-      : undefined;
+    const brandFilter = props?.filters.find((e) => e.key === "brand");
+    const brandAdjective = brandFilter?.active ? brandFilter?.value : undefined;
 
     const alreadyComputedActiveTags = [
       "staffPick",
       "isUpcoming",
       "operatingSystem",
-      "company",
+      "brand",
       "isReleased",
     ];
 
@@ -41,10 +51,10 @@ export default function ItemListPageTitle (props) {
         !alreadyComputedActiveTags.includes(f.key) &&
         (f.type === "radio" || f.type === "checkbox") &&
         f.active &&
-        f.value
+        f.value,
     );
     const remainingActiveTagsWithClassicRender = remaining.filter(
-      (f) => !f.titleRenderType
+      (f) => !f.titleRenderType,
     );
 
     let withLabel;
@@ -59,7 +69,7 @@ export default function ItemListPageTitle (props) {
     }
 
     const remainingActiveTagsWithPrefixRender = remaining?.filter(
-      (f) => f.titleRenderType === "prefix"
+      (f) => f.titleRenderType === "prefix",
     );
 
     let prefix;
@@ -77,7 +87,7 @@ export default function ItemListPageTitle (props) {
 
     let forSuffix;
     const remainingActiveTagsWitforSuffixRender = remaining?.filter(
-      (f) => f.titleRenderType === "forSuffix"
+      (f) => f.titleRenderType === "forSuffix",
     );
     if (remainingActiveTagsWitforSuffixRender?.length >= 1) {
       const oneActiveFilter = remainingActiveTagsWitforSuffixRender?.[0];
@@ -95,21 +105,20 @@ export default function ItemListPageTitle (props) {
         text: sortingAdjective,
       },
       {
-        text: companyAdjective,
+        text: brandAdjective,
         color: "var(--appColorAccentDark)",
       },
-      {
-        text: oSAdjective,
-        color: "var(--appColorAccentDark)",
-      },
-
+      // {
+      //   text: oSAdjective,
+      //   color: "var(--appColorAccentDark)",
+      // },
       {
         text: prefix,
         color: "var(--appColorAccentDark)",
       },
 
       {
-        text: "Gaming Handhelds",
+        text: itemsLabel,
       },
       {
         text: "with",
@@ -140,34 +149,35 @@ export default function ItemListPageTitle (props) {
     setHtmlTitleFromTitleComponents(titleComponents);
 
     return (
-      <Box maxW={{ base: cardSize, "2xl": 2 * cardSize - 4 * gap }}>
-          <Heading
-            ml={{ base: 0, md: "1.2rem" }}
-            minHeight={"2.6rem"}
-            alignContent={"center"}
-            textAlign={{ base: "center", md: "unset" }}
-            mb={"1rem"}
-            fontSize={"1.6rem"}
-            as="h1"
-          >
-            {titleComponents.map((t, idx) => {
-              if (
-                t.text &&
-                t.text !== "" &&
-                (t.renderCondition ? t.renderCondition() : true)
-              ) {
-                return (
-                  <Box as="span" key={idx} color={t.color}>
-                    {" "}
-                    {t.text}{" "}
-                  </Box>
-                );
-              }
-            })}
-          </Heading>
-      </Box>
+      <Center>
+        <Box
+          // ml={{ base: 0, md: "1.2rem" }}
+          minHeight={"2.6rem"}
+          alignContent={"center"}
+          textAlign={{ base: "center", md: "unset" }}
+          mb={"1rem"}
+          fontSize={"1.6rem"}
+          fontWeight={"500"}
+          as="h1"
+        >
+          {titleComponents.map((t, idx) => {
+            if (
+              t.text &&
+              t.text !== "" &&
+              (t.renderCondition ? t.renderCondition() : true)
+            ) {
+              return (
+                <Box as="span" key={idx} color={t.color}>
+                  {" "}
+                  {t.text}{" "}
+                </Box>
+              );
+            }
+          })}
+        </Box>
+      </Center>
     );
   };
 
-  return <>{renderPageTitle()}</>
+  return <>{renderPageTitle()}</>;
 }

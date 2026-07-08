@@ -25,7 +25,7 @@ export default function ItemTitle(props) {
       //   p={0}
     >
       <Box textAlign="center" fontWeight={"bold"} as="h1" fontSize={"lg"}>
-          <Box as="span">{props?.itemInfo?.brand}</Box>
+          {/* <Box as="span">{props?.itemInfo?.brand}</Box> */}
           <Box as="span"> {props?.itemInfo?.name}</Box>
       </Box>
       {/* <Center my={".5rem"}>

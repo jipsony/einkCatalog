@@ -93,10 +93,21 @@ export default function ItemVerticalPreviewCard(props) {
           display="flex"
           alignItems="center"
           justifyContent="center"
+          flexDirection="column"
+          gap="2px"
           flexGrow={1}
         >
           <Text fontSize="sm" textAlign="center" fontWeight={800}>
             {props.itemInfo?.fullName}
+          </Text>
+          <Text fontSize="xs" textAlign="center" color="var(--appColorDarkGrey)">
+            {[
+              props.itemInfo?.price != null ? `$${props.itemInfo.price}` : null,
+              props.itemInfo?.releaseDate ?? null,
+              props.itemInfo?.screenType ?? null,
+            ]
+              .filter(Boolean)
+              .join(" • ")}
           </Text>
         </Box>
 

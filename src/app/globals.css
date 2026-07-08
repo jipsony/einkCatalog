@@ -6,6 +6,7 @@
   --foreground: #171717;
   --appBorderColor: #dfdfdf;
   --appColorAccent: #18519b;
+  --appColorAccentLight: #a2c4f1;
   --appColorLight: #e0eeff;
   --appColorDarkGrey: #707e91;
   --appColorLightGrey: #ededef;
@@ -21,6 +22,7 @@
   --foreground: #ededed;
   --appBorderColor: #666666;
   --appColorAccent: #66a7fc;
+  --appColorAccentLight:  #356fbb;
   --appColorLight: var(--background);
   --appColorCardBackground: #1e2027;
   --appColorDarkGrey: #b0c7e9;
