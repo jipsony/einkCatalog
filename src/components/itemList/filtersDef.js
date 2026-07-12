@@ -7,6 +7,7 @@ import {
   FaPlus,
   FaEye,
 } from "react-icons/fa6";
+import { MdOutlineEventAvailable } from "react-icons/md";
 
 const initSectionFilters = () => {
   const filteredSections = Object.entries(sections).filter(
@@ -65,6 +66,17 @@ const defaultFilterFunction = (row, key, value) => {
 
 const generalFilters = [
   {
+    key: "brand",
+    label: "Brand",
+    icon: FaBuilding,
+  },
+  {
+    key: "availability",
+    label: "Availability",
+    shortLabel: "Availability",
+    icon: MdOutlineEventAvailable,
+  },
+  {
     key: "priceCategory",
     label: "Price",
     icon: FaMoneyBill1Wave,
@@ -83,11 +95,6 @@ const generalFilters = [
     },
     icon: FaGear,
   },
-  {
-    key: "brand",
-    label: "Brand",
-    icon: FaBuilding,
-  },
 ];
 
 const additionalSectionFilters = [
@@ -97,13 +104,17 @@ const additionalSectionFilters = [
     icon: FaPlus,
     children: ["screenSize", "screenType", "aspectRatio"],
   },
-  // {
-  //   key: "aspectRatio",
-  //   label: "Aspect Ratio",
-  //   icon: FaPlus,
-  //   type: "radio",
-  //   parent: "screen",
-  // },
+  {
+    key: "aspectRatio",
+    label: "Aspect Ratio",
+    icon: FaPlus,
+    filterFunction: (row, key, value) => {
+      return row?.aspectRatio?.replace("~", "") === value;
+    },
+
+    type: "radio",
+    parent: "screen",
+  },
   // {
   //   key: "screenSize",
   //   label: "Screen Size",
@@ -115,15 +126,9 @@ const additionalSectionFilters = [
   // },
   {
     key: "screenType",
-    filterFunction: defaultFilterFunction,
-    label: "Technology",
-    icon: FaPlus,
-    type: "radio",
-    parent: "screen",
-    titleRenderType: "prefix",
-  },  {
-    key: "technology",
-    filterFunction: defaultFilterFunction,
+    filterFunction: (row, key, value) => {
+      return row?.[key]?.toLowerCase() === value?.toLowerCase();
+    },
     label: "Technology",
     icon: FaPlus,
     type: "radio",
@@ -169,22 +174,22 @@ const specialCategoryFilters = [
     type: "checkbox",
     titleRenderType: "none",
   },
-  {
-    key: "isUpcoming",
-    label: "Upcoming",
-    value: false,
-    filterFunction: (row) => row.isUpcoming === true,
-    active: false,
-    type: "checkbox",
-  },
-  {
-    key: "isReleased",
-    label: "Released",
-    value: false,
-    filterFunction: (row) => !row.isUpcoming,
-    active: false,
-    type: "checkbox",
-  },
+  // {
+  //   key: "isUpcoming",
+  //   label: "Upcoming",
+  //   value: false,
+  //   filterFunction: (row) => row.isUpcoming === true,
+  //   active: false,
+  //   type: "checkbox",
+  // },
+  // {
+  //   key: "isReleased",
+  //   label: "available",
+  //   value: false,
+  //   filterFunction: (row) => !row.isUpcoming,
+  //   active: false,
+  //   type: "checkbox",
+  // },
 ];
 
 const sectionFilters = initSectionFilters();

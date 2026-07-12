@@ -1,9 +1,9 @@
-"use client";;
+"use client";
 import React from "react";
 
 import { Steps, Box, useDisclosure } from "@chakra-ui/react";
 
-import { Tooltip } from '@/components/ui/tooltip';
+import { Tooltip } from "@/components/ui/tooltip";
 
 export default function AppTooltip(props) {
   const { open, onOpen, onToggle, onClose } = useDisclosure();
@@ -20,11 +20,11 @@ export default function AppTooltip(props) {
     <Tooltip
       isOpen={open}
       disabled={props.isDisabled}
-      content={props.label}
+      content={<Box textAlign={"center"}>{props.label}</Box>}
       showArrow
       fontSize="md"
       positioning={{
-        placement: "top"
+        placement: "top",
       }}
     >
       <Box

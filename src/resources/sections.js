@@ -1,8 +1,9 @@
-import { compareFloat, compareScreenSize } from "@/lib/compare/compare";
 import {
-  FaHandSparkles,
-  FaMobileScreen,
-} from "react-icons/fa6";
+  compareFloat,
+  compareOrder,
+  compareScreenSize,
+} from "@/lib/compare/compare";
+import { FaHandSparkles, FaMobileScreen } from "react-icons/fa6";
 import { IoMdRadioButtonOn } from "react-icons/io";
 import {
   LuStar,
@@ -15,7 +16,7 @@ import {
 } from "react-icons/lu";
 import { MdColorLens, MdOutlineTouchApp } from "react-icons/md";
 import { TbMobiledata } from "react-icons/tb";
-
+import screenTypeRanking from "@/resources/screenTypeRanking.json" with { type: "json" };
 const sections = {
   features: {
     label: "Features",
@@ -70,11 +71,11 @@ const sections = {
     ],
   },
 
-
   display: {
     label: "Screen",
     icon: FaMobileScreen,
     attributes: [
+      // { attribute: "warmLight", label: "Warm Light", type: "tag" },
       {
         attribute: "screenSize",
         label: "Screen Size",
@@ -92,6 +93,7 @@ const sections = {
       {
         attribute: "screenType",
         label: "Technology",
+        compareFunction: (a, b) => compareOrder(screenTypeRanking, a, b, false),
       },
       {
         attribute: "pixelDensity",
@@ -115,7 +117,7 @@ const sections = {
   //   },
 
   ergonomics: {
-    label: "Build & Ergonomics",
+    label: "Build",
     icon: FaHandSparkles,
     attributes: [
       {
@@ -165,7 +167,7 @@ const sections = {
       },
     ],
   },
-    software: {
+  software: {
     label: "Apps",
     icon: LuAppWindow,
     attributes: [
@@ -174,7 +176,6 @@ const sections = {
       { attribute: "email", label: "E-mail", type: "tag" },
       // { attribute: "audioBooks", label: "AudioBooks", type: "tag" },
       // { attribute: "libby", label: "Libby", type: "tag" },
-
     ],
   },
   techSpecs: {

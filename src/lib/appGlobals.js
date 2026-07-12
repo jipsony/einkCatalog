@@ -13,7 +13,7 @@ export const generateCompareTitle = (compareName, compareWithName) => {
 };
 
 export const buildFullName = (itemInfo) => {
-  return `${itemInfo?.brand} ${itemInfo?.name}`;
+  return itemInfo?.name;
 };
 
 export const buildItemFullInfoLink = (id) => {

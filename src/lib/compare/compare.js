@@ -60,3 +60,22 @@ export const compareBool = (a, b) => {
   if (!a && b) return -1;
   return 0;
 };
+
+export const compareOrder = (orderArray, a, b, useIncludes) => {
+  let aIndex = orderArray.indexOf(a);
+  let bIndex = orderArray.indexOf(b);
+
+  if (useIncludes)
+    aIndex = orderArray?.findLastIndex((e) =>
+      a?.toLowerCase()?.includes(e?.toLowerCase())
+    );
+  if (useIncludes)
+    bIndex = orderArray?.findLastIndex((e) =>
+      b?.toLowerCase()?.includes(e?.toLowerCase())
+    );
+  if (aIndex === -1 || bIndex === -1) return null;
+  if (aIndex === undefined || bIndex === undefined) return 0;
+  if (aIndex === bIndex) return 0;
+  if (aIndex > bIndex) return 1;
+  if (aIndex < bIndex) return -1;
+};

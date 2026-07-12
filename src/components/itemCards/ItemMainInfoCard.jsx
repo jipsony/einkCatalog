@@ -12,7 +12,7 @@ export default function ItemMainInfoCard(props) {
   const compareLink = `/compare/${props.itemInfo?.id}`;
 
   const formatReleaseDate = (date) => {
-    if (props.itemInfo?.isUpcoming)
+    if (props.itemInfo?.availability === "Upcoming")
       return (
         <AppTooltip
           content={
