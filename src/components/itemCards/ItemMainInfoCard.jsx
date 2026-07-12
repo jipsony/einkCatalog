@@ -45,7 +45,7 @@ export default function ItemMainInfoCard(props) {
       "Dec.",
     ];
 
-    return `${months[month - 1] ?? "Jan."} ${year}`;
+    return `${months[month - 1] ?? "Jan."} ${year}${props.itemInfo?.availability === "Discontinued" ? " (Discontinued)" : ""}`;
   };
 
   // const formatOperatingSystem = (os) => {

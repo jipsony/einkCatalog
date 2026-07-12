@@ -7,7 +7,7 @@ import {
   FaPlus,
   FaEye,
 } from "react-icons/fa6";
-import { MdOutlineEventAvailable } from "react-icons/md";
+import { MdEventAvailable, MdOutlineEventAvailable } from "react-icons/md";
 
 const initSectionFilters = () => {
   const filteredSections = Object.entries(sections).filter(
@@ -74,7 +74,7 @@ const generalFilters = [
     key: "availability",
     label: "Availability",
     shortLabel: "Availability",
-    icon: MdOutlineEventAvailable,
+    icon: MdEventAvailable,
   },
   {
     key: "priceCategory",
