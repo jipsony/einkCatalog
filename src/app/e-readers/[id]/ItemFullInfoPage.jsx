@@ -56,7 +56,7 @@ export default function ItemFullInfoPage(props) {
           <ItemTitle itemInfo={props?.itemInfo}></ItemTitle>
 
           <ItemImageCard itemInfo={props?.itemInfo}></ItemImageCard>
-          <ItemMainInfoCard itemInfo={props?.itemInfo}></ItemMainInfoCard>
+          <ItemMainInfoCard itemInfo={props?.itemInfo} showCompareLink></ItemMainInfoCard>
         </Box>
         {/* <Box minWidth={{ [directionBreakpoint]: "20rem" }}>
           <Box>

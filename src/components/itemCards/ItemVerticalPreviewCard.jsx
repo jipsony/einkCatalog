@@ -36,83 +36,113 @@ export default function ItemVerticalPreviewCard(props) {
   };
 
   return (
-    <ItemCard
-      minH={"18rem"}
-      p={0}
-      _hover={{ borderColor: "var(--foreground)" }}
-      h="100%"
-    >
-      <Box
-        as="a"
-        height="100%"
-        display="flex"
-        flexDirection="column"
-        href={buildItemFullInfoLink(props?.itemInfo?.id)}
+    <>
+      <ItemCard
+        minH={"18rem"}
+        p={0}
+        _hover={{ borderColor: "var(--foreground)" }}
+        // h="100%"
       >
         <Box
-          mx="1rem"
-          mt="1rem"
-          flex={1}
+          as="a"
+          height="100%"
           display="flex"
-          alignItems="center"
-          justifyContent="center"
-          backgroundColor={"var(--appColorLightGrey)"}
-          borderRadius={"md"}
-          minH={"20rem"}
-          position={"relative"}
-        >
-          <Image src={buildFrontImageUrl(props.itemInfo?.id)} />
-          <Box
-            fontSize="11px"
-            position="absolute"
-            bottom={"4px"}
-            color={"var(--appColorAccent)"}
-            opacity={0.7}
-            w={"100%"}
-          >
-            <Flex
-              w={"100%"}
-              justifyContent={"space-between"}
-              px=".5rem"
-              overflow="hidden"
-              whiteSpace="nowrap"
-              flexWrap="nowrap"
-            >
-              <Box overflow="hidden" flexShrink={1} minW={0}>
-                <ItemAttributeIcons itemInfo={props.itemInfo} />
-              </Box>
-              <ItemScreenSpecsPreview
-                itemInfo={props?.itemInfo}
-              ></ItemScreenSpecsPreview>
-            </Flex>
-          </Box>
-        </Box>
-
-        <Box
-          minHeight="6rem"
-          display="flex"
-          alignItems="center"
-          justifyContent="center"
           flexDirection="column"
-          gap="2px"
-          flexGrow={1}
+          href={buildItemFullInfoLink(props?.itemInfo?.id)}
         >
-          <Text fontSize="sm" textAlign="center" fontWeight={800}>
-            {props.itemInfo?.fullName}
-          </Text>
-          <Text fontSize="xs" textAlign="center" color="var(--appColorDarkGrey)">
-            {[
-              props.itemInfo?.price != null ? `$${props.itemInfo.price}` : null,
-              props.itemInfo?.releaseDate ?? null,
-              props.itemInfo?.screenType ?? null,
-            ]
-              .filter(Boolean)
-              .join(" • ")}
-          </Text>
-        </Box>
+          <Box
+            mx="1rem"
+            mt="1rem"
+            flex={1}
+            display="flex"
+            alignItems="center"
+            justifyContent="center"
+            backgroundColor={"var(--appColorLightGrey)"}
+            borderRadius={"md"}
+            minH={"20rem"}
+            position={"relative"}
+          >
+            <Image src={buildFrontImageUrl(props.itemInfo?.id)} />
+            <Box
+              fontSize="11px"
+              position="absolute"
+              bottom={"4px"}
+              color={"var(--appColorAccent)"}
+              opacity={0.7}
+              w={"100%"}
+            >
+              <Flex
+                w={"100%"}
+                justifyContent={"space-between"}
+                px=".5rem"
+                overflow="hidden"
+                whiteSpace="nowrap"
+                flexWrap="nowrap"
+              >
+                <Box overflow="hidden" flexShrink={1} minW={0}>
+                  <ItemAttributeIcons itemInfo={props.itemInfo} />
+                </Box>
+                <ItemScreenSpecsPreview
+                  itemInfo={props?.itemInfo}
+                ></ItemScreenSpecsPreview>
+              </Flex>
+            </Box>
+          </Box>
 
-        {/* {renderCategories()} */}
+          <Box
+            minHeight="6rem"
+            display="flex"
+            alignItems="center"
+            justifyContent="center"
+            flexDirection="column"
+            gap="2px"
+            flexGrow={1}
+          >
+            <Text fontSize="sm" textAlign="center" fontWeight={800}>
+              {props.itemInfo?.fullName}
+            </Text>
+            <Text
+              fontSize="xs"
+              textAlign="center"
+              color="var(--appColorDarkGrey)"
+            >
+              {[
+                props.itemInfo?.price != null
+                  ? `$${props.itemInfo.price}`
+                  : null,
+                props.itemInfo?.releaseDate ?? null,
+                props.itemInfo?.screenType ?? null,
+              ]
+                .filter(Boolean)
+                .join(" • ")}
+            </Text>
+          </Box>
+
+          {/* {renderCategories()} */}
+        </Box>
+      </ItemCard>
+      <Box
+        onClick={async () =>
+          await navigator?.clipboard?.writeText(props?.itemInfo?.name)
+        }
+        mb={"2rem"}
+        cursor={"pointer"}
+        _hover={{color:"var(--appColorLink)"}}
+      >
+        {" "}
+        {props?.itemInfo?.name}
       </Box>
-    </ItemCard>
+      <Box
+        onClick={async () =>
+          await navigator?.clipboard?.writeText(props?.itemInfo?.id)
+        }
+        mb={"2rem"}
+        cursor={"pointer"}
+        _hover={{color:"var(--appColorLink)"}}
+      >
+        {" "}
+        {props?.itemInfo?.id}
+      </Box>
+    </>
   );
 }

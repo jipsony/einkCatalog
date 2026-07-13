@@ -1,15 +1,20 @@
 import React from "react";
-import { Box, SimpleGrid } from "@chakra-ui/react";
+import { Box, Icon, SimpleGrid } from "@chakra-ui/react";
 import ItemCard from "./ItemCard";
 import AppTooltip from "../toolsComponents/AppTooltip";
 import AppLink from "../toolsComponents/AppLink";
 import { FaArrowRightArrowLeft, FaList } from "react-icons/fa6";
 import CompareKeyValueIcon from "@/app/e-readers/compare/CompareKeyValueIcon";
-import { buildItemFullInfoLink } from "@/lib/appGlobals";
-import { compareColor, compareFloat, compareReleaseDate, compareScreenSize } from "@/lib/compare/compare";
+import { buildItemFullInfoLink, itemMainRoute } from "@/lib/appGlobals";
+import {
+  compareColor,
+  compareFloat,
+  compareReleaseDate,
+  compareScreenSize,
+} from "@/lib/compare/compare";
 
 export default function ItemMainInfoCard(props) {
-  const compareLink = `/compare/${props.itemInfo?.id}`;
+  const compareLink = `${itemMainRoute}/compare/${props.itemInfo?.id}`;
 
   const formatReleaseDate = (date) => {
     if (props.itemInfo?.availability === "Upcoming")
@@ -269,17 +274,15 @@ export default function ItemMainInfoCard(props) {
               fontSize={"12px"}
               textAlign={"end"}
               alignSelf={"flex-end"}
+              mt="1rem"
             >
               <AppLink href={compareLink}>
                 <Box
-                  gap={1}
-                  _hover={{ color: "var(--appColorCardBackgroundInvert)" }}
+                  _hover={{ color: "var(--foreground)" }}
                   textDecor={"underline"}
                   fontWeight={"600"}
                 >
-                  <Box display={"inline"} mr=".5rem" fontSize={"10px"}>
-                    <FaArrowRightArrowLeft />
-                  </Box>
+                  <Icon mr=".3rem" asChild><FaArrowRightArrowLeft /></Icon>
                   <Box display={"inline"}>Compare</Box>
                 </Box>
               </AppLink>
