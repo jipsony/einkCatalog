@@ -24,26 +24,13 @@ function FrontPageHero() {
   return (
     <Box
       textAlign="center"
-      // px={{ base: "1.5rem", md: "3rem" }}
     >
-      {/* <Text
-        fontSize={{ base: "0.65rem", md: "0.7rem" }}
-        letterSpacing="0.25em"
-        textTransform="uppercase"
-        color="var(--appColorDarkGrey)"
-        mb="1rem"
-        fontFamily="var(--font-roboto-mono)"
-      >
-        Welcome to
-      </Text> */}
-
       <Box
         as="h1"
         fontSize={{
           base: "2.8rem",
           sm: "3.2rem",
           md: "4.5rem",
-          // lg: "6rem"
         }}
         fontFamily="var(--font-lora)"
         fontStyle="italic"
@@ -55,15 +42,6 @@ function FrontPageHero() {
       >
         {appName}
       </Box>
-      {/* 
-      <Box
-        width={{ base: "4rem", md: "8rem" }}
-        height="1px"
-        bg="var(--appColorAccent)"
-        
-        mx="auto"
-        mb="1.25rem"
-      /> */}
 
       <Text
         fontSize={{ base: "0.9rem", md: "1.1rem" }}
@@ -85,7 +63,6 @@ function FrontPageFunctionalityCard(props) {
   return (
     <Box cursor="pointer">
       <ItemCard
-        // minH={"10rem"}
         p={0}
         _hover={{ borderColor: "var(--foreground)" }}
         h="100%"
@@ -95,27 +72,15 @@ function FrontPageFunctionalityCard(props) {
         <Box as="a" height="100%" href={props?.href}>
           <SimpleGrid templateColumns={"1fr 1fr"} height="100%">
             <Box py={"2rem"} pl="2rem" px="1rem">
-              {/* <Flex
-                flexDirection="column"
-                justifyContent="space-between"
-                minH="13rem"
-              > */}
               <Flex
                 as="h3"
                 fontSize={"1.2rem"}
-                // fontFamily="var(--font-lora)"
-                // fontStyle="italic"
                 fontWeight="700"
                 lineHeight="1.1"
                 mb="0.75rem"
                 alignItems={"center"}
                 gap=".5rem"
               >
-                {/* {props?.icon && (
-                      <Box color={"var(--appColorAccent)"} opacity={".6"}>
-                        {React.createElement(props.icon)}
-                      </Box>
-                    )} */}
                 {props?.icon && (
                   <Box color={"var(--appColorAccent)"} opacity={".6"}>
                     {React.createElement(MdArrowForward)}
