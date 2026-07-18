@@ -957,52 +957,8 @@
       "fullName": "Kobo Libra H2O"
     },
     {
-      "id": "boox-max-3",
-      "fullName": "Boox Max 3"
-    },
-    {
-      "id": "boox-note-2",
-      "fullName": "Boox Note 2"
-    },
-    {
-      "id": "boox-nova-pro",
-      "fullName": "Boox Nova Pro"
-    },
-    {
-      "id": "boox-note-pro",
-      "fullName": "Boox Note Pro"
-    },
-    {
-      "id": "ratta-supernote-a6-agile",
-      "fullName": "Ratta Supernote A6 Agile"
-    },
-    {
-      "id": "ratta-supernote-a5-agile",
-      "fullName": "Ratta Supernote A5 Agile"
-    },
-    {
       "id": "nook-glowlight-plus-78",
       "fullName": "Nook GlowLight Plus 7.8"
-    },
-    {
-      "id": "pocketbook-inkpad-x",
-      "fullName": "PocketBook InkPad X"
-    },
-    {
-      "id": "pocketbook-touch-hd-3",
-      "fullName": "PocketBook Touch HD 3"
-    },
-    {
-      "id": "pocketbook-inkpad-3-pro",
-      "fullName": "PocketBook InkPad 3 Pro"
-    },
-    {
-      "id": "hisense-a5",
-      "fullName": "Hisense A5"
-    },
-    {
-      "id": "hisense-a6l",
-      "fullName": "Hisense A6L"
     },
     {
       "id": "kindle-paperwhite-4",
@@ -1015,46 +971,6 @@
     {
       "id": "kobo-clara-hd",
       "fullName": "Kobo Clara HD"
-    },
-    {
-      "id": "boox-poke-pro",
-      "fullName": "Boox Poke Pro"
-    },
-    {
-      "id": "boox-poke",
-      "fullName": "Boox Poke"
-    },
-    {
-      "id": "boox-nova",
-      "fullName": "Boox Nova"
-    },
-    {
-      "id": "boox-note-s",
-      "fullName": "Boox Note S"
-    },
-    {
-      "id": "boox-note",
-      "fullName": "Boox Note"
-    },
-    {
-      "id": "boox-max-2-pro",
-      "fullName": "Boox Max 2 Pro"
-    },
-    {
-      "id": "pocketbook-touch-lux-4",
-      "fullName": "PocketBook Touch Lux 4"
-    },
-    {
-      "id": "pocketbook-basic-lux-2",
-      "fullName": "PocketBook Basic Lux 2"
-    },
-    {
-      "id": "pocketbook-inkpad-3",
-      "fullName": "PocketBook InkPad 3"
-    },
-    {
-      "id": "pocketbook-touch-hd-2",
-      "fullName": "PocketBook Touch HD 2"
     },
     {
       "id": "kindle-oasis-2",
@@ -1783,28 +1699,12 @@
       "fullName": "Boox Leaf 2"
     },
     {
-      "id": "boox-max-2-pro",
-      "fullName": "Boox Max 2 Pro"
-    },
-    {
-      "id": "boox-max-3",
-      "fullName": "Boox Max 3"
-    },
-    {
       "id": "boox-max-lumi",
       "fullName": "Boox Max Lumi"
     },
     {
       "id": "boox-max-lumi-2",
       "fullName": "Boox Max Lumi 2"
-    },
-    {
-      "id": "boox-note",
-      "fullName": "Boox Note"
-    },
-    {
-      "id": "boox-note-2",
-      "fullName": "Boox Note 2"
     },
     {
       "id": "boox-note-3",
@@ -1847,18 +1747,6 @@
       "fullName": "Boox Note Max"
     },
     {
-      "id": "boox-note-pro",
-      "fullName": "Boox Note Pro"
-    },
-    {
-      "id": "boox-note-s",
-      "fullName": "Boox Note S"
-    },
-    {
-      "id": "boox-nova",
-      "fullName": "Boox Nova"
-    },
-    {
       "id": "boox-nova-2",
       "fullName": "Boox Nova 2"
     },
@@ -1883,10 +1771,6 @@
       "fullName": "Boox Nova Air C"
     },
     {
-      "id": "boox-nova-pro",
-      "fullName": "Boox Nova Pro"
-    },
-    {
       "id": "boox-page",
       "fullName": "Boox Page"
     },
@@ -1901,10 +1785,6 @@
     {
       "id": "boox-palma-2-pro",
       "fullName": "Boox Palma 2 Pro"
-    },
-    {
-      "id": "boox-poke",
-      "fullName": "Boox Poke"
     },
     {
       "id": "boox-poke-2",
@@ -1925,10 +1805,6 @@
     {
       "id": "boox-poke-5",
       "fullName": "Boox Poke 5"
-    },
-    {
-      "id": "boox-poke-pro",
-      "fullName": "Boox Poke Pro"
     },
     {
       "id": "boox-tab-mini-c",
@@ -2083,10 +1959,6 @@
       "icon": "fa-building"
     },
     {
-      "id": "hisense-a5",
-      "fullName": "Hisense A5"
-    },
-    {
       "id": "hisense-a5-pro",
       "fullName": "Hisense A5 Pro"
     },
@@ -2097,10 +1969,6 @@
     {
       "id": "hisense-a5c",
       "fullName": "Hisense A5C"
-    },
-    {
-      "id": "hisense-a6l",
-      "fullName": "Hisense A6L"
     },
     {
       "id": "hisense-a7",
@@ -2715,10 +2583,6 @@
       "fullName": "PocketBook Basic 4"
     },
     {
-      "id": "pocketbook-basic-lux-2",
-      "fullName": "PocketBook Basic Lux 2"
-    },
-    {
       "id": "pocketbook-basic-lux-3",
       "fullName": "PocketBook Basic Lux 3"
     },
@@ -2745,14 +2609,6 @@
     {
       "id": "pocketbook-era-lite",
       "fullName": "PocketBook Era Lite"
-    },
-    {
-      "id": "pocketbook-inkpad-3",
-      "fullName": "PocketBook InkPad 3"
-    },
-    {
-      "id": "pocketbook-inkpad-3-pro",
-      "fullName": "PocketBook InkPad 3 Pro"
     },
     {
       "id": "pocketbook-inkpad-4",
@@ -2783,24 +2639,8 @@
       "fullName": "PocketBook Inkpad One"
     },
     {
-      "id": "pocketbook-inkpad-x",
-      "fullName": "PocketBook InkPad X"
-    },
-    {
       "id": "pocketbook-inkpad-x-pro",
       "fullName": "PocketBook InkPad X Pro"
-    },
-    {
-      "id": "pocketbook-touch-hd-2",
-      "fullName": "PocketBook Touch HD 2"
-    },
-    {
-      "id": "pocketbook-touch-hd-3",
-      "fullName": "PocketBook Touch HD 3"
-    },
-    {
-      "id": "pocketbook-touch-lux-4",
-      "fullName": "PocketBook Touch Lux 4"
     },
     {
       "id": "pocketbook-touch-lux-5",
@@ -2831,20 +2671,12 @@
       "icon": "fa-building"
     },
     {
-      "id": "ratta-supernote-a5-agile",
-      "fullName": "Ratta Supernote A5 Agile"
-    },
-    {
       "id": "ratta-supernote-a5-x",
       "fullName": "Ratta Supernote A5 X"
     },
     {
       "id": "ratta-supernote-a5-x2-manta",
       "fullName": "Ratta Supernote A5 X2 Manta"
-    },
-    {
-      "id": "ratta-supernote-a6-agile",
-      "fullName": "Ratta Supernote A6 Agile"
     },
     {
       "id": "ratta-supernote-a6-x",

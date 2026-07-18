@@ -5,11 +5,14 @@ import AppLink from "@/components/toolsComponents/AppLink";
 import { appName, itemMainRoute } from "@/lib/appGlobals";
 import { buildFrontImageUrl } from "@/lib/images";
 import { items } from "@/lib/item/items";
+import { staffPicks } from "@/resources/staffPicks";
 import {
   Box,
   Center,
   Flex,
   Grid,
+  GridItem,
+  Heading,
   Image,
   Separator,
   SimpleGrid,
@@ -22,9 +25,7 @@ import { MdArrowForward, MdCompare, MdSearch } from "react-icons/md";
 
 function FrontPageHero() {
   return (
-    <Box
-      textAlign="center"
-    >
+    <Box textAlign="center">
       <Box
         as="h1"
         fontSize={{
@@ -82,8 +83,8 @@ function FrontPageFunctionalityCard(props) {
                 gap=".5rem"
               >
                 {props?.icon && (
-                  <Box color={"var(--appColorAccent)"} opacity={".6"}>
-                    {React.createElement(MdArrowForward)}
+                  <Box color={"var(--appColorAccent)"} opacity={".4"}>
+                    {React.createElement(props?.icon)}
                   </Box>
                 )}
                 <Box>{props.title}</Box>
@@ -106,7 +107,7 @@ function FrontPageFunctionalityCard(props) {
                   color="var(--appColorAccent)"
                 >
                   <Text>{props.cta}</Text>
-                  {React.createElement(MdArrowForward, { size: 13 })}
+                  {React.createElement(MdArrowForward)}
                 </Flex>
               )}
             </Box>
@@ -120,6 +121,70 @@ function FrontPageFunctionalityCard(props) {
           </SimpleGrid>
         </Box>
       </ItemCard>
+    </Box>
+  );
+}
+
+function FrontPageDeviceList(props) {
+  const deviceList = props.deviceList?.filter((row) => !row.hideFromFrontPage);
+  const numberOfItems = 4;
+  const slice = deviceList.slice(0, numberOfItems);
+
+  const moreLinkFilterString = JSON.stringify(props.moreLinkFilter);
+
+  return (
+    <Box>
+      <Heading
+        as="h2"
+        mb="1rem"
+        fontSize={"1.2rem"}
+        fontWeight="700"
+        className="appTextFont"
+        textDecor={"underline"}
+        textUnderlineOffset={".7rem"}
+      >
+        {props?.title}
+      </Heading>
+      <Stack gap={".5rem"}>
+        {slice.map((row, idx) => {
+          return (
+            <Box key={row?.id} minW={0} h={"5rem"}>
+              <AppLink href={`/retro-handhelds/${row?.id}`}>
+                <ItemHorizontalPreviewCard
+                  itemInfo={row}
+                ></ItemHorizontalPreviewCard>
+              </AppLink>
+            </Box>
+          );
+        })}
+        {deviceList?.length > numberOfItems && (
+          <Box
+            as="a"
+            href={`${itemMainRoute}?filters=${moreLinkFilterString}`}
+            fontSize="0.72rem"
+            fontFamily="var(--font-roboto-mono)"
+            letterSpacing="0.04em"
+            borderRadius="6px"
+            // borderRadius={"18px"}
+
+            border="1px solid"
+            borderColor="var(--appBorderColor)"
+            // color="var(--appColorAccent)"
+            _hover={{
+              borderColor: "var(--foreground)",
+              // backgroundColor: "var(--appColorLight)",
+            }}
+            py=".5rem"
+            px="1rem"
+            textAlign={"center"}
+            textDecor={"underline"}
+            textUnderlineOffset={"2px"}
+            textUnderlinePosition={"from-font"}
+          >
+            More
+          </Box>
+        )}
+      </Stack>
     </Box>
   );
 }
@@ -163,6 +228,50 @@ export default function FrontPage(props) {
         ></FrontPageFunctionalityCard>
       </SimpleGrid>
       <Separator borderColor="var(--appBorderColor)" mt="2.5rem" />
+<Box my="2.5rem">
+
+
+  
+</Box>
+      <Box my="2.5rem">
+        <SimpleGrid
+          templateColumns={{ base: "minmax(0, 1fr)", lg: "repeat(3, minmax(0, 1fr))" }}
+          // minmax(0, 1fr) allows the grid tracks to be as small as 0 but as large as 1fr, creating columns that will stay equal. But, be aware that this will cause overflows if the content is bigger than the column or cannot be wrapped.
+          gap={{base: "2rem" ,lg:"1rem"}}
+        >
+          <Box>
+            <FrontPageDeviceList
+              deviceList={items?.filter((r) => r?.availability === "Available")}
+              title={"New Releases"}
+              moreLinkFilter={{
+                availability: "Available",
+              }}
+            ></FrontPageDeviceList>
+          </Box>
+
+          <FrontPageDeviceList
+            deviceList={staffPicks?.map((sp) =>
+              items?.find((r) => r?.id === sp),
+            )}
+            moreLinkFilter={{
+              staffPick: true,
+            }}
+            title={"Staff Picks"}
+          ></FrontPageDeviceList>
+
+          <Box>
+            <FrontPageDeviceList
+              deviceList={items?.filter((r) => r?.availability === "Upcoming")}
+              moreLinkFilter={{
+                availability: "Upcoming",
+              }}
+              title={"Upcoming devices"}
+            ></FrontPageDeviceList>
+          </Box>
+
+          <Box></Box>
+        </SimpleGrid>
+      </Box>
     </Box>
   );
 }

@@ -5113,6 +5113,7 @@
     "bluetoothVersion": "No Bluetooth",
     "priceCategory": "Budget",
     "sizeCategory": "Compact",
+    "ratingCategory": "staffPick",
     "categories": [
       "Budget",
       "Compact"
@@ -6174,6 +6175,7 @@
     "bluetoothVersion": "No Bluetooth",
     "priceCategory": "High-End",
     "sizeCategory": "Medium",
+    "ratingCategory": "staffPick",
     "categories": [
       "High-End",
       "Medium"
@@ -6348,6 +6350,7 @@
     "bluetoothVersion": "No Bluetooth",
     "priceCategory": "Mid-Range",
     "sizeCategory": "Medium",
+    "ratingCategory": "staffPick",
     "categories": [
       "Mid-Range",
       "Medium"
@@ -6597,6 +6600,7 @@
     "bluetoothVersion": "No Bluetooth",
     "priceCategory": "Mid-Range",
     "sizeCategory": "Medium",
+    "ratingCategory": "staffPick",
     "categories": [
       "Mid-Range",
       "Medium"
@@ -6771,6 +6775,7 @@
     "bluetoothVersion": "No Bluetooth",
     "priceCategory": "Mid-Range",
     "sizeCategory": "Medium",
+    "ratingCategory": "staffPick",
     "categories": [
       "Mid-Range",
       "Medium"
@@ -7289,6 +7294,7 @@
     "bluetoothVersion": "No Bluetooth",
     "priceCategory": "High-End",
     "sizeCategory": "Medium",
+    "ratingCategory": "staffPick",
     "categories": [
       "High-End",
       "Medium"
@@ -7654,6 +7660,7 @@
     "bluetoothVersion": "No Bluetooth",
     "priceCategory": "High-End",
     "sizeCategory": "Large",
+    "ratingCategory": "staffPick",
     "categories": [
       "High-End",
       "Large"
@@ -11451,6 +11458,7 @@
     "bluetoothVersion": "No Bluetooth",
     "priceCategory": "Mid-Range",
     "sizeCategory": "Medium",
+    "ratingCategory": "staffPick",
     "categories": [
       "Mid-Range",
       "Medium"
@@ -11537,6 +11545,7 @@
     "bluetoothVersion": "No Bluetooth",
     "priceCategory": "Mid-Range",
     "sizeCategory": "Medium",
+    "ratingCategory": "staffPick",
     "categories": [
       "Mid-Range",
       "Medium"
@@ -11986,9 +11995,9 @@
     ],
     "similar": [
       "ratta-supernote-a6-x",
-      "ratta-supernote-a6-agile",
       "vivlio-inkpad-4",
-      "bemi-cognita-tab-8"
+      "bemi-cognita-tab-8",
+      "bemi-cognita-tab-8-pro"
     ],
     "pros": [
       {
@@ -12575,8 +12584,8 @@
     "similar": [
       "boox-note-3",
       "boox-note-5",
-      "boox-note",
-      "boox-note-pro"
+      "boox-note-air-3",
+      "pocketbook-inkpad-eo"
     ],
     "pros": [
       {
@@ -12664,9 +12673,9 @@
     ],
     "similar": [
       "pocketbook-era",
-      "pocketbook-inkpad-3",
-      "pocketbook-inkpad-3-pro",
-      "pocketbook-verse"
+      "pocketbook-verse",
+      "pocketbook-basic-lux-4",
+      "pocketbook-era-lite"
     ],
     "pros": [
       {
@@ -13917,7 +13926,7 @@
       "hisense-hi-reader-pro",
       "hisense-a7",
       "hisense-a9",
-      "hisense-a6l"
+      "hisense-a7-cc"
     ],
     "pros": [
       {
@@ -13995,7 +14004,7 @@
       "hisense-hi-reader",
       "hisense-a7",
       "hisense-a9",
-      "hisense-a6l"
+      "hisense-a7-cc"
     ],
     "pros": [
       {
@@ -14162,7 +14171,7 @@
       "hisense-hi-reader",
       "hisense-hi-reader-pro",
       "hisense-a9",
-      "hisense-a6l"
+      "hisense-a7-cc"
     ],
     "pros": [
       {
@@ -14944,7 +14953,7 @@
       "geniatech-kloudnote-s",
       "geniatech-kloudnote-slim",
       "moaan-inkpalm-5-mini-pro",
-      "boox-note-s"
+      "moaan-inkpalm-5-mini-gen-2"
     ],
     "pros": [
       {
@@ -16255,9 +16264,9 @@
     ],
     "similar": [
       "boox-poke-2",
-      "boox-poke",
-      "boox-poke-pro",
-      "boox-poke-3"
+      "boox-poke-3",
+      "boox-leaf-2",
+      "boox-poke-5"
     ],
     "pros": [
       {
@@ -16827,9 +16836,9 @@
     ],
     "similar": [
       "hisense-a5-pro",
-      "hisense-a5",
       "moaan-inkpalm-5-mini-gen-2",
-      "nook-glowlight-4e"
+      "nook-glowlight-4e",
+      "bigme-hibreak-bw"
     ],
     "pros": [
       {
@@ -17486,6 +17495,7 @@
     "bluetoothVersion": "No Bluetooth",
     "priceCategory": "Mid-Range",
     "sizeCategory": "Medium",
+    "ratingCategory": "staffPick",
     "categories": [
       "Mid-Range",
       "Medium"
@@ -17663,9 +17673,9 @@
     ],
     "similar": [
       "boox-max-lumi",
-      "boox-max-2-pro",
-      "boox-max-3",
-      "boox-tab-x"
+      "boox-tab-x",
+      "boox-note-max",
+      "boox-tab-x-c"
     ],
     "pros": [
       {
@@ -17936,9 +17946,9 @@
     ],
     "similar": [
       "boox-note-3",
-      "boox-note",
-      "boox-note-pro",
-      "boox-note-2"
+      "boox-note-air-2",
+      "boox-note-air",
+      "boox-note-air-2-plus"
     ],
     "pros": [
       {
@@ -18209,9 +18219,9 @@
     ],
     "similar": [
       "ratta-supernote-a6-x2-nomad",
-      "ratta-supernote-a6-agile",
       "boox-nova-air",
-      "kobo-sage"
+      "kobo-sage",
+      "bemi-cognita-tab-8"
     ],
     "pros": [
       {
@@ -19230,6 +19240,7 @@
     "bluetoothVersion": "No Bluetooth",
     "priceCategory": "Mid-Range",
     "sizeCategory": "Medium",
+    "ratingCategory": "staffPick",
     "categories": [
       "Mid-Range",
       "Medium"
@@ -19581,9 +19592,9 @@
     ],
     "similar": [
       "boox-note-5",
-      "boox-note",
-      "boox-note-pro",
-      "boox-note-2"
+      "boox-note-air",
+      "boox-note-air-2",
+      "boox-note-air-2-plus"
     ],
     "pros": [
       {
@@ -19764,9 +19775,9 @@
     ],
     "similar": [
       "boox-max-lumi-2",
-      "boox-max-2-pro",
-      "boox-max-3",
-      "boox-tab-x"
+      "boox-tab-x",
+      "boox-note-max",
+      "boox-tab-x-c"
     ],
     "pros": [
       {
@@ -19942,8 +19953,8 @@
     "similar": [
       "boox-poke-3",
       "boox-poke-4-lite",
-      "boox-poke",
-      "boox-poke-pro"
+      "boox-poke-5",
+      "boox-go-6"
     ],
     "pros": [
       {
@@ -20110,8 +20121,8 @@
     "similar": [
       "boox-note-3",
       "boox-note-5",
-      "boox-note",
-      "boox-note-pro"
+      "pocketbook-inkpad-x-pro",
+      "kobo-elipsa"
     ],
     "pros": [
       {
@@ -20198,10 +20209,10 @@
       "Medium"
     ],
     "similar": [
-      "pocketbook-basic-lux-2",
-      "pocketbook-touch-lux-4",
       "pocketbook-touch-lux-5",
-      "pocketbook-basic-lux-3"
+      "pocketbook-basic-lux-3",
+      "pocketbook-verse",
+      "pocketbook-basic-lux-4"
     ],
     "pros": [
       {
@@ -20453,9 +20464,9 @@
     ],
     "similar": [
       "hisense-a7-cc",
-      "hisense-a6l",
       "boox-palma-2-pro",
-      "bigme-hibreak-dual-color"
+      "bigme-hibreak-dual-color",
+      "hisense-a9"
     ],
     "pros": [
       {
@@ -20529,10 +20540,10 @@
       "Medium"
     ],
     "similar": [
-      "hisense-a5",
       "hisense-a5c",
       "moaan-inkpalm-plus",
-      "bigme-hibreak-bw"
+      "bigme-hibreak-bw",
+      "bigme-hibreak-s-bw"
     ],
     "pros": [
       {
@@ -20606,7 +20617,7 @@
       "hisense-a5-pro",
       "bigme-hibreak-color",
       "bigme-hibreak-s-color",
-      "hisense-a5"
+      "bigme-hibreak-bw"
     ],
     "pros": [
       {
@@ -20961,543 +20972,6 @@
     ]
   },
   {
-    "id": "boox-max-3",
-    "brand": "Boox",
-    "name": "Boox Max 3",
-    "fullName": "Boox Max 3",
-    "releaseDate": "2019",
-    "price": 859.99,
-    "screenSize": 13.3,
-    "resolution": "1650 x 2200",
-    "screenType": "E Ink Mobius Carta",
-    "operatingSystem": "Android",
-    "dimensions": "228 x 310 x 6.8",
-    "weight": 490,
-    "cpu": "2.0 GHz octa core",
-    "storage": "64 GB",
-    "ram": "4 GB",
-    "battery": "4300 mAh",
-    "aspectRatio": "3:4",
-    "screenLight": false,
-    "warmLight": false,
-    "colorDisplay": false,
-    "darkMode": true,
-    "wifi": true,
-    "bluetooth": true,
-    "sdCard": false,
-    "usbc": true,
-    "mobileData": false,
-    "speakers": true,
-    "browser": true,
-    "textToSpeech": true,
-    "waterproof": false,
-    "touchscreen": true,
-    "pageTurnButtons": true,
-    "automaticRotation": false,
-    "stylusSupport": true,
-    "audioOutput": true,
-    "wirelessCharging": false,
-    "cloudStorage": true,
-    "email": true,
-    "availability": "Discontinued",
-    "dimensionsH": 310,
-    "dimensionsL": 228,
-    "dimensionsW": 6.8,
-    "pixelDensity": 207,
-    "wifiVersion": "No WiFi",
-    "bluetoothVersion": "No Bluetooth",
-    "priceCategory": "High-End",
-    "sizeCategory": "Large",
-    "categories": [
-      "High-End",
-      "Large"
-    ],
-    "similar": [
-      "boox-max-2-pro",
-      "boox-max-lumi",
-      "boox-max-lumi-2",
-      "boox-tab-x"
-    ],
-    "pros": [
-      {
-        "text": "Physical page turn buttons"
-      },
-      {
-        "text": "Stylus support is great for annotations and note-taking"
-      },
-      {
-        "text": "Big 4300 mAh battery, weeks of reading on a single charge"
-      },
-      {
-        "text": "Large 13.3\" screen, ideal for PDFs and comics"
-      },
-      {
-        "text": "Bluetooth support enables connecting accessories"
-      },
-      {
-        "text": "WiFi support makes it easier to access your content"
-      }
-    ],
-    "cons": [
-      {
-        "text": "Low resolution screen, text is as sharp as on some other devices"
-      },
-      {
-        "text": "No front light, requires external lighting to read in the dark"
-      },
-      {
-        "text": "Heavy device at 490g"
-      },
-      {
-        "text": "No expandable storage"
-      }
-    ]
-  },
-  {
-    "id": "boox-note-2",
-    "brand": "Boox",
-    "name": "Boox Note 2",
-    "fullName": "Boox Note 2",
-    "releaseDate": "2019",
-    "price": 499.99,
-    "screenSize": 10.3,
-    "resolution": "1404 x 1872",
-    "screenType": "E Ink Mobius Carta",
-    "operatingSystem": "Android",
-    "dimensions": "177.8 x 249.5 x 7.1",
-    "weight": 378,
-    "cpu": "2.0 GHz octa core",
-    "storage": "64 GB",
-    "ram": "4 GB",
-    "battery": "4300 mAh",
-    "aspectRatio": "3:4",
-    "screenLight": true,
-    "warmLight": true,
-    "colorDisplay": false,
-    "darkMode": true,
-    "wifi": true,
-    "bluetooth": true,
-    "sdCard": false,
-    "usbc": true,
-    "mobileData": false,
-    "speakers": true,
-    "browser": true,
-    "textToSpeech": true,
-    "waterproof": false,
-    "touchscreen": true,
-    "pageTurnButtons": true,
-    "automaticRotation": false,
-    "stylusSupport": true,
-    "audioOutput": false,
-    "wirelessCharging": false,
-    "cloudStorage": true,
-    "email": true,
-    "availability": "Discontinued",
-    "dimensionsH": 249.5,
-    "dimensionsL": 177.8,
-    "dimensionsW": 7.1,
-    "pixelDensity": 227,
-    "wifiVersion": "No WiFi",
-    "bluetoothVersion": "No Bluetooth",
-    "priceCategory": "High-End",
-    "sizeCategory": "Medium",
-    "categories": [
-      "High-End",
-      "Medium"
-    ],
-    "similar": [
-      "boox-note-pro",
-      "boox-note",
-      "boox-note-3",
-      "boox-note-5"
-    ],
-    "pros": [
-      {
-        "text": "Physical page turn buttons"
-      },
-      {
-        "text": "Stylus support is great for annotations and note-taking"
-      },
-      {
-        "text": "Big 4300 mAh battery, weeks of reading on a single charge"
-      },
-      {
-        "text": "Front light lets you read comfortably in the dark"
-      },
-      {
-        "text": "Big screen makes reading easier, especially for documents and illustrated content"
-      },
-      {
-        "text": "Bluetooth support enables connecting accessories"
-      },
-      {
-        "text": "WiFi support makes it easier to access your content"
-      }
-    ],
-    "cons": [
-      {
-        "text": "Heavy device at 378g"
-      },
-      {
-        "text": "No SD card slot, limited to built-in storage"
-      }
-    ]
-  },
-  {
-    "id": "boox-nova-pro",
-    "brand": "Boox",
-    "name": "Boox Nova Pro",
-    "fullName": "Boox Nova Pro",
-    "releaseDate": "2019",
-    "price": 299.99,
-    "screenSize": 7.8,
-    "resolution": "1404 x 1872",
-    "screenType": "E Ink Carta HD",
-    "operatingSystem": "Android",
-    "dimensions": "137 x 196.3 x 7.7",
-    "weight": 275,
-    "cpu": "1.6 GHz quad core",
-    "storage": "32 GB",
-    "ram": "2 GB",
-    "battery": "2800 mAh",
-    "aspectRatio": "3:4",
-    "screenLight": true,
-    "warmLight": true,
-    "colorDisplay": false,
-    "darkMode": true,
-    "wifi": true,
-    "bluetooth": true,
-    "sdCard": false,
-    "usbc": true,
-    "mobileData": false,
-    "speakers": true,
-    "browser": true,
-    "textToSpeech": true,
-    "waterproof": false,
-    "touchscreen": true,
-    "pageTurnButtons": true,
-    "automaticRotation": false,
-    "stylusSupport": true,
-    "audioOutput": false,
-    "wirelessCharging": false,
-    "cloudStorage": true,
-    "email": true,
-    "availability": "Discontinued",
-    "dimensionsH": 196.3,
-    "dimensionsL": 137,
-    "dimensionsW": 7.7,
-    "pixelDensity": 300,
-    "wifiVersion": "No WiFi",
-    "bluetoothVersion": "No Bluetooth",
-    "priceCategory": "Mid-Range",
-    "sizeCategory": "Medium",
-    "categories": [
-      "Mid-Range",
-      "Medium"
-    ],
-    "similar": [
-      "boox-nova",
-      "nook-glowlight-plus-78",
-      "boox-nova-2",
-      "boox-nova-3"
-    ],
-    "pros": [
-      {
-        "text": "High resolution display"
-      },
-      {
-        "text": "Physical page turn buttons"
-      },
-      {
-        "text": "Stylus support is great for annotations and note-taking"
-      },
-      {
-        "text": "Good 2800 mAh battery for everyday use"
-      },
-      {
-        "text": "Front light lets you read comfortably in the dark"
-      },
-      {
-        "text": "Bluetooth support enables connecting accessories"
-      },
-      {
-        "text": "WiFi support makes it easier to access your content"
-      }
-    ],
-    "cons": [
-      {
-        "text": "No SD card slot, limited to built-in storage"
-      }
-    ]
-  },
-  {
-    "id": "boox-note-pro",
-    "brand": "Boox",
-    "name": "Boox Note Pro",
-    "fullName": "Boox Note Pro",
-    "releaseDate": "2019",
-    "price": 599.99,
-    "screenSize": 10.3,
-    "resolution": "1404 x 1872",
-    "screenType": "E Ink Mobius Carta",
-    "operatingSystem": "Android",
-    "dimensions": "178.8 x 249.5 x 6.8",
-    "weight": 390,
-    "cpu": "1.6 GHz quad core",
-    "storage": "64 GB",
-    "ram": "4 GB",
-    "battery": "4100 mAh",
-    "aspectRatio": "3:4",
-    "screenLight": true,
-    "warmLight": true,
-    "colorDisplay": false,
-    "darkMode": true,
-    "wifi": true,
-    "bluetooth": true,
-    "sdCard": false,
-    "usbc": true,
-    "mobileData": false,
-    "speakers": true,
-    "browser": true,
-    "textToSpeech": true,
-    "waterproof": false,
-    "touchscreen": true,
-    "pageTurnButtons": true,
-    "automaticRotation": false,
-    "stylusSupport": true,
-    "audioOutput": false,
-    "wirelessCharging": false,
-    "cloudStorage": true,
-    "email": true,
-    "availability": "Discontinued",
-    "dimensionsH": 249.5,
-    "dimensionsL": 178.8,
-    "dimensionsW": 6.8,
-    "pixelDensity": 227,
-    "wifiVersion": "No WiFi",
-    "bluetoothVersion": "No Bluetooth",
-    "priceCategory": "High-End",
-    "sizeCategory": "Medium",
-    "categories": [
-      "High-End",
-      "Medium"
-    ],
-    "similar": [
-      "boox-note-2",
-      "boox-note",
-      "boox-note-3",
-      "boox-note-5"
-    ],
-    "pros": [
-      {
-        "text": "Physical page turn buttons"
-      },
-      {
-        "text": "Stylus support is great for annotations and note-taking"
-      },
-      {
-        "text": "Big 4100 mAh battery, weeks of reading on a single charge"
-      },
-      {
-        "text": "Front light lets you read comfortably in the dark"
-      },
-      {
-        "text": "Big screen makes reading easier, especially for documents and illustrated content"
-      },
-      {
-        "text": "Bluetooth support enables connecting accessories"
-      },
-      {
-        "text": "WiFi support makes it easier to access your content"
-      }
-    ],
-    "cons": [
-      {
-        "text": "Heavy device at 390g"
-      },
-      {
-        "text": "No SD card slot, limited to built-in storage"
-      }
-    ]
-  },
-  {
-    "id": "ratta-supernote-a6-agile",
-    "brand": "Ratta",
-    "name": "Ratta Supernote A6 Agile",
-    "fullName": "Ratta Supernote A6 Agile",
-    "releaseDate": "2019",
-    "price": 399,
-    "screenSize": 7.8,
-    "resolution": "1404 x 1872",
-    "screenType": "E Ink",
-    "operatingSystem": "Linux",
-    "dimensions": "138 x 188 x 7.2",
-    "weight": 245,
-    "cpu": "1 GHz",
-    "storage": "32 GB",
-    "ram": "1 GB",
-    "battery": "2500 mAh",
-    "aspectRatio": "3:4",
-    "screenLight": false,
-    "warmLight": false,
-    "colorDisplay": false,
-    "darkMode": false,
-    "wifi": true,
-    "bluetooth": false,
-    "sdCard": false,
-    "usbc": true,
-    "mobileData": false,
-    "speakers": false,
-    "browser": false,
-    "textToSpeech": false,
-    "waterproof": false,
-    "touchscreen": true,
-    "pageTurnButtons": true,
-    "automaticRotation": false,
-    "stylusSupport": true,
-    "audioOutput": false,
-    "wirelessCharging": false,
-    "cloudStorage": false,
-    "email": true,
-    "availability": "Discontinued",
-    "dimensionsH": 188,
-    "dimensionsL": 138,
-    "dimensionsW": 7.2,
-    "pixelDensity": 300,
-    "wifiVersion": "No WiFi",
-    "bluetoothVersion": "No Bluetooth",
-    "priceCategory": "Mid-Range",
-    "sizeCategory": "Medium",
-    "categories": [
-      "Mid-Range",
-      "Medium"
-    ],
-    "similar": [
-      "pocketbook-inkpad-3-pro",
-      "pocketbook-inkpad-3",
-      "pocketbook-touch-hd-3",
-      "vivlio-inkpad-4"
-    ],
-    "pros": [
-      {
-        "text": "Sharp text thanks to the 300 PPI screen"
-      },
-      {
-        "text": "Physical page turn buttons"
-      },
-      {
-        "text": "Stylus support is great for annotations and note-taking"
-      },
-      {
-        "text": "Good 2500 mAh battery for everyday use"
-      },
-      {
-        "text": "WiFi support makes it easier to access your content"
-      }
-    ],
-    "cons": [
-      {
-        "text": "No front light, requires external lighting to read in the dark"
-      },
-      {
-        "text": "No expandable storage"
-      },
-      {
-        "text": "No Bluetooth, can't connect wireless headphones for audiobooks"
-      }
-    ]
-  },
-  {
-    "id": "ratta-supernote-a5-agile",
-    "brand": "Ratta",
-    "name": "Ratta Supernote A5 Agile",
-    "fullName": "Ratta Supernote A5 Agile",
-    "releaseDate": "2019",
-    "price": 599,
-    "screenSize": 10.3,
-    "resolution": "1404 x 1872",
-    "screenType": "E Ink",
-    "operatingSystem": "Linux",
-    "dimensions": "178 x 245 x 7",
-    "weight": 366,
-    "cpu": "1 GHz",
-    "storage": "32 GB",
-    "ram": "1 GB",
-    "battery": "2850 mAh",
-    "aspectRatio": "3:4",
-    "screenLight": false,
-    "warmLight": false,
-    "colorDisplay": false,
-    "darkMode": false,
-    "wifi": true,
-    "bluetooth": false,
-    "sdCard": false,
-    "usbc": true,
-    "mobileData": false,
-    "speakers": false,
-    "browser": false,
-    "textToSpeech": false,
-    "waterproof": false,
-    "touchscreen": true,
-    "pageTurnButtons": true,
-    "automaticRotation": false,
-    "stylusSupport": true,
-    "audioOutput": false,
-    "wirelessCharging": false,
-    "cloudStorage": false,
-    "email": true,
-    "availability": "Discontinued",
-    "dimensionsH": 245,
-    "dimensionsL": 178,
-    "dimensionsW": 7,
-    "pixelDensity": 227,
-    "wifiVersion": "No WiFi",
-    "bluetoothVersion": "No Bluetooth",
-    "priceCategory": "High-End",
-    "sizeCategory": "Medium",
-    "categories": [
-      "High-End",
-      "Medium"
-    ],
-    "similar": [
-      "pocketbook-inkpad-x",
-      "ratta-supernote-a5-x",
-      "boox-note-pro",
-      "boox-note-2"
-    ],
-    "pros": [
-      {
-        "text": "Physical page turn buttons"
-      },
-      {
-        "text": "Stylus support is great for annotations and note-taking"
-      },
-      {
-        "text": "Good 2850 mAh battery for everyday use"
-      },
-      {
-        "text": "Large 10.3\" screen, ideal for PDFs and comics"
-      },
-      {
-        "text": "WiFi support makes it easier to access your content"
-      }
-    ],
-    "cons": [
-      {
-        "text": "No front light, requires external lighting to read in the dark"
-      },
-      {
-        "text": "Heavy device at 366g"
-      },
-      {
-        "text": "No expandable storage"
-      },
-      {
-        "text": "No Bluetooth, can't connect wireless headphones for audiobooks"
-      }
-    ]
-  },
-  {
     "id": "nook-glowlight-plus-78",
     "brand": "Nook",
     "name": "Nook GlowLight Plus 7.8",
@@ -21550,10 +21024,10 @@
       "Medium"
     ],
     "similar": [
-      "boox-nova-pro",
-      "boox-nova",
       "nook-glowlight-plus",
-      "nook-glowlight-3"
+      "nook-glowlight-3",
+      "nook-glowlight-4-plus",
+      "meebook-p78-pro"
     ],
     "pros": [
       {
@@ -21577,406 +21051,6 @@
         "text": "No expandable storage"
       }
     ]
-  },
-  {
-    "id": "pocketbook-inkpad-x",
-    "brand": "PocketBook",
-    "name": "PocketBook InkPad X",
-    "fullName": "PocketBook InkPad X",
-    "releaseDate": "2019",
-    "price": 419.99,
-    "screenSize": 10.3,
-    "resolution": "1404 x 1872",
-    "screenType": "E Ink Mobius Carta",
-    "operatingSystem": "Linux",
-    "dimensions": "173.4 x 249.2 x 7.7",
-    "weight": 300,
-    "cpu": "1 GHz dual core",
-    "storage": "32 GB",
-    "ram": "1 GB",
-    "battery": "2000 mAh",
-    "aspectRatio": "3:4",
-    "screenLight": true,
-    "warmLight": true,
-    "colorDisplay": false,
-    "darkMode": true,
-    "wifi": true,
-    "bluetooth": true,
-    "sdCard": false,
-    "usbc": true,
-    "mobileData": false,
-    "speakers": true,
-    "browser": true,
-    "textToSpeech": true,
-    "waterproof": false,
-    "touchscreen": true,
-    "pageTurnButtons": true,
-    "automaticRotation": true,
-    "stylusSupport": false,
-    "audioOutput": false,
-    "wirelessCharging": false,
-    "cloudStorage": true,
-    "email": false,
-    "availability": "Discontinued",
-    "dimensionsH": 249.2,
-    "dimensionsL": 173.4,
-    "dimensionsW": 7.7,
-    "pixelDensity": 227,
-    "wifiVersion": "No WiFi",
-    "bluetoothVersion": "No Bluetooth",
-    "priceCategory": "High-End",
-    "sizeCategory": "Medium",
-    "categories": [
-      "High-End",
-      "Medium"
-    ],
-    "similar": [
-      "pocketbook-inkpad-x-pro",
-      "boox-note-pro",
-      "boox-note-2",
-      "ratta-supernote-a5-agile"
-    ],
-    "pros": [
-      {
-        "text": "Physical page turn buttons"
-      },
-      {
-        "text": "Good 2000 mAh battery for everyday use"
-      },
-      {
-        "text": "Front light lets you read comfortably in the dark"
-      },
-      {
-        "text": "Big screen makes reading easier, especially for documents and illustrated content"
-      },
-      {
-        "text": "Bluetooth support enables connecting accessories"
-      },
-      {
-        "text": "WiFi support makes it easier to access your content"
-      }
-    ],
-    "cons": [
-      {
-        "text": "No SD card slot, limited to built-in storage"
-      }
-    ]
-  },
-  {
-    "id": "pocketbook-touch-hd-3",
-    "brand": "PocketBook",
-    "name": "PocketBook Touch HD 3",
-    "fullName": "PocketBook Touch HD 3",
-    "releaseDate": "2019",
-    "price": 149.99,
-    "screenSize": 6,
-    "resolution": "1072 x 1448",
-    "screenType": "E Ink Carta",
-    "operatingSystem": "Linux",
-    "dimensions": "108 x 161.3 x 8",
-    "weight": 155,
-    "cpu": "1 GHz dual core",
-    "storage": "16 GB",
-    "ram": "512 MB",
-    "battery": "1500 mAh",
-    "aspectRatio": "~3:4",
-    "screenLight": true,
-    "warmLight": true,
-    "colorDisplay": false,
-    "darkMode": true,
-    "wifi": true,
-    "bluetooth": true,
-    "sdCard": false,
-    "usbc": false,
-    "mobileData": false,
-    "speakers": true,
-    "browser": true,
-    "textToSpeech": true,
-    "waterproof": true,
-    "touchscreen": true,
-    "pageTurnButtons": true,
-    "automaticRotation": true,
-    "stylusSupport": false,
-    "audioOutput": false,
-    "wirelessCharging": false,
-    "cloudStorage": true,
-    "email": false,
-    "availability": "Discontinued",
-    "dimensionsH": 161.3,
-    "dimensionsL": 108,
-    "dimensionsW": 8,
-    "pixelDensity": 300,
-    "wifiVersion": "No WiFi",
-    "bluetoothVersion": "No Bluetooth",
-    "priceCategory": "Mid-Range",
-    "sizeCategory": "Medium",
-    "categories": [
-      "Mid-Range",
-      "Medium"
-    ],
-    "similar": [
-      "pocketbook-touch-hd-2",
-      "pocketbook-touch-lux-5",
-      "pocketbook-basic-lux-3",
-      "pocketbook-verse"
-    ],
-    "pros": [
-      {
-        "text": "High resolution display"
-      },
-      {
-        "text": "Physical page turn buttons"
-      },
-      {
-        "text": "Front light lets you read comfortably in the dark"
-      },
-      {
-        "text": "Bluetooth support enables connecting accessories"
-      },
-      {
-        "text": "WiFi support makes it easier to access your content"
-      }
-    ],
-    "cons": [
-      {
-        "text": "No SD card slot, limited to built-in storage"
-      }
-    ]
-  },
-  {
-    "id": "pocketbook-inkpad-3-pro",
-    "brand": "PocketBook",
-    "name": "PocketBook InkPad 3 Pro",
-    "fullName": "PocketBook InkPad 3 Pro",
-    "releaseDate": "2019",
-    "price": 219.99,
-    "screenSize": 7.8,
-    "resolution": "1404 x 1872",
-    "screenType": "E Ink Carta",
-    "operatingSystem": "Linux",
-    "dimensions": "136.5 x 195 x 8",
-    "weight": 225,
-    "cpu": "1 GHz dual core",
-    "storage": "16 GB",
-    "ram": "1 GB",
-    "battery": "1900 mAh",
-    "aspectRatio": "3:4",
-    "screenLight": true,
-    "warmLight": true,
-    "colorDisplay": false,
-    "darkMode": true,
-    "wifi": true,
-    "bluetooth": true,
-    "sdCard": false,
-    "usbc": false,
-    "mobileData": false,
-    "speakers": true,
-    "browser": true,
-    "textToSpeech": true,
-    "waterproof": true,
-    "touchscreen": true,
-    "pageTurnButtons": true,
-    "automaticRotation": true,
-    "stylusSupport": false,
-    "audioOutput": false,
-    "wirelessCharging": false,
-    "cloudStorage": true,
-    "email": false,
-    "availability": "Discontinued",
-    "dimensionsH": 195,
-    "dimensionsL": 136.5,
-    "dimensionsW": 8,
-    "pixelDensity": 300,
-    "wifiVersion": "No WiFi",
-    "bluetoothVersion": "No Bluetooth",
-    "priceCategory": "Mid-Range",
-    "sizeCategory": "Medium",
-    "categories": [
-      "Mid-Range",
-      "Medium"
-    ],
-    "similar": [
-      "pocketbook-inkpad-3",
-      "pocketbook-touch-hd-3",
-      "pocketbook-inkpad-4",
-      "pocketbook-touch-hd-2"
-    ],
-    "pros": [
-      {
-        "text": "High resolution display"
-      },
-      {
-        "text": "Physical page turn buttons"
-      },
-      {
-        "text": "Good 1900 mAh battery for everyday use"
-      },
-      {
-        "text": "Front light lets you read comfortably in the dark"
-      },
-      {
-        "text": "Bluetooth support enables connecting accessories"
-      },
-      {
-        "text": "WiFi support makes it easier to access your content"
-      }
-    ],
-    "cons": [
-      {
-        "text": "No SD card slot, limited to built-in storage"
-      }
-    ]
-  },
-  {
-    "id": "hisense-a5",
-    "brand": "Hisense",
-    "name": "Hisense A5",
-    "fullName": "Hisense A5",
-    "releaseDate": "2019",
-    "price": 299,
-    "screenSize": 5.84,
-    "resolution": "720 x 1440",
-    "screenType": "E Ink Carta HD",
-    "operatingSystem": "Android",
-    "dimensions": null,
-    "weight": 15.41,
-    "cpu": "4000 MB",
-    "storage": "32 GB",
-    "ram": "64 GB",
-    "battery": "❌",
-    "aspectRatio": "1:2",
-    "screenLight": true,
-    "warmLight": false,
-    "colorDisplay": false,
-    "darkMode": true,
-    "wifi": true,
-    "bluetooth": true,
-    "sdCard": true,
-    "usbc": false,
-    "mobileData": true,
-    "speakers": true,
-    "browser": true,
-    "textToSpeech": true,
-    "waterproof": true,
-    "touchscreen": true,
-    "pageTurnButtons": true,
-    "automaticRotation": true,
-    "stylusSupport": false,
-    "audioOutput": true,
-    "wirelessCharging": false,
-    "cloudStorage": true,
-    "email": true,
-    "availability": "Available",
-    "pixelDensity": 276,
-    "wifiVersion": "No WiFi",
-    "bluetoothVersion": "No Bluetooth",
-    "priceCategory": "Mid-Range",
-    "sizeCategory": "Medium",
-    "categories": [
-      "Mid-Range",
-      "Medium"
-    ],
-    "similar": [
-      "hisense-a5-pro",
-      "moaan-inkpalm-plus",
-      "hisense-a5c",
-      "boox-nova-pro"
-    ],
-    "pros": [
-      {
-        "text": "Physical page turn buttons"
-      },
-      {
-        "text": "Expandable storage via SD card"
-      },
-      {
-        "text": "Adjustable front light for comfortable reading in any lighting"
-      },
-      {
-        "text": "Bluetooth support enables connecting accessories"
-      },
-      {
-        "text": "WiFi support makes it easier to access your content"
-      }
-    ],
-    "cons": []
-  },
-  {
-    "id": "hisense-a6l",
-    "brand": "Hisense",
-    "name": "Hisense A6L",
-    "fullName": "Hisense A6L",
-    "releaseDate": "2019",
-    "price": 499,
-    "screenSize": 5.84,
-    "resolution": "720 x 1440",
-    "screenType": "E Ink Carta HD",
-    "operatingSystem": "Android",
-    "dimensions": null,
-    "weight": 16.36,
-    "cpu": "6000 MB",
-    "storage": "64 GB",
-    "ram": "128 GB",
-    "battery": "❌",
-    "aspectRatio": "1:2",
-    "screenLight": true,
-    "warmLight": false,
-    "colorDisplay": true,
-    "darkMode": true,
-    "wifi": true,
-    "bluetooth": true,
-    "sdCard": true,
-    "usbc": false,
-    "mobileData": true,
-    "speakers": true,
-    "browser": true,
-    "textToSpeech": true,
-    "waterproof": true,
-    "touchscreen": true,
-    "pageTurnButtons": true,
-    "automaticRotation": true,
-    "stylusSupport": false,
-    "audioOutput": true,
-    "wirelessCharging": false,
-    "cloudStorage": true,
-    "email": true,
-    "availability": "Available",
-    "pixelDensity": 276,
-    "wifiVersion": "No WiFi",
-    "bluetoothVersion": "No Bluetooth",
-    "priceCategory": "High-End",
-    "sizeCategory": "Medium",
-    "categories": [
-      "High-End",
-      "Medium"
-    ],
-    "similar": [
-      "hisense-a7",
-      "hisense-a5-pro-cc",
-      "hisense-a9",
-      "hisense-hi-reader-pro"
-    ],
-    "pros": [
-      {
-        "text": "Color screen is great for comics, magazines, and illustrated books"
-      },
-      {
-        "text": "Physical page turn buttons"
-      },
-      {
-        "text": "Expandable storage via SD card"
-      },
-      {
-        "text": "Front light lets you read comfortably in the dark"
-      },
-      {
-        "text": "Bluetooth support enables connecting accessories"
-      },
-      {
-        "text": "WiFi support makes it easier to access your content"
-      }
-    ],
-    "cons": []
   },
   {
     "id": "kindle-paperwhite-4",
@@ -22216,861 +21290,6 @@
     ]
   },
   {
-    "id": "boox-poke-pro",
-    "brand": "Boox",
-    "name": "Boox Poke Pro",
-    "fullName": "Boox Poke Pro",
-    "releaseDate": "2018",
-    "price": 179.99,
-    "screenSize": 6,
-    "resolution": "1072 x 1448",
-    "screenType": "E Ink Carta",
-    "operatingSystem": "Android",
-    "dimensions": "114 x 160 x 7.8",
-    "weight": 175,
-    "cpu": "1.6 GHz quad core",
-    "storage": "16 GB",
-    "ram": "2 GB",
-    "battery": "2500 mAh",
-    "aspectRatio": "~3:4",
-    "screenLight": true,
-    "warmLight": true,
-    "colorDisplay": false,
-    "darkMode": true,
-    "wifi": true,
-    "bluetooth": true,
-    "sdCard": false,
-    "usbc": false,
-    "mobileData": false,
-    "speakers": true,
-    "browser": true,
-    "textToSpeech": true,
-    "waterproof": false,
-    "touchscreen": true,
-    "pageTurnButtons": true,
-    "automaticRotation": false,
-    "stylusSupport": false,
-    "audioOutput": false,
-    "wirelessCharging": false,
-    "cloudStorage": true,
-    "email": true,
-    "availability": "Discontinued",
-    "dimensionsH": 160,
-    "dimensionsL": 114,
-    "dimensionsW": 7.8,
-    "pixelDensity": 300,
-    "wifiVersion": "No WiFi",
-    "bluetoothVersion": "No Bluetooth",
-    "priceCategory": "Mid-Range",
-    "sizeCategory": "Medium",
-    "categories": [
-      "Mid-Range",
-      "Medium"
-    ],
-    "similar": [
-      "boox-poke",
-      "boox-poke-2",
-      "boox-poke-4-lite",
-      "boox-nova"
-    ],
-    "pros": [
-      {
-        "text": "High resolution display"
-      },
-      {
-        "text": "Physical page turn buttons"
-      },
-      {
-        "text": "Good 2500 mAh battery for everyday use"
-      },
-      {
-        "text": "Front light lets you read comfortably in the dark"
-      },
-      {
-        "text": "Bluetooth support enables connecting accessories"
-      },
-      {
-        "text": "WiFi support makes it easier to access your content"
-      }
-    ],
-    "cons": [
-      {
-        "text": "No SD card slot, limited to built-in storage"
-      }
-    ]
-  },
-  {
-    "id": "boox-poke",
-    "brand": "Boox",
-    "name": "Boox Poke",
-    "fullName": "Boox Poke",
-    "releaseDate": "2018",
-    "price": 169.99,
-    "screenSize": 6,
-    "resolution": "1072 x 1448",
-    "screenType": "E Ink Carta",
-    "operatingSystem": "Android",
-    "dimensions": "114 x 160 x 7.8",
-    "weight": 175,
-    "cpu": "1.2 GHz quad core",
-    "storage": "8 GB",
-    "ram": "1 GB",
-    "battery": "2500 mAh",
-    "aspectRatio": "~3:4",
-    "screenLight": true,
-    "warmLight": true,
-    "colorDisplay": false,
-    "darkMode": true,
-    "wifi": true,
-    "bluetooth": true,
-    "sdCard": false,
-    "usbc": false,
-    "mobileData": false,
-    "speakers": true,
-    "browser": true,
-    "textToSpeech": true,
-    "waterproof": false,
-    "touchscreen": true,
-    "pageTurnButtons": true,
-    "automaticRotation": false,
-    "stylusSupport": false,
-    "audioOutput": false,
-    "wirelessCharging": false,
-    "cloudStorage": true,
-    "email": true,
-    "availability": "Discontinued",
-    "dimensionsH": 160,
-    "dimensionsL": 114,
-    "dimensionsW": 7.8,
-    "pixelDensity": 300,
-    "wifiVersion": "No WiFi",
-    "bluetoothVersion": "No Bluetooth",
-    "priceCategory": "Mid-Range",
-    "sizeCategory": "Medium",
-    "categories": [
-      "Mid-Range",
-      "Medium"
-    ],
-    "similar": [
-      "boox-poke-pro",
-      "boox-poke-2",
-      "boox-poke-4-lite",
-      "boox-nova"
-    ],
-    "pros": [
-      {
-        "text": "High resolution display"
-      },
-      {
-        "text": "Physical page turn buttons"
-      },
-      {
-        "text": "Good 2500 mAh battery for everyday use"
-      },
-      {
-        "text": "Front light lets you read comfortably in the dark"
-      },
-      {
-        "text": "Bluetooth support enables connecting accessories"
-      },
-      {
-        "text": "WiFi support makes it easier to access your content"
-      }
-    ],
-    "cons": [
-      {
-        "text": "No SD card slot, limited to built-in storage"
-      }
-    ]
-  },
-  {
-    "id": "boox-nova",
-    "brand": "Boox",
-    "name": "Boox Nova",
-    "fullName": "Boox Nova",
-    "releaseDate": "2018",
-    "price": 269.99,
-    "screenSize": 7.8,
-    "resolution": "1404 x 1872",
-    "screenType": "E Ink Carta",
-    "operatingSystem": "Android",
-    "dimensions": "137 x 196.3 x 7.7",
-    "weight": 240,
-    "cpu": "1.6 GHz quad core",
-    "storage": "32 GB",
-    "ram": "2 GB",
-    "battery": "2800 mAh",
-    "aspectRatio": "3:4",
-    "screenLight": true,
-    "warmLight": true,
-    "colorDisplay": false,
-    "darkMode": true,
-    "wifi": true,
-    "bluetooth": true,
-    "sdCard": false,
-    "usbc": true,
-    "mobileData": false,
-    "speakers": true,
-    "browser": true,
-    "textToSpeech": true,
-    "waterproof": false,
-    "touchscreen": true,
-    "pageTurnButtons": true,
-    "automaticRotation": false,
-    "stylusSupport": false,
-    "audioOutput": false,
-    "wirelessCharging": false,
-    "cloudStorage": true,
-    "email": true,
-    "availability": "Discontinued",
-    "dimensionsH": 196.3,
-    "dimensionsL": 137,
-    "dimensionsW": 7.7,
-    "pixelDensity": 300,
-    "wifiVersion": "No WiFi",
-    "bluetoothVersion": "No Bluetooth",
-    "priceCategory": "Mid-Range",
-    "sizeCategory": "Medium",
-    "categories": [
-      "Mid-Range",
-      "Medium"
-    ],
-    "similar": [
-      "boox-nova-pro",
-      "boox-poke",
-      "boox-poke-pro",
-      "boox-nova-2"
-    ],
-    "pros": [
-      {
-        "text": "High resolution display"
-      },
-      {
-        "text": "Physical page turn buttons"
-      },
-      {
-        "text": "Good 2800 mAh battery for everyday use"
-      },
-      {
-        "text": "Front light lets you read comfortably in the dark"
-      },
-      {
-        "text": "Bluetooth support enables connecting accessories"
-      },
-      {
-        "text": "WiFi support makes it easier to access your content"
-      }
-    ],
-    "cons": [
-      {
-        "text": "No SD card slot, limited to built-in storage"
-      }
-    ]
-  },
-  {
-    "id": "boox-note-s",
-    "brand": "Boox",
-    "name": "Boox Note S",
-    "fullName": "Boox Note S",
-    "releaseDate": "2018",
-    "price": 389.99,
-    "screenSize": 9.7,
-    "resolution": "825 x 1200",
-    "screenType": "E Ink Carta",
-    "operatingSystem": "Android",
-    "dimensions": "177 x 249 x 8.2",
-    "weight": 410,
-    "cpu": "1.6 GHz quad core",
-    "storage": "16 GB",
-    "ram": "1 GB",
-    "battery": "3000 mAh",
-    "aspectRatio": "11:16",
-    "screenLight": false,
-    "warmLight": false,
-    "colorDisplay": false,
-    "darkMode": true,
-    "wifi": true,
-    "bluetooth": true,
-    "sdCard": false,
-    "usbc": true,
-    "mobileData": false,
-    "speakers": true,
-    "browser": true,
-    "textToSpeech": true,
-    "waterproof": false,
-    "touchscreen": true,
-    "pageTurnButtons": true,
-    "automaticRotation": false,
-    "stylusSupport": true,
-    "audioOutput": false,
-    "wirelessCharging": false,
-    "cloudStorage": true,
-    "email": true,
-    "availability": "Discontinued",
-    "dimensionsH": 249,
-    "dimensionsL": 177,
-    "dimensionsW": 8.2,
-    "pixelDensity": 150,
-    "wifiVersion": "No WiFi",
-    "bluetoothVersion": "No Bluetooth",
-    "priceCategory": "Mid-Range",
-    "sizeCategory": "Medium",
-    "categories": [
-      "Mid-Range",
-      "Medium"
-    ],
-    "similar": [
-      "boox-poke",
-      "boox-poke-pro",
-      "boox-nova",
-      "boox-poke-2"
-    ],
-    "pros": [
-      {
-        "text": "Physical page turn buttons"
-      },
-      {
-        "text": "Stylus support is great for annotations and note-taking"
-      },
-      {
-        "text": "Big 3000 mAh battery, weeks of reading on a single charge"
-      },
-      {
-        "text": "Big screen makes reading easier, especially for documents and illustrated content"
-      },
-      {
-        "text": "Bluetooth support enables connecting accessories"
-      },
-      {
-        "text": "WiFi support makes it easier to access your content"
-      }
-    ],
-    "cons": [
-      {
-        "text": "Low resolution screen, text is as sharp as on some other devices"
-      },
-      {
-        "text": "No front light, requires external lighting to read in the dark"
-      },
-      {
-        "text": "Heavy device at 410g"
-      },
-      {
-        "text": "No SD card slot, limited to built-in storage"
-      }
-    ]
-  },
-  {
-    "id": "boox-note",
-    "brand": "Boox",
-    "name": "Boox Note",
-    "fullName": "Boox Note",
-    "releaseDate": "2018",
-    "price": 599.99,
-    "screenSize": 10.3,
-    "resolution": "1404 x 1872",
-    "screenType": "E Ink Mobius Carta",
-    "operatingSystem": "Android",
-    "dimensions": "177.8 x 249.5 x 6.8",
-    "weight": 325,
-    "cpu": "1.6 GHz quad core",
-    "storage": "32 GB",
-    "ram": "2 GB",
-    "battery": "4100 mAh",
-    "aspectRatio": "3:4",
-    "screenLight": false,
-    "warmLight": false,
-    "colorDisplay": false,
-    "darkMode": true,
-    "wifi": true,
-    "bluetooth": true,
-    "sdCard": false,
-    "usbc": true,
-    "mobileData": false,
-    "speakers": true,
-    "browser": true,
-    "textToSpeech": true,
-    "waterproof": false,
-    "touchscreen": true,
-    "pageTurnButtons": true,
-    "automaticRotation": false,
-    "stylusSupport": true,
-    "audioOutput": false,
-    "wirelessCharging": false,
-    "cloudStorage": true,
-    "email": true,
-    "availability": "Discontinued",
-    "dimensionsH": 249.5,
-    "dimensionsL": 177.8,
-    "dimensionsW": 6.8,
-    "pixelDensity": 227,
-    "wifiVersion": "No WiFi",
-    "bluetoothVersion": "No Bluetooth",
-    "priceCategory": "High-End",
-    "sizeCategory": "Medium",
-    "categories": [
-      "High-End",
-      "Medium"
-    ],
-    "similar": [
-      "boox-note-pro",
-      "boox-note-2",
-      "boox-note-3",
-      "boox-note-5"
-    ],
-    "pros": [
-      {
-        "text": "Physical page turn buttons"
-      },
-      {
-        "text": "Stylus support is great for annotations and note-taking"
-      },
-      {
-        "text": "Big 4100 mAh battery, weeks of reading on a single charge"
-      },
-      {
-        "text": "Big screen makes reading easier, especially for documents and illustrated content"
-      },
-      {
-        "text": "Bluetooth support enables connecting accessories"
-      },
-      {
-        "text": "WiFi support makes it easier to access your content"
-      }
-    ],
-    "cons": [
-      {
-        "text": "No front light, requires external lighting to read in the dark"
-      },
-      {
-        "text": "No SD card slot, limited to built-in storage"
-      }
-    ]
-  },
-  {
-    "id": "boox-max-2-pro",
-    "brand": "Boox",
-    "name": "Boox Max 2 Pro",
-    "fullName": "Boox Max 2 Pro",
-    "releaseDate": "2018",
-    "price": 859.99,
-    "screenSize": 13.3,
-    "resolution": "1650 x 2200",
-    "screenType": "E Ink Mobius Carta",
-    "operatingSystem": "Android",
-    "dimensions": "237 x 325 x 7.5",
-    "weight": 550,
-    "cpu": "1.6 GHz quad core",
-    "storage": "64 GB",
-    "ram": "4 GB",
-    "battery": "4100 mAh",
-    "aspectRatio": "3:4",
-    "screenLight": false,
-    "warmLight": false,
-    "colorDisplay": false,
-    "darkMode": true,
-    "wifi": true,
-    "bluetooth": true,
-    "sdCard": false,
-    "usbc": false,
-    "mobileData": false,
-    "speakers": true,
-    "browser": true,
-    "textToSpeech": true,
-    "waterproof": false,
-    "touchscreen": true,
-    "pageTurnButtons": true,
-    "automaticRotation": false,
-    "stylusSupport": true,
-    "audioOutput": true,
-    "wirelessCharging": false,
-    "cloudStorage": true,
-    "email": true,
-    "availability": "Discontinued",
-    "dimensionsH": 325,
-    "dimensionsL": 237,
-    "dimensionsW": 7.5,
-    "pixelDensity": 207,
-    "wifiVersion": "No WiFi",
-    "bluetoothVersion": "No Bluetooth",
-    "priceCategory": "High-End",
-    "sizeCategory": "Large",
-    "categories": [
-      "High-End",
-      "Large"
-    ],
-    "similar": [
-      "boox-max-3",
-      "boox-max-lumi",
-      "boox-max-lumi-2",
-      "boox-tab-x"
-    ],
-    "pros": [
-      {
-        "text": "Physical page turn buttons"
-      },
-      {
-        "text": "Stylus support is great for annotations and note-taking"
-      },
-      {
-        "text": "Big 4100 mAh battery, weeks of reading on a single charge"
-      },
-      {
-        "text": "Large 13.3\" screen, ideal for PDFs and comics"
-      },
-      {
-        "text": "Bluetooth support enables connecting accessories"
-      },
-      {
-        "text": "WiFi support makes it easier to access your content"
-      }
-    ],
-    "cons": [
-      {
-        "text": "Low resolution screen, text is as sharp as on some other devices"
-      },
-      {
-        "text": "No front light, requires external lighting to read in the dark"
-      },
-      {
-        "text": "Heavy device at 550g"
-      },
-      {
-        "text": "No expandable storage"
-      }
-    ]
-  },
-  {
-    "id": "pocketbook-touch-lux-4",
-    "brand": "PocketBook",
-    "name": "PocketBook Touch Lux 4",
-    "fullName": "PocketBook Touch Lux 4",
-    "releaseDate": "2018",
-    "price": 99.99,
-    "screenSize": 6,
-    "resolution": "758 x 1024",
-    "screenType": "E Ink Carta",
-    "operatingSystem": "Linux",
-    "dimensions": "108 x 161.3 x 8",
-    "weight": 155,
-    "cpu": "1 GHz",
-    "storage": "8 GB",
-    "ram": "512 MB",
-    "battery": "1500 mAh",
-    "aspectRatio": "~3:4",
-    "screenLight": true,
-    "warmLight": false,
-    "colorDisplay": false,
-    "darkMode": false,
-    "wifi": true,
-    "bluetooth": false,
-    "sdCard": true,
-    "usbc": false,
-    "mobileData": false,
-    "speakers": false,
-    "browser": true,
-    "textToSpeech": false,
-    "waterproof": false,
-    "touchscreen": true,
-    "pageTurnButtons": true,
-    "automaticRotation": false,
-    "stylusSupport": false,
-    "audioOutput": false,
-    "wirelessCharging": false,
-    "cloudStorage": true,
-    "email": false,
-    "availability": "Discontinued",
-    "dimensionsH": 161.3,
-    "dimensionsL": 108,
-    "dimensionsW": 8,
-    "pixelDensity": 212,
-    "wifiVersion": "No WiFi",
-    "bluetoothVersion": "No Bluetooth",
-    "priceCategory": "Budget",
-    "sizeCategory": "Medium",
-    "categories": [
-      "Budget",
-      "Medium"
-    ],
-    "similar": [
-      "pocketbook-basic-lux-2",
-      "pocketbook-basic-4",
-      "pocketbook-touch-hd-2",
-      "pocketbook-touch-hd-3"
-    ],
-    "pros": [
-      {
-        "text": "Physical page turn buttons"
-      },
-      {
-        "text": "Expandable storage via SD card"
-      },
-      {
-        "text": "Adjustable front light for comfortable reading in any lighting"
-      },
-      {
-        "text": "WiFi support makes it easier to access your content"
-      }
-    ],
-    "cons": [
-      {
-        "text": "Low resolution screen, text is as sharp as on some other devices"
-      },
-      {
-        "text": "No Bluetooth, can't connect wireless headphones for audiobooks"
-      }
-    ]
-  },
-  {
-    "id": "pocketbook-basic-lux-2",
-    "brand": "PocketBook",
-    "name": "PocketBook Basic Lux 2",
-    "fullName": "PocketBook Basic Lux 2",
-    "releaseDate": "2018",
-    "price": 89.99,
-    "screenSize": 6,
-    "resolution": "758 x 1024",
-    "screenType": "E Ink Carta",
-    "operatingSystem": "Linux",
-    "dimensions": "108 x 161.3 x 8",
-    "weight": 155,
-    "cpu": "1 GHz",
-    "storage": "8 GB",
-    "ram": "256 MB",
-    "battery": "1300 mAh",
-    "aspectRatio": "~3:4",
-    "screenLight": true,
-    "warmLight": false,
-    "colorDisplay": false,
-    "darkMode": false,
-    "wifi": true,
-    "bluetooth": false,
-    "sdCard": true,
-    "usbc": false,
-    "mobileData": false,
-    "speakers": false,
-    "browser": false,
-    "textToSpeech": false,
-    "waterproof": false,
-    "touchscreen": false,
-    "pageTurnButtons": true,
-    "automaticRotation": false,
-    "stylusSupport": false,
-    "audioOutput": false,
-    "wirelessCharging": false,
-    "cloudStorage": true,
-    "email": false,
-    "availability": "Discontinued",
-    "dimensionsH": 161.3,
-    "dimensionsL": 108,
-    "dimensionsW": 8,
-    "pixelDensity": 212,
-    "wifiVersion": "No WiFi",
-    "bluetoothVersion": "No Bluetooth",
-    "priceCategory": "Budget",
-    "sizeCategory": "Medium",
-    "categories": [
-      "Budget",
-      "Medium"
-    ],
-    "similar": [
-      "pocketbook-touch-lux-4",
-      "pocketbook-basic-4",
-      "pocketbook-touch-hd-2",
-      "pocketbook-touch-hd-3"
-    ],
-    "pros": [
-      {
-        "text": "Physical page turn buttons"
-      },
-      {
-        "text": "Expandable storage via SD card"
-      },
-      {
-        "text": "Adjustable front light for comfortable reading in any lighting"
-      },
-      {
-        "text": "WiFi support makes it easier to access your content"
-      }
-    ],
-    "cons": [
-      {
-        "text": "Low resolution screen, text is as sharp as on some other devices"
-      },
-      {
-        "text": "No touchscreen, navigation relies entirely on physical buttons"
-      },
-      {
-        "text": "No Bluetooth, can't connect wireless headphones for audiobooks"
-      }
-    ]
-  },
-  {
-    "id": "pocketbook-inkpad-3",
-    "brand": "PocketBook",
-    "name": "PocketBook InkPad 3",
-    "fullName": "PocketBook InkPad 3",
-    "releaseDate": "2018",
-    "price": 229.99,
-    "screenSize": 7.8,
-    "resolution": "1404 x 1872",
-    "screenType": "E Ink Carta",
-    "operatingSystem": "Linux",
-    "dimensions": "136.5 x 195 x 8",
-    "weight": 210,
-    "cpu": "1 GHz dual core",
-    "storage": "8 GB",
-    "ram": "1 GB",
-    "battery": "1900 mAh",
-    "aspectRatio": "3:4",
-    "screenLight": true,
-    "warmLight": true,
-    "colorDisplay": false,
-    "darkMode": true,
-    "wifi": true,
-    "bluetooth": false,
-    "sdCard": true,
-    "usbc": false,
-    "mobileData": false,
-    "speakers": false,
-    "browser": true,
-    "textToSpeech": false,
-    "waterproof": false,
-    "touchscreen": true,
-    "pageTurnButtons": true,
-    "automaticRotation": true,
-    "stylusSupport": false,
-    "audioOutput": false,
-    "wirelessCharging": false,
-    "cloudStorage": true,
-    "email": false,
-    "availability": "Discontinued",
-    "dimensionsH": 195,
-    "dimensionsL": 136.5,
-    "dimensionsW": 8,
-    "pixelDensity": 300,
-    "wifiVersion": "No WiFi",
-    "bluetoothVersion": "No Bluetooth",
-    "priceCategory": "Mid-Range",
-    "sizeCategory": "Medium",
-    "categories": [
-      "Mid-Range",
-      "Medium"
-    ],
-    "similar": [
-      "pocketbook-inkpad-3-pro",
-      "pocketbook-touch-hd-2",
-      "pocketbook-inkpad-4",
-      "pocketbook-touch-hd-3"
-    ],
-    "pros": [
-      {
-        "text": "High resolution display"
-      },
-      {
-        "text": "Physical page turn buttons"
-      },
-      {
-        "text": "Expandable storage via SD card"
-      },
-      {
-        "text": "Good 1900 mAh battery for everyday use"
-      },
-      {
-        "text": "Front light lets you read comfortably in the dark"
-      },
-      {
-        "text": "WiFi support makes it easier to access your content"
-      }
-    ],
-    "cons": [
-      {
-        "text": "No Bluetooth, can't connect wireless headphones for audiobooks"
-      }
-    ]
-  },
-  {
-    "id": "pocketbook-touch-hd-2",
-    "brand": "PocketBook",
-    "name": "PocketBook Touch HD 2",
-    "fullName": "PocketBook Touch HD 2",
-    "releaseDate": "2018",
-    "price": 149.99,
-    "screenSize": 6,
-    "resolution": "1072 x 1448",
-    "screenType": "E Ink Carta",
-    "operatingSystem": "Linux",
-    "dimensions": "114 x 175 x 9",
-    "weight": 180,
-    "cpu": "1 GHz",
-    "storage": "8 GB",
-    "ram": "512 MB",
-    "battery": "1500 mAh",
-    "aspectRatio": "~3:4",
-    "screenLight": true,
-    "warmLight": true,
-    "colorDisplay": false,
-    "darkMode": false,
-    "wifi": true,
-    "bluetooth": false,
-    "sdCard": true,
-    "usbc": false,
-    "mobileData": false,
-    "speakers": false,
-    "browser": true,
-    "textToSpeech": false,
-    "waterproof": false,
-    "touchscreen": true,
-    "pageTurnButtons": true,
-    "automaticRotation": false,
-    "stylusSupport": false,
-    "audioOutput": true,
-    "wirelessCharging": false,
-    "cloudStorage": true,
-    "email": false,
-    "availability": "Discontinued",
-    "dimensionsH": 175,
-    "dimensionsL": 114,
-    "dimensionsW": 9,
-    "pixelDensity": 300,
-    "wifiVersion": "No WiFi",
-    "bluetoothVersion": "No Bluetooth",
-    "priceCategory": "Mid-Range",
-    "sizeCategory": "Medium",
-    "categories": [
-      "Mid-Range",
-      "Medium"
-    ],
-    "similar": [
-      "pocketbook-touch-hd-3",
-      "pocketbook-touch-lux-5",
-      "pocketbook-basic-lux-3",
-      "pocketbook-verse"
-    ],
-    "pros": [
-      {
-        "text": "High resolution display"
-      },
-      {
-        "text": "Physical page turn buttons"
-      },
-      {
-        "text": "Expandable storage via SD card"
-      },
-      {
-        "text": "Front light lets you read comfortably in the dark"
-      },
-      {
-        "text": "WiFi support makes it easier to access your content"
-      }
-    ],
-    "cons": [
-      {
-        "text": "No Bluetooth, can't connect wireless headphones for audiobooks"
-      }
-    ]
-  },
-  {
     "id": "kindle-oasis-2",
     "brand": "Kindle",
     "name": "Kindle Oasis 2",
@@ -23282,7 +21501,7 @@
       "nook-glowlight-plus",
       "nook-glowlight-4",
       "nook-glowlight-4e",
-      "boox-poke"
+      "nook-glowlight-plus-78"
     ],
     "pros": [
       {
@@ -23933,7 +22152,7 @@
       "nook-glowlight-3",
       "nook-glowlight-4",
       "nook-glowlight-4e",
-      "boox-poke"
+      "nook-glowlight-plus-78"
     ],
     "pros": [
       {

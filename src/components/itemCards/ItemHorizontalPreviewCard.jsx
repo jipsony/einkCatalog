@@ -38,7 +38,14 @@ export default function ItemHorizontalPreviewCard(props) {
             </Box>
 
             <Stack gap={1} px={3} py={2} flex={1} minW={0}>
-              <Text fontSize="sm" fontWeight={800} lineClamp={2}>
+              <Text
+                fontSize="sm"
+                fontWeight={800}
+                whiteSpace="nowrap"
+                overflow="hidden"
+                textOverflow="ellipsis"
+                title={props.itemInfo?.fullName}
+              >
                 {props.itemInfo?.fullName}
               </Text>
               <Box

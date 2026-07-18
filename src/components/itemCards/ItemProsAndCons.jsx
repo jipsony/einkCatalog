@@ -45,7 +45,10 @@ export default function ItemProsAndCons(props) {
               {!showMore[title] && prosOrCons?.length > sliceLength && (
                 <li>
                   <Box
-                    style={{ textDecoration: "underline" }}
+                    style={{
+                      textDecoration: "underline",
+                      textUnderlineOffset: ".7rem",
+                    }}
                     display="inline"
                     _hover={{ color: "var(--appColorAccentDark)" }}
                     cursor={"pointer"}
