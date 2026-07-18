@@ -21,7 +21,7 @@ export default function ItemFullInfoPage(props) {
       <Box>
         <BigSectionTitle
           // px={{ base: ".4rem", lg: "0" }}
-          title={"Similar Devices"}
+          title={"See Also"}
           mt="1rem"
           // fontSize={{ base: "1.6rem", md: "1.5rem" }}
           // lineBefore={{ base: false, lg: true }}
