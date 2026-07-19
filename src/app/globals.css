@@ -9,6 +9,7 @@
   --appColorAccentLight: #a2c4f1;
   --appColorLight: #e0eeff;
   --appColorDarkGrey: #707e91;
+  --appColorDarkerGrey: #484f58;
   --appColorLightGrey: #ededef;
   --appColorCardBackground: #faf8f1;
   --appColorLink: var(--appColorAccent);
@@ -26,6 +27,8 @@
   --appColorLight: var(--background);
   --appColorCardBackground: #1e2027;
   --appColorDarkGrey: #b0c7e9;
+  --appColorDarkerGrey: var(--appColorDarkGrey);
+
   --appColorLightGrey: #333956;
   --appColorSuccess: #76ccb4;
   --appColorWarning: orange;

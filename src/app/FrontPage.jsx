@@ -17,6 +17,7 @@ import {
   Separator,
   SimpleGrid,
   Stack,
+  Tag,
   Text,
 } from "@chakra-ui/react";
 import React from "react";
@@ -54,7 +55,8 @@ function FrontPageHero() {
         mx="auto"
         lineHeight="1.6"
       >
-        Your database of e-ink tablets&nbsp;&amp;&nbsp;phones
+        {/* Your database of e-ink tablets&nbsp;&amp;&nbsp;phones */}
+        Your Database of E-Ink Tablets&nbsp;&amp;&nbsp;Phones
       </Text>
     </Box>
   );
@@ -81,12 +83,15 @@ function FrontPageFunctionalityCard(props) {
                 mb="0.75rem"
                 alignItems={"center"}
                 gap=".5rem"
+                textTransform="uppercase"
+                letterSpacing="0.1rem"
+                color={"var(--appColorDarkerGrey)"}
               >
-                {props?.icon && (
+                {/* {props?.icon && (
                   <Box color={"var(--appColorAccent)"} opacity={".4"}>
                     {React.createElement(props?.icon)}
                   </Box>
-                )}
+                )} */}
                 <Box>{props.title}</Box>
               </Flex>
               <Text
@@ -125,6 +130,26 @@ function FrontPageFunctionalityCard(props) {
   );
 }
 
+function GenericFrontPageTitle(props) {
+  return (
+    <Heading
+      as="h2"
+      mb="1.2rem"
+      fontSize={"1.2rem"}
+      // fontWeight="700"
+      className="appTextFont"
+      // textDecor={"underline"}
+      textUnderlineOffset={".7rem"}
+      fontFamily="var(--font-roboto-mono)"
+      letterSpacing="0.15em"
+      color="var(--appColorDarkerGrey)"
+      textTransform="uppercase"
+      {...props}
+    >
+      {props?.title}
+    </Heading>
+  );
+}
 function FrontPageDeviceList(props) {
   const deviceList = props.deviceList?.filter((row) => !row.hideFromFrontPage);
   const numberOfItems = 4;
@@ -134,35 +159,24 @@ function FrontPageDeviceList(props) {
 
   return (
     <Box>
-      <Heading
-        as="h2"
-        mb="1rem"
-        fontSize={"1.2rem"}
-        fontWeight="700"
-        className="appTextFont"
-        textDecor={"underline"}
-        textUnderlineOffset={".7rem"}
-      >
-        {props?.title}
-      </Heading>
+      <GenericFrontPageTitle title={props?.title}></GenericFrontPageTitle>
       <Stack gap={".5rem"}>
         {slice.map((row, idx) => {
           return (
             <Box key={row?.id} minW={0} h={"5rem"}>
-              <AppLink href={`/retro-handhelds/${row?.id}`}>
-                <ItemHorizontalPreviewCard
-                  itemInfo={row}
-                ></ItemHorizontalPreviewCard>
-              </AppLink>
+              <ItemHorizontalPreviewCard
+                itemInfo={row}
+              ></ItemHorizontalPreviewCard>
             </Box>
           );
         })}
         {deviceList?.length > numberOfItems && (
           <Box
             as="a"
-            href={`${itemMainRoute}?filters=${moreLinkFilterString}`}
-            fontSize="0.72rem"
+            href={`/${itemMainRoute}?filters=${moreLinkFilterString}`}
+            // fontSize="0.72rem"
             fontFamily="var(--font-roboto-mono)"
+            fontWeight={"bold"}
             letterSpacing="0.04em"
             borderRadius="6px"
             // borderRadius={"18px"}
@@ -189,6 +203,75 @@ function FrontPageDeviceList(props) {
   );
 }
 
+function QuickLinksTag(props) {
+  return (
+    <Flex
+      as="a"
+      href={`/${itemMainRoute}?filters=`}
+      fontSize="0.72rem"
+      fontFamily="var(--font-roboto-mono)"
+      fontWeight={"bold"}
+      letterSpacing="0.04em"
+      borderRadius="20px"
+      border="1px solid"
+      color={"var(--appColorAccent)"}
+      borderColor="var(--appColorAccent)"
+      _hover={{
+        borderColor: "var(--foreground)",
+        color: "var(--foreground)",
+
+        // backgroundColor: "var(--appColorLight)",
+      }}
+      py=".5rem"
+      px="1rem"
+      textAlign={"center"}
+      alignItems={"center"}
+      justifyContent={"center"}
+    >
+      <Box as="span" mr="2px">
+        {props.category}
+      </Box>
+      <MdArrowForward></MdArrowForward>
+    </Flex>
+  );
+}
+function FrontPageQuickLinks() {
+  const quickLinksCategories = [
+    "For Reading",
+    "For Note-Taking",
+    "Phone Replacements",
+    "Kindle Alternatives",
+  ];
+
+  const priceCategories = ["Budget", "Mid-range", "High-End"];
+  return (
+    <>
+      <GenericFrontPageTitle title={"Our Best Picks"}></GenericFrontPageTitle>
+      <SimpleGrid
+        templateColumns={{ base: "1fr", md: "1fr", "2xl": "repeat(4, 1fr)" }}
+        columnGap="1rem"
+        rowGap={".5rem"}
+      >
+        {quickLinksCategories?.map((r) => (
+          <QuickLinksTag category={r} key={r}></QuickLinksTag>
+        ))}
+      </SimpleGrid>
+      {/* <SimpleGrid
+        mt=".5rem"
+        templateColumns={{ base: "1fr", md: "1fr", "2xl": "repeat(3, 1fr)" }}
+        columnGap="1rem"
+        rowGap={'.5rem'}
+        
+        // mx={{base:"0px", md:'0px', "2xl": "10rem"}}
+      >
+        {priceCategories?.map((r) => (
+          <QuickLinksTag category={r} key={r}></QuickLinksTag>
+        ))}
+      </SimpleGrid> */}
+    </>
+  );
+}
+
 export default function FrontPage(props) {
   return (
     <Box>
@@ -199,7 +282,7 @@ export default function FrontPage(props) {
       </Box>
 
       <SimpleGrid
-        templateColumns={{ base: "1fr", lg: "1fr 1fr 1fr" }}
+        templateColumns={{ base: "1fr", "2xl": "1fr 1fr 1fr" }}
         gap="1rem"
       >
         <FrontPageFunctionalityCard
@@ -227,17 +310,22 @@ export default function FrontPage(props) {
           cta="View Specs"
         ></FrontPageFunctionalityCard>
       </SimpleGrid>
+
       <Separator borderColor="var(--appBorderColor)" mt="2.5rem" />
-<Box my="2.5rem">
 
+      <Box my="2.5rem">
+        <FrontPageQuickLinks></FrontPageQuickLinks>
+      </Box>
+      <Separator borderColor="var(--appBorderColor)" mt="1.5rem" />
 
-  
-</Box>
       <Box my="2.5rem">
         <SimpleGrid
-          templateColumns={{ base: "minmax(0, 1fr)", lg: "repeat(3, minmax(0, 1fr))" }}
+          templateColumns={{
+            base: "minmax(0, 1fr)",
+            "2xl": "repeat(3, minmax(0, 1fr))",
+          }}
           // minmax(0, 1fr) allows the grid tracks to be as small as 0 but as large as 1fr, creating columns that will stay equal. But, be aware that this will cause overflows if the content is bigger than the column or cannot be wrapped.
-          gap={{base: "2rem" ,lg:"1rem"}}
+          gap={{ base: "2rem", "2xl": "1rem" }}
         >
           <Box>
             <FrontPageDeviceList
@@ -265,7 +353,7 @@ export default function FrontPage(props) {
               moreLinkFilter={{
                 availability: "Upcoming",
               }}
-              title={"Upcoming devices"}
+              title={"Coming Soon"}
             ></FrontPageDeviceList>
           </Box>
 
