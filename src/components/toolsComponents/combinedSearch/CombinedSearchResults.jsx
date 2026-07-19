@@ -9,8 +9,9 @@ import {
 } from "@chakra-ui/react";
 import React, { useEffect, useState } from "react";
 import { navigate } from "@/app/navigate";
-import { FaBuilding, FaRightToBracket } from "react-icons/fa6";
+import { FaArrowRightLong, FaBuilding, FaLeftRight, FaRightToBracket } from "react-icons/fa6";
 import { getHandheldThumbnailImageUrl } from "@/lib/images";
+import { FaArrowCircleLeft, FaArrowCircleRight } from "react-icons/fa";
 
 export default function CombinedSearchResults(props) {
   const searchResultsLimit = 10;
@@ -290,9 +291,13 @@ export default function CombinedSearchResults(props) {
                 </Flex>
               </Box>
               {!props.renderRightSideIcon && idx === hoverIndex && (
-                <FaRightToBracket
-                  style={{ alignSelf: "right", color: "grey" }}
-                ></FaRightToBracket>
+                <FaArrowRightLong 
+                  style={{ alignSelf: "right", color: "var(--appColorAccent)" ,opacity:".7"}}
+                
+                ></FaArrowRightLong>
+                // <FaRightToBracket
+                //   style={{ alignSelf: "right", color: "grey" }}
+                // ></FaRightToBracket>
               )}{" "}
               {props.renderRightSideIcon && props.renderRightSideIcon(row.id)}
             </Button>

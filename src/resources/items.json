@@ -4,7 +4,7 @@
     "brand": "reMarkable",
     "name": "reMarkable Paper Pure",
     "fullName": "reMarkable Paper Pure",
-    "releaseDate": "2026",
+    "releaseDate": "2026 / 05",
     "price": 399,
     "screenSize": 10.3,
     "resolution": "1404 x 1872",
@@ -53,9 +53,9 @@
     ],
     "similar": [
       "remarkable-2",
-      "boox-go-6-gen-ii",
-      "kindle-scribe",
-      "kindle-paperwhite-6"
+      "bigme-b7-pro-bw",
+      "pocketbook-era-lite",
+      "tolino-shine-5"
     ],
     "pros": [
       {
@@ -97,7 +97,7 @@
     "brand": "Kindle",
     "name": "Kindle Scribe 3 without Front Light",
     "fullName": "Kindle Scribe 3 without Front Light",
-    "releaseDate": "2026",
+    "releaseDate": "2026 / 06",
     "price": 429.99,
     "screenSize": 11,
     "resolution": "1980 x 2640",
@@ -190,7 +190,7 @@
     "brand": "Boox",
     "name": "Boox Go 10.3 (Gen II) Lumi",
     "fullName": "Boox Go 10.3 (Gen II) Lumi",
-    "releaseDate": "2026",
+    "releaseDate": "2026 / 03",
     "price": 449.99,
     "screenSize": 10.3,
     "resolution": "1860 x 2480",
@@ -241,7 +241,7 @@
       "boox-go-103-gen-ii",
       "boox-note-air-3",
       "boox-note-air",
-      "boox-note-air-2"
+      "boox-note-air-2-plus"
     ],
     "pros": [
       {
@@ -286,7 +286,7 @@
     "brand": "Boox",
     "name": "Boox Go 10.3 (Gen II)",
     "fullName": "Boox Go 10.3 (Gen II)",
-    "releaseDate": "2026",
+    "releaseDate": "2026 / 03",
     "price": 399.99,
     "screenSize": 10.3,
     "resolution": "1860 x 2480",
@@ -337,7 +337,7 @@
       "boox-go-103-gen-ii-lumi",
       "boox-note-air-3",
       "boox-note-air",
-      "boox-note-air-2"
+      "boox-note-air-2-plus"
     ],
     "pros": [
       {
@@ -382,7 +382,7 @@
     "brand": "Boox",
     "name": "Boox Go 6 (Gen II)",
     "fullName": "Boox Go 6 (Gen II)",
-    "releaseDate": "2026",
+    "releaseDate": "2026 / 06",
     "price": 199.99,
     "screenSize": 6,
     "resolution": "1072 x 1448",
@@ -431,9 +431,9 @@
     ],
     "similar": [
       "boox-go-6",
+      "boox-page",
       "boox-go-7",
-      "boox-poke-2",
-      "boox-poke-4-lite"
+      "boox-poke-2"
     ],
     "pros": [
       {
@@ -466,7 +466,7 @@
     "brand": "PocketBook",
     "name": "PocketBook Era Lite",
     "fullName": "PocketBook Era Lite",
-    "releaseDate": "2026",
+    "releaseDate": "2026 / 05",
     "price": 199,
     "screenSize": 7,
     "resolution": "1264 x 1680",
@@ -547,7 +547,7 @@
     "brand": "PocketBook",
     "name": "PocketBook Inkpad One",
     "fullName": "PocketBook Inkpad One",
-    "releaseDate": "2026",
+    "releaseDate": "2026 / 02",
     "price": 359,
     "screenSize": 10.3,
     "resolution": "1404 x 1872",
@@ -640,7 +640,7 @@
     "brand": "Bigme",
     "name": "Bigme B10",
     "fullName": "Bigme B10",
-    "releaseDate": "2026",
+    "releaseDate": "2026 / 06",
     "price": 594.15,
     "screenSize": 10.3,
     "resolution": "1860 x 2480",
@@ -688,10 +688,10 @@
       "Medium"
     ],
     "similar": [
-      "bigme-guoyue-k3-color",
-      "bigme-inknote-color",
-      "bigme-inknote-color-lite",
-      "bigme-b1051c-lite"
+      "bigme-b1051c-lite",
+      "bigme-b1051c",
+      "bigme-b1051c-pro",
+      "bigme-guoyue-k3-color"
     ],
     "pros": [
       {
@@ -739,7 +739,7 @@
     "brand": "Bigme",
     "name": "Bigme B7 Pro BW",
     "fullName": "Bigme B7 Pro BW",
-    "releaseDate": "2026",
+    "releaseDate": "2026 / 05",
     "price": 349,
     "screenSize": 7,
     "resolution": "1264 x 1680",
@@ -788,9 +788,9 @@
     ],
     "similar": [
       "boox-go-6-gen-ii",
+      "musnap-neo",
       "musnap-neo-2",
-      "boox-go-7",
-      "bigme-b751"
+      "boox-go-7"
     ],
     "pros": [
       {
@@ -828,7 +828,7 @@
     "brand": "Bigme",
     "name": "Bigme B6 BW",
     "fullName": "Bigme B6 BW",
-    "releaseDate": "2026",
+    "releaseDate": "2026 / 04",
     "price": 179,
     "screenSize": 6,
     "resolution": "1072 x 1448",
@@ -876,10 +876,10 @@
       "Medium"
     ],
     "similar": [
+      "bigme-inknote-s",
+      "bigme-hibreak-dual-bw",
       "bigme-b751",
-      "bigme-s6",
-      "bigme-b6",
-      "bigme-inknote-s"
+      "bigme-s6"
     ],
     "pros": [
       {
@@ -911,7 +911,7 @@
     "brand": "Bigme",
     "name": "Bigme Hibreak Dual Color",
     "fullName": "Bigme Hibreak Dual Color",
-    "releaseDate": "2026",
+    "releaseDate": "2026 / 04",
     "price": 409,
     "screenSize": 6.13,
     "resolution": "824 x 1648",
@@ -956,10 +956,10 @@
       "Medium"
     ],
     "similar": [
-      "boox-palma-2-pro",
       "bigme-b10",
-      "bigme-s6-color",
-      "bigme-guoyue-k3-color"
+      "boox-palma-2-pro",
+      "bigme-inknote-color",
+      "bigme-s6-color"
     ],
     "pros": [
       {
@@ -994,7 +994,7 @@
     "brand": "Bigme",
     "name": "Bigme Hibreak Dual BW",
     "fullName": "Bigme Hibreak Dual BW",
-    "releaseDate": "2026",
+    "releaseDate": "2026 / 04",
     "price": 389,
     "screenSize": 6.13,
     "resolution": "824 x 1648",
@@ -1040,8 +1040,8 @@
     ],
     "similar": [
       "bigme-hibreak-plus",
-      "bigme-hibreak-pro-color",
       "bigme-b6-bw",
+      "bigme-hibreak-pro-color",
       "bigme-hibreak-bw"
     ],
     "pros": [
@@ -1077,7 +1077,7 @@
     "brand": "Bigme",
     "name": "Bigme Hibreak Plus",
     "fullName": "Bigme Hibreak Plus",
-    "releaseDate": "2026",
+    "releaseDate": "2026 / 02",
     "price": 249,
     "screenSize": 6.13,
     "resolution": "824 x 1648",
@@ -1128,7 +1128,7 @@
       "bigme-hibreak-pro-color",
       "bigme-hibreak-dual-bw",
       "bigme-hibreak-color",
-      "bigme-hibreak-s-color"
+      "viwoods-aipaper-reader-c"
     ],
     "pros": [
       {
@@ -1167,7 +1167,7 @@
     "brand": "Musnap",
     "name": "Musnap Neo 2C",
     "fullName": "Musnap Neo 2C",
-    "releaseDate": "2026",
+    "releaseDate": "2026 / 03",
     "price": 239,
     "screenSize": 6,
     "resolution": "1072 x 1448",
@@ -1217,8 +1217,8 @@
     "similar": [
       "musnap-neo-c",
       "musnap-ocean-c",
-      "bemi-cognita-tab-6-proc",
-      "bigme-b6"
+      "inkbook-solaris-color",
+      "musnap-neo-2"
     ],
     "pros": [
       {
@@ -1254,7 +1254,7 @@
     "brand": "Musnap",
     "name": "Musnap Neo 2",
     "fullName": "Musnap Neo 2",
-    "releaseDate": "2026",
+    "releaseDate": "2026 / 03",
     "price": 229,
     "screenSize": 6,
     "resolution": "1072 x 1448",
@@ -1304,8 +1304,8 @@
     "similar": [
       "musnap-neo",
       "boox-go-6-gen-ii",
-      "bigme-b7-pro-bw",
-      "boox-go-6"
+      "musnap-neo-2c",
+      "bigme-b7-pro-bw"
     ],
     "pros": [
       {
@@ -1338,7 +1338,7 @@
     "brand": "Xteink",
     "name": "Xteink X3",
     "fullName": "Xteink X3",
-    "releaseDate": "2026",
+    "releaseDate": "2026 / 01",
     "price": 79,
     "screenSize": 3.7,
     "resolution": "528 x 792",
@@ -1388,8 +1388,8 @@
     "similar": [
       "xteink-x4",
       "famue-bf01",
-      "famue-bf07",
-      "m5stack-papers3"
+      "m5stack-papers3",
+      "famue-bf07"
     ],
     "pros": [
       {
@@ -1434,7 +1434,7 @@
     "brand": "DuRoBo",
     "name": "DuRoBo Krono",
     "fullName": "DuRoBo Krono",
-    "releaseDate": "2026",
+    "releaseDate": "2026 / 05",
     "price": 279.99,
     "screenSize": 6.13,
     "resolution": "824 x 1648",
@@ -1485,7 +1485,7 @@
       "boox-palma",
       "boox-palma-2",
       "viwoods-aipaper-reader",
-      "bigme-hibreak-dual-bw"
+      "bigme-b7-pro-bw"
     ],
     "pros": [
       {
@@ -1518,7 +1518,7 @@
     "brand": "Bemi",
     "name": "Bemi Cognita Tab 7 Pro",
     "fullName": "Bemi Cognita Tab 7 Pro",
-    "releaseDate": "2026",
+    "releaseDate": "2026 / 06",
     "price": 237.97,
     "screenSize": 7,
     "resolution": "1680 x 1262",
@@ -1567,9 +1567,9 @@
     ],
     "similar": [
       "bemi-cognita-tab-6e",
+      "bemi-cognita-tab-6",
       "bemi-cognita-tab-8",
-      "bemi-cognita-tab-8-pro",
-      "bemi-cognita-tab-6"
+      "bemi-cognita-tab-8-pro"
     ],
     "pros": [
       {
@@ -1604,7 +1604,7 @@
     "brand": "Bemi",
     "name": "Bemi Cognita Tab 6e",
     "fullName": "Bemi Cognita Tab 6e",
-    "releaseDate": "2026",
+    "releaseDate": "2026 / 02",
     "price": 131.9,
     "screenSize": 6,
     "resolution": "1024 x 758",
@@ -1655,7 +1655,7 @@
       "bemi-cognita-tab-7-pro",
       "bemi-cognita-tab-6",
       "bemi-cognita-tab-6-plus",
-      "bemi-cognita-tab-8"
+      "inkbook-calypso-plus"
     ],
     "pros": [
       {
@@ -1688,7 +1688,7 @@
     "brand": "reMarkable",
     "name": "reMarkable Paper Pro Move",
     "fullName": "reMarkable Paper Pro Move",
-    "releaseDate": "2025",
+    "releaseDate": "2025 / 09",
     "price": 449,
     "screenSize": 7.3,
     "resolution": "954 x 1696",
@@ -1738,8 +1738,8 @@
     "similar": [
       "remarkable-paper-pro",
       "kindle-scribe-3",
-      "kindle-scribe-colorsoft",
-      "kindle-scribe-3-without-front-light"
+      "kindle-scribe-3-without-front-light",
+      "musnap-aura-c"
     ],
     "pros": [
       {
@@ -1778,7 +1778,7 @@
     "brand": "Kindle",
     "name": "Kindle Scribe Colorsoft",
     "fullName": "Kindle Scribe Colorsoft",
-    "releaseDate": "2025",
+    "releaseDate": "2025 / 12",
     "price": 629.99,
     "screenSize": 11,
     "resolution": "1980 x 2640",
@@ -1865,7 +1865,7 @@
     "brand": "Kindle",
     "name": "Kindle Scribe 3",
     "fullName": "Kindle Scribe 3",
-    "releaseDate": "2025",
+    "releaseDate": "2025 / 12",
     "price": 499.99,
     "screenSize": 11,
     "resolution": "1980 x 2640",
@@ -1910,8 +1910,8 @@
       "Medium"
     ],
     "similar": [
-      "kindle-scribe-3-without-front-light",
       "kindle-scribe-colorsoft",
+      "kindle-scribe-3-without-front-light",
       "kindle-scribe-2024",
       "bigme-inknote"
     ],
@@ -1949,7 +1949,7 @@
     "brand": "Kindle",
     "name": "Kindle Colorsoft",
     "fullName": "Kindle Colorsoft",
-    "releaseDate": "2025",
+    "releaseDate": "2025 / 07",
     "price": 249.99,
     "screenSize": 7,
     "resolution": "1264 x 1680",
@@ -1998,9 +1998,9 @@
     ],
     "similar": [
       "kindle-colorsoft-signature-edition",
-      "kindle-2024",
-      "kindle-oasis-2",
-      "kindle-oasis-3"
+      "kindle-oasis-3",
+      "kindle-2",
+      "kindle-2024"
     ],
     "pros": [
       {
@@ -2036,7 +2036,7 @@
     "brand": "Boox",
     "name": "Boox Go Color 7 Gen II",
     "fullName": "Boox Go Color 7 Gen II",
-    "releaseDate": "2025",
+    "releaseDate": "2025 / 04",
     "price": 249.99,
     "screenSize": 7,
     "resolution": "1264 x 1680",
@@ -2128,7 +2128,7 @@
     "brand": "Boox",
     "name": "Boox Go 7",
     "fullName": "Boox Go 7",
-    "releaseDate": "2025",
+    "releaseDate": "2025 / 04",
     "price": 219.99,
     "screenSize": 7,
     "resolution": "1264 x 1680",
@@ -2179,7 +2179,7 @@
       "boox-page",
       "boox-go-6",
       "boox-go-6-gen-ii",
-      "musnap-neo"
+      "boox-poke-2"
     ],
     "pros": [
       {
@@ -2217,7 +2217,7 @@
     "brand": "Boox",
     "name": "Boox Tab X C",
     "fullName": "Boox Tab X C",
-    "releaseDate": "2025",
+    "releaseDate": "2025 / 04",
     "price": 759.99,
     "screenSize": 13.3,
     "resolution": "2400 x 3200",
@@ -2265,9 +2265,9 @@
       "Large"
     ],
     "similar": [
-      "boox-note-max",
       "boox-tab-x",
       "boox-max-lumi",
+      "boox-note-max",
       "boox-max-lumi-2"
     ],
     "pros": [
@@ -2316,7 +2316,7 @@
     "brand": "Boox",
     "name": "Boox Note Max",
     "fullName": "Boox Note Max",
-    "releaseDate": "2025",
+    "releaseDate": "2024 / 12",
     "price": 649.99,
     "screenSize": 13.3,
     "resolution": "2400 x 3200",
@@ -2365,9 +2365,9 @@
     ],
     "similar": [
       "boox-tab-x",
-      "boox-max-lumi",
       "boox-max-lumi-2",
-      "boox-tab-x-c"
+      "boox-max-lumi",
+      "dasung-not-ereader-133"
     ],
     "pros": [
       {
@@ -2412,7 +2412,7 @@
     "brand": "Boox",
     "name": "Boox Palma 2 Pro",
     "fullName": "Boox Palma 2 Pro",
-    "releaseDate": "2025",
+    "releaseDate": "2025 / 10",
     "price": 399.99,
     "screenSize": 6.13,
     "resolution": "824 x 1648",
@@ -2460,10 +2460,10 @@
       "Medium"
     ],
     "similar": [
-      "bigme-hibreak-dual-color",
       "boox-note-air-5-c",
-      "boox-tab-mini-c",
-      "boox-tab-ultra-c"
+      "bigme-hibreak-dual-color",
+      "boox-note-air-3-c",
+      "boox-tab-ultra-c-pro"
     ],
     "pros": [
       {
@@ -2501,7 +2501,7 @@
     "brand": "Boox",
     "name": "Boox Note Air 5 C",
     "fullName": "Boox Note Air 5 C",
-    "releaseDate": "2025",
+    "releaseDate": "2025 / 10",
     "price": 529.99,
     "screenSize": 10.3,
     "resolution": "1860 x 2480",
@@ -2549,10 +2549,10 @@
       "Medium"
     ],
     "similar": [
-      "boox-tab-ultra-c",
       "boox-note-air-3-c",
       "boox-tab-ultra-c-pro",
-      "boox-note-air-4-c"
+      "boox-note-air-4-c",
+      "boox-tab-ultra-c"
     ],
     "pros": [
       {
@@ -2600,7 +2600,7 @@
     "brand": "PocketBook",
     "name": "PocketBook Verse Lite",
     "fullName": "PocketBook Verse Lite",
-    "releaseDate": "2025",
+    "releaseDate": "2025 / 03",
     "price": 119.99,
     "screenSize": 6,
     "resolution": "758 x 1024",
@@ -2684,7 +2684,7 @@
     "brand": "Bigme",
     "name": "Bigme B7 Pro",
     "fullName": "Bigme B7 Pro",
-    "releaseDate": "2025",
+    "releaseDate": "2025 / 08",
     "price": 349,
     "screenSize": 7,
     "resolution": "1264 x 1680",
@@ -2732,10 +2732,10 @@
       "Medium"
     ],
     "similar": [
-      "bigme-b751c-s",
       "bigme-b7",
-      "bigme-b751c",
-      "bigme-b6"
+      "bigme-b751c-s",
+      "bigme-b6",
+      "bigme-b751c"
     ],
     "pros": [
       {
@@ -2776,7 +2776,7 @@
     "brand": "Bigme",
     "name": "Bigme B7",
     "fullName": "Bigme B7",
-    "releaseDate": "2025",
+    "releaseDate": "2025 / 08",
     "price": 299,
     "screenSize": 7,
     "resolution": "1264 x 1680",
@@ -2824,10 +2824,10 @@
       "Medium"
     ],
     "similar": [
-      "bigme-b751c-s",
       "bigme-b7-pro",
-      "bigme-b751c",
-      "bigme-b6"
+      "bigme-b751c-s",
+      "bigme-b6",
+      "bigme-b751c"
     ],
     "pros": [
       {
@@ -2868,7 +2868,7 @@
     "brand": "Bigme",
     "name": "Bigme B6",
     "fullName": "Bigme B6",
-    "releaseDate": "2025",
+    "releaseDate": "2025 / 08",
     "price": 179,
     "screenSize": 6,
     "resolution": "1072 x 1448",
@@ -2916,9 +2916,9 @@
       "Medium"
     ],
     "similar": [
-      "bigme-b751c-s",
       "bigme-b7",
       "bigme-b7-pro",
+      "bigme-b751c-s",
       "bigme-b751c"
     ],
     "pros": [
@@ -2954,7 +2954,7 @@
     "brand": "Bigme",
     "name": "Bigme Hibreak Pro Color",
     "fullName": "Bigme Hibreak Pro Color",
-    "releaseDate": "2025",
+    "releaseDate": "2025 / 09",
     "price": 399,
     "screenSize": 6.13,
     "resolution": "824 x 1648",
@@ -3003,8 +3003,8 @@
     ],
     "similar": [
       "bigme-hibreak-plus",
-      "bigme-hibreak-s-color",
       "viwoods-aipaper-reader-c",
+      "bigme-hibreak-s-color",
       "bigme-b6"
     ],
     "pros": [
@@ -3041,7 +3041,7 @@
     "brand": "Bigme",
     "name": "Bigme Hibreak Pro",
     "fullName": "Bigme Hibreak Pro",
-    "releaseDate": "2025",
+    "releaseDate": "2025 / 02",
     "price": 439,
     "screenSize": 6.13,
     "resolution": "824 x 1648",
@@ -3090,9 +3090,9 @@
     ],
     "similar": [
       "hisense-a9",
+      "hisense-a7",
       "bigme-hibreak-dual-color",
-      "bigme-b1051",
-      "hisense-a7"
+      "bigme-b1051"
     ],
     "pros": [
       {
@@ -3125,7 +3125,7 @@
     "brand": "Bigme",
     "name": "Bigme Hibreak S Color",
     "fullName": "Bigme Hibreak S Color",
-    "releaseDate": "2025",
+    "releaseDate": "2025 / 10",
     "price": 279,
     "screenSize": 5.84,
     "resolution": "720 x 1440",
@@ -3173,8 +3173,8 @@
       "Medium"
     ],
     "similar": [
-      "bigme-hibreak-color",
       "bigme-hibreak-s-bw",
+      "bigme-hibreak-color",
       "bigme-hibreak-pro-color",
       "bigme-hibreak-bw"
     ],
@@ -3208,7 +3208,7 @@
     "brand": "Bigme",
     "name": "Bigme Hibreak S BW",
     "fullName": "Bigme Hibreak S BW",
-    "releaseDate": "2025",
+    "releaseDate": "2025 / 10",
     "price": 249,
     "screenSize": 5.84,
     "resolution": "720 x 1440",
@@ -3256,8 +3256,8 @@
       "Medium"
     ],
     "similar": [
-      "bigme-hibreak-bw",
       "bigme-hibreak-s-color",
+      "bigme-hibreak-bw",
       "bigme-hibreak-color",
       "bigme-hibreak-dual-bw"
     ],
@@ -3288,7 +3288,7 @@
     "brand": "Bigme",
     "name": "Bigme B751C S",
     "fullName": "Bigme B751C S",
-    "releaseDate": "2025",
+    "releaseDate": "2025 / 06",
     "price": 279,
     "screenSize": 7,
     "resolution": "1264 x 1680",
@@ -3377,7 +3377,7 @@
     "brand": "Harborinno",
     "name": "Harborinno Paper 7",
     "fullName": "Harborinno Paper 7",
-    "releaseDate": "2025",
+    "releaseDate": "2025 / 11",
     "price": 399,
     "screenSize": 7.8,
     "resolution": "768 x 1024",
@@ -3427,8 +3427,8 @@
     "similar": [
       "harborinno-paper-7-lite",
       "hannspree-hannsnote2",
-      "nook-glowlight-4-plus",
-      "obook-6"
+      "bemi-cognita-tab-8-pro",
+      "bemi-cognita-tab-8"
     ],
     "pros": [
       {
@@ -3470,7 +3470,7 @@
     "brand": "Harborinno",
     "name": "Harborinno Paper 7 Lite",
     "fullName": "Harborinno Paper 7 Lite",
-    "releaseDate": "2025",
+    "releaseDate": "2025 / 11",
     "price": 299,
     "screenSize": 7.8,
     "resolution": "768 x 1024",
@@ -3520,8 +3520,8 @@
     "similar": [
       "harborinno-paper-7",
       "hannspree-hannsnote2",
-      "nook-glowlight-4-plus",
-      "obook-6"
+      "bemi-cognita-tab-8-pro",
+      "bemi-cognita-tab-8"
     ],
     "pros": [
       {
@@ -3563,7 +3563,7 @@
     "brand": "Viwoods",
     "name": "Viwoods AiPaper Reader",
     "fullName": "Viwoods AiPaper Reader",
-    "releaseDate": "2025",
+    "releaseDate": "2024 / 09",
     "price": 279,
     "screenSize": 6.13,
     "resolution": "824 x 1648",
@@ -3611,9 +3611,9 @@
       "Medium"
     ],
     "similar": [
-      "viwoods-aipaper-reader-c",
-      "boox-palma",
       "boox-palma-2",
+      "boox-palma",
+      "viwoods-aipaper-reader-c",
       "durobo-krono"
     ],
     "pros": [
@@ -3647,7 +3647,7 @@
     "brand": "Viwoods",
     "name": "Viwoods AiPaper Reader C",
     "fullName": "Viwoods AiPaper Reader C",
-    "releaseDate": "2025",
+    "releaseDate": "2025 / 04",
     "price": 349,
     "screenSize": 6.13,
     "resolution": "824 x 1648",
@@ -3697,8 +3697,8 @@
     "similar": [
       "bigme-hibreak-pro-color",
       "bigme-hibreak-plus",
-      "viwoods-aipaper-reader",
-      "bigme-hibreak-s-color"
+      "boox-go-color-7-gen-ii",
+      "viwoods-aipaper-reader"
     ],
     "pros": [
       {
@@ -3734,7 +3734,7 @@
     "brand": "InkBOOK",
     "name": "InkBOOK Focus Color",
     "fullName": "InkBOOK Focus Color",
-    "releaseDate": "2025",
+    "releaseDate": "2025 / 05",
     "price": 309,
     "screenSize": 7.8,
     "resolution": "1404 x 1872",
@@ -3783,9 +3783,9 @@
     ],
     "similar": [
       "inkbook-solaris-color",
-      "bigme-guoyue-v6-color",
       "bigme-s6-color-lite",
-      "bemi-cognita-tab-6-proc"
+      "musnap-neo-c",
+      "bigme-guoyue-v6-color"
     ],
     "pros": [
       {
@@ -3820,7 +3820,7 @@
     "brand": "InkBOOK",
     "name": "InkBOOK Focus Plus",
     "fullName": "InkBOOK Focus Plus",
-    "releaseDate": "2025",
+    "releaseDate": "2021 / 10",
     "price": 275,
     "screenSize": 7.8,
     "resolution": "1404 x 1872",
@@ -3869,9 +3869,9 @@
     ],
     "similar": [
       "inkbook-focus",
-      "inkbook-solaris",
       "inkbook-calypso-plus",
-      "boox-go-7"
+      "inkbook-solaris",
+      "bemi-cognita-tab-8"
     ],
     "pros": [
       {
@@ -3903,7 +3903,7 @@
     "brand": "InkBOOK",
     "name": "InkBOOK Solaris Color",
     "fullName": "InkBOOK Solaris Color",
-    "releaseDate": "2025",
+    "releaseDate": "2025 / 03",
     "price": 168,
     "screenSize": 6,
     "resolution": "1072 x 1448",
@@ -3952,9 +3952,9 @@
     ],
     "similar": [
       "inkbook-focus-color",
-      "bemi-cognita-tab-6-proc",
       "bigme-b6",
-      "musnap-neo-c"
+      "musnap-neo-c",
+      "musnap-neo-2c"
     ],
     "pros": [
       {
@@ -3990,7 +3990,7 @@
     "brand": "InkBOOK",
     "name": "InkBOOK Solaris",
     "fullName": "InkBOOK Solaris",
-    "releaseDate": "2025",
+    "releaseDate": "2020 / 11",
     "price": 139,
     "screenSize": 6,
     "resolution": "758 x 1024",
@@ -4039,9 +4039,9 @@
     ],
     "similar": [
       "inkbook-calypso-plus",
-      "inkbook-focus-plus",
+      "boox-poke-3",
       "inkbook-focus",
-      "bemi-cognita-tab-6"
+      "nook-glowlight-3"
     ],
     "pros": [
       {
@@ -4074,7 +4074,7 @@
     "brand": "Vivlio",
     "name": "Vivlio Light Zen",
     "fullName": "Vivlio Light Zen",
-    "releaseDate": "2025",
+    "releaseDate": "2025 / 03",
     "price": 109.99,
     "screenSize": 6,
     "resolution": "758 x 1024",
@@ -4124,8 +4124,8 @@
     "similar": [
       "vivlio-light",
       "vivlio-light-hd",
-      "vivlio-inkpad-4",
-      "tolino-shine-5"
+      "pocketbook-verse-lite",
+      "vivlio-inkpad-4"
     ],
     "pros": [
       {
@@ -4158,7 +4158,7 @@
     "brand": "Penstar",
     "name": "Penstar eNote 2",
     "fullName": "Penstar eNote 2",
-    "releaseDate": "2025",
+    "releaseDate": "2025 / 07",
     "price": 399,
     "screenSize": 10.3,
     "resolution": "1860 x 2480",
@@ -4257,7 +4257,7 @@
     "brand": "Penstar",
     "name": "Penstar eNote Pro",
     "fullName": "Penstar eNote Pro",
-    "releaseDate": "2025",
+    "releaseDate": "2025 / 07",
     "price": 549,
     "screenSize": 10.3,
     "resolution": "1860 x 2480",
@@ -4305,10 +4305,10 @@
       "Medium"
     ],
     "similar": [
-      "boox-note-air-5-c",
+      "bigme-inknote-x",
       "musnap-aura-c",
-      "boox-tab-ultra-c",
-      "boox-note-air-3-c"
+      "boox-note-air-5-c",
+      "boox-tab-ultra-c"
     ],
     "pros": [
       {
@@ -4356,7 +4356,7 @@
     "brand": "iFlytek",
     "name": "iFlytek AINOTE 2",
     "fullName": "iFlytek AINOTE 2",
-    "releaseDate": "2025",
+    "releaseDate": "2024 / 04",
     "price": 599,
     "screenSize": 10.65,
     "resolution": "1920 x 2560",
@@ -4405,9 +4405,9 @@
     ],
     "similar": [
       "iflytek-ainote-air-2",
-      "musnap-x",
-      "bigme-inknote",
-      "huion-ink-eb1010"
+      "huion-ink-eb1010",
+      "viwoods-aipaper",
+      "bigme-inknote"
     ],
     "pros": [
       {
@@ -4449,7 +4449,7 @@
     "brand": "SPC",
     "name": "SPC Dickens Light 2 Pro",
     "fullName": "SPC Dickens Light 2 Pro",
-    "releaseDate": "2025",
+    "releaseDate": "2025 / 01",
     "price": 119.9,
     "screenSize": 6,
     "resolution": "758 x 1024",
@@ -4499,8 +4499,8 @@
     "similar": [
       "spc-dickens-light-pro",
       "silvergear-e-reader",
-      "bemi-cognita-tab-6",
-      "bemi-cognita-tab-6-plus"
+      "kobo-glo-hd",
+      "bemi-cognita-tab-6"
     ],
     "pros": [
       {
@@ -4530,7 +4530,7 @@
     "brand": "Musnap",
     "name": "Musnap X",
     "fullName": "Musnap X",
-    "releaseDate": "2025",
+    "releaseDate": "2025 / 09",
     "price": 571,
     "screenSize": 10.65,
     "resolution": "1920 x 2560",
@@ -4579,9 +4579,9 @@
     ],
     "similar": [
       "viwoods-aipaper",
+      "boox-note-air",
       "bigme-b1051",
-      "musnap-aura-c",
-      "iflytek-ainote-2"
+      "musnap-aura-c"
     ],
     "pros": [
       {
@@ -4626,7 +4626,7 @@
     "brand": "Musnap",
     "name": "Musnap Aura C",
     "fullName": "Musnap Aura C",
-    "releaseDate": "2025",
+    "releaseDate": "2025 / 06",
     "price": 563,
     "screenSize": 10.3,
     "resolution": "1860 x 2480",
@@ -4674,10 +4674,10 @@
       "Medium"
     ],
     "similar": [
-      "boox-note-air-5-c",
-      "penstar-enote-pro",
-      "boox-tab-ultra-c",
-      "boox-note-air-3-c"
+      "bigme-b1051c-lite",
+      "bigme-b1051c",
+      "bigme-b1051c-pro",
+      "bigme-b10"
     ],
     "pros": [
       {
@@ -4722,7 +4722,7 @@
     "brand": "Musnap",
     "name": "Musnap Ocean C",
     "fullName": "Musnap Ocean C",
-    "releaseDate": "2025",
+    "releaseDate": "2025 / 06",
     "price": 289,
     "screenSize": 7,
     "resolution": "1264 x 1680",
@@ -4771,9 +4771,9 @@
     ],
     "similar": [
       "musnap-neo-c",
-      "musnap-neo-2c",
       "musnap-ocean",
-      "boox-go-color-7-gen-ii"
+      "bigme-b751c-s",
+      "musnap-neo-2c"
     ],
     "pros": [
       {
@@ -4812,7 +4812,7 @@
     "brand": "Musnap",
     "name": "Musnap Ocean",
     "fullName": "Musnap Ocean",
-    "releaseDate": "2025",
+    "releaseDate": "2025 / 06",
     "price": 249,
     "screenSize": 7,
     "resolution": "1264 x 1680",
@@ -4899,7 +4899,7 @@
     "brand": "Musnap",
     "name": "Musnap Neo C",
     "fullName": "Musnap Neo C",
-    "releaseDate": "2025",
+    "releaseDate": "2025 / 05",
     "price": 197,
     "screenSize": 6,
     "resolution": "1072 x 1448",
@@ -4949,8 +4949,8 @@
     "similar": [
       "musnap-ocean-c",
       "musnap-neo-2c",
-      "bemi-cognita-tab-6-proc",
-      "bigme-b6"
+      "bigme-b6",
+      "bemi-cognita-tab-6-proc"
     ],
     "pros": [
       {
@@ -4986,7 +4986,7 @@
     "brand": "Musnap",
     "name": "Musnap Neo",
     "fullName": "Musnap Neo",
-    "releaseDate": "2025",
+    "releaseDate": "2025 / 05",
     "price": 169,
     "screenSize": 6,
     "resolution": "1072 x 1448",
@@ -5036,8 +5036,8 @@
     "similar": [
       "musnap-neo-2",
       "boox-go-7",
-      "musnap-ocean",
-      "boox-go-6"
+      "musnap-neo-c",
+      "bigme-b7-pro-bw"
     ],
     "pros": [
       {
@@ -5070,7 +5070,7 @@
     "brand": "Xteink",
     "name": "Xteink X4",
     "fullName": "Xteink X4",
-    "releaseDate": "2025",
+    "releaseDate": "2025 / 08",
     "price": 69,
     "screenSize": 4.3,
     "resolution": "480 x 800",
@@ -5120,8 +5120,8 @@
     ],
     "similar": [
       "xteink-x3",
-      "m5stack-papers3",
       "famue-bf07",
+      "m5stack-papers3",
       "famue-bf01"
     ],
     "pros": [
@@ -5167,7 +5167,7 @@
     "brand": "Montblanc",
     "name": "Montblanc Digital Paper",
     "fullName": "Montblanc Digital Paper",
-    "releaseDate": "2025",
+    "releaseDate": "2025 / 11",
     "price": 905,
     "screenSize": 10.3,
     "resolution": "1860 x 2480",
@@ -5263,7 +5263,7 @@
     "brand": "Obook",
     "name": "Obook 6",
     "fullName": "Obook 6",
-    "releaseDate": "2025",
+    "releaseDate": "2025 / 03",
     "price": 119.99,
     "screenSize": 6,
     "resolution": "1072 x 1448",
@@ -5308,10 +5308,10 @@
       "Medium"
     ],
     "similar": [
-      "nook-glowlight-plus",
-      "nook-1st-edition",
       "musnap-ocean",
-      "nook-glowlight-4"
+      "nook-glowlight-4e",
+      "nook-glowlight-plus",
+      "bemi-cognita-tab-6"
     ],
     "pros": [
       {
@@ -5341,7 +5341,7 @@
     "brand": "Obook",
     "name": "Obook 5",
     "fullName": "Obook 5",
-    "releaseDate": "2025",
+    "releaseDate": "2025 / 03",
     "price": 109.99,
     "screenSize": 4.26,
     "resolution": "480 x 800",
@@ -5390,9 +5390,9 @@
     ],
     "similar": [
       "xteink-x4",
-      "m5stack-papers3",
-      "spc-dickens-light-2-pro",
-      "spc-dickens-light-pro"
+      "obook-6",
+      "famue-bf07",
+      "spc-dickens-light-2-pro"
     ],
     "pros": [
       {
@@ -5425,7 +5425,7 @@
     "brand": "Bemi",
     "name": "Bemi Cognita Tab 6 ProC",
     "fullName": "Bemi Cognita Tab 6 ProC",
-    "releaseDate": "2025",
+    "releaseDate": "2025 / 10",
     "price": 179.9,
     "screenSize": 6,
     "resolution": "1072 x 1448",
@@ -5473,10 +5473,10 @@
       "Medium"
     ],
     "similar": [
+      "bemi-cognita-tab-6-plus",
       "bigme-b6",
       "musnap-neo-c",
-      "boox-go-color-7-gen-ii",
-      "inkbook-solaris-color"
+      "boox-go-color-7-gen-ii"
     ],
     "pros": [
       {
@@ -5511,7 +5511,7 @@
     "brand": "Bemi",
     "name": "Bemi Cognita Tab 6 Plus",
     "fullName": "Bemi Cognita Tab 6 Plus",
-    "releaseDate": "2025",
+    "releaseDate": "2025 / 10",
     "price": 109.9,
     "screenSize": 6,
     "resolution": "758 x 1024",
@@ -5560,9 +5560,9 @@
     ],
     "similar": [
       "bemi-cognita-tab-6",
-      "inkbook-solaris",
       "bemi-cognita-tab-8",
-      "bemi-cognita-tab-8-pro"
+      "nook-glowlight-plus",
+      "bemi-cognita-tab-6-proc"
     ],
     "pros": [
       {
@@ -5595,7 +5595,7 @@
     "brand": "Bemi",
     "name": "Bemi Cognita Tab 6",
     "fullName": "Bemi Cognita Tab 6",
-    "releaseDate": "2025",
+    "releaseDate": "2025 / 08",
     "price": 106.9,
     "screenSize": 6,
     "resolution": "758 x 1024",
@@ -5644,9 +5644,9 @@
     ],
     "similar": [
       "bemi-cognita-tab-6-plus",
-      "inkbook-solaris",
-      "bemi-cognita-tab-8",
-      "bemi-cognita-tab-8-pro"
+      "boox-go-6",
+      "boox-poke-2",
+      "boox-poke-4-lite"
     ],
     "pros": [
       {
@@ -5679,7 +5679,7 @@
     "brand": "Veidoo",
     "name": "Veidoo E8",
     "fullName": "Veidoo E8",
-    "releaseDate": "2025",
+    "releaseDate": "2025 / 04",
     "price": 248.99,
     "screenSize": 8.2,
     "resolution": "1440 x 1920",
@@ -5727,10 +5727,10 @@
       "Medium"
     ],
     "similar": [
-      "obook-6",
       "boox-go-color-7-gen-ii",
-      "nook-glowlight-4-plus",
-      "bemi-cognita-tab-6-proc"
+      "obook-6",
+      "bigme-inknote-s",
+      "nook-glowlight-4-plus"
     ],
     "pros": [
       {
@@ -5766,7 +5766,7 @@
     "brand": "Famue",
     "name": "Famue BF07",
     "fullName": "Famue BF07",
-    "releaseDate": "2025",
+    "releaseDate": "2025 / 07",
     "price": 39,
     "screenSize": 2.7,
     "resolution": "272 x 480",
@@ -5814,8 +5814,8 @@
       "Compact"
     ],
     "similar": [
-      "m5stack-papers3",
       "famue-bf01",
+      "m5stack-papers3",
       "xteink-x4",
       "xteink-x3"
     ],
@@ -5856,7 +5856,7 @@
     "brand": "Huion",
     "name": "Huion Ink EB1011",
     "fullName": "Huion Ink EB1011",
-    "releaseDate": "2025",
+    "releaseDate": "2025 / 09",
     "price": 369,
     "screenSize": 10.3,
     "resolution": "1404 x 1872",
@@ -5904,10 +5904,10 @@
       "Medium"
     ],
     "similar": [
+      "geniatech-kloudnote-slim",
       "bookeen-nota",
       "bigme-inknote-s",
-      "bigme-b1051-lite",
-      "obook-6"
+      "bigme-b1051-lite"
     ],
     "pros": [
       {
@@ -5949,7 +5949,7 @@
     "brand": "M5Stack",
     "name": "M5Stack PaperS3",
     "fullName": "M5Stack PaperS3",
-    "releaseDate": "2025",
+    "releaseDate": "2024 / 01",
     "price": 59,
     "screenSize": 4.7,
     "resolution": "540 x 960",
@@ -5998,9 +5998,9 @@
     ],
     "similar": [
       "famue-bf07",
-      "xteink-x4",
+      "famue-bf01",
       "xteink-x3",
-      "famue-bf01"
+      "xteink-x4"
     ],
     "pros": [
       {
@@ -6039,7 +6039,7 @@
     "brand": "reMarkable",
     "name": "reMarkable Paper Pro",
     "fullName": "reMarkable Paper Pro",
-    "releaseDate": "2024",
+    "releaseDate": "2024 / 09",
     "price": 579,
     "screenSize": 11.8,
     "resolution": "1620 x 2160",
@@ -6089,8 +6089,8 @@
     "similar": [
       "remarkable-paper-pro-move",
       "ratta-supernote-a5-x2-manta",
-      "boox-tab-x-c",
-      "geniatech-kloudnote"
+      "boox-max-lumi",
+      "boox-tab-x-c"
     ],
     "pros": [
       {
@@ -6135,7 +6135,7 @@
     "brand": "Kindle",
     "name": "Kindle Scribe 2024",
     "fullName": "Kindle Scribe 2024",
-    "releaseDate": "2024",
+    "releaseDate": "2024 / 10",
     "price": 399.99,
     "screenSize": 10.2,
     "resolution": "1860 x 2480",
@@ -6184,7 +6184,7 @@
       "kindle-scribe-3",
       "kindle-scribe-3-without-front-light",
       "kindle-scribe-colorsoft",
-      "bigme-inknote"
+      "boox-note-air-4-c"
     ],
     "pros": [
       {
@@ -6220,7 +6220,7 @@
     "brand": "Kindle",
     "name": "Kindle Colorsoft Signature Edition",
     "fullName": "Kindle Colorsoft Signature Edition",
-    "releaseDate": "2024",
+    "releaseDate": "2024 / 10",
     "price": 279.99,
     "screenSize": 7,
     "resolution": "1264 x 1680",
@@ -6307,7 +6307,7 @@
     "brand": "Kindle",
     "name": "Kindle Paperwhite 6 Signature Edition",
     "fullName": "Kindle Paperwhite 6 Signature Edition",
-    "releaseDate": "2024",
+    "releaseDate": "2024 / 10",
     "price": 199.99,
     "screenSize": 7,
     "resolution": "1264 x 1680",
@@ -6358,8 +6358,8 @@
     "similar": [
       "kindle-paperwhite-6",
       "kindle-oasis-2",
-      "kindle-oasis-3",
-      "kindle-paperwhite-2"
+      "kindle-11",
+      "kindle-2024"
     ],
     "pros": [
       {
@@ -6392,7 +6392,7 @@
     "brand": "Kindle",
     "name": "Kindle Paperwhite 6",
     "fullName": "Kindle Paperwhite 6",
-    "releaseDate": "2024",
+    "releaseDate": "2024 / 10",
     "price": 179.99,
     "screenSize": 7,
     "resolution": "1264 x 1680",
@@ -6442,8 +6442,8 @@
     "similar": [
       "kindle-paperwhite-6-signature-edition",
       "kindle-oasis-2",
-      "kindle-oasis-3",
-      "kindle-paperwhite-2"
+      "kindle-11",
+      "kindle-2024"
     ],
     "pros": [
       {
@@ -6476,7 +6476,7 @@
     "brand": "Kindle",
     "name": "Kindle 2024",
     "fullName": "Kindle 2024",
-    "releaseDate": "2024",
+    "releaseDate": "2024 / 10",
     "price": 129.99,
     "screenSize": 6,
     "resolution": "1072 x 1448",
@@ -6525,9 +6525,9 @@
     ],
     "similar": [
       "kindle-11",
-      "kindle-1",
-      "kindle-2",
-      "kindle-voyage"
+      "kindle-voyage",
+      "kindle-paperwhite",
+      "kindle-colorsoft-signature-edition"
     ],
     "pros": [
       {
@@ -6557,7 +6557,7 @@
     "brand": "Kobo",
     "name": "Kobo Libra Colour",
     "fullName": "Kobo Libra Colour",
-    "releaseDate": "2024",
+    "releaseDate": "2024 / 04",
     "price": 229.99,
     "screenSize": 7,
     "resolution": "1264 x 1680",
@@ -6607,9 +6607,9 @@
     ],
     "similar": [
       "kobo-clara-colour",
-      "tolino-vision-color",
-      "kindle-colorsoft-signature-edition",
-      "boox-go-color-7"
+      "kobo-clara-bw",
+      "vivlio-light-hd-color",
+      "tolino-vision-color"
     ],
     "pros": [
       {
@@ -6648,7 +6648,7 @@
     "brand": "Kobo",
     "name": "Kobo Clara Colour",
     "fullName": "Kobo Clara Colour",
-    "releaseDate": "2024",
+    "releaseDate": "2024 / 04",
     "price": 159.99,
     "screenSize": 6,
     "resolution": "1072 x 1448",
@@ -6698,8 +6698,8 @@
     "similar": [
       "kobo-libra-colour",
       "kobo-clara-bw",
-      "kobo-nia",
-      "vivlio-light-hd-color"
+      "vivlio-light-hd-color",
+      "meebook-m6c"
     ],
     "pros": [
       {
@@ -6732,7 +6732,7 @@
     "brand": "Kobo",
     "name": "Kobo Clara BW",
     "fullName": "Kobo Clara BW",
-    "releaseDate": "2024",
+    "releaseDate": "2024 / 04",
     "price": 139.99,
     "screenSize": 6,
     "resolution": "1072 x 1448",
@@ -6814,7 +6814,7 @@
     "brand": "Meebook",
     "name": "Meebook M8C",
     "fullName": "Meebook M8C",
-    "releaseDate": "2024",
+    "releaseDate": "2024 / 06",
     "price": 349.99,
     "screenSize": 7.8,
     "resolution": "1404 x 1872",
@@ -6904,7 +6904,7 @@
     "brand": "Meebook",
     "name": "Meebook M8",
     "fullName": "Meebook M8",
-    "releaseDate": "2024",
+    "releaseDate": "2024 / 06",
     "price": 259.99,
     "screenSize": 7.8,
     "resolution": "1404 x 1872",
@@ -6953,9 +6953,9 @@
     ],
     "similar": [
       "meebook-p78-pro",
-      "meebook-p6",
-      "meebook-m6",
-      "nook-glowlight-plus-78"
+      "meebook-m7",
+      "meebook-m8c",
+      "meebook-p6"
     ],
     "pros": [
       {
@@ -6991,7 +6991,7 @@
     "brand": "Meebook",
     "name": "Meebook M6C",
     "fullName": "Meebook M6C",
-    "releaseDate": "2024",
+    "releaseDate": "2024 / 04",
     "price": 199,
     "screenSize": 6,
     "resolution": "1072 x 1448",
@@ -7041,8 +7041,8 @@
     "similar": [
       "meebook-m8c",
       "boox-go-color-7",
-      "bigme-b751c",
-      "boox-poke-2-color"
+      "boox-go-color-7-gen-ii",
+      "bigme-b751c"
     ],
     "pros": [
       {
@@ -7078,7 +7078,7 @@
     "brand": "Meebook",
     "name": "Meebook M103",
     "fullName": "Meebook M103",
-    "releaseDate": "2024",
+    "releaseDate": "2024 / 08",
     "price": 299,
     "screenSize": 10.3,
     "resolution": "1404 x 1872",
@@ -7168,7 +7168,7 @@
     "brand": "Boox",
     "name": "Boox Palma 2",
     "fullName": "Boox Palma 2",
-    "releaseDate": "2024",
+    "releaseDate": "2024 / 10",
     "price": 279.99,
     "screenSize": 6.13,
     "resolution": "824 x 1648",
@@ -7218,7 +7218,7 @@
     "similar": [
       "boox-palma",
       "durobo-krono",
-      "boox-go-6",
+      "viwoods-aipaper-reader",
       "boox-go-103"
     ],
     "pros": [
@@ -7251,7 +7251,7 @@
     "brand": "Boox",
     "name": "Boox Note Air 4 C",
     "fullName": "Boox Note Air 4 C",
-    "releaseDate": "2024",
+    "releaseDate": "2024 / 10",
     "price": 499.99,
     "screenSize": 10.3,
     "resolution": "1860 x 2480",
@@ -7300,10 +7300,10 @@
       "Medium"
     ],
     "similar": [
-      "boox-tab-ultra-c",
       "boox-note-air-3-c",
       "boox-tab-ultra-c-pro",
-      "boox-note-air-5-c"
+      "boox-note-air-5-c",
+      "boox-tab-ultra-c"
     ],
     "pros": [
       {
@@ -7351,7 +7351,7 @@
     "brand": "Boox",
     "name": "Boox Go 6",
     "fullName": "Boox Go 6",
-    "releaseDate": "2024",
+    "releaseDate": "2024 / 08",
     "price": 149.99,
     "screenSize": 6,
     "resolution": "1072 x 1448",
@@ -7432,7 +7432,7 @@
     "brand": "Boox",
     "name": "Boox Go Color 7",
     "fullName": "Boox Go Color 7",
-    "releaseDate": "2024",
+    "releaseDate": "2024 / 06",
     "price": 249.99,
     "screenSize": 7,
     "resolution": "1264 x 1680",
@@ -7482,8 +7482,8 @@
     "similar": [
       "boox-go-color-7-gen-ii",
       "bigme-b751c",
-      "boox-poke-2-color",
-      "meebook-m6c"
+      "bigme-b751c-s",
+      "boox-poke-2-color"
     ],
     "pros": [
       {
@@ -7521,7 +7521,7 @@
     "brand": "Boox",
     "name": "Boox Go 10.3",
     "fullName": "Boox Go 10.3",
-    "releaseDate": "2024",
+    "releaseDate": "2024 / 06",
     "price": 379.99,
     "screenSize": 10.3,
     "resolution": "1860 x 2480",
@@ -7569,10 +7569,10 @@
       "Medium"
     ],
     "similar": [
-      "meebook-m103",
       "boox-page",
+      "meebook-m103",
       "boox-go-6",
-      "boox-poke-2"
+      "boox-go-6-gen-ii"
     ],
     "pros": [
       {
@@ -7617,7 +7617,7 @@
     "brand": "Ratta",
     "name": "Ratta Supernote A5 X2 Manta",
     "fullName": "Ratta Supernote A5 X2 Manta",
-    "releaseDate": "2024",
+    "releaseDate": "2024 / 08",
     "price": 459,
     "screenSize": 10.7,
     "resolution": "1920 x 2560",
@@ -7667,9 +7667,9 @@
     ],
     "similar": [
       "boox-note-max",
-      "boox-tab-x",
       "dasung-not-ereader-133",
-      "ratta-supernote-a5-x"
+      "ratta-supernote-a5-x",
+      "boox-tab-x"
     ],
     "pros": [
       {
@@ -7711,7 +7711,7 @@
     "brand": "PocketBook",
     "name": "PocketBook Color Note",
     "fullName": "PocketBook Color Note",
-    "releaseDate": "2024",
+    "releaseDate": "2024 / 09",
     "price": 599.99,
     "screenSize": 10.3,
     "resolution": "1404 x 1872",
@@ -7762,7 +7762,7 @@
       "pocketbook-inkpad-eo",
       "boox-note-air-4-c",
       "boox-tab-ultra-c",
-      "boox-note-air-3-c"
+      "bigme-b1051c-lite"
     ],
     "pros": [
       {
@@ -7807,7 +7807,7 @@
     "brand": "PocketBook",
     "name": "PocketBook InkPad Eo",
     "fullName": "PocketBook InkPad Eo",
-    "releaseDate": "2024",
+    "releaseDate": "2024 / 04",
     "price": 549,
     "screenSize": 10.3,
     "resolution": "1860 x 2480",
@@ -7856,9 +7856,9 @@
     ],
     "similar": [
       "pocketbook-color-note",
-      "boox-note-air-4-c",
       "boox-tab-ultra-c",
-      "boox-note-air-3-c"
+      "boox-note-air-4-c",
+      "bigme-b1051c-lite"
     ],
     "pros": [
       {
@@ -7903,7 +7903,7 @@
     "brand": "PocketBook",
     "name": "PocketBook Era Color",
     "fullName": "PocketBook Era Color",
-    "releaseDate": "2024",
+    "releaseDate": "2024 / 04",
     "price": 269.99,
     "screenSize": 7,
     "resolution": "1264 x 1680",
@@ -7952,8 +7952,8 @@
     ],
     "similar": [
       "pocketbook-verse-pro-color",
-      "pocketbook-inkpad-color-3",
       "pocketbook-color",
+      "pocketbook-inkpad-color-3",
       "pocketbook-inkpad-color"
     ],
     "pros": [
@@ -7990,7 +7990,7 @@
     "brand": "PocketBook",
     "name": "PocketBook Verse Pro Color",
     "fullName": "PocketBook Verse Pro Color",
-    "releaseDate": "2024",
+    "releaseDate": "2024 / 04",
     "price": 169.99,
     "screenSize": 6,
     "resolution": "1072 x 1448",
@@ -8040,8 +8040,8 @@
     "similar": [
       "pocketbook-era-color",
       "pocketbook-color",
-      "pocketbook-inkpad-color-3",
-      "pocketbook-inkpad-color"
+      "vivlio-light-hd-color",
+      "pocketbook-inkpad-color-3"
     ],
     "pros": [
       {
@@ -8077,7 +8077,7 @@
     "brand": "Bigme",
     "name": "Bigme Hibreak Color",
     "fullName": "Bigme Hibreak Color",
-    "releaseDate": "2024",
+    "releaseDate": "2024 / 05",
     "price": 249,
     "screenSize": 5.84,
     "resolution": "720 x 1440",
@@ -8125,9 +8125,9 @@
       "Medium"
     ],
     "similar": [
-      "bigme-hibreak-s-color",
       "bigme-hibreak-bw",
-      "bigme-hibreak-s-bw",
+      "bigme-hibreak-s-color",
+      "bigme-s6-color-lite",
       "bigme-hibreak-pro-color"
     ],
     "pros": [
@@ -8160,7 +8160,7 @@
     "brand": "Bigme",
     "name": "Bigme Hibreak B&W",
     "fullName": "Bigme Hibreak B&W",
-    "releaseDate": "2024",
+    "releaseDate": "2024 / 05",
     "price": 219,
     "screenSize": 5.84,
     "resolution": "720 x 1440",
@@ -8208,8 +8208,8 @@
       "Medium"
     ],
     "similar": [
-      "bigme-hibreak-s-bw",
       "bigme-hibreak-color",
+      "bigme-hibreak-s-bw",
       "bigme-hibreak-s-color",
       "bigme-hibreak-dual-bw"
     ],
@@ -8240,7 +8240,7 @@
     "brand": "Bigme",
     "name": "Bigme InkNote X",
     "fullName": "Bigme InkNote X",
-    "releaseDate": "2024",
+    "releaseDate": "2024 / 07",
     "price": 699,
     "screenSize": 10.3,
     "resolution": "1860 x 2480",
@@ -8336,7 +8336,7 @@
     "brand": "Bigme",
     "name": "Bigme B1051C Pro",
     "fullName": "Bigme B1051C Pro",
-    "releaseDate": "2024",
+    "releaseDate": "2024 / 06",
     "price": 729,
     "screenSize": 10.3,
     "resolution": "1860 x 2480",
@@ -8387,7 +8387,7 @@
       "bigme-b1051c-lite",
       "bigme-b1051c",
       "bigme-inknote-x",
-      "bigme-guoyue-k3-color"
+      "bigme-b10"
     ],
     "pros": [
       {
@@ -8435,7 +8435,7 @@
     "brand": "Bigme",
     "name": "Bigme B1051C",
     "fullName": "Bigme B1051C",
-    "releaseDate": "2024",
+    "releaseDate": "2024 / 06",
     "price": 639,
     "screenSize": 10.3,
     "resolution": "1860 x 2480",
@@ -8486,7 +8486,7 @@
       "bigme-b1051c-lite",
       "bigme-b1051c-pro",
       "bigme-inknote-x",
-      "bigme-guoyue-k3-color"
+      "bigme-b10"
     ],
     "pros": [
       {
@@ -8534,7 +8534,7 @@
     "brand": "Bigme",
     "name": "Bigme B1051C Lite",
     "fullName": "Bigme B1051C Lite",
-    "releaseDate": "2024",
+    "releaseDate": "2024 / 06",
     "price": 539,
     "screenSize": 10.3,
     "resolution": "1860 x 2480",
@@ -8585,7 +8585,7 @@
       "bigme-b1051c",
       "bigme-b1051c-pro",
       "bigme-inknote-x",
-      "bigme-guoyue-k3-color"
+      "bigme-b10"
     ],
     "pros": [
       {
@@ -8633,7 +8633,7 @@
     "brand": "Bigme",
     "name": "Bigme B1051",
     "fullName": "Bigme B1051",
-    "releaseDate": "2024",
+    "releaseDate": "2024 / 06",
     "price": 599,
     "screenSize": 10.3,
     "resolution": "1860 x 2480",
@@ -8681,10 +8681,10 @@
       "Medium"
     ],
     "similar": [
-      "bigme-inknote",
-      "viwoods-aipaper",
-      "boox-note-air-3",
-      "bigme-b1051c-lite"
+      "bigme-b1051c-lite",
+      "bigme-b1051c",
+      "bigme-b1051c-pro",
+      "bigme-inknote"
     ],
     "pros": [
       {
@@ -8729,7 +8729,7 @@
     "brand": "Bigme",
     "name": "Bigme B1051 Lite",
     "fullName": "Bigme B1051 Lite",
-    "releaseDate": "2024",
+    "releaseDate": "2024 / 06",
     "price": 389,
     "screenSize": 10.3,
     "resolution": "1404 x 1872",
@@ -8780,7 +8780,7 @@
       "bigme-inknote-s",
       "bigme-b751",
       "bigme-b6-bw",
-      "bigme-s6"
+      "boox-go-103"
     ],
     "pros": [
       {
@@ -8822,7 +8822,7 @@
     "brand": "Bigme",
     "name": "Bigme B751C",
     "fullName": "Bigme B751C",
-    "releaseDate": "2024",
+    "releaseDate": "2024 / 01",
     "price": 299,
     "screenSize": 7,
     "resolution": "1264 x 1680",
@@ -8873,7 +8873,7 @@
       "bigme-b751c-s",
       "bigme-b7",
       "bigme-b7-pro",
-      "bigme-b6"
+      "bigme-b751"
     ],
     "pros": [
       {
@@ -8911,7 +8911,7 @@
     "brand": "Bigme",
     "name": "Bigme B751",
     "fullName": "Bigme B751",
-    "releaseDate": "2024",
+    "releaseDate": "2024 / 01",
     "price": 299,
     "screenSize": 7,
     "resolution": "1264 x 1680",
@@ -8997,7 +8997,7 @@
     "brand": "MobiScribe",
     "name": "MobiScribe Wave Color 3",
     "fullName": "MobiScribe Wave Color 3",
-    "releaseDate": "2024",
+    "releaseDate": "2024 / 09",
     "price": 340,
     "screenSize": 7.8,
     "resolution": "1404 x 1872",
@@ -9087,7 +9087,7 @@
     "brand": "Daylight",
     "name": "Daylight Computer DC-1",
     "fullName": "Daylight Computer DC-1",
-    "releaseDate": "2024",
+    "releaseDate": "2024 / 05",
     "price": 729,
     "screenSize": 10.5,
     "resolution": "1200 x 1600",
@@ -9138,7 +9138,7 @@
       "geniatech-kloudnote",
       "eyemoo-epaper-s1",
       "boox-tab-x-c",
-      "dasung-not-ereader-133"
+      "boox-note-max"
     ],
     "pros": [
       {
@@ -9180,7 +9180,7 @@
     "brand": "Hannspree",
     "name": "Hannspree HannsNote2",
     "fullName": "Hannspree HannsNote2",
-    "releaseDate": "2024",
+    "releaseDate": "2024 / 03",
     "price": 349,
     "screenSize": 10,
     "resolution": "1200 x 1600",
@@ -9279,7 +9279,7 @@
     "brand": "Tolino",
     "name": "Tolino Vision Color",
     "fullName": "Tolino Vision Color",
-    "releaseDate": "2024",
+    "releaseDate": "2024 / 05",
     "price": 199,
     "screenSize": 7,
     "resolution": "1264 x 1680",
@@ -9369,7 +9369,7 @@
     "brand": "Tolino",
     "name": "Tolino Shine Color",
     "fullName": "Tolino Shine Color",
-    "releaseDate": "2024",
+    "releaseDate": "2024 / 05",
     "price": 149,
     "screenSize": 6,
     "resolution": "1072 x 1448",
@@ -9419,8 +9419,8 @@
     "similar": [
       "tolino-vision-color",
       "vivlio-light-hd-color",
-      "vivlio-inkpad-color-3",
-      "pocketbook-verse-pro-color"
+      "tolino-shine-5",
+      "vivlio-inkpad-color-3"
     ],
     "pros": [
       {
@@ -9453,7 +9453,7 @@
     "brand": "Tolino",
     "name": "Tolino Shine 5",
     "fullName": "Tolino Shine 5",
-    "releaseDate": "2024",
+    "releaseDate": "2024 / 05",
     "price": 119,
     "screenSize": 6,
     "resolution": "1072 x 1448",
@@ -9501,10 +9501,10 @@
       "Medium"
     ],
     "similar": [
+      "tolino-shine-color",
       "vivlio-light",
       "vivlio-light-zen",
-      "tolino-shine-color",
-      "vivlio-light-hd"
+      "tolino-vision-color"
     ],
     "pros": [
       {
@@ -9534,7 +9534,7 @@
     "brand": "Viwoods",
     "name": "Viwoods AiPaper",
     "fullName": "Viwoods AiPaper",
-    "releaseDate": "2024",
+    "releaseDate": "2024 / 07",
     "price": 799,
     "screenSize": 10.65,
     "resolution": "1920 x 2560",
@@ -9585,7 +9585,7 @@
       "viwoods-aipaper-mini",
       "musnap-x",
       "bigme-b1051",
-      "boox-note-air-3"
+      "boox-go-103-gen-ii"
     ],
     "pros": [
       {
@@ -9630,7 +9630,7 @@
     "brand": "Viwoods",
     "name": "Viwoods AiPaper Mini",
     "fullName": "Viwoods AiPaper Mini",
-    "releaseDate": "2024",
+    "releaseDate": "2024 / 07",
     "price": 599,
     "screenSize": 8.2,
     "resolution": "1440 x 1920",
@@ -9679,8 +9679,8 @@
     ],
     "similar": [
       "viwoods-aipaper",
-      "boox-note-air-3",
       "bigme-b1051",
+      "boox-note-air-3",
       "boox-go-103-gen-ii"
     ],
     "pros": [
@@ -9717,7 +9717,7 @@
     "brand": "Vivlio",
     "name": "Vivlio InkPad Color 3",
     "fullName": "Vivlio InkPad Color 3",
-    "releaseDate": "2024",
+    "releaseDate": "2024 / 04",
     "price": 309.99,
     "screenSize": 7.8,
     "resolution": "1404 x 1872",
@@ -9768,7 +9768,7 @@
       "vivlio-light-hd-color",
       "tolino-vision-color",
       "tolino-shine-color",
-      "pocketbook-inkpad-color-3"
+      "pocketbook-verse-pro-color"
     ],
     "pros": [
       {
@@ -9804,7 +9804,7 @@
     "brand": "Vivlio",
     "name": "Vivlio Light HD Color",
     "fullName": "Vivlio Light HD Color",
-    "releaseDate": "2024",
+    "releaseDate": "2024 / 04",
     "price": 179.99,
     "screenSize": 6,
     "resolution": "1072 x 1448",
@@ -9854,8 +9854,8 @@
     "similar": [
       "vivlio-inkpad-color-3",
       "tolino-shine-color",
-      "tolino-vision-color",
-      "pocketbook-verse-pro-color"
+      "pocketbook-verse-pro-color",
+      "tolino-vision-color"
     ],
     "pros": [
       {
@@ -9891,7 +9891,7 @@
     "brand": "Penstar",
     "name": "Penstar eNote",
     "fullName": "Penstar eNote",
-    "releaseDate": "2024",
+    "releaseDate": "2024 / 06",
     "price": 399,
     "screenSize": 10.3,
     "resolution": "1404 x 1872",
@@ -9940,9 +9940,9 @@
     ],
     "similar": [
       "penstar-enote-2",
-      "lenovo-smart-paper",
       "boox-go-103",
-      "meebook-m103"
+      "lenovo-smart-paper",
+      "bigme-b1051-lite"
     ],
     "pros": [
       {
@@ -9987,7 +9987,7 @@
     "brand": "iFlytek",
     "name": "iFlytek AINOTE Air 2",
     "fullName": "iFlytek AINOTE Air 2",
-    "releaseDate": "2024",
+    "releaseDate": "2024 / 04",
     "price": 549,
     "screenSize": 8.2,
     "resolution": "1440 x 1920",
@@ -10037,7 +10037,7 @@
     "similar": [
       "iflytek-ainote-2",
       "huion-ink-eb1010",
-      "paperslate-pro",
+      "viwoods-aipaper-mini",
       "bigme-inknote"
     ],
     "pros": [
@@ -10073,7 +10073,7 @@
     "brand": "Paperslate",
     "name": "Paperslate Pro",
     "fullName": "Paperslate Pro",
-    "releaseDate": "2024",
+    "releaseDate": "2024 / 11",
     "price": 429.99,
     "screenSize": 10,
     "resolution": "1200 x 1600",
@@ -10122,9 +10122,9 @@
     ],
     "similar": [
       "huion-ink-eb1010",
+      "iflytek-ainote-2",
       "iflytek-ainote-air-2",
-      "bigme-inknote",
-      "bigme-b1051c-lite"
+      "bigme-inknote"
     ],
     "pros": [
       {
@@ -10169,7 +10169,7 @@
     "brand": "Paperslate",
     "name": "Paperslate",
     "fullName": "Paperslate",
-    "releaseDate": "2024",
+    "releaseDate": "2024 / 11",
     "price": 349.99,
     "screenSize": 10,
     "resolution": "1200 x 1600",
@@ -10219,8 +10219,8 @@
     "similar": [
       "bigme-b1051-lite",
       "bigme-b751",
-      "bigme-inknote-s",
-      "musnap-ocean"
+      "bemi-cognita-tab-8-pro",
+      "nook-1st-edition"
     ],
     "pros": [
       {
@@ -10265,7 +10265,7 @@
     "brand": "Silvergear",
     "name": "Silvergear e-reader",
     "fullName": "Silvergear e-reader",
-    "releaseDate": "2024",
+    "releaseDate": "2024 / 05",
     "price": 139.99,
     "screenSize": 6,
     "resolution": "758 x 1024",
@@ -10315,8 +10315,8 @@
     "similar": [
       "spc-dickens-light-2-pro",
       "spc-dickens-light-pro",
-      "kobo-clara-bw",
-      "kobo-nia"
+      "tolino-shine-5",
+      "kobo-glo-hd"
     ],
     "pros": [
       {
@@ -10346,7 +10346,7 @@
     "brand": "Bemi",
     "name": "Bemi Cognita Tab 8 Pro",
     "fullName": "Bemi Cognita Tab 8 Pro",
-    "releaseDate": "2024",
+    "releaseDate": "2024 / 11",
     "price": 229.9,
     "screenSize": 7.8,
     "resolution": "1404 x 1872",
@@ -10395,8 +10395,8 @@
     ],
     "similar": [
       "bemi-cognita-tab-8",
-      "bemi-cognita-tab-6",
       "bemi-cognita-tab-6-plus",
+      "bemi-cognita-tab-6",
       "meebook-m8"
     ],
     "pros": [
@@ -10429,7 +10429,7 @@
     "brand": "Bemi",
     "name": "Bemi Cognita Tab 8",
     "fullName": "Bemi Cognita Tab 8",
-    "releaseDate": "2024",
+    "releaseDate": "2024 / 10",
     "price": 149.9,
     "screenSize": 7.8,
     "resolution": "1404 x 1872",
@@ -10478,9 +10478,9 @@
     ],
     "similar": [
       "bemi-cognita-tab-8-pro",
-      "bemi-cognita-tab-6",
       "bemi-cognita-tab-6-plus",
-      "meebook-m8"
+      "boox-nova-3",
+      "boox-nova-air-2"
     ],
     "pros": [
       {
@@ -10513,7 +10513,7 @@
     "brand": "Bemi",
     "name": "Bemi Cognita Tab 5",
     "fullName": "Bemi Cognita Tab 5",
-    "releaseDate": "2024",
+    "releaseDate": "2024 / 08",
     "price": 89.9,
     "screenSize": 5.76,
     "resolution": "680 x 920",
@@ -10594,7 +10594,7 @@
     "brand": "Famue",
     "name": "Famue BF01",
     "fullName": "Famue BF01",
-    "releaseDate": "2024",
+    "releaseDate": "2024 / 06",
     "price": 59,
     "screenSize": 3.52,
     "resolution": "240 x 360",
@@ -10642,10 +10642,10 @@
       "Compact"
     ],
     "similar": [
-      "xteink-x3",
       "famue-bf07",
-      "xteink-x4",
-      "m5stack-papers3"
+      "xteink-x3",
+      "m5stack-papers3",
+      "xteink-x4"
     ],
     "pros": [
       {
@@ -10684,7 +10684,7 @@
     "brand": "Huion",
     "name": "Huion Ink EB1010",
     "fullName": "Huion Ink EB1010",
-    "releaseDate": "2024",
+    "releaseDate": "2024 / 05",
     "price": 499,
     "screenSize": 10.3,
     "resolution": "1404 x 1872",
@@ -10732,10 +10732,10 @@
       "Medium"
     ],
     "similar": [
+      "boox-note-air-2-plus",
       "bigme-inknote",
-      "boox-note-air-4-c",
-      "bigme-b1051c-lite",
-      "bigme-b1051c"
+      "iflytek-ainote-2",
+      "bigme-inknote-color-lite"
     ],
     "pros": [
       {
@@ -10777,7 +10777,7 @@
     "brand": "Kobo",
     "name": "Kobo Elipsa 2E",
     "fullName": "Kobo Elipsa 2E",
-    "releaseDate": "2023",
+    "releaseDate": "2023 / 04",
     "price": 399.99,
     "screenSize": 10.3,
     "resolution": "1404 x 1872",
@@ -10867,7 +10867,7 @@
     "brand": "Lenovo",
     "name": "Lenovo Smart Paper",
     "fullName": "Lenovo Smart Paper",
-    "releaseDate": "2023",
+    "releaseDate": "2023 / 05",
     "price": 399,
     "screenSize": 10.3,
     "resolution": "1404 x 1872",
@@ -10916,9 +10916,9 @@
     ],
     "similar": [
       "penstar-enote",
-      "bookeen-nota",
-      "meebook-p10-pro",
-      "meebook-m6"
+      "boox-poke-5",
+      "boox-poke-4-lite",
+      "bookeen-nota"
     ],
     "pros": [
       {
@@ -10960,7 +10960,7 @@
     "brand": "Meebook",
     "name": "Meebook M6",
     "fullName": "Meebook M6",
-    "releaseDate": "2023",
+    "releaseDate": "2023 / 02",
     "price": 159,
     "screenSize": 6,
     "resolution": "1072 x 1448",
@@ -11044,7 +11044,7 @@
     "brand": "Meebook",
     "name": "Meebook M7",
     "fullName": "Meebook M7",
-    "releaseDate": "2023",
+    "releaseDate": "2023 / 06",
     "price": 199,
     "screenSize": 6.8,
     "resolution": "1236 x 1648",
@@ -11092,10 +11092,10 @@
       "Medium"
     ],
     "similar": [
+      "meebook-m8",
+      "boox-page",
       "meebook-m6",
-      "meebook-m103",
-      "meebook-p78-pro",
-      "meebook-m8"
+      "meebook-m103"
     ],
     "pros": [
       {
@@ -11127,7 +11127,7 @@
     "brand": "Boox",
     "name": "Boox Tab Ultra C Pro",
     "fullName": "Boox Tab Ultra C Pro",
-    "releaseDate": "2023",
+    "releaseDate": "2023 / 10",
     "price": 649.99,
     "screenSize": 10.3,
     "resolution": "1860 x 2480",
@@ -11175,10 +11175,10 @@
       "Medium"
     ],
     "similar": [
-      "boox-tab-ultra-c",
       "boox-note-air-3-c",
       "boox-note-air-4-c",
-      "boox-note-air-5-c"
+      "boox-note-air-5-c",
+      "boox-tab-ultra-c"
     ],
     "pros": [
       {
@@ -11223,7 +11223,7 @@
     "brand": "Boox",
     "name": "Boox Note Air 3 C",
     "fullName": "Boox Note Air 3 C",
-    "releaseDate": "2023",
+    "releaseDate": "2023 / 10",
     "price": 499.99,
     "screenSize": 10.3,
     "resolution": "1860 x 2480",
@@ -11271,10 +11271,10 @@
       "Medium"
     ],
     "similar": [
-      "boox-tab-ultra-c",
       "boox-tab-ultra-c-pro",
       "boox-note-air-4-c",
-      "boox-note-air-5-c"
+      "boox-note-air-5-c",
+      "boox-tab-ultra-c"
     ],
     "pros": [
       {
@@ -11322,7 +11322,7 @@
     "brand": "Boox",
     "name": "Boox Note Air 3",
     "fullName": "Boox Note Air 3",
-    "releaseDate": "2023",
+    "releaseDate": "2023 / 12",
     "price": 399.99,
     "screenSize": 10.3,
     "resolution": "1404 x 1872",
@@ -11415,7 +11415,7 @@
     "brand": "Boox",
     "name": "Boox Page",
     "fullName": "Boox Page",
-    "releaseDate": "2023",
+    "releaseDate": "2023 / 06",
     "price": 249.99,
     "screenSize": 7,
     "resolution": "1264 x 1680",
@@ -11464,10 +11464,10 @@
       "Medium"
     ],
     "similar": [
-      "boox-go-7",
-      "boox-poke-2",
       "boox-go-103",
-      "boox-leaf"
+      "boox-go-7",
+      "boox-go-6-gen-ii",
+      "meebook-m7"
     ],
     "pros": [
       {
@@ -11502,7 +11502,7 @@
     "brand": "Boox",
     "name": "Boox Palma",
     "fullName": "Boox Palma",
-    "releaseDate": "2023",
+    "releaseDate": "2023 / 07",
     "price": 279.99,
     "screenSize": 6.13,
     "resolution": "824 x 1648",
@@ -11586,7 +11586,7 @@
     "brand": "Boox",
     "name": "Boox Tab Mini C",
     "fullName": "Boox Tab Mini C",
-    "releaseDate": "2023",
+    "releaseDate": "2023 / 06",
     "price": 399.99,
     "screenSize": 7.8,
     "resolution": "1404 x 1872",
@@ -11676,7 +11676,7 @@
     "brand": "Boox",
     "name": "Boox Poke 5",
     "fullName": "Boox Poke 5",
-    "releaseDate": "2023",
+    "releaseDate": "2023 / 05",
     "price": 169.99,
     "screenSize": 6,
     "resolution": "1072 x 1448",
@@ -11724,10 +11724,10 @@
       "Medium"
     ],
     "similar": [
+      "boox-poke-4-lite",
       "boox-poke-3",
-      "boox-leaf",
-      "boox-leaf-2",
-      "boox-poke-2"
+      "boox-poke-2",
+      "boox-leaf"
     ],
     "pros": [
       {
@@ -11757,7 +11757,7 @@
     "brand": "Boox",
     "name": "Boox Tab Ultra C",
     "fullName": "Boox Tab Ultra C",
-    "releaseDate": "2023",
+    "releaseDate": "2023 / 04",
     "price": 599.99,
     "screenSize": 10.3,
     "resolution": "1860 x 2480",
@@ -11853,7 +11853,7 @@
     "brand": "Boox",
     "name": "Boox Tab X",
     "fullName": "Boox Tab X",
-    "releaseDate": "2023",
+    "releaseDate": "2023 / 01",
     "price": 879.99,
     "screenSize": 13.3,
     "resolution": "1650 x 2200",
@@ -11901,8 +11901,8 @@
       "Large"
     ],
     "similar": [
-      "boox-note-max",
       "dasung-not-ereader-133",
+      "boox-note-max",
       "boox-max-lumi",
       "boox-max-lumi-2"
     ],
@@ -11946,7 +11946,7 @@
     "brand": "Ratta",
     "name": "Ratta Supernote A6 X2 Nomad",
     "fullName": "Ratta Supernote A6 X2 Nomad",
-    "releaseDate": "2023",
+    "releaseDate": "2023 / 12",
     "price": 299,
     "screenSize": 7.8,
     "resolution": "1404 x 1872",
@@ -11996,8 +11996,8 @@
     "similar": [
       "ratta-supernote-a6-x",
       "vivlio-inkpad-4",
-      "bemi-cognita-tab-8",
-      "bemi-cognita-tab-8-pro"
+      "pocketbook-inkpad-4",
+      "bemi-cognita-tab-8"
     ],
     "pros": [
       {
@@ -12033,7 +12033,7 @@
     "brand": "Nook",
     "name": "Nook GlowLight 4 Plus",
     "fullName": "Nook GlowLight 4 Plus",
-    "releaseDate": "2023",
+    "releaseDate": "2023 / 09",
     "price": 199.99,
     "screenSize": 7.8,
     "resolution": "1404 x 1872",
@@ -12117,7 +12117,7 @@
     "brand": "PocketBook",
     "name": "PocketBook Basic Lux 4",
     "fullName": "PocketBook Basic Lux 4",
-    "releaseDate": "2023",
+    "releaseDate": "2023 / 07",
     "price": 119.99,
     "screenSize": 6,
     "resolution": "758 x 1024",
@@ -12165,9 +12165,9 @@
       "Medium"
     ],
     "similar": [
+      "pocketbook-touch-lux-5",
       "pocketbook-verse",
       "pocketbook-verse-pro",
-      "pocketbook-touch-lux-5",
       "pocketbook-basic-lux-3"
     ],
     "pros": [
@@ -12198,7 +12198,7 @@
     "brand": "PocketBook",
     "name": "PocketBook Verse Pro",
     "fullName": "PocketBook Verse Pro",
-    "releaseDate": "2023",
+    "releaseDate": "2023 / 09",
     "price": 179.99,
     "screenSize": 6,
     "resolution": "1072 x 1448",
@@ -12279,7 +12279,7 @@
     "brand": "PocketBook",
     "name": "PocketBook Verse",
     "fullName": "PocketBook Verse",
-    "releaseDate": "2023",
+    "releaseDate": "2023 / 09",
     "price": 139.99,
     "screenSize": 6,
     "resolution": "758 x 1024",
@@ -12327,8 +12327,8 @@
       "Medium"
     ],
     "similar": [
-      "pocketbook-basic-lux-4",
       "pocketbook-verse-pro",
+      "pocketbook-basic-lux-4",
       "pocketbook-touch-lux-5",
       "pocketbook-basic-lux-3"
     ],
@@ -12360,7 +12360,7 @@
     "brand": "PocketBook",
     "name": "PocketBook InkPad Color 3",
     "fullName": "PocketBook InkPad Color 3",
-    "releaseDate": "2023",
+    "releaseDate": "2023 / 11",
     "price": 329.99,
     "screenSize": 7.8,
     "resolution": "1404 x 1872",
@@ -12447,7 +12447,7 @@
     "brand": "PocketBook",
     "name": "PocketBook InkPad Color 2",
     "fullName": "PocketBook InkPad Color 2",
-    "releaseDate": "2023",
+    "releaseDate": "2023 / 05",
     "price": 319.99,
     "screenSize": 7.8,
     "resolution": "1404 x 1872",
@@ -12534,7 +12534,7 @@
     "brand": "PocketBook",
     "name": "PocketBook InkPad X Pro",
     "fullName": "PocketBook InkPad X Pro",
-    "releaseDate": "2023",
+    "releaseDate": "2023 / 09",
     "price": 419.99,
     "screenSize": 10.3,
     "resolution": "1404 x 1872",
@@ -12584,8 +12584,8 @@
     "similar": [
       "boox-note-3",
       "boox-note-5",
-      "boox-note-air-3",
-      "pocketbook-inkpad-eo"
+      "pocketbook-color-note",
+      "boox-note-air"
     ],
     "pros": [
       {
@@ -12624,7 +12624,7 @@
     "brand": "PocketBook",
     "name": "PocketBook InkPad 4",
     "fullName": "PocketBook InkPad 4",
-    "releaseDate": "2023",
+    "releaseDate": "2023 / 04",
     "price": 289.99,
     "screenSize": 7.8,
     "resolution": "1404 x 1872",
@@ -12673,9 +12673,9 @@
     ],
     "similar": [
       "pocketbook-era",
+      "pocketbook-basic-lux-3",
       "pocketbook-verse",
-      "pocketbook-basic-lux-4",
-      "pocketbook-era-lite"
+      "pocketbook-basic-lux-4"
     ],
     "pros": [
       {
@@ -12708,7 +12708,7 @@
     "brand": "Bigme",
     "name": "Bigme S6 Color+ Lite",
     "fullName": "Bigme S6 Color+ Lite",
-    "releaseDate": "2023",
+    "releaseDate": "2023 / 05",
     "price": 369,
     "screenSize": 7.8,
     "resolution": "1404 x 1872",
@@ -12797,7 +12797,7 @@
     "brand": "Bigme",
     "name": "Bigme S6 Color+",
     "fullName": "Bigme S6 Color+",
-    "releaseDate": "2023",
+    "releaseDate": "2023 / 03",
     "price": 459,
     "screenSize": 7.8,
     "resolution": "1404 x 1872",
@@ -12886,7 +12886,7 @@
     "brand": "Bigme",
     "name": "Bigme S6",
     "fullName": "Bigme S6",
-    "releaseDate": "2023",
+    "releaseDate": "2023 / 03",
     "price": 359,
     "screenSize": 7.8,
     "resolution": "1404 x 1872",
@@ -12972,7 +12972,7 @@
     "brand": "Bigme",
     "name": "Bigme InkNote Color+ Lite",
     "fullName": "Bigme InkNote Color+ Lite",
-    "releaseDate": "2023",
+    "releaseDate": "2023 / 05",
     "price": 479,
     "screenSize": 10.3,
     "resolution": "1860 x 2480",
@@ -13065,7 +13065,7 @@
     "brand": "Bigme",
     "name": "Bigme InkNote Color+",
     "fullName": "Bigme InkNote Color+",
-    "releaseDate": "2023",
+    "releaseDate": "2023 / 02",
     "price": 609,
     "screenSize": 10.3,
     "resolution": "1860 x 2480",
@@ -13161,7 +13161,7 @@
     "brand": "Bigme",
     "name": "Bigme InkNote",
     "fullName": "Bigme InkNote",
-    "releaseDate": "2023",
+    "releaseDate": "2023 / 02",
     "price": 419,
     "screenSize": 10.3,
     "resolution": "1404 x 1872",
@@ -13209,8 +13209,8 @@
       "Medium"
     ],
     "similar": [
-      "bigme-guoyue-k3-color",
       "bigme-inknote-color",
+      "bigme-guoyue-k3-color",
       "bigme-inknote-color-lite",
       "bigme-b1051c-lite"
     ],
@@ -13248,7 +13248,7 @@
     "brand": "Bigme",
     "name": "Bigme InkNote S",
     "fullName": "Bigme InkNote S",
-    "releaseDate": "2023",
+    "releaseDate": "2023 / 04",
     "price": 369,
     "screenSize": 10.3,
     "resolution": "1404 x 1872",
@@ -13297,9 +13297,9 @@
     ],
     "similar": [
       "bigme-b1051-lite",
+      "bigme-b6-bw",
       "bigme-s6",
-      "bookeen-nota",
-      "bigme-b751"
+      "bookeen-nota"
     ],
     "pros": [
       {
@@ -13335,7 +13335,7 @@
     "brand": "Bigme",
     "name": "Bigme Read",
     "fullName": "Bigme Read",
-    "releaseDate": "2023",
+    "releaseDate": "2023 / 06",
     "price": 99,
     "screenSize": 6,
     "resolution": "758 x 1024",
@@ -13385,8 +13385,8 @@
     "similar": [
       "veidoo-e5",
       "bemi-cognita-tab-5",
-      "bemi-cognita-light-2",
-      "bemi-cognita-x"
+      "nook-simple-touch",
+      "bemi-cognita-light-2"
     ],
     "pros": [
       {
@@ -13416,7 +13416,7 @@
     "brand": "Bigme",
     "name": "Bigme Guoyue K3 Color",
     "fullName": "Bigme Guoyue K3 Color",
-    "releaseDate": "2023",
+    "releaseDate": "2023 / 01",
     "price": 419,
     "screenSize": 10.3,
     "resolution": "1860 x 2480",
@@ -13512,7 +13512,7 @@
     "brand": "Bigme",
     "name": "Bigme Guoyue V6 Color",
     "fullName": "Bigme Guoyue V6 Color",
-    "releaseDate": "2023",
+    "releaseDate": "2023 / 01",
     "price": 349,
     "screenSize": 7.8,
     "resolution": "1404 x 1872",
@@ -13561,8 +13561,8 @@
     ],
     "similar": [
       "bigme-s6-color-lite",
-      "bigme-s6",
       "bigme-b751c",
+      "bigme-s6",
       "bigme-b751c-s"
     ],
     "pros": [
@@ -13602,7 +13602,7 @@
     "brand": "MobiScribe",
     "name": "MobiScribe Wave Color",
     "fullName": "MobiScribe Wave Color",
-    "releaseDate": "2023",
+    "releaseDate": "2023 / 01",
     "price": 320,
     "screenSize": 7.8,
     "resolution": "1404 x 1872",
@@ -13650,8 +13650,8 @@
       "Medium"
     ],
     "similar": [
-      "mobiscribe-wave-color-3",
       "mobiscribe-wave-bw",
+      "mobiscribe-wave-color-3",
       "bigme-guoyue-v6-color",
       "bigme-s6-color-lite"
     ],
@@ -13695,7 +13695,7 @@
     "brand": "MobiScribe",
     "name": "MobiScribe Wave B&W",
     "fullName": "MobiScribe Wave B&W",
-    "releaseDate": "2023",
+    "releaseDate": "2023 / 01",
     "price": 259,
     "screenSize": 7.8,
     "resolution": "1404 x 1872",
@@ -13744,8 +13744,8 @@
     ],
     "similar": [
       "mobiscribe-wave-color",
-      "mobiscribe-wave-color-3",
       "mobiscribe-the-origin",
+      "mobiscribe-wave-color-3",
       "bigme-s6"
     ],
     "pros": [
@@ -13788,7 +13788,7 @@
     "brand": "Dasung",
     "name": "Dasung Not-eReader 133",
     "fullName": "Dasung Not-eReader 133",
-    "releaseDate": "2023",
+    "releaseDate": "2023 / 08",
     "price": 899,
     "screenSize": 13.3,
     "resolution": "1650 x 2200",
@@ -13878,7 +13878,7 @@
     "brand": "Hisense",
     "name": "Hisense Hi Reader",
     "fullName": "Hisense Hi Reader",
-    "releaseDate": "2023",
+    "releaseDate": "2023 / 03",
     "price": 429.99,
     "screenSize": 6.7,
     "resolution": "825 x 1200",
@@ -13956,7 +13956,7 @@
     "brand": "Hisense",
     "name": "Hisense Hi Reader Pro",
     "fullName": "Hisense Hi Reader Pro",
-    "releaseDate": "2023",
+    "releaseDate": "2023 / 05",
     "price": 439.99,
     "screenSize": 6.1,
     "resolution": "825 x 1200",
@@ -14034,7 +14034,7 @@
     "brand": "Hisense",
     "name": "Hisense A7 CC",
     "fullName": "Hisense A7 CC",
-    "releaseDate": "2023",
+    "releaseDate": "2023 / 02",
     "price": 539.99,
     "screenSize": 6.7,
     "resolution": "900 x 1800",
@@ -14082,8 +14082,8 @@
       "Medium"
     ],
     "similar": [
-      "hisense-a5-pro-cc",
       "hisense-a7",
+      "hisense-a5-pro-cc",
       "hisense-hi-reader",
       "bigme-hibreak-dual-color"
     ],
@@ -14120,7 +14120,7 @@
     "brand": "Hisense",
     "name": "Hisense A7",
     "fullName": "Hisense A7",
-    "releaseDate": "2023",
+    "releaseDate": "2023 / 02",
     "price": 499.99,
     "screenSize": 6.7,
     "resolution": "900 x 1800",
@@ -14170,8 +14170,8 @@
     "similar": [
       "hisense-hi-reader",
       "hisense-hi-reader-pro",
-      "hisense-a9",
-      "hisense-a7-cc"
+      "hisense-a7-cc",
+      "hisense-a9"
     ],
     "pros": [
       {
@@ -14203,7 +14203,7 @@
     "brand": "Moaan",
     "name": "Moaan InkPalm 5 Mini Pro",
     "fullName": "Moaan InkPalm 5 Mini Pro",
-    "releaseDate": "2023",
+    "releaseDate": "2023 / 04",
     "price": 199,
     "screenSize": 5.2,
     "resolution": "720 x 1280",
@@ -14252,8 +14252,8 @@
     ],
     "similar": [
       "moaan-inkpalm-5-mini-gen-2",
-      "moaan-inkpalm-plus",
-      "geniatech-kloudnote-mini",
+      "bigme-inknote-s",
+      "veidoo-e8",
       "nook-glowlight-4-plus"
     ],
     "pros": [
@@ -14281,7 +14281,7 @@
     "brand": "Eyemoo",
     "name": "Eyemoo Epaper S1",
     "fullName": "Eyemoo Epaper S1",
-    "releaseDate": "2023",
+    "releaseDate": "2023 / 05",
     "price": 499,
     "screenSize": 10,
     "resolution": "1200 x 1600",
@@ -14329,10 +14329,10 @@
       "Medium"
     ],
     "similar": [
+      "bigme-inknote-color-lite",
       "bigme-inknote",
-      "boox-tab-ultra-c",
-      "boox-note-air-3-c",
-      "boox-tab-ultra-c-pro"
+      "huion-ink-eb1010",
+      "boox-note-air-2-plus"
     ],
     "pros": [
       {
@@ -14377,7 +14377,7 @@
     "brand": "Bookeen",
     "name": "Bookeen Notéa",
     "fullName": "Bookeen Notéa",
-    "releaseDate": "2023",
+    "releaseDate": "2023 / 01",
     "price": 399,
     "screenSize": 10.3,
     "resolution": "1404 x 1872",
@@ -14467,7 +14467,7 @@
     "brand": "Vivlio",
     "name": "Vivlio InkPad 4",
     "fullName": "Vivlio InkPad 4",
-    "releaseDate": "2023",
+    "releaseDate": "2023 / 06",
     "price": 269.99,
     "screenSize": 7.8,
     "resolution": "1404 x 1872",
@@ -14551,7 +14551,7 @@
     "brand": "Vivlio",
     "name": "Vivlio Light HD",
     "fullName": "Vivlio Light HD",
-    "releaseDate": "2023",
+    "releaseDate": "2023 / 06",
     "price": 169.99,
     "screenSize": 6,
     "resolution": "1072 x 1448",
@@ -14632,7 +14632,7 @@
     "brand": "Vivlio",
     "name": "Vivlio Light",
     "fullName": "Vivlio Light",
-    "releaseDate": "2023",
+    "releaseDate": "2023 / 06",
     "price": 129.99,
     "screenSize": 6,
     "resolution": "758 x 1024",
@@ -14713,7 +14713,7 @@
     "brand": "Geniatech",
     "name": "Geniatech KloudNote Slim",
     "fullName": "Geniatech KloudNote Slim",
-    "releaseDate": "2023",
+    "releaseDate": "2023 / 09",
     "price": 349,
     "screenSize": 10.3,
     "resolution": "1404 x 1872",
@@ -14762,9 +14762,9 @@
     ],
     "similar": [
       "geniatech-kloudnote-s",
+      "geniatech-kloudnote-mini",
       "bookeen-nota",
-      "bigme-inknote-s",
-      "geniatech-kloudnote-mini"
+      "bigme-inknote-s"
     ],
     "pros": [
       {
@@ -14806,7 +14806,7 @@
     "brand": "Geniatech",
     "name": "Geniatech KloudNote S",
     "fullName": "Geniatech KloudNote S",
-    "releaseDate": "2023",
+    "releaseDate": "2023 / 09",
     "price": 299,
     "screenSize": 10.1,
     "resolution": "1200 x 1600",
@@ -14856,8 +14856,8 @@
     "similar": [
       "geniatech-kloudnote-slim",
       "geniatech-kloudnote-mini",
-      "bookeen-nota",
-      "bigme-inknote-s"
+      "nook-glowlight-4-plus",
+      "bookeen-nota"
     ],
     "pros": [
       {
@@ -14902,7 +14902,7 @@
     "brand": "Geniatech",
     "name": "Geniatech KloudNote Mini",
     "fullName": "Geniatech KloudNote Mini",
-    "releaseDate": "2023",
+    "releaseDate": "2023 / 09",
     "price": 279,
     "screenSize": 9.7,
     "resolution": "825 x 1200",
@@ -14953,7 +14953,7 @@
       "geniatech-kloudnote-s",
       "geniatech-kloudnote-slim",
       "moaan-inkpalm-5-mini-pro",
-      "moaan-inkpalm-5-mini-gen-2"
+      "nook-glowlight-4-plus"
     ],
     "pros": [
       {
@@ -14998,7 +14998,7 @@
     "brand": "Woxter",
     "name": "Woxter Scriba 195 S",
     "fullName": "Woxter Scriba 195 S",
-    "releaseDate": "2023",
+    "releaseDate": "2023 / 11",
     "price": 59.9,
     "screenSize": 4.7,
     "resolution": "540 x 950",
@@ -15048,8 +15048,8 @@
     "similar": [
       "woxter-scriba-195-paperlight",
       "woxter-scriba-195-paperlight-tp",
-      "bemi-cognita-light-2",
-      "bemi-cognita-x"
+      "bemi-cognita-x",
+      "bemi-cognita-light-2"
     ],
     "pros": [
       {
@@ -15091,7 +15091,7 @@
     "brand": "Bemi",
     "name": "Bemi Cognita X",
     "fullName": "Bemi Cognita X",
-    "releaseDate": "2023",
+    "releaseDate": "2023 / 10",
     "price": 83.9,
     "screenSize": 6,
     "resolution": "758 x 1024",
@@ -15175,7 +15175,7 @@
     "brand": "Bemi",
     "name": "Bemi Cognita Light 2",
     "fullName": "Bemi Cognita Light 2",
-    "releaseDate": "2023",
+    "releaseDate": "2023 / 08",
     "price": 77.98,
     "screenSize": 6,
     "resolution": "758 x 1024",
@@ -15265,7 +15265,7 @@
     "brand": "Veidoo",
     "name": "Veidoo E5",
     "fullName": "Veidoo E5",
-    "releaseDate": "2023",
+    "releaseDate": "2023 / 05",
     "price": 56.99,
     "screenSize": 5.8,
     "resolution": "480 x 648",
@@ -15313,7 +15313,7 @@
       "bemi-cognita-tab-5",
       "bigme-read",
       "nook-simple-touch",
-      "spc-dickens-light-2"
+      "bemi-cognita-light-2"
     ],
     "pros": [
       {
@@ -15346,7 +15346,7 @@
     "brand": "Kindle",
     "name": "Kindle Scribe",
     "fullName": "Kindle Scribe",
-    "releaseDate": "2022",
+    "releaseDate": "2022 / 11",
     "price": 339.99,
     "screenSize": 10.2,
     "resolution": "1860 x 2480",
@@ -15430,7 +15430,7 @@
     "brand": "Kindle",
     "name": "Kindle 11",
     "fullName": "Kindle 11",
-    "releaseDate": "2022",
+    "releaseDate": "2022 / 10",
     "price": 119.99,
     "screenSize": 6,
     "resolution": "1072 x 1448",
@@ -15478,10 +15478,10 @@
       "Medium"
     ],
     "similar": [
-      "kindle-paperwhite-2",
-      "kindle-oasis",
       "kindle-voyage",
-      "kindle-paperwhite-3"
+      "kindle-2024",
+      "kindle-oasis-2",
+      "kindle-paperwhite-6"
     ],
     "pros": [
       {
@@ -15514,7 +15514,7 @@
     "brand": "Kobo",
     "name": "Kobo Clara 2E",
     "fullName": "Kobo Clara 2E",
-    "releaseDate": "2022",
+    "releaseDate": "2022 / 09",
     "price": 129.99,
     "screenSize": 6,
     "resolution": "1072 x 1448",
@@ -15563,9 +15563,9 @@
     ],
     "similar": [
       "kobo-nia",
-      "kobo-libra-2",
       "kobo-clara-bw",
-      "kobo-sage"
+      "kobo-aura-edition-2",
+      "kobo-libra-2"
     ],
     "pros": [
       {
@@ -15595,7 +15595,7 @@
     "brand": "Meebook",
     "name": "Meebook P6",
     "fullName": "Meebook P6",
-    "releaseDate": "2022",
+    "releaseDate": "2022 / 05",
     "price": 139.99,
     "screenSize": 6,
     "resolution": "1072 x 1448",
@@ -15646,7 +15646,7 @@
       "meebook-m6",
       "nook-glowlight-4e",
       "meebook-p78-pro",
-      "nook-glowlight-4"
+      "boox-poke-4-lite"
     ],
     "pros": [
       {
@@ -15676,7 +15676,7 @@
     "brand": "Meebook",
     "name": "Meebook P78 Pro",
     "fullName": "Meebook P78 Pro",
-    "releaseDate": "2022",
+    "releaseDate": "2022 / 04",
     "price": 259,
     "screenSize": 7.8,
     "resolution": "1404 x 1872",
@@ -15725,8 +15725,8 @@
     ],
     "similar": [
       "meebook-m8",
-      "meebook-p6",
       "meebook-p10-pro",
+      "meebook-p6",
       "meebook-m6"
     ],
     "pros": [
@@ -15763,7 +15763,7 @@
     "brand": "Meebook",
     "name": "Meebook P10 Pro",
     "fullName": "Meebook P10 Pro",
-    "releaseDate": "2022",
+    "releaseDate": "2022 / 04",
     "price": 259,
     "screenSize": 10.3,
     "resolution": "1200 x 1600",
@@ -15811,9 +15811,9 @@
       "Medium"
     ],
     "similar": [
+      "meebook-p78-pro",
       "meebook-m103",
       "meebook-p6",
-      "meebook-p78-pro",
       "meebook-m6"
     ],
     "pros": [
@@ -15856,7 +15856,7 @@
     "brand": "Boox",
     "name": "Boox Tab Ultra",
     "fullName": "Boox Tab Ultra",
-    "releaseDate": "2022",
+    "releaseDate": "2022 / 10",
     "price": 599.99,
     "screenSize": 10.3,
     "resolution": "1404 x 1872",
@@ -15904,10 +15904,10 @@
       "Medium"
     ],
     "similar": [
+      "boox-note-air-2",
       "boox-note-air-2-plus",
       "boox-note-air",
-      "boox-note-air-2",
-      "boox-note-air-3"
+      "boox-note-3"
     ],
     "pros": [
       {
@@ -15946,7 +15946,7 @@
     "brand": "Boox",
     "name": "Boox Note Air 2 Plus",
     "fullName": "Boox Note Air 2 Plus",
-    "releaseDate": "2022",
+    "releaseDate": "2022 / 05",
     "price": 449.99,
     "screenSize": 10.3,
     "resolution": "1404 x 1872",
@@ -15997,7 +15997,7 @@
       "boox-tab-ultra",
       "boox-note-air",
       "boox-note-air-2",
-      "boox-note-air-3"
+      "boox-go-103-gen-ii"
     ],
     "pros": [
       {
@@ -16039,7 +16039,7 @@
     "brand": "Boox",
     "name": "Boox Nova Air 2",
     "fullName": "Boox Nova Air 2",
-    "releaseDate": "2022",
+    "releaseDate": "2022 / 10",
     "price": 369.99,
     "screenSize": 7.8,
     "resolution": "1404 x 1872",
@@ -16087,10 +16087,10 @@
       "Medium"
     ],
     "similar": [
-      "boox-nova-2",
       "boox-nova-3",
-      "boox-nova-air",
-      "boox-leaf-2"
+      "boox-leaf-2",
+      "boox-nova-2",
+      "boox-nova-air"
     ],
     "pros": [
       {
@@ -16129,7 +16129,7 @@
     "brand": "Boox",
     "name": "Boox Leaf 2",
     "fullName": "Boox Leaf 2",
-    "releaseDate": "2022",
+    "releaseDate": "2022 / 10",
     "price": 199.99,
     "screenSize": 7,
     "resolution": "1264 x 1680",
@@ -16177,10 +16177,10 @@
       "Medium"
     ],
     "similar": [
-      "boox-leaf",
       "boox-nova-air-2",
-      "boox-poke-3",
-      "boox-poke-5"
+      "boox-leaf",
+      "boox-nova-3",
+      "boox-poke-3"
     ],
     "pros": [
       {
@@ -16215,7 +16215,7 @@
     "brand": "Boox",
     "name": "Boox Poke 4 Lite",
     "fullName": "Boox Poke 4 Lite",
-    "releaseDate": "2022",
+    "releaseDate": "2022 / 05",
     "price": 149.99,
     "screenSize": 6,
     "resolution": "758 x 1024",
@@ -16263,10 +16263,10 @@
       "Medium"
     ],
     "similar": [
+      "boox-poke-5",
       "boox-poke-2",
-      "boox-poke-3",
-      "boox-leaf-2",
-      "boox-poke-5"
+      "meebook-p6",
+      "boox-go-6"
     ],
     "pros": [
       {
@@ -16296,7 +16296,7 @@
     "brand": "Boox",
     "name": "Boox Nova Air C",
     "fullName": "Boox Nova Air C",
-    "releaseDate": "2022",
+    "releaseDate": "2022 / 04",
     "price": 449.99,
     "screenSize": 7.8,
     "resolution": "1404 x 1872",
@@ -16346,8 +16346,8 @@
     "similar": [
       "boox-nova-3-color",
       "boox-tab-mini-c",
-      "bigme-s6-color",
-      "boox-tab-ultra-c"
+      "boox-tab-ultra-c",
+      "bigme-s6-color"
     ],
     "pros": [
       {
@@ -16389,7 +16389,7 @@
     "brand": "Nook",
     "name": "Nook GlowLight 4e",
     "fullName": "Nook GlowLight 4e",
-    "releaseDate": "2022",
+    "releaseDate": "2022 / 06",
     "price": 119.99,
     "screenSize": 6,
     "resolution": "758 x 1024",
@@ -16437,10 +16437,10 @@
       "Medium"
     ],
     "similar": [
-      "nook-glowlight-4",
       "meebook-p6",
-      "nook-glowlight-plus",
-      "nook-glowlight-3"
+      "nook-glowlight-4",
+      "boox-poke-4-lite",
+      "meebook-m6"
     ],
     "pros": [
       {
@@ -16470,7 +16470,7 @@
     "brand": "PocketBook",
     "name": "PocketBook Basic Lux 3",
     "fullName": "PocketBook Basic Lux 3",
-    "releaseDate": "2022",
+    "releaseDate": "2022 / 04",
     "price": 109.99,
     "screenSize": 6,
     "resolution": "758 x 1024",
@@ -16551,7 +16551,7 @@
     "brand": "PocketBook",
     "name": "PocketBook Era",
     "fullName": "PocketBook Era",
-    "releaseDate": "2022",
+    "releaseDate": "2022 / 07",
     "price": 259.99,
     "screenSize": 7,
     "resolution": "1264 x 1680",
@@ -16599,10 +16599,10 @@
       "Medium"
     ],
     "similar": [
+      "pocketbook-touch-lux-5",
       "pocketbook-era-lite",
       "pocketbook-basic-lux-3",
-      "pocketbook-inkpad-4",
-      "pocketbook-touch-lux-5"
+      "pocketbook-basic-lux-4"
     ],
     "pros": [
       {
@@ -16632,7 +16632,7 @@
     "brand": "Hisense",
     "name": "Hisense A9",
     "fullName": "Hisense A9",
-    "releaseDate": "2022",
+    "releaseDate": "2022 / 05",
     "price": 439.99,
     "screenSize": 6.1,
     "resolution": "824 x 1648",
@@ -16677,8 +16677,8 @@
       "Medium"
     ],
     "similar": [
-      "hisense-a7",
       "hisense-hi-reader-pro",
+      "hisense-a7",
       "bigme-hibreak-pro",
       "hisense-hi-reader"
     ],
@@ -16709,7 +16709,7 @@
     "brand": "Moaan",
     "name": "Moaan InkPalm 5 Mini gen 2",
     "fullName": "Moaan InkPalm 5 Mini gen 2",
-    "releaseDate": "2022",
+    "releaseDate": "2022 / 04",
     "price": 129,
     "screenSize": 5.2,
     "resolution": "720 x 1280",
@@ -16759,8 +16759,8 @@
     "similar": [
       "moaan-inkpalm-5-mini-pro",
       "moaan-inkpalm-plus",
-      "bigme-hibreak-bw",
-      "bigme-hibreak-s-bw"
+      "veidoo-e8",
+      "bigme-b6-bw"
     ],
     "pros": [
       {
@@ -16787,7 +16787,7 @@
     "brand": "Moaan",
     "name": "Moaan InkPalm Plus",
     "fullName": "Moaan InkPalm Plus",
-    "releaseDate": "2022",
+    "releaseDate": "2022 / 05",
     "price": 249,
     "screenSize": 5.84,
     "resolution": "720 x 1440",
@@ -16836,9 +16836,9 @@
     ],
     "similar": [
       "hisense-a5-pro",
-      "moaan-inkpalm-5-mini-gen-2",
-      "nook-glowlight-4e",
-      "bigme-hibreak-bw"
+      "bigme-hibreak-bw",
+      "boox-poke-4-lite",
+      "meebook-p6"
     ],
     "pros": [
       {
@@ -16868,7 +16868,7 @@
     "brand": "Tolino",
     "name": "Tolino Epos 3",
     "fullName": "Tolino Epos 3",
-    "releaseDate": "2022",
+    "releaseDate": "2022 / 09",
     "price": 249,
     "screenSize": 8,
     "resolution": "1440 x 1920",
@@ -16952,7 +16952,7 @@
     "brand": "Huawei",
     "name": "Huawei MatePad Paper",
     "fullName": "Huawei MatePad Paper",
-    "releaseDate": "2022",
+    "releaseDate": "2022 / 03",
     "price": 499,
     "screenSize": 10.3,
     "resolution": "1404 x 1872",
@@ -17003,7 +17003,7 @@
       "huion-ink-eb1010",
       "boox-note-air-2-plus",
       "boox-tab-ultra",
-      "bigme-inknote"
+      "boox-go-103-gen-ii"
     ],
     "pros": [
       {
@@ -17042,7 +17042,7 @@
     "brand": "InkBOOK",
     "name": "InkBOOK Focus",
     "fullName": "InkBOOK Focus",
-    "releaseDate": "2022",
+    "releaseDate": "2022 / 01",
     "price": 229,
     "screenSize": 7.8,
     "resolution": "1404 x 1872",
@@ -17093,7 +17093,7 @@
       "inkbook-focus-plus",
       "inkbook-calypso-plus",
       "inkbook-solaris",
-      "boox-nova-air-2"
+      "nook-glowlight-plus-78"
     ],
     "pros": [
       {
@@ -17125,7 +17125,7 @@
     "brand": "Woxter",
     "name": "Woxter Scriba 195 Paperlight TP",
     "fullName": "Woxter Scriba 195 Paperlight TP",
-    "releaseDate": "2022",
+    "releaseDate": "2022 / 11",
     "price": 99.9,
     "screenSize": 6,
     "resolution": "758 x 1024",
@@ -17176,7 +17176,7 @@
       "woxter-scriba-195-paperlight",
       "woxter-scriba-195-s",
       "spc-dickens-light-2",
-      "bemi-cognita-light-2"
+      "bemi-cognita-x"
     ],
     "pros": [
       {
@@ -17209,7 +17209,7 @@
     "brand": "Kindle",
     "name": "Kindle Paperwhite 5 Signature Edition",
     "fullName": "Kindle Paperwhite 5 Signature Edition",
-    "releaseDate": "2021",
+    "releaseDate": "2021 / 10",
     "price": 189.99,
     "screenSize": 6.8,
     "resolution": "1236 x 1648",
@@ -17258,9 +17258,9 @@
     ],
     "similar": [
       "kindle-paperwhite-5",
-      "kindle-scribe",
       "kindle-11",
-      "kindle-10"
+      "kindle-scribe",
+      "kindle-paperwhite-6"
     ],
     "pros": [
       {
@@ -17290,7 +17290,7 @@
     "brand": "Kindle",
     "name": "Kindle Paperwhite 5",
     "fullName": "Kindle Paperwhite 5",
-    "releaseDate": "2021",
+    "releaseDate": "2021 / 10",
     "price": 159.99,
     "screenSize": 6.8,
     "resolution": "1236 x 1648",
@@ -17336,9 +17336,9 @@
     ],
     "similar": [
       "kindle-paperwhite-5-signature-edition",
-      "kindle-scribe",
       "kindle-11",
-      "kindle-10"
+      "kindle-scribe",
+      "kindle-paperwhite-6"
     ],
     "pros": [
       {
@@ -17368,7 +17368,7 @@
     "brand": "Kobo",
     "name": "Kobo Sage",
     "fullName": "Kobo Sage",
-    "releaseDate": "2021",
+    "releaseDate": "2021 / 10",
     "price": 259.99,
     "screenSize": 8,
     "resolution": "1440 x 1920",
@@ -17417,9 +17417,9 @@
     ],
     "similar": [
       "kobo-libra-2",
+      "kobo-aura-h2o",
       "kobo-clara-2e",
-      "kobo-nia",
-      "kobo-clara-bw"
+      "kobo-nia"
     ],
     "pros": [
       {
@@ -17452,7 +17452,7 @@
     "brand": "Kobo",
     "name": "Kobo Libra 2",
     "fullName": "Kobo Libra 2",
-    "releaseDate": "2021",
+    "releaseDate": "2021 / 10",
     "price": 179.99,
     "screenSize": 7,
     "resolution": "1264 x 1680",
@@ -17504,7 +17504,7 @@
       "kobo-sage",
       "kobo-clara-2e",
       "kobo-nia",
-      "kobo-clara-bw"
+      "kobo-aura-h2o"
     ],
     "pros": [
       {
@@ -17534,7 +17534,7 @@
     "brand": "Kobo",
     "name": "Kobo Elipsa",
     "fullName": "Kobo Elipsa",
-    "releaseDate": "2021",
+    "releaseDate": "2021 / 06",
     "price": 399.99,
     "screenSize": 10.3,
     "resolution": "1404 x 1872",
@@ -17583,9 +17583,9 @@
     ],
     "similar": [
       "kobo-elipsa-2e",
-      "boox-note-air-3",
       "boox-go-103-gen-ii",
-      "boox-go-103-gen-ii-lumi"
+      "boox-go-103-gen-ii-lumi",
+      "bigme-b1051"
     ],
     "pros": [
       {
@@ -17624,7 +17624,7 @@
     "brand": "Boox",
     "name": "Boox Max Lumi 2",
     "fullName": "Boox Max Lumi 2",
-    "releaseDate": "2021",
+    "releaseDate": "2021 / 10",
     "price": 879.99,
     "screenSize": 13.3,
     "resolution": "1650 x 2200",
@@ -17673,9 +17673,9 @@
     ],
     "similar": [
       "boox-max-lumi",
-      "boox-tab-x",
       "boox-note-max",
-      "boox-tab-x-c"
+      "boox-tab-x",
+      "boox-note-5"
     ],
     "pros": [
       {
@@ -17717,7 +17717,7 @@
     "brand": "Boox",
     "name": "Boox Leaf",
     "fullName": "Boox Leaf",
-    "releaseDate": "2021",
+    "releaseDate": "2021 / 11",
     "price": 249.99,
     "screenSize": 7,
     "resolution": "1264 x 1680",
@@ -17765,10 +17765,10 @@
       "Medium"
     ],
     "similar": [
+      "boox-poke-3",
       "boox-leaf-2",
       "boox-nova-air",
-      "boox-poke-3",
-      "boox-poke-5"
+      "boox-nova-3"
     ],
     "pros": [
       {
@@ -17804,7 +17804,7 @@
     "brand": "Boox",
     "name": "Boox Note Air 2",
     "fullName": "Boox Note Air 2",
-    "releaseDate": "2021",
+    "releaseDate": "2021 / 10",
     "price": 499.99,
     "screenSize": 10.3,
     "resolution": "1404 x 1872",
@@ -17852,10 +17852,10 @@
       "Medium"
     ],
     "similar": [
-      "boox-note-air",
-      "boox-note-air-2-plus",
       "boox-tab-ultra",
-      "boox-note-5"
+      "boox-note-5",
+      "boox-note-air",
+      "boox-note-air-2-plus"
     ],
     "pros": [
       {
@@ -17897,7 +17897,7 @@
     "brand": "Boox",
     "name": "Boox Note 5",
     "fullName": "Boox Note 5",
-    "releaseDate": "2021",
+    "releaseDate": "2021 / 10",
     "price": 579.99,
     "screenSize": 10.3,
     "resolution": "1404 x 1872",
@@ -17947,8 +17947,8 @@
     "similar": [
       "boox-note-3",
       "boox-note-air-2",
-      "boox-note-air",
-      "boox-note-air-2-plus"
+      "boox-tab-ultra",
+      "boox-note-air"
     ],
     "pros": [
       {
@@ -17990,7 +17990,7 @@
     "brand": "Boox",
     "name": "Boox Nova Air",
     "fullName": "Boox Nova Air",
-    "releaseDate": "2021",
+    "releaseDate": "2021 / 08",
     "price": 349.99,
     "screenSize": 7.8,
     "resolution": "1404 x 1872",
@@ -18080,7 +18080,7 @@
     "brand": "Boox",
     "name": "Boox Nova 3 Color",
     "fullName": "Boox Nova 3 Color",
-    "releaseDate": "2021",
+    "releaseDate": "2021 / 03",
     "price": 419.99,
     "screenSize": 7.8,
     "resolution": "1404 x 1872",
@@ -18170,7 +18170,7 @@
     "brand": "Ratta",
     "name": "Ratta Supernote A6 X",
     "fullName": "Ratta Supernote A6 X",
-    "releaseDate": "2021",
+    "releaseDate": "2021 / 07",
     "price": 359,
     "screenSize": 7.8,
     "resolution": "1404 x 1872",
@@ -18220,8 +18220,8 @@
     "similar": [
       "ratta-supernote-a6-x2-nomad",
       "boox-nova-air",
-      "kobo-sage",
-      "bemi-cognita-tab-8"
+      "kobo-nia",
+      "kobo-aura-one"
     ],
     "pros": [
       {
@@ -18257,7 +18257,7 @@
     "brand": "Nook",
     "name": "Nook GlowLight 4",
     "fullName": "Nook GlowLight 4",
-    "releaseDate": "2021",
+    "releaseDate": "2021 / 12",
     "price": 149.99,
     "screenSize": 6,
     "resolution": "1072 x 1448",
@@ -18308,7 +18308,7 @@
       "nook-glowlight-4e",
       "nook-glowlight-plus",
       "nook-glowlight-3",
-      "meebook-p6"
+      "meebook-m6"
     ],
     "pros": [
       {
@@ -18338,7 +18338,7 @@
     "brand": "Reinkstone",
     "name": "Reinkstone R1",
     "fullName": "Reinkstone R1",
-    "releaseDate": "2021",
+    "releaseDate": "2021 / 06",
     "price": 488,
     "screenSize": 10.1,
     "resolution": "1680 x 2232",
@@ -18386,10 +18386,10 @@
       "Medium"
     ],
     "similar": [
-      "bigme-inknote",
-      "huion-ink-eb1010",
-      "boox-note-air-2",
-      "dasung-not-ereader-078"
+      "bigme-b1051c-lite",
+      "bigme-b1051c",
+      "bigme-b1051c-pro",
+      "bigme-b10"
     ],
     "pros": [
       {
@@ -18431,7 +18431,7 @@
     "brand": "Reinkstone",
     "name": "Reinkstone R1 Reader",
     "fullName": "Reinkstone R1 Reader",
-    "releaseDate": "2021",
+    "releaseDate": "2021 / 06",
     "price": 299.99,
     "screenSize": 6,
     "resolution": "1072 x 1448",
@@ -18479,10 +18479,10 @@
       "Medium"
     ],
     "similar": [
-      "bigme-b6",
-      "boox-poke-2-color",
-      "musnap-neo-c",
-      "musnap-neo-2c"
+      "musnap-ocean-c",
+      "boox-go-color-7",
+      "bigme-b751c-s",
+      "bigme-b6"
     ],
     "pros": [
       {
@@ -18515,7 +18515,7 @@
     "brand": "PocketBook",
     "name": "PocketBook InkPad Lite",
     "fullName": "PocketBook InkPad Lite",
-    "releaseDate": "2021",
+    "releaseDate": "2021 / 09",
     "price": 299.99,
     "screenSize": 9.7,
     "resolution": "825 x 1200",
@@ -18563,10 +18563,10 @@
       "Medium"
     ],
     "similar": [
-      "pocketbook-touch-lux-5",
-      "pocketbook-basic-lux-3",
       "pocketbook-verse",
-      "pocketbook-basic-lux-4"
+      "pocketbook-verse-pro",
+      "pocketbook-touch-lux-5",
+      "pocketbook-basic-lux-3"
     ],
     "pros": [
       {
@@ -18605,7 +18605,7 @@
     "brand": "PocketBook",
     "name": "PocketBook InkPad Color",
     "fullName": "PocketBook InkPad Color",
-    "releaseDate": "2021",
+    "releaseDate": "2021 / 02",
     "price": 329.99,
     "screenSize": 7.8,
     "resolution": "1404 x 1872",
@@ -18691,7 +18691,7 @@
     "brand": "MobiScribe",
     "name": "MobiScribe The Origin",
     "fullName": "MobiScribe The Origin",
-    "releaseDate": "2021",
+    "releaseDate": "2021 / 01",
     "price": 249,
     "screenSize": 6.8,
     "resolution": "1080 x 1440",
@@ -18740,9 +18740,9 @@
     ],
     "similar": [
       "mobiscribe-wave-bw",
-      "boox-nova-air",
-      "mobiscribe-wave-color-3",
-      "bemi-cognita-tab-8"
+      "mobiscribe-wave-color",
+      "inkbook-focus",
+      "boox-nova-air"
     ],
     "pros": [
       {
@@ -18775,7 +18775,7 @@
     "brand": "Dasung",
     "name": "Dasung Not-eReader 078",
     "fullName": "Dasung Not-eReader 078",
-    "releaseDate": "2021",
+    "releaseDate": "2021 / 08",
     "price": 449,
     "screenSize": 7.8,
     "resolution": "1404 x 1872",
@@ -18825,8 +18825,8 @@
     "similar": [
       "boox-nova-3-color",
       "boox-tab-mini-c",
-      "boox-note-air-2",
-      "bigme-s6-color"
+      "bigme-s6-color",
+      "bigme-inknote"
     ],
     "pros": [
       {
@@ -18858,7 +18858,7 @@
     "brand": "InkBOOK",
     "name": "InkBOOK Calypso Plus",
     "fullName": "InkBOOK Calypso Plus",
-    "releaseDate": "2021",
+    "releaseDate": "2021 / 02",
     "price": 129,
     "screenSize": 6,
     "resolution": "758 x 1024",
@@ -18908,8 +18908,8 @@
     "similar": [
       "inkbook-solaris",
       "inkbook-focus",
-      "nook-glowlight-4",
-      "inkbook-focus-plus"
+      "inkbook-focus-plus",
+      "nook-glowlight-4"
     ],
     "pros": [
       {
@@ -18942,7 +18942,7 @@
     "brand": "Geniatech",
     "name": "Geniatech KloudNote",
     "fullName": "Geniatech KloudNote",
-    "releaseDate": "2021",
+    "releaseDate": "2021 / 07",
     "price": 449,
     "screenSize": 10.3,
     "resolution": "1404 x 1872",
@@ -18993,7 +18993,7 @@
       "boox-max-lumi-2",
       "boox-tab-x-c",
       "boox-tab-x",
-      "boox-note-max"
+      "boox-max-lumi"
     ],
     "pros": [
       {
@@ -19032,7 +19032,7 @@
     "brand": "SPC",
     "name": "SPC Dickens Light 2",
     "fullName": "SPC Dickens Light 2",
-    "releaseDate": "2021",
+    "releaseDate": "2021 / 07",
     "price": 99.9,
     "screenSize": 6,
     "resolution": "758 x 1024",
@@ -19116,7 +19116,7 @@
     "brand": "SPC",
     "name": "SPC Dickens Light Pro",
     "fullName": "SPC Dickens Light Pro",
-    "releaseDate": "2021",
+    "releaseDate": "2021 / 10",
     "price": 139.9,
     "screenSize": 6,
     "resolution": "758 x 1024",
@@ -19167,7 +19167,7 @@
       "spc-dickens-light-2-pro",
       "silvergear-e-reader",
       "kindle-2024",
-      "obook-6"
+      "kobo-libra-2"
     ],
     "pros": [
       {
@@ -19197,7 +19197,7 @@
     "brand": "reMarkable",
     "name": "reMarkable 2",
     "fullName": "reMarkable 2",
-    "releaseDate": "2020",
+    "releaseDate": "2020 / 08",
     "price": 399,
     "screenSize": 10.3,
     "resolution": "1404 x 1872",
@@ -19247,7 +19247,7 @@
     ],
     "similar": [
       "remarkable-paper-pure",
-      "kindle-scribe",
+      "meebook-m103",
       "kobo-nia",
       "boox-go-103"
     ],
@@ -19291,7 +19291,7 @@
     "brand": "Kobo",
     "name": "Kobo Nia",
     "fullName": "Kobo Nia",
-    "releaseDate": "2020",
+    "releaseDate": "2020 / 07",
     "price": 109.99,
     "screenSize": 6,
     "resolution": "758 x 1024",
@@ -19375,7 +19375,7 @@
     "brand": "Boox",
     "name": "Boox Poke 3",
     "fullName": "Boox Poke 3",
-    "releaseDate": "2020",
+    "releaseDate": "2020 / 11",
     "price": 189.99,
     "screenSize": 6,
     "resolution": "1072 x 1448",
@@ -19423,9 +19423,9 @@
       "Medium"
     ],
     "similar": [
+      "boox-leaf",
       "boox-poke-5",
       "boox-poke-2",
-      "boox-nova-2",
       "boox-nova-3"
     ],
     "pros": [
@@ -19456,7 +19456,7 @@
     "brand": "Boox",
     "name": "Boox Nova 3",
     "fullName": "Boox Nova 3",
-    "releaseDate": "2020",
+    "releaseDate": "2020 / 10",
     "price": 339.99,
     "screenSize": 7.8,
     "resolution": "1404 x 1872",
@@ -19504,10 +19504,10 @@
       "Medium"
     ],
     "similar": [
-      "boox-nova-2",
-      "boox-nova-air",
       "boox-nova-air-2",
-      "boox-poke-3"
+      "boox-nova-2",
+      "boox-leaf-2",
+      "boox-nova-air"
     ],
     "pros": [
       {
@@ -19543,7 +19543,7 @@
     "brand": "Boox",
     "name": "Boox Note 3",
     "fullName": "Boox Note 3",
-    "releaseDate": "2020",
+    "releaseDate": "2020 / 10",
     "price": 549.99,
     "screenSize": 10.3,
     "resolution": "1404 x 1872",
@@ -19592,9 +19592,9 @@
     ],
     "similar": [
       "boox-note-5",
-      "boox-note-air",
       "boox-note-air-2",
-      "boox-note-air-2-plus"
+      "boox-tab-ultra",
+      "boox-note-air"
     ],
     "pros": [
       {
@@ -19633,7 +19633,7 @@
     "brand": "Boox",
     "name": "Boox Note Air",
     "fullName": "Boox Note Air",
-    "releaseDate": "2020",
+    "releaseDate": "2020 / 09",
     "price": 419.99,
     "screenSize": 10.3,
     "resolution": "1404 x 1872",
@@ -19681,10 +19681,10 @@
       "Medium"
     ],
     "similar": [
-      "boox-note-air-2",
       "boox-note-air-2-plus",
-      "boox-tab-ultra",
-      "boox-note-air-3"
+      "boox-go-103-gen-ii",
+      "boox-go-103-gen-ii-lumi",
+      "boox-note-air-2"
     ],
     "pros": [
       {
@@ -19726,7 +19726,7 @@
     "brand": "Boox",
     "name": "Boox Max Lumi",
     "fullName": "Boox Max Lumi",
-    "releaseDate": "2020",
+    "releaseDate": "2020 / 09",
     "price": 879.99,
     "screenSize": 13.3,
     "resolution": "1650 x 2200",
@@ -19819,7 +19819,7 @@
     "brand": "Boox",
     "name": "Boox Poke 2 Color",
     "fullName": "Boox Poke 2 Color",
-    "releaseDate": "2020",
+    "releaseDate": "2020 / 08",
     "price": 279.99,
     "screenSize": 6,
     "resolution": "1072 x 1448",
@@ -19869,8 +19869,8 @@
     "similar": [
       "boox-go-color-7",
       "boox-go-color-7-gen-ii",
-      "boox-poke-2",
-      "bemi-cognita-tab-6-proc"
+      "bigme-b6",
+      "bigme-b7"
     ],
     "pros": [
       {
@@ -19903,7 +19903,7 @@
     "brand": "Boox",
     "name": "Boox Poke 2",
     "fullName": "Boox Poke 2",
-    "releaseDate": "2020",
+    "releaseDate": "2020 / 04",
     "price": 189.99,
     "screenSize": 6,
     "resolution": "1072 x 1448",
@@ -19951,8 +19951,8 @@
       "Medium"
     ],
     "similar": [
-      "boox-poke-3",
       "boox-poke-4-lite",
+      "boox-poke-3",
       "boox-poke-5",
       "boox-go-6"
     ],
@@ -19984,7 +19984,7 @@
     "brand": "Boox",
     "name": "Boox Nova 2",
     "fullName": "Boox Nova 2",
-    "releaseDate": "2020",
+    "releaseDate": "2020 / 03",
     "price": 339.99,
     "screenSize": 7.8,
     "resolution": "1404 x 1872",
@@ -20071,7 +20071,7 @@
     "brand": "Ratta",
     "name": "Ratta Supernote A5 X",
     "fullName": "Ratta Supernote A5 X",
-    "releaseDate": "2020",
+    "releaseDate": "2020 / 08",
     "price": 499,
     "screenSize": 10.3,
     "resolution": "1404 x 1872",
@@ -20161,7 +20161,7 @@
     "brand": "PocketBook",
     "name": "PocketBook Basic 4",
     "fullName": "PocketBook Basic 4",
-    "releaseDate": "2020",
+    "releaseDate": "2020 / 06",
     "price": 79.99,
     "screenSize": 6,
     "resolution": "758 x 1024",
@@ -20251,7 +20251,7 @@
     "brand": "PocketBook",
     "name": "PocketBook Touch Lux 5",
     "fullName": "PocketBook Touch Lux 5",
-    "releaseDate": "2020",
+    "releaseDate": "2020 / 07",
     "price": 129.99,
     "screenSize": 6,
     "resolution": "758 x 1024",
@@ -20299,9 +20299,9 @@
       "Medium"
     ],
     "similar": [
+      "pocketbook-basic-lux-4",
       "pocketbook-basic-lux-3",
       "pocketbook-verse",
-      "pocketbook-basic-lux-4",
       "pocketbook-verse-lite"
     ],
     "pros": [
@@ -20332,7 +20332,7 @@
     "brand": "PocketBook",
     "name": "PocketBook Color",
     "fullName": "PocketBook Color",
-    "releaseDate": "2020",
+    "releaseDate": "2020 / 07",
     "price": 189.99,
     "screenSize": 6,
     "resolution": "1072 x 1448",
@@ -20381,9 +20381,9 @@
     ],
     "similar": [
       "pocketbook-verse-pro-color",
+      "pocketbook-touch-lux-5",
       "pocketbook-era-color",
-      "pocketbook-inkpad-color-3",
-      "pocketbook-touch-lux-5"
+      "pocketbook-basic-lux-4"
     ],
     "pros": [
       {
@@ -20418,7 +20418,7 @@
     "brand": "Hisense",
     "name": "Hisense A5 Pro CC",
     "fullName": "Hisense A5 Pro CC",
-    "releaseDate": "2020",
+    "releaseDate": "2020 / 06",
     "price": 429,
     "screenSize": 5.84,
     "resolution": "720 x 1440",
@@ -20464,9 +20464,9 @@
     ],
     "similar": [
       "hisense-a7-cc",
-      "boox-palma-2-pro",
+      "boox-tab-mini-c",
       "bigme-hibreak-dual-color",
-      "hisense-a9"
+      "boox-palma-2-pro"
     ],
     "pros": [
       {
@@ -20495,7 +20495,7 @@
     "brand": "Hisense",
     "name": "Hisense A5 Pro",
     "fullName": "Hisense A5 Pro",
-    "releaseDate": "2020",
+    "releaseDate": "2020 / 06",
     "price": 399,
     "screenSize": 5.84,
     "resolution": "720 x 1440",
@@ -20543,7 +20543,7 @@
       "hisense-a5c",
       "moaan-inkpalm-plus",
       "bigme-hibreak-bw",
-      "bigme-hibreak-s-bw"
+      "penstar-enote"
     ],
     "pros": [
       {
@@ -20569,7 +20569,7 @@
     "brand": "Hisense",
     "name": "Hisense A5C",
     "fullName": "Hisense A5C",
-    "releaseDate": "2020",
+    "releaseDate": "2020 / 04",
     "price": 249,
     "screenSize": 5.84,
     "resolution": "720 x 1440",
@@ -20617,7 +20617,7 @@
       "hisense-a5-pro",
       "bigme-hibreak-color",
       "bigme-hibreak-s-color",
-      "bigme-hibreak-bw"
+      "boox-poke-2-color"
     ],
     "pros": [
       {
@@ -20646,7 +20646,7 @@
     "brand": "Woxter",
     "name": "Woxter Scriba 195 Paperlight",
     "fullName": "Woxter Scriba 195 Paperlight",
-    "releaseDate": "2020",
+    "releaseDate": "2020 / 11",
     "price": 89.9,
     "screenSize": 6,
     "resolution": "758 x 1024",
@@ -20697,7 +20697,7 @@
       "woxter-scriba-195-paperlight-tp",
       "woxter-scriba-195-s",
       "spc-dickens-light-2",
-      "bemi-cognita-light-2"
+      "bemi-cognita-x"
     ],
     "pros": [
       {
@@ -20733,7 +20733,7 @@
     "brand": "Kindle",
     "name": "Kindle Oasis 3",
     "fullName": "Kindle Oasis 3",
-    "releaseDate": "2019",
+    "releaseDate": "2019 / 07",
     "price": 249.99,
     "screenSize": 7,
     "resolution": "1264 x 1680",
@@ -20778,8 +20778,8 @@
       "Medium"
     ],
     "similar": [
-      "kindle-oasis-2",
       "kindle-10",
+      "kindle-oasis-2",
       "kindle-paperwhite-2",
       "kindle-oasis"
     ],
@@ -20811,7 +20811,7 @@
     "brand": "Kindle",
     "name": "Kindle 10",
     "fullName": "Kindle 10",
-    "releaseDate": "2019",
+    "releaseDate": "2019 / 04",
     "price": 109.99,
     "screenSize": 6,
     "resolution": "600 x 800",
@@ -20859,10 +20859,10 @@
       "Medium"
     ],
     "similar": [
+      "kindle-oasis",
       "kindle-oasis-3",
       "kindle-paperwhite-2",
-      "kindle-oasis",
-      "kindle-voyage"
+      "kindle-paperwhite-3"
     ],
     "pros": [
       {
@@ -20895,7 +20895,7 @@
     "brand": "Kobo",
     "name": "Kobo Libra H2O",
     "fullName": "Kobo Libra H2O",
-    "releaseDate": "2019",
+    "releaseDate": "2019 / 09",
     "price": 169.99,
     "screenSize": 7,
     "resolution": "1264 x 1680",
@@ -20944,9 +20944,9 @@
     ],
     "similar": [
       "kobo-aura-one",
+      "kobo-aura-edition-2",
       "kobo-glo-hd",
-      "kobo-clara-hd",
-      "kobo-aura-edition-2"
+      "kobo-clara-hd"
     ],
     "pros": [
       {
@@ -20976,7 +20976,7 @@
     "brand": "Nook",
     "name": "Nook GlowLight Plus 7.8",
     "fullName": "Nook GlowLight Plus 7.8",
-    "releaseDate": "2019",
+    "releaseDate": "2019 / 05",
     "price": 199.99,
     "screenSize": 7.8,
     "resolution": "1404 x 1872",
@@ -21024,10 +21024,10 @@
       "Medium"
     ],
     "similar": [
-      "nook-glowlight-plus",
-      "nook-glowlight-3",
       "nook-glowlight-4-plus",
-      "meebook-p78-pro"
+      "meebook-p78-pro",
+      "meebook-m8",
+      "nook-glowlight-plus"
     ],
     "pros": [
       {
@@ -21057,7 +21057,7 @@
     "brand": "Kindle",
     "name": "Kindle Paperwhite 4",
     "fullName": "Kindle Paperwhite 4",
-    "releaseDate": "2018",
+    "releaseDate": "2018 / 11",
     "price": 129.99,
     "screenSize": 6,
     "resolution": "1072 x 1448",
@@ -21135,7 +21135,7 @@
     "brand": "Kobo",
     "name": "Kobo Forma",
     "fullName": "Kobo Forma",
-    "releaseDate": "2018",
+    "releaseDate": "2018 / 10",
     "price": 249.99,
     "screenSize": 8,
     "resolution": "1440 x 1920",
@@ -21180,10 +21180,10 @@
       "Medium"
     ],
     "similar": [
-      "kobo-clara-hd",
       "kobo-aura-h2o",
-      "kobo-aura-h2o-edition-2",
-      "kobo-aura-edition-2"
+      "kobo-sage",
+      "kobo-clara-hd",
+      "kobo-aura-h2o-edition-2"
     ],
     "pros": [
       {
@@ -21213,7 +21213,7 @@
     "brand": "Kobo",
     "name": "Kobo Clara HD",
     "fullName": "Kobo Clara HD",
-    "releaseDate": "2018",
+    "releaseDate": "2018 / 06",
     "price": 119.99,
     "screenSize": 6,
     "resolution": "1072 x 1448",
@@ -21264,7 +21264,7 @@
       "kobo-glo-hd",
       "kobo-nia",
       "kobo-aura-edition-2",
-      "kobo-aura-h2o"
+      "kobo-aura-h2o-edition-2"
     ],
     "pros": [
       {
@@ -21294,7 +21294,7 @@
     "brand": "Kindle",
     "name": "Kindle Oasis 2",
     "fullName": "Kindle Oasis 2",
-    "releaseDate": "2017",
+    "releaseDate": "2017 / 10",
     "price": 249.99,
     "screenSize": 7,
     "resolution": "1264 x 1680",
@@ -21339,10 +21339,10 @@
       "Medium"
     ],
     "similar": [
-      "kindle-oasis-3",
-      "kindle-paperwhite-2",
-      "kindle-oasis",
-      "kindle-10"
+      "kindle-paperwhite-6",
+      "kindle-paperwhite-6-signature-edition",
+      "kindle-voyage",
+      "kindle-oasis-3"
     ],
     "pros": [
       {
@@ -21372,7 +21372,7 @@
     "brand": "Kobo",
     "name": "Kobo Aura H2O Edition 2",
     "fullName": "Kobo Aura H2O Edition 2",
-    "releaseDate": "2017",
+    "releaseDate": "2017 / 05",
     "price": 180,
     "screenSize": 6.8,
     "resolution": "1080 x 1440",
@@ -21420,9 +21420,9 @@
       "Medium"
     ],
     "similar": [
+      "kobo-glo-hd",
       "kobo-aura-h2o",
       "kobo-aura-edition-2",
-      "kobo-glo-hd",
       "kobo-clara-hd"
     ],
     "pros": [
@@ -21450,7 +21450,7 @@
     "brand": "Nook",
     "name": "Nook GlowLight 3",
     "fullName": "Nook GlowLight 3",
-    "releaseDate": "2017",
+    "releaseDate": "2017 / 11",
     "price": 119.99,
     "screenSize": 6,
     "resolution": "1072 x 1448",
@@ -21501,7 +21501,7 @@
       "nook-glowlight-plus",
       "nook-glowlight-4",
       "nook-glowlight-4e",
-      "nook-glowlight-plus-78"
+      "nook-1st-edition"
     ],
     "pros": [
       {
@@ -21531,7 +21531,7 @@
     "brand": "Kindle",
     "name": "Kindle 8",
     "fullName": "Kindle 8",
-    "releaseDate": "2016",
+    "releaseDate": "2016 / 07",
     "price": 100,
     "screenSize": 6,
     "resolution": "600 x 800",
@@ -21615,7 +21615,7 @@
     "brand": "Kindle",
     "name": "Kindle Oasis",
     "fullName": "Kindle Oasis",
-    "releaseDate": "2016",
+    "releaseDate": "2016 / 04",
     "price": 309,
     "screenSize": 6,
     "resolution": "1072 x 1448",
@@ -21663,10 +21663,10 @@
       "Medium"
     ],
     "similar": [
+      "kindle-10",
       "kindle-paperwhite-2",
-      "kindle-voyage",
       "kindle-paperwhite-3",
-      "kindle-paperwhite-4"
+      "kindle-voyage"
     ],
     "pros": [
       {
@@ -21696,7 +21696,7 @@
     "brand": "Kobo",
     "name": "Kobo Aura One",
     "fullName": "Kobo Aura One",
-    "releaseDate": "2016",
+    "releaseDate": "2016 / 09",
     "price": 230,
     "screenSize": 7.8,
     "resolution": "1404 x 1872",
@@ -21746,8 +21746,8 @@
     "similar": [
       "kobo-aura-edition-2",
       "kobo-libra-h2o",
-      "kobo-aura-h2o",
-      "kobo-aura-h2o-edition-2"
+      "kobo-aura-h2o-edition-2",
+      "kobo-aura-h2o"
     ],
     "pros": [
       {
@@ -21777,7 +21777,7 @@
     "brand": "Kobo",
     "name": "Kobo Aura Edition 2",
     "fullName": "Kobo Aura Edition 2",
-    "releaseDate": "2016",
+    "releaseDate": "2016 / 09",
     "price": 119,
     "screenSize": 6,
     "resolution": "768 x 1024",
@@ -21825,10 +21825,10 @@
       "Medium"
     ],
     "similar": [
-      "kobo-glo-hd",
-      "kobo-clara-hd",
       "kobo-aura-one",
-      "kobo-aura-h2o"
+      "kobo-libra-h2o",
+      "kobo-glo-hd",
+      "kobo-clara-hd"
     ],
     "pros": [
       {
@@ -21855,7 +21855,7 @@
     "brand": "Kindle",
     "name": "Kindle Paperwhite 3",
     "fullName": "Kindle Paperwhite 3",
-    "releaseDate": "2015",
+    "releaseDate": "2015 / 06",
     "price": 140,
     "screenSize": 6,
     "resolution": "1072 x 1448",
@@ -21936,7 +21936,7 @@
     "brand": "Kobo",
     "name": "Kobo Touch 2.0",
     "fullName": "Kobo Touch 2.0",
-    "releaseDate": "2015",
+    "releaseDate": "2015 / 09",
     "price": 61,
     "screenSize": 6,
     "resolution": "600 x 800",
@@ -21986,8 +21986,8 @@
     "similar": [
       "kobo-mini",
       "kindle-5",
-      "kindle-7",
-      "kindle-8"
+      "kindle-8",
+      "nook-simple-touch"
     ],
     "pros": [
       {
@@ -22020,7 +22020,7 @@
     "brand": "Kobo",
     "name": "Kobo Glo HD",
     "fullName": "Kobo Glo HD",
-    "releaseDate": "2015",
+    "releaseDate": "2015 / 05",
     "price": 129,
     "screenSize": 6,
     "resolution": "1072 x 1448",
@@ -22069,9 +22069,9 @@
     ],
     "similar": [
       "kobo-clara-hd",
+      "kobo-aura-h2o-edition-2",
       "kobo-nia",
-      "kobo-aura-edition-2",
-      "kobo-aura-h2o"
+      "kobo-aura-edition-2"
     ],
     "pros": [
       {
@@ -22101,7 +22101,7 @@
     "brand": "Nook",
     "name": "Nook GlowLight Plus",
     "fullName": "Nook GlowLight Plus",
-    "releaseDate": "2015",
+    "releaseDate": "2015 / 10",
     "price": 129,
     "screenSize": 6,
     "resolution": "1072 x 1448",
@@ -22151,8 +22151,8 @@
     "similar": [
       "nook-glowlight-3",
       "nook-glowlight-4",
-      "nook-glowlight-4e",
-      "nook-glowlight-plus-78"
+      "nook-glowlight",
+      "bemi-cognita-tab-6-plus"
     ],
     "pros": [
       {
@@ -22182,7 +22182,7 @@
     "brand": "Kindle",
     "name": "Kindle Voyage",
     "fullName": "Kindle Voyage",
-    "releaseDate": "2014",
+    "releaseDate": "2014 / 10",
     "price": 220,
     "screenSize": 6,
     "resolution": "1072 x 1448",
@@ -22230,10 +22230,10 @@
       "Medium"
     ],
     "similar": [
-      "kindle-paperwhite-3",
       "kindle-paperwhite-4",
-      "kindle-paperwhite-2",
-      "kindle-oasis"
+      "kindle-11",
+      "kindle-paperwhite-3",
+      "kindle-oasis-2"
     ],
     "pros": [
       {
@@ -22263,7 +22263,7 @@
     "brand": "Kindle",
     "name": "Kindle 7",
     "fullName": "Kindle 7",
-    "releaseDate": "2014",
+    "releaseDate": "2014 / 10",
     "price": 100,
     "screenSize": 6,
     "resolution": "600 x 800",
@@ -22347,7 +22347,7 @@
     "brand": "Kobo",
     "name": "Kobo Aura H2O",
     "fullName": "Kobo Aura H2O",
-    "releaseDate": "2014",
+    "releaseDate": "2014 / 10",
     "price": 179,
     "screenSize": 6.8,
     "resolution": "1080 x 1440",
@@ -22396,9 +22396,9 @@
     ],
     "similar": [
       "kobo-aura-h2o-edition-2",
+      "kobo-sage",
       "kobo-aura-edition-2",
-      "kobo-glo-hd",
-      "kobo-clara-hd"
+      "kobo-glo-hd"
     ],
     "pros": [
       {
@@ -22425,7 +22425,7 @@
     "brand": "Kindle",
     "name": "Kindle Paperwhite 2",
     "fullName": "Kindle Paperwhite 2",
-    "releaseDate": "2013",
+    "releaseDate": "2013 / 09",
     "price": 140,
     "screenSize": 6,
     "resolution": "758 x 1024",
@@ -22471,9 +22471,9 @@
     ],
     "similar": [
       "kindle-oasis",
-      "kindle-voyage",
       "kindle-paperwhite-3",
-      "kindle-paperwhite-4"
+      "kindle-10",
+      "kindle-voyage"
     ],
     "pros": [
       {
@@ -22503,7 +22503,7 @@
     "brand": "Kobo",
     "name": "Kobo Aura",
     "fullName": "Kobo Aura",
-    "releaseDate": "2013",
+    "releaseDate": "2013 / 08",
     "price": 149,
     "screenSize": 6,
     "resolution": "768 x 1024",
@@ -22581,7 +22581,7 @@
     "brand": "Kobo",
     "name": "Kobo Aura HD",
     "fullName": "Kobo Aura HD",
-    "releaseDate": "2013",
+    "releaseDate": "2013 / 04",
     "price": 169,
     "screenSize": 6.8,
     "resolution": "1080 x 1440",
@@ -22632,7 +22632,7 @@
       "kobo-aura",
       "kobo-touch",
       "kobo-glo",
-      "kobo-aura-h2o"
+      "kobo-aura-h2o-edition-2"
     ],
     "pros": [
       {
@@ -22659,7 +22659,7 @@
     "brand": "Nook",
     "name": "Nook GlowLight",
     "fullName": "Nook GlowLight",
-    "releaseDate": "2013",
+    "releaseDate": "2013 / 10",
     "price": 119,
     "screenSize": 6,
     "resolution": "758 x 1024",
@@ -22707,10 +22707,10 @@
       "Medium"
     ],
     "similar": [
-      "nook-simple-touch-glowlight",
       "nook-glowlight-plus",
+      "nook-simple-touch-glowlight",
       "nook-glowlight-3",
-      "obook-6"
+      "nook-1st-edition"
     ],
     "pros": [
       {
@@ -22740,7 +22740,7 @@
     "brand": "Kindle",
     "name": "Kindle Paperwhite",
     "fullName": "Kindle Paperwhite",
-    "releaseDate": "2012",
+    "releaseDate": "2012 / 10",
     "price": 140,
     "screenSize": 6,
     "resolution": "758 x 1024",
@@ -22789,9 +22789,9 @@
     ],
     "similar": [
       "kindle-keyboard",
-      "kindle-4",
       "kindle-touch",
-      "kindle-2024"
+      "kindle-2024",
+      "kindle-11"
     ],
     "pros": [
       {
@@ -22821,7 +22821,7 @@
     "brand": "Kindle",
     "name": "Kindle 5",
     "fullName": "Kindle 5",
-    "releaseDate": "2012",
+    "releaseDate": "2012 / 09",
     "price": 90,
     "screenSize": 6,
     "resolution": "600 x 800",
@@ -22869,8 +22869,8 @@
       "Medium"
     ],
     "similar": [
-      "kindle-7",
       "kindle-8",
+      "kindle-7",
       "kobo-touch-20",
       "nook-simple-touch"
     ],
@@ -22908,7 +22908,7 @@
     "brand": "Kobo",
     "name": "Kobo Mini",
     "fullName": "Kobo Mini",
-    "releaseDate": "2012",
+    "releaseDate": "2012 / 09",
     "price": 99,
     "screenSize": 5,
     "resolution": "600 x 800",
@@ -22959,7 +22959,7 @@
       "kobo-touch-20",
       "kindle-5",
       "kobo-original",
-      "kobo-wifi"
+      "kindle-8"
     ],
     "pros": [
       {
@@ -22998,7 +22998,7 @@
     "brand": "Kobo",
     "name": "Kobo Glo",
     "fullName": "Kobo Glo",
-    "releaseDate": "2012",
+    "releaseDate": "2012 / 09",
     "price": 129,
     "screenSize": 6,
     "resolution": "768 x 1024",
@@ -23079,7 +23079,7 @@
     "brand": "Nook",
     "name": "Nook Simple Touch GlowLight",
     "fullName": "Nook Simple Touch GlowLight",
-    "releaseDate": "2012",
+    "releaseDate": "2012 / 04",
     "price": 139,
     "screenSize": 6,
     "resolution": "600 x 800",
@@ -23129,8 +23129,8 @@
     "similar": [
       "nook-glowlight",
       "nook-1st-edition",
-      "nook-glowlight-plus",
-      "nook-glowlight-3"
+      "nook-glowlight-4e",
+      "nook-glowlight-plus"
     ],
     "pros": [
       {
@@ -23160,7 +23160,7 @@
     "brand": "Kindle",
     "name": "Kindle Touch",
     "fullName": "Kindle Touch",
-    "releaseDate": "2011",
+    "releaseDate": "2011 / 11",
     "price": 149,
     "screenSize": 6,
     "resolution": "600 x 800",
@@ -23241,7 +23241,7 @@
     "brand": "Kindle",
     "name": "Kindle 4",
     "fullName": "Kindle 4",
-    "releaseDate": "2011",
+    "releaseDate": "2011 / 09",
     "price": 109,
     "screenSize": 6,
     "resolution": "600 x 800",
@@ -23292,7 +23292,7 @@
       "kindle-touch",
       "kindle-keyboard",
       "kindle-paperwhite",
-      "kindle-1"
+      "kindle-2"
     ],
     "pros": [
       {
@@ -23328,7 +23328,7 @@
     "brand": "Kobo",
     "name": "Kobo Touch",
     "fullName": "Kobo Touch",
-    "releaseDate": "2011",
+    "releaseDate": "2011 / 06",
     "price": 129,
     "screenSize": 6,
     "resolution": "600 x 800",
@@ -23379,7 +23379,7 @@
       "kobo-glo",
       "kobo-aura",
       "kobo-aura-hd",
-      "kobo-aura-edition-2"
+      "kobo-clara-hd"
     ],
     "pros": [
       {
@@ -23412,7 +23412,7 @@
     "brand": "Nook",
     "name": "Nook Simple Touch",
     "fullName": "Nook Simple Touch",
-    "releaseDate": "2011",
+    "releaseDate": "2011 / 06",
     "price": 99,
     "screenSize": 6,
     "resolution": "600 x 800",
@@ -23460,10 +23460,10 @@
       "Medium"
     ],
     "similar": [
+      "bigme-read",
       "veidoo-e5",
       "bemi-cognita-tab-5",
-      "kobo-touch-20",
-      "kindle-5"
+      "kobo-touch-20"
     ],
     "pros": [
       {
@@ -23493,7 +23493,7 @@
     "brand": "Kindle",
     "name": "Kindle Keyboard",
     "fullName": "Kindle Keyboard",
-    "releaseDate": "2010",
+    "releaseDate": "2010 / 08",
     "price": 139,
     "screenSize": 6,
     "resolution": "600 x 800",
@@ -23544,7 +23544,7 @@
       "kindle-4",
       "kindle-touch",
       "kindle-paperwhite",
-      "kindle-1"
+      "kindle-2"
     ],
     "pros": [
       {
@@ -23577,7 +23577,7 @@
     "brand": "Kobo",
     "name": "Kobo WiFi",
     "fullName": "Kobo WiFi",
-    "releaseDate": "2010",
+    "releaseDate": "2010 / 10",
     "price": 199,
     "screenSize": 6,
     "resolution": "600 x 800",
@@ -23626,9 +23626,9 @@
     ],
     "similar": [
       "kobo-original",
+      "kobo-aura-h2o",
       "kobo-touch",
-      "kobo-glo",
-      "kobo-aura"
+      "kobo-glo"
     ],
     "pros": [
       {
@@ -23661,7 +23661,7 @@
     "brand": "Kobo",
     "name": "Kobo Original",
     "fullName": "Kobo Original",
-    "releaseDate": "2010",
+    "releaseDate": "2010 / 05",
     "price": 149,
     "screenSize": 6,
     "resolution": "600 x 800",
@@ -23710,9 +23710,9 @@
     ],
     "similar": [
       "kobo-wifi",
-      "kobo-touch",
-      "kobo-glo",
-      "kobo-aura"
+      "kobo-glo-hd",
+      "kobo-aura-h2o-edition-2",
+      "kobo-touch"
     ],
     "pros": [
       {
@@ -23745,7 +23745,7 @@
     "brand": "Kindle",
     "name": "Kindle DX",
     "fullName": "Kindle DX",
-    "releaseDate": "2009",
+    "releaseDate": "2009 / 06",
     "price": 489,
     "screenSize": 9.7,
     "resolution": "824 x 1200",
@@ -23794,9 +23794,9 @@
     ],
     "similar": [
       "kindle-scribe-3-without-front-light",
-      "kindle-scribe-3",
-      "boox-note-max",
-      "ratta-supernote-a5-x2-manta"
+      "ratta-supernote-a5-x2-manta",
+      "boox-max-lumi",
+      "remarkable-paper-pro"
     ],
     "pros": [
       {
@@ -23835,7 +23835,7 @@
     "brand": "Kindle",
     "name": "Kindle 2",
     "fullName": "Kindle 2",
-    "releaseDate": "2009",
+    "releaseDate": "2009 / 02",
     "price": 299,
     "screenSize": 6,
     "resolution": "600 x 800",
@@ -23884,9 +23884,9 @@
     ],
     "similar": [
       "kindle-1",
+      "kindle-4",
       "kindle-10",
-      "kindle-2024",
-      "kindle-keyboard"
+      "kindle-2024"
     ],
     "pros": [
       {
@@ -23919,7 +23919,7 @@
     "brand": "Nook",
     "name": "Nook 1st Edition",
     "fullName": "Nook 1st Edition",
-    "releaseDate": "2009",
+    "releaseDate": "2009 / 11",
     "price": 259,
     "screenSize": 6,
     "resolution": "600 x 800",
@@ -23967,9 +23967,9 @@
       "Medium"
     ],
     "similar": [
-      "nook-simple-touch-glowlight",
+      "nook-glowlight-3",
       "nook-glowlight-4-plus",
-      "obook-6",
+      "nook-simple-touch-glowlight",
       "nook-glowlight"
     ],
     "pros": [
@@ -24003,7 +24003,7 @@
     "brand": "Kindle",
     "name": "Kindle 1",
     "fullName": "Kindle 1",
-    "releaseDate": "2007",
+    "releaseDate": "2007 / 11",
     "price": 399,
     "screenSize": 6,
     "resolution": "600 x 800",
@@ -24052,8 +24052,8 @@
     ],
     "similar": [
       "kindle-2",
+      "kindle-touch",
       "kindle-2024",
-      "kindle-keyboard",
       "kindle-4"
     ],
     "pros": [

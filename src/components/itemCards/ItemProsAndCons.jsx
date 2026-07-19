@@ -47,10 +47,10 @@ export default function ItemProsAndCons(props) {
                   <Box
                     style={{
                       textDecoration: "underline",
-                      textUnderlineOffset: ".7rem",
+                      textUnderlineOffset: ".3rem",
                     }}
                     display="inline"
-                    _hover={{ color: "var(--appColorAccentDark)" }}
+                    _hover={{ color: "var(--appColorAccent)" }}
                     cursor={"pointer"}
                     aria-expanded={showMore[title]}
                     aria-controls={`${title}-expanded-content`}

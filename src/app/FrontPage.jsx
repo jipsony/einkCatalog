@@ -22,6 +22,7 @@ import {
   VStack,
 } from "@chakra-ui/react";
 import React from "react";
+import { FaArrowRightLong } from "react-icons/fa6";
 import { IoMdCompass } from "react-icons/io";
 import { MdArrowForward, MdCompare, MdSearch } from "react-icons/md";
 
@@ -113,7 +114,7 @@ function FrontPageFunctionalityCard(props) {
                   color="var(--appColorAccent)"
                 >
                   <Text>{props.cta}</Text>
-                  {React.createElement(MdArrowForward)}
+                  {React.createElement(FaArrowRightLong)}
                 </Flex>
               )}
             </Box>
@@ -275,10 +276,10 @@ function FrontPageQuickLinks() {
 function SingleWhy(props) {
   return (
     <Box key={props.title}>
-      <Box fontWeight="bold" mb=".5rem">
+      <Box fontWeight="bold" mb=".5rem" color="var(--appColorDarkerGrey)">
         {props.title}
       </Box>
-      <Box textAlign={"justify"} color="var(--appColorDarkerGrey)">
+      <Box textAlign={"justify"} color="var(--appColorDarkerGrey)" opacity={".8"}>
         {props.text}
       </Box>
     </Box>
