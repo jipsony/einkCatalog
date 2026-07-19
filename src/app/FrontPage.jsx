@@ -19,6 +19,7 @@ import {
   Stack,
   Tag,
   Text,
+  VStack,
 } from "@chakra-ui/react";
 import React from "react";
 import { IoMdCompass } from "react-icons/io";
@@ -271,7 +272,145 @@ function FrontPageQuickLinks() {
     </>
   );
 }
+function SingleWhy(props) {
+  return (
+    <Box key={props.title}>
+      <Box fontWeight="bold" mb=".5rem">
+        {props.title}
+      </Box>
+      <Box textAlign={"justify"} color="var(--appColorDarkerGrey)">
+        {props.text}
+      </Box>
+    </Box>
+  );
+}
+function FrontPageWhy(props) {
+  const why = [
+    {
+      title: "No Eye Strain",
+      text: "Unlike the LCD and LED panels used in most of today's screens (TVs, laptops, phones), e-paper doesn't emit light, making it easier on the eyes, especially during long reading sessions.",
+    },
+    {
+      title: "Low Power",
+      text: "E-paper only draws power when the displayed content changes, so these devices can go weeks on a single charge.",
+    },
+    {
+      title: "Distraction-Free Reading",
+      text: "Focus on your reading without notifications, social media, and the endless doom-scrolling. E-readers are the perfect digital minimalism machines.",
+    },
+    {
+      title: "Light, Thin, and Compact",
+      text: "E-Ink tablets are far less bulky than almost any book, perfect for travel, commuting, and everyday use.",
+    },
+    {
+      title: "High Capacity",
+      text: "Because each e-books only requires a few megabytes of storage, even modestly sized devices can store thousands of titles. Digital books are also cheaper than physical copies, giving you access to a vast library at a lower cost.",
+    },
+  ];
 
+  const leftColumn = why.slice(0, Math.ceil(why.length / 2));
+  const rightColumn = why.slice(Math.ceil(why.length / 2));
+
+  return (
+    <Box>
+      <GenericFrontPageTitle title="Why Choose E-Paper ?"></GenericFrontPageTitle>
+      <SimpleGrid
+        templateColumns={{ base: "1fr", lg: "1fr 1fr " }}
+        columnGap="4rem"
+        textAlign={"justify"}
+      >
+        <VStack align="stretch" gap="1rem">
+          {leftColumn.map((w) => (
+            <SingleWhy title={w.title} text={w.text} key={w.title}></SingleWhy>
+          ))}
+        </VStack>
+
+        <VStack align="stretch" gap="1rem">
+          {rightColumn.map((w) => (
+            <SingleWhy title={w.title} text={w.text} key={w.title}></SingleWhy>
+          ))}
+        </VStack>
+      </SimpleGrid>
+    </Box>
+  );
+}
+
+function FrontPagePreviewList() {
+  return (
+    <SimpleGrid
+      templateColumns={{
+        base: "minmax(0, 1fr)",
+        "2xl": "repeat(3, minmax(0, 1fr))",
+      }}
+      // minmax(0, 1fr) allows the grid tracks to be as small as 0 but as large as 1fr, creating columns that will stay equal. But, be aware that this will cause overflows if the content is bigger than the column or cannot be wrapped.
+      gap={{ base: "2rem", "2xl": "1rem" }}
+    >
+      <Box>
+        <FrontPageDeviceList
+          deviceList={items?.filter((r) => r?.availability === "Available")}
+          title={"New Releases"}
+          moreLinkFilter={{
+            availability: "Available",
+          }}
+        ></FrontPageDeviceList>
+      </Box>
+
+      <FrontPageDeviceList
+        deviceList={staffPicks?.map((sp) => items?.find((r) => r?.id === sp))}
+        moreLinkFilter={{
+          staffPick: true,
+        }}
+        title={"Staff Picks"}
+      ></FrontPageDeviceList>
+
+      <Box>
+        <FrontPageDeviceList
+          deviceList={items?.filter((r) => r?.availability === "Upcoming")}
+          moreLinkFilter={{
+            availability: "Upcoming",
+          }}
+          title={"Coming Soon"}
+        ></FrontPageDeviceList>
+      </Box>
+
+      <Box></Box>
+    </SimpleGrid>
+  );
+}
+
+function FrontPageFunctionalityCards() {
+  return (
+    <SimpleGrid
+      templateColumns={{ base: "1fr", "2xl": "1fr 1fr 1fr" }}
+      gap="1rem"
+    >
+      <FrontPageFunctionalityCard
+        title={"Explore"}
+        text={"Use our tags and filters to find the best device for you"}
+        icon={IoMdCompass}
+        href={itemMainRoute}
+        image={buildFrontImageUrl("musnap-neo-2c")}
+        cta="Browse Devices"
+      ></FrontPageFunctionalityCard>
+      <FrontPageFunctionalityCard
+        title={"Compare"}
+        text={"See how two handhelds size up against each other"}
+        icon={MdCompare}
+        href={`/${itemMainRoute}/compare`}
+        image={buildFrontImageUrl("kindle-scribe-colorsoft")}
+        cta="Start Comparing"
+      ></FrontPageFunctionalityCard>
+      <FrontPageFunctionalityCard
+        title={"Deep Dive"}
+        text={"Browse specs, features, and reviews of any device"}
+        icon={MdSearch}
+        href={`/${itemMainRoute}`}
+        image={buildFrontImageUrl("viwoods-aipaper-reader")}
+        cta="View Specs"
+      ></FrontPageFunctionalityCard>
+    </SimpleGrid>
+  );
+}
 export default function FrontPage(props) {
   return (
     <Box>
@@ -281,35 +420,7 @@ export default function FrontPage(props) {
         <Separator borderColor="var(--appBorderColor)" mt="1.5rem" />
       </Box>
 
-      <SimpleGrid
-        templateColumns={{ base: "1fr", "2xl": "1fr 1fr 1fr" }}
-        gap="1rem"
-      >
-        <FrontPageFunctionalityCard
-          title={"Explore"}
-          text={"Use our tags and filters to find the best device for you"}
-          icon={IoMdCompass}
-          href={itemMainRoute}
-          image={buildFrontImageUrl("musnap-neo-2c")}
-          cta="Browse Devices"
-        ></FrontPageFunctionalityCard>
-        <FrontPageFunctionalityCard
-          title={"Compare"}
-          text={"See how two handhelds size up against each other"}
-          icon={MdCompare}
-          href={`/${itemMainRoute}/compare`}
-          image={buildFrontImageUrl("kindle-scribe-colorsoft")}
-          cta="Start Comparing"
-        ></FrontPageFunctionalityCard>
-        <FrontPageFunctionalityCard
-          title={"Deep Dive"}
-          text={"Browse specs, features, and reviews of any device"}
-          icon={MdSearch}
-          href={`/${itemMainRoute}`}
-          image={buildFrontImageUrl("viwoods-aipaper-reader")}
-          cta="View Specs"
-        ></FrontPageFunctionalityCard>
-      </SimpleGrid>
+      <FrontPageFunctionalityCards></FrontPageFunctionalityCards>
 
       <Separator borderColor="var(--appBorderColor)" mt="2.5rem" />
 
@@ -319,46 +430,13 @@ export default function FrontPage(props) {
       <Separator borderColor="var(--appBorderColor)" mt="1.5rem" />
 
       <Box my="2.5rem">
-        <SimpleGrid
-          templateColumns={{
-            base: "minmax(0, 1fr)",
-            "2xl": "repeat(3, minmax(0, 1fr))",
-          }}
-          // minmax(0, 1fr) allows the grid tracks to be as small as 0 but as large as 1fr, creating columns that will stay equal. But, be aware that this will cause overflows if the content is bigger than the column or cannot be wrapped.
-          gap={{ base: "2rem", "2xl": "1rem" }}
-        >
-          <Box>
-            <FrontPageDeviceList
-              deviceList={items?.filter((r) => r?.availability === "Available")}
-              title={"New Releases"}
-              moreLinkFilter={{
-                availability: "Available",
-              }}
-            ></FrontPageDeviceList>
-          </Box>
+        <FrontPagePreviewList></FrontPagePreviewList>
+      </Box>
 
-          <FrontPageDeviceList
-            deviceList={staffPicks?.map((sp) =>
-              items?.find((r) => r?.id === sp),
-            )}
-            moreLinkFilter={{
-              staffPick: true,
-            }}
-            title={"Staff Picks"}
-          ></FrontPageDeviceList>
+      <Separator borderColor="var(--appBorderColor)" />
 
-          <Box>
-            <FrontPageDeviceList
-              deviceList={items?.filter((r) => r?.availability === "Upcoming")}
-              moreLinkFilter={{
-                availability: "Upcoming",
-              }}
-              title={"Coming Soon"}
-            ></FrontPageDeviceList>
-          </Box>
-
-          <Box></Box>
-        </SimpleGrid>
+      <Box my="2.5rem">
+        <FrontPageWhy></FrontPageWhy>
       </Box>
     </Box>
   );
