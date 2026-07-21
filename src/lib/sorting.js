@@ -49,15 +49,15 @@ const sortByNumericAttribute = (defJson, attribute) => {
         return sortByNumericAttribute(defJson, "approximativePrice");
       },
     },
-    highestRated: {
-      label: "Rating",
-      labelChoice: "Highest",
-      sortingAdjective: "Highest Rated",
+    // highestRated: {
+    //   label: "Rating",
+    //   labelChoice: "Highest",
+    //   sortingAdjective: "Highest Rated",
 
-      sortFunction: (defJson) => {
-        return sortByNumericAttribute(defJson, "rating").toReversed();
-      },
-    },
+    //   sortFunction: (defJson) => {
+    //     return sortByNumericAttribute(defJson, "rating").toReversed();
+    //   },
+    // },
   };
 
   export {sortByDate,sortByNumericAttribute,sortOptions}

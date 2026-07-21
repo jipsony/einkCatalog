@@ -164,32 +164,23 @@ const additionalSectionFilters = [
   //   },
 ];
 
+const specialCategories = [
+  "Staff Pick",
+  "For Reading",
+  "For Note-taking",
+  "Phone Replacement",
+  "Kindle Alternative",
+];
 const specialCategoryFilters = [
-  {
-    key: "staffPick",
-    label: "Staff Pick",
+  ...specialCategories.map((s) => ({
+    key: s,
+    label: s,
     value: false,
-    filterFunction: (row) => row.ratingCategory === "staffPick",
+    filterFunction: (row) => row.categories.includes(s),
     active: false,
     type: "checkbox",
     titleRenderType: "none",
-  },
-  // {
-  //   key: "isUpcoming",
-  //   label: "Upcoming",
-  //   value: false,
-  //   filterFunction: (row) => row.isUpcoming === true,
-  //   active: false,
-  //   type: "checkbox",
-  // },
-  // {
-  //   key: "isReleased",
-  //   label: "available",
-  //   value: false,
-  //   filterFunction: (row) => !row.isUpcoming,
-  //   active: false,
-  //   type: "checkbox",
-  // },
+  })),
 ];
 
 const sectionFilters = initSectionFilters();

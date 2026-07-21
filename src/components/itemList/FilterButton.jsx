@@ -10,7 +10,10 @@ export default function FilterButton(props) {
   return (
     <Button
       variant={"outline"}
-      borderColor={"var(--appColorDarkGrey)"}
+      // colorPalette={"red"}
+      borderColor={"var(--appColorAccent)"}
+      color={"var(--appColorAccent)"}
+      fontWeight={"bold"}
       onClick={() => {
         startTransitionFilter(() => {
           props.setIsLoadingFilter(true);

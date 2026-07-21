@@ -107,11 +107,11 @@ export default function ItemVerticalPreviewCard(props) {
               color="var(--appColorDarkGrey)"
             >
               {[
+                props.itemInfo?.releaseDate?.split("/")?.[0] ?? null,
+                props.itemInfo?.screenType ?? null,
                 props.itemInfo?.price != null
                   ? `$${props.itemInfo.price}`
                   : null,
-                props.itemInfo?.releaseDate ?? null,
-                props.itemInfo?.screenType ?? null,
               ]
                 .filter(Boolean)
                 .join(" • ")}
@@ -127,7 +127,7 @@ export default function ItemVerticalPreviewCard(props) {
         }
         mb={"2rem"}
         cursor={"pointer"}
-        _hover={{color:"var(--appColorLink)"}}
+        _hover={{ color: "var(--appColorLink)" }}
       >
         {" "}
         {props?.itemInfo?.name}
@@ -138,7 +138,7 @@ export default function ItemVerticalPreviewCard(props) {
         }
         mb={"2rem"}
         cursor={"pointer"}
-        _hover={{color:"var(--appColorLink)"}}
+        _hover={{ color: "var(--appColorLink)" }}
       >
         {" "}
         {props?.itemInfo?.id}

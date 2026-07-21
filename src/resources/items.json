@@ -52,13 +52,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking"
     ],
     "similar": [
       "remarkable-2",
-      "bigme-b7-pro-bw",
-      "pocketbook-era-lite",
-      "tolino-shine-5"
+      "penstar-enote-2",
+      "penstar-enote",
+      "bigme-b7-pro-bw"
     ],
     "pros": [
       {
@@ -148,12 +150,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "High-End",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "kindle-scribe-3",
-      "kindle-scribe-2024",
       "kindle-scribe-colorsoft",
+      "kindle-scribe-2024",
       "bigme-b10"
     ],
     "pros": [
@@ -244,7 +249,10 @@
     "sizeCategory": "Medium",
     "categories": [
       "High-End",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "boox-go-103-gen-ii",
@@ -343,7 +351,10 @@
     "sizeCategory": "Medium",
     "categories": [
       "High-End",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "boox-go-103-gen-ii-lumi",
@@ -442,13 +453,16 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
-      "boox-go-6",
-      "boox-page",
       "boox-go-7",
-      "boox-poke-2"
+      "bigme-b7-pro-bw",
+      "boox-go-103",
+      "boox-nova-2"
     ],
     "pros": [
       {
@@ -529,13 +543,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
       "pocketbook-era",
-      "pocketbook-touch-lux-5",
-      "pocketbook-basic-lux-3",
-      "pocketbook-verse"
+      "pocketbook-inkpad-4",
+      "pocketbook-verse-pro",
+      "tolino-shine-5"
     ],
     "pros": [
       {
@@ -613,13 +629,16 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
+      "meebook-p10-pro",
       "pocketbook-era-lite",
-      "pocketbook-touch-lux-5",
-      "pocketbook-basic-lux-3",
-      "pocketbook-verse"
+      "bookeen-nota",
+      "pocketbook-verse-pro"
     ],
     "pros": [
       {
@@ -709,7 +728,10 @@
     "sizeCategory": "Medium",
     "categories": [
       "High-End",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "bigme-b1051c-lite",
@@ -811,13 +833,16 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "boox-go-6-gen-ii",
-      "musnap-neo",
-      "musnap-neo-2",
-      "boox-go-7"
+      "boox-go-7",
+      "bigme-b751",
+      "bigme-s6"
     ],
     "pros": [
       {
@@ -903,13 +928,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
-      "bigme-inknote-s",
-      "bigme-hibreak-dual-bw",
-      "bigme-b751",
-      "bigme-s6"
+      "bigme-b6",
+      "boox-poke-2",
+      "obook-6",
+      "boox-poke-4-lite"
     ],
     "pros": [
       {
@@ -986,13 +1013,16 @@
     "sizeCategory": "Medium",
     "categories": [
       "High-End",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Phone Replacement"
     ],
     "similar": [
-      "bigme-b10",
       "boox-palma-2-pro",
-      "bigme-inknote-color",
-      "bigme-s6-color"
+      "bigme-hibreak-plus",
+      "bigme-hibreak-pro",
+      "bigme-hibreak-dual-bw"
     ],
     "pros": [
       {
@@ -1072,13 +1102,16 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Phone Replacement"
     ],
     "similar": [
       "bigme-hibreak-plus",
-      "bigme-b6-bw",
       "bigme-hibreak-pro-color",
-      "bigme-hibreak-bw"
+      "bigme-hibreak-bw",
+      "bigme-hibreak-s-bw"
     ],
     "pros": [
       {
@@ -1161,11 +1194,14 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Phone Replacement"
     ],
     "similar": [
-      "bigme-hibreak-pro-color",
       "bigme-hibreak-dual-bw",
+      "bigme-hibreak-pro-color",
       "bigme-hibreak-color",
       "viwoods-aipaper-reader-c"
     ],
@@ -1254,13 +1290,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
       "musnap-neo-c",
-      "musnap-ocean-c",
       "inkbook-solaris-color",
-      "musnap-neo-2"
+      "musnap-neo-2",
+      "bigme-b6"
     ],
     "pros": [
       {
@@ -1344,13 +1382,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
       "musnap-neo",
-      "boox-go-6-gen-ii",
       "musnap-neo-2c",
-      "bigme-b7-pro-bw"
+      "boox-go-6",
+      "boox-poke-2"
     ],
     "pros": [
       {
@@ -1431,11 +1471,12 @@
     "sizeCategory": "Compact",
     "categories": [
       "Budget",
-      "Compact"
+      "Compact",
+      "For Reading"
     ],
     "similar": [
-      "xteink-x4",
       "famue-bf01",
+      "xteink-x4",
       "m5stack-papers3",
       "famue-bf07"
     ],
@@ -1530,13 +1571,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Phone Replacement"
     ],
     "similar": [
-      "boox-palma",
       "boox-palma-2",
       "viwoods-aipaper-reader",
-      "bigme-b7-pro-bw"
+      "boox-palma",
+      "moaan-inkpalm-plus"
     ],
     "pros": [
       {
@@ -1617,13 +1660,14 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading"
     ],
     "similar": [
       "bemi-cognita-tab-6e",
-      "bemi-cognita-tab-6",
-      "bemi-cognita-tab-8",
-      "bemi-cognita-tab-8-pro"
+      "nook-glowlight-4e",
+      "nook-glowlight-4",
+      "nook-glowlight-plus"
     ],
     "pros": [
       {
@@ -1706,13 +1750,14 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading"
     ],
     "similar": [
       "bemi-cognita-tab-7-pro",
-      "bemi-cognita-tab-6",
-      "bemi-cognita-tab-6-plus",
-      "inkbook-calypso-plus"
+      "nook-glowlight-4",
+      "nook-glowlight-4e",
+      "nook-glowlight-plus"
     ],
     "pros": [
       {
@@ -1793,13 +1838,16 @@
     "sizeCategory": "Medium",
     "categories": [
       "High-End",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Phone Replacement"
     ],
     "similar": [
+      "boox-palma-2-pro",
       "remarkable-paper-pro",
-      "kindle-scribe-3",
-      "kindle-scribe-3-without-front-light",
-      "musnap-aura-c"
+      "bigme-hibreak-dual-color",
+      "bigme-hibreak-pro"
     ],
     "pros": [
       {
@@ -1883,7 +1931,10 @@
     "sizeCategory": "Medium",
     "categories": [
       "High-End",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "kindle-scribe-3",
@@ -1973,7 +2024,10 @@
     "sizeCategory": "Medium",
     "categories": [
       "High-End",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "kindle-scribe-colorsoft",
@@ -2063,13 +2117,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
       "kindle-colorsoft-signature-edition",
       "kindle-oasis-3",
-      "kindle-2",
-      "kindle-2024"
+      "kindle-2024",
+      "kindle-oasis-2"
     ],
     "pros": [
       {
@@ -2153,13 +2209,16 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
-      "boox-go-color-7",
       "bigme-b751c-s",
       "bigme-b7",
-      "bigme-b7-pro"
+      "bigme-b7-pro",
+      "musnap-ocean-c"
     ],
     "pros": [
       {
@@ -2248,13 +2307,16 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
-      "boox-page",
-      "boox-go-6",
       "boox-go-6-gen-ii",
-      "boox-poke-2"
+      "bigme-b7-pro-bw",
+      "boox-go-color-7-gen-ii",
+      "boox-go-103"
     ],
     "pros": [
       {
@@ -2340,7 +2402,10 @@
     "sizeCategory": "Large",
     "categories": [
       "High-End",
-      "Large"
+      "Large",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "boox-tab-x",
@@ -2442,13 +2507,16 @@
     "sizeCategory": "Large",
     "categories": [
       "High-End",
-      "Large"
+      "Large",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "boox-tab-x",
       "boox-max-lumi-2",
       "boox-max-lumi",
-      "dasung-not-ereader-133"
+      "boox-tab-x-c"
     ],
     "pros": [
       {
@@ -2541,13 +2609,16 @@
     "sizeCategory": "Medium",
     "categories": [
       "High-End",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Phone Replacement"
     ],
     "similar": [
-      "boox-note-air-5-c",
       "bigme-hibreak-dual-color",
-      "boox-note-air-3-c",
-      "boox-tab-ultra-c-pro"
+      "hisense-a5-pro-cc",
+      "bigme-hibreak-pro",
+      "hisense-a7-cc"
     ],
     "pros": [
       {
@@ -2633,13 +2704,16 @@
     "sizeCategory": "Medium",
     "categories": [
       "High-End",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "boox-note-air-3-c",
       "boox-tab-ultra-c-pro",
-      "boox-note-air-4-c",
-      "boox-tab-ultra-c"
+      "boox-tab-ultra-c",
+      "boox-note-air-4-c"
     ],
     "pros": [
       {
@@ -2735,7 +2809,8 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading"
     ],
     "similar": [
       "pocketbook-touch-lux-5",
@@ -2822,13 +2897,16 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "bigme-b7",
       "bigme-b751c-s",
-      "bigme-b6",
-      "bigme-b751c"
+      "bigme-b751c",
+      "bigme-guoyue-v6-color"
     ],
     "pros": [
       {
@@ -2917,13 +2995,16 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "bigme-b7-pro",
       "bigme-b751c-s",
-      "bigme-b6",
-      "bigme-b751c"
+      "bigme-b751c",
+      "bigme-guoyue-v6-color"
     ],
     "pros": [
       {
@@ -3012,13 +3093,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
-      "bigme-b7",
-      "bigme-b7-pro",
-      "bigme-b751c-s",
-      "bigme-b751c"
+      "boox-poke-2-color",
+      "musnap-neo-c",
+      "bemi-cognita-tab-6-proc",
+      "inkbook-solaris-color"
     ],
     "pros": [
       {
@@ -3101,13 +3184,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Phone Replacement"
     ],
     "similar": [
-      "bigme-hibreak-plus",
       "viwoods-aipaper-reader-c",
       "bigme-hibreak-s-color",
-      "bigme-b6"
+      "bigme-hibreak-color",
+      "bigme-hibreak-plus"
     ],
     "pros": [
       {
@@ -3191,13 +3276,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "High-End",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Phone Replacement"
     ],
     "similar": [
       "hisense-a9",
       "hisense-a7",
       "bigme-hibreak-dual-color",
-      "bigme-b1051"
+      "hisense-a7-cc"
     ],
     "pros": [
       {
@@ -3278,7 +3365,9 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Phone Replacement"
     ],
     "similar": [
       "bigme-hibreak-s-bw",
@@ -3364,13 +3453,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Phone Replacement"
     ],
     "similar": [
       "bigme-hibreak-s-color",
       "bigme-hibreak-bw",
       "bigme-hibreak-color",
-      "bigme-hibreak-dual-bw"
+      "bigme-hibreak-pro-color"
     ],
     "pros": [
       {
@@ -3447,13 +3538,16 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "bigme-b7",
       "bigme-b7-pro",
       "bigme-b751c",
-      "bigme-b6"
+      "musnap-ocean-c"
     ],
     "pros": [
       {
@@ -3539,13 +3633,16 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "harborinno-paper-7-lite",
       "hannspree-hannsnote2",
-      "bemi-cognita-tab-8-pro",
-      "bemi-cognita-tab-8"
+      "bigme-s6",
+      "mobiscribe-wave-bw"
     ],
     "pros": [
       {
@@ -3635,13 +3732,16 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "harborinno-paper-7",
       "hannspree-hannsnote2",
-      "bemi-cognita-tab-8-pro",
-      "bemi-cognita-tab-8"
+      "bigme-s6",
+      "mobiscribe-wave-bw"
     ],
     "pros": [
       {
@@ -3731,13 +3831,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Phone Replacement"
     ],
     "similar": [
       "boox-palma-2",
-      "boox-palma",
       "viwoods-aipaper-reader-c",
-      "durobo-krono"
+      "durobo-krono",
+      "boox-palma"
     ],
     "pros": [
       {
@@ -3818,13 +3920,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Phone Replacement"
     ],
     "similar": [
       "bigme-hibreak-pro-color",
-      "bigme-hibreak-plus",
-      "boox-go-color-7-gen-ii",
-      "viwoods-aipaper-reader"
+      "viwoods-aipaper-reader",
+      "bigme-hibreak-s-color",
+      "hisense-a5c"
     ],
     "pros": [
       {
@@ -3908,13 +4012,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
       "inkbook-solaris-color",
-      "bigme-s6-color-lite",
       "musnap-neo-c",
-      "bigme-guoyue-v6-color"
+      "inkbook-focus",
+      "bigme-b6"
     ],
     "pros": [
       {
@@ -3997,7 +4103,9 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
       "inkbook-focus",
@@ -4083,7 +4191,9 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
       "inkbook-focus-color",
@@ -4173,13 +4283,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
       "inkbook-calypso-plus",
       "boox-poke-3",
       "inkbook-focus",
-      "nook-glowlight-3"
+      "boox-poke-2"
     ],
     "pros": [
       {
@@ -4260,13 +4372,14 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading"
     ],
     "similar": [
       "vivlio-light",
-      "vivlio-light-hd",
       "pocketbook-verse-lite",
-      "vivlio-inkpad-4"
+      "pocketbook-touch-lux-5",
+      "pocketbook-basic-lux-3"
     ],
     "pros": [
       {
@@ -4347,13 +4460,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking"
     ],
     "similar": [
       "penstar-enote",
+      "mobiscribe-the-origin",
       "boox-go-103",
-      "lenovo-smart-paper",
-      "meebook-m103"
+      "lenovo-smart-paper"
     ],
     "pros": [
       {
@@ -4449,7 +4564,10 @@
     "sizeCategory": "Medium",
     "categories": [
       "High-End",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "bigme-inknote-x",
@@ -4551,13 +4669,16 @@
     "sizeCategory": "Medium",
     "categories": [
       "High-End",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "iflytek-ainote-air-2",
       "huion-ink-eb1010",
-      "viwoods-aipaper",
-      "bigme-inknote"
+      "bigme-inknote",
+      "viwoods-aipaper"
     ],
     "pros": [
       {
@@ -4647,13 +4768,14 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading"
     ],
     "similar": [
       "spc-dickens-light-pro",
       "silvergear-e-reader",
       "kobo-glo-hd",
-      "bemi-cognita-tab-6"
+      "vivlio-light-zen"
     ],
     "pros": [
       {
@@ -4731,7 +4853,10 @@
     "sizeCategory": "Medium",
     "categories": [
       "High-End",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "viwoods-aipaper",
@@ -4830,7 +4955,10 @@
     "sizeCategory": "Medium",
     "categories": [
       "High-End",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "bigme-b1051c-lite",
@@ -4929,13 +5057,16 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
-      "musnap-neo-c",
       "musnap-ocean",
       "bigme-b751c-s",
-      "musnap-neo-2c"
+      "boox-go-color-7-gen-ii",
+      "bigme-b7"
     ],
     "pros": [
       {
@@ -5022,13 +5153,16 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "musnap-ocean-c",
-      "musnap-neo-c",
-      "musnap-neo",
-      "obook-6"
+      "bigme-b751c-s",
+      "bigme-b751",
+      "bigme-b1051-lite"
     ],
     "pros": [
       {
@@ -5112,13 +5246,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
-      "musnap-ocean-c",
       "musnap-neo-2c",
       "bigme-b6",
-      "bemi-cognita-tab-6-proc"
+      "bemi-cognita-tab-6-proc",
+      "musnap-neo"
     ],
     "pros": [
       {
@@ -5202,13 +5338,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
       "musnap-neo-2",
-      "boox-go-7",
       "musnap-neo-c",
-      "bigme-b7-pro-bw"
+      "boox-go-6",
+      "boox-poke-4-lite"
     ],
     "pros": [
       {
@@ -5290,13 +5428,15 @@
     "ratingCategory": "staffPick",
     "categories": [
       "Budget",
-      "Compact"
+      "Compact",
+      "Staff Pick",
+      "For Reading"
     ],
     "similar": [
       "xteink-x3",
-      "famue-bf07",
+      "famue-bf01",
       "m5stack-papers3",
-      "famue-bf01"
+      "famue-bf07"
     ],
     "pros": [
       {
@@ -5389,7 +5529,10 @@
     "sizeCategory": "Medium",
     "categories": [
       "High-End",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "musnap-x",
@@ -5485,13 +5628,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
-      "musnap-ocean",
-      "nook-glowlight-4e",
-      "nook-glowlight-plus",
-      "bemi-cognita-tab-6"
+      "bemi-cognita-tab-6",
+      "nook-glowlight-4-plus",
+      "bigme-b6-bw",
+      "meebook-p6"
     ],
     "pros": [
       {
@@ -5573,9 +5718,9 @@
     ],
     "similar": [
       "xteink-x4",
-      "obook-6",
-      "famue-bf07",
-      "spc-dickens-light-2-pro"
+      "spc-dickens-light-2-pro",
+      "xteink-x3",
+      "spc-dickens-light-pro"
     ],
     "pros": [
       {
@@ -5656,13 +5801,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
       "bemi-cognita-tab-6-plus",
       "bigme-b6",
       "musnap-neo-c",
-      "boox-go-color-7-gen-ii"
+      "inkbook-solaris-color"
     ],
     "pros": [
       {
@@ -5745,13 +5892,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
       "bemi-cognita-tab-6",
       "bemi-cognita-tab-8",
-      "nook-glowlight-plus",
-      "bemi-cognita-tab-6-proc"
+      "bemi-cognita-tab-6-proc",
+      "bemi-cognita-tab-8-pro"
     ],
     "pros": [
       {
@@ -5832,7 +5981,9 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
       "bemi-cognita-tab-6-plus",
@@ -5919,13 +6070,16 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "boox-go-color-7-gen-ii",
-      "obook-6",
       "bigme-inknote-s",
-      "nook-glowlight-4-plus"
+      "musnap-ocean",
+      "bigme-b751c-s"
     ],
     "pros": [
       {
@@ -6009,13 +6163,15 @@
     "sizeCategory": "Compact",
     "categories": [
       "Budget",
-      "Compact"
+      "Compact",
+      "For Reading",
+      "Phone Replacement"
     ],
     "similar": [
-      "famue-bf01",
       "m5stack-papers3",
-      "xteink-x4",
-      "xteink-x3"
+      "famue-bf01",
+      "xteink-x3",
+      "xteink-x4"
     ],
     "pros": [
       {
@@ -6102,7 +6258,10 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "geniatech-kloudnote-slim",
@@ -6198,7 +6357,9 @@
     "sizeCategory": "Compact",
     "categories": [
       "Budget",
-      "Compact"
+      "Compact",
+      "For Reading",
+      "Phone Replacement"
     ],
     "similar": [
       "famue-bf07",
@@ -6291,13 +6452,15 @@
     "sizeCategory": "Large",
     "categories": [
       "High-End",
-      "Large"
+      "Large",
+      "For Reading",
+      "For Note-taking"
     ],
     "similar": [
       "remarkable-paper-pro-move",
-      "ratta-supernote-a5-x2-manta",
       "boox-max-lumi",
-      "boox-tab-x-c"
+      "boox-tab-x-c",
+      "boox-note-max"
     ],
     "pros": [
       {
@@ -6388,13 +6551,17 @@
     "ratingCategory": "staffPick",
     "categories": [
       "High-End",
-      "Medium"
+      "Medium",
+      "Staff Pick",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "kindle-scribe-3",
       "kindle-scribe-3-without-front-light",
-      "kindle-scribe-colorsoft",
-      "boox-note-air-4-c"
+      "boox-note-air-4-c",
+      "kindle-scribe-colorsoft"
     ],
     "pros": [
       {
@@ -6478,13 +6645,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
       "kindle-colorsoft",
       "kindle-2024",
       "kindle-paperwhite-6",
-      "kindle-paperwhite-6-signature-edition"
+      "kindle-oasis-2"
     ],
     "pros": [
       {
@@ -6569,7 +6738,10 @@
     "ratingCategory": "staffPick",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "Staff Pick",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
       "kindle-paperwhite-6",
@@ -6656,7 +6828,9 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
       "kindle-paperwhite-6-signature-edition",
@@ -6743,13 +6917,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
       "kindle-11",
-      "kindle-voyage",
-      "kindle-paperwhite",
-      "kindle-colorsoft-signature-edition"
+      "kindle-colorsoft-signature-edition",
+      "kindle-paperwhite-6",
+      "kindle-oasis-2"
     ],
     "pros": [
       {
@@ -6828,13 +7004,17 @@
     "ratingCategory": "staffPick",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "Staff Pick",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "kobo-clara-colour",
-      "kobo-clara-bw",
-      "vivlio-light-hd-color",
-      "tolino-vision-color"
+      "tolino-vision-color",
+      "boox-go-color-7-gen-ii",
+      "kobo-clara-bw"
     ],
     "pros": [
       {
@@ -6921,13 +7101,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
-      "kobo-libra-colour",
-      "kobo-clara-bw",
       "vivlio-light-hd-color",
-      "meebook-m6c"
+      "meebook-m6c",
+      "tolino-shine-color",
+      "pocketbook-verse-pro-color"
     ],
     "pros": [
       {
@@ -7009,13 +7191,16 @@
     "ratingCategory": "staffPick",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "Staff Pick",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
+      "kobo-libra-2",
       "kobo-clara-2e",
-      "kobo-nia",
-      "kobo-glo-hd",
-      "kobo-clara-hd"
+      "kindle-paperwhite-6-signature-edition",
+      "kobo-clara-colour"
     ],
     "pros": [
       {
@@ -7093,13 +7278,16 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
-      "meebook-m6c",
-      "boox-go-color-7",
       "meebook-m8",
-      "bigme-guoyue-v6-color"
+      "bigme-guoyue-v6-color",
+      "bigme-s6-color-lite",
+      "mobiscribe-wave-color-3"
     ],
     "pros": [
       {
@@ -7186,13 +7374,16 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "meebook-p78-pro",
-      "meebook-m7",
       "meebook-m8c",
-      "meebook-p6"
+      "meebook-m103",
+      "meebook-p10-pro"
     ],
     "pros": [
       {
@@ -7276,13 +7467,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
-      "meebook-m8c",
       "boox-go-color-7",
-      "boox-go-color-7-gen-ii",
-      "bigme-b751c"
+      "boox-poke-2-color",
+      "bigme-b6",
+      "obook-6"
     ],
     "pros": [
       {
@@ -7366,13 +7559,16 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "meebook-p10-pro",
       "boox-go-103",
-      "meebook-m7",
-      "meebook-m8"
+      "meebook-m8",
+      "meebook-p78-pro"
     ],
     "pros": [
       {
@@ -7459,13 +7655,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Phone Replacement"
     ],
     "similar": [
-      "boox-palma",
       "durobo-krono",
       "viwoods-aipaper-reader",
-      "boox-go-103"
+      "boox-palma",
+      "bigme-hibreak-s-bw"
     ],
     "pros": [
       {
@@ -7546,7 +7744,11 @@
     "ratingCategory": "staffPick",
     "categories": [
       "High-End",
-      "Medium"
+      "Medium",
+      "Staff Pick",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "boox-note-air-3-c",
@@ -7648,13 +7850,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
-      "boox-go-6-gen-ii",
-      "boox-go-7",
       "boox-poke-2",
-      "boox-poke-4-lite"
+      "boox-poke-4-lite",
+      "boox-poke-5",
+      "bemi-cognita-tab-6"
     ],
     "pros": [
       {
@@ -7732,13 +7936,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
-      "boox-go-color-7-gen-ii",
-      "bigme-b751c",
-      "bigme-b751c-s",
-      "boox-poke-2-color"
+      "boox-poke-2-color",
+      "meebook-m6c",
+      "bigme-b6",
+      "musnap-neo-c"
     ],
     "pros": [
       {
@@ -7824,13 +8030,16 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
-      "boox-page",
       "meebook-m103",
-      "boox-go-6",
-      "boox-go-6-gen-ii"
+      "boox-go-6-gen-ii",
+      "bigme-b1051-lite",
+      "boox-go-7"
     ],
     "pros": [
       {
@@ -7924,13 +8133,17 @@
     "ratingCategory": "staffPick",
     "categories": [
       "High-End",
-      "Large"
+      "Large",
+      "Staff Pick",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "boox-note-max",
-      "dasung-not-ereader-133",
       "ratta-supernote-a5-x",
-      "boox-tab-x"
+      "boox-tab-x",
+      "geniatech-kloudnote"
     ],
     "pros": [
       {
@@ -8020,13 +8233,16 @@
     "sizeCategory": "Medium",
     "categories": [
       "High-End",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "pocketbook-inkpad-eo",
-      "boox-note-air-4-c",
       "boox-tab-ultra-c",
-      "bigme-b1051c-lite"
+      "bigme-b1051c-lite",
+      "bigme-b1051c"
     ],
     "pros": [
       {
@@ -8119,13 +8335,16 @@
     "sizeCategory": "Medium",
     "categories": [
       "High-End",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "pocketbook-color-note",
       "boox-tab-ultra-c",
-      "boox-note-air-4-c",
-      "bigme-b1051c-lite"
+      "bigme-b1051c-lite",
+      "bigme-b1051c"
     ],
     "pros": [
       {
@@ -8218,7 +8437,9 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
       "pocketbook-verse-pro-color",
@@ -8308,7 +8529,9 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
       "pocketbook-era-color",
@@ -8398,13 +8621,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Phone Replacement"
     ],
     "similar": [
       "bigme-hibreak-bw",
       "bigme-hibreak-s-color",
-      "bigme-s6-color-lite",
-      "bigme-hibreak-pro-color"
+      "bigme-hibreak-pro-color",
+      "bigme-hibreak-s-bw"
     ],
     "pros": [
       {
@@ -8484,13 +8709,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Phone Replacement"
     ],
     "similar": [
       "bigme-hibreak-color",
       "bigme-hibreak-s-bw",
       "bigme-hibreak-s-color",
-      "bigme-hibreak-dual-bw"
+      "moaan-inkpalm-plus"
     ],
     "pros": [
       {
@@ -8567,7 +8794,10 @@
     "sizeCategory": "Medium",
     "categories": [
       "High-End",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "bigme-b1051c-lite",
@@ -8666,7 +8896,10 @@
     "sizeCategory": "Medium",
     "categories": [
       "High-End",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "bigme-b1051c-lite",
@@ -8768,7 +9001,10 @@
     "sizeCategory": "Medium",
     "categories": [
       "High-End",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "bigme-b1051c-lite",
@@ -8870,7 +9106,10 @@
     "sizeCategory": "Medium",
     "categories": [
       "High-End",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "bigme-b1051c",
@@ -8972,7 +9211,10 @@
     "sizeCategory": "Medium",
     "categories": [
       "High-End",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "bigme-b1051c-lite",
@@ -9071,12 +9313,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "bigme-inknote-s",
       "bigme-b751",
-      "bigme-b6-bw",
+      "bigme-s6",
       "boox-go-103"
     ],
     "pros": [
@@ -9167,7 +9412,10 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "bigme-b751c-s",
@@ -9259,13 +9507,16 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "bigme-b751c",
       "bigme-b1051-lite",
-      "bigme-b6-bw",
-      "bigme-s6"
+      "bigme-s6",
+      "bigme-b751c-s"
     ],
     "pros": [
       {
@@ -9348,7 +9599,10 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "mobiscribe-wave-color",
@@ -9441,7 +9695,10 @@
     "sizeCategory": "Large",
     "categories": [
       "High-End",
-      "Large"
+      "Large",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "geniatech-kloudnote",
@@ -9537,13 +9794,16 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "harborinno-paper-7-lite",
       "harborinno-paper-7",
       "bigme-b1051-lite",
-      "paperslate"
+      "bigme-b751"
     ],
     "pros": [
       {
@@ -9639,13 +9899,16 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "tolino-shine-color",
-      "vivlio-light-hd-color",
-      "vivlio-inkpad-color-3",
-      "pocketbook-era-color"
+      "bigme-b751c",
+      "kobo-libra-colour",
+      "boox-go-color-7-gen-ii"
     ],
     "pros": [
       {
@@ -9732,12 +9995,14 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
-      "tolino-vision-color",
       "vivlio-light-hd-color",
       "tolino-shine-5",
+      "tolino-vision-color",
       "vivlio-inkpad-color-3"
     ],
     "pros": [
@@ -9819,13 +10084,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
       "tolino-shine-color",
-      "vivlio-light",
-      "vivlio-light-zen",
-      "tolino-vision-color"
+      "pocketbook-era-lite",
+      "vivlio-light-hd",
+      "vivlio-inkpad-4"
     ],
     "pros": [
       {
@@ -9903,7 +10170,10 @@
     "sizeCategory": "Medium",
     "categories": [
       "High-End",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "viwoods-aipaper-mini",
@@ -10002,7 +10272,10 @@
     "sizeCategory": "Medium",
     "categories": [
       "High-End",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "viwoods-aipaper",
@@ -10092,13 +10365,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
       "vivlio-light-hd-color",
-      "tolino-vision-color",
       "tolino-shine-color",
-      "pocketbook-verse-pro-color"
+      "pocketbook-verse-pro-color",
+      "pocketbook-era-color"
     ],
     "pros": [
       {
@@ -10182,13 +10457,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
       "vivlio-inkpad-color-3",
       "tolino-shine-color",
       "pocketbook-verse-pro-color",
-      "tolino-vision-color"
+      "pocketbook-era-color"
     ],
     "pros": [
       {
@@ -10272,13 +10549,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking"
     ],
     "similar": [
       "penstar-enote-2",
       "boox-go-103",
-      "lenovo-smart-paper",
-      "bigme-b1051-lite"
+      "mobiscribe-the-origin",
+      "lenovo-smart-paper"
     ],
     "pros": [
       {
@@ -10371,13 +10650,16 @@
     "sizeCategory": "Medium",
     "categories": [
       "High-End",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "iflytek-ainote-2",
       "huion-ink-eb1010",
-      "viwoods-aipaper-mini",
-      "bigme-inknote"
+      "bigme-inknote",
+      "paperslate-pro"
     ],
     "pros": [
       {
@@ -10460,7 +10742,10 @@
     "sizeCategory": "Medium",
     "categories": [
       "High-End",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "huion-ink-eb1010",
@@ -10559,13 +10844,16 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "bigme-b1051-lite",
       "bigme-b751",
-      "bemi-cognita-tab-8-pro",
-      "nook-1st-edition"
+      "bigme-inknote-s",
+      "bigme-s6"
     ],
     "pros": [
       {
@@ -10658,13 +10946,14 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading"
     ],
     "similar": [
       "spc-dickens-light-2-pro",
       "spc-dickens-light-pro",
-      "tolino-shine-5",
-      "kobo-glo-hd"
+      "kobo-glo-hd",
+      "kobo-nia"
     ],
     "pros": [
       {
@@ -10742,13 +11031,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
       "bemi-cognita-tab-8",
       "bemi-cognita-tab-6-plus",
       "bemi-cognita-tab-6",
-      "meebook-m8"
+      "inkbook-focus"
     ],
     "pros": [
       {
@@ -10828,13 +11119,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
       "bemi-cognita-tab-8-pro",
       "bemi-cognita-tab-6-plus",
-      "boox-nova-3",
-      "boox-nova-air-2"
+      "bemi-cognita-tab-6",
+      "inkbook-focus-plus"
     ],
     "pros": [
       {
@@ -10915,13 +11208,14 @@
     "sizeCategory": "Medium",
     "categories": [
       "Budget",
-      "Medium"
+      "Medium",
+      "For Reading"
     ],
     "similar": [
-      "veidoo-e5",
-      "bigme-read",
       "nook-simple-touch",
-      "bemi-cognita-light-2"
+      "bemi-cognita-light-2",
+      "spc-dickens-light-2",
+      "bemi-cognita-x"
     ],
     "pros": [
       {
@@ -10999,13 +11293,14 @@
     "sizeCategory": "Compact",
     "categories": [
       "Budget",
-      "Compact"
+      "Compact",
+      "For Reading"
     ],
     "similar": [
-      "famue-bf07",
       "xteink-x3",
-      "m5stack-papers3",
-      "xteink-x4"
+      "famue-bf07",
+      "xteink-x4",
+      "m5stack-papers3"
     ],
     "pros": [
       {
@@ -11092,7 +11387,10 @@
     "sizeCategory": "Medium",
     "categories": [
       "High-End",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "boox-note-air-2-plus",
@@ -11188,7 +11486,10 @@
     "sizeCategory": "Medium",
     "categories": [
       "High-End",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "kobo-elipsa",
@@ -11281,13 +11582,16 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
-      "penstar-enote",
-      "boox-poke-5",
-      "boox-poke-4-lite",
-      "bookeen-nota"
+      "bookeen-nota",
+      "bigme-inknote-s",
+      "meebook-p10-pro",
+      "boox-go-103"
     ],
     "pros": [
       {
@@ -11377,13 +11681,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
       "meebook-p6",
-      "nook-glowlight-4",
-      "nook-glowlight-4e",
-      "meebook-m7"
+      "meebook-m7",
+      "boox-poke-5",
+      "boox-poke-2"
     ],
     "pros": [
       {
@@ -11464,13 +11770,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
-      "meebook-m8",
-      "boox-page",
       "meebook-m6",
-      "meebook-m103"
+      "meebook-p6",
+      "boox-page",
+      "nook-glowlight-4-plus"
     ],
     "pros": [
       {
@@ -11550,13 +11858,16 @@
     "sizeCategory": "Medium",
     "categories": [
       "High-End",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "boox-note-air-3-c",
-      "boox-note-air-4-c",
       "boox-note-air-5-c",
-      "boox-tab-ultra-c"
+      "boox-tab-ultra-c",
+      "boox-note-air-4-c"
     ],
     "pros": [
       {
@@ -11649,13 +11960,16 @@
     "sizeCategory": "Medium",
     "categories": [
       "High-End",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "boox-tab-ultra-c-pro",
-      "boox-note-air-4-c",
       "boox-note-air-5-c",
-      "boox-tab-ultra-c"
+      "boox-tab-ultra-c",
+      "boox-note-air-4-c"
     ],
     "pros": [
       {
@@ -11751,7 +12065,10 @@
     "sizeCategory": "Medium",
     "categories": [
       "High-End",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "boox-go-103-gen-ii",
@@ -11848,13 +12165,16 @@
     "ratingCategory": "staffPick",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "Staff Pick",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
-      "boox-go-103",
-      "boox-go-7",
-      "boox-go-6-gen-ii",
-      "meebook-m7"
+      "meebook-m7",
+      "boox-poke-2",
+      "boox-poke-5",
+      "boox-go-6"
     ],
     "pros": [
       {
@@ -11938,13 +12258,16 @@
     "ratingCategory": "staffPick",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "Staff Pick",
+      "For Reading",
+      "Phone Replacement"
     ],
     "similar": [
       "boox-palma-2",
       "durobo-krono",
-      "boox-page",
-      "viwoods-aipaper-reader"
+      "viwoods-aipaper-reader",
+      "hisense-a5-pro"
     ],
     "pros": [
       {
@@ -12024,7 +12347,10 @@
     "sizeCategory": "Medium",
     "categories": [
       "High-End",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "boox-nova-3-color",
@@ -12117,7 +12443,9 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
       "boox-poke-4-lite",
@@ -12201,13 +12529,16 @@
     "sizeCategory": "Medium",
     "categories": [
       "High-End",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "boox-note-air-3-c",
       "boox-tab-ultra-c-pro",
-      "boox-note-air-4-c",
-      "boox-note-air-5-c"
+      "boox-note-air-5-c",
+      "bigme-guoyue-k3-color"
     ],
     "pros": [
       {
@@ -12300,13 +12631,16 @@
     "sizeCategory": "Large",
     "categories": [
       "High-End",
-      "Large"
+      "Large",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
-      "dasung-not-ereader-133",
       "boox-note-max",
       "boox-max-lumi",
-      "boox-max-lumi-2"
+      "boox-max-lumi-2",
+      "boox-tab-x-c"
     ],
     "pros": [
       {
@@ -12396,13 +12730,16 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "ratta-supernote-a6-x",
-      "vivlio-inkpad-4",
-      "pocketbook-inkpad-4",
-      "bemi-cognita-tab-8"
+      "kobo-sage",
+      "boox-nova-3",
+      "boox-nova-air-2"
     ],
     "pros": [
       {
@@ -12486,13 +12823,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
-      "bigme-s6",
       "nook-glowlight-plus-78",
-      "nook-1st-edition",
-      "mobiscribe-wave-bw"
+      "obook-6",
+      "meebook-m7",
+      "meebook-m6"
     ],
     "pros": [
       {
@@ -12573,13 +12912,14 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading"
     ],
     "similar": [
       "pocketbook-touch-lux-5",
       "pocketbook-verse",
-      "pocketbook-verse-pro",
-      "pocketbook-basic-lux-3"
+      "pocketbook-basic-lux-3",
+      "pocketbook-verse-lite"
     ],
     "pros": [
       {
@@ -12657,13 +12997,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
-      "pocketbook-verse",
-      "pocketbook-basic-lux-4",
-      "pocketbook-touch-lux-5",
-      "pocketbook-basic-lux-3"
+      "pocketbook-inkpad-4",
+      "pocketbook-era",
+      "pocketbook-era-lite",
+      "vivlio-light-hd"
     ],
     "pros": [
       {
@@ -12741,13 +13083,14 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading"
     ],
     "similar": [
-      "pocketbook-verse-pro",
       "pocketbook-basic-lux-4",
       "pocketbook-touch-lux-5",
-      "pocketbook-basic-lux-3"
+      "pocketbook-basic-lux-3",
+      "pocketbook-verse-lite"
     ],
     "pros": [
       {
@@ -12825,7 +13168,9 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
       "pocketbook-inkpad-color-2",
@@ -12915,7 +13260,9 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
       "pocketbook-inkpad-color",
@@ -13005,13 +13352,16 @@
     "sizeCategory": "Medium",
     "categories": [
       "High-End",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "boox-note-3",
       "boox-note-5",
-      "pocketbook-color-note",
-      "boox-note-air"
+      "boox-note-air",
+      "pocketbook-color-note"
     ],
     "pros": [
       {
@@ -13098,13 +13448,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
       "pocketbook-era",
-      "pocketbook-basic-lux-3",
-      "pocketbook-verse",
-      "pocketbook-basic-lux-4"
+      "pocketbook-era-lite",
+      "pocketbook-verse-pro",
+      "vivlio-inkpad-4"
     ],
     "pros": [
       {
@@ -13185,7 +13537,10 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "bigme-guoyue-v6-color",
@@ -13277,7 +13632,10 @@
     "sizeCategory": "Medium",
     "categories": [
       "High-End",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "bigme-guoyue-k3-color",
@@ -13369,13 +13727,16 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "bigme-guoyue-v6-color",
       "bigme-s6-color-lite",
       "bigme-inknote-s",
-      "nook-glowlight-4-plus"
+      "bigme-b751"
     ],
     "pros": [
       {
@@ -13458,7 +13819,10 @@
     "sizeCategory": "Medium",
     "categories": [
       "High-End",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "bigme-guoyue-k3-color",
@@ -13554,7 +13918,10 @@
     "sizeCategory": "Medium",
     "categories": [
       "High-End",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "bigme-guoyue-k3-color",
@@ -13653,7 +14020,10 @@
     "sizeCategory": "Medium",
     "categories": [
       "High-End",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "bigme-inknote-color",
@@ -13743,13 +14113,16 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "bigme-b1051-lite",
-      "bigme-b6-bw",
       "bigme-s6",
-      "bookeen-nota"
+      "bookeen-nota",
+      "bigme-b751"
     ],
     "pros": [
       {
@@ -13833,13 +14206,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Budget",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
       "veidoo-e5",
-      "bemi-cognita-tab-5",
-      "nook-simple-touch",
-      "bemi-cognita-light-2"
+      "meebook-m6",
+      "bigme-b6-bw",
+      "boox-poke-5"
     ],
     "pros": [
       {
@@ -13917,7 +14292,10 @@
     "sizeCategory": "Medium",
     "categories": [
       "High-End",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "bigme-inknote-color",
@@ -14016,7 +14394,10 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "bigme-s6-color-lite",
@@ -14109,7 +14490,10 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "mobiscribe-wave-bw",
@@ -14205,13 +14589,16 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "mobiscribe-wave-color",
-      "mobiscribe-the-origin",
       "mobiscribe-wave-color-3",
-      "bigme-s6"
+      "bigme-s6",
+      "bigme-guoyue-v6-color"
     ],
     "pros": [
       {
@@ -14301,13 +14688,15 @@
     "sizeCategory": "Large",
     "categories": [
       "High-End",
-      "Large"
+      "Large",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
       "boox-tab-x",
       "boox-note-max",
       "boox-max-lumi",
-      "boox-max-lumi-2"
+      "boox-tab-x-c"
     ],
     "pros": [
       {
@@ -14391,7 +14780,8 @@
     "sizeCategory": "Medium",
     "categories": [
       "High-End",
-      "Medium"
+      "Medium",
+      "For Reading"
     ],
     "similar": [
       "hisense-hi-reader-pro",
@@ -14472,13 +14862,14 @@
     "sizeCategory": "Medium",
     "categories": [
       "High-End",
-      "Medium"
+      "Medium",
+      "For Reading"
     ],
     "similar": [
       "hisense-hi-reader",
       "hisense-a7",
       "hisense-a9",
-      "hisense-a7-cc"
+      "bigme-hibreak-pro"
     ],
     "pros": [
       {
@@ -14556,13 +14947,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "High-End",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Phone Replacement"
     ],
     "similar": [
       "hisense-a7",
       "hisense-a5-pro-cc",
-      "hisense-hi-reader",
-      "bigme-hibreak-dual-color"
+      "hisense-a9",
+      "bigme-hibreak-pro"
     ],
     "pros": [
       {
@@ -14645,13 +15038,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "High-End",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Phone Replacement"
     ],
     "similar": [
-      "hisense-hi-reader",
-      "hisense-hi-reader-pro",
       "hisense-a7-cc",
-      "hisense-a9"
+      "hisense-a9",
+      "bigme-hibreak-pro",
+      "hisense-a5-pro-cc"
     ],
     "pros": [
       {
@@ -14731,13 +15126,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Phone Replacement"
     ],
     "similar": [
       "moaan-inkpalm-5-mini-gen-2",
-      "bigme-inknote-s",
-      "veidoo-e8",
-      "nook-glowlight-4-plus"
+      "moaan-inkpalm-plus",
+      "bigme-hibreak-bw",
+      "bigme-hibreak-s-bw"
     ],
     "pros": [
       {
@@ -14812,12 +15209,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "High-End",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
-      "bigme-inknote-color-lite",
       "bigme-inknote",
       "huion-ink-eb1010",
+      "bigme-inknote-color-lite",
       "boox-note-air-2-plus"
     ],
     "pros": [
@@ -14911,13 +15311,16 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "bigme-inknote-s",
       "geniatech-kloudnote-slim",
       "huion-ink-eb1011",
-      "nook-glowlight-4-plus"
+      "bigme-b1051-lite"
     ],
     "pros": [
       {
@@ -15004,13 +15407,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
-      "vivlio-light",
       "vivlio-light-hd",
       "pocketbook-inkpad-4",
-      "vivlio-light-zen"
+      "vivlio-inkpad-color-3",
+      "tolino-shine-5"
     ],
     "pros": [
       {
@@ -15091,13 +15496,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
-      "vivlio-light",
-      "vivlio-light-zen",
       "vivlio-inkpad-4",
-      "pocketbook-verse-pro"
+      "pocketbook-verse-pro",
+      "tolino-shine-5",
+      "vivlio-light-hd-color"
     ],
     "pros": [
       {
@@ -15175,13 +15582,14 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading"
     ],
     "similar": [
-      "vivlio-light-hd",
       "vivlio-light-zen",
-      "vivlio-inkpad-4",
-      "pocketbook-verse"
+      "vivlio-light-hd",
+      "pocketbook-verse",
+      "pocketbook-basic-lux-4"
     ],
     "pros": [
       {
@@ -15259,13 +15667,16 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "geniatech-kloudnote-s",
-      "geniatech-kloudnote-mini",
       "bookeen-nota",
-      "bigme-inknote-s"
+      "bigme-inknote-s",
+      "huion-ink-eb1011"
     ],
     "pros": [
       {
@@ -15355,13 +15766,16 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "geniatech-kloudnote-slim",
-      "geniatech-kloudnote-mini",
-      "nook-glowlight-4-plus",
-      "bookeen-nota"
+      "bookeen-nota",
+      "bigme-inknote-s",
+      "huion-ink-eb1011"
     ],
     "pros": [
       {
@@ -15454,13 +15868,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking"
     ],
     "similar": [
       "geniatech-kloudnote-s",
       "geniatech-kloudnote-slim",
-      "moaan-inkpalm-5-mini-pro",
-      "nook-glowlight-4-plus"
+      "penstar-enote",
+      "penstar-enote-2"
     ],
     "pros": [
       {
@@ -15553,13 +15969,14 @@
     "sizeCategory": "Medium",
     "categories": [
       "Budget",
-      "Medium"
+      "Medium",
+      "Phone Replacement"
     ],
     "similar": [
       "woxter-scriba-195-paperlight",
       "woxter-scriba-195-paperlight-tp",
       "bemi-cognita-x",
-      "bemi-cognita-light-2"
+      "famue-bf07"
     ],
     "pros": [
       {
@@ -15649,7 +16066,8 @@
     "sizeCategory": "Medium",
     "categories": [
       "Budget",
-      "Medium"
+      "Medium",
+      "For Reading"
     ],
     "similar": [
       "bemi-cognita-light-2",
@@ -15736,7 +16154,8 @@
     "sizeCategory": "Medium",
     "categories": [
       "Budget",
-      "Medium"
+      "Medium",
+      "For Reading"
     ],
     "similar": [
       "bemi-cognita-x",
@@ -15826,13 +16245,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Budget",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
-      "bemi-cognita-tab-5",
       "bigme-read",
-      "nook-simple-touch",
-      "bemi-cognita-light-2"
+      "nook-glowlight-4-plus",
+      "kindle-8",
+      "boox-poke-5"
     ],
     "pros": [
       {
@@ -15910,13 +16331,16 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "kindle-11",
+      "kobo-sage",
       "kindle-paperwhite-5",
-      "kindle-paperwhite-5-signature-edition",
-      "kindle-paperwhite-6"
+      "kindle-paperwhite-5-signature-edition"
     ],
     "pros": [
       {
@@ -16000,13 +16424,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
-      "kindle-voyage",
       "kindle-2024",
       "kindle-oasis-2",
-      "kindle-paperwhite-6"
+      "kindle-paperwhite-6",
+      "kindle-paperwhite-4"
     ],
     "pros": [
       {
@@ -16087,13 +16513,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
-      "kobo-nia",
       "kobo-clara-bw",
-      "kobo-aura-edition-2",
-      "kobo-libra-2"
+      "kobo-libra-2",
+      "kobo-clara-colour",
+      "kobo-sage"
     ],
     "pros": [
       {
@@ -16171,13 +16599,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
       "meebook-m6",
-      "nook-glowlight-4e",
-      "meebook-p78-pro",
-      "boox-poke-4-lite"
+      "boox-poke-4-lite",
+      "meebook-m7",
+      "boox-poke-5"
     ],
     "pros": [
       {
@@ -16255,13 +16685,16 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "meebook-m8",
       "meebook-p10-pro",
-      "meebook-p6",
-      "meebook-m6"
+      "boox-nova-air-2",
+      "meebook-m103"
     ],
     "pros": [
       {
@@ -16345,13 +16778,16 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "meebook-p78-pro",
       "meebook-m103",
-      "meebook-p6",
-      "meebook-m6"
+      "meebook-m8",
+      "boox-go-103"
     ],
     "pros": [
       {
@@ -16441,7 +16877,10 @@
     "sizeCategory": "Medium",
     "categories": [
       "High-End",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "boox-note-air-2",
@@ -16534,7 +16973,10 @@
     "sizeCategory": "Medium",
     "categories": [
       "High-End",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "boox-tab-ultra",
@@ -16630,13 +17072,16 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "boox-nova-3",
-      "boox-leaf-2",
       "boox-nova-2",
-      "boox-nova-air"
+      "boox-nova-air",
+      "meebook-p78-pro"
     ],
     "pros": [
       {
@@ -16723,13 +17168,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
-      "boox-nova-air-2",
       "boox-leaf",
-      "boox-nova-3",
-      "boox-poke-3"
+      "boox-poke-3",
+      "boox-poke-5",
+      "boox-poke-4-lite"
     ],
     "pros": [
       {
@@ -16812,7 +17259,9 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
       "boox-poke-5",
@@ -16896,7 +17345,10 @@
     "sizeCategory": "Medium",
     "categories": [
       "High-End",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "boox-nova-3-color",
@@ -16992,13 +17444,14 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading"
     ],
     "similar": [
-      "meebook-p6",
       "nook-glowlight-4",
-      "boox-poke-4-lite",
-      "meebook-m6"
+      "nook-glowlight-plus",
+      "nook-glowlight-3",
+      "nook-simple-touch-glowlight"
     ],
     "pros": [
       {
@@ -17076,7 +17529,8 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading"
     ],
     "similar": [
       "pocketbook-touch-lux-5",
@@ -17160,13 +17614,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
-      "pocketbook-touch-lux-5",
       "pocketbook-era-lite",
-      "pocketbook-basic-lux-3",
-      "pocketbook-basic-lux-4"
+      "pocketbook-inkpad-4",
+      "pocketbook-verse-pro",
+      "pocketbook-color"
     ],
     "pros": [
       {
@@ -17241,13 +17697,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "High-End",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Phone Replacement"
     ],
     "similar": [
-      "hisense-hi-reader-pro",
       "hisense-a7",
       "bigme-hibreak-pro",
-      "hisense-hi-reader"
+      "hisense-a5-pro-cc",
+      "hisense-a7-cc"
     ],
     "pros": [
       {
@@ -17324,13 +17782,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Phone Replacement"
     ],
     "similar": [
       "moaan-inkpalm-5-mini-pro",
       "moaan-inkpalm-plus",
-      "veidoo-e8",
-      "bigme-b6-bw"
+      "bigme-hibreak-bw",
+      "bigme-hibreak-s-bw"
     ],
     "pros": [
       {
@@ -17405,13 +17865,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Phone Replacement"
     ],
     "similar": [
       "hisense-a5-pro",
       "bigme-hibreak-bw",
-      "boox-poke-4-lite",
-      "meebook-p6"
+      "moaan-inkpalm-5-mini-gen-2",
+      "moaan-inkpalm-5-mini-pro"
     ],
     "pros": [
       {
@@ -17489,13 +17951,16 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
-      "boox-page",
-      "boox-poke-4-lite",
-      "meebook-m7",
-      "boox-go-103"
+      "boox-go-103",
+      "meebook-p78-pro",
+      "boox-go-7",
+      "boox-go-6-gen-ii"
     ],
     "pros": [
       {
@@ -17576,7 +18041,8 @@
     "sizeCategory": "Medium",
     "categories": [
       "High-End",
-      "Medium"
+      "Medium",
+      "For Note-taking"
     ],
     "similar": [
       "huion-ink-eb1010",
@@ -17669,7 +18135,9 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
       "inkbook-focus-plus",
@@ -17755,13 +18223,14 @@
     "sizeCategory": "Medium",
     "categories": [
       "Budget",
-      "Medium"
+      "Medium",
+      "For Reading"
     ],
     "similar": [
       "woxter-scriba-195-paperlight",
-      "woxter-scriba-195-s",
       "spc-dickens-light-2",
-      "bemi-cognita-x"
+      "bemi-cognita-x",
+      "bemi-cognita-light-2"
     ],
     "pros": [
       {
@@ -17842,13 +18311,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
       "kindle-paperwhite-5",
       "kindle-11",
-      "kindle-scribe",
-      "kindle-paperwhite-6"
+      "kindle-paperwhite-6",
+      "kindle-oasis-2"
     ],
     "pros": [
       {
@@ -17923,13 +18394,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
       "kindle-paperwhite-5-signature-edition",
       "kindle-11",
-      "kindle-scribe",
-      "kindle-paperwhite-6"
+      "kindle-paperwhite-6",
+      "kindle-oasis-2"
     ],
     "pros": [
       {
@@ -18007,13 +18480,16 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "kobo-libra-2",
-      "kobo-aura-h2o",
-      "kobo-clara-2e",
-      "kobo-nia"
+      "kindle-scribe",
+      "tolino-epos-3",
+      "kobo-clara-2e"
     ],
     "pros": [
       {
@@ -18095,13 +18571,16 @@
     "ratingCategory": "staffPick",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "Staff Pick",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
-      "kobo-sage",
+      "kobo-clara-bw",
       "kobo-clara-2e",
-      "kobo-nia",
-      "kobo-aura-h2o"
+      "kobo-sage",
+      "kindle-paperwhite-6-signature-edition"
     ],
     "pros": [
       {
@@ -18179,7 +18658,10 @@
     "sizeCategory": "Medium",
     "categories": [
       "High-End",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "kobo-elipsa-2e",
@@ -18272,13 +18754,16 @@
     "sizeCategory": "Large",
     "categories": [
       "High-End",
-      "Large"
+      "Large",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "boox-max-lumi",
       "boox-note-max",
       "boox-tab-x",
-      "boox-note-5"
+      "boox-tab-x-c"
     ],
     "pros": [
       {
@@ -18368,13 +18853,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
       "boox-poke-3",
       "boox-leaf-2",
-      "boox-nova-air",
-      "boox-nova-3"
+      "boox-poke-5",
+      "boox-poke-2"
     ],
     "pros": [
       {
@@ -18458,7 +18945,10 @@
     "sizeCategory": "Medium",
     "categories": [
       "High-End",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "boox-tab-ultra",
@@ -18554,7 +19044,10 @@
     "sizeCategory": "Medium",
     "categories": [
       "High-End",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "boox-note-3",
@@ -18650,13 +19143,16 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "boox-nova-2",
       "boox-nova-3",
       "boox-nova-air-2",
-      "boox-leaf"
+      "boox-go-7"
     ],
     "pros": [
       {
@@ -18743,7 +19239,10 @@
     "sizeCategory": "Medium",
     "categories": [
       "High-End",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "boox-nova-air-c",
@@ -18836,13 +19335,16 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "ratta-supernote-a6-x2-nomad",
       "boox-nova-air",
-      "kobo-nia",
-      "kobo-aura-one"
+      "kobo-sage",
+      "boox-nova-2"
     ],
     "pros": [
       {
@@ -18926,13 +19428,14 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading"
     ],
     "similar": [
       "nook-glowlight-4e",
       "nook-glowlight-plus",
       "nook-glowlight-3",
-      "meebook-m6"
+      "nook-glowlight"
     ],
     "pros": [
       {
@@ -19010,13 +19513,16 @@
     "sizeCategory": "Medium",
     "categories": [
       "High-End",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
+      "bigme-inknote",
+      "huion-ink-eb1010",
       "bigme-b1051c-lite",
-      "bigme-b1051c",
-      "bigme-b1051c-pro",
-      "bigme-b10"
+      "bigme-b1051c"
     ],
     "pros": [
       {
@@ -19106,13 +19612,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
-      "musnap-ocean-c",
       "boox-go-color-7",
-      "bigme-b751c-s",
-      "bigme-b6"
+      "bigme-b6",
+      "boox-poke-2-color",
+      "musnap-neo-c"
     ],
     "pros": [
       {
@@ -19193,13 +19701,14 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading"
     ],
     "similar": [
       "pocketbook-verse",
-      "pocketbook-verse-pro",
       "pocketbook-touch-lux-5",
-      "pocketbook-basic-lux-3"
+      "pocketbook-basic-lux-3",
+      "pocketbook-basic-lux-4"
     ],
     "pros": [
       {
@@ -19286,7 +19795,9 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
       "pocketbook-inkpad-color-2",
@@ -19375,13 +19886,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking"
     ],
     "similar": [
       "mobiscribe-wave-bw",
-      "mobiscribe-wave-color",
-      "inkbook-focus",
-      "boox-nova-air"
+      "penstar-enote",
+      "penstar-enote-2",
+      "mobiscribe-wave-color"
     ],
     "pros": [
       {
@@ -19462,7 +19975,9 @@
     "sizeCategory": "Medium",
     "categories": [
       "High-End",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
       "boox-nova-3-color",
@@ -19548,13 +20063,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
       "inkbook-solaris",
       "inkbook-focus",
       "inkbook-focus-plus",
-      "nook-glowlight-4"
+      "boox-poke-2"
     ],
     "pros": [
       {
@@ -19635,7 +20152,10 @@
     "sizeCategory": "Large",
     "categories": [
       "High-End",
-      "Large"
+      "Large",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "boox-max-lumi-2",
@@ -19728,7 +20248,8 @@
     "sizeCategory": "Medium",
     "categories": [
       "Budget",
-      "Medium"
+      "Medium",
+      "For Reading"
     ],
     "similar": [
       "bemi-cognita-light-2",
@@ -19815,13 +20336,14 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading"
     ],
     "similar": [
       "spc-dickens-light-2-pro",
       "silvergear-e-reader",
-      "kindle-2024",
-      "kobo-libra-2"
+      "nook-glowlight-4",
+      "nook-glowlight"
     ],
     "pros": [
       {
@@ -19900,13 +20422,16 @@
     "ratingCategory": "staffPick",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "Staff Pick",
+      "For Reading",
+      "For Note-taking"
     ],
     "similar": [
       "remarkable-paper-pure",
-      "meebook-m103",
-      "kobo-nia",
-      "boox-go-103"
+      "penstar-enote",
+      "penstar-enote-2",
+      "meebook-m103"
     ],
     "pros": [
       {
@@ -19996,13 +20521,14 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading"
     ],
     "similar": [
-      "kobo-clara-2e",
       "kobo-glo-hd",
       "kobo-clara-hd",
-      "kobo-clara-bw"
+      "kobo-aura-edition-2",
+      "kobo-aura-h2o-edition-2"
     ],
     "pros": [
       {
@@ -20083,13 +20609,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
       "boox-leaf",
       "boox-poke-5",
       "boox-poke-2",
-      "boox-nova-3"
+      "boox-leaf-2"
     ],
     "pros": [
       {
@@ -20167,13 +20695,16 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "boox-nova-air-2",
       "boox-nova-2",
-      "boox-leaf-2",
-      "boox-nova-air"
+      "boox-nova-air",
+      "boox-go-103"
     ],
     "pros": [
       {
@@ -20257,7 +20788,10 @@
     "sizeCategory": "Medium",
     "categories": [
       "High-End",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "boox-note-5",
@@ -20350,7 +20884,10 @@
     "sizeCategory": "Medium",
     "categories": [
       "High-End",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "boox-note-air-2-plus",
@@ -20446,7 +20983,10 @@
     "sizeCategory": "Large",
     "categories": [
       "High-End",
-      "Large"
+      "Large",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "boox-max-lumi-2",
@@ -20542,13 +21082,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
       "boox-go-color-7",
-      "boox-go-color-7-gen-ii",
       "bigme-b6",
-      "bigme-b7"
+      "boox-poke-2",
+      "meebook-m6c"
     ],
     "pros": [
       {
@@ -20629,7 +21171,9 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
       "boox-poke-4-lite",
@@ -20713,13 +21257,16 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "boox-nova-3",
       "boox-nova-air",
       "boox-nova-air-2",
-      "boox-poke-3"
+      "boox-go-7"
     ],
     "pros": [
       {
@@ -20803,7 +21350,10 @@
     "sizeCategory": "Medium",
     "categories": [
       "High-End",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
     ],
     "similar": [
       "boox-note-3",
@@ -20896,7 +21446,8 @@
     "sizeCategory": "Medium",
     "categories": [
       "Budget",
-      "Medium"
+      "Medium",
+      "For Reading"
     ],
     "similar": [
       "pocketbook-touch-lux-5",
@@ -20989,7 +21540,8 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading"
     ],
     "similar": [
       "pocketbook-basic-lux-4",
@@ -21073,13 +21625,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
       "pocketbook-verse-pro-color",
-      "pocketbook-touch-lux-5",
       "pocketbook-era-color",
-      "pocketbook-basic-lux-4"
+      "pocketbook-inkpad-color-3",
+      "pocketbook-inkpad-color"
     ],
     "pros": [
       {
@@ -21159,13 +21713,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "High-End",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Phone Replacement"
     ],
     "similar": [
       "hisense-a7-cc",
-      "boox-tab-mini-c",
-      "bigme-hibreak-dual-color",
-      "boox-palma-2-pro"
+      "hisense-a9",
+      "hisense-a7",
+      "hisense-a5c"
     ],
     "pros": [
       {
@@ -21239,13 +21795,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Phone Replacement"
     ],
     "similar": [
       "hisense-a5c",
       "moaan-inkpalm-plus",
       "bigme-hibreak-bw",
-      "penstar-enote"
+      "bigme-hibreak-s-bw"
     ],
     "pros": [
       {
@@ -21316,13 +21874,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Phone Replacement"
     ],
     "similar": [
       "hisense-a5-pro",
       "bigme-hibreak-color",
       "bigme-hibreak-s-color",
-      "boox-poke-2-color"
+      "bigme-hibreak-bw"
     ],
     "pros": [
       {
@@ -21399,13 +21959,14 @@
     "sizeCategory": "Medium",
     "categories": [
       "Budget",
-      "Medium"
+      "Medium",
+      "For Reading"
     ],
     "similar": [
       "woxter-scriba-195-paperlight-tp",
-      "woxter-scriba-195-s",
       "spc-dickens-light-2",
-      "bemi-cognita-x"
+      "bemi-cognita-x",
+      "bemi-cognita-light-2"
     ],
     "pros": [
       {
@@ -21486,13 +22047,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
       "kindle-10",
       "kindle-oasis-2",
-      "kindle-paperwhite-2",
-      "kindle-oasis"
+      "kindle-oasis",
+      "kindle-paperwhite-6"
     ],
     "pros": [
       {
@@ -21570,13 +22133,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
       "kindle-oasis",
       "kindle-oasis-3",
-      "kindle-paperwhite-2",
-      "kindle-paperwhite-3"
+      "kindle-paperwhite-4",
+      "kindle-oasis-2"
     ],
     "pros": [
       {
@@ -21657,7 +22222,8 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading"
     ],
     "similar": [
       "kobo-aura-one",
@@ -21741,13 +22307,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
       "nook-glowlight-4-plus",
-      "meebook-p78-pro",
-      "meebook-m8",
-      "nook-glowlight-plus"
+      "boox-poke-4-lite",
+      "inkbook-focus",
+      "meebook-p6"
     ],
     "pros": [
       {
@@ -21822,13 +22390,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
-      "kindle-voyage",
-      "kindle-paperwhite-3",
-      "kindle-paperwhite-2",
-      "kindle-oasis"
+      "kindle-oasis",
+      "kindle-11",
+      "kindle-oasis-2",
+      "kindle-10"
     ],
     "pros": [
       {
@@ -21903,13 +22473,14 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading"
     ],
     "similar": [
       "kobo-aura-h2o",
-      "kobo-sage",
       "kobo-clara-hd",
-      "kobo-aura-h2o-edition-2"
+      "kobo-aura-h2o-edition-2",
+      "kobo-aura-edition-2"
     ],
     "pros": [
       {
@@ -21987,7 +22558,8 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading"
     ],
     "similar": [
       "kobo-glo-hd",
@@ -22068,13 +22640,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
       "kindle-paperwhite-6",
-      "kindle-paperwhite-6-signature-edition",
-      "kindle-voyage",
-      "kindle-oasis-3"
+      "kindle-oasis-3",
+      "kindle-11",
+      "kindle-paperwhite-4"
     ],
     "pros": [
       {
@@ -22152,7 +22726,8 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading"
     ],
     "similar": [
       "kobo-glo-hd",
@@ -22233,7 +22808,8 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading"
     ],
     "similar": [
       "nook-glowlight-plus",
@@ -22317,13 +22893,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Budget",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
       "kindle-5",
       "kindle-7",
-      "kobo-touch-20",
-      "nook-simple-touch"
+      "kindle-oasis",
+      "kindle-10"
     ],
     "pros": [
       {
@@ -22404,13 +22982,15 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading",
+      "Kindle Alternative"
     ],
     "similar": [
       "kindle-10",
-      "kindle-paperwhite-2",
-      "kindle-paperwhite-3",
-      "kindle-voyage"
+      "kindle-paperwhite-4",
+      "kindle-oasis-3",
+      "kindle-11"
     ],
     "pros": [
       {
@@ -22488,7 +23068,8 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading"
     ],
     "similar": [
       "kobo-aura-edition-2",
@@ -22572,7 +23153,8 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading"
     ],
     "similar": [
       "kobo-aura-one",
@@ -22653,13 +23235,14 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading"
     ],
     "similar": [
       "kindle-voyage",
-      "kindle-paperwhite-4",
       "kindle-paperwhite-2",
-      "kindle-oasis"
+      "kindle-paperwhite",
+      "kindle-2"
     ],
     "pros": [
       {
@@ -22737,13 +23320,14 @@
     "sizeCategory": "Medium",
     "categories": [
       "Budget",
-      "Medium"
+      "Medium",
+      "For Reading"
     ],
     "similar": [
       "kobo-mini",
       "kindle-5",
-      "kindle-8",
-      "nook-simple-touch"
+      "nook-simple-touch",
+      "kindle-7"
     ],
     "pros": [
       {
@@ -22824,7 +23408,8 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading"
     ],
     "similar": [
       "kobo-clara-hd",
@@ -22908,13 +23493,14 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading"
     ],
     "similar": [
       "nook-glowlight-3",
       "nook-glowlight-4",
       "nook-glowlight",
-      "bemi-cognita-tab-6-plus"
+      "nook-glowlight-4e"
     ],
     "pros": [
       {
@@ -22992,13 +23578,14 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading"
     ],
     "similar": [
-      "kindle-paperwhite-4",
-      "kindle-11",
       "kindle-paperwhite-3",
-      "kindle-oasis-2"
+      "kindle-paperwhite-2",
+      "kindle-paperwhite",
+      "kindle-1"
     ],
     "pros": [
       {
@@ -23076,7 +23663,8 @@
     "sizeCategory": "Medium",
     "categories": [
       "Budget",
-      "Medium"
+      "Medium",
+      "For Reading"
     ],
     "similar": [
       "kindle-5",
@@ -23163,13 +23751,14 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading"
     ],
     "similar": [
       "kobo-aura-h2o-edition-2",
-      "kobo-sage",
       "kobo-aura-edition-2",
-      "kobo-glo-hd"
+      "kobo-glo-hd",
+      "kobo-clara-hd"
     ],
     "pros": [
       {
@@ -23241,13 +23830,14 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading"
     ],
     "similar": [
-      "kindle-oasis",
       "kindle-paperwhite-3",
-      "kindle-10",
-      "kindle-voyage"
+      "kindle-voyage",
+      "kindle-4",
+      "kindle-2"
     ],
     "pros": [
       {
@@ -23325,7 +23915,8 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading"
     ],
     "similar": [
       "kobo-aura-hd",
@@ -23406,7 +23997,8 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading"
     ],
     "similar": [
       "kobo-aura",
@@ -23487,7 +24079,8 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading"
     ],
     "similar": [
       "nook-glowlight-plus",
@@ -23571,13 +24164,14 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading"
     ],
     "similar": [
       "kindle-keyboard",
       "kindle-touch",
-      "kindle-2024",
-      "kindle-11"
+      "kindle-4",
+      "kindle-voyage"
     ],
     "pros": [
       {
@@ -23655,11 +24249,12 @@
     "sizeCategory": "Medium",
     "categories": [
       "Budget",
-      "Medium"
+      "Medium",
+      "For Reading"
     ],
     "similar": [
-      "kindle-8",
       "kindle-7",
+      "kindle-8",
       "kobo-touch-20",
       "nook-simple-touch"
     ],
@@ -23745,13 +24340,14 @@
     "sizeCategory": "Medium",
     "categories": [
       "Budget",
-      "Medium"
+      "Medium",
+      "For Reading"
     ],
     "similar": [
       "kobo-touch-20",
       "kindle-5",
       "kobo-original",
-      "kindle-8"
+      "kobo-wifi"
     ],
     "pros": [
       {
@@ -23838,7 +24434,8 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading"
     ],
     "similar": [
       "kobo-touch",
@@ -23922,7 +24519,8 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading"
     ],
     "similar": [
       "nook-glowlight",
@@ -24006,7 +24604,8 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading"
     ],
     "similar": [
       "kindle-4",
@@ -24090,7 +24689,8 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading"
     ],
     "similar": [
       "kindle-touch",
@@ -24180,7 +24780,8 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading"
     ],
     "similar": [
       "kobo-glo",
@@ -24267,13 +24868,14 @@
     "sizeCategory": "Medium",
     "categories": [
       "Budget",
-      "Medium"
+      "Medium",
+      "For Reading"
     ],
     "similar": [
-      "bigme-read",
-      "veidoo-e5",
       "bemi-cognita-tab-5",
-      "kobo-touch-20"
+      "kobo-touch-20",
+      "kindle-5",
+      "kindle-7"
     ],
     "pros": [
       {
@@ -24351,7 +24953,8 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading"
     ],
     "similar": [
       "kindle-4",
@@ -24438,7 +25041,8 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading"
     ],
     "similar": [
       "kobo-original",
@@ -24525,7 +25129,8 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading"
     ],
     "similar": [
       "kobo-wifi",
@@ -24612,13 +25217,14 @@
     "sizeCategory": "Large",
     "categories": [
       "High-End",
-      "Large"
+      "Large",
+      "For Reading"
     ],
     "similar": [
-      "kindle-scribe-3-without-front-light",
-      "ratta-supernote-a5-x2-manta",
+      "dasung-not-ereader-133",
+      "remarkable-paper-pro",
       "boox-max-lumi",
-      "remarkable-paper-pro"
+      "boox-tab-x-c"
     ],
     "pros": [
       {
@@ -24705,13 +25311,14 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading"
     ],
     "similar": [
       "kindle-1",
       "kindle-4",
-      "kindle-10",
-      "kindle-2024"
+      "kindle-keyboard",
+      "kindle-paperwhite-2"
     ],
     "pros": [
       {
@@ -24792,13 +25399,14 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading"
     ],
     "similar": [
       "nook-glowlight-3",
-      "nook-glowlight-4-plus",
       "nook-simple-touch-glowlight",
-      "nook-glowlight"
+      "nook-glowlight",
+      "nook-glowlight-plus"
     ],
     "pros": [
       {
@@ -24879,13 +25487,14 @@
     "sizeCategory": "Medium",
     "categories": [
       "Mid-Range",
-      "Medium"
+      "Medium",
+      "For Reading"
     ],
     "similar": [
       "kindle-2",
       "kindle-touch",
-      "kindle-2024",
-      "kindle-4"
+      "kindle-4",
+      "kindle-keyboard"
     ],
     "pros": [
       {

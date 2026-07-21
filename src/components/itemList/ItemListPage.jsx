@@ -31,6 +31,7 @@ import Filters from "./Filters";
 import Pagination from "./Pagination";
 import ItemVerticalPreviewCard from "../itemCards/ItemVerticalPreviewCard";
 import ItemListPageTitle from "./ItemListPageTitle";
+import FilterRecap from "./FilterRecap";
 
 export default function ItemListPage(props) {
   const pathname = usePathname();
@@ -341,22 +342,6 @@ export default function ItemListPage(props) {
     );
   };
 
-  // const renderFilterRecap = () => {
-  //   return (
-  //     <FilterRecap
-  //       filters={filters}
-  //       onTileClick={(f) => {
-  //         setFiltersToOpenByDefault(f);
-  //         setIsOpenFilters(true);
-  //       }}
-  //       onDeleteTileClick={removeFilter}
-  //       onPlusClick={() => {
-  //         setFiltersToOpenByDefault([]);
-  //         setIsOpenFilters(true);
-  //       }}
-  //     ></FilterRecap>
-  //   );
-  // };
   return (
     <>
       <Box>
@@ -401,6 +386,20 @@ export default function ItemListPage(props) {
                 </Box>
               </HStack>
             </Box>
+            {filters?.some((f) => f.active && !!f.value) && (
+              <FilterRecap
+                filters={filters}
+                onTileClick={(f) => {
+                  setFiltersToOpenByDefault(f);
+                  setIsOpenFilters(true);
+                }}
+                onDeleteTileClick={removeFilter}
+                onPlusClick={() => {
+                  setFiltersToOpenByDefault([]);
+                  setIsOpenFilters(true);
+                }}
+              />
+            )}
             <Flex
               justifyContent={"center"}
               //  width={{ base: cardSize, lg: cardSize * 2 }}
@@ -417,30 +416,6 @@ export default function ItemListPage(props) {
                 gridColumnGap={"1rem"}
                 gridRowGap={"1rem"}
               >
-                {/* <GridItem gridColumn={{ base: "auto", "2xl": "span 2" }}>
-                  <ItemListPageTitle
-                    filters={filters}
-                    selectedSorting={selectedSorting}
-                  ></ItemListPageTitle>
-                </GridItem> */}
-                {/* {items && pagination?.to && ( */}
-                {/* <GridItem
-                  gridColumn={{ base: "auto", lg: "span 2", "2xl": "span 3" }}
-                  // gridColumn={{ base: "auto", md: "span 2", "2xl": "span 3" }}
-
-                  mb="1rem"
-                >
-                  <Stack gap="1rem">
-                    {filters?.some((f) => f.active && !!f.value) &&
-                      renderFilterRecap()}
-                    {props.topAnnouncements && (
-                      <Box>
-                        <Box>{props.topAnnouncements}</Box>
-                      </Box>
-                    )}
-                  </Stack>
-                </GridItem> */}
-
                 {deferredItems?.map((row, idx) => renderIndividual(row))}
               </Grid>
             </Flex>

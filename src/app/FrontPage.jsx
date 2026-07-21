@@ -210,7 +210,8 @@ function QuickLinksTag(props) {
   return (
     <Flex
       as="a"
-      href={`/${itemMainRoute}?filters=`}
+      // href={`${itemMainRoute}/categories/${props?.category}`}
+      href={`categories/${props?.category?.link}?filters=${JSON.stringify({"Staff Pick" : true})}`}
       fontSize="0.72rem"
       fontFamily="var(--font-roboto-mono)"
       fontWeight={"bold"}
@@ -232,7 +233,7 @@ function QuickLinksTag(props) {
       justifyContent={"center"}
     >
       <Box as="span" mr="2px">
-        {props.category}
+        {props.category.text}
       </Box>
       <MdArrowForward></MdArrowForward>
     </Flex>
@@ -240,13 +241,17 @@ function QuickLinksTag(props) {
 }
 function FrontPageQuickLinks() {
   const quickLinksCategories = [
-    "For Reading",
-    "For Note-Taking",
-    "Phone Replacements",
-    "Kindle Alternatives",
+    {text: "For Reading", link: "For Reading"},
+    {text: "For Note-Taking", link: "For Note-Taking"},
+    {text: "Phone Replacements", link: "Phone Replacements"},
+    {text: "Kindle Alternatives", link: "Kindle Alternatives"}
   ];
 
-  const priceCategories = ["Budget", "Mid-range", "High-End"];
+  const priceCategories = [
+    {text: "Budget", link: "priceCategory/Budget"},
+    {text: "Mid-range", link: "priceCategory/Mid-Range"},
+    {text: "High-End", link: "priceCategory/High-End"},
+  ]
   return (
     <>
       <GenericFrontPageTitle title={"Our Best Picks"}></GenericFrontPageTitle>
@@ -256,10 +261,10 @@ function FrontPageQuickLinks() {
         rowGap={".5rem"}
       >
         {quickLinksCategories?.map((r) => (
-          <QuickLinksTag category={r} key={r}></QuickLinksTag>
+          <QuickLinksTag category={r} key={r?.text}></QuickLinksTag>
         ))}
       </SimpleGrid>
-      {/* <SimpleGrid
+      <SimpleGrid
         mt=".5rem"
         templateColumns={{ base: "1fr", md: "1fr", "2xl": "repeat(3, 1fr)" }}
         columnGap="1rem"
@@ -268,9 +273,9 @@ function FrontPageQuickLinks() {
         // mx={{base:"0px", md:'0px', "2xl": "10rem"}}
       >
         {priceCategories?.map((r) => (
-          <QuickLinksTag category={r} key={r}></QuickLinksTag>
+          <QuickLinksTag category={r} key={r?.text}></QuickLinksTag>
         ))}
-      </SimpleGrid> */}
+      </SimpleGrid>
     </>
   );
 }

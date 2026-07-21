@@ -25,8 +25,11 @@ export default function Sorting(props) {
         <Menu.Root>
           <Menu.Trigger asChild>
             <Button
+              borderColor={"var(--appColorAccent)"}
+              color={"var(--appColorAccent)"}
               variant={"outline"}
-              borderColor={"var(--appColorDarkGrey)"}
+              // borderColor={"var(--appColorDarkGrey)"}
+              fontWeight={"bold"}
               width={"100%"}
               loading={isPending}
             >
