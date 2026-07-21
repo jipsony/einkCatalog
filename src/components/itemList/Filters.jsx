@@ -24,6 +24,7 @@ import {
   useDisclosure,
   Spinner,
   Portal,
+  CloseButton,
 } from "@chakra-ui/react";
 
 import { FaList } from "react-icons/fa6";
@@ -78,7 +79,7 @@ function FilterTriggerLabel(props) {
       {props.icon &&
         React.createElement(props.icon, {
           opacity: 0.6,
-          color: props?.isActive ? "var(--appColorAccent)" : undefined
+          color: props?.isActive ? "var(--appColorAccent)" : undefined,
         })}
       {props.label}
     </Box>
@@ -650,7 +651,9 @@ export default function Filters(props) {
                   />
                 </Box>
               )}
-              <Drawer.CloseTrigger />
+              <Drawer.CloseTrigger asChild>
+                <CloseButton size="sm" />
+              </Drawer.CloseTrigger>
               <Drawer.Header borderBottomWidth="1px">
                 <Drawer.Title>Filters &nbsp;</Drawer.Title>
               </Drawer.Header>

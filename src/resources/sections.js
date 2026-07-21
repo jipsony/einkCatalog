@@ -15,8 +15,10 @@ import {
   LuAppWindow,
 } from "react-icons/lu";
 import { MdColorLens, MdOutlineTouchApp } from "react-icons/md";
-import { TbMobiledata } from "react-icons/tb";
+import { TbHandClick, TbMobiledata } from "react-icons/tb";
 import screenTypeRanking from "@/resources/screenTypeRanking.json" with { type: "json" };
+import { HiOutlinePencil } from "react-icons/hi";
+import { IoColorPalette } from "react-icons/io5";
 const sections = {
   features: {
     label: "Features",
@@ -30,12 +32,14 @@ const sections = {
         type: "tag",
         icon: LuSun,
       },
+      { attribute: "warmLight", label: "Warm Light", type: "tag" },
+
       //   { attribute: "frontLightCold", label: "Front Light (Cold)", type: "tag" },
       {
         attribute: "colorDisplay",
         label: "Color Display",
         type: "tag",
-        icon: MdColorLens,
+        icon: IoColorPalette,
       },
       { attribute: "darkMode", label: "Dark Mode", type: "tag" },
       { attribute: "wifi", label: "WiFi", type: "tag", icon: LuWifi },
@@ -75,7 +79,6 @@ const sections = {
     label: "Screen",
     icon: FaMobileScreen,
     attributes: [
-      // { attribute: "warmLight", label: "Warm Light", type: "tag" },
       {
         attribute: "screenSize",
         label: "Screen Size",
@@ -146,7 +149,7 @@ const sections = {
         attribute: "touchscreen",
         label: "Touchscreen",
         type: "tag",
-        icon: MdOutlineTouchApp,
+        icon: TbHandClick,
       },
       { attribute: "pageTurnButtons", label: "Page Buttons", type: "tag" },
       {
@@ -163,17 +166,20 @@ const sections = {
         attribute: "stylusSupport",
         label: "Stylus Support",
         type: "tag",
-        icon: LuPen,
+        // icon: LuPen,
+        icon: HiOutlinePencil,
       },
     ],
   },
   software: {
-    label: "Apps",
+    label: "Built-In Apps",
     icon: LuAppWindow,
     attributes: [
       { attribute: "cloudStorage", label: "Cloud Storage", type: "tag" },
+      { attribute: "bookStore", label: "Book Store", type: "tag" },
       { attribute: "browser", label: "Browser", type: "tag" },
       { attribute: "email", label: "E-mail", type: "tag" },
+      { attribute: "libby", label: "Libby", type: "tag" },
       // { attribute: "audioBooks", label: "AudioBooks", type: "tag" },
       // { attribute: "libby", label: "Libby", type: "tag" },
     ],

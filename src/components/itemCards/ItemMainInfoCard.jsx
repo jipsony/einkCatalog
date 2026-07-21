@@ -53,25 +53,18 @@ export default function ItemMainInfoCard(props) {
     return `${months[month - 1] ?? "Jan."} ${year}${props.itemInfo?.availability === "Discontinued" ? " (Discontinued)" : ""}`;
   };
 
-  // const formatOperatingSystem = (os) => {
-  //   const osWithVersion = [];
-  //   os?.map((osRow) => {
-  //     if (osRow === "Windows") {
-  //       if (props.itemInfo?.windowsVersion) {
-  //         osWithVersion.push(`Windows ${props.itemInfo?.windowsVersion}`);
-  //       } else {
-  //         osWithVersion.push(`Windows`);
-  //       }
-  //     } else if (osRow === "Android") {
-  //       if (props.itemInfo?.androidVersion) {
-  //         osWithVersion.push(`Android ${props.itemInfo?.androidVersion}`);
-  //       } else {
-  //         osWithVersion.push(`Android`);
-  //       }
-  //     } else osWithVersion.push(osRow);
-  //   });
-  //   return <Box>{osWithVersion.join(", ")}</Box>;
-  // };
+  const formatOperatingSystem = (os) => {
+    const osWithVersion = [];
+      if (os === "Android") {
+        if (props.itemInfo?.androidVersion) {
+          osWithVersion.push(`Android ${props.itemInfo?.androidVersion}`);
+        } else {
+          osWithVersion.push(`Android`);
+        }
+      } else osWithVersion.push(os);
+    
+    return <Box>{osWithVersion.join(", ")}</Box>;
+  };
 
   const formatScreenSize = (screenSize) => {
     const screenSizeText =
@@ -150,7 +143,7 @@ export default function ItemMainInfoCard(props) {
     {
       id: "operatingSystem",
       label: "OS",
-      // formatFunction: formatOperatingSystem,
+      formatFunction: formatOperatingSystem,
     },
 
     {

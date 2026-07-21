@@ -2,6 +2,7 @@ import ItemCard from "@/components/itemCards/ItemCard";
 import ItemHorizontalPreviewCard from "@/components/itemCards/ItemHorizontalPreviewCard";
 import ItemVerticalPreviewCard from "@/components/itemCards/ItemVerticalPreviewCard";
 import AppLink from "@/components/toolsComponents/AppLink";
+import { SearchClickWrapper } from "@/components/toolsComponents/SearchClickWrapper";
 import { appName, itemMainRoute } from "@/lib/appGlobals";
 import { buildFrontImageUrl } from "@/lib/images";
 import { items } from "@/lib/item/items";
@@ -58,7 +59,7 @@ function FrontPageHero() {
         lineHeight="1.6"
       >
         {/* Your database of e-ink tablets&nbsp;&amp;&nbsp;phones */}
-        Your Database of E-Ink Tablets&nbsp;&amp;&nbsp;Phones
+        Your Database of E-Ink Readers, Tablets&nbsp;&amp;&nbsp;Phones
       </Text>
     </Box>
   );
@@ -66,7 +67,7 @@ function FrontPageHero() {
 
 function FrontPageFunctionalityCard(props) {
   return (
-    <Box cursor="pointer">
+    <Box cursor="pointer" h="100%">
       <ItemCard
         p={0}
         _hover={{ borderColor: "var(--foreground)" }}
@@ -279,7 +280,11 @@ function SingleWhy(props) {
       <Box fontWeight="bold" mb=".5rem" color="var(--appColorDarkerGrey)">
         {props.title}
       </Box>
-      <Box textAlign={"justify"} color="var(--appColorDarkerGrey)" opacity={".8"}>
+      <Box
+        textAlign={"justify"}
+        color="var(--appColorDarkerGrey)"
+        opacity={".8"}
+      >
         {props.text}
       </Box>
     </Box>
@@ -318,6 +323,7 @@ function FrontPageWhy(props) {
       <SimpleGrid
         templateColumns={{ base: "1fr", lg: "1fr 1fr " }}
         columnGap="4rem"
+        rowGap={"1rem"}
         textAlign={"justify"}
       >
         <VStack align="stretch" gap="1rem">
@@ -397,18 +403,20 @@ function FrontPageFunctionalityCards() {
         title={"Compare"}
         text={"See how two handhelds size up against each other"}
         icon={MdCompare}
-        href={`/${itemMainRoute}/compare`}
+        href={`${itemMainRoute}/compare`}
         image={buildFrontImageUrl("kindle-scribe-colorsoft")}
         cta="Start Comparing"
       ></FrontPageFunctionalityCard>
-      <FrontPageFunctionalityCard
-        title={"Deep Dive"}
-        text={"Browse specs, features, and reviews of any device"}
-        icon={MdSearch}
-        href={`/${itemMainRoute}`}
-        image={buildFrontImageUrl("viwoods-aipaper-reader")}
-        cta="View Specs"
-      ></FrontPageFunctionalityCard>
+      <SearchClickWrapper>
+        <FrontPageFunctionalityCard
+          title={"Deep Dive"}
+          text={"Browse specs, features, and reviews of any device"}
+          icon={MdSearch}
+          href={`/${itemMainRoute}`}
+          image={buildFrontImageUrl("viwoods-aipaper-reader")}
+          cta="View Specs"
+        ></FrontPageFunctionalityCard>
+      </SearchClickWrapper>
     </SimpleGrid>
   );
 }
