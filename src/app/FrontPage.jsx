@@ -236,7 +236,7 @@ function QuickLinksTag(props) {
         {props.category.text}
       </Box>
       <MdArrowForward></MdArrowForward>
-    </Flex>
+    </Flex> 
   );
 }
 function FrontPageQuickLinks() {
