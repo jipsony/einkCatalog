@@ -19,7 +19,7 @@ export default function ItemListPageTitle(props) {
   };
   const renderPageTitle = () => {
     const isStaffPicked =
-      props.filters?.find((e) => e.key === "staffPick")?.value === true;
+      props.filters?.find((e) => e.key === "Staff Pick")?.value === true;
 
     const isUpcoming =
       props.filters?.find((e) => e.key === "isUpcoming")?.value === true;
@@ -38,8 +38,16 @@ export default function ItemListPageTitle(props) {
     const brandFilter = props?.filters.find((e) => e.key === "brand");
     const brandAdjective = brandFilter?.active ? brandFilter?.value : undefined;
 
+    const availabilityFilter = props?.filters.find(
+      (e) => e.key === "availability",
+    );
+    const availabilityAdjective = availabilityFilter?.active
+      ? availabilityFilter?.value
+      : undefined;
+
     const alreadyComputedActiveTags = [
-      "staffPick",
+      "Staff Pick",
+      "availability",
       "isUpcoming",
       "operatingSystem",
       "brand",
@@ -105,6 +113,9 @@ export default function ItemListPageTitle(props) {
         text: sortingAdjective,
       },
       {
+        text: availabilityAdjective,
+      },
+      {
         text: brandAdjective,
         color: "var(--appColorAccentDark)",
       },
@@ -133,16 +144,8 @@ export default function ItemListPageTitle(props) {
         color: !withValue && "var(--appColorAccentDark)",
       },
       {
-        text: "for",
-        renderCondition: () => forSuffix,
-      },
-      {
         text: forSuffix,
         color: "var(--appColorAccentDark)",
-      },
-      {
-        text: "Games",
-        renderCondition: () => forSuffix,
       },
     ];
 
@@ -154,11 +157,14 @@ export default function ItemListPageTitle(props) {
           // ml={{ base: 0, md: "1.2rem" }}
           minHeight={"2.6rem"}
           alignContent={"center"}
-          textAlign={{ base: "center", md: "unset" }}
+          textAlign={{ base: "center", lg: "unset" }}
           mb={"1rem"}
           fontSize={"1.6rem"}
           fontWeight={"500"}
           as="h1"
+          textTransform={"uppercase"}
+          // color={"var(--appColorDarkerGrey)"}
+          // letterSpacing="0.15em"
         >
           {titleComponents.map((t, idx) => {
             if (

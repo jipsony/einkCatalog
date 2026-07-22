@@ -18,6 +18,8 @@ import {
   HStack,
   Stack,
   Spinner,
+  SimpleGrid,
+  Separator,
 } from "@chakra-ui/react";
 import { usePathname, useSearchParams, useRouter } from "next/navigation";
 import ItemHorizontalPreviewCard from "../itemCards/ItemHorizontalPreviewCard";
@@ -362,6 +364,12 @@ export default function ItemListPage(props) {
         )}
         {deferredItems && pagination?.to && (
           <>
+            {/* <Separator
+              borderColor="var(--appBorderColor)"
+              mt="1rem"
+              mb="1rem"
+            /> */}
+
             <ItemListPageTitle
               filters={filters}
               selectedSorting={selectedSorting}
@@ -400,6 +408,13 @@ export default function ItemListPage(props) {
                 }}
               />
             )}
+
+            <Separator
+              borderColor="var(--appBorderColor)"
+              mt="1rem"
+              mb="1rem"
+            />
+
             <Flex
               justifyContent={"center"}
               //  width={{ base: cardSize, lg: cardSize * 2 }}

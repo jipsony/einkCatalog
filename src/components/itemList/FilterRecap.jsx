@@ -65,7 +65,7 @@ export default function FilterRecap(props) {
         </Flex>
       </Flex>
 
-      <Separator borderColor="var(--appBorderColor)" mt="1rem" mb="1rem" />
+      {/* <Separator borderColor="var(--appBorderColor)" mt="1rem" mb="1rem" /> */}
     </>
   );
 }
