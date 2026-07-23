@@ -154,7 +154,7 @@ function GenericFrontPageTitle(props) {
   );
 }
 function FrontPageDeviceList(props) {
-  const deviceList = props.deviceList?.filter((row) => !row.hideFromFrontPage);
+  const deviceList = props.deviceList?.filter((row) => !row?.hideFromFrontPage);
   const numberOfItems = 4;
   const slice = deviceList.slice(0, numberOfItems);
 
@@ -264,7 +264,7 @@ function FrontPageQuickLinks() {
           <QuickLinksTag category={r} key={r?.text}></QuickLinksTag>
         ))}
       </SimpleGrid>
-      <SimpleGrid
+      {/* <SimpleGrid
         mt=".5rem"
         templateColumns={{ base: "1fr", md: "1fr", "2xl": "repeat(3, 1fr)" }}
         columnGap="1rem"
@@ -275,7 +275,7 @@ function FrontPageQuickLinks() {
         {priceCategories?.map((r) => (
           <QuickLinksTag category={r} key={r?.text}></QuickLinksTag>
         ))}
-      </SimpleGrid>
+      </SimpleGrid> */}
     </>
   );
 }
@@ -428,7 +428,7 @@ function FrontPageFunctionalityCards() {
 export default function FrontPage(props) {
   return (
     <Box>
-      <Box my="2.5rem">
+      <Box mb="2.5rem">
         <Separator borderColor="var(--appBorderColor)" mb="1.5rem" />
         <FrontPageHero />
         <Separator borderColor="var(--appBorderColor)" mt="1.5rem" />

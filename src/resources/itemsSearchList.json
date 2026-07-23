@@ -873,76 +873,8 @@
       "fullName": "SPC Dickens Light Pro"
     },
     {
-      "id": "remarkable-2",
-      "fullName": "reMarkable 2"
-    },
-    {
       "id": "kobo-nia",
       "fullName": "Kobo Nia"
-    },
-    {
-      "id": "boox-poke-3",
-      "fullName": "Boox Poke 3"
-    },
-    {
-      "id": "boox-nova-3",
-      "fullName": "Boox Nova 3"
-    },
-    {
-      "id": "boox-note-3",
-      "fullName": "Boox Note 3"
-    },
-    {
-      "id": "boox-note-air",
-      "fullName": "Boox Note Air"
-    },
-    {
-      "id": "boox-max-lumi",
-      "fullName": "Boox Max Lumi"
-    },
-    {
-      "id": "boox-poke-2-color",
-      "fullName": "Boox Poke 2 Color"
-    },
-    {
-      "id": "boox-poke-2",
-      "fullName": "Boox Poke 2"
-    },
-    {
-      "id": "boox-nova-2",
-      "fullName": "Boox Nova 2"
-    },
-    {
-      "id": "ratta-supernote-a5-x",
-      "fullName": "Ratta Supernote A5 X"
-    },
-    {
-      "id": "pocketbook-basic-4",
-      "fullName": "PocketBook Basic 4"
-    },
-    {
-      "id": "pocketbook-touch-lux-5",
-      "fullName": "PocketBook Touch Lux 5"
-    },
-    {
-      "id": "pocketbook-color",
-      "fullName": "PocketBook Color"
-    },
-    {
-      "id": "hisense-a5-pro-cc",
-      "fullName": "Hisense A5 Pro CC"
-    },
-    {
-      "id": "hisense-a5-pro",
-      "fullName": "Hisense A5 Pro"
-    },
-    {
-      "id": "hisense-a5c",
-      "fullName": "Hisense A5C"
-    },
-    {
-      "id": "woxter-scriba-195-paperlight",
-      "fullName": "Woxter Scriba 195 Paperlight"
     },
     {
       "id": "kindle-oasis-3",
@@ -1699,24 +1631,12 @@
       "fullName": "Boox Leaf 2"
     },
     {
-      "id": "boox-max-lumi",
-      "fullName": "Boox Max Lumi"
-    },
-    {
       "id": "boox-max-lumi-2",
       "fullName": "Boox Max Lumi 2"
     },
     {
-      "id": "boox-note-3",
-      "fullName": "Boox Note 3"
-    },
-    {
       "id": "boox-note-5",
       "fullName": "Boox Note 5"
-    },
-    {
-      "id": "boox-note-air",
-      "fullName": "Boox Note Air"
     },
     {
       "id": "boox-note-air-2",
@@ -1745,14 +1665,6 @@
     {
       "id": "boox-note-max",
       "fullName": "Boox Note Max"
-    },
-    {
-      "id": "boox-nova-2",
-      "fullName": "Boox Nova 2"
-    },
-    {
-      "id": "boox-nova-3",
-      "fullName": "Boox Nova 3"
     },
     {
       "id": "boox-nova-3-color",
@@ -1785,18 +1697,6 @@
     {
       "id": "boox-palma-2-pro",
       "fullName": "Boox Palma 2 Pro"
-    },
-    {
-      "id": "boox-poke-2",
-      "fullName": "Boox Poke 2"
-    },
-    {
-      "id": "boox-poke-2-color",
-      "fullName": "Boox Poke 2 Color"
-    },
-    {
-      "id": "boox-poke-3",
-      "fullName": "Boox Poke 3"
     },
     {
       "id": "boox-poke-4-lite",
@@ -1957,18 +1857,6 @@
       "link": "/brands/Hisense",
       "prefix": "Brand",
       "icon": "fa-building"
-    },
-    {
-      "id": "hisense-a5-pro",
-      "fullName": "Hisense A5 Pro"
-    },
-    {
-      "id": "hisense-a5-pro-cc",
-      "fullName": "Hisense A5 Pro CC"
-    },
-    {
-      "id": "hisense-a5c",
-      "fullName": "Hisense A5C"
     },
     {
       "id": "hisense-a7",
@@ -2579,20 +2467,12 @@
       "icon": "fa-building"
     },
     {
-      "id": "pocketbook-basic-4",
-      "fullName": "PocketBook Basic 4"
-    },
-    {
       "id": "pocketbook-basic-lux-3",
       "fullName": "PocketBook Basic Lux 3"
     },
     {
       "id": "pocketbook-basic-lux-4",
       "fullName": "PocketBook Basic Lux 4"
-    },
-    {
-      "id": "pocketbook-color",
-      "fullName": "PocketBook Color"
     },
     {
       "id": "pocketbook-color-note",
@@ -2643,10 +2523,6 @@
       "fullName": "PocketBook InkPad X Pro"
     },
     {
-      "id": "pocketbook-touch-lux-5",
-      "fullName": "PocketBook Touch Lux 5"
-    },
-    {
       "id": "pocketbook-verse",
       "fullName": "PocketBook Verse"
     },
@@ -2669,10 +2545,6 @@
       "link": "/brands/Ratta",
       "prefix": "Brand",
       "icon": "fa-building"
-    },
-    {
-      "id": "ratta-supernote-a5-x",
-      "fullName": "Ratta Supernote A5 X"
     },
     {
       "id": "ratta-supernote-a5-x2-manta",
@@ -2709,10 +2581,6 @@
       "link": "/brands/reMarkable",
       "prefix": "Brand",
       "icon": "fa-building"
-    },
-    {
-      "id": "remarkable-2",
-      "fullName": "reMarkable 2"
     },
     {
       "id": "remarkable-paper-pro",
@@ -2861,10 +2729,6 @@
       "link": "/brands/Woxter",
       "prefix": "Brand",
       "icon": "fa-building"
-    },
-    {
-      "id": "woxter-scriba-195-paperlight",
-      "fullName": "Woxter Scriba 195 Paperlight"
     },
     {
       "id": "woxter-scriba-195-paperlight-tp",
