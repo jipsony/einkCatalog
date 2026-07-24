@@ -168,7 +168,7 @@ const specialCategories = [
   "Staff Pick",
   "For Reading",
   "For Note-taking",
-  "Phone Replacement",
+  "Phone-Like",
   "Kindle Alternative",
 ];
 const specialCategoryFilters = [

@@ -439,9 +439,10 @@ export default function CompareSizes(props) {
     );
     let weight = parseFloat((row?.weight * gMultiplier).toFixed(2));
 
-    return `${row?.name} : ${dimensionsL} x ${dimensionsH} ${
-      !isNaN(dimensionsW) ? ` x ${dimensionsW}` : ""
-    } ${mmUnit} ${!isNaN(weight) ? `| ${weight} ${gUnit}` : ""}`;
+    return `${row?.name}`
+    //  : ${dimensionsL} x ${dimensionsH} ${
+    //   !isNaN(dimensionsW) ? ` x ${dimensionsW}` : ""
+    // } ${mmUnit} ${!isNaN(weight) ? `| ${weight} ${gUnit}` : ""}`;
   };
 
   const menuButtonStyle = {
@@ -712,10 +713,11 @@ export default function CompareSizes(props) {
                 <>
                   <Card.Body height={cardHeight} pt={"2px"}>
                     <Box
-                      fontSize="sm"
+                      // fontSize="sm"
                       color={"var(--appColorDarkGrey)"}
                       pb=".5rem"
                       pt="3px"
+                      fontSize={"11px"}
                     >
                       {!lastSelected?.id ? (
                         <Center

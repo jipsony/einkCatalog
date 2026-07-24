@@ -243,7 +243,7 @@ function FrontPageQuickLinks() {
   const quickLinksCategories = [
     {text: "For Reading", link: "For Reading"},
     {text: "For Note-Taking", link: "For Note-Taking"},
-    {text: "Phone Replacements", link: "Phone Replacements"},
+    {text: "Phone-Likes", link: "Phone-Likes"},
     {text: "Kindle Alternatives", link: "Kindle Alternatives"}
   ];
 
@@ -428,8 +428,8 @@ function FrontPageFunctionalityCards() {
 export default function FrontPage(props) {
   return (
     <Box>
-      <Box mb="2.5rem">
-        <Separator borderColor="var(--appBorderColor)" mb="1.5rem" />
+      <Box my="2.5rem">
+        {/* <Separator borderColor="var(--appBorderColor)" mb="1.5rem" /> */}
         <FrontPageHero />
         <Separator borderColor="var(--appBorderColor)" mt="1.5rem" />
       </Box>

@@ -1016,13 +1016,13 @@
       "Medium",
       "For Reading",
       "For Note-taking",
-      "Phone Replacement"
+      "Phone-Like"
     ],
     "similar": [
       "boox-palma-2-pro",
       "bigme-hibreak-plus",
       "bigme-hibreak-pro",
-      "bigme-hibreak-dual-bw"
+      "bigme-b10"
     ],
     "pros": [
       {
@@ -1105,7 +1105,7 @@
       "Medium",
       "For Reading",
       "For Note-taking",
-      "Phone Replacement"
+      "Phone-Like"
     ],
     "similar": [
       "bigme-hibreak-plus",
@@ -1197,7 +1197,7 @@
       "Medium",
       "For Reading",
       "For Note-taking",
-      "Phone Replacement"
+      "Phone-Like"
     ],
     "similar": [
       "bigme-hibreak-dual-bw",
@@ -1573,7 +1573,7 @@
       "Mid-Range",
       "Medium",
       "For Reading",
-      "Phone Replacement"
+      "Phone-Like"
     ],
     "similar": [
       "boox-palma-2",
@@ -1841,13 +1841,13 @@
       "Medium",
       "For Reading",
       "For Note-taking",
-      "Phone Replacement"
+      "Phone-Like"
     ],
     "similar": [
-      "boox-palma-2-pro",
       "remarkable-paper-pro",
+      "boox-palma-2-pro",
       "bigme-hibreak-dual-color",
-      "bigme-hibreak-pro"
+      "kindle-scribe-3"
     ],
     "pros": [
       {
@@ -2612,13 +2612,13 @@
       "Medium",
       "For Reading",
       "For Note-taking",
-      "Phone Replacement"
+      "Phone-Like"
     ],
     "similar": [
       "bigme-hibreak-dual-color",
-      "bigme-hibreak-pro",
-      "hisense-a7-cc",
-      "boox-note-air-5-c"
+      "boox-note-air-5-c",
+      "boox-note-air-3-c",
+      "boox-tab-ultra-c-pro"
     ],
     "pros": [
       {
@@ -3186,7 +3186,7 @@
       "Mid-Range",
       "Medium",
       "For Reading",
-      "Phone Replacement"
+      "Phone-Like"
     ],
     "similar": [
       "viwoods-aipaper-reader-c",
@@ -3278,7 +3278,7 @@
       "High-End",
       "Medium",
       "For Reading",
-      "Phone Replacement"
+      "Phone-Like"
     ],
     "similar": [
       "hisense-a9",
@@ -3367,7 +3367,7 @@
       "Mid-Range",
       "Medium",
       "For Reading",
-      "Phone Replacement"
+      "Phone-Like"
     ],
     "similar": [
       "bigme-hibreak-s-bw",
@@ -3455,7 +3455,7 @@
       "Mid-Range",
       "Medium",
       "For Reading",
-      "Phone Replacement"
+      "Phone-Like"
     ],
     "similar": [
       "bigme-hibreak-s-color",
@@ -3833,7 +3833,7 @@
       "Mid-Range",
       "Medium",
       "For Reading",
-      "Phone Replacement"
+      "Phone-Like"
     ],
     "similar": [
       "boox-palma-2",
@@ -3922,7 +3922,7 @@
       "Mid-Range",
       "Medium",
       "For Reading",
-      "Phone Replacement"
+      "Phone-Like"
     ],
     "similar": [
       "bigme-hibreak-pro-color",
@@ -6165,7 +6165,7 @@
       "Budget",
       "Compact",
       "For Reading",
-      "Phone Replacement"
+      "Phone-Like"
     ],
     "similar": [
       "m5stack-papers3",
@@ -6359,7 +6359,7 @@
       "Budget",
       "Compact",
       "For Reading",
-      "Phone Replacement"
+      "Phone-Like"
     ],
     "similar": [
       "famue-bf07",
@@ -7657,7 +7657,7 @@
       "Mid-Range",
       "Medium",
       "For Reading",
-      "Phone Replacement"
+      "Phone-Like"
     ],
     "similar": [
       "durobo-krono",
@@ -8623,7 +8623,7 @@
       "Mid-Range",
       "Medium",
       "For Reading",
-      "Phone Replacement"
+      "Phone-Like"
     ],
     "similar": [
       "bigme-hibreak-bw",
@@ -8711,7 +8711,7 @@
       "Mid-Range",
       "Medium",
       "For Reading",
-      "Phone Replacement"
+      "Phone-Like"
     ],
     "similar": [
       "bigme-hibreak-color",
@@ -11299,8 +11299,8 @@
     "similar": [
       "xteink-x3",
       "famue-bf07",
-      "xteink-x4",
-      "m5stack-papers3"
+      "m5stack-papers3",
+      "xteink-x4"
     ],
     "pros": [
       {
@@ -12261,7 +12261,7 @@
       "Medium",
       "Staff Pick",
       "For Reading",
-      "Phone Replacement"
+      "Phone-Like"
     ],
     "similar": [
       "boox-palma-2",
@@ -14869,7 +14869,7 @@
       "hisense-hi-reader",
       "hisense-a7",
       "hisense-a9",
-      "bigme-hibreak-pro"
+      "hisense-a7-cc"
     ],
     "pros": [
       {
@@ -14949,7 +14949,7 @@
       "High-End",
       "Medium",
       "For Reading",
-      "Phone Replacement"
+      "Phone-Like"
     ],
     "similar": [
       "hisense-a7",
@@ -15040,13 +15040,13 @@
       "High-End",
       "Medium",
       "For Reading",
-      "Phone Replacement"
+      "Phone-Like"
     ],
     "similar": [
       "hisense-a7-cc",
       "hisense-a9",
-      "bigme-hibreak-pro",
-      "hisense-hi-reader"
+      "hisense-hi-reader",
+      "bigme-hibreak-pro"
     ],
     "pros": [
       {
@@ -15128,7 +15128,7 @@
       "Mid-Range",
       "Medium",
       "For Reading",
-      "Phone Replacement"
+      "Phone-Like"
     ],
     "similar": [
       "moaan-inkpalm-5-mini-gen-2",
@@ -15970,13 +15970,13 @@
     "categories": [
       "Budget",
       "Medium",
-      "Phone Replacement"
+      "Phone-Like"
     ],
     "similar": [
       "woxter-scriba-195-paperlight-tp",
       "bemi-cognita-x",
-      "famue-bf07",
-      "m5stack-papers3"
+      "bemi-cognita-light-2",
+      "spc-dickens-light-2"
     ],
     "pros": [
       {
@@ -17699,13 +17699,13 @@
       "High-End",
       "Medium",
       "For Reading",
-      "Phone Replacement"
+      "Phone-Like"
     ],
     "similar": [
       "hisense-a7",
       "bigme-hibreak-pro",
-      "hisense-a7-cc",
-      "hisense-hi-reader-pro"
+      "hisense-hi-reader-pro",
+      "hisense-a7-cc"
     ],
     "pros": [
       {
@@ -17784,7 +17784,7 @@
       "Mid-Range",
       "Medium",
       "For Reading",
-      "Phone Replacement"
+      "Phone-Like"
     ],
     "similar": [
       "moaan-inkpalm-5-mini-pro",
@@ -17867,7 +17867,7 @@
       "Mid-Range",
       "Medium",
       "For Reading",
-      "Phone Replacement"
+      "Phone-Like"
     ],
     "similar": [
       "bigme-hibreak-bw",
