@@ -119,7 +119,7 @@ export default function ItemFullInfoCard(props) {
     });
 
     return (
-      <Box>
+      <Box >
         <Box>{renderTags(tags)}</Box>
         {tags?.length > 0 && kvs?.length > 0 && <Box mt={".5rem"} />}
         <ItemKeyValueAttributes
@@ -141,9 +141,11 @@ export default function ItemFullInfoCard(props) {
         textAlign="left"
         fontWeight={"bold"}
         color="var(--appColorAccent)"
+        textTransform={"uppercase"}
+        letterSpacing={"1.5px"}
       >
         <HStack mb={1} borderRadius={3}>
-          {Icon && <Icon size="18" style={{ flexShrink: 0 }} opacity=".6" />}
+          {Icon && <Icon size="18" style={{ flexShrink: 0 }} opacity=".7" />}
           <Heading
             as={props.isFullPage ? "h2" : "h3"}
             fontSize={"lg"}

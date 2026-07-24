@@ -36,6 +36,7 @@ export default function FeatureTag({ label, value, detail }) {
       aria-label={accessibleLabel}
       fontWeight={isActive ? 600 : 400}
       pr={7}
+      overflow={"hidden"}
     >
       {label}
       {detail && (

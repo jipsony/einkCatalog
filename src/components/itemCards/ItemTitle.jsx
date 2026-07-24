@@ -2,6 +2,7 @@ import React from "react";
 import { Box, Center } from "@chakra-ui/react";
 import ItemCard from "./ItemCard";
 import ItemAttributeIcons from "./ItemAttributeIcons";
+import { buildItemFullInfoLink } from "@/lib/appGlobals";
 
 const DashLine = () => (
   <Box
@@ -20,21 +21,29 @@ const DashLine = () => (
 
 export default function ItemTitle(props) {
   return (
-    <ItemCard
-      width="100%"
-      //   p={0}
+    <Box
+      as="a"
+      href={buildItemFullInfoLink(props?.itemInfo.id)}
+      _hover={{
+        color: "var(--appColorAccent)",
+      }}
     >
-      <Box textAlign="center" fontWeight={"bold"} as="h1" fontSize={"lg"}>
+      <ItemCard
+        width="100%"
+        //   p={0}
+      >
+        <Box textAlign="center" fontWeight={"bold"} as="h1" fontSize={"lg"}>
           {/* <Box as="span">{props?.itemInfo?.brand}</Box> */}
           <Box as="span"> {props?.itemInfo?.name}</Box>
-      </Box>
-      {/* <Center my={".5rem"}>
+        </Box>
+        {/* <Center my={".5rem"}>
         <ItemAttributeIcons
           color={"var(--appColorAccent)"}
           itemInfo={props.itemInfo}
           size="16"
         ></ItemAttributeIcons>
       </Center> */}
-    </ItemCard>
+      </ItemCard>
+    </Box>
   );
 }

@@ -234,12 +234,21 @@ export default function ComparePage(props) {
         " Comparison";
     }
     return (
-      <Box mb="2rem" ml="1.2rem" mr="1.2rem">
+      <Box mb={"1rem"} ml="1.2rem" mr="1.2rem">
         <Heading
           textAlign="center"
           fontSize={"1.8rem"}
           as="h1"
           className="appTitle"
+          minHeight={"2.6rem"}
+          alignContent={"center"}
+          // textAlign={{ base: "center", lg: "unset" }}
+          mb={"1rem"}
+          // fontSize={"1.6rem"}
+          fontWeight={"500"}
+          fontFamily="var(--font-roboto-mono)"
+
+          // as="h1"
         >
           {title}
         </Heading>
@@ -379,7 +388,7 @@ export default function ComparePage(props) {
 
   return (
     <>
-      <AppBreadcrumbs breadcrumbList={breadcrumbList}></AppBreadcrumbs>
+      {/* <AppBreadcrumbs breadcrumbList={breadcrumbList}></AppBreadcrumbs> */}
       <Box className="background" pb={"4rem"}>
         <Center>
           <Box
@@ -389,7 +398,7 @@ export default function ComparePage(props) {
             {/* <Box ml={"1.2rem"}>
             <AppBreadcrumbs breadcrumbList={breadcrumbList}></AppBreadcrumbs>
           </Box> */}
-            {renderPageTitle()}
+            <Box my="2rem">{renderPageTitle()}</Box>
             <Box position="relative">
               {isPendingCompare && (
                 <Box
@@ -475,7 +484,8 @@ export default function ComparePage(props) {
                   <GridItem
                     height={{ base: "auto", lg: "100%" }}
                     mb={"2rem"}
-                    // mx="1rem"
+                    maxW={"100%"}
+                    overflow={"hidden"} // mx="1rem"
                   >
                     <Stack height={"100%"}>
                       <ItemVertical
@@ -503,6 +513,8 @@ export default function ComparePage(props) {
                     height={{ base: "auto", lg: "100%" }}
                     mt={{ base: "2rem", lg: "0" }}
                     mb={"2rem"}
+                    maxW={"100%"}
+                    overflow={"hidden"} // mx="1rem"
                     // mx="1rem"
                   >
                     <Stack height={"100%"} position="relative">

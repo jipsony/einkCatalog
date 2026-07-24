@@ -11,7 +11,11 @@ import ItemTitle from "./ItemTitle";
 export default function ItemVertical(props) {
   return (
     <Stack height={"100%"} rowGap={0}>
-      <Box position="sticky" top={headerHeight} zIndex="1000">
+      <Box 
+      // position="sticky" 
+      // top={headerHeight}
+      //  zIndex="1000"
+       >
         <ItemTitle
           clickable={props.clickable}
           itemInfo={props.itemInfo}

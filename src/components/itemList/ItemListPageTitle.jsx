@@ -102,6 +102,15 @@ export default function ItemListPageTitle(props) {
       forSuffix = oneActiveFilter.label;
     }
 
+    let suffix;
+    const remainingActiveTagsWithSuffixRender = remaining?.filter(
+      (f) => f.titleRenderType === "suffix",
+    );
+    if (remainingActiveTagsWithSuffixRender?.length >= 1) {
+      const oneActiveFilter = remainingActiveTagsWithSuffixRender?.[0];
+      suffix = oneActiveFilter.label;
+    }
+
     const titleComponents = [
       // {
       //   text: `${isStaffPicked ? "The " : ""}${
@@ -117,7 +126,7 @@ export default function ItemListPageTitle(props) {
       },
       {
         text: brandAdjective,
-        color: "var(--appColorAccentDark)",
+        color: "var(--appColorAccent)",
       },
       // {
       //   text: oSAdjective,
@@ -125,11 +134,15 @@ export default function ItemListPageTitle(props) {
       // },
       {
         text: prefix,
-        color: "var(--appColorAccentDark)",
+        color: "var(--appColorAccent)",
       },
 
       {
         text: itemsLabel,
+      },
+      {
+        text: suffix,
+        color: "var(--appColorAccent)",
       },
       {
         text: "with",
@@ -137,15 +150,15 @@ export default function ItemListPageTitle(props) {
       },
       {
         text: withValue,
-        color: "var(--appColorAccentDark)",
+        color: "var(--appColorAccent)",
       },
       {
         text: withLabel,
-        color: !withValue && "var(--appColorAccentDark)",
+        color: !withValue && "var(--appColorAccent)",
       },
       {
         text: forSuffix,
-        color: "var(--appColorAccentDark)",
+        color: "var(--appColorAccent)",
       },
     ];
 
@@ -162,7 +175,7 @@ export default function ItemListPageTitle(props) {
           fontSize={"1.6rem"}
           fontWeight={"500"}
           as="h1"
-          textTransform={"uppercase"}
+          // textTransform={"uppercase"}
           // color={"var(--appColorDarkerGrey)"}
           // letterSpacing="0.15em"
         >

@@ -6,7 +6,7 @@ export const attributeMarginLeft = { md: "25px" }
 export const featureTagTemplateColumns = {
   // xl: "repeat(4,1fr)",
   lg: "repeat(3, 1fr)",
-  base: "1fr 1fr",
+  base: "50% 50%",
   // base: "1fr",
 };
 

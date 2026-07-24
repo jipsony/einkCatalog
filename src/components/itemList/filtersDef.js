@@ -165,21 +165,25 @@ const additionalSectionFilters = [
 ];
 
 const specialCategories = [
-  "Staff Pick",
-  "For Reading",
-  "For Note-taking",
-  "Phone-Like",
-  "Kindle Alternative",
+  { key: "Staff Pick", label: "Staff Pick" },
+  { key: "For Reading", label: "For Reading", titleRenderType: "suffix" },
+  {
+    key: "For Note-taking",
+    label: "For Note-taking",
+    titleRenderType: "suffix",
+  },
+  { key: "Phone-Like", label: "Phone-Like", titleRenderType: "prefix" },
+  { key: "Kindle Alternative", label: "Kindle Alternative", titleRenderType: "prefix",  },
 ];
 const specialCategoryFilters = [
   ...specialCategories.map((s) => ({
-    key: s,
-    label: s,
+    key: s.key,
+    label: s.label,
     value: false,
-    filterFunction: (row) => row.categories.includes(s),
+    filterFunction: (row) => row.categories.includes(s.key),
     active: false,
     type: "checkbox",
-    titleRenderType: "none",
+    titleRenderType: s?.titleRenderType ?? "none",
   })),
 ];
 

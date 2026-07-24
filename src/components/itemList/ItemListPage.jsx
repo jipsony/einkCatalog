@@ -370,10 +370,13 @@ export default function ItemListPage(props) {
               mb="1rem"
             /> */}
 
-            <ItemListPageTitle
-              filters={filters}
-              selectedSorting={selectedSorting}
-            ></ItemListPageTitle>
+            <Box my="2rem">
+              <ItemListPageTitle
+                filters={filters}
+                selectedSorting={selectedSorting}
+              ></ItemListPageTitle>
+
+            </Box>
             <Box
               display={"flex"}
               justifyContent={"end"}
