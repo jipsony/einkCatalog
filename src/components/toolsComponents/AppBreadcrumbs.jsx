@@ -45,7 +45,7 @@ export default function AppBreadcrumbs(props) {
       mb={"1rem"}
       fontWeight={500}
       // color={"var(--appColorDarkGrey)"}
-      color='var(--foreground)'
+      color='var(--appColorDarkerGrey)'
     >
       <Breadcrumb.List>
         {breadcrumbList.map((row, idx) => {

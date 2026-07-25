@@ -985,12 +985,12 @@
     "screenType": "E Ink Kaleido 3",
     "operatingSystem": "Android",
     "androidVersion": "14",
-    "dimensions": null,
-    "weight": null,
-    "cpu": "8000 MB",
+    "dimensions": "80.9 x 159.8 x 8.9",
+    "weight": 213,
+    "cpu": "2.6 GHz octa core",
     "storage": "128 GB",
-    "ram": "256 GB",
-    "battery": "❌",
+    "ram": "8 GB",
+    "battery": "4500 mAh",
     "aspectRatio": "1:2",
     "screenLight": true,
     "warmLight": true,
@@ -998,14 +998,14 @@
     "darkMode": true,
     "wifi": true,
     "bluetooth": true,
-    "sdCard": true,
-    "usbc": false,
+    "sdCard": false,
+    "usbc": true,
     "mobileData": true,
     "speakers": true,
     "microphone": false,
     "browser": true,
     "textToSpeech": true,
-    "waterproof": true,
+    "waterproof": false,
     "touchscreen": true,
     "pageTurnButtons": true,
     "automaticRotation": true,
@@ -1017,6 +1017,9 @@
     "availability": "Available",
     "bookStore": true,
     "libby": true,
+    "dimensionsH": 159.8,
+    "dimensionsL": 80.9,
+    "dimensionsW": 8.9,
     "pixelDensity": 301,
     "wifiVersion": "No WiFi",
     "bluetoothVersion": "No Bluetooth",
@@ -1049,7 +1052,7 @@
         "text": "Stylus support is great for annotations and note-taking"
       },
       {
-        "text": "Expandable storage via SD card"
+        "text": "Big 4500 mAh battery, weeks of reading on a single charge"
       },
       {
         "text": "Adjustable front light for comfortable reading in any lighting"
@@ -1061,7 +1064,11 @@
         "text": "WiFi support makes it easier to access your content"
       }
     ],
-    "cons": []
+    "cons": [
+      {
+        "text": "No expandable storage"
+      }
+    ]
   },
   {
     "id": "bigme-hibreak-dual-bw",
@@ -1075,12 +1082,12 @@
     "screenType": "E Ink",
     "operatingSystem": "Android",
     "androidVersion": "14",
-    "dimensions": null,
-    "weight": null,
-    "cpu": "8000 MB",
+    "dimensions": "80.9 x 159.8 x 8.9",
+    "weight": 213,
+    "cpu": "2.6 GHz octa core",
     "storage": "128 GB",
-    "ram": "256 GB",
-    "battery": "❌",
+    "ram": "8 GB",
+    "battery": "4500 mAh",
     "aspectRatio": "1:2",
     "screenLight": true,
     "warmLight": true,
@@ -1088,14 +1095,14 @@
     "darkMode": true,
     "wifi": true,
     "bluetooth": true,
-    "sdCard": true,
-    "usbc": false,
+    "sdCard": false,
+    "usbc": true,
     "mobileData": true,
     "speakers": true,
     "microphone": false,
     "browser": true,
     "textToSpeech": true,
-    "waterproof": true,
+    "waterproof": false,
     "touchscreen": true,
     "pageTurnButtons": true,
     "automaticRotation": true,
@@ -1107,6 +1114,9 @@
     "availability": "Available",
     "bookStore": true,
     "libby": true,
+    "dimensionsH": 159.8,
+    "dimensionsL": 80.9,
+    "dimensionsW": 8.9,
     "pixelDensity": 301,
     "wifiVersion": "No WiFi",
     "bluetoothVersion": "No Bluetooth",
@@ -1139,7 +1149,7 @@
         "text": "Stylus support is great for annotations and note-taking"
       },
       {
-        "text": "Expandable storage via SD card"
+        "text": "Big 4500 mAh battery, weeks of reading on a single charge"
       },
       {
         "text": "Front light lets you read comfortably in the dark"
@@ -1151,7 +1161,11 @@
         "text": "WiFi support makes it easier to access your content"
       }
     ],
-    "cons": []
+    "cons": [
+      {
+        "text": "No SD card slot, limited to built-in storage"
+      }
+    ]
   },
   {
     "id": "bigme-hibreak-plus",
@@ -1586,16 +1600,18 @@
     "bluetoothVersion": "No Bluetooth",
     "priceCategory": "Mid-Range",
     "sizeCategory": "Medium",
+    "ratingCategory": "staffPick",
     "categories": [
       "Mid-Range",
       "Medium",
+      "Staff Pick",
       "For Reading",
       "Phone-Like"
     ],
     "similar": [
+      "boox-palma",
       "boox-palma-2",
       "viwoods-aipaper-reader",
-      "boox-palma",
       "moaan-inkpalm-plus"
     ],
     "pros": [
@@ -1913,12 +1929,12 @@
     "screenType": "E Ink Kaleido 3",
     "operatingSystem": "Kindle ",
     "androidVersion": null,
-    "dimensions": null,
-    "weight": 24.5,
+    "dimensions": "189 x 245 x 5.4",
+    "weight": 400,
     "cpu": null,
     "storage": "32 GB",
-    "ram": "64 GB",
-    "battery": "❌",
+    "ram": null,
+    "battery": null,
     "aspectRatio": "3:4",
     "screenLight": true,
     "warmLight": true,
@@ -1927,13 +1943,13 @@
     "wifi": true,
     "bluetooth": true,
     "sdCard": false,
-    "usbc": false,
+    "usbc": true,
     "mobileData": false,
     "speakers": true,
     "microphone": false,
     "browser": true,
     "textToSpeech": true,
-    "waterproof": true,
+    "waterproof": false,
     "touchscreen": true,
     "pageTurnButtons": false,
     "automaticRotation": true,
@@ -1945,6 +1961,9 @@
     "availability": "Available",
     "bookStore": true,
     "libby": true,
+    "dimensionsH": 245,
+    "dimensionsL": 189,
+    "dimensionsW": 5.4,
     "pixelDensity": 300,
     "wifiVersion": "No WiFi",
     "bluetoothVersion": "No Bluetooth",
@@ -1977,6 +1996,9 @@
         "text": "Front light lets you read comfortably in the dark"
       },
       {
+        "text": "Slim design at only 5.4mm thick"
+      },
+      {
         "text": "Big screen makes reading easier, especially for documents and illustrated content"
       },
       {
@@ -1989,6 +2011,9 @@
     "cons": [
       {
         "text": "No physical page turn buttons, all navigation is done via the touchscreen"
+      },
+      {
+        "text": "Heavy device at 400g"
       },
       {
         "text": "No SD card slot, limited to built-in storage"
@@ -2007,12 +2032,12 @@
     "screenType": "E Ink",
     "operatingSystem": "Kindle ",
     "androidVersion": null,
-    "dimensions": null,
-    "weight": 24.5,
+    "dimensions": "189 x 245 x 5.4",
+    "weight": 400,
     "cpu": null,
     "storage": "32 GB",
-    "ram": "64 GB",
-    "battery": "❌",
+    "ram": null,
+    "battery": null,
     "aspectRatio": "3:4",
     "screenLight": true,
     "warmLight": true,
@@ -2021,13 +2046,13 @@
     "wifi": true,
     "bluetooth": true,
     "sdCard": false,
-    "usbc": false,
+    "usbc": true,
     "mobileData": false,
     "speakers": true,
     "microphone": false,
     "browser": true,
     "textToSpeech": true,
-    "waterproof": true,
+    "waterproof": false,
     "touchscreen": true,
     "pageTurnButtons": false,
     "automaticRotation": true,
@@ -2039,6 +2064,9 @@
     "availability": "Available",
     "bookStore": true,
     "libby": true,
+    "dimensionsH": 245,
+    "dimensionsL": 189,
+    "dimensionsW": 5.4,
     "pixelDensity": 300,
     "wifiVersion": "No WiFi",
     "bluetoothVersion": "No Bluetooth",
@@ -2068,6 +2096,9 @@
         "text": "Front light lets you read comfortably in the dark"
       },
       {
+        "text": "Slim design at only 5.4mm thick"
+      },
+      {
         "text": "Big screen makes reading easier, especially for documents and illustrated content"
       },
       {
@@ -2080,6 +2111,9 @@
     "cons": [
       {
         "text": "No physical page turn buttons, all navigation is done via the touchscreen"
+      },
+      {
+        "text": "Heavy device at 400g"
       },
       {
         "text": "No SD card slot, limited to built-in storage"
@@ -3879,8 +3913,8 @@
     "similar": [
       "boox-palma-2",
       "viwoods-aipaper-reader-c",
-      "durobo-krono",
-      "boox-palma"
+      "boox-palma",
+      "durobo-krono"
     ],
     "pros": [
       {
@@ -5649,12 +5683,12 @@
     "screenType": "E Ink",
     "operatingSystem": "Android",
     "androidVersion": "11",
-    "dimensions": null,
-    "weight": null,
-    "cpu": "2000 MB",
+    "dimensions": "107.1 x 153.1 x 6.9",
+    "weight": 143,
+    "cpu": "1.8 GHz quad core",
     "storage": "32 GB",
-    "ram": "64 GB",
-    "battery": "❌",
+    "ram": "2 GB",
+    "battery": "1700 mAh",
     "aspectRatio": "~3:4",
     "screenLight": true,
     "warmLight": true,
@@ -5662,14 +5696,14 @@
     "darkMode": true,
     "wifi": true,
     "bluetooth": true,
-    "sdCard": true,
-    "usbc": false,
+    "sdCard": false,
+    "usbc": true,
     "mobileData": false,
     "speakers": true,
     "microphone": false,
     "browser": true,
     "textToSpeech": true,
-    "waterproof": true,
+    "waterproof": false,
     "touchscreen": true,
     "pageTurnButtons": false,
     "automaticRotation": false,
@@ -5681,6 +5715,9 @@
     "availability": "Available",
     "bookStore": true,
     "libby": true,
+    "dimensionsH": 153.1,
+    "dimensionsL": 107.1,
+    "dimensionsW": 6.9,
     "pixelDensity": 300,
     "wifiVersion": "No WiFi",
     "bluetoothVersion": "No Bluetooth",
@@ -5703,9 +5740,6 @@
         "text": "High resolution display"
       },
       {
-        "text": "Expandable storage via SD card"
-      },
-      {
         "text": "Front light lets you read comfortably in the dark"
       },
       {
@@ -5718,6 +5752,9 @@
     "cons": [
       {
         "text": "No physical page turn buttons, all navigation is done via the touchscreen"
+      },
+      {
+        "text": "No SD card slot, limited to built-in storage"
       }
     ]
   },
@@ -6581,12 +6618,12 @@
     "screenType": "E Ink",
     "operatingSystem": "Kindle ",
     "androidVersion": null,
-    "dimensions": null,
-    "weight": null,
-    "cpu": "64 GB ⓘ",
+    "dimensions": "196 x 230 x 5.7",
+    "weight": 433,
+    "cpu": null,
     "storage": "16 GB",
-    "ram": "32 GB",
-    "battery": "❌",
+    "ram": null,
+    "battery": null,
     "aspectRatio": "3:4",
     "screenLight": true,
     "warmLight": true,
@@ -6594,14 +6631,14 @@
     "darkMode": true,
     "wifi": true,
     "bluetooth": true,
-    "sdCard": "?",
-    "usbc": false,
+    "sdCard": false,
+    "usbc": true,
     "mobileData": false,
     "speakers": true,
     "microphone": false,
     "browser": true,
     "textToSpeech": true,
-    "waterproof": "?",
+    "waterproof": false,
     "touchscreen": true,
     "pageTurnButtons": false,
     "automaticRotation": true,
@@ -6613,6 +6650,9 @@
     "availability": "Available",
     "bookStore": true,
     "libby": true,
+    "dimensionsH": 230,
+    "dimensionsL": 196,
+    "dimensionsW": 5.7,
     "pixelDensity": 304,
     "wifiVersion": "No WiFi",
     "bluetoothVersion": "No Bluetooth",
@@ -6644,6 +6684,9 @@
         "text": "Adjustable front light for comfortable reading in any lighting"
       },
       {
+        "text": "Slim design at only 5.7mm thick"
+      },
+      {
         "text": "Large 10.2\" screen, ideal for PDFs and comics"
       },
       {
@@ -6656,6 +6699,9 @@
     "cons": [
       {
         "text": "No physical page turn buttons, all navigation is done via the touchscreen"
+      },
+      {
+        "text": "Heavy device at 433g"
       },
       {
         "text": "No expandable storage"
@@ -7742,9 +7788,9 @@
       "Phone-Like"
     ],
     "similar": [
-      "durobo-krono",
       "viwoods-aipaper-reader",
       "boox-palma",
+      "durobo-krono",
       "bigme-hibreak-s-bw"
     ],
     "pros": [
@@ -12394,8 +12440,8 @@
       "Phone-Like"
     ],
     "similar": [
-      "boox-palma-2",
       "durobo-krono",
+      "boox-palma-2",
       "viwoods-aipaper-reader",
       "moaan-inkpalm-plus"
     ],
@@ -16466,12 +16512,12 @@
     "screenType": "E Ink Carta 1200",
     "operatingSystem": "Kindle ",
     "androidVersion": null,
-    "dimensions": null,
-    "weight": null,
-    "cpu": "64 GB ⓘ",
-    "storage": "16 GB",
-    "ram": "32 GB",
-    "battery": "❌",
+    "dimensions": "196 x 230 x 5.8",
+    "weight": 433,
+    "cpu": "1 GHz dual core",
+    "storage": "16 GB Source: https://comparisontabl.es/e-readers/#display-type",
+    "ram": "1 GB",
+    "battery": "3000 mAh",
     "aspectRatio": "3:4",
     "screenLight": true,
     "warmLight": true,
@@ -16479,14 +16525,14 @@
     "darkMode": true,
     "wifi": true,
     "bluetooth": true,
-    "sdCard": true,
-    "usbc": false,
+    "sdCard": false,
+    "usbc": true,
     "mobileData": false,
     "speakers": true,
     "microphone": false,
     "browser": true,
     "textToSpeech": true,
-    "waterproof": true,
+    "waterproof": false,
     "touchscreen": true,
     "pageTurnButtons": false,
     "automaticRotation": true,
@@ -16498,6 +16544,9 @@
     "availability": "Available",
     "bookStore": true,
     "libby": true,
+    "dimensionsH": 230,
+    "dimensionsL": 196,
+    "dimensionsW": 5.8,
     "pixelDensity": 304,
     "wifiVersion": "No WiFi",
     "bluetoothVersion": "No Bluetooth",
@@ -16524,10 +16573,13 @@
         "text": "Stylus support is great for annotations and note-taking"
       },
       {
-        "text": "Expandable storage via SD card"
+        "text": "Big 3000 mAh battery, weeks of reading on a single charge"
       },
       {
         "text": "Front light lets you read comfortably in the dark"
+      },
+      {
+        "text": "Slim design at only 5.8mm thick"
       },
       {
         "text": "Big screen makes reading easier, especially for documents and illustrated content"
@@ -16542,6 +16594,12 @@
     "cons": [
       {
         "text": "No physical page turn buttons, all navigation is done via the touchscreen"
+      },
+      {
+        "text": "Heavy device at 433g"
+      },
+      {
+        "text": "No SD card slot, limited to built-in storage"
       }
     ]
   },
@@ -17847,12 +17905,12 @@
     "screenType": "E Ink Carta 1200",
     "operatingSystem": "Android",
     "androidVersion": "11",
-    "dimensions": null,
-    "weight": 15.9,
-    "cpu": "4000 MB ⓘ",
+    "dimensions": "79.5 x 159 x 7.8",
+    "weight": 183,
+    "cpu": "2.0 GHz octa core",
     "storage": "128 GB",
-    "ram": "256 GB",
-    "battery": "❌",
+    "ram": "4 GB",
+    "battery": "4000 mAh",
     "aspectRatio": "1:2",
     "screenLight": true,
     "warmLight": true,
@@ -17860,25 +17918,28 @@
     "darkMode": true,
     "wifi": true,
     "bluetooth": true,
-    "sdCard": true,
-    "usbc": false,
+    "sdCard": false,
+    "usbc": true,
     "mobileData": true,
     "speakers": true,
     "microphone": false,
     "browser": true,
     "textToSpeech": true,
-    "waterproof": true,
+    "waterproof": false,
     "touchscreen": true,
     "pageTurnButtons": true,
     "automaticRotation": true,
     "stylusSupport": false,
-    "audioOutput": false,
+    "audioOutput": true,
     "wirelessCharging": false,
     "cloudStorage": true,
     "email": true,
     "availability": "Available",
     "bookStore": true,
     "libby": true,
+    "dimensionsH": 159,
+    "dimensionsL": 79.5,
+    "dimensionsW": 7.8,
     "pixelDensity": 302,
     "wifiVersion": "No WiFi",
     "bluetoothVersion": "No Bluetooth",
@@ -17904,7 +17965,7 @@
         "text": "Physical page turn buttons"
       },
       {
-        "text": "Expandable storage via SD card"
+        "text": "Big 4000 mAh battery, weeks of reading on a single charge"
       },
       {
         "text": "Adjustable front light for comfortable reading in any lighting"
@@ -17916,7 +17977,11 @@
         "text": "WiFi support makes it easier to access your content"
       }
     ],
-    "cons": []
+    "cons": [
+      {
+        "text": "No expandable storage"
+      }
+    ]
   },
   {
     "id": "moaan-inkpalm-5-mini-gen-2",
@@ -18061,10 +18126,10 @@
       "Phone-Like"
     ],
     "similar": [
+      "hisense-touch",
       "bigme-hibreak-bw",
       "moaan-inkpalm-5-mini-gen-2",
-      "moaan-inkpalm-5-mini-pro",
-      "bigme-hibreak-s-bw"
+      "moaan-inkpalm-5-mini-pro"
     ],
     "pros": [
       {
@@ -18552,12 +18617,12 @@
     "screenType": "E Ink Carta 1200",
     "operatingSystem": "Kindle ",
     "androidVersion": null,
-    "dimensions": null,
-    "weight": 17.4,
-    "cpu": "512 MB",
+    "dimensions": "125 x 174 x 8.1",
+    "weight": 205,
+    "cpu": "1 GHz",
     "storage": "8 GB",
-    "ram": "16 GB",
-    "battery": "❌",
+    "ram": "512 MB",
+    "battery": "1700 mAh",
     "aspectRatio": "3:4",
     "screenLight": true,
     "warmLight": true,
@@ -18566,7 +18631,7 @@
     "wifi": true,
     "bluetooth": true,
     "sdCard": false,
-    "usbc": false,
+    "usbc": true,
     "mobileData": false,
     "speakers": true,
     "microphone": false,
@@ -18584,6 +18649,9 @@
     "availability": "Available",
     "bookStore": true,
     "libby": true,
+    "dimensionsH": 174,
+    "dimensionsL": 125,
+    "dimensionsW": 8.1,
     "pixelDensity": 303,
     "wifiVersion": "No WiFi",
     "bluetoothVersion": "No Bluetooth",
@@ -20194,10 +20262,10 @@
       "Kindle Alternative"
     ],
     "similar": [
+      "dasung-not-ereader-103",
       "boox-nova-3-color",
       "boox-tab-mini-c",
-      "bigme-s6-color",
-      "bigme-inknote"
+      "bigme-s6-color"
     ],
     "pros": [
       {
@@ -20223,6 +20291,186 @@
       }
     ],
     "cons": []
+  },
+  {
+    "id": "dasung-not-ereader-103",
+    "brand": "Dasung",
+    "name": "Dasung Not-eReader 103",
+    "fullName": "Dasung Not-eReader 103",
+    "releaseDate": "2021",
+    "price": 649,
+    "screenSize": 10.3,
+    "resolution": "1404 x 1872",
+    "screenType": "E Ink Carta HD",
+    "operatingSystem": "Android",
+    "androidVersion": "9",
+    "dimensions": "191 x 232 x 9.1",
+    "weight": 484,
+    "cpu": "2.2 GHz octa core",
+    "storage": "64 GB",
+    "ram": "4 GB",
+    "battery": "6400 mAh",
+    "aspectRatio": "3:4",
+    "screenLight": true,
+    "warmLight": true,
+    "colorDisplay": false,
+    "darkMode": true,
+    "wifi": true,
+    "bluetooth": true,
+    "sdCard": true,
+    "usbc": true,
+    "mobileData": false,
+    "speakers": true,
+    "microphone": true,
+    "browser": true,
+    "textToSpeech": true,
+    "waterproof": false,
+    "touchscreen": true,
+    "pageTurnButtons": true,
+    "automaticRotation": true,
+    "stylusSupport": false,
+    "audioOutput": true,
+    "wirelessCharging": false,
+    "cloudStorage": true,
+    "email": true,
+    "availability": "Available",
+    "bookStore": true,
+    "libby": true,
+    "dimensionsH": 232,
+    "dimensionsL": 191,
+    "dimensionsW": 9.1,
+    "pixelDensity": 227,
+    "wifiVersion": "No WiFi",
+    "bluetoothVersion": "No Bluetooth",
+    "priceCategory": "High-End",
+    "sizeCategory": "Medium",
+    "categories": [
+      "High-End",
+      "Medium",
+      "For Reading",
+      "Kindle Alternative"
+    ],
+    "similar": [
+      "dasung-not-ereader-078",
+      "boox-note-air-2",
+      "boox-note-air-2-plus",
+      "boox-tab-ultra"
+    ],
+    "pros": [
+      {
+        "text": "Physical page turn buttons"
+      },
+      {
+        "text": "Expandable storage via SD card"
+      },
+      {
+        "text": "Big 6400 mAh battery, weeks of reading on a single charge"
+      },
+      {
+        "text": "Adjustable front light for comfortable reading in any lighting"
+      },
+      {
+        "text": "Large 10.3\" screen, ideal for PDFs and comics"
+      },
+      {
+        "text": "Bluetooth support enables connecting accessories"
+      },
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "Heavy device at 484g"
+      }
+    ]
+  },
+  {
+    "id": "hisense-touch",
+    "brand": "Hisense",
+    "name": "Hisense Touch",
+    "fullName": "Hisense Touch",
+    "releaseDate": "2021",
+    "price": 249,
+    "screenSize": 5.84,
+    "resolution": "720 x 1440",
+    "screenType": "E Ink Carta HD",
+    "operatingSystem": "Android",
+    "androidVersion": "11",
+    "dimensions": "73.7 x 151.8 x 7",
+    "weight": 155,
+    "cpu": "1.95 GHz octa core",
+    "storage": "64 GB",
+    "ram": "4 GB",
+    "battery": "3000 mAh",
+    "aspectRatio": "1:2",
+    "screenLight": true,
+    "warmLight": true,
+    "colorDisplay": false,
+    "darkMode": true,
+    "wifi": true,
+    "bluetooth": true,
+    "sdCard": false,
+    "usbc": true,
+    "mobileData": false,
+    "speakers": true,
+    "microphone": false,
+    "browser": true,
+    "textToSpeech": true,
+    "waterproof": false,
+    "touchscreen": true,
+    "pageTurnButtons": true,
+    "automaticRotation": true,
+    "stylusSupport": false,
+    "audioOutput": true,
+    "wirelessCharging": false,
+    "cloudStorage": true,
+    "email": true,
+    "availability": "Available",
+    "bookStore": true,
+    "libby": true,
+    "dimensionsH": 151.8,
+    "dimensionsL": 73.7,
+    "dimensionsW": 7,
+    "pixelDensity": 276,
+    "wifiVersion": "No WiFi",
+    "bluetoothVersion": "No Bluetooth",
+    "priceCategory": "Mid-Range",
+    "sizeCategory": "Medium",
+    "categories": [
+      "Mid-Range",
+      "Medium",
+      "For Reading",
+      "Phone-Like"
+    ],
+    "similar": [
+      "moaan-inkpalm-plus",
+      "bigme-hibreak-bw",
+      "bigme-hibreak-s-bw",
+      "bigme-hibreak-color"
+    ],
+    "pros": [
+      {
+        "text": "Physical page turn buttons"
+      },
+      {
+        "text": "Big 3000 mAh battery, weeks of reading on a single charge"
+      },
+      {
+        "text": "Front light lets you read comfortably in the dark"
+      },
+      {
+        "text": "Bluetooth support enables connecting accessories"
+      },
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "No SD card slot, limited to built-in storage"
+      }
+    ]
   },
   {
     "id": "inkbook-calypso-plus",
@@ -20687,12 +20935,12 @@
     "screenType": "E Ink Carta",
     "operatingSystem": "Kindle ",
     "androidVersion": null,
-    "dimensions": null,
-    "weight": 15.9,
-    "cpu": "512 MB",
+    "dimensions": "141 x 159 x 8.4",
+    "weight": 188,
+    "cpu": "1 GHz dual core",
     "storage": "8 GB",
-    "ram": "32 GB",
-    "battery": "❌",
+    "ram": "512 MB",
+    "battery": "1130 mAh",
     "aspectRatio": "~3:4",
     "screenLight": true,
     "warmLight": true,
@@ -20719,6 +20967,9 @@
     "availability": "Discontinued",
     "bookStore": true,
     "libby": true,
+    "dimensionsH": 159,
+    "dimensionsL": 141,
+    "dimensionsW": 8.4,
     "pixelDensity": 300,
     "wifiVersion": "No WiFi",
     "bluetoothVersion": "No Bluetooth",
@@ -20756,6 +21007,9 @@
     "cons": [
       {
         "text": "No expandable storage"
+      },
+      {
+        "text": "Small 1130 mAh battery, may require more frequent charging than other e-readers"
       }
     ]
   },
@@ -21034,12 +21288,12 @@
     "screenType": "E Ink Carta HD",
     "operatingSystem": "Kindle ",
     "androidVersion": null,
-    "dimensions": null,
-    "weight": 16.7,
-    "cpu": "512 MB",
+    "dimensions": "116 x 167 x 8.2",
+    "weight": 182,
+    "cpu": "1 GHz",
     "storage": "8 GB",
-    "ram": "32 GB",
-    "battery": "❌",
+    "ram": "512 MB",
+    "battery": "1500 mAh",
     "aspectRatio": "~3:4",
     "screenLight": true,
     "warmLight": false,
@@ -21066,6 +21320,9 @@
     "availability": "Discontinued",
     "bookStore": true,
     "libby": true,
+    "dimensionsH": 167,
+    "dimensionsL": 116,
+    "dimensionsW": 8.2,
     "pixelDensity": 300,
     "wifiVersion": "No WiFi",
     "bluetoothVersion": "No Bluetooth",
@@ -21118,12 +21375,12 @@
     "screenType": "E Ink Mobius Carta",
     "operatingSystem": "Kobo ",
     "androidVersion": null,
-    "dimensions": null,
-    "weight": 17.7,
-    "cpu": "512 MB",
+    "dimensions": "160 x 177 x 8.5",
+    "weight": 197,
+    "cpu": "1 GHz",
     "storage": "8 GB",
-    "ram": "32 GB",
-    "battery": "❌",
+    "ram": "512 MB",
+    "battery": "1200 mAh",
     "aspectRatio": "3:4",
     "screenLight": true,
     "warmLight": true,
@@ -21150,6 +21407,9 @@
     "availability": "Discontinued",
     "bookStore": true,
     "libby": true,
+    "dimensionsH": 177,
+    "dimensionsL": 160,
+    "dimensionsW": 8.5,
     "pixelDensity": 300,
     "wifiVersion": "No WiFi",
     "bluetoothVersion": "No Bluetooth",
@@ -21287,12 +21547,12 @@
     "screenType": "E Ink Carta",
     "operatingSystem": "Kindle ",
     "androidVersion": null,
-    "dimensions": null,
-    "weight": 15.9,
-    "cpu": "512 MB",
+    "dimensions": "141 x 159 x 8.3",
+    "weight": 194,
+    "cpu": "1 GHz dual core",
     "storage": "8 GB",
-    "ram": "32 GB",
-    "battery": "❌",
+    "ram": "512 MB",
+    "battery": "1000 mAh",
     "aspectRatio": "~3:4",
     "screenLight": true,
     "warmLight": false,
@@ -21319,6 +21579,9 @@
     "availability": "Discontinued",
     "bookStore": true,
     "libby": true,
+    "dimensionsH": 159,
+    "dimensionsL": 141,
+    "dimensionsW": 8.3,
     "pixelDensity": 300,
     "wifiVersion": "No WiFi",
     "bluetoothVersion": "No Bluetooth",
@@ -21356,6 +21619,9 @@
     "cons": [
       {
         "text": "No expandable storage"
+      },
+      {
+        "text": "Small 1000 mAh battery, may require more frequent charging than other e-readers"
       }
     ]
   },
@@ -21635,7 +21901,7 @@
     "cpu": "1 GHz",
     "storage": "4 GB",
     "ram": "512 MB",
-    "battery": "1535 mAh ⓘ",
+    "battery": "1535 mAh ",
     "aspectRatio": "~3:4",
     "screenLight": true,
     "warmLight": false,
@@ -22491,12 +22757,12 @@
     "screenType": "E Ink Carta",
     "operatingSystem": "Kindle ",
     "androidVersion": null,
-    "dimensions": null,
-    "weight": 16.9,
-    "cpu": "256 MB",
+    "dimensions": "117 x 169 x 9.1",
+    "weight": 206,
+    "cpu": "1 GHz",
     "storage": "2 GB",
-    "ram": "4 GB",
-    "battery": "❌",
+    "ram": "256 MB",
+    "battery": "1420 mAh",
     "aspectRatio": "~3:4",
     "screenLight": true,
     "warmLight": false,
@@ -22511,7 +22777,7 @@
     "microphone": false,
     "browser": true,
     "textToSpeech": false,
-    "waterproof": true,
+    "waterproof": false,
     "touchscreen": true,
     "pageTurnButtons": false,
     "automaticRotation": false,
@@ -22523,6 +22789,9 @@
     "availability": "Discontinued",
     "bookStore": true,
     "libby": true,
+    "dimensionsH": 169,
+    "dimensionsL": 117,
+    "dimensionsW": 9.1,
     "pixelDensity": 212,
     "wifiVersion": "No WiFi",
     "bluetoothVersion": "No Bluetooth",

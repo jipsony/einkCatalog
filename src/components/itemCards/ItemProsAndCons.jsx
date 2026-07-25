@@ -102,7 +102,7 @@ export default function ItemProsAndCons(props) {
       {(props.itemInfo?.pros?.length > 0 ||
         props.itemInfo?.cons?.length > 0) && (
         <SimpleGrid
-          templateColumns={{ base: "1fr", md: "1fr 1fr" }}
+          templateColumns={{ base: "1fr", "2xl": "1fr 1fr" }}
           gap={".5rem"}
         >
           {renderProOrCon(

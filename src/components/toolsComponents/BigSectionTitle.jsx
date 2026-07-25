@@ -29,7 +29,7 @@ export default function BigSectionTitle(props) {
       textAlign="left"
       // style={{ wordSpacing: "3px" }}
       fontWeight={"700"}
-      color={"var(--appColorText)"}
+      color={"var(--appColorAccent)"}
       {...props}
       overflow={"hidden"}
       mawW="100%"

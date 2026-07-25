@@ -27,7 +27,7 @@ export default function ItemFullInfoPage(props) {
           // lineBefore={{ base: false, lg: true }}
           fontSize={bigSectionTitleFontSize}
         ></BigSectionTitle>
-        <SimpleGrid templateColumns={{ xl: "1fr 1fr" }} gap={"1rem"}>
+        <SimpleGrid templateColumns={{ "2xl": "1fr 1fr" }} gap={"1rem"}>
           {items?.length > 0 &&
             props.itemInfo?.similar?.map((similar) => {
               const similarItemInfo = items.find((row) => row.id === similar);

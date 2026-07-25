@@ -243,8 +243,8 @@ function FrontPageQuickLinks() {
   const quickLinksCategories = [
     {text: "For Reading", link: "For Reading"},
     {text: "For Note-Taking", link: "For Note-Taking"},
-    {text: "Phone-Likes", link: "Phone-Likes"},
-    {text: "Kindle Alternatives", link: "Kindle Alternatives"}
+    {text: "Phone-Likes", link: "Phone-Like"},
+    {text: "Kindle Alternatives", link: "Kindle Alternative"}
   ];
 
   const priceCategories = [
@@ -401,7 +401,10 @@ function FrontPageFunctionalityCards() {
         text={"Use our tags and filters to find the best device for you"}
         icon={IoMdCompass}
         href={itemMainRoute}
-        image={buildFrontImageUrl("musnap-neo-2c")}
+        // image={buildFrontImageUrl("musnap-neo-c")}
+        image={buildFrontImageUrl("kobo-libra-color")}
+        // image={buildFrontImageUrl("boox-go-103")}
+        // image={buildFrontImageUrl("boox-note-air-4-c")}
         cta="Browse Devices"
       ></FrontPageFunctionalityCard>
       <FrontPageFunctionalityCard

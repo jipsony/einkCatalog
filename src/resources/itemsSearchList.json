@@ -857,6 +857,14 @@
       "fullName": "Dasung Not-eReader 078"
     },
     {
+      "id": "dasung-not-ereader-103",
+      "fullName": "Dasung Not-eReader 103"
+    },
+    {
+      "id": "hisense-touch",
+      "fullName": "Hisense Touch"
+    },
+    {
       "id": "inkbook-calypso-plus",
       "fullName": "InkBOOK Calypso Plus"
     },
@@ -1743,6 +1751,10 @@
       "fullName": "Dasung Not-eReader 078"
     },
     {
+      "id": "dasung-not-ereader-103",
+      "fullName": "Dasung Not-eReader 103"
+    },
+    {
       "id": "dasung-not-ereader-133",
       "fullName": "Dasung Not-eReader 133"
     },
@@ -1877,6 +1889,10 @@
     {
       "id": "hisense-hi-reader-pro",
       "fullName": "Hisense Hi Reader Pro"
+    },
+    {
+      "id": "hisense-touch",
+      "fullName": "Hisense Touch"
     },
     {
       "id": "Huawei",
