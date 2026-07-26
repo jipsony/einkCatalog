@@ -11,6 +11,7 @@ export default function ItemScreenSpecsPreview(props) {
       <Box as="span" title="Aspect Ratio">
         {props?.itemInfo?.aspectRatio}
       </Box>
+      &bull; {props?.itemInfo?.rating}
     </Box>
   );
 }

@@ -38,7 +38,7 @@ const sortByNumericAttribute = (defJson, attribute) => {
       sortFunction: (defJson) => {
         return sortByNumericAttribute(
           defJson,
-          "approximativePrice"
+          "price"
         ).toReversed();
       },
     },
@@ -46,18 +46,18 @@ const sortByNumericAttribute = (defJson, attribute) => {
       label: "Price",
       labelChoice: "Lowest",
       sortFunction: (defJson) => {
-        return sortByNumericAttribute(defJson, "approximativePrice");
+        return sortByNumericAttribute(defJson, "price");
       },
     },
-    // highestRated: {
-    //   label: "Rating",
-    //   labelChoice: "Highest",
-    //   sortingAdjective: "Highest Rated",
+    highestRated: {
+      label: "Rating",
+      labelChoice: "Highest",
+      sortingAdjective: "Highest Rated",
 
-    //   sortFunction: (defJson) => {
-    //     return sortByNumericAttribute(defJson, "rating").toReversed();
-    //   },
-    // },
+      sortFunction: (defJson) => {
+        return sortByNumericAttribute(defJson, "rating").toReversed();
+      },
+    },
   };
 
   export {sortByDate,sortByNumericAttribute,sortOptions}

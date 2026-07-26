@@ -158,7 +158,9 @@ function FrontPageDeviceList(props) {
   const numberOfItems = 4;
   const slice = deviceList.slice(0, numberOfItems);
 
-  const moreLinkFilterString = JSON.stringify(props.moreLinkFilter);
+  const moreLinkFilterString = encodeURIComponent(
+    JSON.stringify(props.moreLinkFilter),
+  );
 
   return (
     <Box>
@@ -211,7 +213,7 @@ function QuickLinksTag(props) {
     <Flex
       as="a"
       // href={`${itemMainRoute}/categories/${props?.category}`}
-      href={`categories/${props?.category?.link}?filters=${JSON.stringify({"Staff Pick" : true})}`}
+      href={`categories/${props?.category?.link}?filters=${encodeURIComponent(JSON.stringify({ "Staff Pick": true }))}&sorting=highestRated`}
       fontSize="0.72rem"
       fontFamily="var(--font-roboto-mono)"
       fontWeight={"bold"}
