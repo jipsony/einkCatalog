@@ -51,6 +51,14 @@ const sections = {
       {
         attribute: "resolution",
         label: "Resolution",
+        compareFunction: (a, b) => {
+          const parsePixels = (r) =>
+            r
+              ?.split("x")
+              ?.map(Number)
+              .reduce((acc, v) => acc * v, 1);
+          return compareFloat(parsePixels(a), parsePixels(b));
+        },
       },
       {
         attribute: "aspectRatio",
@@ -201,19 +209,24 @@ const sections = {
       {
         attribute: "battery",
         label: "Battery",
+        compareFunction: (a, b) => compareFloat(a, b),
       },
       {
         attribute: "storage",
         label: "Storage",
+        compareFunction: (a, b) => compareFloat(a, b),
       },
 
       {
         attribute: "ram",
         label: "RAM",
+        compareFunction: (a, b) => compareFloat(a, b),
       },
       {
         attribute: "cpu",
         label: "CPU",
+        compareFunction: (a, b) => compareFloat(a, b),
+
       },
     ],
   },

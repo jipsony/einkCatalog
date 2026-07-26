@@ -103,7 +103,7 @@ export default function ItemMainInfoCard(props) {
       if (isCompareValueUndefined(attributeId)) return;
       const compareResult = attributeInfo?.compareFunction(
         props.itemInfo?.[attributeId],
-        props.compareWithitemInfo?.[attributeId],
+        props.compareWithItemInfo?.[attributeId],
       );
       return compareColor(compareResult);
     };
@@ -111,7 +111,7 @@ export default function ItemMainInfoCard(props) {
     if (
       attributeInfo?.compareFunction &&
       !attributeInfo.dontCompare &&
-      props.compareWithitemInfo
+      props.compareWithItemInfo
     ) {
       return (
         <CompareKeyValueIcon
@@ -132,13 +132,13 @@ export default function ItemMainInfoCard(props) {
       id: "releaseDate",
       label: "Release Date",
       formatFunction: formatReleaseDate,
-      compareFunction: compareReleaseDate,
+      // compareFunction: compareReleaseDate,
     },
     {
       id: "screenSize",
       label: "Screen",
       formatFunction: formatScreenSize,
-      compareFunction: compareScreenSize,
+      // compareFunction: compareScreenSize,
     },
     {
       id: "operatingSystem",
@@ -186,14 +186,14 @@ export default function ItemMainInfoCard(props) {
                 return (
                   <Box
                     key={`${idx}KV`}
-                    ml={props.compareWithitemInfo && "2px"}
+                    ml={props.compareWithItemInfo && "2px"}
                     pt="6px"
                   >
-                    {mainAttribute?.id === "price" && (
-                      <Box float="right">
+                    {/* {mainAttribute?.id === "price" && ( */}
+                      <Box float="left">
                         {renderCompareKeyValue(mainAttribute.id)}
                       </Box>
-                    )}
+                    {/* )} */}
                     <Box
                       //   width={{ base: "50%", md: "40%" }}
                       float="left"
