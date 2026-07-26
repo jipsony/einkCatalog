@@ -16,7 +16,7 @@ export default function ItemFullInfoPage(props) {
   const directionBreakpoint = "md";
 
   const bigSectionTitleFontSize = "1.5rem";
-  const renderSimilarHandhelds = () => {
+  const renderSimilarItems = () => {
     return (
       <Box>
         <BigSectionTitle
@@ -32,7 +32,7 @@ export default function ItemFullInfoPage(props) {
             props.itemInfo?.similar?.map((similar) => {
               const similarItemInfo = items.find((row) => row.id === similar);
               return (
-                <Box key={"similar:" + similarItemInfo?.id} maxHeight={"6rem"}>
+                <Box key={"similar:" + similarItemInfo?.id} maxHeight={"6rem"} overflow={"hidden"}>
                   <ItemHorizontalPreviewCard
                     itemInfo={similarItemInfo}
                     compareLink={`${itemMainRoute}/compare/${props?.itemInfo?.id}/${similarItemInfo?.id}`}
@@ -87,7 +87,7 @@ export default function ItemFullInfoPage(props) {
               directionBreakpoint={directionBreakpoint}
             />
           </Box>
-          {renderSimilarHandhelds()}
+          {renderSimilarItems()}
         </Box>
       </Stack>
     </>

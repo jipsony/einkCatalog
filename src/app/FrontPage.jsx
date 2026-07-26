@@ -75,7 +75,7 @@ function FrontPageFunctionalityCard(props) {
         borderRadius={"18px"}
         overflow="hidden"
       >
-        <Box as="a" height="100%" href={props?.href}>
+        <Box as={props?. href ? "a" : "div"} height="100%" href={props?.href ?? undefined}>
           <SimpleGrid templateColumns={"1fr 1fr"} height="100%">
             <Box py={"2rem"} pl="2rem" px="1rem">
               <Flex
@@ -176,7 +176,7 @@ function FrontPageDeviceList(props) {
         {deviceList?.length > numberOfItems && (
           <Box
             as="a"
-            href={`/${itemMainRoute}?filters=${moreLinkFilterString}`}
+            href={`${itemMainRoute}/?filters=${moreLinkFilterString}`}
             // fontSize="0.72rem"
             fontFamily="var(--font-roboto-mono)"
             fontWeight={"bold"}
@@ -420,7 +420,6 @@ function FrontPageFunctionalityCards() {
           title={"Deep Dive"}
           text={"Browse specs, features, and reviews of any device"}
           icon={MdSearch}
-          href={`/${itemMainRoute}`}
           image={buildFrontImageUrl("viwoods-aipaper-reader")}
           cta="View Specs"
         ></FrontPageFunctionalityCard>

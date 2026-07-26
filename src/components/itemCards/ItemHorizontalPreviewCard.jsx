@@ -11,7 +11,7 @@ import ItemScreenSpecsPreview from "./ItemScreenSpecsPreview";
 export default function ItemHorizontalPreviewCard(props) {
   return (
     <ItemCard p={0} _hover={{ borderColor: "var(--foreground)" }} h="100%">
-      <HStack gap={0} h="100%">
+      <HStack gap={0} h="100%" >
         <a
           href={buildItemFullInfoLink(props?.itemInfo?.id)}
           style={{ flex: 1, minWidth: 0, display: "flex", height: "100%" }}
