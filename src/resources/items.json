@@ -470,8 +470,8 @@
     "similar": [
       "boox-go-7",
       "bigme-b7-pro-bw",
-      "boox-go-103",
-      "boox-nova-air"
+      "boox-nova-air",
+      "meebook-m8"
     ],
     "pros": [
       {
@@ -2402,7 +2402,7 @@
       "boox-go-6-gen-ii",
       "bigme-b7-pro-bw",
       "boox-go-color-7-gen-ii",
-      "boox-go-103"
+      "boox-nova-air"
     ],
     "pros": [
       {
@@ -2710,7 +2710,7 @@
       "bigme-hibreak-dual-color",
       "boox-note-air-5-c",
       "boox-note-air-3-c",
-      "boox-tab-ultra-c-pro"
+      "bigme-hibreak-pro"
     ],
     "pros": [
       {
@@ -2805,8 +2805,8 @@
     "rating": 0.772,
     "similar": [
       "boox-note-air-3-c",
-      "boox-tab-ultra-c-pro",
       "boox-tab-ultra-c",
+      "boox-tab-ultra-c-pro",
       "boox-note-air-4-c"
     ],
     "pros": [
@@ -3951,8 +3951,8 @@
     ],
     "rating": 0.652,
     "similar": [
-      "boox-palma-2",
       "viwoods-aipaper-reader-c",
+      "boox-palma-2",
       "boox-palma",
       "durobo-krono"
     ],
@@ -4593,8 +4593,8 @@
     "similar": [
       "penstar-enote",
       "mobiscribe-the-origin",
-      "boox-go-103",
-      "lenovo-smart-paper"
+      "lenovo-smart-paper",
+      "meebook-m103"
     ],
     "pros": [
       {
@@ -7780,8 +7780,8 @@
     "rating": 0.668,
     "similar": [
       "meebook-p10-pro",
-      "boox-go-103",
       "meebook-m8",
+      "boox-go-103",
       "meebook-p78-pro"
     ],
     "pros": [
@@ -7868,17 +7868,19 @@
     "bluetoothVersion": "No Bluetooth",
     "priceCategory": "Mid-Range",
     "sizeCategory": "Medium",
+    "ratingCategory": "staffPick",
     "categories": [
       "Mid-Range",
       "Medium",
+      "Staff Pick",
       "For Reading",
       "Phone-Like"
     ],
-    "rating": 0.715,
+    "rating": 0.728,
     "similar": [
-      "viwoods-aipaper-reader",
       "boox-palma",
       "durobo-krono",
+      "viwoods-aipaper-reader",
       "bigme-hibreak-s-bw"
     ],
     "pros": [
@@ -7969,8 +7971,8 @@
     ],
     "rating": 0.752,
     "similar": [
-      "boox-note-air-3-c",
       "boox-tab-ultra-c-pro",
+      "boox-note-air-3-c",
       "boox-note-air-5-c",
       "boox-tab-ultra-c"
     ],
@@ -8254,19 +8256,21 @@
     "bluetoothVersion": "No Bluetooth",
     "priceCategory": "Mid-Range",
     "sizeCategory": "Medium",
+    "ratingCategory": "staffPick",
     "categories": [
       "Mid-Range",
       "Medium",
+      "Staff Pick",
       "For Reading",
       "For Note-taking",
       "Kindle Alternative"
     ],
-    "rating": 0.615,
+    "rating": 0.635,
     "similar": [
       "meebook-m103",
       "boox-go-6-gen-ii",
-      "bigme-b1051-lite",
-      "boox-go-7"
+      "boox-page",
+      "bigme-b1051-lite"
     ],
     "pros": [
       {
@@ -9575,7 +9579,7 @@
       "bigme-inknote-s",
       "bigme-b751",
       "bigme-s6",
-      "boox-go-103"
+      "huion-ink-eb1011"
     ],
     "pros": [
       {
@@ -10840,9 +10844,9 @@
     "rating": 0.581,
     "similar": [
       "penstar-enote-2",
-      "boox-go-103",
       "mobiscribe-the-origin",
-      "lenovo-smart-paper"
+      "lenovo-smart-paper",
+      "bigme-b1051-lite"
     ],
     "pros": [
       {
@@ -11904,7 +11908,7 @@
       "bookeen-nota",
       "bigme-inknote-s",
       "meebook-p10-pro",
-      "boox-go-103"
+      "geniatech-kloudnote-slim"
     ],
     "pros": [
       {
@@ -12174,19 +12178,21 @@
     "bluetoothVersion": "No Bluetooth",
     "priceCategory": "High-End",
     "sizeCategory": "Medium",
+    "ratingCategory": "staffPick",
     "categories": [
       "High-End",
       "Medium",
+      "Staff Pick",
       "For Reading",
       "For Note-taking",
       "Kindle Alternative"
     ],
-    "rating": 0.732,
+    "rating": 0.745,
     "similar": [
+      "boox-note-air-4-c",
       "boox-note-air-3-c",
       "boox-note-air-5-c",
-      "boox-tab-ultra-c",
-      "boox-note-air-4-c"
+      "boox-tab-ultra-c"
     ],
     "pros": [
       {
@@ -12287,9 +12293,9 @@
     ],
     "rating": 0.739,
     "similar": [
-      "boox-tab-ultra-c-pro",
       "boox-note-air-5-c",
       "boox-tab-ultra-c",
+      "boox-tab-ultra-c-pro",
       "boox-note-air-4-c"
     ],
     "pros": [
@@ -12497,9 +12503,9 @@
     "rating": 0.708,
     "similar": [
       "meebook-m7",
+      "boox-go-103",
       "boox-poke-5",
-      "boox-go-6",
-      "boox-poke-4-lite"
+      "boox-go-6"
     ],
     "pros": [
       {
@@ -12591,8 +12597,8 @@
     ],
     "rating": 0.741,
     "similar": [
-      "durobo-krono",
       "boox-palma-2",
+      "durobo-krono",
       "viwoods-aipaper-reader",
       "moaan-inkpalm-plus"
     ],
@@ -12872,9 +12878,9 @@
     "rating": 0.732,
     "similar": [
       "boox-note-air-3-c",
-      "boox-tab-ultra-c-pro",
       "boox-note-air-5-c",
-      "bigme-guoyue-k3-color"
+      "bigme-guoyue-k3-color",
+      "bigme-inknote-color"
     ],
     "pros": [
       {
@@ -17252,7 +17258,7 @@
       "meebook-p78-pro",
       "meebook-m103",
       "meebook-m8",
-      "boox-go-103"
+      "bookeen-nota"
     ],
     "pros": [
       {
@@ -18470,10 +18476,10 @@
     ],
     "rating": 0.671,
     "similar": [
-      "boox-go-103",
       "meebook-p78-pro",
       "boox-go-7",
-      "boox-go-6-gen-ii"
+      "boox-go-6-gen-ii",
+      "meebook-m103"
     ],
     "pros": [
       {
@@ -19024,7 +19030,7 @@
       "kobo-libra-2",
       "tolino-epos-3",
       "kobo-clara-2e",
-      "boox-go-103"
+      "meebook-m103"
     ],
     "pros": [
       {
