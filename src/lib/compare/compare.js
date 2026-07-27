@@ -1,8 +1,22 @@
+// export const compareColorsRender = {
+//   red: "#e5534b",
+//   green: "#3fb950",
+//   yellow: "#ecc94b",
+//   grey: "#525157",
+// };
+
+// export const compareColorsRender = {
+//   red: "#b85c58",
+//   green: "#4a8c63",
+//   yellow: "#a07e2a",
+//   grey: "#7a7680",
+// };
+
 export const compareColorsRender = {
-  red: "#e5534b",
-  green: "#3fb950",
-  yellow: "#ecc94b",
-  grey: "#525157",
+  red: "#ce615b",
+  green: "#52a371",
+  yellow: "#dfb958",
+  grey: "#7a7680",
 };
 
 export const compareFloat = (a, b) => {

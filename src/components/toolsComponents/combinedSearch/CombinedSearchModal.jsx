@@ -80,6 +80,7 @@ export default function CombinedSearchModal(props) {
     <Dialog.Root
       open={open}
       size={{ sm: "2xl", base: "lg" }}
+      placement={{base:"top", md: "center"}}
       fontSize="14px"
       mx=".5rem"
       onOpenChange={(e) => {

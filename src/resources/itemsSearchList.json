@@ -1,8 +1,8 @@
 {
   "unsorted": [
     {
-      "id": "remarkable-paper-pure",
-      "fullName": "reMarkable Paper Pure"
+      "id": "xteink-x4-pro",
+      "fullName": "Xteink X4 Pro"
     },
     {
       "id": "kindle-scribe-3-without-front-light",
@@ -881,6 +881,10 @@
       "fullName": "SPC Dickens Light Pro"
     },
     {
+      "id": "remarkable-2",
+      "fullName": "reMarkable 2"
+    },
+    {
       "id": "kobo-nia",
       "fullName": "Kobo Nia"
     },
@@ -911,6 +915,10 @@
     {
       "id": "kobo-clara-hd",
       "fullName": "Kobo Clara HD"
+    },
+    {
+      "id": "remarkable-1",
+      "fullName": "reMarkable 1"
     },
     {
       "id": "kindle-oasis-2",
@@ -1049,10 +1057,10 @@
       "fullName": "Kindle 1"
     },
     {
-      "id": "reMarkable",
-      "fullName": "reMarkable",
+      "id": "Xteink",
+      "fullName": "Xteink",
       "specialType": "link",
-      "link": "/brands/reMarkable",
+      "link": "/brands/Xteink",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -1097,14 +1105,6 @@
       "icon": "fa-building"
     },
     {
-      "id": "Xteink",
-      "fullName": "Xteink",
-      "specialType": "link",
-      "link": "/brands/Xteink",
-      "prefix": "Brand",
-      "icon": "fa-building"
-    },
-    {
       "id": "DuRoBo",
       "fullName": "DuRoBo",
       "specialType": "link",
@@ -1117,6 +1117,14 @@
       "fullName": "Bemi",
       "specialType": "link",
       "link": "/brands/Bemi",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "reMarkable",
+      "fullName": "reMarkable",
+      "specialType": "link",
+      "link": "/brands/reMarkable",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -2599,16 +2607,20 @@
       "icon": "fa-building"
     },
     {
+      "id": "remarkable-1",
+      "fullName": "reMarkable 1"
+    },
+    {
+      "id": "remarkable-2",
+      "fullName": "reMarkable 2"
+    },
+    {
       "id": "remarkable-paper-pro",
       "fullName": "reMarkable Paper Pro"
     },
     {
       "id": "remarkable-paper-pro-move",
       "fullName": "reMarkable Paper Pro Move"
-    },
-    {
-      "id": "remarkable-paper-pure",
-      "fullName": "reMarkable Paper Pure"
     },
     {
       "id": "Silvergear",
@@ -2769,6 +2781,10 @@
     {
       "id": "xteink-x4",
       "fullName": "Xteink X4"
+    },
+    {
+      "id": "xteink-x4-pro",
+      "fullName": "Xteink X4 Pro"
     }
   ]
 }

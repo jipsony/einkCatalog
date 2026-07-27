@@ -1,31 +1,31 @@
 [
   {
-    "id": "remarkable-paper-pure",
-    "brand": "reMarkable",
-    "name": "reMarkable Paper Pure",
-    "fullName": "reMarkable Paper Pure",
-    "releaseDate": "2026 / 05",
-    "price": 399,
-    "screenSize": 10.3,
-    "resolution": "1404 x 1872",
-    "screenType": "E Ink Carta 1300",
-    "operatingSystem": "reMarkable OS",
+    "id": "xteink-x4-pro",
+    "brand": "Xteink",
+    "name": "Xteink X4 Pro",
+    "fullName": "Xteink X4 Pro",
+    "releaseDate": "2026 / 07",
+    "price": 99,
+    "screenSize": 4.3,
+    "resolution": "480 x 800",
+    "screenType": "E Ink",
+    "operatingSystem": "Custom",
     "androidVersion": null,
-    "dimensions": "187.1 x 228.1 x 6",
-    "weight": 360,
-    "cpu": "1.7 GHz dual core",
-    "storage": "32 GB",
-    "ram": "2 GB",
-    "battery": "3820 mAh",
-    "aspectRatio": "3:4",
-    "screenLight": false,
-    "warmLight": false,
+    "dimensions": "69 x 111 x 5.9",
+    "weight": 72,
+    "cpu": null,
+    "storage": "16 GB",
+    "ram": null,
+    "battery": "1100 mAh",
+    "aspectRatio": "3:5",
+    "screenLight": true,
+    "warmLight": true,
     "colorDisplay": false,
-    "darkMode": false,
+    "darkMode": true,
     "wifi": true,
-    "bluetooth": false,
-    "sdCard": false,
-    "usbc": true,
+    "bluetooth": true,
+    "sdCard": true,
+    "usbc": false,
     "mobileData": false,
     "speakers": false,
     "microphone": false,
@@ -33,49 +33,54 @@
     "textToSpeech": false,
     "waterproof": false,
     "touchscreen": true,
-    "pageTurnButtons": false,
-    "automaticRotation": "?",
-    "stylusSupport": true,
+    "pageTurnButtons": true,
+    "automaticRotation": false,
+    "stylusSupport": false,
     "audioOutput": false,
     "wirelessCharging": false,
-    "cloudStorage": true,
-    "email": true,
-    "availability": "Upcoming",
+    "cloudStorage": false,
+    "email": false,
+    "availability": "Available",
     "bookStore": false,
     "libby": false,
-    "dimensionsH": 228.1,
-    "dimensionsL": 187.1,
-    "dimensionsW": 6,
-    "pixelDensity": 227,
+    "dimensionsH": 111,
+    "dimensionsL": 69,
+    "dimensionsW": 5.9,
+    "pixelDensity": 217,
     "wifiVersion": "No WiFi",
     "bluetoothVersion": "No Bluetooth",
-    "priceCategory": "Mid-Range",
-    "sizeCategory": "Medium",
+    "priceCategory": "Budget",
+    "sizeCategory": "Compact",
     "categories": [
-      "Mid-Range",
-      "Medium",
-      "For Reading",
-      "For Note-taking"
+      "Budget",
+      "Compact",
+      "For Reading"
     ],
-    "rating": 0.477,
+    "rating": 0.48,
     "similar": [
-      "kindle-scribe",
-      "penstar-enote-2",
-      "penstar-enote",
-      "bigme-b7-pro-bw"
+      "xteink-x4",
+      "xteink-x3",
+      "famue-bf01",
+      "famue-bf07"
     ],
     "pros": [
       {
-        "text": "Stylus support is great for annotations and note-taking"
+        "text": "Physical page turn buttons"
       },
       {
-        "text": "Big 3820 mAh battery, weeks of reading on a single charge"
+        "text": "Expandable storage via SD card"
       },
       {
-        "text": "Slim design at only 6mm thick"
+        "text": "Small form factor makes it very portable"
       },
       {
-        "text": "Big screen makes reading easier, especially for documents and illustrated content"
+        "text": "Front light lets you read comfortably in the dark"
+      },
+      {
+        "text": "Slim design at only 5.9mm thick"
+      },
+      {
+        "text": "Bluetooth support enables connecting accessories"
       },
       {
         "text": "WiFi support makes it easier to access your content"
@@ -83,19 +88,7 @@
     ],
     "cons": [
       {
-        "text": "No front light, requires external lighting to read in the dark"
-      },
-      {
-        "text": "No physical page turn buttons, all navigation is done via the touchscreen"
-      },
-      {
-        "text": "Heavy device at 360g"
-      },
-      {
-        "text": "No SD card slot, limited to built-in storage"
-      },
-      {
-        "text": "No Bluetooth, can't connect wireless headphones for audiobooks"
+        "text": "4.3\" screen may be too small for some"
       }
     ]
   },
@@ -1526,10 +1519,10 @@
     ],
     "rating": 0.39,
     "similar": [
+      "xteink-x4-pro",
       "famue-bf01",
       "xteink-x4",
-      "m5stack-papers3",
-      "famue-bf07"
+      "m5stack-papers3"
     ],
     "pros": [
       {
@@ -1903,7 +1896,7 @@
       "For Note-taking",
       "Phone-Like"
     ],
-    "rating": 0.595,
+    "rating": 0.626,
     "similar": [
       "remarkable-paper-pro",
       "boox-palma-2-pro",
@@ -5582,10 +5575,10 @@
     ],
     "rating": 0.468,
     "similar": [
+      "xteink-x4-pro",
       "xteink-x3",
       "famue-bf01",
-      "m5stack-papers3",
-      "famue-bf07"
+      "m5stack-papers3"
     ],
     "pros": [
       {
@@ -5878,10 +5871,10 @@
     ],
     "rating": 0.505,
     "similar": [
+      "xteink-x4-pro",
       "xteink-x4",
       "spc-dickens-light-2-pro",
-      "xteink-x3",
-      "spc-dickens-light-pro"
+      "xteink-x3"
     ],
     "pros": [
       {
@@ -6344,8 +6337,8 @@
     "similar": [
       "m5stack-papers3",
       "famue-bf01",
-      "xteink-x3",
-      "xteink-x4"
+      "xteink-x4-pro",
+      "xteink-x3"
     ],
     "pros": [
       {
@@ -6543,7 +6536,7 @@
       "famue-bf07",
       "famue-bf01",
       "xteink-x3",
-      "xteink-x4"
+      "xteink-x4-pro"
     ],
     "pros": [
       {
@@ -6635,12 +6628,12 @@
       "For Reading",
       "For Note-taking"
     ],
-    "rating": 0.583,
+    "rating": 0.614,
     "similar": [
       "remarkable-paper-pro-move",
+      "remarkable-1",
       "boox-tab-x-c",
-      "boox-note-max",
-      "geniatech-kloudnote"
+      "boox-note-max"
     ],
     "pros": [
       {
@@ -11613,9 +11606,9 @@
     "rating": 0.44,
     "similar": [
       "xteink-x3",
+      "xteink-x4-pro",
       "famue-bf07",
-      "m5stack-papers3",
-      "xteink-x4"
+      "m5stack-papers3"
     ],
     "pros": [
       {
@@ -21154,6 +21147,108 @@
     ]
   },
   {
+    "id": "remarkable-2",
+    "brand": "reMarkable",
+    "name": "reMarkable 2",
+    "fullName": "reMarkable 2",
+    "releaseDate": "2020 / 08",
+    "price": 399,
+    "screenSize": 10.3,
+    "resolution": "1404 x 1872",
+    "screenType": "E Ink Carta",
+    "operatingSystem": "reMarkable OS",
+    "androidVersion": null,
+    "dimensions": "188 x 246 x 4.7",
+    "weight": 403.5,
+    "cpu": "1.2 GHz dual core",
+    "storage": "8 GB",
+    "ram": "1 GB",
+    "battery": "3000 mAh",
+    "aspectRatio": "3:4",
+    "screenLight": false,
+    "warmLight": false,
+    "colorDisplay": false,
+    "darkMode": false,
+    "wifi": true,
+    "bluetooth": false,
+    "sdCard": false,
+    "usbc": true,
+    "mobileData": false,
+    "speakers": false,
+    "microphone": false,
+    "browser": false,
+    "textToSpeech": false,
+    "waterproof": false,
+    "touchscreen": true,
+    "pageTurnButtons": false,
+    "automaticRotation": false,
+    "stylusSupport": true,
+    "audioOutput": false,
+    "wirelessCharging": false,
+    "cloudStorage": true,
+    "email": true,
+    "availability": "Discontinued",
+    "bookStore": false,
+    "libby": false,
+    "dimensionsH": 246,
+    "dimensionsL": 188,
+    "dimensionsW": 4.7,
+    "pixelDensity": 227,
+    "wifiVersion": "No WiFi",
+    "bluetoothVersion": "No Bluetooth",
+    "priceCategory": "Mid-Range",
+    "sizeCategory": "Medium",
+    "ratingCategory": "staffPick",
+    "categories": [
+      "Mid-Range",
+      "Medium",
+      "Staff Pick",
+      "For Reading",
+      "For Note-taking"
+    ],
+    "rating": 0.49,
+    "similar": [
+      "remarkable-1",
+      "penstar-enote",
+      "penstar-enote-2",
+      "boox-go-103"
+    ],
+    "pros": [
+      {
+        "text": "Stylus support is great for annotations and note-taking"
+      },
+      {
+        "text": "Big 3000 mAh battery, weeks of reading on a single charge"
+      },
+      {
+        "text": "Slim design at only 4.7mm thick"
+      },
+      {
+        "text": "Large 10.3\" screen, ideal for PDFs and comics"
+      },
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "No front light, requires external lighting to read in the dark"
+      },
+      {
+        "text": "No physical page turn buttons, all navigation is done via the touchscreen"
+      },
+      {
+        "text": "Heavy device at 403.5g"
+      },
+      {
+        "text": "No expandable storage"
+      },
+      {
+        "text": "No Bluetooth, can't connect wireless headphones for audiobooks"
+      }
+    ]
+  },
+  {
     "id": "kobo-nia",
     "brand": "Kobo",
     "name": "Kobo Nia",
@@ -21856,6 +21951,103 @@
       },
       {
         "text": "No SD card slot, limited to built-in storage"
+      },
+      {
+        "text": "No Bluetooth, can't connect wireless headphones for audiobooks"
+      }
+    ]
+  },
+  {
+    "id": "remarkable-1",
+    "brand": "reMarkable",
+    "name": "reMarkable 1",
+    "fullName": "reMarkable 1",
+    "releaseDate": "2017 / 09",
+    "price": 399,
+    "screenSize": 10.3,
+    "resolution": "1404 x 1872",
+    "screenType": "E Ink Carta",
+    "operatingSystem": "reMarkable OS",
+    "androidVersion": null,
+    "dimensions": "177 x 256 x 6.7",
+    "weight": 350,
+    "cpu": "1 GHz",
+    "storage": "8 GB",
+    "ram": "512 MB",
+    "battery": "3000 mAh",
+    "aspectRatio": "3:4",
+    "screenLight": false,
+    "warmLight": false,
+    "colorDisplay": false,
+    "darkMode": false,
+    "wifi": true,
+    "bluetooth": false,
+    "sdCard": false,
+    "usbc": false,
+    "mobileData": false,
+    "speakers": false,
+    "microphone": false,
+    "browser": false,
+    "textToSpeech": false,
+    "waterproof": false,
+    "touchscreen": true,
+    "pageTurnButtons": true,
+    "automaticRotation": false,
+    "stylusSupport": true,
+    "audioOutput": false,
+    "wirelessCharging": false,
+    "cloudStorage": true,
+    "email": true,
+    "availability": "Discontinued",
+    "bookStore": false,
+    "libby": false,
+    "dimensionsH": 256,
+    "dimensionsL": 177,
+    "dimensionsW": 6.7,
+    "pixelDensity": 227,
+    "wifiVersion": "No WiFi",
+    "bluetoothVersion": "No Bluetooth",
+    "priceCategory": "Mid-Range",
+    "sizeCategory": "Large",
+    "categories": [
+      "Mid-Range",
+      "Large",
+      "For Reading",
+      "For Note-taking"
+    ],
+    "rating": 0.472,
+    "similar": [
+      "remarkable-2",
+      "remarkable-paper-pro",
+      "penstar-enote",
+      "penstar-enote-2"
+    ],
+    "pros": [
+      {
+        "text": "Physical page turn buttons"
+      },
+      {
+        "text": "Stylus support is great for annotations and note-taking"
+      },
+      {
+        "text": "Big 3000 mAh battery, weeks of reading on a single charge"
+      },
+      {
+        "text": "Large 10.3\" screen, ideal for PDFs and comics"
+      },
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "No front light, requires external lighting to read in the dark"
+      },
+      {
+        "text": "Heavy device at 350g"
+      },
+      {
+        "text": "No expandable storage"
       },
       {
         "text": "No Bluetooth, can't connect wireless headphones for audiobooks"

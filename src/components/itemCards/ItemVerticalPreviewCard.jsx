@@ -5,9 +5,11 @@ import { buildFrontImageUrl } from "@/lib/images";
 import { buildItemFullInfoLink } from "@/lib/appGlobals";
 import ItemAttributeIcons from "./ItemAttributeIcons";
 import ItemScreenSpecsPreview from "./ItemScreenSpecsPreview";
+import { staffPicks } from "@/resources/staffPicks";
 
 export default function ItemVerticalPreviewCard(props) {
   const categories = props.itemInfo?.categories ?? [];
+  const isStaffPick = staffPicks.includes(props.itemInfo?.id);
 
   const renderCategories = () => {
     <Flex
@@ -63,6 +65,18 @@ export default function ItemVerticalPreviewCard(props) {
             position={"relative"}
           >
             <Image src={buildFrontImageUrl(props.itemInfo?.id)} />
+            {/* {isStaffPick && (
+              <Box position="absolute" top="8px" right="8px">
+                <AppTooltip
+                  label="Staff Pick"
+                  content={
+                    <Box color="var(--appColorAccent)" opacity={.6}>
+                      <RxStarFilled size="20" />
+                    </Box>
+                  }
+                ></AppTooltip>
+              </Box>
+            )} */}
             <Box
               fontSize="11px"
               position="absolute"
