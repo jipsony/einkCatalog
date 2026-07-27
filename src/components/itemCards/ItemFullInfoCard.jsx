@@ -143,7 +143,7 @@ export default function ItemFullInfoCard(props) {
         color="var(--appColorAccent)"
         textTransform={"uppercase"}
         letterSpacing={"1.5px"}
-        mb="12rem"
+        mb="2rem"
       >
         <HStack mb={1} borderRadius={3}>
           {Icon && <Icon size="18" style={{ flexShrink: 0 }} opacity=".7" />}

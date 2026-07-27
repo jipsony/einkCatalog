@@ -407,7 +407,7 @@ function FrontPageFunctionalityCards() {
         image={buildFrontImageUrl("kobo-libra-color")}
         // image={buildFrontImageUrl("boox-go-103")}
         // image={buildFrontImageUrl("boox-note-air-4-c")}
-        cta="Browse Devices"
+        cta={`Browse ${items?.length} Devices`}
       ></FrontPageFunctionalityCard>
       <FrontPageFunctionalityCard
         title={"Compare"}

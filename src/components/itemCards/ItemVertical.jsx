@@ -5,16 +5,12 @@ import ItemImageCard from "./ItemImageCard";
 import ItemMainInfoCard from "./ItemMainInfoCard";
 import ItemFlavorImageCard from "./ItemFlavorImageCard";
 import ItemFullInfoCard from "./ItemFullInfoCard";
-import { headerHeight } from "@/lib/sizes";
 import ItemTitle from "./ItemTitle";
 
 export default function ItemVertical(props) {
   return (
     <Stack height={"100%"} rowGap={0}>
       <Box 
-      // position="sticky" 
-      // top={headerHeight}
-      //  zIndex="1000"
        >
         <ItemTitle
           clickable={props.clickable}

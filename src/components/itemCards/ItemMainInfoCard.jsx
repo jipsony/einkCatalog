@@ -55,14 +55,14 @@ export default function ItemMainInfoCard(props) {
 
   const formatOperatingSystem = (os) => {
     const osWithVersion = [];
-      if (os === "Android") {
-        if (props.itemInfo?.androidVersion) {
-          osWithVersion.push(`Android ${props.itemInfo?.androidVersion}`);
-        } else {
-          osWithVersion.push(`Android`);
-        }
-      } else osWithVersion.push(os);
-    
+    if (os === "Android") {
+      if (props.itemInfo?.androidVersion) {
+        osWithVersion.push(`Android ${props.itemInfo?.androidVersion}`);
+      } else {
+        osWithVersion.push(`Android`);
+      }
+    } else osWithVersion.push(os);
+
     return <Box>{osWithVersion.join(", ")}</Box>;
   };
 
@@ -135,6 +135,21 @@ export default function ItemMainInfoCard(props) {
       // compareFunction: compareReleaseDate,
     },
     {
+      id: "brand",
+      label: "Brand",
+      formatFunction: (brand) => (
+        <Box
+          as="a"
+          href={`brands/${brand}`}
+          textDecor={"underline"}
+          _hover={{ color: "var(--appColorAccent)" }}
+        >
+          {brand}
+        </Box>
+      ),
+      // compareFunction: compareReleaseDate,
+    },
+    {
       id: "screenSize",
       label: "Screen",
       formatFunction: formatScreenSize,
@@ -190,9 +205,9 @@ export default function ItemMainInfoCard(props) {
                     pt="6px"
                   >
                     {/* {mainAttribute?.id === "price" && ( */}
-                      <Box float="left">
-                        {renderCompareKeyValue(mainAttribute.id)}
-                      </Box>
+                    <Box float="left">
+                      {renderCompareKeyValue(mainAttribute.id)}
+                    </Box>
                     {/* )} */}
                     <Box
                       //   width={{ base: "50%", md: "40%" }}
@@ -275,7 +290,9 @@ export default function ItemMainInfoCard(props) {
                   textDecor={"underline"}
                   fontWeight={"600"}
                 >
-                  <Icon mr=".3rem" asChild><FaArrowRightArrowLeft /></Icon>
+                  <Icon mr=".3rem" asChild>
+                    <FaArrowRightArrowLeft />
+                  </Icon>
                   <Box display={"inline"}>Compare</Box>
                 </Box>
               </AppLink>
