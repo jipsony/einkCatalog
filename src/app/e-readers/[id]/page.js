@@ -4,11 +4,20 @@ import { getItemInfo } from "@/lib/item/items";
 import ItemFullInfoPage from "./ItemFullInfoPage";
 import Sandbox from "@/components/Sandbox";
 import AppBreadcrumbs from "@/components/toolsComponents/AppBreadcrumbs";
-import { buildFullName, itemMainRoute, itemsLabel } from "@/lib/appGlobals";
+import { buildFullName, individualItemLabel, itemMainRoute, itemsLabel } from "@/lib/appGlobals";
 
+let metadata;
 export default async function Page(props) {
   const params = await props.params;
   const id = params.id;
+
+  metadata = {
+    title: `${itemInfo.fullName} ${individualItemLabel} Full Specifications and List of Features`,
+    // description: `${generateDescription()}`,
+    alternates: {
+      canonical:  + itemInfo.id,
+    },
+  };
 
   const itemInfo = getItemInfo(id);
   return (
@@ -34,3 +43,6 @@ export default async function Page(props) {
     </div>
   );
 }
+
+
+export {metadata}
