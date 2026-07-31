@@ -9,7 +9,7 @@ export const individualItem = "e-reader";
 export const generateCompareTitle = (compareName, compareWithName) => {
   return compareName && compareWithName
     ? `${compareName} vs. ${compareWithName} E-Reader Comparison - E-Reader Catalog`
-    : "-Reader Comparison - E-Reader Catalog";
+    : "E-Reader Comparison - E-Reader Catalog";
 };
 
 export const buildFullName = (itemInfo) => {
