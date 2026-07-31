@@ -5,12 +5,9 @@ import { Provider } from "@/components/ui/provider";
 import AppHeader from "@/components/appHeader/AppHeader";
 import { Box } from "@chakra-ui/react";
 import AppLogo from "@/components/appHeader/AppLogo";
-import {
-  layoutPaddingX,
-  layoutWidth,
-  pageWidth,
-} from "@/lib/sizes";
+import { layoutPaddingX, layoutWidth, pageWidth } from "@/lib/sizes";
 import Sandbox from "@/components/Sandbox";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -45,20 +42,22 @@ export default function RootLayout({ children, ...props }) {
       className={`${geistSans.variable} ${geistMono.variable} ${robotoMono.variable} ${lora.variable} h-full antialiased`}
       suppressHydrationWarning
     >
-      <body className="min-h-full flex flex-col items-center" suppressHydrationWarning>
+      <body
+        className="min-h-full flex flex-col items-center"
+        suppressHydrationWarning
+      >
         <Provider>
-          <Box
-            width={layoutWidth}
-          >
+          <Box width={layoutWidth}>
             {/* <Box w={layoutWidth}> */}
-              <AppHeader logoComponent={<AppLogo></AppLogo>} />
-              <Box paddingBottom={"8rem"} px={layoutPaddingX}>
-                {children}
-              </Box>
+            <AppHeader logoComponent={<AppLogo></AppLogo>} />
+            <Box paddingBottom={"8rem"} px={layoutPaddingX}>
+              {children}
+            </Box>
             {/* </Box> */}
           </Box>
         </Provider>
       </body>
+      <GoogleAnalytics gaId="G-6JYFG7Y3JD" />
     </html>
   );
 }
