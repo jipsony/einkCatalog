@@ -61,18 +61,18 @@ export default function ItemVertical(props) {
 
         {/* {props.isFullPage && (
           <GridItem gridColumn={{ base: "auto", md: "span 2" }}>
-            <HandheldsAddToUserListsButton
+            <ItemAddToUserListsButton
               itemInfo={props.itemInfo}
               asFullButton
-            ></HandheldsAddToUserListsButton>
+            ></ItemAddToUserListsButton>
           </GridItem>
         )} */}
 {/* 
         {props.isFullPage && (
-          <HandheldMentionnedInCard
+          <ItemMentionnedInCard
             borderColor={props.borderColor}
             itemInfo={props.itemInfo}
-          ></HandheldMentionnedInCard>
+          ></ItemMentionnedInCard>
         )} */}
         {props.showFlavorImage === "start" && (
           <ItemFlavorImageCard

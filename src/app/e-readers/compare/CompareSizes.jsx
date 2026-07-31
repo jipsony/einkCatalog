@@ -300,24 +300,24 @@ export default function CompareSizes(props) {
     });
   };
 
-  const onAddHandheldReference = (selectId) => {
-    let handheldInfo = getItemInfo(selectId);
-    if (handheldInfo.formFactor === "Clamshell")
-      handheldInfo.dimensionsH =
-        handheldInfo.dimensionsH +
-        handheldInfo.dimensionsH * clamshellDimensionsHMultiplier;
+  const onAddItemReference = (selectId) => {
+    let itemInfo = getItemInfo(selectId);
+    if (itemInfo.formFactor === "Clamshell")
+      itemInfo.dimensionsH =
+        itemInfo.dimensionsH +
+        itemInfo.dimensionsH * clamshellDimensionsHMultiplier;
 
-    const newOtc = [...objectsToCompare, handheldInfo];
+    const newOtc = [...objectsToCompare, itemInfo];
 
     if (references.findIndex((row) => row.id === selectId) === -1) {
       // if new reference
-      setReferences((prev) => [handheldInfo, ...prev]);
-      setLastSelected(handheldInfo);
+      setReferences((prev) => [itemInfo, ...prev]);
+      setLastSelected(itemInfo);
       prepareAndSetObjectsToCompare(newOtc);
     } else {
       if (objectsToCompare.findIndex((row) => row.id === selectId) === -1) {
         // if existing reference but unselected
-        setLastSelected(handheldInfo);
+        setLastSelected(itemInfo);
         prepareAndSetObjectsToCompare(newOtc);
       }
     }
@@ -530,8 +530,8 @@ export default function CompareSizes(props) {
                                     References
                                   </Menu.ItemGroupLabel>
                                   <Menu.CheckboxItem
-                                    key={"handheldSearch"}
-                                    value={"handheldSearch"}
+                                    key={"itemSearch"}
+                                    value={"itemSearch"}
                                     checked={false}
                                     onCheckedChange={() => {
                                       setIsModalOpen(true);
@@ -814,7 +814,6 @@ export default function CompareSizes(props) {
                         );
                       })}
                     </Flex>
-                    {/* <Box position={"absolute"} onClick={(e) => e.preventDefault(e)} size="sm" color={"var(--appColorLightGrey)"} bottom={"0.5rem"} right={"1rem"}>retrocatalog.com </Box> */}
                   </Card.Body>
                 </>
               )}
@@ -826,7 +825,7 @@ export default function CompareSizes(props) {
         isModalOpen={isModalOpen}
         text={`Add an ${individualItemLabel} as a Reference`}
         setIsModalOpen={setIsModalOpen}
-        onSelect={onAddHandheldReference}
+        onSelect={onAddItemReference}
         searchList={{
           unsorted: props.searchList?.unsorted?.filter(
             (row) => !excludedFromSearchIds.includes(row.id),

@@ -3,7 +3,7 @@ import ItemHorizontalPreviewCard from "@/components/itemCards/ItemHorizontalPrev
 import ItemVerticalPreviewCard from "@/components/itemCards/ItemVerticalPreviewCard";
 import AppLink from "@/components/toolsComponents/AppLink";
 import { SearchClickWrapper } from "@/components/toolsComponents/SearchClickWrapper";
-import { appName, itemMainRoute } from "@/lib/appGlobals";
+import { appName, itemMainRoute, itemsLabel } from "@/lib/appGlobals";
 import { buildFrontImageUrl } from "@/lib/images";
 import { items } from "@/lib/item/items";
 import { staffPicks } from "@/resources/staffPicks";
@@ -411,7 +411,7 @@ function FrontPageFunctionalityCards() {
       ></FrontPageFunctionalityCard>
       <FrontPageFunctionalityCard
         title={"Compare"}
-        text={"See how two handhelds size up against each other"}
+        text={`See how two ${itemsLabel} size up against each other`}
         icon={MdCompare}
         href={`${itemMainRoute}/compare`}
         image={buildFrontImageUrl("kindle-scribe-colorsoft")}

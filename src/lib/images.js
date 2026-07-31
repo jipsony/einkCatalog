@@ -2,10 +2,10 @@ import { imagesURLDomain, individualItem } from "./appGlobals";
 
 
 export const getPreviewImageUrl = (item) => {
-  return getHandheldThumbnailImageUrl(item);
+  return getItemThumbnailImageUrl(item);
 };
 
-export const getHandheldThumbnailImageUrl = (item) => {
+export const getItemThumbnailImageUrl = (item) => {
   return `${imagesURLDomain}/${individualItem}_thumbnail_${item?.id}`;
 };
 

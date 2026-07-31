@@ -9,9 +9,8 @@ import {
 } from "@chakra-ui/react";
 import React, { useEffect, useState } from "react";
 import { navigate } from "@/app/navigate";
-import { FaArrowRightLong, FaBuilding, FaLeftRight, FaRightToBracket } from "react-icons/fa6";
-import { getHandheldThumbnailImageUrl } from "@/lib/images";
-import { FaArrowCircleLeft, FaArrowCircleRight } from "react-icons/fa";
+import { FaArrowRightLong, FaBuilding } from "react-icons/fa6";
+import { getItemThumbnailImageUrl } from "@/lib/images";
 
 export default function CombinedSearchResults(props) {
   const searchResultsLimit = 10;
@@ -202,7 +201,7 @@ export default function CombinedSearchResults(props) {
     } else if (!row?.specialType)
       return (
         <Image
-          src={getHandheldThumbnailImageUrl(row)}
+          src={getItemThumbnailImageUrl(row)}
           pt={1}
           pb={1}
           mr={5}

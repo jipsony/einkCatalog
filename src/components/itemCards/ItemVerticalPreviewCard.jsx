@@ -124,7 +124,7 @@ export default function ItemVerticalPreviewCard(props) {
                 props.itemInfo?.releaseDate?.split("/")?.[0] ?? null,
                 props.itemInfo?.screenType ?? null,
                 props.itemInfo?.price != null
-                  ? `$${props.itemInfo.price}`
+                  ? <Box fontWeight={"bold"}>{`$${props.itemInfo.price}`}</Box>
                   : null,
               ]
                 .filter(Boolean)

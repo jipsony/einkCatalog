@@ -20,8 +20,8 @@ export default async function Page(props) {
             path: itemMainRoute,
           },
           // {
-          //   label: `${props.handheldInfo.company}`,
-          //   path: `/companies/${props.handheldInfo.company}`,
+          //   label: `${props.itemInfo.company}`,
+          //   path: `/companies/${props.itemInfo.company}`,
           // },
           {
             label: `${buildFullName(itemInfo)} Specs`,

@@ -301,7 +301,7 @@ export default function ComparePage(props) {
                   <HStack justify="space-between" align="center" w="100%">
                     <Center h={"2.5em"} w={"5em"}>
                       {/* <Image
-                        src={getHandheldThumbnailImageUrl({ id })}
+                        src={getItemThumbnailImageUrl({ id })}
                         alt={`${compareInfo.fullName} thumbnail`}
                         h={"2rem"}
                         // w={"5em"}

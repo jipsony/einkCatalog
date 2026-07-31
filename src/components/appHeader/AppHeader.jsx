@@ -41,14 +41,14 @@ export default function AppHeader(props) {
             <HStack gap={0}>
               {props.logoComponent}
               {/* <Image
-                alt="Retro Handhelds logo - Image"
+                alt="Logo - Image"
                 pl={{ lg: ".5rem" }}
                 src={appLogo.src}
                 height={"3.8rem"}
                 _dark={{ filter: "hue-rotate(320deg)" }}
               />
               <Image
-                alt="Retro Handhelds logo Text"
+                alt="Logo Text"
                 pl={{ base: "3rem", lg: "3.4rem" }}
                 mt={".3rem"}
                 ml={".4rem"}

@@ -2,7 +2,7 @@ import React from "react";
 
 export default async function BuyLinksWrapperServerSide(props) {
 
-  // const res = await getRegionBuyLinks(props?.handheldInfo?.id, props?.buyLinksAuthor);
+  // const res = await getRegionBuyLinks(props?.itemInfo?.id, props?.buyLinksAuthor);
   // const region = res?.region;
   // const country = res?.country;
 
