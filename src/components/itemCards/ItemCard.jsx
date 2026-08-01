@@ -4,7 +4,7 @@ import { Box } from "@chakra-ui/react";
 export default function ItemCard({ children, ...props }) {
   return (
     <Box
-      // border={{dark: "1px solid"}}
+      // border={ "1px solid"}
       // borderColor="var(--appBorderColor)"
       _dark={{
         border: "1px solid",
