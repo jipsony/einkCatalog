@@ -4,8 +4,8 @@ import { Box } from "@chakra-ui/react";
 export default function ItemCard({ children, ...props }) {
   return (
     <Box
-      border="1px solid"
-      borderColor="var(--appBorderColor)"
+      // border="1px solid"
+      // borderColor="var(--appBorderColor)"
       backgroundColor={"var(--appColorCardBackground)"}
       borderRadius={"4px"}
       p="1rem"
