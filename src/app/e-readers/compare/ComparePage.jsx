@@ -74,13 +74,12 @@ export default function ComparePage(props) {
       <Card.Root
         variant={"outline"}
         borderColor={"var(--appBorderColor)"}
-        ml={"1rem"}
-        mr={"1rem"}
         mt={".5rem"}
         backgroundColor={"var(--appColorCardBackground)"}
         fontSize={"12px"}
         className="appTextFont"
         color="var(--appColorAccent)"
+        w="100%"
       >
         <Card.Body alignContent={"space-around"}>
           <Box
