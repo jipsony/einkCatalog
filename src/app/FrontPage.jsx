@@ -112,9 +112,11 @@ function FrontPageFunctionalityCard(props) {
                   fontFamily="var(--font-roboto-mono)"
                   letterSpacing="0.06em"
                   color="var(--appColorAccent)"
+                  textDecor={"underline"}
+                  textUnderlineOffset={"1.5px"}
                 >
                   <Text>{props.cta}</Text>
-                  {React.createElement(FaArrowRightLong)}
+                  {/* {React.createElement(FaArrowRightLong)} */}
                 </Flex>
               )}
             </Box>
