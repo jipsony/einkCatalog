@@ -14,6 +14,9 @@ export default function ItemCard({ children, ...props }) {
       boxShadow="sm"
       {...props}
       className="appTextFont"
+      position={"relative"}
+      display={"flex"}
+      flexDir={"column"}
     >
       {props?.paddedBackground ? (
         <Box
@@ -22,9 +25,11 @@ export default function ItemCard({ children, ...props }) {
           alignItems="center"
           justifyContent="center"
           backgroundColor={"var(--appColorLightGrey)"}
+          backgroundSize={"cover"}
           borderRadius={"md"}
           position={"relative"}
-          
+          height="100%"
+          w="100%"
         >
           {children}
         </Box>

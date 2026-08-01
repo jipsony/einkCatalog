@@ -14,9 +14,8 @@ export default function ItemImageCard(props) {
       justifyContent="center"
       paddedBackground
     >
-      <Stack>
+      <Stack w={"100%"}>
         <Image
-        
           maxH={"15rem"}
           src={buildFrontImageUrl(props.itemInfo?.id)}
         ></Image>{" "}
@@ -24,6 +23,8 @@ export default function ItemImageCard(props) {
           fontSize="11px"
           color={"var(--appColorAccent)"}
           opacity={0.7}
+              w={"100%"}
+
         >
             <Flex
               w={"100%"}

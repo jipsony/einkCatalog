@@ -114,6 +114,7 @@ function FrontPageFunctionalityCard(props) {
                   color="var(--appColorAccent)"
                   textDecor={"underline"}
                   textUnderlineOffset={"1.5px"}
+                  fontWeight={600}
                 >
                   <Text>{props.cta}</Text>
                   {/* {React.createElement(FaArrowRightLong)} */}
