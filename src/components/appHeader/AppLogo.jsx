@@ -13,14 +13,3 @@ export default function AppLogo(props) {
     </Box>
   );
 }
-
-
-{/* <HStack fontWeight={"bold"} className="appHeaderLink" fontSize={"20px"}>
-      <Image
-        src={logoLight?.src}
-        alt="E Ink Catalog logo"
-        width={"16px"}
-        // height={10}
-      />
-      E-INK CATALOG
-    </HStack> */}

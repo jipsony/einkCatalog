@@ -8,6 +8,7 @@ import AppLogo from "@/components/appHeader/AppLogo";
 import { layoutPaddingX, layoutWidth, pageWidth } from "@/lib/sizes";
 import Sandbox from "@/components/Sandbox";
 import { GoogleAnalytics } from "@next/third-parties/google";
+import { appDomain } from "@/lib/appGlobals";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -29,11 +30,6 @@ const lora = Lora({
   subsets: ["latin"],
   style: ["italic"],
 });
-
-export const metadata = {
-  title: "E-INK CATALOG",
-  description: "E-INK CATALOG",
-};
 
 export default function RootLayout({ children, ...props }) {
   return (
@@ -61,3 +57,11 @@ export default function RootLayout({ children, ...props }) {
     </html>
   );
 }
+
+
+export const metadata = {
+  metadataBase: new URL(appDomain),
+  alternates: {
+    canonical: "./",
+  },
+};

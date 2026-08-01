@@ -58,7 +58,6 @@ function FrontPageHero() {
         mx="auto"
         lineHeight="1.6"
       >
-        {/* Your database of e-ink tablets&nbsp;&amp;&nbsp;phones */}
         Your Database of E-Ink Readers, Tablets&nbsp;&amp;&nbsp;Phones
       </Text>
     </Box>
