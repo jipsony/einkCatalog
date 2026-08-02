@@ -68,8 +68,9 @@ export default function ItemKeyValueAttributes(props) {
           <Flex
             alignItems="baseline"
             key={`${idx}KV`}
-            ml={props?.isFullPage && attributeMarginLeft}
-            pt="6px"
+            // ml={props?.isFullPage && attributeMarginLeft}
+            pt="14px"
+            pb="3px"
             //
           >
             {renderCompareByType(attribute)}

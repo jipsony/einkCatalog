@@ -133,28 +133,7 @@ const sections = {
   //     ],
   //   },
 
-  ergonomics: {
-    label: "Build",
-    icon: FaHandSparkles,
-    attributes: [
-      {
-        attribute: "dimensions",
-        label: "Dimensions",
-        unit: " mm",
-      },
-      {
-        attribute: "weight",
-        label: "Weight",
-        unit: " g",
-        compareFunction: (a, b) => parseFloat(-compareFloat(a, b)),
-      },
-      //   {
-      //     attribute: "replaceableBattery",
-      //     label: "Replaceable Battery",
-      //     type: "tag",
-      //   },
-    ],
-  },
+
   controls: {
     label: "Controls",
     icon: IoMdRadioButtonOn,
@@ -196,6 +175,29 @@ const sections = {
       { attribute: "libby", label: "Libby", type: "tag" },
       // { attribute: "audioBooks", label: "AudioBooks", type: "tag" },
       // { attribute: "libby", label: "Libby", type: "tag" },
+    ],
+  },
+
+    ergonomics: {
+    label: "Build",
+    icon: FaHandSparkles,
+    attributes: [
+      {
+        attribute: "dimensions",
+        label: "Dimensions",
+        unit: " mm",
+      },
+      {
+        attribute: "weight",
+        label: "Weight",
+        unit: " g",
+        compareFunction: (a, b) => parseFloat(-compareFloat(a, b)),
+      },
+      //   {
+      //     attribute: "replaceableBattery",
+      //     label: "Replaceable Battery",
+      //     type: "tag",
+      //   },
     ],
   },
   techSpecs: {

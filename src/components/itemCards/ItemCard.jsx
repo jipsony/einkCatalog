@@ -13,7 +13,7 @@ export default function ItemCard({ children, ...props }) {
       border={"1px solid"}
       borderColor={"#00000000"}
       backgroundColor={"var(--appColorCardBackground)"}
-      borderRadius={"4px"}
+      borderRadius={"10px"}
       p="1rem"
       mb="1rem"
       w="100%"
@@ -23,6 +23,7 @@ export default function ItemCard({ children, ...props }) {
       position={"relative"}
       display={"flex"}
       flexDir={"column"}
+      
     >
       {props?.paddedBackground ? (
         <Box

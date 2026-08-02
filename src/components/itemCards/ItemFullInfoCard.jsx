@@ -9,6 +9,7 @@ import {
   HStack,
   Heading,
   Separator,
+  Center,
 } from "@chakra-ui/react";
 import FeatureTag from "../toolsComponents/FeatureTag";
 import sections from "@/resources/sections";
@@ -84,7 +85,7 @@ export default function ItemFullInfoCard(props) {
         templateColumns={templateColumnsForFeaturesTag}
         rowGap={1}
         columnGap={2}
-        ml={props?.isFullPage && attributeMarginLeft}
+        // ml={props?.isFullPage && attributeMarginLeft}
       >
         {tags.map((attribute) => (
           <GridItem key={attribute.attribute}>
@@ -119,7 +120,7 @@ export default function ItemFullInfoCard(props) {
     });
 
     return (
-      <Box >
+      <Box>
         <Box>{renderTags(tags)}</Box>
         {tags?.length > 0 && kvs?.length > 0 && <Box mt={".5rem"} />}
         <ItemKeyValueAttributes
@@ -135,33 +136,35 @@ export default function ItemFullInfoCard(props) {
   const renderSectionTitle = (section) => {
     const Icon = section.icon;
     return (
-      <Box
+      <Center
         as="span"
         flex="1"
         textAlign="left"
         fontWeight={"bold"}
-        color="var(--appColorAccent)"
-        textTransform={"uppercase"}
-        letterSpacing={"1.5px"}
-        mb="2rem"
+        color="var(--appColorDarkerGrey)"
+        // textTransform={"uppercase"}
+        // letterSpacing={"1.5px"}
+        mb="1rem"
       >
         <HStack mb={1} borderRadius={3}>
-          {Icon && <Icon size="18" style={{ flexShrink: 0 }} opacity=".7" />}
-          <Heading
+          {/* {Icon && <Icon size="18" style={{ flexShrink: 0 }} opacity=".7" />} */}
+          <Box
+            fontWeight={"bold"}
             as={props.isFullPage ? "h2" : "h3"}
             fontSize={"lg"}
             fontFamily={"var(--font-roboto-mono), Arial, sans-serif"}
             // fontFamily={"Newsreader Variable, Georgia, serif"}
           >
             {section.label}
-          </Heading>
+          </Box>
         </HStack>
-      </Box>
+      </Center>
     );
   };
 
   return (
-    <ItemCard>
+    <>
+      {/* <ItemCard> */}
       {/* {props?.withTitle && (
         <Box textAlign="center" fontWeight={"bold"} as="h1" fontSize={"xl"}>
           <Box as="span">{props?.itemInfo?.brand}</Box>
@@ -170,19 +173,20 @@ export default function ItemFullInfoCard(props) {
         </Box>
       )} */}
       {Object.entries(sections).map(([sectionKey, section]) => (
-        <Box
+        <ItemCard
           key={sectionKey}
           borderTop={0}
           borderBottom={0}
-          px={"1rem"}
+          p={"2rem"}
           // pl={"1rem"}
-          pb=".5rem"
+          // pb=".5rem"
+          pt="1.4rem"
         >
-          {renderSectionTitle(section)}
+          <Box>{renderSectionTitle(section)}</Box>
           <Box pb={4} pt={1}>
             {props.itemInfo && renderAttributes(sectionKey, section)}
           </Box>
-        </Box>
+        </ItemCard>
       ))}
 
       {props.itemInfo && props.clickable && (
@@ -214,6 +218,7 @@ export default function ItemFullInfoCard(props) {
           </Flex>
         </Flex>
       )}
-    </ItemCard>
+      {/* </ItemCard> */}
+    </>
   );
 }

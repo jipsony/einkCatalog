@@ -3,7 +3,6 @@ import {
   Box,
   Button,
   ButtonGroup,
-  Card,
   Center,
   Flex,
   Heading,
@@ -712,7 +711,7 @@ export default function CompareSizes(props) {
               </Flex>
               {isActive && (
                 <>
-                  <Card.Body height={cardHeight} pt={"2px"}>
+                  <Box height={cardHeight} pt={"2px"} px={"var(--card-padding)"}>
                     <Box
                       // fontSize="sm"
                       color={"var(--appColorDarkGrey)"}
@@ -815,7 +814,7 @@ export default function CompareSizes(props) {
                         );
                       })}
                     </Flex>
-                  </Card.Body>
+                  </Box>
                 </>
               )}
             </>
