@@ -32,7 +32,11 @@ export default function ItemFullInfoPage(props) {
             props.itemInfo?.similar?.map((similar) => {
               const similarItemInfo = items.find((row) => row.id === similar);
               return (
-                <Box key={"similar:" + similarItemInfo?.id} maxHeight={"6rem"} overflow={"hidden"}>
+                <Box key={"similar:" + similarItemInfo?.id}
+                //  maxHeight={"6rem"}
+                //  overflow={"hidden"}
+                maxHeight={"6rem"}
+                 >
                   <ItemHorizontalPreviewCard
                     itemInfo={similarItemInfo}
                     compareLink={`${itemMainRoute}/compare/${props?.itemInfo?.id}/${similarItemInfo?.id}`}

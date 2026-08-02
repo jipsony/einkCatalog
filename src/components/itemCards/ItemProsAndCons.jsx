@@ -40,7 +40,9 @@ export default function ItemProsAndCons(props) {
           <Box pl={5}>
             <ul style={{ listStyleType: "disc" }}>
               {prosOrCons?.slice(0, sliceLength).map((item, idx) => {
-                return <Box as="li" key={idx}>{item.text}</Box>;
+                return <Box as="li" 
+                mb="3px"
+                 key={idx}>{item.text}</Box>;
               })}
               {!showMore[title] && prosOrCons?.length > sliceLength && (
                 <li>

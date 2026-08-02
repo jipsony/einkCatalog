@@ -89,6 +89,7 @@ export default function ItemKeyValueAttributes(props) {
               textAlign={
                 props?.isFullPage ? { base: "right", lg: "left" } : "right"
               }
+              color={"var(--appColorDarkerGrey)"}
             >
               {renderValue(attribute, value)}
             </Box>
