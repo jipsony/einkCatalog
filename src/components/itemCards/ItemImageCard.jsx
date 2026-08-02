@@ -31,6 +31,7 @@ export default function ItemImageCard(props) {
               w={"100%"}
               justifyContent={"space-between"}
               px=".5rem"
+              pb="4px"
               overflow="hidden"
               whiteSpace="nowrap"
               flexWrap="nowrap"

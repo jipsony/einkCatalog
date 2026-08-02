@@ -191,7 +191,7 @@ function FrontPageDeviceList(props) {
 
             border="1px solid"
             borderColor="var(--appBorderColor)"
-            // color="var(--appColorAccent)"
+            color="var(--appColorDarkerGrey)"
             _hover={{
               borderColor: "var(--foreground)",
               // backgroundColor: "var(--appColorLight)",

@@ -33,7 +33,7 @@ export default function ItemCard({ children, ...props }) {
           justifyContent="center"
           backgroundColor={"var(--appColorLightGrey)"}
           backgroundSize={"cover"}
-          borderRadius={"md"}
+          borderRadius={"xl"}
           position={"relative"}
           height="100%"
           w="100%"

@@ -1,7 +1,7 @@
 import React from "react";
 import { Box } from "@chakra-ui/react";
 import { LuCheck } from "react-icons/lu";
-import { ImCheckmark } from "react-icons/im";
+import { ImCheckmark, ImCross } from "react-icons/im";
 
 export default function FeatureTag({ label, value, detail }) {
   const isActive =
@@ -44,7 +44,7 @@ export default function FeatureTag({ label, value, detail }) {
           &nbsp;· {detail}
         </Box>
       )}
-      {isActive && (
+      {isActive ? (
         <Box
           flexShrink={0}
           position="absolute"
@@ -54,6 +54,16 @@ export default function FeatureTag({ label, value, detail }) {
         >
           {/* <LuCheck size={14} fontWeight={800} /> */}
           <ImCheckmark size={10}></ImCheckmark>
+        </Box> ): (<Box
+          flexShrink={0}
+          position="absolute"
+          right={3}
+          display="inline-flex"
+          alignItems="center"
+          opacity={.4}
+        >
+          {/* <LuCheck size={14} fontWeight={800} /> */}
+          <ImCross size={10}></ImCross>
         </Box>
       )}
       {/* <Box

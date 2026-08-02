@@ -83,7 +83,7 @@ export default function ItemFullInfoCard(props) {
     return (
       <Grid
         templateColumns={templateColumnsForFeaturesTag}
-        rowGap={1}
+        rowGap={2}
         columnGap={2}
         // ml={props?.isFullPage && attributeMarginLeft}
       >
@@ -136,29 +136,38 @@ export default function ItemFullInfoCard(props) {
   const renderSectionTitle = (section) => {
     const Icon = section.icon;
     return (
-      <Center
-        as="span"
-        flex="1"
-        textAlign="left"
-        fontWeight={"bold"}
-        color="var(--appColorDarkerGrey)"
-        // textTransform={"uppercase"}
-        // letterSpacing={"1.5px"}
-        mb="1rem"
-      >
-        <HStack mb={1} borderRadius={3}>
-          {/* {Icon && <Icon size="18" style={{ flexShrink: 0 }} opacity=".7" />} */}
-          <Box
-            fontWeight={"bold"}
-            as={props.isFullPage ? "h2" : "h3"}
-            fontSize={"lg"}
-            fontFamily={"var(--font-roboto-mono), Arial, sans-serif"}
-            // fontFamily={"Newsreader Variable, Georgia, serif"}
-          >
-            {section.label}
-          </Box>
-        </HStack>
-      </Center>
+      <>
+        <Center
+          as="span"
+          flex="1"
+          textAlign="left"
+          fontWeight={"bold"}
+          // color="var(--appColorDarkerGrey)"
+          color="var(--appColorAccent)"
+          // textTransform={"uppercase"}
+          // letterSpacing={"1.5px"}
+          fontSize={"lg"}
+          mb="1rem"
+        >
+          <HStack mb={1} borderRadius={3} alignItems="center">
+            {Icon && (
+              <Icon
+                // fontSize={"2xl"}
+                opacity=".7"
+              />
+            )}
+            <Box
+              fontWeight={"bold"}
+              as={props.isFullPage ? "h2" : "h3"}
+              fontFamily={"var(--font-roboto-mono), Arial, sans-serif"}
+              // fontFamily={"Newsreader Variable, Georgia, serif"}
+            >
+              {section.label}
+            </Box>
+          </HStack>
+        </Center>
+        {/* <Separator borderColor="var(--appBorderColor)" mb="1rem"/> */}
+      </>
     );
   };
 

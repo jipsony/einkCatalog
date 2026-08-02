@@ -69,8 +69,8 @@ export default function ItemKeyValueAttributes(props) {
             alignItems="baseline"
             key={`${idx}KV`}
             // ml={props?.isFullPage && attributeMarginLeft}
-            pt="14px"
-            pb="3px"
+            pt="12px"
+            pb="2px"
             //
           >
             {renderCompareByType(attribute)}

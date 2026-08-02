@@ -60,7 +60,7 @@ export default function ItemVerticalPreviewCard(props) {
             alignItems="center"
             justifyContent="center"
             backgroundColor={"var(--appColorLightGrey)"}
-            borderRadius={"md"}
+            borderRadius={"xl"}
             minH={"20rem"}
             position={"relative"}
           >

@@ -3,7 +3,7 @@ import {
   compareOrder,
   compareScreenSize,
 } from "@/lib/compare/compare";
-import { FaHandSparkles, FaMobileScreen } from "react-icons/fa6";
+import { FaHandSparkles, FaMobileScreen, FaTabletScreenButton } from "react-icons/fa6";
 import { IoMdRadioButtonOn } from "react-icons/io";
 import {
   LuStar,
@@ -14,7 +14,7 @@ import {
   LuSun,
   LuAppWindow,
 } from "react-icons/lu";
-import { MdColorLens, MdOutlineTouchApp } from "react-icons/md";
+import { MdColorLens, MdFullscreen, MdOutlineTouchApp } from "react-icons/md";
 import { TbHandClick, TbMobiledata } from "react-icons/tb";
 import screenTypeRanking from "@/resources/screenTypeRanking.json" with { type: "json" };
 import { HiOutlinePencil } from "react-icons/hi";
@@ -24,7 +24,7 @@ const sections = {
 
   display: {
     label: "Screen",
-    icon: FaMobileScreen,
+    icon: FaTabletScreenButton,
     attributes: [
             {
         attribute: "screenLight",
