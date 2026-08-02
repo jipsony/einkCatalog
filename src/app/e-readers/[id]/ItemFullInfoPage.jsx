@@ -4,7 +4,7 @@ import ItemHorizontalPreviewCard from "@/components/itemCards/ItemHorizontalPrev
 import ItemImageCard from "@/components/itemCards/ItemImageCard";
 import ItemMainInfoCard from "@/components/itemCards/ItemMainInfoCard";
 import ItemProsAndCons from "@/components/itemCards/ItemProsAndCons";
-import ItemTitle from "@/components/itemCards/ItemTitle";
+import ItemTitleCard from "@/components/itemCards/ItemTitleCard";
 import ItemVerticalPreviewCard from "@/components/itemCards/ItemVerticalPreviewCard";
 import BigSectionTitle from "@/components/toolsComponents/BigSectionTitle";
 import { itemMainRoute } from "@/lib/appGlobals";
@@ -53,7 +53,7 @@ export default function ItemFullInfoPage(props) {
         columnGap={"1rem"}
       >
         <Box minWidth={{ [directionBreakpoint]: "20rem" }}>
-          <ItemTitle itemInfo={props?.itemInfo}></ItemTitle>
+          <ItemTitleCard itemInfo={props?.itemInfo}></ItemTitleCard>
 
           <ItemImageCard itemInfo={props?.itemInfo}></ItemImageCard>
           <ItemMainInfoCard itemInfo={props?.itemInfo} showCompareLink></ItemMainInfoCard>

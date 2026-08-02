@@ -5,21 +5,23 @@ import ItemImageCard from "./ItemImageCard";
 import ItemMainInfoCard from "./ItemMainInfoCard";
 import ItemFlavorImageCard from "./ItemFlavorImageCard";
 import ItemFullInfoCard from "./ItemFullInfoCard";
-import ItemTitle from "./ItemTitle";
+import ItemTitleCard from "./ItemTitleCard";
+import { headerHeight } from "@/lib/sizes";
 
 export default function ItemVertical(props) {
   return (
     <Stack height={"100%"} rowGap={0}>
       <Box 
+      position="sticky" top={`calc(${headerHeight} + .5px)`} zIndex="1000"
        >
-        <ItemTitle
+        <ItemTitleCard
           clickable={props.clickable}
           itemInfo={props.itemInfo}
           compareWithItemInfo={props.compareWithItemInfo}
           borderColor={props.borderColor}
           isFullPage={props.isFullPage}
           actionButton={props.actionButton}
-        ></ItemTitle>
+        ></ItemTitleCard>
       </Box>
       <Grid
         templateColumns={{ base: "1fr", md: "1fr 1fr" }}

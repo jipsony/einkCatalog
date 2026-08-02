@@ -19,7 +19,7 @@ const DashLine = () => (
   </Box>
 );
 
-export default function ItemTitle(props) {
+export default function ItemTitleCard(props) {
   return (
     <Box
       as="a"

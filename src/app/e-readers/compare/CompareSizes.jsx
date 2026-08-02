@@ -463,6 +463,8 @@ export default function CompareSizes(props) {
           borderColor={"var(--appColorDarkGrey)!important"}
           ref={containerRef}
           backgroundColor={"var(--appColorCardBackground)"}
+          p={0}
+          mb="2rem"
         >
           {containerRef?.current && (
             <>

@@ -69,6 +69,7 @@ function FrontPageFunctionalityCard(props) {
     <Box cursor="pointer" h="100%">
       <ItemCard
         p={0}
+        borderColor="var(--appColorLightGrey)"
         _hover={{ borderColor: "var(--foreground)" }}
         h="100%"
         borderRadius={"18px"}

@@ -18,12 +18,12 @@ export default function ItemCard({ children, ...props }) {
       mb="1rem"
       w="100%"
       boxShadow="sm"
+      
       {...props}
       className="appTextFont"
       position={"relative"}
       display={"flex"}
       flexDir={"column"}
-      
     >
       {props?.paddedBackground ? (
         <Box

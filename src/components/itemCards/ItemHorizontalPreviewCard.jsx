@@ -16,13 +16,14 @@ export default function ItemHorizontalPreviewCard(props) {
       h="100%"
       border={"1px solid"}
       borderColor="var(--appBorderColor)"
+      overflow="hidden"
     >
-      <HStack gap={0} h="100%">
+      <HStack gap={0} h="100%" w="100%" >
         <a
           href={buildItemFullInfoLink(props?.itemInfo?.id)}
           style={{ flex: 1, minWidth: 0, display: "flex", height: "100%" }}
         >
-          <HStack gap={0} flex={1} minW={0} h={"100%"}>
+          <HStack gap={0} flex={1} minW={0} h={"100%"} overflow={"hidden"}>
             <Box
               flexShrink={0}
               display="flex"
@@ -30,11 +31,7 @@ export default function ItemHorizontalPreviewCard(props) {
               justifyContent="center"
               backgroundColor={"var(--appColorLightGrey)"}
               w={"8rem"}
-              // h={"100%"}
-              // minH={"6rem"}
               h={"100%"}
-              // p={"0.5rem"}
-              borderLeftRadius={"4px"}
             >
               <Image
                 src={buildFrontImageUrl(props.itemInfo?.id)}
