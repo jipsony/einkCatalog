@@ -484,7 +484,7 @@ export default function ComparePage(props) {
                     height={{ base: "auto", lg: "100%" }}
                     mb={"2rem"}
                     maxW={"100%"}
-                    overflow={"hidden"} // mx="1rem"
+                    // overflow={"hidden"} // mx="1rem"
                   >
                     <Stack height={"100%"}>
                       <ItemVertical
@@ -513,7 +513,7 @@ export default function ComparePage(props) {
                     mt={{ base: "2rem", lg: "0" }}
                     mb={"2rem"}
                     maxW={"100%"}
-                    overflow={"hidden"} // mx="1rem"
+                    // overflow={"hidden"} // mx="1rem"
                     // mx="1rem"
                   >
                     <Stack height={"100%"} position="relative">

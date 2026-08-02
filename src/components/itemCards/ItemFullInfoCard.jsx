@@ -151,6 +151,7 @@ export default function ItemFullInfoCard(props) {
             as={props.isFullPage ? "h2" : "h3"}
             fontSize={"lg"}
             fontFamily={"var(--font-roboto-mono), Arial, sans-serif"}
+            // fontFamily={"Newsreader Variable, Georgia, serif"}
           >
             {section.label}
           </Heading>

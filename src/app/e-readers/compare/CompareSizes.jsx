@@ -37,6 +37,7 @@ import { buildFittedImageUrl } from "@/lib/images";
 import CombinedSearchModal from "@/components/toolsComponents/combinedSearch/CombinedSearchModal";
 import { individualItemLabel, itemsLabel } from "@/lib/appGlobals";
 import CompareReferencesSubMenu from "./CompareReferencesSubMenu";
+import ItemCard from "@/components/itemCards/ItemCard";
 
 export default function CompareSizes(props) {
   const defaultSettings = {
@@ -458,7 +459,7 @@ export default function CompareSizes(props) {
   return (
     <>
       {props.objectsToCompare?.filter((e) => !!e)?.length > 0 && (
-        <Card.Root
+        <ItemCard
           variant={"outline"}
           borderColor={"var(--appColorDarkGrey)!important"}
           ref={containerRef}
@@ -819,7 +820,7 @@ export default function CompareSizes(props) {
               )}
             </>
           )}
-        </Card.Root>
+        </ItemCard>
       )}
       <CombinedSearchModal
         isModalOpen={isModalOpen}

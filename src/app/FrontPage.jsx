@@ -70,6 +70,8 @@ function FrontPageFunctionalityCard(props) {
       <ItemCard
         p={0}
         _hover={{ borderColor: "var(--foreground)" }}
+        border={"1px solid"}
+        borderColor={"#00000000"}
         h="100%"
         borderRadius={"18px"}
         overflow="hidden"
@@ -227,6 +229,7 @@ function QuickLinksTag(props) {
       _hover={{
         borderColor: "var(--foreground)",
         color: "var(--foreground)",
+        backgroundColor: "var(--appColorLighterGrey)"
 
         // backgroundColor: "var(--appColorLight)",
       }}

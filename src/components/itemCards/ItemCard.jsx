@@ -10,6 +10,8 @@ export default function ItemCard({ children, ...props }) {
         border: "1px solid",
         borderColor: "var(--appBorderColor)",
       }}
+      border={"1px solid"}
+      borderColor={"#00000000"}
       backgroundColor={"var(--appColorCardBackground)"}
       borderRadius={"4px"}
       p="1rem"

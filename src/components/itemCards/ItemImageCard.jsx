@@ -23,6 +23,7 @@ export default function ItemImageCard(props) {
           fontSize="11px"
           color={"var(--appColorAccent)"}
           opacity={0.7}
+          _dark={{opacity: 1}}
               w={"100%"}
 
         >
