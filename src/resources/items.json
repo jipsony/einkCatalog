@@ -557,8 +557,8 @@
     "similar": [
       "pocketbook-era",
       "pocketbook-inkpad-4",
-      "pocketbook-verse-pro",
-      "tolino-shine-5"
+      "tolino-shine-5",
+      "pocketbook-era-color"
     ],
     "pros": [
       {
@@ -650,7 +650,7 @@
       "meebook-p10-pro",
       "pocketbook-era-lite",
       "bookeen-nota",
-      "pocketbook-verse-pro"
+      "meebook-m103"
     ],
     "pros": [
       {
@@ -7304,7 +7304,7 @@
       "vivlio-light-hd-color",
       "meebook-m6c",
       "tolino-shine-color",
-      "pocketbook-verse-pro-color"
+      "kobo-clara-2e"
     ],
     "pros": [
       {
@@ -8764,18 +8764,20 @@
     "bluetoothVersion": "No Bluetooth",
     "priceCategory": "Mid-Range",
     "sizeCategory": "Medium",
+    "ratingCategory": "staffPick",
     "categories": [
       "Mid-Range",
       "Medium",
+      "Staff Pick",
       "For Reading",
       "Kindle Alternative"
     ],
-    "rating": 0.711,
+    "rating": 0.724,
     "similar": [
       "pocketbook-era-color",
+      "pocketbook-verse-pro",
       "vivlio-light-hd-color",
-      "pocketbook-inkpad-color-3",
-      "pocketbook-inkpad-color"
+      "pocketbook-inkpad-color-3"
     ],
     "pros": [
       {
@@ -10654,8 +10656,8 @@
     "similar": [
       "vivlio-light-hd-color",
       "tolino-shine-color",
-      "pocketbook-verse-pro-color",
-      "pocketbook-era-color"
+      "pocketbook-era-color",
+      "vivlio-inkpad-4"
     ],
     "pros": [
       {
@@ -10748,8 +10750,8 @@
     "similar": [
       "vivlio-inkpad-color-3",
       "tolino-shine-color",
-      "pocketbook-verse-pro-color",
-      "pocketbook-era-color"
+      "pocketbook-era-color",
+      "kobo-clara-colour"
     ],
     "pros": [
       {
@@ -13346,18 +13348,20 @@
     "bluetoothVersion": "No Bluetooth",
     "priceCategory": "Mid-Range",
     "sizeCategory": "Medium",
+    "ratingCategory": "staffPick",
     "categories": [
       "Mid-Range",
       "Medium",
+      "Staff Pick",
       "For Reading",
       "Kindle Alternative"
     ],
-    "rating": 0.633,
+    "rating": 0.647,
     "similar": [
+      "pocketbook-verse-pro-color",
       "pocketbook-inkpad-4",
       "pocketbook-era",
-      "pocketbook-era-lite",
-      "vivlio-light-hd"
+      "pocketbook-era-lite"
     ],
     "pros": [
       {
@@ -13538,7 +13542,7 @@
       "pocketbook-inkpad-color-2",
       "pocketbook-inkpad-color",
       "pocketbook-era-color",
-      "pocketbook-verse-pro-color"
+      "pocketbook-inkpad-4"
     ],
     "pros": [
       {
@@ -13632,7 +13636,7 @@
       "pocketbook-inkpad-color",
       "pocketbook-inkpad-color-3",
       "pocketbook-era-color",
-      "pocketbook-verse-pro-color"
+      "pocketbook-inkpad-4"
     ],
     "pros": [
       {
@@ -13823,8 +13827,8 @@
     "similar": [
       "pocketbook-era",
       "pocketbook-era-lite",
-      "pocketbook-verse-pro",
-      "vivlio-inkpad-4"
+      "vivlio-inkpad-4",
+      "pocketbook-inkpad-color-3"
     ],
     "pros": [
       {
@@ -15920,9 +15924,9 @@
     "rating": 0.605,
     "similar": [
       "vivlio-inkpad-4",
-      "pocketbook-verse-pro",
       "tolino-shine-5",
-      "vivlio-light-hd-color"
+      "vivlio-light-hd-color",
+      "vivlio-light"
     ],
     "pros": [
       {
@@ -18116,8 +18120,8 @@
     "similar": [
       "pocketbook-era-lite",
       "pocketbook-inkpad-4",
-      "pocketbook-verse-pro",
-      "pocketbook-era-color"
+      "pocketbook-era-color",
+      "pocketbook-verse-pro"
     ],
     "pros": [
       {
@@ -20381,7 +20385,7 @@
       "pocketbook-inkpad-color-2",
       "pocketbook-inkpad-color-3",
       "pocketbook-era-color",
-      "pocketbook-verse-pro-color"
+      "pocketbook-inkpad-4"
     ],
     "pros": [
       {

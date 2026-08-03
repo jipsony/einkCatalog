@@ -3,8 +3,12 @@ import {
   compareOrder,
   compareScreenSize,
 } from "@/lib/compare/compare";
-import { FaHandSparkles, FaMobileScreen, FaTabletScreenButton } from "react-icons/fa6";
-import { IoMdRadioButtonOn } from "react-icons/io";
+import {
+  FaHandSparkles,
+  FaMobileScreen,
+  FaTabletScreenButton,
+} from "react-icons/fa6";
+import { IoMdRadioButtonOn, IoMdResize } from "react-icons/io";
 import {
   LuStar,
   LuCpu,
@@ -20,13 +24,11 @@ import screenTypeRanking from "@/resources/screenTypeRanking.json" with { type: 
 import { HiOutlinePencil } from "react-icons/hi";
 import { IoColorPalette } from "react-icons/io5";
 const sections = {
-
-
   display: {
     label: "Screen",
     icon: FaTabletScreenButton,
     attributes: [
-            {
+      {
         attribute: "screenLight",
         label: "Screen Light",
         type: "tag",
@@ -78,7 +80,7 @@ const sections = {
     ],
   },
 
-    features: {
+  features: {
     label: "Features",
     icon: LuStar,
     attributes: [
@@ -105,7 +107,7 @@ const sections = {
       { attribute: "waterproof", label: "Waterproofing", type: "tag" },
 
       { attribute: "speakers", label: "Speakers", type: "tag" },
-            {
+      {
         attribute: "wirelessCharging",
         label: "Wireless Chg.",
 
@@ -113,7 +115,6 @@ const sections = {
       },
       { attribute: "audioOutput", label: "Audio Jack", type: "tag" },
       { attribute: "microphone", label: "Microphone", type: "tag" },
-
 
       // { attribute: "textToSpeech", label: "Text To Speech", type: "tag" },
       //   { attribute: "waterproofRating", label: "Waterproof Rating" },
@@ -132,7 +133,6 @@ const sections = {
   //       { attribute: "usbc", label: "USB C", type: "tag" },
   //     ],
   //   },
-
 
   controls: {
     label: "Controls",
@@ -178,9 +178,9 @@ const sections = {
     ],
   },
 
-    ergonomics: {
-    label: "Build",
-    icon: FaHandSparkles,
+  ergonomics: {
+    label: "Size",
+    icon: IoMdResize,
     attributes: [
       {
         attribute: "dimensions",
@@ -228,7 +228,6 @@ const sections = {
         attribute: "cpu",
         label: "CPU",
         compareFunction: (a, b) => compareFloat(a, b),
-
       },
     ],
   },

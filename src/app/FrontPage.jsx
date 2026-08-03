@@ -376,7 +376,7 @@ function FrontPagePreviewList() {
       <FrontPageDeviceList
         deviceList={staffPicks?.map((sp) => items?.find((r) => r?.id === sp))}
         moreLinkFilter={{
-          staffPick: true,
+          "Staff Pick": true,
         }}
         title={"Staff Picks"}
       ></FrontPageDeviceList>

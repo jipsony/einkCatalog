@@ -140,7 +140,7 @@ export default function ItemMainInfoCard(props) {
       formatFunction: (brand) => (
         <Box
           as="a"
-          href={`brands/${brand}`}
+          href={`${itemMainRoute}/brands/${brand}`}
           textDecor={"underline"}
           _hover={{ color: "var(--appColorAccent)" }}
         >
@@ -149,12 +149,12 @@ export default function ItemMainInfoCard(props) {
       ),
       // compareFunction: compareReleaseDate,
     },
-    {
-      id: "screenSize",
-      label: "Screen",
-      formatFunction: formatScreenSize,
-      // compareFunction: compareScreenSize,
-    },
+    // {
+    //   id: "screenSize",
+    //   label: "Screen",
+    //   formatFunction: formatScreenSize,
+    //   // compareFunction: compareScreenSize,
+    // },
     {
       id: "operatingSystem",
       label: "OS",

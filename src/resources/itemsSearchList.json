@@ -1060,7 +1060,7 @@
       "id": "Xteink",
       "fullName": "Xteink",
       "specialType": "link",
-      "link": "/brands/Xteink",
+      "link": "/e-readers/brands/Xteink",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -1068,7 +1068,7 @@
       "id": "Kindle",
       "fullName": "Kindle",
       "specialType": "link",
-      "link": "/brands/Kindle",
+      "link": "/e-readers/brands/Kindle",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -1076,7 +1076,7 @@
       "id": "Boox",
       "fullName": "Boox",
       "specialType": "link",
-      "link": "/brands/Boox",
+      "link": "/e-readers/brands/Boox",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -1084,7 +1084,7 @@
       "id": "PocketBook",
       "fullName": "PocketBook",
       "specialType": "link",
-      "link": "/brands/PocketBook",
+      "link": "/e-readers/brands/PocketBook",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -1092,7 +1092,7 @@
       "id": "Bigme",
       "fullName": "Bigme",
       "specialType": "link",
-      "link": "/brands/Bigme",
+      "link": "/e-readers/brands/Bigme",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -1100,7 +1100,7 @@
       "id": "Musnap",
       "fullName": "Musnap",
       "specialType": "link",
-      "link": "/brands/Musnap",
+      "link": "/e-readers/brands/Musnap",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -1108,7 +1108,7 @@
       "id": "DuRoBo",
       "fullName": "DuRoBo",
       "specialType": "link",
-      "link": "/brands/DuRoBo",
+      "link": "/e-readers/brands/DuRoBo",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -1116,7 +1116,7 @@
       "id": "Bemi",
       "fullName": "Bemi",
       "specialType": "link",
-      "link": "/brands/Bemi",
+      "link": "/e-readers/brands/Bemi",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -1124,7 +1124,7 @@
       "id": "reMarkable",
       "fullName": "reMarkable",
       "specialType": "link",
-      "link": "/brands/reMarkable",
+      "link": "/e-readers/brands/reMarkable",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -1132,7 +1132,7 @@
       "id": "Harborinno",
       "fullName": "Harborinno",
       "specialType": "link",
-      "link": "/brands/Harborinno",
+      "link": "/e-readers/brands/Harborinno",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -1140,7 +1140,7 @@
       "id": "Viwoods",
       "fullName": "Viwoods",
       "specialType": "link",
-      "link": "/brands/Viwoods",
+      "link": "/e-readers/brands/Viwoods",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -1148,7 +1148,7 @@
       "id": "InkBOOK",
       "fullName": "InkBOOK",
       "specialType": "link",
-      "link": "/brands/InkBOOK",
+      "link": "/e-readers/brands/InkBOOK",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -1156,7 +1156,7 @@
       "id": "Vivlio",
       "fullName": "Vivlio",
       "specialType": "link",
-      "link": "/brands/Vivlio",
+      "link": "/e-readers/brands/Vivlio",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -1164,7 +1164,7 @@
       "id": "Penstar",
       "fullName": "Penstar",
       "specialType": "link",
-      "link": "/brands/Penstar",
+      "link": "/e-readers/brands/Penstar",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -1172,7 +1172,7 @@
       "id": "iFlytek",
       "fullName": "iFlytek",
       "specialType": "link",
-      "link": "/brands/iFlytek",
+      "link": "/e-readers/brands/iFlytek",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -1180,7 +1180,7 @@
       "id": "SPC",
       "fullName": "SPC",
       "specialType": "link",
-      "link": "/brands/SPC",
+      "link": "/e-readers/brands/SPC",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -1188,7 +1188,7 @@
       "id": "Montblanc",
       "fullName": "Montblanc",
       "specialType": "link",
-      "link": "/brands/Montblanc",
+      "link": "/e-readers/brands/Montblanc",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -1196,7 +1196,7 @@
       "id": "Obook",
       "fullName": "Obook",
       "specialType": "link",
-      "link": "/brands/Obook",
+      "link": "/e-readers/brands/Obook",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -1204,7 +1204,7 @@
       "id": "Veidoo",
       "fullName": "Veidoo",
       "specialType": "link",
-      "link": "/brands/Veidoo",
+      "link": "/e-readers/brands/Veidoo",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -1212,7 +1212,7 @@
       "id": "Famue",
       "fullName": "Famue",
       "specialType": "link",
-      "link": "/brands/Famue",
+      "link": "/e-readers/brands/Famue",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -1220,7 +1220,7 @@
       "id": "Huion",
       "fullName": "Huion",
       "specialType": "link",
-      "link": "/brands/Huion",
+      "link": "/e-readers/brands/Huion",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -1228,7 +1228,7 @@
       "id": "M5Stack",
       "fullName": "M5Stack",
       "specialType": "link",
-      "link": "/brands/M5Stack",
+      "link": "/e-readers/brands/M5Stack",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -1236,7 +1236,7 @@
       "id": "Kobo",
       "fullName": "Kobo",
       "specialType": "link",
-      "link": "/brands/Kobo",
+      "link": "/e-readers/brands/Kobo",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -1244,7 +1244,7 @@
       "id": "Meebook",
       "fullName": "Meebook",
       "specialType": "link",
-      "link": "/brands/Meebook",
+      "link": "/e-readers/brands/Meebook",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -1252,7 +1252,7 @@
       "id": "Ratta",
       "fullName": "Ratta",
       "specialType": "link",
-      "link": "/brands/Ratta",
+      "link": "/e-readers/brands/Ratta",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -1260,7 +1260,7 @@
       "id": "MobiScribe",
       "fullName": "MobiScribe",
       "specialType": "link",
-      "link": "/brands/MobiScribe",
+      "link": "/e-readers/brands/MobiScribe",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -1268,7 +1268,7 @@
       "id": "Daylight",
       "fullName": "Daylight",
       "specialType": "link",
-      "link": "/brands/Daylight",
+      "link": "/e-readers/brands/Daylight",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -1276,7 +1276,7 @@
       "id": "Hannspree",
       "fullName": "Hannspree",
       "specialType": "link",
-      "link": "/brands/Hannspree",
+      "link": "/e-readers/brands/Hannspree",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -1284,7 +1284,7 @@
       "id": "Tolino",
       "fullName": "Tolino",
       "specialType": "link",
-      "link": "/brands/Tolino",
+      "link": "/e-readers/brands/Tolino",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -1292,7 +1292,7 @@
       "id": "Paperslate",
       "fullName": "Paperslate",
       "specialType": "link",
-      "link": "/brands/Paperslate",
+      "link": "/e-readers/brands/Paperslate",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -1300,7 +1300,7 @@
       "id": "Silvergear",
       "fullName": "Silvergear",
       "specialType": "link",
-      "link": "/brands/Silvergear",
+      "link": "/e-readers/brands/Silvergear",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -1308,7 +1308,7 @@
       "id": "Lenovo",
       "fullName": "Lenovo",
       "specialType": "link",
-      "link": "/brands/Lenovo",
+      "link": "/e-readers/brands/Lenovo",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -1316,7 +1316,7 @@
       "id": "Nook",
       "fullName": "Nook",
       "specialType": "link",
-      "link": "/brands/Nook",
+      "link": "/e-readers/brands/Nook",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -1324,7 +1324,7 @@
       "id": "Dasung",
       "fullName": "Dasung",
       "specialType": "link",
-      "link": "/brands/Dasung",
+      "link": "/e-readers/brands/Dasung",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -1332,7 +1332,7 @@
       "id": "Hisense",
       "fullName": "Hisense",
       "specialType": "link",
-      "link": "/brands/Hisense",
+      "link": "/e-readers/brands/Hisense",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -1340,7 +1340,7 @@
       "id": "Moaan",
       "fullName": "Moaan",
       "specialType": "link",
-      "link": "/brands/Moaan",
+      "link": "/e-readers/brands/Moaan",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -1348,7 +1348,7 @@
       "id": "Eyemoo",
       "fullName": "Eyemoo",
       "specialType": "link",
-      "link": "/brands/Eyemoo",
+      "link": "/e-readers/brands/Eyemoo",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -1356,7 +1356,7 @@
       "id": "Bookeen",
       "fullName": "Bookeen",
       "specialType": "link",
-      "link": "/brands/Bookeen",
+      "link": "/e-readers/brands/Bookeen",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -1364,7 +1364,7 @@
       "id": "Geniatech",
       "fullName": "Geniatech",
       "specialType": "link",
-      "link": "/brands/Geniatech",
+      "link": "/e-readers/brands/Geniatech",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -1372,7 +1372,7 @@
       "id": "Woxter",
       "fullName": "Woxter",
       "specialType": "link",
-      "link": "/brands/Woxter",
+      "link": "/e-readers/brands/Woxter",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -1380,7 +1380,7 @@
       "id": "Huawei",
       "fullName": "Huawei",
       "specialType": "link",
-      "link": "/brands/Huawei",
+      "link": "/e-readers/brands/Huawei",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -1388,7 +1388,7 @@
       "id": "Reinkstone",
       "fullName": "Reinkstone",
       "specialType": "link",
-      "link": "/brands/Reinkstone",
+      "link": "/e-readers/brands/Reinkstone",
       "prefix": "Brand",
       "icon": "fa-building"
     }
@@ -1398,7 +1398,7 @@
       "id": "Bemi",
       "fullName": "Bemi",
       "specialType": "link",
-      "link": "/brands/Bemi",
+      "link": "/e-readers/brands/Bemi",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -1446,7 +1446,7 @@
       "id": "Bigme",
       "fullName": "Bigme",
       "specialType": "link",
-      "link": "/brands/Bigme",
+      "link": "/e-readers/brands/Bigme",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -1590,7 +1590,7 @@
       "id": "Bookeen",
       "fullName": "Bookeen",
       "specialType": "link",
-      "link": "/brands/Bookeen",
+      "link": "/e-readers/brands/Bookeen",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -1602,7 +1602,7 @@
       "id": "Boox",
       "fullName": "Boox",
       "specialType": "link",
-      "link": "/brands/Boox",
+      "link": "/e-readers/brands/Boox",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -1750,7 +1750,7 @@
       "id": "Dasung",
       "fullName": "Dasung",
       "specialType": "link",
-      "link": "/brands/Dasung",
+      "link": "/e-readers/brands/Dasung",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -1770,7 +1770,7 @@
       "id": "Daylight",
       "fullName": "Daylight",
       "specialType": "link",
-      "link": "/brands/Daylight",
+      "link": "/e-readers/brands/Daylight",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -1782,7 +1782,7 @@
       "id": "DuRoBo",
       "fullName": "DuRoBo",
       "specialType": "link",
-      "link": "/brands/DuRoBo",
+      "link": "/e-readers/brands/DuRoBo",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -1794,7 +1794,7 @@
       "id": "Eyemoo",
       "fullName": "Eyemoo",
       "specialType": "link",
-      "link": "/brands/Eyemoo",
+      "link": "/e-readers/brands/Eyemoo",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -1806,7 +1806,7 @@
       "id": "Famue",
       "fullName": "Famue",
       "specialType": "link",
-      "link": "/brands/Famue",
+      "link": "/e-readers/brands/Famue",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -1822,7 +1822,7 @@
       "id": "Geniatech",
       "fullName": "Geniatech",
       "specialType": "link",
-      "link": "/brands/Geniatech",
+      "link": "/e-readers/brands/Geniatech",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -1846,7 +1846,7 @@
       "id": "Hannspree",
       "fullName": "Hannspree",
       "specialType": "link",
-      "link": "/brands/Hannspree",
+      "link": "/e-readers/brands/Hannspree",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -1858,7 +1858,7 @@
       "id": "Harborinno",
       "fullName": "Harborinno",
       "specialType": "link",
-      "link": "/brands/Harborinno",
+      "link": "/e-readers/brands/Harborinno",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -1874,7 +1874,7 @@
       "id": "Hisense",
       "fullName": "Hisense",
       "specialType": "link",
-      "link": "/brands/Hisense",
+      "link": "/e-readers/brands/Hisense",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -1906,7 +1906,7 @@
       "id": "Huawei",
       "fullName": "Huawei",
       "specialType": "link",
-      "link": "/brands/Huawei",
+      "link": "/e-readers/brands/Huawei",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -1918,7 +1918,7 @@
       "id": "Huion",
       "fullName": "Huion",
       "specialType": "link",
-      "link": "/brands/Huion",
+      "link": "/e-readers/brands/Huion",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -1934,7 +1934,7 @@
       "id": "iFlytek",
       "fullName": "iFlytek",
       "specialType": "link",
-      "link": "/brands/iFlytek",
+      "link": "/e-readers/brands/iFlytek",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -1950,7 +1950,7 @@
       "id": "InkBOOK",
       "fullName": "InkBOOK",
       "specialType": "link",
-      "link": "/brands/InkBOOK",
+      "link": "/e-readers/brands/InkBOOK",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -1982,7 +1982,7 @@
       "id": "Kindle",
       "fullName": "Kindle",
       "specialType": "link",
-      "link": "/brands/Kindle",
+      "link": "/e-readers/brands/Kindle",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -2114,7 +2114,7 @@
       "id": "Kobo",
       "fullName": "Kobo",
       "specialType": "link",
-      "link": "/brands/Kobo",
+      "link": "/e-readers/brands/Kobo",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -2222,7 +2222,7 @@
       "id": "Lenovo",
       "fullName": "Lenovo",
       "specialType": "link",
-      "link": "/brands/Lenovo",
+      "link": "/e-readers/brands/Lenovo",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -2234,7 +2234,7 @@
       "id": "M5Stack",
       "fullName": "M5Stack",
       "specialType": "link",
-      "link": "/brands/M5Stack",
+      "link": "/e-readers/brands/M5Stack",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -2246,7 +2246,7 @@
       "id": "Meebook",
       "fullName": "Meebook",
       "specialType": "link",
-      "link": "/brands/Meebook",
+      "link": "/e-readers/brands/Meebook",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -2290,7 +2290,7 @@
       "id": "Moaan",
       "fullName": "Moaan",
       "specialType": "link",
-      "link": "/brands/Moaan",
+      "link": "/e-readers/brands/Moaan",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -2310,7 +2310,7 @@
       "id": "MobiScribe",
       "fullName": "MobiScribe",
       "specialType": "link",
-      "link": "/brands/MobiScribe",
+      "link": "/e-readers/brands/MobiScribe",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -2334,7 +2334,7 @@
       "id": "Montblanc",
       "fullName": "Montblanc",
       "specialType": "link",
-      "link": "/brands/Montblanc",
+      "link": "/e-readers/brands/Montblanc",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -2346,7 +2346,7 @@
       "id": "Musnap",
       "fullName": "Musnap",
       "specialType": "link",
-      "link": "/brands/Musnap",
+      "link": "/e-readers/brands/Musnap",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -2386,7 +2386,7 @@
       "id": "Nook",
       "fullName": "Nook",
       "specialType": "link",
-      "link": "/brands/Nook",
+      "link": "/e-readers/brands/Nook",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -2434,7 +2434,7 @@
       "id": "Obook",
       "fullName": "Obook",
       "specialType": "link",
-      "link": "/brands/Obook",
+      "link": "/e-readers/brands/Obook",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -2454,7 +2454,7 @@
       "id": "Paperslate",
       "fullName": "Paperslate",
       "specialType": "link",
-      "link": "/brands/Paperslate",
+      "link": "/e-readers/brands/Paperslate",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -2466,7 +2466,7 @@
       "id": "Penstar",
       "fullName": "Penstar",
       "specialType": "link",
-      "link": "/brands/Penstar",
+      "link": "/e-readers/brands/Penstar",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -2486,7 +2486,7 @@
       "id": "PocketBook",
       "fullName": "PocketBook",
       "specialType": "link",
-      "link": "/brands/PocketBook",
+      "link": "/e-readers/brands/PocketBook",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -2566,7 +2566,7 @@
       "id": "Ratta",
       "fullName": "Ratta",
       "specialType": "link",
-      "link": "/brands/Ratta",
+      "link": "/e-readers/brands/Ratta",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -2586,7 +2586,7 @@
       "id": "Reinkstone",
       "fullName": "Reinkstone",
       "specialType": "link",
-      "link": "/brands/Reinkstone",
+      "link": "/e-readers/brands/Reinkstone",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -2602,7 +2602,7 @@
       "id": "reMarkable",
       "fullName": "reMarkable",
       "specialType": "link",
-      "link": "/brands/reMarkable",
+      "link": "/e-readers/brands/reMarkable",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -2626,7 +2626,7 @@
       "id": "Silvergear",
       "fullName": "Silvergear",
       "specialType": "link",
-      "link": "/brands/Silvergear",
+      "link": "/e-readers/brands/Silvergear",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -2638,7 +2638,7 @@
       "id": "SPC",
       "fullName": "SPC",
       "specialType": "link",
-      "link": "/brands/SPC",
+      "link": "/e-readers/brands/SPC",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -2658,7 +2658,7 @@
       "id": "Tolino",
       "fullName": "Tolino",
       "specialType": "link",
-      "link": "/brands/Tolino",
+      "link": "/e-readers/brands/Tolino",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -2682,7 +2682,7 @@
       "id": "Veidoo",
       "fullName": "Veidoo",
       "specialType": "link",
-      "link": "/brands/Veidoo",
+      "link": "/e-readers/brands/Veidoo",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -2698,7 +2698,7 @@
       "id": "Vivlio",
       "fullName": "Vivlio",
       "specialType": "link",
-      "link": "/brands/Vivlio",
+      "link": "/e-readers/brands/Vivlio",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -2730,7 +2730,7 @@
       "id": "Viwoods",
       "fullName": "Viwoods",
       "specialType": "link",
-      "link": "/brands/Viwoods",
+      "link": "/e-readers/brands/Viwoods",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -2754,7 +2754,7 @@
       "id": "Woxter",
       "fullName": "Woxter",
       "specialType": "link",
-      "link": "/brands/Woxter",
+      "link": "/e-readers/brands/Woxter",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -2770,7 +2770,7 @@
       "id": "Xteink",
       "fullName": "Xteink",
       "specialType": "link",
-      "link": "/brands/Xteink",
+      "link": "/e-readers/brands/Xteink",
       "prefix": "Brand",
       "icon": "fa-building"
     },
