@@ -4,8 +4,7 @@ export const layoutPaddingX = { md: 0, base: "1rem" };
 
 export const attributeMarginLeft = { md: "25px" }
 export const featureTagTemplateColumns = {
-  // xl: "repeat(4,1fr)",
-  "2xl": "repeat(4, 1fr)",
+  // "2xl": "repeat(4, 1fr)",
   base: "50% 50%",
   // base: "1fr",
 };

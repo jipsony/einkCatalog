@@ -181,22 +181,34 @@ export default function ItemFullInfoCard(props) {
           <Separator my="1rem"></Separator>
         </Box>
       )} */}
-      {Object.entries(sections).map(([sectionKey, section]) => (
-        <ItemCard
-          key={sectionKey}
-          borderTop={0}
-          borderBottom={0}
-          p={"2rem"}
-          // pl={"1rem"}
-          // pb=".5rem"
-          pt="1.4rem"
-        >
-          <Box>{renderSectionTitle(section)}</Box>
-          <Box pb={4} pt={1}>
-            {props.itemInfo && renderAttributes(sectionKey, section)}
-          </Box>
-        </ItemCard>
-      ))}
+            {/* <SimpleGrid
+        templateColumns={
+          props.isFullPage ? { "2xl": "1fr 1fr", base: "1fr" } : "1fr"
+        }
+        columnGap={"1rem"}
+      ></SimpleGrid> */}
+      <Box
+        columnCount={props.isFullPage ? { "2xl": 2, base: 1 } : 1}
+        columnGap={"1rem"}
+      >
+        {Object.entries(sections).map(([sectionKey, section]) => (
+          <ItemCard
+            key={sectionKey}
+            borderTop={0}
+            borderBottom={0}
+            p={"2rem"}
+            // pl={"1rem"}
+            // pb=".5rem"
+            pt="1.4rem"
+            style={{ breakInside: "avoid" }}
+          >
+            <Box>{renderSectionTitle(section)}</Box>
+            <Box pb={4} pt={1}>
+              {props.itemInfo && renderAttributes(sectionKey, section)}
+            </Box>
+          </ItemCard>
+        ))}
+      </Box>
 
       {props.itemInfo && props.clickable && (
         <Flex alignItems={"stretch"}>
