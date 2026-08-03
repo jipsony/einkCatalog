@@ -7,16 +7,23 @@ export default function AppBreadcrumbs(props) {
   const renderBreadCrumbItem = (label, path, isCurrentPage, isLast) => {
     return (
       <React.Fragment key={label}>
-        <Breadcrumb.Item>
+        <Breadcrumb.Item
+        minWidth={0}>
           <Breadcrumb.Link
+          display="block"
             textDecor={!isCurrentPage ? "underline" : undefined}
             // color={"var(--appColorDarkGrey)"}
             _hover={
               !isCurrentPage ? { color: "var(--appColorLink)" } : undefined
             }
             href={path}
-            style={{ textWrap: "nowrap" }}
             fontSize={"12px"}
+            whiteSpace="nowrap"
+            textOverflow="ellipsis"
+            title={label}
+           
+              overflow="hidden"
+              verticalAlign="middle"
           >
             {label}
           </Breadcrumb.Link>
@@ -46,8 +53,10 @@ export default function AppBreadcrumbs(props) {
       fontWeight={500}
       // color={"var(--appColorDarkGrey)"}
       color='var(--appColorDarkerGrey)'
+      
     >
-      <Breadcrumb.List>
+      <Breadcrumb.List flexWrap="nowrap">
+
         {breadcrumbList.map((row, idx) => {
           return renderBreadCrumbItem(
             row.label,
