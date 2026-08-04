@@ -36,6 +36,7 @@ export default function ItemFullInfoPage(props) {
                 //  maxHeight={"6rem"}
                 //  overflow={"hidden"}
                 maxHeight={"6rem"}
+                minW={0}
                  >
                   <ItemHorizontalPreviewCard
                     itemInfo={similarItemInfo}

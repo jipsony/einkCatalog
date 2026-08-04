@@ -44,6 +44,7 @@ export default function ItemVerticalPreviewCard(props) {
         p={0}
         _hover={{ borderColor: "var(--foreground)" }}
         h="100%"
+        maxW="100%"
       >
         <Box
           as="a"
