@@ -6,6 +6,7 @@ import React, {
   useState,
   useTransition,
   useCallback,
+  useRef,
 } from "react";
 
 import {
@@ -26,6 +27,7 @@ import {
   Portal,
   CloseButton,
   Slider,
+  NumberInput,
 } from "@chakra-ui/react";
 
 import { FaList } from "react-icons/fa6";
@@ -40,6 +42,7 @@ import {
 import sections from "@/resources/sections";
 import { filterValues } from "@/lib/filterValues";
 
+const debouncePeriod = 500
 const getSliderBounds = (filter) => {
   const values = filterValues?.[filter.key]
     ?.map(Number)
@@ -124,8 +127,24 @@ export default function Filters(props) {
   const { open, onOpen, onClose } = useDisclosure();
   const [isPendingClose, startTransitionClose] = useTransition();
   const [localWipValues, setLocalWipValues] = useState({});
+  const sliderUpdateTimersRef = useRef({});
+  const filtersRef = useRef(props.filters);
 
   const searchParams = useSearchParams();
+
+  useEffect(() => {
+    filtersRef.current = props.filters;
+  }, [props.filters]);
+
+  useEffect(() => {
+    const sliderUpdateTimers = sliderUpdateTimersRef.current;
+
+    return () => {
+      Object.values(sliderUpdateTimers).forEach((timer) =>
+        clearTimeout(timer),
+      );
+    };
+  }, []);
 
   const handleClose = () => {
     startTransitionClose(() => {
@@ -193,8 +212,54 @@ export default function Filters(props) {
 
     const range = normalizeSliderValue(value, bounds);
     const isRangeActive = range[0] !== bounds[0] || range[1] !== bounds[1];
+    const sliderValue = isRangeActive ? range : false;
 
-    handleFilterChange(filter.key, isRangeActive ? range : false);
+    setLocalWipValues((previousValues) => ({
+      ...previousValues,
+      [filter.key]: {
+        value: sliderValue,
+        active: isRangeActive,
+      },
+    }));
+
+    clearTimeout(sliderUpdateTimersRef.current[filter.key]);
+    sliderUpdateTimersRef.current[filter.key] = setTimeout(() => {
+      startTransition(() => {
+        props.setFilters(
+          filtersRef.current.map((currentFilter) =>
+            currentFilter.key === filter.key
+              ? {
+                  ...currentFilter,
+                  wip: {
+                    value: sliderValue,
+                    active: isRangeActive,
+                  },
+                }
+              : currentFilter,
+          ),
+          true,
+        );
+      });
+    }, debouncePeriod);
+  };
+
+  const handleSliderBoundChange = (
+    filter,
+    bounds,
+    currentValue,
+    index,
+    value,
+  ) => {
+    const inputValue = Number(value);
+    if (!Number.isFinite(inputValue)) return;
+
+    const nextValue = [...currentValue];
+    nextValue[index] =
+      index === 0
+        ? Math.min(inputValue, currentValue[1])
+        : Math.max(inputValue, currentValue[0]);
+
+    handleSliderChange(filter, normalizeSliderValue(nextValue, bounds));
   };
 
   const matchFilters = (newFilters, allFilters) => {
@@ -538,10 +603,12 @@ export default function Filters(props) {
       bounds,
     );
     const defaultIndex = props.filtersToOpenByDefault
-      ? isFilterToOpenByDefault(filter, `item-${filter.key}`)
+      ? [isFilterToOpenByDefault(filter, `item-${filter.key}`)].filter(
+          Boolean,
+        )
       : isRadioFilterActive(filter)
-        ? `item-${filter.key}`
-        : undefined;
+        ? [`item-${filter.key}`]
+        : [];
 
     return (
       <Accordion.Root multiple defaultValue={defaultIndex}>
@@ -562,11 +629,76 @@ export default function Filters(props) {
                 ml={5}
                 mb="4"
               >
-                <Box display="flex" alignItems="center" gap="2" mb="2" ml={3}>
-                  <Box ml="auto" color="var(--appColorDarkGrey)">
-                    {`${sliderValue[0]}${filter.unit ?? ""} - ${sliderValue[1]}${filter.unit ?? ""}`}
-                  </Box>
-                </Box>
+                <Grid templateColumns="1fr 1fr" gap="3" mb="3" ml={3} mr={3}>
+                  <NumberInput.Root
+                    display="flex"
+                    alignItems="center"
+                    gap="1"
+                    minW={0}
+                    min={bounds[0]}
+                    max={sliderValue[1]}
+                    step={getSliderStep(filter)}
+                    value={sliderValue[0].toString()}
+                    onValueChange={(details) =>
+                      handleSliderBoundChange(
+                        filter,
+                        bounds,
+                        sliderValue,
+                        0,
+                        details.value,
+                      )
+                    }
+                  >
+                    <NumberInput.Label
+                      fontSize="xs"
+                      color="var(--appColorDarkGrey)"
+                    >
+                      Min
+                    </NumberInput.Label>
+                    <NumberInput.Input
+                      h="7"
+                      minW={0}
+                      px="2"
+                      fontSize="xs"
+                      textAlign="center"
+                    />
+                    {/* {filter.unit && <Box fontSize="xs">{filter.unit}</Box>} */}
+                  </NumberInput.Root>
+                  <NumberInput.Root
+                    display="flex"
+                    alignItems="center"
+                    gap="1"
+                    minW={0}
+                    min={sliderValue[0]}
+                    max={bounds[1]}
+                    step={getSliderStep(filter)}
+                    value={sliderValue[1].toString()}
+                    onValueChange={(details) =>
+                      handleSliderBoundChange(
+                        filter,
+                        bounds,
+                        sliderValue,
+                        1,
+                        details.value,
+                      )
+                    }
+                  >
+                    <NumberInput.Label
+                      fontSize="xs"
+                      color="var(--appColorDarkGrey)"
+                    >
+                      Max
+                    </NumberInput.Label>
+                    <NumberInput.Input
+                      h="7"
+                      minW={0}
+                      px="2"
+                      fontSize="xs"
+                      textAlign="center"
+                    />
+                    {/* {filter.unit && <Box fontSize="xs">{filter.unit}</Box>} */}
+                  </NumberInput.Root>
+                </Grid>
                 <Box ml={3} mr={3}>
                   <Slider.Root
                     aria-label={[

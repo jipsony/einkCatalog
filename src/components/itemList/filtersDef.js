@@ -95,6 +95,13 @@ const initSliderFilters = (filterList) => {
 
 const generalFilters = [
   {
+    key: "price",
+    label: "Price",
+    icon: FaMoneyBill1Wave,
+    type: "slider",
+    unit: "$",
+  },
+  {
     key: "brand",
     label: "Brand",
     icon: FaBuilding,
@@ -105,11 +112,12 @@ const generalFilters = [
     shortLabel: "Availability",
     icon: MdEventAvailable,
   },
-  {
-    key: "priceCategory",
-    label: "Price",
-    icon: FaMoneyBill1Wave,
-  },
+
+  // {
+  //   key: "priceCategory",
+  //   label: "Price",
+  //   icon: FaMoneyBill1Wave,
+  // },
   {
     key: "sizeCategory",
     label: "Size",
@@ -136,7 +144,7 @@ const additionalSectionFilters = [
   {
     key: "screenSize",
     label: "Screen Size",
-    icon: FaEye,
+    icon: FaPlus,
     type: "slider",
     unit: '"',
   },
@@ -209,7 +217,11 @@ const specialCategories = [
     titleRenderType: "suffix",
   },
   { key: "Phone-Like", label: "Phone-Like", titleRenderType: "prefix" },
-  { key: "Kindle Alternative", label: "Kindle Alternative", titleRenderType: "prefix",  },
+  {
+    key: "Kindle Alternative",
+    label: "Kindle Alternative",
+    titleRenderType: "prefix",
+  },
 ];
 const specialCategoryFilters = [
   ...specialCategories.map((s) => ({
