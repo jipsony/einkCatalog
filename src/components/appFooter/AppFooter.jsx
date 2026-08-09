@@ -15,6 +15,7 @@ import jipsony from "@/resources/images/Jipsony.webp";
 import kofiIcon from "@/resources/images/kofi_symbol.webp";
 import AppLink from "../toolsComponents/AppLink";
 import { FaEnvelope, FaHeart, FaRegCopyright } from "react-icons/fa6";
+import { layoutPaddingX } from "@/lib/sizes";
 export default function AppFooter() {
   const renderFooterLink = (link, content) => {
     return (
@@ -43,6 +44,7 @@ export default function AppFooter() {
     >
       <Separator borderColor="var(--appBorderColor)"></Separator>
       <Grid
+      px={layoutPaddingX}
         py={{ base: ".2rem", md: ".5rem" }}
         // width={"100%"}
         // height={"100%"}
