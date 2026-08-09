@@ -6,6 +6,7 @@ import React, {
   useState,
   useTransition,
   useCallback,
+  useRef,
 } from "react";
 
 import {
@@ -25,6 +26,8 @@ import {
   Spinner,
   Portal,
   CloseButton,
+  Slider,
+  NumberInput,
 } from "@chakra-ui/react";
 
 import { FaList } from "react-icons/fa6";
@@ -38,6 +41,39 @@ import {
 } from "./filtersDef";
 import sections from "@/resources/sections";
 import { filterValues } from "@/lib/filterValues";
+
+const debouncePeriod = 500
+const getSliderBounds = (filter) => {
+  const values = filterValues?.[filter.key]
+    ?.map(Number)
+    ?.filter((value) => Number.isFinite(value));
+
+  if (!values?.length) return null;
+
+  return [Math.min(...values), Math.max(...values)];
+};
+
+const normalizeSliderValue = (value, bounds) => {
+  if (!Array.isArray(value) || value.length !== 2) return bounds;
+
+  const normalizedValue = value.map(Number);
+  if (!normalizedValue.every((entry) => Number.isFinite(entry))) return bounds;
+
+  return normalizedValue
+    .map((entry) => Math.min(Math.max(entry, bounds[0]), bounds[1]))
+    .sort((first, second) => first - second);
+};
+
+const getSliderStep = (filter) => {
+  if (filter.step) return filter.step;
+
+  const values = filterValues?.[filter.key] ?? [];
+  const decimalPrecision = Math.max(
+    ...values.map((value) => value.toString().split(".")[1]?.length ?? 0),
+  );
+
+  return 10 ** -decimalPrecision;
+};
 
 function ApplyFilterButton(props) {
   const [isPendingApplyFilter, startTransitionApplyFilter] = useTransition();
@@ -91,13 +127,42 @@ export default function Filters(props) {
   const { open, onOpen, onClose } = useDisclosure();
   const [isPendingClose, startTransitionClose] = useTransition();
   const [localWipValues, setLocalWipValues] = useState({});
+  // Raw text the user is currently typing, kept separate from the committed range
+  const [numberInputDrafts, setNumberInputDrafts] = useState({});
+  const sliderUpdateTimersRef = useRef({});
+  const numberInputTimersRef = useRef({});
+  const filtersRef = useRef(props.filters);
+  const localWipValuesRef = useRef(localWipValues);
 
   const searchParams = useSearchParams();
+
+  useEffect(() => {
+    filtersRef.current = props.filters;
+  }, [props.filters]);
+
+  useEffect(() => {
+    localWipValuesRef.current = localWipValues;
+  }, [localWipValues]);
+
+  useEffect(() => {
+    const sliderUpdateTimers = sliderUpdateTimersRef.current;
+    const numberInputTimers = numberInputTimersRef.current;
+
+    return () => {
+      Object.values(sliderUpdateTimers).forEach((timer) =>
+        clearTimeout(timer),
+      );
+      Object.values(numberInputTimers).forEach((timer) =>
+        clearTimeout(timer),
+      );
+    };
+  }, []);
 
   const handleClose = () => {
     startTransitionClose(() => {
       props.onClose();
     });
+    setNumberInputDrafts({});
   };
 
   useEffect(() => {
@@ -153,6 +218,105 @@ export default function Filters(props) {
     },
     [props.filters, props.setFilters],
   );
+
+  const handleSliderChange = (filter, value) => {
+    const bounds = getSliderBounds(filter);
+    if (!bounds) return;
+
+    const range = normalizeSliderValue(value, bounds);
+    const isRangeActive = range[0] !== bounds[0] || range[1] !== bounds[1];
+    const sliderValue = isRangeActive ? range : false;
+
+    setLocalWipValues((previousValues) => ({
+      ...previousValues,
+      [filter.key]: {
+        value: sliderValue,
+        active: isRangeActive,
+      },
+    }));
+
+    clearTimeout(sliderUpdateTimersRef.current[filter.key]);
+    sliderUpdateTimersRef.current[filter.key] = setTimeout(() => {
+      startTransition(() => {
+        props.setFilters(
+          filtersRef.current.map((currentFilter) =>
+            currentFilter.key === filter.key
+              ? {
+                  ...currentFilter,
+                  wip: {
+                    value: sliderValue,
+                    active: isRangeActive,
+                  },
+                }
+              : currentFilter,
+          ),
+          true,
+        );
+      });
+    }, debouncePeriod);
+  };
+
+  // Applies a typed min/max value to the actual filter, using the freshest committed range
+  const commitSliderBoundInput = (filter, bounds, index, rawValue) => {
+    const inputValue = Number(rawValue);
+    if (!Number.isFinite(inputValue)) return;
+
+    const currentValue = normalizeSliderValue(
+      localWipValuesRef.current[filter.key]?.value,
+      bounds,
+    );
+
+    const nextValue = [...currentValue];
+    nextValue[index] =
+      index === 0
+        ? Math.min(inputValue, currentValue[1])
+        : Math.max(inputValue, currentValue[0]);
+
+    const range = normalizeSliderValue(nextValue, bounds);
+    const isRangeActive = range[0] !== bounds[0] || range[1] !== bounds[1];
+    const sliderValue = isRangeActive ? range : false;
+
+    setLocalWipValues((previousValues) => ({
+      ...previousValues,
+      [filter.key]: {
+        value: sliderValue,
+        active: isRangeActive,
+      },
+    }));
+
+    startTransition(() => {
+      props.setFilters(
+        filtersRef.current.map((currentFilter) =>
+          currentFilter.key === filter.key
+            ? {
+                ...currentFilter,
+                wip: {
+                  value: sliderValue,
+                  active: isRangeActive,
+                },
+              }
+            : currentFilter,
+        ),
+        true,
+      );
+    });
+  };
+
+  // Updates the displayed input text instantly, and defers the actual filter change
+  const handleSliderInputChange = (filter, bounds, index, value) => {
+    setNumberInputDrafts((previousDrafts) => {
+      const currentDraft = previousDrafts[filter.key] ?? [undefined, undefined];
+      const nextDraft = [...currentDraft];
+      nextDraft[index] = value;
+      return { ...previousDrafts, [filter.key]: nextDraft };
+    });
+
+    const timerKey = `${filter.key}:${index}`;
+    clearTimeout(numberInputTimersRef.current[timerKey]);
+    numberInputTimersRef.current[timerKey] = setTimeout(() => {
+      commitSliderBoundInput(filter, bounds, index, value);
+    }, debouncePeriod);
+  };
 
   const matchFilters = (newFilters, allFilters) => {
     let appliedFilters = allFilters;
@@ -230,6 +394,7 @@ export default function Filters(props) {
     });
     props.setFilters(applied);
     props.onClose();
+    setNumberInputDrafts({});
   };
 
   const clearAllFilters = () => {
@@ -243,6 +408,7 @@ export default function Filters(props) {
       },
     }));
     props.setFilters(clearedFilters);
+    setNumberInputDrafts({});
   };
 
   const renderSpecialCategoryFilters = () => {
@@ -320,12 +486,19 @@ export default function Filters(props) {
     return (
       filter?.children?.length > 0 && (
         <Box ml={"1rem"} mb=".5rem">
-          {renderRadioFilters(
-            additionalSectionFilters?.filter((f) =>
-              filter?.children?.includes(f.key),
-            ),
-            true,
-          )}
+          {filter.children.map((childKey) => {
+            const childFilter = additionalSectionFilters.find(
+              (entry) => entry.key === childKey,
+            );
+
+            return (
+              <React.Fragment key={childKey}>
+                {childFilter?.type === "slider"
+                  ? renderSliderFilter(childFilter)
+                  : renderRadioFilters([childFilter], true)}
+              </React.Fragment>
+            );
+          })}
         </Box>
       )
     );
@@ -478,6 +651,141 @@ export default function Filters(props) {
     )
       return toReturn;
     return null;
+  };
+  const renderSliderFilter = (filter) => {
+    const bounds = getSliderBounds(filter);
+    if (!bounds) return null;
+
+    const sliderValue = normalizeSliderValue(
+      localWipValues[filter.key]?.value,
+      bounds,
+    );
+    const draft = numberInputDrafts[filter.key] ?? [undefined, undefined];
+    const defaultIndex = props.filtersToOpenByDefault
+      ? [isFilterToOpenByDefault(filter, `item-${filter.key}`)].filter(
+          Boolean,
+        )
+      : isRadioFilterActive(filter)
+        ? [`item-${filter.key}`]
+        : [];
+
+    return (
+      <Accordion.Root multiple defaultValue={defaultIndex}>
+        <Accordion.Item key={filter.key} value={`item-${filter.key}`}>
+          <Accordion.ItemTrigger>
+            <FilterTriggerLabel
+              icon={filter.icon}
+              label={filter.label}
+              isActive={isRadioFilterActive(filter)}
+            />
+            <Accordion.ItemIndicator />
+          </Accordion.ItemTrigger>
+          <Accordion.ItemContent pr={0}>
+            <Accordion.ItemBody>
+              <Box
+                borderLeftWidth={"2px"}
+                borderColor={"var(--appColorDarkGrey)"}
+                ml={5}
+                mb="4"
+              >
+                <Grid templateColumns="1fr 1fr" gap="3" mb="3" ml={3} mr={3}>
+                  <NumberInput.Root
+                    display="flex"
+                    alignItems="center"
+                    gap="1"
+                    minW={0}
+                    min={bounds[0]}
+                    max={bounds[1]}
+                    allowOverflow
+                    step={getSliderStep(filter)}
+                    value={draft[0] ?? sliderValue[0].toString()}
+                    onValueChange={(details) =>
+                      handleSliderInputChange(
+                        filter,
+                        bounds,
+                        0,
+                        details.value,
+                      )
+                    }
+                  >
+                    <NumberInput.Label
+                      fontSize="xs"
+                      color="var(--appColorDarkGrey)"
+                    >
+                      Min
+                    </NumberInput.Label>
+                    <NumberInput.Input
+                      h="7"
+                      minW={0}
+                      px="2"
+                      fontSize="xs"
+                      textAlign="center"
+                    />
+                    {/* {filter.unit && <Box fontSize="xs">{filter.unit}</Box>} */}
+                  </NumberInput.Root>
+                  <NumberInput.Root
+                    display="flex"
+                    alignItems="center"
+                    gap="1"
+                    minW={0}
+                    min={bounds[0]}
+                    max={bounds[1]}
+                    allowOverflow
+                    step={getSliderStep(filter)}
+                    value={draft[1] ?? sliderValue[1].toString()}
+                    onValueChange={(details) =>
+                      handleSliderInputChange(
+                        filter,
+                        bounds,
+                        1,
+                        details.value,
+                      )
+                    }
+                  >
+                    <NumberInput.Label
+                      fontSize="xs"
+                      color="var(--appColorDarkGrey)"
+                    >
+                      Max
+                    </NumberInput.Label>
+                    <NumberInput.Input
+                      h="7"
+                      minW={0}
+                      px="2"
+                      fontSize="xs"
+                      textAlign="center"
+                    />
+                    {/* {filter.unit && <Box fontSize="xs">{filter.unit}</Box>} */}
+                  </NumberInput.Root>
+                </Grid>
+                <Box ml={3} mr={3}>
+                  <Slider.Root
+                    aria-label={[
+                      `Minimum ${filter.label}`,
+                      `Maximum ${filter.label}`,
+                    ]}
+                    min={bounds[0]}
+                    max={bounds[1]}
+                    step={getSliderStep(filter)}
+                    value={sliderValue}
+                    onValueChange={(details) =>
+                      handleSliderChange(filter, details.value)
+                    }
+                  >
+                    <Slider.Control>
+                      <Slider.Track>
+                        <Slider.Range />
+                      </Slider.Track>
+                      <Slider.Thumbs />
+                    </Slider.Control>
+                  </Slider.Root>
+                </Box>
+              </Box>
+            </Accordion.ItemBody>
+          </Accordion.ItemContent>
+        </Accordion.Item>
+      </Accordion.Root>
+    );
   };
   const renderRadioFilters = (appliedRadiofilters, isChildRender) => {
     const defaultIndex = appliedRadiofilters
@@ -663,7 +971,12 @@ export default function Filters(props) {
                     General
                   </Heading>
                 </Center>
-                {renderRadioFilters(generalFilters)}
+                {renderRadioFilters(
+                  generalFilters.filter((filter) => filter.type !== "slider"),
+                )}
+                {generalFilters
+                  .filter((filter) => filter.type === "slider")
+                  .map((filter) => renderSliderFilter(filter))}
                 {renderSpecialCategoryFilters()}
                 <Center>
                   <Heading size={"md"} m={"0.5em"}>
