@@ -319,7 +319,7 @@ export default function Filters(props) {
 
     return (
       filter?.children?.length > 0 && (
-        <Box ml={"1rem"}>
+        <Box ml={"1rem"} mb=".5rem">
           {renderRadioFilters(
             additionalSectionFilters?.filter((f) =>
               filter?.children?.includes(f.key),
