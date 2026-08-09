@@ -15,6 +15,10 @@ export default function FilterRecapTag(props) {
     (hasClickedEdit && isPendingEdit) || (hasClickedEdit && isPendingDelete);
 
   const FilterIcon = props.filter.icon || LuTag;
+  const filterValue =
+    props.filter.type === "slider" && Array.isArray(props.filter.value)
+      ? `${props.filter.value[0]}${props.filter.unit ?? ""} - ${props.filter.value[1]}${props.filter.unit ?? ""}`
+      : props.filter.value;
 
   return (
     <Flex position="relative">
@@ -77,7 +81,7 @@ export default function FilterRecapTag(props) {
                         ? props.filter.shortLabel
                         : props.filter.label}
                     </b>
-                    <span>{`: ${props.filter.value}`}</span>
+                    <span>{`: ${filterValue}`}</span>
                   </>
                 )}
               </Box>

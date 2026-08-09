@@ -64,6 +64,35 @@ const defaultFilterFunction = (row, key, value) => {
   return row?.[key]?.toLowerCase()?.includes(value?.toLowerCase());
 };
 
+const numericRangeFilterFunction = (row, key, value) => {
+  if (!Array.isArray(value) || value.length !== 2) return true;
+
+  const [minimum, maximum] = value.map(Number);
+  const rowValue = Number(row?.[key]);
+
+  return (
+    Number.isFinite(minimum) &&
+    Number.isFinite(maximum) &&
+    Number.isFinite(rowValue) &&
+    rowValue >= minimum &&
+    rowValue <= maximum
+  );
+};
+
+const initSliderFilters = (filterList) => {
+  return filterList.map((filter) => ({
+    ...filter,
+    value: false,
+    filterFunction: (row, value) => {
+      if (filter.filterFunction)
+        return filter.filterFunction(row, filter.key, value);
+      return numericRangeFilterFunction(row, filter.key, value);
+    },
+    active: false,
+    type: "slider",
+  }));
+};
+
 const generalFilters = [
   {
     key: "brand",
@@ -102,7 +131,14 @@ const additionalSectionFilters = [
     key: "display",
     label: "Screen",
     icon: FaPlus,
-    children: ["screenSize", "screenType", "aspectRatio"],
+    children: ["screenSize", "aspectRatio", "screenType"],
+  },
+  {
+    key: "screenSize",
+    label: "Screen Size",
+    icon: FaEye,
+    type: "slider",
+    unit: '"',
   },
   {
     key: "aspectRatio",
@@ -191,10 +227,14 @@ const sectionFilters = initSectionFilters();
 const categoryFilters = specialCategoryFilters;
 
 let filtersDef = [
-  ...initRadioFilters(generalFilters),
+  ...initRadioFilters(generalFilters.filter((f) => f.type !== "slider")),
+  ...initSliderFilters(generalFilters.filter((f) => f.type === "slider")),
   ...sectionFilters,
   ...initRadioFilters(
     additionalSectionFilters.filter((f) => f.type === "radio"),
+  ),
+  ...initSliderFilters(
+    additionalSectionFilters.filter((f) => f.type === "slider"),
   ),
   ...initCheckboxFilters(
     additionalSectionFilters.filter((f) => f.type === "checkbox"),

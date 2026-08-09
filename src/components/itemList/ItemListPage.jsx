@@ -188,7 +188,7 @@ export default function ItemListPage(props) {
         ?.filter((row) => row.active)
         ?.map((row) => [row.key, row.value]),
     );
-    if (activeFilters) {
+    if (Object.keys(activeFilters).length > 0) {
       params.set("filters", JSON.stringify(activeFilters));
     } else {
       params.delete("filters");
@@ -208,8 +208,9 @@ export default function ItemListPage(props) {
         (key) => props.initialFilters?.[key] === undefined,
       );
 
-      if (newFiltersExist) {
-        replace(`${pathname}?${params.toString()}`);
+      if (newFiltersExist || searchParams.has("filters")) {
+        const search = params.toString();
+        replace(search ? `${pathname}?${search}` : pathname);
       }
     }
   };

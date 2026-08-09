@@ -25,6 +25,7 @@ import {
   Spinner,
   Portal,
   CloseButton,
+  Slider,
 } from "@chakra-ui/react";
 
 import { FaList } from "react-icons/fa6";
@@ -38,6 +39,38 @@ import {
 } from "./filtersDef";
 import sections from "@/resources/sections";
 import { filterValues } from "@/lib/filterValues";
+
+const getSliderBounds = (filter) => {
+  const values = filterValues?.[filter.key]
+    ?.map(Number)
+    ?.filter((value) => Number.isFinite(value));
+
+  if (!values?.length) return null;
+
+  return [Math.min(...values), Math.max(...values)];
+};
+
+const normalizeSliderValue = (value, bounds) => {
+  if (!Array.isArray(value) || value.length !== 2) return bounds;
+
+  const normalizedValue = value.map(Number);
+  if (!normalizedValue.every((entry) => Number.isFinite(entry))) return bounds;
+
+  return normalizedValue
+    .map((entry) => Math.min(Math.max(entry, bounds[0]), bounds[1]))
+    .sort((first, second) => first - second);
+};
+
+const getSliderStep = (filter) => {
+  if (filter.step) return filter.step;
+
+  const values = filterValues?.[filter.key] ?? [];
+  const decimalPrecision = Math.max(
+    ...values.map((value) => value.toString().split(".")[1]?.length ?? 0),
+  );
+
+  return 10 ** -decimalPrecision;
+};
 
 function ApplyFilterButton(props) {
   const [isPendingApplyFilter, startTransitionApplyFilter] = useTransition();
@@ -153,6 +186,16 @@ export default function Filters(props) {
     },
     [props.filters, props.setFilters],
   );
+
+  const handleSliderChange = (filter, value) => {
+    const bounds = getSliderBounds(filter);
+    if (!bounds) return;
+
+    const range = normalizeSliderValue(value, bounds);
+    const isRangeActive = range[0] !== bounds[0] || range[1] !== bounds[1];
+
+    handleFilterChange(filter.key, isRangeActive ? range : false);
+  };
 
   const matchFilters = (newFilters, allFilters) => {
     let appliedFilters = allFilters;
@@ -320,12 +363,19 @@ export default function Filters(props) {
     return (
       filter?.children?.length > 0 && (
         <Box ml={"1rem"}>
-          {renderRadioFilters(
-            additionalSectionFilters?.filter((f) =>
-              filter?.children?.includes(f.key),
-            ),
-            true,
-          )}
+          {filter.children.map((childKey) => {
+            const childFilter = additionalSectionFilters.find(
+              (entry) => entry.key === childKey,
+            );
+
+            return (
+              <React.Fragment key={childKey}>
+                {childFilter?.type === "slider"
+                  ? renderSliderFilter(childFilter)
+                  : renderRadioFilters([childFilter], true)}
+              </React.Fragment>
+            );
+          })}
         </Box>
       )
     );
@@ -478,6 +528,73 @@ export default function Filters(props) {
     )
       return toReturn;
     return null;
+  };
+  const renderSliderFilter = (filter) => {
+    const bounds = getSliderBounds(filter);
+    if (!bounds) return null;
+
+    const sliderValue = normalizeSliderValue(
+      localWipValues[filter.key]?.value,
+      bounds,
+    );
+    const defaultIndex = props.filtersToOpenByDefault
+      ? isFilterToOpenByDefault(filter, `item-${filter.key}`)
+      : isRadioFilterActive(filter)
+        ? `item-${filter.key}`
+        : undefined;
+
+    return (
+      <Accordion.Root multiple defaultValue={defaultIndex}>
+        <Accordion.Item key={filter.key} value={`item-${filter.key}`}>
+          <Accordion.ItemTrigger>
+            <FilterTriggerLabel
+              icon={filter.icon}
+              label={filter.label}
+              isActive={isRadioFilterActive(filter)}
+            />
+            <Accordion.ItemIndicator />
+          </Accordion.ItemTrigger>
+          <Accordion.ItemContent pr={0}>
+            <Accordion.ItemBody>
+              <Box
+                borderLeftWidth={"2px"}
+                borderColor={"var(--appColorDarkGrey)"}
+                ml={5}
+                mb="4"
+              >
+                <Box display="flex" alignItems="center" gap="2" mb="2" ml={3}>
+                  <Box ml="auto" color="var(--appColorDarkGrey)">
+                    {`${sliderValue[0]}${filter.unit ?? ""} - ${sliderValue[1]}${filter.unit ?? ""}`}
+                  </Box>
+                </Box>
+                <Box ml={3} mr={3}>
+                  <Slider.Root
+                    aria-label={[
+                      `Minimum ${filter.label}`,
+                      `Maximum ${filter.label}`,
+                    ]}
+                    min={bounds[0]}
+                    max={bounds[1]}
+                    step={getSliderStep(filter)}
+                    value={sliderValue}
+                    onValueChange={(details) =>
+                      handleSliderChange(filter, details.value)
+                    }
+                  >
+                    <Slider.Control>
+                      <Slider.Track>
+                        <Slider.Range />
+                      </Slider.Track>
+                      <Slider.Thumbs />
+                    </Slider.Control>
+                  </Slider.Root>
+                </Box>
+              </Box>
+            </Accordion.ItemBody>
+          </Accordion.ItemContent>
+        </Accordion.Item>
+      </Accordion.Root>
+    );
   };
   const renderRadioFilters = (appliedRadiofilters, isChildRender) => {
     const defaultIndex = appliedRadiofilters
@@ -663,7 +780,12 @@ export default function Filters(props) {
                     General
                   </Heading>
                 </Center>
-                {renderRadioFilters(generalFilters)}
+                {renderRadioFilters(
+                  generalFilters.filter((filter) => filter.type !== "slider"),
+                )}
+                {generalFilters
+                  .filter((filter) => filter.type === "slider")
+                  .map((filter) => renderSliderFilter(filter))}
                 {renderSpecialCategoryFilters()}
                 <Center>
                   <Heading size={"md"} m={"0.5em"}>
