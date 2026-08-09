@@ -9,6 +9,7 @@ import { layoutPaddingX, layoutWidth, pageWidth } from "@/lib/sizes";
 import Sandbox from "@/components/Sandbox";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import { appDomain } from "@/lib/appGlobals";
+import AppFooter from "@/components/appFooter/AppFooter";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -43,11 +44,15 @@ export default function RootLayout({ children, ...props }) {
         suppressHydrationWarning
       >
         <Provider>
-          <Box width={layoutWidth}>
+          <Box width={layoutWidth} minH={"110vh"} position={"relative"}>
             {/* <Box w={layoutWidth}> */}
             <AppHeader logoComponent={<AppLogo></AppLogo>} />
-            <Box paddingBottom={"8rem"} px={layoutPaddingX}>
+            <Box paddingBottom={"5rem"} px={layoutPaddingX}>
               {children}
+            </Box>
+
+            <Box position="absolute" bottom={0} height="3.5rem" w={"100%"}>
+              <AppFooter></AppFooter>
             </Box>
             {/* </Box> */}
           </Box>
@@ -57,7 +62,6 @@ export default function RootLayout({ children, ...props }) {
     </html>
   );
 }
-
 
 export const metadata = {
   metadataBase: new URL(appDomain),
