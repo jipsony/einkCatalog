@@ -37,28 +37,28 @@ export default function AppFooter() {
       //   backgroundColor={"var(--appColorAccent)!important"}
       alignItems={"center"}
       id={"appFooter"}
-    //   color="var(--appColorDarkerGrey)"
+      //   color="var(--appColorDarkerGrey)"
       maxHeight="6rem"
       color="var(--appColorDarkerGrey)"
-      opacity={.8}
+      opacity={0.8}
+        px={layoutPaddingX}
+
     >
       <Separator borderColor="var(--appBorderColor)"></Separator>
-      <Grid
-      px={layoutPaddingX}
+      <Flex
         py={{ base: ".2rem", md: ".5rem" }}
         // width={"100%"}
         // height={"100%"}
-        templateColumns={"1fr 1fr"}
         // alignItems={"center"}
+        justifyContent= "space-between"
       >
-        <GridItem>
+        <Box>
           <HStack>
             <Stack gap={0}>
               <Box _hover={{ opacity: 0.8 }}>
                 <AppLink href="/">E-READER CATALOG</AppLink>
               </Box>
-              <HStack gap={"0.2rem"} 
-              >
+              <HStack gap={"0.2rem"}>
                 <Box as="span">Contact: </Box>
                 <a
                   href={"mailto:jipsony@retrocatalog.com"}
@@ -84,13 +84,8 @@ export default function AppFooter() {
               </HStack> */}
             </Stack>
           </HStack>
-        </GridItem>
-        <GridItem
-          alignSelf={"flex-start"}
-          justifySelf={"flex-end"}
-          textAlign={"end"}
-          // color={"#0000009c"}
-        >
+        </Box>
+        <Box>
           <HStack justifyContent={"flex-end"} fontStyle={"italic"}>
             {/* <Box>Made</Box> */}
             <Box>{`Made with `}</Box>
@@ -104,10 +99,7 @@ export default function AppFooter() {
               borderRadius={"20%"}
             />
           </HStack>
-          <HStack
-            justifyContent={"flex-end"}
-            mr={"-4px"}
-          >
+          <HStack justifyContent={"flex-end"} mr={"-4px"}>
             {/* <Box display={{ base: "none", md: "inline" }}> */}
             <Box>Support the project: </Box>
             {renderFooterLink(
@@ -123,7 +115,8 @@ export default function AppFooter() {
               />,
             )}
           </HStack>
-          {/* <HStack justifyContent={"flex-end"}>
+        </Box>
+        {/* <HStack justifyContent={"flex-end"}>
             <Box>Contact: </Box>
             <a
               href={"mailto:jipsony@retrocatalog.com"}
@@ -143,8 +136,7 @@ export default function AppFooter() {
               </Box>
             )}
           </HStack> */}
-        </GridItem>
-      </Grid>
+      </Flex>
 
       {/* <Center >
 
