@@ -127,8 +127,12 @@ export default function Filters(props) {
   const { open, onOpen, onClose } = useDisclosure();
   const [isPendingClose, startTransitionClose] = useTransition();
   const [localWipValues, setLocalWipValues] = useState({});
+  // Raw text the user is currently typing, kept separate from the committed range
+  const [numberInputDrafts, setNumberInputDrafts] = useState({});
   const sliderUpdateTimersRef = useRef({});
+  const numberInputTimersRef = useRef({});
   const filtersRef = useRef(props.filters);
+  const localWipValuesRef = useRef(localWipValues);
 
   const searchParams = useSearchParams();
 
@@ -137,10 +141,18 @@ export default function Filters(props) {
   }, [props.filters]);
 
   useEffect(() => {
+    localWipValuesRef.current = localWipValues;
+  }, [localWipValues]);
+
+  useEffect(() => {
     const sliderUpdateTimers = sliderUpdateTimersRef.current;
+    const numberInputTimers = numberInputTimersRef.current;
 
     return () => {
       Object.values(sliderUpdateTimers).forEach((timer) =>
+        clearTimeout(timer),
+      );
+      Object.values(numberInputTimers).forEach((timer) =>
         clearTimeout(timer),
       );
     };
@@ -150,6 +162,7 @@ export default function Filters(props) {
     startTransitionClose(() => {
       props.onClose();
     });
+    setNumberInputDrafts({});
   };
 
   useEffect(() => {
@@ -243,15 +256,15 @@ export default function Filters(props) {
     }, debouncePeriod);
   };
 
-  const handleSliderBoundChange = (
-    filter,
-    bounds,
-    currentValue,
-    index,
-    value,
-  ) => {
-    const inputValue = Number(value);
+  // Applies a typed min/max value to the actual filter, using the freshest committed range
+  const commitSliderBoundInput = (filter, bounds, index, rawValue) => {
+    const inputValue = Number(rawValue);
     if (!Number.isFinite(inputValue)) return;
+
+    const currentValue = normalizeSliderValue(
+      localWipValuesRef.current[filter.key]?.value,
+      bounds,
+    );
 
     const nextValue = [...currentValue];
     nextValue[index] =
@@ -259,7 +272,50 @@ export default function Filters(props) {
         ? Math.min(inputValue, currentValue[1])
         : Math.max(inputValue, currentValue[0]);
 
-    handleSliderChange(filter, normalizeSliderValue(nextValue, bounds));
+    const range = normalizeSliderValue(nextValue, bounds);
+    const isRangeActive = range[0] !== bounds[0] || range[1] !== bounds[1];
+    const sliderValue = isRangeActive ? range : false;
+
+    setLocalWipValues((previousValues) => ({
+      ...previousValues,
+      [filter.key]: {
+        value: sliderValue,
+        active: isRangeActive,
+      },
+    }));
+
+    startTransition(() => {
+      props.setFilters(
+        filtersRef.current.map((currentFilter) =>
+          currentFilter.key === filter.key
+            ? {
+                ...currentFilter,
+                wip: {
+                  value: sliderValue,
+                  active: isRangeActive,
+                },
+              }
+            : currentFilter,
+        ),
+        true,
+      );
+    });
+  };
+
+  // Updates the displayed input text instantly, and defers the actual filter change
+  const handleSliderInputChange = (filter, bounds, index, value) => {
+    setNumberInputDrafts((previousDrafts) => {
+      const currentDraft = previousDrafts[filter.key] ?? [undefined, undefined];
+      const nextDraft = [...currentDraft];
+      nextDraft[index] = value;
+      return { ...previousDrafts, [filter.key]: nextDraft };
+    });
+
+    const timerKey = `${filter.key}:${index}`;
+    clearTimeout(numberInputTimersRef.current[timerKey]);
+    numberInputTimersRef.current[timerKey] = setTimeout(() => {
+      commitSliderBoundInput(filter, bounds, index, value);
+    }, debouncePeriod);
   };
 
   const matchFilters = (newFilters, allFilters) => {
@@ -338,6 +394,7 @@ export default function Filters(props) {
     });
     props.setFilters(applied);
     props.onClose();
+    setNumberInputDrafts({});
   };
 
   const clearAllFilters = () => {
@@ -351,6 +408,7 @@ export default function Filters(props) {
       },
     }));
     props.setFilters(clearedFilters);
+    setNumberInputDrafts({});
   };
 
   const renderSpecialCategoryFilters = () => {
@@ -602,6 +660,7 @@ export default function Filters(props) {
       localWipValues[filter.key]?.value,
       bounds,
     );
+    const draft = numberInputDrafts[filter.key] ?? [undefined, undefined];
     const defaultIndex = props.filtersToOpenByDefault
       ? [isFilterToOpenByDefault(filter, `item-${filter.key}`)].filter(
           Boolean,
@@ -636,14 +695,14 @@ export default function Filters(props) {
                     gap="1"
                     minW={0}
                     min={bounds[0]}
-                    max={sliderValue[1]}
+                    max={bounds[1]}
+                    allowOverflow
                     step={getSliderStep(filter)}
-                    value={sliderValue[0].toString()}
+                    value={draft[0] ?? sliderValue[0].toString()}
                     onValueChange={(details) =>
-                      handleSliderBoundChange(
+                      handleSliderInputChange(
                         filter,
                         bounds,
-                        sliderValue,
                         0,
                         details.value,
                       )
@@ -669,15 +728,15 @@ export default function Filters(props) {
                     alignItems="center"
                     gap="1"
                     minW={0}
-                    min={sliderValue[0]}
+                    min={bounds[0]}
                     max={bounds[1]}
+                    allowOverflow
                     step={getSliderStep(filter)}
-                    value={sliderValue[1].toString()}
+                    value={draft[1] ?? sliderValue[1].toString()}
                     onValueChange={(details) =>
-                      handleSliderBoundChange(
+                      handleSliderInputChange(
                         filter,
                         bounds,
-                        sliderValue,
                         1,
                         details.value,
                       )
