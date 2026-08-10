@@ -58,10 +58,12 @@
     ],
     "rating": 0.48,
     "similar": [
-      "xteink-x4",
       "xteink-x3",
+      "xteink-x4",
       "famue-bf01",
-      "famue-bf07"
+      "m5stack-papers3",
+      "famue-bf07",
+      "kindle-2024"
     ],
     "pros": [
       {
@@ -155,7 +157,9 @@
       "kindle-scribe-3",
       "kindle-scribe-colorsoft",
       "kindle-scribe-2024",
-      "bigme-b10"
+      "bigme-b10",
+      "bigme-inknote",
+      "boox-tab-ultra-c-pro"
     ],
     "pros": [
       {
@@ -256,7 +260,9 @@
       "boox-go-103-gen-ii",
       "boox-note-air-3",
       "boox-note-air-2-plus",
-      "boox-note-air-2"
+      "boox-note-air-4-c",
+      "boox-tab-ultra-c-pro",
+      "bigme-b1051"
     ],
     "pros": [
       {
@@ -360,7 +366,9 @@
       "boox-go-103-gen-ii-lumi",
       "boox-note-air-3",
       "boox-note-air-2-plus",
-      "boox-note-air-2"
+      "boox-note-air-4-c",
+      "boox-tab-ultra-c-pro",
+      "bigme-b1051"
     ],
     "pros": [
       {
@@ -463,8 +471,10 @@
     "similar": [
       "boox-go-7",
       "bigme-b7-pro-bw",
+      "boox-go-6",
       "boox-nova-air",
-      "meebook-m8"
+      "boox-page",
+      "boox-go-103"
     ],
     "pros": [
       {
@@ -557,8 +567,10 @@
     "similar": [
       "pocketbook-era",
       "pocketbook-inkpad-4",
+      "pocketbook-era-color",
       "tolino-shine-5",
-      "pocketbook-era-color"
+      "pocketbook-verse-pro",
+      "pocketbook-verse-pro-color"
     ],
     "pros": [
       {
@@ -647,10 +659,12 @@
     ],
     "rating": 0.63,
     "similar": [
-      "meebook-p10-pro",
       "pocketbook-era-lite",
+      "meebook-p10-pro",
+      "pocketbook-inkpad-4",
       "bookeen-nota",
-      "meebook-m103"
+      "boox-go-103",
+      "pocketbook-verse-pro"
     ],
     "pros": [
       {
@@ -751,7 +765,9 @@
       "bigme-b1051c-lite",
       "bigme-b1051c",
       "bigme-b1051c-pro",
-      "bigme-guoyue-k3-color"
+      "boox-note-air-4-c",
+      "boox-tab-ultra-c-pro",
+      "musnap-aura-c"
     ],
     "pros": [
       {
@@ -855,10 +871,12 @@
     ],
     "rating": 0.713,
     "similar": [
-      "boox-go-6-gen-ii",
       "boox-go-7",
+      "boox-go-6-gen-ii",
       "bigme-b751",
-      "bigme-s6"
+      "bigme-s6",
+      "boox-page",
+      "boox-go-103"
     ],
     "pros": [
       {
@@ -954,7 +972,9 @@
       "bigme-b6",
       "obook-6",
       "boox-poke-4-lite",
-      "bemi-cognita-tab-6"
+      "bemi-cognita-tab-6",
+      "kobo-clara-bw",
+      "boox-page"
     ],
     "pros": [
       {
@@ -1043,9 +1063,11 @@
     "rating": 0.72,
     "similar": [
       "boox-palma-2-pro",
-      "bigme-hibreak-plus",
       "bigme-hibreak-pro",
-      "bigme-b10"
+      "bigme-hibreak-plus",
+      "bigme-b10",
+      "boox-note-air-4-c",
+      "boox-tab-ultra-c-pro"
     ],
     "pros": [
       {
@@ -1143,7 +1165,9 @@
       "bigme-hibreak-plus",
       "bigme-hibreak-pro-color",
       "bigme-hibreak-bw",
-      "bigme-hibreak-s-bw"
+      "boox-palma",
+      "durobo-krono",
+      "viwoods-aipaper-reader-c"
     ],
     "pros": [
       {
@@ -1241,7 +1265,9 @@
       "bigme-hibreak-dual-bw",
       "bigme-hibreak-pro-color",
       "bigme-hibreak-color",
-      "viwoods-aipaper-reader-c"
+      "boox-palma",
+      "viwoods-aipaper-reader-c",
+      "durobo-krono"
     ],
     "pros": [
       {
@@ -1336,9 +1362,11 @@
     "rating": 0.626,
     "similar": [
       "musnap-neo-c",
-      "inkbook-solaris-color",
       "musnap-neo-2",
-      "bigme-b6"
+      "inkbook-solaris-color",
+      "meebook-m6c",
+      "pocketbook-verse-pro-color",
+      "boox-page"
     ],
     "pros": [
       {
@@ -1432,7 +1460,9 @@
       "musnap-neo",
       "musnap-neo-2c",
       "boox-go-6",
-      "boox-poke-4-lite"
+      "boox-poke-4-lite",
+      "kobo-clara-bw",
+      "boox-page"
     ],
     "pros": [
       {
@@ -1522,7 +1552,9 @@
       "xteink-x4-pro",
       "famue-bf01",
       "xteink-x4",
-      "m5stack-papers3"
+      "m5stack-papers3",
+      "famue-bf07",
+      "kindle-2024"
     ],
     "pros": [
       {
@@ -1627,7 +1659,9 @@
       "boox-palma",
       "boox-palma-2",
       "viwoods-aipaper-reader",
-      "moaan-inkpalm-plus"
+      "moaan-inkpalm-plus",
+      "bigme-hibreak-bw",
+      "bigme-hibreak-dual-bw"
     ],
     "pros": [
       {
@@ -1717,7 +1751,9 @@
       "bemi-cognita-tab-6e",
       "nook-glowlight-4e",
       "nook-glowlight-4",
-      "nook-glowlight-plus"
+      "nook-glowlight-plus",
+      "boox-palma",
+      "boox-page"
     ],
     "pros": [
       {
@@ -1809,7 +1845,9 @@
       "bemi-cognita-tab-7-pro",
       "nook-glowlight-4",
       "nook-glowlight-4e",
-      "nook-glowlight-plus"
+      "nook-glowlight-plus",
+      "boox-palma",
+      "durobo-krono"
     ],
     "pros": [
       {
@@ -1901,7 +1939,9 @@
       "remarkable-paper-pro",
       "boox-palma-2-pro",
       "bigme-hibreak-dual-color",
-      "kindle-scribe-3"
+      "kindle-scribe-3",
+      "remarkable-2",
+      "kindle-scribe-2024"
     ],
     "pros": [
       {
@@ -1998,7 +2038,9 @@
       "kindle-scribe-3",
       "kindle-scribe-3-without-front-light",
       "kindle-scribe-2024",
-      "boox-note-air-5-c"
+      "boox-note-air-5-c",
+      "bigme-guoyue-k3-color",
+      "boox-tab-ultra-c-pro"
     ],
     "pros": [
       {
@@ -2101,7 +2143,9 @@
       "kindle-scribe-colorsoft",
       "kindle-scribe-3-without-front-light",
       "kindle-scribe-2024",
-      "bigme-inknote"
+      "paperslate-pro",
+      "bigme-inknote",
+      "boox-tab-ultra-c-pro"
     ],
     "pros": [
       {
@@ -2200,7 +2244,9 @@
       "kindle-colorsoft-signature-edition",
       "kindle-oasis-3",
       "kindle-2",
-      "kindle-1"
+      "kindle-paperwhite-6",
+      "kindle-2024",
+      "bigme-b6"
     ],
     "pros": [
       {
@@ -2295,7 +2341,9 @@
       "bigme-b751c-s",
       "bigme-b7",
       "bigme-b7-pro",
-      "musnap-ocean-c"
+      "musnap-ocean-c",
+      "boox-go-103",
+      "kobo-libra-colour"
     ],
     "pros": [
       {
@@ -2395,7 +2443,9 @@
       "boox-go-6-gen-ii",
       "bigme-b7-pro-bw",
       "boox-go-color-7-gen-ii",
-      "boox-nova-air"
+      "boox-nova-air",
+      "boox-page",
+      "boox-go-103"
     ],
     "pros": [
       {
@@ -2492,7 +2542,9 @@
       "boox-tab-x",
       "boox-note-max",
       "boox-max-lumi-2",
-      "geniatech-kloudnote"
+      "boox-note-air-4-c",
+      "geniatech-kloudnote",
+      "boox-tab-ultra-c-pro"
     ],
     "pros": [
       {
@@ -2599,7 +2651,9 @@
       "boox-tab-x",
       "boox-max-lumi-2",
       "boox-tab-x-c",
-      "geniatech-kloudnote"
+      "boox-note-air-4-c",
+      "geniatech-kloudnote",
+      "ratta-supernote-a5-x2-manta"
     ],
     "pros": [
       {
@@ -2703,7 +2757,9 @@
       "bigme-hibreak-dual-color",
       "boox-note-air-5-c",
       "boox-note-air-3-c",
-      "bigme-hibreak-pro"
+      "bigme-hibreak-pro",
+      "boox-note-air-4-c",
+      "boox-tab-ultra-c-pro"
     ],
     "pros": [
       {
@@ -2800,7 +2856,9 @@
       "boox-note-air-3-c",
       "boox-tab-ultra-c",
       "boox-tab-ultra-c-pro",
-      "boox-note-air-4-c"
+      "boox-note-air-4-c",
+      "boox-note-air-2",
+      "musnap-aura-c"
     ],
     "pros": [
       {
@@ -2905,7 +2963,9 @@
       "pocketbook-basic-lux-3",
       "pocketbook-verse",
       "pocketbook-basic-lux-4",
-      "vivlio-light-zen"
+      "vivlio-light-zen",
+      "pocketbook-verse-pro-color",
+      "pocketbook-verse-pro"
     ],
     "pros": [
       {
@@ -2994,7 +3054,9 @@
       "bigme-b7",
       "bigme-b751c-s",
       "bigme-b751c",
-      "bigme-guoyue-v6-color"
+      "boox-go-103",
+      "kobo-libra-colour",
+      "boox-go-color-7-gen-ii"
     ],
     "pros": [
       {
@@ -3094,7 +3156,9 @@
       "bigme-b7-pro",
       "bigme-b751c-s",
       "bigme-b751c",
-      "bigme-guoyue-v6-color"
+      "boox-go-103",
+      "kobo-libra-colour",
+      "boox-go-color-7-gen-ii"
     ],
     "pros": [
       {
@@ -3190,10 +3254,12 @@
     ],
     "rating": 0.706,
     "similar": [
-      "musnap-neo-c",
       "bemi-cognita-tab-6-proc",
-      "inkbook-solaris-color",
-      "bigme-b6-bw"
+      "bigme-b6-bw",
+      "musnap-neo-c",
+      "bigme-b7",
+      "pocketbook-verse-pro-color",
+      "boox-page"
     ],
     "pros": [
       {
@@ -3283,10 +3349,12 @@
     ],
     "rating": 0.685,
     "similar": [
-      "viwoods-aipaper-reader-c",
       "bigme-hibreak-s-color",
+      "viwoods-aipaper-reader-c",
       "bigme-hibreak-color",
-      "bigme-hibreak-plus"
+      "bigme-hibreak-plus",
+      "boox-palma-2",
+      "boox-palma"
     ],
     "pros": [
       {
@@ -3380,7 +3448,9 @@
       "hisense-a9",
       "hisense-a7",
       "bigme-hibreak-dual-color",
-      "hisense-a7-cc"
+      "hisense-a7-cc",
+      "boox-palma-2",
+      "boox-palma"
     ],
     "pros": [
       {
@@ -3471,7 +3541,9 @@
       "bigme-hibreak-s-bw",
       "bigme-hibreak-color",
       "bigme-hibreak-pro-color",
-      "bigme-hibreak-bw"
+      "boox-palma",
+      "viwoods-aipaper-reader-c",
+      "boox-palma-2"
     ],
     "pros": [
       {
@@ -3561,7 +3633,9 @@
       "bigme-hibreak-s-color",
       "bigme-hibreak-bw",
       "bigme-hibreak-color",
-      "bigme-hibreak-pro-color"
+      "boox-palma",
+      "hisense-touch",
+      "boox-palma-2"
     ],
     "pros": [
       {
@@ -3649,7 +3723,9 @@
       "bigme-b7",
       "bigme-b7-pro",
       "bigme-b751c",
-      "musnap-ocean-c"
+      "musnap-ocean-c",
+      "boox-go-103",
+      "kobo-libra-colour"
     ],
     "pros": [
       {
@@ -3746,7 +3822,9 @@
       "harborinno-paper-7-lite",
       "hannspree-hannsnote2",
       "bigme-s6",
-      "mobiscribe-wave-bw"
+      "mobiscribe-wave-bw",
+      "kobo-libra-colour",
+      "boox-go-103"
     ],
     "pros": [
       {
@@ -3847,7 +3925,9 @@
       "harborinno-paper-7",
       "hannspree-hannsnote2",
       "bigme-s6",
-      "mobiscribe-wave-bw"
+      "mobiscribe-wave-bw",
+      "kobo-libra-colour",
+      "boox-go-103"
     ],
     "pros": [
       {
@@ -3947,7 +4027,9 @@
       "viwoods-aipaper-reader-c",
       "boox-palma-2",
       "boox-palma",
-      "durobo-krono"
+      "bigme-hibreak-pro-color",
+      "durobo-krono",
+      "bigme-hibreak-bw"
     ],
     "pros": [
       {
@@ -4038,7 +4120,9 @@
       "bigme-hibreak-pro-color",
       "viwoods-aipaper-reader",
       "bigme-hibreak-s-color",
-      "bigme-hibreak-color"
+      "bigme-hibreak-color",
+      "boox-palma-2",
+      "boox-palma"
     ],
     "pros": [
       {
@@ -4130,9 +4214,11 @@
     "rating": 0.682,
     "similar": [
       "inkbook-solaris-color",
-      "musnap-neo-c",
       "inkbook-focus",
-      "bigme-b6"
+      "musnap-neo-c",
+      "bigme-b6",
+      "pocketbook-verse-pro-color",
+      "boox-page"
     ],
     "pros": [
       {
@@ -4225,7 +4311,9 @@
       "inkbook-focus",
       "inkbook-calypso-plus",
       "inkbook-solaris",
-      "bemi-cognita-tab-8"
+      "bemi-cognita-tab-8",
+      "kobo-libra-2",
+      "boox-page"
     ],
     "pros": [
       {
@@ -4315,7 +4403,9 @@
       "inkbook-focus-color",
       "bigme-b6",
       "musnap-neo-c",
-      "musnap-neo-2c"
+      "musnap-neo-2c",
+      "pocketbook-verse-pro-color",
+      "boox-page"
     ],
     "pros": [
       {
@@ -4409,7 +4499,9 @@
       "inkbook-calypso-plus",
       "inkbook-focus",
       "inkbook-focus-plus",
-      "bemi-cognita-tab-6-plus"
+      "bemi-cognita-tab-6-plus",
+      "kobo-libra-2",
+      "boox-page"
     ],
     "pros": [
       {
@@ -4499,7 +4591,9 @@
       "vivlio-light",
       "pocketbook-verse-lite",
       "pocketbook-basic-lux-3",
-      "pocketbook-verse"
+      "pocketbook-verse",
+      "pocketbook-verse-pro",
+      "kindle-2024"
     ],
     "pros": [
       {
@@ -4587,7 +4681,9 @@
       "penstar-enote",
       "mobiscribe-the-origin",
       "lenovo-smart-paper",
-      "meebook-m103"
+      "meebook-m103",
+      "remarkable-2",
+      "boox-go-103"
     ],
     "pros": [
       {
@@ -4694,7 +4790,9 @@
       "bigme-inknote-x",
       "musnap-aura-c",
       "boox-note-air-5-c",
-      "boox-tab-ultra-c"
+      "boox-tab-ultra-c",
+      "boox-note-air-4-c",
+      "boox-tab-ultra-c-pro"
     ],
     "pros": [
       {
@@ -4801,7 +4899,9 @@
       "iflytek-ainote-air-2",
       "huion-ink-eb1010",
       "bigme-inknote",
-      "viwoods-aipaper"
+      "paperslate-pro",
+      "boox-tab-ultra-c-pro",
+      "boox-note-air-4-c"
     ],
     "pros": [
       {
@@ -4900,7 +5000,9 @@
       "spc-dickens-light-pro",
       "silvergear-e-reader",
       "kobo-glo-hd",
-      "vivlio-light-zen"
+      "vivlio-light-zen",
+      "kindle-paperwhite-6",
+      "kindle-2024"
     ],
     "pros": [
       {
@@ -4992,7 +5094,9 @@
       "viwoods-aipaper",
       "bigme-b1051",
       "musnap-aura-c",
-      "boox-go-103-gen-ii"
+      "boox-note-air-2-plus",
+      "boox-note-air-4-c",
+      "boox-tab-ultra-c-pro"
     ],
     "pros": [
       {
@@ -5096,7 +5200,9 @@
       "bigme-b1051c-lite",
       "bigme-b1051c",
       "bigme-b1051c-pro",
-      "bigme-b10"
+      "bigme-b10",
+      "boox-note-air-4-c",
+      "boox-tab-ultra-c-pro"
     ],
     "pros": [
       {
@@ -5200,7 +5306,9 @@
       "musnap-ocean",
       "bigme-b751c-s",
       "boox-go-color-7-gen-ii",
-      "bigme-b7"
+      "bigme-b7",
+      "boox-go-103",
+      "kobo-libra-colour"
     ],
     "pros": [
       {
@@ -5298,7 +5406,9 @@
       "musnap-ocean-c",
       "bigme-b751c-s",
       "bigme-b751",
-      "bigme-b1051-lite"
+      "boox-go-color-7-gen-ii",
+      "boox-page",
+      "boox-go-103"
     ],
     "pros": [
       {
@@ -5390,9 +5500,11 @@
     "rating": 0.625,
     "similar": [
       "musnap-neo-2c",
+      "musnap-neo",
       "bigme-b6",
       "bemi-cognita-tab-6-proc",
-      "musnap-neo"
+      "pocketbook-verse-pro-color",
+      "boox-page"
     ],
     "pros": [
       {
@@ -5486,7 +5598,9 @@
       "musnap-neo-2",
       "musnap-neo-c",
       "boox-go-6",
-      "boox-poke-4-lite"
+      "boox-poke-4-lite",
+      "kobo-clara-bw",
+      "boox-page"
     ],
     "pros": [
       {
@@ -5578,7 +5692,9 @@
       "xteink-x4-pro",
       "xteink-x3",
       "famue-bf01",
-      "m5stack-papers3"
+      "m5stack-papers3",
+      "ratta-supernote-a5-x2-manta",
+      "kindle-2024"
     ],
     "pros": [
       {
@@ -5682,7 +5798,9 @@
       "musnap-x",
       "bigme-b1051",
       "kobo-elipsa",
-      "kobo-elipsa-2e"
+      "kobo-elipsa-2e",
+      "boox-note-air-4-c",
+      "boox-tab-ultra-c-pro"
     ],
     "pros": [
       {
@@ -5783,9 +5901,11 @@
     "rating": 0.575,
     "similar": [
       "bemi-cognita-tab-6",
-      "nook-glowlight-4-plus",
       "bigme-b6-bw",
-      "meebook-p6"
+      "meebook-p6",
+      "meebook-m6",
+      "pocketbook-verse-pro-color",
+      "boox-page"
     ],
     "pros": [
       {
@@ -5873,8 +5993,10 @@
     "similar": [
       "xteink-x4-pro",
       "xteink-x4",
+      "famue-bf01",
+      "xteink-x3",
       "spc-dickens-light-2-pro",
-      "xteink-x3"
+      "kindle-2024"
     ],
     "pros": [
       {
@@ -5968,7 +6090,9 @@
       "bemi-cognita-tab-6-plus",
       "bigme-b6",
       "musnap-neo-c",
-      "inkbook-solaris-color"
+      "inkbook-solaris-color",
+      "pocketbook-verse-pro-color",
+      "boox-page"
     ],
     "pros": [
       {
@@ -6059,9 +6183,11 @@
     "rating": 0.563,
     "similar": [
       "bemi-cognita-tab-6",
-      "bemi-cognita-tab-8",
       "bemi-cognita-tab-6-proc",
-      "bemi-cognita-tab-8-pro"
+      "bemi-cognita-tab-8",
+      "kobo-libra-2",
+      "boox-poke-4-lite",
+      "boox-page"
     ],
     "pros": [
       {
@@ -6152,7 +6278,9 @@
       "bemi-cognita-tab-6-plus",
       "boox-go-6",
       "boox-poke-4-lite",
-      "bemi-cognita-tab-8"
+      "bemi-cognita-tab-8",
+      "kobo-clara-bw",
+      "boox-page"
     ],
     "pros": [
       {
@@ -6243,8 +6371,10 @@
     "similar": [
       "boox-go-color-7-gen-ii",
       "bigme-inknote-s",
+      "huion-ink-eb1011",
       "musnap-ocean",
-      "bigme-b751c-s"
+      "kobo-libra-colour",
+      "boox-go-103"
     ],
     "pros": [
       {
@@ -6337,8 +6467,10 @@
     "similar": [
       "m5stack-papers3",
       "famue-bf01",
+      "xteink-x3",
       "xteink-x4-pro",
-      "xteink-x3"
+      "xteink-x4",
+      "boox-palma"
     ],
     "pros": [
       {
@@ -6436,7 +6568,9 @@
       "geniatech-kloudnote-slim",
       "bookeen-nota",
       "bigme-inknote-s",
-      "bigme-b1051-lite"
+      "bigme-b1051-lite",
+      "kobo-libra-colour",
+      "boox-go-103"
     ],
     "pros": [
       {
@@ -6534,9 +6668,11 @@
     "rating": 0.423,
     "similar": [
       "famue-bf07",
-      "famue-bf01",
       "xteink-x3",
-      "xteink-x4-pro"
+      "famue-bf01",
+      "xteink-x4-pro",
+      "xteink-x4",
+      "boox-palma"
     ],
     "pros": [
       {
@@ -6633,7 +6769,9 @@
       "remarkable-paper-pro-move",
       "remarkable-1",
       "boox-tab-x-c",
-      "boox-note-max"
+      "boox-note-max",
+      "remarkable-2",
+      "ratta-supernote-a5-x2-manta"
     ],
     "pros": [
       {
@@ -6738,7 +6876,9 @@
       "kindle-scribe-3",
       "kindle-scribe-3-without-front-light",
       "kindle-scribe-colorsoft",
-      "boox-note-air-4-c"
+      "boox-note-air-4-c",
+      "boox-tab-ultra-c-pro",
+      "paperslate-pro"
     ],
     "pros": [
       {
@@ -6837,7 +6977,9 @@
       "kindle-colorsoft",
       "kindle-oasis-2",
       "kindle-11",
-      "kindle-2024"
+      "kindle-2024",
+      "kindle-paperwhite-6",
+      "kobo-clara-colour"
     ],
     "pros": [
       {
@@ -6932,7 +7074,9 @@
       "kindle-paperwhite-6",
       "kindle-2024",
       "kindle-oasis-2",
-      "kindle-11"
+      "kindle-11",
+      "kindle-voyage",
+      "kobo-libra-2"
     ],
     "pros": [
       {
@@ -7024,7 +7168,9 @@
       "kindle-paperwhite-6-signature-edition",
       "kindle-2024",
       "kindle-oasis-2",
-      "kindle-11"
+      "kindle-11",
+      "kindle-voyage",
+      "kobo-libra-2"
     ],
     "pros": [
       {
@@ -7116,7 +7262,9 @@
       "kindle-paperwhite-6",
       "kindle-paperwhite-6-signature-edition",
       "kindle-11",
-      "kindle-voyage"
+      "kindle-voyage",
+      "kindle-paperwhite",
+      "kobo-clara-bw"
     ],
     "pros": [
       {
@@ -7205,9 +7353,11 @@
     "rating": 0.852,
     "similar": [
       "kobo-clara-colour",
+      "kobo-clara-bw",
       "tolino-vision-color",
       "boox-go-color-7-gen-ii",
-      "kobo-clara-bw"
+      "bigme-b751c",
+      "kobo-libra-2"
     ],
     "pros": [
       {
@@ -7304,7 +7454,9 @@
       "vivlio-light-hd-color",
       "meebook-m6c",
       "tolino-shine-color",
-      "kobo-clara-2e"
+      "kobo-clara-2e",
+      "kobo-clara-bw",
+      "kobo-libra-colour"
     ],
     "pros": [
       {
@@ -7400,7 +7552,9 @@
       "kobo-libra-2",
       "kobo-clara-2e",
       "kobo-clara-colour",
-      "kobo-libra-colour"
+      "kobo-libra-colour",
+      "tolino-shine-5",
+      "boox-page"
     ],
     "pros": [
       {
@@ -7490,9 +7644,11 @@
     "rating": 0.737,
     "similar": [
       "meebook-m8",
+      "mobiscribe-wave-color-3",
       "bigme-guoyue-v6-color",
       "bigme-s6-color-lite",
-      "mobiscribe-wave-color-3"
+      "boox-go-103",
+      "kobo-libra-colour"
     ],
     "pros": [
       {
@@ -7590,7 +7746,9 @@
       "meebook-p78-pro",
       "meebook-m8c",
       "meebook-m103",
-      "meebook-p10-pro"
+      "boox-page",
+      "boox-nova-air",
+      "boox-go-103"
     ],
     "pros": [
       {
@@ -7682,9 +7840,11 @@
     "rating": 0.661,
     "similar": [
       "boox-go-color-7",
+      "musnap-neo-c",
+      "musnap-neo-2c",
       "bigme-b6",
-      "obook-6",
-      "musnap-neo-c"
+      "boox-page",
+      "pocketbook-verse-pro-color"
     ],
     "pros": [
       {
@@ -7778,8 +7938,10 @@
     "similar": [
       "meebook-p10-pro",
       "meebook-m8",
+      "meebook-p78-pro",
       "boox-go-103",
-      "meebook-p78-pro"
+      "bookeen-nota",
+      "boox-page"
     ],
     "pros": [
       {
@@ -7878,7 +8040,9 @@
       "boox-palma",
       "durobo-krono",
       "viwoods-aipaper-reader",
-      "bigme-hibreak-s-bw"
+      "bigme-hibreak-s-bw",
+      "bigme-hibreak-bw",
+      "bigme-hibreak-pro-color"
     ],
     "pros": [
       {
@@ -7971,7 +8135,9 @@
       "boox-tab-ultra-c-pro",
       "boox-note-air-3-c",
       "boox-note-air-5-c",
-      "boox-tab-ultra-c"
+      "boox-tab-ultra-c",
+      "bigme-b1051c-lite",
+      "kindle-scribe-2024"
     ],
     "pros": [
       {
@@ -8077,7 +8243,9 @@
       "boox-poke-4-lite",
       "boox-poke-5",
       "bemi-cognita-tab-6",
-      "musnap-neo"
+      "musnap-neo",
+      "kobo-clara-bw",
+      "boox-page"
     ],
     "pros": [
       {
@@ -8167,8 +8335,10 @@
     "similar": [
       "meebook-m6c",
       "bigme-b6",
-      "musnap-neo-c",
-      "musnap-neo-2c"
+      "bemi-cognita-tab-6-proc",
+      "boox-go-color-7-gen-ii",
+      "pocketbook-verse-pro-color",
+      "boox-page"
     ],
     "pros": [
       {
@@ -8265,9 +8435,11 @@
     "rating": 0.631,
     "similar": [
       "meebook-m103",
-      "boox-go-6-gen-ii",
       "boox-page",
-      "bigme-b1051-lite"
+      "boox-go-6-gen-ii",
+      "bigme-b1051-lite",
+      "boox-go-7",
+      "kobo-libra-colour"
     ],
     "pros": [
       {
@@ -8372,8 +8544,10 @@
     "similar": [
       "boox-note-max",
       "boox-tab-x",
+      "geniatech-kloudnote",
       "boox-max-lumi-2",
-      "geniatech-kloudnote"
+      "kindle-scribe-2024",
+      "boox-note-air-4-c"
     ],
     "pros": [
       {
@@ -8474,7 +8648,9 @@
       "pocketbook-inkpad-eo",
       "boox-tab-ultra-c",
       "bigme-b1051c-lite",
-      "bigme-b1051c"
+      "bigme-b1051c",
+      "boox-tab-ultra-c-pro",
+      "boox-note-air-4-c"
     ],
     "pros": [
       {
@@ -8578,7 +8754,9 @@
       "pocketbook-color-note",
       "boox-tab-ultra-c",
       "bigme-b1051c-lite",
-      "bigme-b1051c"
+      "bigme-b1051c",
+      "boox-tab-ultra-c-pro",
+      "boox-note-air-4-c"
     ],
     "pros": [
       {
@@ -8681,7 +8859,9 @@
       "pocketbook-verse-pro-color",
       "pocketbook-inkpad-color-3",
       "pocketbook-inkpad-color",
-      "pocketbook-inkpad-color-2"
+      "pocketbook-inkpad-color-2",
+      "vivlio-light-hd-color",
+      "pocketbook-verse-pro"
     ],
     "pros": [
       {
@@ -8777,7 +8957,9 @@
       "pocketbook-era-color",
       "pocketbook-verse-pro",
       "vivlio-light-hd-color",
-      "pocketbook-inkpad-color-3"
+      "pocketbook-inkpad-color-3",
+      "pocketbook-inkpad-color",
+      "kobo-libra-colour"
     ],
     "pros": [
       {
@@ -8871,7 +9053,9 @@
       "bigme-hibreak-bw",
       "bigme-hibreak-s-color",
       "bigme-hibreak-pro-color",
-      "bigme-hibreak-s-bw"
+      "durobo-krono",
+      "viwoods-aipaper-reader-c",
+      "boox-palma-2"
     ],
     "pros": [
       {
@@ -8961,7 +9145,9 @@
       "bigme-hibreak-color",
       "bigme-hibreak-s-bw",
       "bigme-hibreak-s-color",
-      "moaan-inkpalm-plus"
+      "moaan-inkpalm-plus",
+      "durobo-krono",
+      "boox-palma-2"
     ],
     "pros": [
       {
@@ -9049,7 +9235,9 @@
       "bigme-b1051c-lite",
       "bigme-b1051c",
       "bigme-b1051c-pro",
-      "bigme-guoyue-k3-color"
+      "boox-tab-ultra-c-pro",
+      "boox-note-air-4-c",
+      "boox-tab-ultra-c"
     ],
     "pros": [
       {
@@ -9153,7 +9341,9 @@
       "bigme-b1051c-lite",
       "bigme-b1051c",
       "bigme-inknote-x",
-      "bigme-b10"
+      "boox-tab-ultra-c-pro",
+      "boox-note-air-4-c",
+      "musnap-aura-c"
     ],
     "pros": [
       {
@@ -9260,7 +9450,9 @@
       "bigme-b1051c-lite",
       "bigme-b1051c-pro",
       "bigme-inknote-x",
-      "bigme-b10"
+      "boox-tab-ultra-c-pro",
+      "boox-note-air-4-c",
+      "musnap-aura-c"
     ],
     "pros": [
       {
@@ -9367,7 +9559,9 @@
       "bigme-b1051c",
       "bigme-b1051c-pro",
       "bigme-inknote-x",
-      "bigme-b10"
+      "boox-tab-ultra-c-pro",
+      "boox-note-air-4-c",
+      "musnap-aura-c"
     ],
     "pros": [
       {
@@ -9474,7 +9668,9 @@
       "bigme-b1051c-lite",
       "bigme-b1051c",
       "bigme-b1051c-pro",
-      "bigme-inknote"
+      "boox-tab-ultra-c-pro",
+      "boox-note-air-4-c",
+      "boox-go-103-gen-ii"
     ],
     "pros": [
       {
@@ -9578,7 +9774,9 @@
       "bigme-inknote-s",
       "bigme-b751",
       "bigme-s6",
-      "huion-ink-eb1011"
+      "bookeen-nota",
+      "kobo-libra-colour",
+      "boox-go-103"
     ],
     "pros": [
       {
@@ -9679,7 +9877,9 @@
       "bigme-b751c-s",
       "bigme-b7",
       "bigme-b7-pro",
-      "bigme-b751"
+      "boox-go-103",
+      "kobo-libra-colour",
+      "boox-go-color-7-gen-ii"
     ],
     "pros": [
       {
@@ -9776,7 +9976,9 @@
       "bigme-b751c",
       "bigme-b1051-lite",
       "bigme-s6",
-      "bigme-b751c-s"
+      "kobo-libra-colour",
+      "boox-go-103",
+      "musnap-ocean"
     ],
     "pros": [
       {
@@ -9870,7 +10072,9 @@
       "mobiscribe-wave-color",
       "mobiscribe-wave-bw",
       "meebook-m8c",
-      "bigme-guoyue-v6-color"
+      "bigme-guoyue-v6-color",
+      "boox-go-103",
+      "kobo-libra-colour"
     ],
     "pros": [
       {
@@ -9968,7 +10172,9 @@
       "geniatech-kloudnote",
       "eyemoo-epaper-s1",
       "boox-tab-x-c",
-      "boox-note-max"
+      "boox-note-max",
+      "boox-note-air-4-c",
+      "ratta-supernote-a5-x2-manta"
     ],
     "pros": [
       {
@@ -10069,7 +10275,9 @@
       "harborinno-paper-7-lite",
       "harborinno-paper-7",
       "bigme-b1051-lite",
-      "bigme-b751"
+      "bigme-inknote-s",
+      "kobo-libra-colour",
+      "boox-go-103"
     ],
     "pros": [
       {
@@ -10175,8 +10383,10 @@
     "similar": [
       "tolino-shine-color",
       "bigme-b751c",
-      "kobo-libra-colour",
-      "boox-go-color-7-gen-ii"
+      "boox-go-color-7-gen-ii",
+      "vivlio-light-hd-color",
+      "pocketbook-verse-pro-color",
+      "kobo-libra-colour"
     ],
     "pros": [
       {
@@ -10273,7 +10483,9 @@
       "vivlio-light-hd-color",
       "tolino-shine-5",
       "tolino-vision-color",
-      "vivlio-inkpad-color-3"
+      "vivlio-inkpad-color-3",
+      "kobo-libra-colour",
+      "pocketbook-verse-pro-color"
     ],
     "pros": [
       {
@@ -10365,9 +10577,11 @@
     "rating": 0.58,
     "similar": [
       "tolino-shine-color",
-      "pocketbook-era-lite",
       "vivlio-light-hd",
-      "vivlio-inkpad-4"
+      "pocketbook-era-lite",
+      "boox-go-6",
+      "pocketbook-verse-pro",
+      "kobo-clara-bw"
     ],
     "pros": [
       {
@@ -10459,7 +10673,9 @@
       "viwoods-aipaper-mini",
       "musnap-x",
       "bigme-b1051",
-      "boox-go-103-gen-ii"
+      "boox-note-air-2-plus",
+      "boox-tab-ultra-c-pro",
+      "boox-note-air-4-c"
     ],
     "pros": [
       {
@@ -10562,8 +10778,10 @@
     "similar": [
       "viwoods-aipaper",
       "bigme-b1051",
+      "iflytek-ainote-air-2",
       "boox-note-air-3",
-      "boox-go-103-gen-ii"
+      "boox-tab-ultra-c-pro",
+      "boox-note-air-4-c"
     ],
     "pros": [
       {
@@ -10657,7 +10875,9 @@
       "vivlio-light-hd-color",
       "tolino-shine-color",
       "pocketbook-era-color",
-      "vivlio-inkpad-4"
+      "vivlio-inkpad-4",
+      "kobo-libra-colour",
+      "pocketbook-verse-pro-color"
     ],
     "pros": [
       {
@@ -10750,8 +10970,10 @@
     "similar": [
       "vivlio-inkpad-color-3",
       "tolino-shine-color",
+      "kobo-clara-colour",
       "pocketbook-era-color",
-      "kobo-clara-colour"
+      "kobo-libra-colour",
+      "pocketbook-verse-pro-color"
     ],
     "pros": [
       {
@@ -10845,7 +11067,9 @@
       "penstar-enote-2",
       "mobiscribe-the-origin",
       "lenovo-smart-paper",
-      "bigme-b1051-lite"
+      "bigme-b1051-lite",
+      "remarkable-2",
+      "boox-go-103"
     ],
     "pros": [
       {
@@ -10948,8 +11172,10 @@
     "similar": [
       "iflytek-ainote-2",
       "huion-ink-eb1010",
+      "viwoods-aipaper-mini",
       "bigme-inknote",
-      "paperslate-pro"
+      "boox-tab-ultra-c-pro",
+      "boox-note-air-4-c"
     ],
     "pros": [
       {
@@ -11042,8 +11268,10 @@
     "similar": [
       "huion-ink-eb1010",
       "iflytek-ainote-2",
+      "bigme-inknote",
       "iflytek-ainote-air-2",
-      "bigme-inknote"
+      "boox-tab-ultra-c-pro",
+      "boox-note-air-4-c"
     ],
     "pros": [
       {
@@ -11146,8 +11374,10 @@
     "similar": [
       "bigme-b1051-lite",
       "bigme-b751",
+      "geniatech-kloudnote-s",
       "bigme-inknote-s",
-      "bigme-s6"
+      "kobo-libra-colour",
+      "boox-go-103"
     ],
     "pros": [
       {
@@ -11249,7 +11479,9 @@
       "spc-dickens-light-2-pro",
       "spc-dickens-light-pro",
       "kobo-glo-hd",
-      "kobo-nia"
+      "kobo-nia",
+      "kindle-paperwhite-6",
+      "kindle-2024"
     ],
     "pros": [
       {
@@ -11338,9 +11570,11 @@
     "rating": 0.58,
     "similar": [
       "bemi-cognita-tab-8",
-      "bemi-cognita-tab-6-plus",
       "bemi-cognita-tab-6",
-      "inkbook-focus"
+      "bemi-cognita-tab-6-plus",
+      "inkbook-focus",
+      "boox-go-103",
+      "boox-page"
     ],
     "pros": [
       {
@@ -11430,7 +11664,9 @@
       "bemi-cognita-tab-8-pro",
       "bemi-cognita-tab-6-plus",
       "bemi-cognita-tab-6",
-      "inkbook-focus-plus"
+      "inkbook-focus-plus",
+      "boox-go-103",
+      "boox-page"
     ],
     "pros": [
       {
@@ -11517,10 +11753,12 @@
     ],
     "rating": 0.495,
     "similar": [
-      "nook-simple-touch",
       "bemi-cognita-light-2",
+      "nook-simple-touch",
+      "bemi-cognita-x",
       "spc-dickens-light-2",
-      "bemi-cognita-x"
+      "kindle-paperwhite-6",
+      "kindle-2024"
     ],
     "pros": [
       {
@@ -11608,9 +11846,11 @@
     "rating": 0.44,
     "similar": [
       "xteink-x3",
-      "xteink-x4-pro",
       "famue-bf07",
-      "m5stack-papers3"
+      "xteink-x4-pro",
+      "m5stack-papers3",
+      "xteink-x4",
+      "kindle-2024"
     ],
     "pros": [
       {
@@ -11708,7 +11948,9 @@
       "boox-note-air-2-plus",
       "bigme-inknote",
       "iflytek-ainote-2",
-      "bigme-inknote-color-lite"
+      "bigme-inknote-color-lite",
+      "boox-tab-ultra-c-pro",
+      "boox-note-air-4-c"
     ],
     "pros": [
       {
@@ -11809,7 +12051,9 @@
       "kobo-elipsa",
       "boox-note-air-3",
       "boox-go-103-gen-ii",
-      "boox-go-103-gen-ii-lumi"
+      "boox-go-103-gen-ii-lumi",
+      "boox-note-air-4-c",
+      "boox-tab-ultra-c-pro"
     ],
     "pros": [
       {
@@ -11907,7 +12151,9 @@
       "bookeen-nota",
       "bigme-inknote-s",
       "meebook-p10-pro",
-      "geniatech-kloudnote-slim"
+      "geniatech-kloudnote-slim",
+      "boox-page",
+      "boox-go-103"
     ],
     "pros": [
       {
@@ -12007,7 +12253,9 @@
       "meebook-p6",
       "meebook-m7",
       "boox-poke-5",
-      "boox-poke-4-lite"
+      "boox-poke-4-lite",
+      "pocketbook-verse-pro",
+      "boox-page"
     ],
     "pros": [
       {
@@ -12097,8 +12345,10 @@
     "similar": [
       "meebook-m6",
       "meebook-p6",
-      "boox-page",
-      "nook-glowlight-4-plus"
+      "nook-glowlight-4-plus",
+      "nook-glowlight-plus-78",
+      "boox-go-103",
+      "boox-page"
     ],
     "pros": [
       {
@@ -12191,7 +12441,9 @@
       "boox-note-air-4-c",
       "boox-note-air-3-c",
       "boox-note-air-5-c",
-      "boox-tab-ultra-c"
+      "boox-tab-ultra-c",
+      "bigme-guoyue-k3-color",
+      "kindle-scribe-2024"
     ],
     "pros": [
       {
@@ -12295,7 +12547,9 @@
       "boox-note-air-5-c",
       "boox-tab-ultra-c",
       "boox-tab-ultra-c-pro",
-      "boox-note-air-4-c"
+      "boox-note-air-4-c",
+      "bigme-guoyue-k3-color",
+      "bigme-inknote-color"
     ],
     "pros": [
       {
@@ -12402,7 +12656,9 @@
       "boox-go-103-gen-ii",
       "boox-go-103-gen-ii-lumi",
       "boox-note-air-2",
-      "boox-tab-ultra"
+      "boox-note-air-4-c",
+      "boox-tab-ultra-c-pro",
+      "bigme-inknote"
     ],
     "pros": [
       {
@@ -12501,10 +12757,12 @@
     ],
     "rating": 0.707,
     "similar": [
-      "meebook-m7",
-      "boox-go-103",
       "boox-poke-5",
-      "boox-go-6"
+      "boox-go-6",
+      "boox-poke-4-lite",
+      "boox-go-103",
+      "kobo-libra-2",
+      "meebook-m7"
     ],
     "pros": [
       {
@@ -12599,6 +12857,8 @@
       "boox-palma-2",
       "durobo-krono",
       "viwoods-aipaper-reader",
+      "boox-page",
+      "bigme-hibreak-pro-color",
       "moaan-inkpalm-plus"
     ],
     "pros": [
@@ -12690,7 +12950,9 @@
       "boox-nova-3-color",
       "boox-nova-air-c",
       "bigme-s6-color",
-      "boox-tab-ultra-c"
+      "boox-tab-ultra-c",
+      "boox-note-air-4-c",
+      "boox-tab-ultra-c-pro"
     ],
     "pros": [
       {
@@ -12787,7 +13049,9 @@
       "boox-poke-4-lite",
       "boox-leaf",
       "boox-leaf-2",
-      "boox-go-6"
+      "pocketbook-verse-pro",
+      "bemi-cognita-tab-6",
+      "boox-page"
     ],
     "pros": [
       {
@@ -12879,7 +13143,9 @@
       "boox-note-air-3-c",
       "boox-note-air-5-c",
       "bigme-guoyue-k3-color",
-      "bigme-inknote-color"
+      "bigme-inknote-color",
+      "boox-note-air-4-c",
+      "boox-tab-ultra-c-pro"
     ],
     "pros": [
       {
@@ -12983,7 +13249,9 @@
       "boox-note-max",
       "boox-max-lumi-2",
       "boox-tab-x-c",
-      "dasung-not-ereader-133"
+      "dasung-not-ereader-133",
+      "boox-tab-ultra-c-pro",
+      "ratta-supernote-a5-x2-manta"
     ],
     "pros": [
       {
@@ -13082,9 +13350,11 @@
     "rating": 0.587,
     "similar": [
       "ratta-supernote-a6-x",
-      "kobo-sage",
       "boox-nova-air-2",
-      "boox-nova-air"
+      "kobo-sage",
+      "boox-nova-air",
+      "kobo-libra-colour",
+      "boox-go-103"
     ],
     "pros": [
       {
@@ -13178,7 +13448,9 @@
       "nook-glowlight-plus-78",
       "obook-6",
       "meebook-m7",
-      "meebook-m6"
+      "bemi-cognita-tab-8",
+      "pocketbook-verse-pro",
+      "boox-page"
     ],
     "pros": [
       {
@@ -13268,7 +13540,9 @@
       "pocketbook-verse",
       "pocketbook-basic-lux-3",
       "pocketbook-verse-lite",
-      "vivlio-light"
+      "pocketbook-verse-pro-color",
+      "vivlio-light",
+      "pocketbook-verse-pro"
     ],
     "pros": [
       {
@@ -13359,9 +13633,11 @@
     "rating": 0.647,
     "similar": [
       "pocketbook-verse-pro-color",
-      "pocketbook-inkpad-4",
       "pocketbook-era",
-      "pocketbook-era-lite"
+      "pocketbook-era-lite",
+      "pocketbook-inkpad-4",
+      "vivlio-light-hd",
+      "boox-page"
     ],
     "pros": [
       {
@@ -13451,7 +13727,9 @@
       "pocketbook-basic-lux-4",
       "pocketbook-basic-lux-3",
       "pocketbook-verse-lite",
-      "pocketbook-inkpad-lite"
+      "pocketbook-verse-pro-color",
+      "vivlio-light",
+      "pocketbook-verse-pro"
     ],
     "pros": [
       {
@@ -13542,7 +13820,9 @@
       "pocketbook-inkpad-color-2",
       "pocketbook-inkpad-color",
       "pocketbook-era-color",
-      "pocketbook-inkpad-4"
+      "pocketbook-verse-pro",
+      "vivlio-inkpad-color-3",
+      "pocketbook-verse-pro-color"
     ],
     "pros": [
       {
@@ -13636,7 +13916,9 @@
       "pocketbook-inkpad-color",
       "pocketbook-inkpad-color-3",
       "pocketbook-era-color",
-      "pocketbook-inkpad-4"
+      "pocketbook-verse-pro",
+      "pocketbook-verse-pro-color",
+      "vivlio-inkpad-color-3"
     ],
     "pros": [
       {
@@ -13731,7 +14013,9 @@
       "boox-note-5",
       "pocketbook-color-note",
       "pocketbook-inkpad-eo",
-      "boox-note-air-2-plus"
+      "boox-note-air-2-plus",
+      "boox-note-air-4-c",
+      "boox-tab-ultra-c-pro"
     ],
     "pros": [
       {
@@ -13828,7 +14112,9 @@
       "pocketbook-era",
       "pocketbook-era-lite",
       "vivlio-inkpad-4",
-      "pocketbook-inkpad-color-3"
+      "pocketbook-inkpad-color-3",
+      "pocketbook-verse-pro-color",
+      "pocketbook-verse-pro"
     ],
     "pros": [
       {
@@ -13919,8 +14205,10 @@
     "similar": [
       "bigme-guoyue-v6-color",
       "bigme-s6",
-      "bigme-b751c",
-      "bigme-b751c-s"
+      "bigme-b7",
+      "boox-go-103",
+      "kobo-libra-colour",
+      "meebook-m8c"
     ],
     "pros": [
       {
@@ -14017,7 +14305,9 @@
       "bigme-guoyue-k3-color",
       "bigme-inknote-color",
       "bigme-inknote-color-lite",
-      "boox-tab-mini-c"
+      "boox-tab-mini-c",
+      "boox-note-air-4-c",
+      "boox-tab-ultra-c-pro"
     ],
     "pros": [
       {
@@ -14111,10 +14401,12 @@
     ],
     "rating": 0.65,
     "similar": [
+      "bigme-inknote-s",
       "bigme-guoyue-v6-color",
       "bigme-s6-color-lite",
-      "bigme-inknote-s",
-      "bigme-b751"
+      "boox-page",
+      "boox-go-103",
+      "mobiscribe-wave-bw"
     ],
     "pros": [
       {
@@ -14208,7 +14500,9 @@
       "bigme-guoyue-k3-color",
       "bigme-inknote-color",
       "bigme-b1051c-lite",
-      "bigme-b1051c"
+      "boox-note-air-4-c",
+      "boox-tab-ultra-c-pro",
+      "boox-tab-ultra-c"
     ],
     "pros": [
       {
@@ -14309,7 +14603,9 @@
       "bigme-guoyue-k3-color",
       "bigme-inknote-color-lite",
       "bigme-b1051c-lite",
-      "bigme-b1051c"
+      "boox-note-air-4-c",
+      "boox-tab-ultra-c-pro",
+      "boox-tab-ultra-c"
     ],
     "pros": [
       {
@@ -14413,7 +14709,9 @@
       "bigme-inknote-color",
       "bigme-guoyue-k3-color",
       "bigme-inknote-color-lite",
-      "bigme-b1051c-lite"
+      "boox-note-air-4-c",
+      "boox-tab-ultra-c-pro",
+      "huion-ink-eb1010"
     ],
     "pros": [
       {
@@ -14508,7 +14806,9 @@
       "bigme-b1051-lite",
       "bigme-s6",
       "bookeen-nota",
-      "bigme-b751"
+      "bigme-b751",
+      "kobo-libra-colour",
+      "boox-go-103"
     ],
     "pros": [
       {
@@ -14602,7 +14902,9 @@
       "veidoo-e5",
       "meebook-m6",
       "bigme-b6-bw",
-      "boox-poke-5"
+      "boox-poke-5",
+      "pocketbook-verse-pro",
+      "boox-page"
     ],
     "pros": [
       {
@@ -14694,7 +14996,9 @@
       "bigme-inknote-color",
       "bigme-inknote-color-lite",
       "bigme-b1051c-lite",
-      "bigme-b1051c"
+      "boox-note-air-4-c",
+      "boox-tab-ultra-c-pro",
+      "boox-tab-ultra-c"
     ],
     "pros": [
       {
@@ -14798,7 +15102,9 @@
       "bigme-s6-color-lite",
       "bigme-b751c",
       "bigme-s6",
-      "bigme-b751c-s"
+      "boox-go-103",
+      "kobo-libra-colour",
+      "mobiscribe-wave-color"
     ],
     "pros": [
       {
@@ -14896,7 +15202,9 @@
       "mobiscribe-wave-bw",
       "mobiscribe-wave-color-3",
       "bigme-guoyue-v6-color",
-      "bigme-s6-color-lite"
+      "bigme-s6-color-lite",
+      "boox-go-103",
+      "kobo-libra-colour"
     ],
     "pros": [
       {
@@ -14997,7 +15305,9 @@
       "mobiscribe-wave-color",
       "mobiscribe-wave-color-3",
       "bigme-s6",
-      "bigme-guoyue-v6-color"
+      "bigme-guoyue-v6-color",
+      "kobo-libra-colour",
+      "boox-go-103"
     ],
     "pros": [
       {
@@ -15096,8 +15406,10 @@
     "similar": [
       "boox-tab-x",
       "boox-note-max",
+      "dasung-not-ereader-103",
       "boox-tab-x-c",
-      "boox-max-lumi-2"
+      "boox-tab-ultra-c-pro",
+      "ratta-supernote-a5-x2-manta"
     ],
     "pros": [
       {
@@ -15190,7 +15502,9 @@
       "hisense-hi-reader-pro",
       "hisense-a7",
       "hisense-a9",
-      "hisense-a7-cc"
+      "boox-tab-ultra-c-pro",
+      "bigme-hibreak-pro",
+      "kindle-scribe-2024"
     ],
     "pros": [
       {
@@ -15274,7 +15588,9 @@
       "hisense-hi-reader",
       "hisense-a7",
       "hisense-a9",
-      "hisense-a7-cc"
+      "boox-tab-ultra-c-pro",
+      "bigme-hibreak-pro",
+      "kindle-scribe-2024"
     ],
     "pros": [
       {
@@ -15361,8 +15677,10 @@
     "similar": [
       "hisense-a7",
       "hisense-a9",
+      "hisense-hi-reader",
       "bigme-hibreak-pro",
-      "bigme-hibreak-dual-color"
+      "boox-tab-ultra-c-pro",
+      "boox-palma"
     ],
     "pros": [
       {
@@ -15455,7 +15773,9 @@
       "hisense-a7-cc",
       "hisense-a9",
       "hisense-hi-reader",
-      "bigme-hibreak-pro"
+      "durobo-krono",
+      "bigme-hibreak-pro",
+      "boox-palma"
     ],
     "pros": [
       {
@@ -15545,7 +15865,9 @@
       "moaan-inkpalm-5-mini-gen-2",
       "moaan-inkpalm-plus",
       "bigme-hibreak-bw",
-      "bigme-hibreak-s-bw"
+      "bigme-hibreak-s-bw",
+      "durobo-krono",
+      "boox-palma"
     ],
     "pros": [
       {
@@ -15634,7 +15956,9 @@
       "bigme-inknote",
       "huion-ink-eb1010",
       "bigme-inknote-color-lite",
-      "boox-note-air-2-plus"
+      "boox-note-air-2-plus",
+      "boox-note-air-4-c",
+      "boox-tab-ultra-c-pro"
     ],
     "pros": [
       {
@@ -15737,8 +16061,10 @@
     "similar": [
       "bigme-inknote-s",
       "geniatech-kloudnote-slim",
+      "bigme-b1051-lite",
       "huion-ink-eb1011",
-      "bigme-b1051-lite"
+      "boox-page",
+      "boox-go-103"
     ],
     "pros": [
       {
@@ -15835,7 +16161,9 @@
       "vivlio-light-hd",
       "pocketbook-inkpad-4",
       "vivlio-inkpad-color-3",
-      "tolino-shine-5"
+      "tolino-shine-5",
+      "pocketbook-verse-pro",
+      "boox-page"
     ],
     "pros": [
       {
@@ -15924,9 +16252,11 @@
     "rating": 0.605,
     "similar": [
       "vivlio-inkpad-4",
-      "tolino-shine-5",
+      "vivlio-light",
       "vivlio-light-hd-color",
-      "vivlio-light"
+      "tolino-shine-5",
+      "boox-page",
+      "pocketbook-verse-pro"
     ],
     "pros": [
       {
@@ -16016,7 +16346,9 @@
       "vivlio-light-zen",
       "vivlio-light-hd",
       "pocketbook-verse",
-      "pocketbook-basic-lux-4"
+      "pocketbook-basic-lux-4",
+      "kindle-2024",
+      "pocketbook-verse-pro"
     ],
     "pros": [
       {
@@ -16108,7 +16440,9 @@
       "geniatech-kloudnote-s",
       "bookeen-nota",
       "bigme-inknote-s",
-      "huion-ink-eb1011"
+      "huion-ink-eb1011",
+      "boox-page",
+      "boox-go-103"
     ],
     "pros": [
       {
@@ -16209,7 +16543,9 @@
       "geniatech-kloudnote-slim",
       "bookeen-nota",
       "bigme-inknote-s",
-      "huion-ink-eb1011"
+      "huion-ink-eb1011",
+      "boox-page",
+      "boox-go-103"
     ],
     "pros": [
       {
@@ -16312,7 +16648,9 @@
       "geniatech-kloudnote-s",
       "geniatech-kloudnote-slim",
       "penstar-enote",
-      "penstar-enote-2"
+      "penstar-enote-2",
+      "boox-palma",
+      "boox-go-103"
     ],
     "pros": [
       {
@@ -16413,8 +16751,10 @@
     "similar": [
       "woxter-scriba-195-paperlight-tp",
       "bemi-cognita-x",
+      "spc-dickens-light-2",
       "bemi-cognita-light-2",
-      "spc-dickens-light-2"
+      "boox-palma",
+      "xteink-x4"
     ],
     "pros": [
       {
@@ -16513,7 +16853,9 @@
       "bemi-cognita-light-2",
       "spc-dickens-light-2",
       "woxter-scriba-195-paperlight-tp",
-      "bemi-cognita-tab-5"
+      "bemi-cognita-tab-5",
+      "kindle-paperwhite-6",
+      "kindle-2024"
     ],
     "pros": [
       {
@@ -16602,8 +16944,10 @@
     "similar": [
       "bemi-cognita-x",
       "spc-dickens-light-2",
+      "bemi-cognita-tab-5",
       "woxter-scriba-195-paperlight-tp",
-      "bemi-cognita-tab-5"
+      "kindle-2024",
+      "xteink-x4"
     ],
     "pros": [
       {
@@ -16695,9 +17039,11 @@
     "rating": 0.537,
     "similar": [
       "bigme-read",
+      "bemi-cognita-tab-5",
       "nook-glowlight-4-plus",
       "boox-poke-5",
-      "obook-6"
+      "pocketbook-verse-pro",
+      "boox-page"
     ],
     "pros": [
       {
@@ -16788,9 +17134,11 @@
     ],
     "rating": 0.657,
     "similar": [
-      "kindle-11",
       "kindle-paperwhite-5",
       "kindle-paperwhite-5-signature-edition",
+      "kindle-11",
+      "kindle-paperwhite-6-signature-edition",
+      "kindle-paperwhite-6",
       "kobo-sage"
     ],
     "pros": [
@@ -16893,7 +17241,9 @@
       "kindle-voyage",
       "kindle-oasis-2",
       "kindle-paperwhite-4",
-      "kindle-paperwhite"
+      "kindle-paperwhite-6",
+      "kindle-2024",
+      "kobo-nia"
     ],
     "pros": [
       {
@@ -16981,7 +17331,9 @@
       "kobo-clara-bw",
       "kobo-libra-2",
       "kobo-clara-colour",
-      "kobo-sage"
+      "kobo-sage",
+      "kobo-nia",
+      "boox-poke-4-lite"
     ],
     "pros": [
       {
@@ -17072,7 +17424,9 @@
       "meebook-m6",
       "boox-poke-4-lite",
       "meebook-m7",
-      "boox-poke-5"
+      "boox-poke-5",
+      "pocketbook-verse-pro",
+      "boox-page"
     ],
     "pros": [
       {
@@ -17163,8 +17517,10 @@
     "similar": [
       "meebook-m8",
       "meebook-p10-pro",
+      "meebook-m103",
+      "boox-page",
       "boox-nova-air-2",
-      "meebook-m103"
+      "boox-go-103"
     ],
     "pros": [
       {
@@ -17259,7 +17615,9 @@
       "meebook-p78-pro",
       "meebook-m103",
       "meebook-m8",
-      "bookeen-nota"
+      "bookeen-nota",
+      "boox-page",
+      "boox-go-103"
     ],
     "pros": [
       {
@@ -17360,7 +17718,9 @@
       "boox-note-air-2",
       "boox-note-air-2-plus",
       "boox-note-5",
-      "boox-note-air-3"
+      "boox-note-air-4-c",
+      "boox-tab-ultra-c-pro",
+      "bigme-b1051"
     ],
     "pros": [
       {
@@ -17458,7 +17818,9 @@
       "boox-tab-ultra",
       "boox-note-air-2",
       "boox-go-103-gen-ii",
-      "boox-go-103-gen-ii-lumi"
+      "boox-note-air-4-c",
+      "boox-tab-ultra-c-pro",
+      "huion-ink-eb1010"
     ],
     "pros": [
       {
@@ -17557,9 +17919,11 @@
     "rating": 0.635,
     "similar": [
       "boox-nova-air",
-      "meebook-p78-pro",
       "boox-leaf-2",
-      "boox-go-7"
+      "meebook-p78-pro",
+      "boox-go-7",
+      "boox-page",
+      "boox-go-103"
     ],
     "pros": [
       {
@@ -17656,7 +18020,9 @@
       "boox-leaf",
       "boox-poke-5",
       "boox-poke-4-lite",
-      "bemi-cognita-tab-6-plus"
+      "bemi-cognita-tab-6-plus",
+      "kobo-libra-2",
+      "boox-page"
     ],
     "pros": [
       {
@@ -17747,9 +18113,11 @@
     "rating": 0.551,
     "similar": [
       "boox-poke-5",
-      "meebook-p6",
       "boox-go-6",
-      "boox-leaf-2"
+      "meebook-p6",
+      "boox-leaf-2",
+      "boox-go-103",
+      "boox-page"
     ],
     "pros": [
       {
@@ -17841,7 +18209,9 @@
       "boox-nova-3-color",
       "boox-tab-mini-c",
       "boox-tab-ultra-c",
-      "bigme-s6-color"
+      "bigme-s6-color",
+      "boox-note-air-4-c",
+      "boox-tab-ultra-c-pro"
     ],
     "pros": [
       {
@@ -17940,7 +18310,9 @@
       "nook-glowlight-4",
       "nook-glowlight-plus",
       "nook-glowlight-3",
-      "nook-simple-touch-glowlight"
+      "kindle-2024",
+      "boox-page",
+      "bemi-cognita-tab-6e"
     ],
     "pros": [
       {
@@ -18030,7 +18402,9 @@
       "pocketbook-verse",
       "pocketbook-basic-lux-4",
       "pocketbook-verse-lite",
-      "pocketbook-inkpad-lite"
+      "pocketbook-verse-pro-color",
+      "vivlio-light",
+      "pocketbook-verse-pro"
     ],
     "pros": [
       {
@@ -18121,7 +18495,9 @@
       "pocketbook-era-lite",
       "pocketbook-inkpad-4",
       "pocketbook-era-color",
-      "pocketbook-verse-pro"
+      "pocketbook-verse-pro",
+      "pocketbook-verse-pro-color",
+      "vivlio-inkpad-4"
     ],
     "pros": [
       {
@@ -18212,7 +18588,9 @@
       "hisense-a7",
       "bigme-hibreak-pro",
       "hisense-hi-reader-pro",
-      "hisense-a7-cc"
+      "hisense-a7-cc",
+      "boox-palma",
+      "durobo-krono"
     ],
     "pros": [
       {
@@ -18303,7 +18681,9 @@
       "moaan-inkpalm-5-mini-pro",
       "moaan-inkpalm-plus",
       "bigme-hibreak-bw",
-      "bigme-hibreak-s-bw"
+      "bigme-hibreak-s-bw",
+      "durobo-krono",
+      "boox-palma"
     ],
     "pros": [
       {
@@ -18389,9 +18769,11 @@
     "rating": 0.631,
     "similar": [
       "hisense-touch",
-      "bigme-hibreak-bw",
       "moaan-inkpalm-5-mini-gen-2",
-      "moaan-inkpalm-5-mini-pro"
+      "bigme-hibreak-bw",
+      "moaan-inkpalm-5-mini-pro",
+      "boox-palma",
+      "durobo-krono"
     ],
     "pros": [
       {
@@ -18477,10 +18859,12 @@
     ],
     "rating": 0.674,
     "similar": [
+      "meebook-m103",
       "meebook-p78-pro",
-      "boox-go-7",
-      "boox-go-6-gen-ii",
-      "meebook-m103"
+      "boox-nova-air-2",
+      "meebook-p10-pro",
+      "boox-page",
+      "boox-go-103"
     ],
     "pros": [
       {
@@ -18573,7 +18957,9 @@
       "huion-ink-eb1010",
       "boox-note-air-2-plus",
       "bigme-inknote",
-      "boox-tab-ultra"
+      "boox-tab-ultra",
+      "boox-tab-ultra-c-pro",
+      "kindle-scribe-2024"
     ],
     "pros": [
       {
@@ -18670,7 +19056,9 @@
       "inkbook-focus-plus",
       "inkbook-calypso-plus",
       "inkbook-solaris",
-      "nook-glowlight-plus-78"
+      "boox-go-103",
+      "nook-glowlight-plus-78",
+      "boox-page"
     ],
     "pros": [
       {
@@ -18759,7 +19147,9 @@
       "spc-dickens-light-2",
       "bemi-cognita-x",
       "bemi-cognita-light-2",
-      "kobo-touch-20"
+      "woxter-scriba-195-s",
+      "kindle-2024",
+      "xteink-x4"
     ],
     "pros": [
       {
@@ -18849,7 +19239,9 @@
       "kindle-paperwhite-5",
       "kindle-11",
       "kindle-voyage",
-      "kindle-oasis-2"
+      "kindle-paperwhite-6-signature-edition",
+      "kindle-paperwhite-6",
+      "kobo-aura-h2o"
     ],
     "pros": [
       {
@@ -18939,7 +19331,9 @@
       "kindle-paperwhite-5-signature-edition",
       "kindle-11",
       "kindle-voyage",
-      "kindle-oasis-2"
+      "kindle-paperwhite-6-signature-edition",
+      "kindle-paperwhite-6",
+      "kobo-aura-h2o"
     ],
     "pros": [
       {
@@ -19029,9 +19423,11 @@
     "rating": 0.712,
     "similar": [
       "kobo-libra-2",
-      "tolino-epos-3",
       "kobo-clara-2e",
-      "ratta-supernote-a6-x"
+      "tolino-epos-3",
+      "meebook-m103",
+      "ratta-supernote-a6-x",
+      "kobo-libra-colour"
     ],
     "pros": [
       {
@@ -19127,7 +19523,9 @@
       "kobo-clara-bw",
       "kobo-clara-2e",
       "kobo-sage",
-      "boox-page"
+      "boox-page",
+      "kindle-paperwhite-6",
+      "kindle-paperwhite-6-signature-edition"
     ],
     "pros": [
       {
@@ -19219,7 +19617,9 @@
       "kobo-elipsa-2e",
       "boox-go-103-gen-ii",
       "boox-go-103-gen-ii-lumi",
-      "bigme-b1051"
+      "bigme-b1051",
+      "boox-note-air-4-c",
+      "boox-tab-ultra-c-pro"
     ],
     "pros": [
       {
@@ -19317,7 +19717,9 @@
       "boox-note-max",
       "boox-tab-x",
       "boox-tab-x-c",
-      "boox-note-5"
+      "boox-note-air-4-c",
+      "geniatech-kloudnote",
+      "boox-tab-ultra-c-pro"
     ],
     "pros": [
       {
@@ -19417,7 +19819,9 @@
       "boox-leaf-2",
       "boox-poke-5",
       "boox-poke-4-lite",
-      "inkbook-solaris"
+      "kobo-libra-2",
+      "bemi-cognita-tab-8-pro",
+      "boox-page"
     ],
     "pros": [
       {
@@ -19512,7 +19916,9 @@
       "boox-tab-ultra",
       "boox-note-5",
       "boox-note-air-2-plus",
-      "boox-note-air-3"
+      "boox-note-air-4-c",
+      "boox-tab-ultra-c-pro",
+      "bigme-b1051"
     ],
     "pros": [
       {
@@ -19613,7 +20019,9 @@
       "boox-note-air-2",
       "boox-tab-ultra",
       "boox-note-air-2-plus",
-      "pocketbook-inkpad-x-pro"
+      "boox-note-air-4-c",
+      "pocketbook-inkpad-x-pro",
+      "boox-tab-ultra-c-pro"
     ],
     "pros": [
       {
@@ -19714,7 +20122,9 @@
       "boox-nova-air-2",
       "boox-go-7",
       "meebook-p78-pro",
-      "meebook-m8"
+      "meebook-m8",
+      "boox-page",
+      "boox-go-103"
     ],
     "pros": [
       {
@@ -19812,7 +20222,9 @@
       "boox-nova-air-c",
       "boox-tab-mini-c",
       "bigme-s6-color",
-      "boox-tab-ultra-c"
+      "boox-tab-ultra-c",
+      "boox-note-air-4-c",
+      "boox-tab-ultra-c-pro"
     ],
     "pros": [
       {
@@ -19910,7 +20322,9 @@
       "ratta-supernote-a6-x2-nomad",
       "boox-nova-air",
       "kobo-sage",
-      "boox-nova-air-2"
+      "boox-nova-air-2",
+      "kobo-libra-colour",
+      "boox-go-103"
     ],
     "pros": [
       {
@@ -20003,7 +20417,9 @@
       "nook-glowlight-4e",
       "nook-glowlight-plus",
       "nook-glowlight-3",
-      "nook-glowlight"
+      "boox-page",
+      "kindle-2024",
+      "bemi-cognita-tab-6e"
     ],
     "pros": [
       {
@@ -20095,7 +20511,9 @@
       "bigme-inknote",
       "huion-ink-eb1010",
       "bigme-b1051c-lite",
-      "bigme-b1051c"
+      "bigme-b1051c",
+      "boox-note-air-4-c",
+      "boox-tab-ultra-c-pro"
     ],
     "pros": [
       {
@@ -20192,10 +20610,12 @@
     ],
     "rating": 0.662,
     "similar": [
-      "boox-go-color-7",
       "bigme-b6",
       "musnap-neo-c",
-      "musnap-neo-2c"
+      "musnap-neo-2c",
+      "boox-go-color-7",
+      "pocketbook-verse-pro-color",
+      "boox-page"
     ],
     "pros": [
       {
@@ -20286,9 +20706,11 @@
     "rating": 0.593,
     "similar": [
       "pocketbook-verse",
-      "pocketbook-basic-lux-3",
       "pocketbook-basic-lux-4",
-      "pocketbook-verse-lite"
+      "pocketbook-basic-lux-3",
+      "pocketbook-verse-pro-color",
+      "vivlio-light",
+      "pocketbook-verse-pro"
     ],
     "pros": [
       {
@@ -20385,7 +20807,9 @@
       "pocketbook-inkpad-color-2",
       "pocketbook-inkpad-color-3",
       "pocketbook-era-color",
-      "pocketbook-inkpad-4"
+      "pocketbook-verse-pro",
+      "vivlio-inkpad-color-3",
+      "pocketbook-verse-pro-color"
     ],
     "pros": [
       {
@@ -20478,7 +20902,9 @@
       "mobiscribe-wave-bw",
       "penstar-enote",
       "penstar-enote-2",
-      "mobiscribe-wave-color"
+      "mobiscribe-wave-color",
+      "remarkable-2",
+      "boox-go-103"
     ],
     "pros": [
       {
@@ -20569,7 +20995,9 @@
       "dasung-not-ereader-103",
       "boox-nova-3-color",
       "boox-tab-mini-c",
-      "bigme-s6-color"
+      "bigme-s6-color",
+      "boox-note-air-4-c",
+      "boox-tab-ultra-c-pro"
     ],
     "pros": [
       {
@@ -20659,7 +21087,9 @@
       "dasung-not-ereader-078",
       "boox-note-air-2",
       "boox-note-air-2-plus",
-      "boox-tab-ultra"
+      "boox-tab-ultra",
+      "boox-note-air-4-c",
+      "boox-tab-ultra-c-pro"
     ],
     "pros": [
       {
@@ -20753,7 +21183,9 @@
       "moaan-inkpalm-plus",
       "bigme-hibreak-bw",
       "bigme-hibreak-s-bw",
-      "bigme-hibreak-color"
+      "bigme-hibreak-color",
+      "boox-palma-2",
+      "boox-palma"
     ],
     "pros": [
       {
@@ -20841,7 +21273,9 @@
       "inkbook-solaris",
       "inkbook-focus",
       "inkbook-focus-plus",
-      "boox-poke-4-lite"
+      "kobo-clara-bw",
+      "boox-poke-4-lite",
+      "boox-page"
     ],
     "pros": [
       {
@@ -20933,7 +21367,9 @@
       "boox-max-lumi-2",
       "boox-tab-x-c",
       "boox-tab-x",
-      "boox-note-max"
+      "boox-note-max",
+      "boox-tab-ultra-c-pro",
+      "ratta-supernote-a5-x2-manta"
     ],
     "pros": [
       {
@@ -21029,7 +21465,9 @@
       "bemi-cognita-light-2",
       "bemi-cognita-x",
       "woxter-scriba-195-paperlight-tp",
-      "bemi-cognita-tab-5"
+      "spc-dickens-light-pro",
+      "kindle-2024",
+      "xteink-x4"
     ],
     "pros": [
       {
@@ -21122,7 +21560,9 @@
       "spc-dickens-light-2-pro",
       "silvergear-e-reader",
       "kindle-11",
-      "nook-glowlight-4"
+      "nook-glowlight-4",
+      "kindle-paperwhite-6",
+      "kindle-2024"
     ],
     "pros": [
       {
@@ -21214,8 +21654,10 @@
     "similar": [
       "remarkable-1",
       "penstar-enote",
+      "boox-go-103",
       "penstar-enote-2",
-      "boox-go-103"
+      "kindle-scribe",
+      "kindle-paperwhite-6"
     ],
     "pros": [
       {
@@ -21314,7 +21756,9 @@
       "kobo-glo-hd",
       "kobo-clara-hd",
       "kobo-aura-edition-2",
-      "kobo-aura-h2o-edition-2"
+      "kobo-libra-2",
+      "kobo-clara-bw",
+      "vivlio-light"
     ],
     "pros": [
       {
@@ -21398,10 +21842,12 @@
     ],
     "rating": 0.609,
     "similar": [
-      "kindle-10",
       "kindle-oasis-2",
+      "kindle-10",
       "kindle-paperwhite-2",
-      "kindle-oasis"
+      "kindle-paperwhite-6-signature-edition",
+      "kindle-paperwhite-6",
+      "kobo-libra-h2o"
     ],
     "pros": [
       {
@@ -21486,9 +21932,11 @@
     "rating": 0.465,
     "similar": [
       "kindle-oasis",
-      "kindle-oasis-3",
       "kindle-paperwhite-2",
-      "kindle-paperwhite-3"
+      "kindle-oasis-3",
+      "kindle-paperwhite-6",
+      "kindle-2024",
+      "kobo-aura-edition-2"
     ],
     "pros": [
       {
@@ -21575,7 +22023,9 @@
       "kobo-aura-one",
       "kobo-aura-edition-2",
       "kobo-glo-hd",
-      "kobo-clara-hd"
+      "kobo-clara-bw",
+      "kobo-libra-2",
+      "kindle-oasis-3"
     ],
     "pros": [
       {
@@ -21664,9 +22114,11 @@
     "rating": 0.583,
     "similar": [
       "nook-glowlight-4-plus",
-      "boox-poke-4-lite",
       "inkbook-focus",
-      "meebook-p6"
+      "bemi-cognita-tab-8",
+      "bemi-cognita-tab-8-pro",
+      "boox-go-103",
+      "boox-page"
     ],
     "pros": [
       {
@@ -21753,7 +22205,9 @@
       "kindle-voyage",
       "kindle-paperwhite-3",
       "kindle-paperwhite-2",
-      "kindle-oasis"
+      "kindle-paperwhite-6",
+      "kindle-2024",
+      "kobo-clara-hd"
     ],
     "pros": [
       {
@@ -21843,7 +22297,9 @@
       "kobo-aura-h2o",
       "kobo-clara-hd",
       "kobo-aura-h2o-edition-2",
-      "kobo-aura-edition-2"
+      "kindle-2024",
+      "kobo-libra-2",
+      "kindle-oasis-2"
     ],
     "pros": [
       {
@@ -21933,7 +22389,9 @@
       "kobo-glo-hd",
       "kobo-nia",
       "kobo-aura-edition-2",
-      "kobo-aura-h2o-edition-2"
+      "kindle-2024",
+      "kobo-clara-bw",
+      "kindle-paperwhite-3"
     ],
     "pros": [
       {
@@ -22023,8 +22481,10 @@
     "similar": [
       "remarkable-2",
       "remarkable-paper-pro",
+      "kindle-scribe",
       "penstar-enote",
-      "penstar-enote-2"
+      "penstar-enote-2",
+      "boox-go-103"
     ],
     "pros": [
       {
@@ -22120,7 +22580,9 @@
       "kindle-voyage",
       "kindle-oasis-3",
       "kindle-11",
-      "kindle-paperwhite-4"
+      "kindle-paperwhite-6-signature-edition",
+      "kindle-paperwhite-6",
+      "kobo-libra-h2o"
     ],
     "pros": [
       {
@@ -22204,10 +22666,12 @@
     ],
     "rating": 0.489,
     "similar": [
-      "kobo-glo-hd",
       "kobo-aura-h2o",
+      "kobo-glo-hd",
       "kobo-aura-edition-2",
-      "kobo-clara-hd"
+      "kobo-libra-2",
+      "kobo-clara-bw",
+      "kindle-10"
     ],
     "pros": [
       {
@@ -22294,7 +22758,9 @@
       "nook-glowlight-plus",
       "nook-glowlight-4",
       "nook-glowlight-4e",
-      "nook-1st-edition"
+      "boox-page",
+      "kindle-2024",
+      "bemi-cognita-tab-6e"
     ],
     "pros": [
       {
@@ -22384,7 +22850,9 @@
       "kindle-5",
       "kindle-7",
       "kobo-touch-20",
-      "nook-simple-touch"
+      "nook-simple-touch",
+      "kindle-paperwhite-6",
+      "kindle-2024"
     ],
     "pros": [
       {
@@ -22474,7 +22942,9 @@
       "kindle-10",
       "kindle-paperwhite-2",
       "kindle-paperwhite-3",
-      "kindle-voyage"
+      "kindle-paperwhite-6",
+      "kindle-2024",
+      "kobo-aura-edition-2"
     ],
     "pros": [
       {
@@ -22564,7 +23034,9 @@
       "kobo-aura-edition-2",
       "kobo-libra-h2o",
       "kobo-aura-h2o-edition-2",
-      "kobo-aura-h2o"
+      "kobo-clara-bw",
+      "kobo-libra-2",
+      "kindle-paperwhite-2"
     ],
     "pros": [
       {
@@ -22652,9 +23124,11 @@
     "rating": 0.428,
     "similar": [
       "kobo-aura-one",
-      "kobo-libra-h2o",
       "kobo-glo-hd",
-      "kobo-clara-hd"
+      "kobo-clara-hd",
+      "kindle-2024",
+      "kobo-clara-bw",
+      "kindle-paperwhite-2"
     ],
     "pros": [
       {
@@ -22741,7 +23215,9 @@
       "kindle-voyage",
       "kindle-paperwhite-4",
       "kindle-paperwhite-2",
-      "kindle-oasis"
+      "kindle-paperwhite-6",
+      "kindle-2024",
+      "kobo-glo-hd"
     ],
     "pros": [
       {
@@ -22831,7 +23307,9 @@
       "kobo-mini",
       "kindle-5",
       "kindle-8",
-      "nook-simple-touch"
+      "kindle-7",
+      "kindle-2024",
+      "kobo-clara-bw"
     ],
     "pros": [
       {
@@ -22922,9 +23400,11 @@
     "rating": 0.434,
     "similar": [
       "kobo-clara-hd",
-      "kobo-aura-h2o-edition-2",
       "kobo-nia",
-      "kobo-aura-edition-2"
+      "kobo-aura-h2o-edition-2",
+      "kindle-2024",
+      "kobo-clara-bw",
+      "kindle-paperwhite-3"
     ],
     "pros": [
       {
@@ -23014,7 +23494,9 @@
       "nook-glowlight-3",
       "nook-glowlight-4",
       "nook-glowlight",
-      "nook-glowlight-4e"
+      "kindle-paperwhite-6",
+      "kindle-2024",
+      "kobo-glo-hd"
     ],
     "pros": [
       {
@@ -23104,7 +23586,9 @@
       "kindle-paperwhite-4",
       "kindle-11",
       "kindle-paperwhite-3",
-      "kindle-oasis-2"
+      "kindle-paperwhite-6",
+      "kindle-2024",
+      "kobo-aura-h2o"
     ],
     "pros": [
       {
@@ -23194,7 +23678,9 @@
       "kindle-5",
       "kindle-8",
       "kobo-touch-20",
-      "nook-simple-touch"
+      "nook-simple-touch",
+      "kindle-paperwhite-6",
+      "kindle-2024"
     ],
     "pros": [
       {
@@ -23283,8 +23769,10 @@
     "similar": [
       "kobo-aura-h2o-edition-2",
       "kobo-aura-edition-2",
-      "kobo-glo-hd",
-      "kobo-clara-hd"
+      "kobo-forma",
+      "kobo-libra-2",
+      "kindle-2024",
+      "kindle-voyage"
     ],
     "pros": [
       {
@@ -23371,7 +23859,9 @@
       "kindle-oasis",
       "kindle-paperwhite-3",
       "kindle-10",
-      "kindle-voyage"
+      "kindle-paperwhite-6",
+      "kindle-2024",
+      "kobo-aura-edition-2"
     ],
     "pros": [
       {
@@ -23461,7 +23951,9 @@
       "kobo-aura-hd",
       "kobo-touch",
       "kobo-glo",
-      "kobo-aura-edition-2"
+      "kindle-2024",
+      "kobo-clara-bw",
+      "kindle-keyboard"
     ],
     "pros": [
       {
@@ -23548,7 +24040,9 @@
       "kobo-aura",
       "kobo-touch",
       "kobo-glo",
-      "kobo-aura-h2o-edition-2"
+      "kindle-2024",
+      "kobo-clara-bw",
+      "kindle-keyboard"
     ],
     "pros": [
       {
@@ -23635,7 +24129,9 @@
       "nook-glowlight-plus",
       "nook-simple-touch-glowlight",
       "nook-glowlight-3",
-      "nook-1st-edition"
+      "kindle-paperwhite-6",
+      "kindle-2024",
+      "kindle-paperwhite"
     ],
     "pros": [
       {
@@ -23725,7 +24221,9 @@
       "kindle-keyboard",
       "kindle-touch",
       "kindle-11",
-      "kindle-4"
+      "kindle-paperwhite-6",
+      "kindle-2024",
+      "nook-glowlight"
     ],
     "pros": [
       {
@@ -23815,7 +24313,9 @@
       "kindle-8",
       "kindle-7",
       "kobo-touch-20",
-      "nook-simple-touch"
+      "nook-simple-touch",
+      "kindle-paperwhite-6",
+      "kindle-2024"
     ],
     "pros": [
       {
@@ -23908,7 +24408,9 @@
       "kobo-touch-20",
       "kindle-5",
       "kobo-original",
-      "kindle-8"
+      "kindle-8",
+      "kobo-libra-2",
+      "kindle-2024"
     ],
     "pros": [
       {
@@ -24001,7 +24503,9 @@
       "kobo-touch",
       "kobo-aura",
       "kobo-aura-hd",
-      "kobo-aura-edition-2"
+      "kobo-clara-bw",
+      "kindle-2024",
+      "kindle-4"
     ],
     "pros": [
       {
@@ -24085,7 +24589,9 @@
       "nook-glowlight",
       "nook-1st-edition",
       "nook-glowlight-4e",
-      "nook-glowlight-plus"
+      "boox-page",
+      "kindle-2024",
+      "kobo-glo"
     ],
     "pros": [
       {
@@ -24175,7 +24681,9 @@
       "kindle-4",
       "kindle-keyboard",
       "kindle-paperwhite",
-      "kindle-1"
+      "kindle-paperwhite-6",
+      "kindle-2024",
+      "kobo-touch"
     ],
     "pros": [
       {
@@ -24265,7 +24773,9 @@
       "kindle-touch",
       "kindle-keyboard",
       "kindle-paperwhite",
-      "kindle-2"
+      "kindle-paperwhite-6",
+      "kindle-2024",
+      "kobo-touch"
     ],
     "pros": [
       {
@@ -24358,7 +24868,9 @@
       "kobo-glo",
       "kobo-aura",
       "kobo-aura-hd",
-      "kobo-clara-hd"
+      "kobo-clara-bw",
+      "kindle-2024",
+      "kindle-4"
     ],
     "pros": [
       {
@@ -24442,10 +24954,12 @@
     ],
     "rating": 0.442,
     "similar": [
-      "bemi-cognita-tab-5",
       "kobo-touch-20",
       "kindle-5",
-      "kindle-8"
+      "kindle-8",
+      "bemi-cognita-tab-5",
+      "boox-page",
+      "kindle-2024"
     ],
     "pros": [
       {
@@ -24535,7 +25049,9 @@
       "kindle-4",
       "kindle-touch",
       "kindle-paperwhite",
-      "kindle-2"
+      "kindle-paperwhite-6",
+      "kindle-2024",
+      "kobo-aura"
     ],
     "pros": [
       {
@@ -24628,7 +25144,9 @@
       "kobo-original",
       "kobo-aura-h2o",
       "kobo-touch",
-      "kobo-glo"
+      "kobo-libra-2",
+      "kindle-2024",
+      "kindle-1"
     ],
     "pros": [
       {
@@ -24718,7 +25236,9 @@
       "kobo-wifi",
       "kobo-glo-hd",
       "kobo-aura-h2o-edition-2",
-      "kobo-touch"
+      "kobo-clara-bw",
+      "kindle-2024",
+      "kindle-keyboard"
     ],
     "pros": [
       {
@@ -24807,8 +25327,10 @@
     "similar": [
       "kindle-scribe-3-without-front-light",
       "dasung-not-ereader-133",
-      "remarkable-paper-pro",
-      "boox-tab-x-c"
+      "kindle-scribe-3",
+      "kindle-8",
+      "ratta-supernote-a5-x2-manta",
+      "kindle-scribe-2024"
     ],
     "pros": [
       {
@@ -24907,7 +25429,9 @@
       "kindle-1",
       "kindle-4",
       "kindle-10",
-      "kindle-keyboard"
+      "kindle-paperwhite-6",
+      "kindle-2024",
+      "nook-1st-edition"
     ],
     "pros": [
       {
@@ -25000,7 +25524,9 @@
       "nook-glowlight-3",
       "nook-simple-touch-glowlight",
       "nook-glowlight",
-      "nook-glowlight-plus"
+      "boox-palma-2",
+      "kindle-2024",
+      "kindle-1"
     ],
     "pros": [
       {
@@ -25093,7 +25619,9 @@
       "kindle-2",
       "kindle-touch",
       "kindle-4",
-      "kindle-paperwhite-4"
+      "kindle-paperwhite-6",
+      "kindle-2024",
+      "nook-1st-edition"
     ],
     "pros": [
       {
