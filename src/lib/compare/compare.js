@@ -93,3 +93,21 @@ export const compareOrder = (orderArray, a, b, useIncludes) => {
   if (aIndex > bIndex) return 1;
   if (aIndex < bIndex) return -1;
 };
+
+export const compareWithUnitOrder = (unitOrderArray, a, b) => {
+  const aUnit = unitOrderArray.findLastIndex((unit) => a.includes(unit));
+  const bUnit = unitOrderArray.findLastIndex((unit) => b.includes(unit));
+
+  const aFloat = a.split(" ")?.[0];
+  const bFloat = b.split(" ")?.[0];
+
+  if (aUnit === bUnit) {
+    return compareFloat(aFloat, bFloat);
+  }
+  if (aUnit > bUnit) {
+    return 1;
+  }
+  if (aUnit < bUnit) {
+    return -1;
+  }
+};

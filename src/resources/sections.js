@@ -2,6 +2,7 @@ import {
   compareFloat,
   compareOrder,
   compareScreenSize,
+  compareWithUnitOrder,
 } from "@/lib/compare/compare";
 import {
   FaHandSparkles,
@@ -24,6 +25,47 @@ import screenTypeRanking from "@/resources/screenTypeRanking.json" with { type: 
 import { HiOutlinePencil } from "react-icons/hi";
 import { IoColorPalette } from "react-icons/io5";
 const sections = {
+  features: {
+    label: "Features",
+    icon: LuStar,
+    attributes: [
+      //   { attribute: "frontLight", label: "Front Light", type: "tag" },
+      //   { attribute: "backlight", label: "Back Light", type: "tag" },
+
+      { attribute: "wifi", label: "WiFi", type: "tag", icon: LuWifi },
+
+      {
+        attribute: "bluetooth",
+        label: "Bluetooth",
+        type: "tag",
+        icon: LuBluetooth,
+      },
+      {
+        attribute: "mobileData",
+        label: "Mobile Data",
+        type: "tag",
+        icon: TbMobiledata,
+      },
+      { attribute: "usbc", label: "USB C", type: "tag" },
+
+      { attribute: "sdCard", label: "SD Card Slot", type: "tag" },
+      { attribute: "waterproof", label: "Waterproofing", type: "tag" },
+
+      { attribute: "speakers", label: "Speakers", type: "tag" },
+      {
+        attribute: "wirelessCharging",
+        label: "Wireless Chg.",
+
+        type: "tag",
+      },
+      { attribute: "audioOutput", label: "Audio Jack", type: "tag" },
+      { attribute: "microphone", label: "Microphone", type: "tag" },
+
+      // { attribute: "textToSpeech", label: "Text To Speech", type: "tag" },
+      //   { attribute: "waterproofRating", label: "Waterproof Rating" },
+      //   { attribute: "wirelessCharging", label: "Wireless Charging" },
+    ],
+  },
   display: {
     label: "Screen",
     icon: FaTabletScreenButton,
@@ -80,47 +122,6 @@ const sections = {
     ],
   },
 
-  features: {
-    label: "Features",
-    icon: LuStar,
-    attributes: [
-      //   { attribute: "frontLight", label: "Front Light", type: "tag" },
-      //   { attribute: "backlight", label: "Back Light", type: "tag" },
-
-      { attribute: "wifi", label: "WiFi", type: "tag", icon: LuWifi },
-
-      {
-        attribute: "bluetooth",
-        label: "Bluetooth",
-        type: "tag",
-        icon: LuBluetooth,
-      },
-      {
-        attribute: "mobileData",
-        label: "Mobile Data",
-        type: "tag",
-        icon: TbMobiledata,
-      },
-      { attribute: "usbc", label: "USB C", type: "tag" },
-
-      { attribute: "sdCard", label: "SD Card Slot", type: "tag" },
-      { attribute: "waterproof", label: "Waterproofing", type: "tag" },
-
-      { attribute: "speakers", label: "Speakers", type: "tag" },
-      {
-        attribute: "wirelessCharging",
-        label: "Wireless Chg.",
-
-        type: "tag",
-      },
-      { attribute: "audioOutput", label: "Audio Jack", type: "tag" },
-      { attribute: "microphone", label: "Microphone", type: "tag" },
-
-      // { attribute: "textToSpeech", label: "Text To Speech", type: "tag" },
-      //   { attribute: "waterproofRating", label: "Waterproof Rating" },
-      //   { attribute: "wirelessCharging", label: "Wireless Charging" },
-    ],
-  },
   //   portsAndConnectivity: {
   //     label: "Ports and Connectivity",
   //     icon: FaPlugCircleBolt,
@@ -216,18 +217,23 @@ const sections = {
       {
         attribute: "storage",
         label: "Storage",
-        compareFunction: (a, b) => compareFloat(a, b),
+        compareFunction: (a, b) =>
+          compareWithUnitOrder(["KB", "MB", "GB", "TB"], a, b),
       },
 
       {
         attribute: "ram",
         label: "RAM",
-        compareFunction: (a, b) => compareFloat(a, b),
+        compareFunction: (a, b) => {
+          return compareWithUnitOrder(["KB", "MB", "GB", "TB"], a, b);
+        },
       },
       {
         attribute: "cpu",
         label: "CPU",
-        compareFunction: (a, b) => compareFloat(a, b),
+        compareFunction: (a, b) => {
+          return compareWithUnitOrder(["Hz", "MHz", "GHz"], a, b);
+        },
       },
     ],
   },
