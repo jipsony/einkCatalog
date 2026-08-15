@@ -122,7 +122,7 @@
     "sdCard": false,
     "usbc": true,
     "mobileData": false,
-    "speakers": true,
+    "speakers": false,
     "microphone": false,
     "browser": true,
     "textToSpeech": true,
@@ -152,7 +152,7 @@
       "For Reading",
       "For Note-taking"
     ],
-    "rating": 0.576,
+    "rating": 0.569,
     "similar": [
       "kindle-scribe-3",
       "kindle-scribe-colorsoft",
@@ -436,7 +436,7 @@
     "sdCard": true,
     "usbc": true,
     "mobileData": false,
-    "speakers": true,
+    "speakers": false,
     "microphone": true,
     "browser": true,
     "textToSpeech": true,
@@ -467,7 +467,7 @@
       "For Note-taking",
       "Kindle Alternative"
     ],
-    "rating": 0.652,
+    "rating": 0.645,
     "similar": [
       "boox-go-7",
       "bigme-b7-pro-bw",
@@ -533,7 +533,7 @@
     "sdCard": false,
     "usbc": true,
     "mobileData": false,
-    "speakers": true,
+    "speakers": false,
     "microphone": false,
     "browser": true,
     "textToSpeech": true,
@@ -563,7 +563,7 @@
       "For Reading",
       "Kindle Alternative"
     ],
-    "rating": 0.66,
+    "rating": 0.653,
     "similar": [
       "pocketbook-era",
       "pocketbook-inkpad-4",
@@ -626,7 +626,7 @@
     "sdCard": false,
     "usbc": true,
     "mobileData": false,
-    "speakers": true,
+    "speakers": false,
     "microphone": false,
     "browser": true,
     "textToSpeech": true,
@@ -657,7 +657,7 @@
       "For Note-taking",
       "Kindle Alternative"
     ],
-    "rating": 0.63,
+    "rating": 0.623,
     "similar": [
       "pocketbook-era-lite",
       "meebook-p10-pro",
@@ -1329,7 +1329,7 @@
     "sdCard": false,
     "usbc": true,
     "mobileData": false,
-    "speakers": true,
+    "speakers": false,
     "microphone": false,
     "browser": true,
     "textToSpeech": true,
@@ -1359,7 +1359,7 @@
       "For Reading",
       "Kindle Alternative"
     ],
-    "rating": 0.626,
+    "rating": 0.62,
     "similar": [
       "musnap-neo-c",
       "musnap-neo-2",
@@ -1811,7 +1811,7 @@
     "sdCard": true,
     "usbc": true,
     "mobileData": false,
-    "speakers": true,
+    "speakers": false,
     "microphone": false,
     "browser": true,
     "textToSpeech": true,
@@ -1840,7 +1840,7 @@
       "Medium",
       "For Reading"
     ],
-    "rating": 0.528,
+    "rating": 0.521,
     "similar": [
       "bemi-cognita-tab-7-pro",
       "nook-glowlight-4",
@@ -2003,7 +2003,7 @@
     "sdCard": false,
     "usbc": true,
     "mobileData": false,
-    "speakers": true,
+    "speakers": false,
     "microphone": false,
     "browser": true,
     "textToSpeech": true,
@@ -2033,7 +2033,7 @@
       "For Reading",
       "For Note-taking"
     ],
-    "rating": 0.686,
+    "rating": 0.68,
     "similar": [
       "kindle-scribe-3",
       "kindle-scribe-3-without-front-light",
@@ -2108,7 +2108,7 @@
     "sdCard": false,
     "usbc": true,
     "mobileData": false,
-    "speakers": true,
+    "speakers": false,
     "microphone": false,
     "browser": true,
     "textToSpeech": true,
@@ -2138,7 +2138,7 @@
       "For Reading",
       "For Note-taking"
     ],
-    "rating": 0.652,
+    "rating": 0.645,
     "similar": [
       "kindle-scribe-colorsoft",
       "kindle-scribe-3-without-front-light",
@@ -2210,7 +2210,7 @@
     "sdCard": false,
     "usbc": true,
     "mobileData": false,
-    "speakers": true,
+    "speakers": false,
     "microphone": false,
     "browser": true,
     "textToSpeech": true,
@@ -2239,7 +2239,7 @@
       "Medium",
       "For Reading"
     ],
-    "rating": 0.652,
+    "rating": 0.645,
     "similar": [
       "kindle-colorsoft-signature-edition",
       "kindle-oasis-3",
@@ -3992,7 +3992,7 @@
     "sdCard": false,
     "usbc": true,
     "mobileData": true,
-    "speakers": true,
+    "speakers": false,
     "microphone": true,
     "browser": true,
     "textToSpeech": true,
@@ -4022,7 +4022,7 @@
       "For Reading",
       "Phone-Like"
     ],
-    "rating": 0.648,
+    "rating": 0.641,
     "similar": [
       "viwoods-aipaper-reader-c",
       "boox-palma-2",
@@ -4085,7 +4085,7 @@
     "sdCard": false,
     "usbc": true,
     "mobileData": true,
-    "speakers": true,
+    "speakers": false,
     "microphone": true,
     "browser": true,
     "textToSpeech": true,
@@ -4115,7 +4115,7 @@
       "For Reading",
       "Phone-Like"
     ],
-    "rating": 0.709,
+    "rating": 0.702,
     "similar": [
       "bigme-hibreak-pro-color",
       "viwoods-aipaper-reader",
@@ -4181,7 +4181,7 @@
     "sdCard": true,
     "usbc": true,
     "mobileData": false,
-    "speakers": true,
+    "speakers": false,
     "microphone": false,
     "browser": true,
     "textToSpeech": true,
@@ -4211,7 +4211,7 @@
       "For Reading",
       "Kindle Alternative"
     ],
-    "rating": 0.682,
+    "rating": 0.675,
     "similar": [
       "inkbook-solaris-color",
       "inkbook-focus",
@@ -4276,7 +4276,7 @@
     "sdCard": true,
     "usbc": true,
     "mobileData": false,
-    "speakers": true,
+    "speakers": false,
     "microphone": false,
     "browser": true,
     "textToSpeech": true,
@@ -4306,7 +4306,7 @@
       "For Reading",
       "Kindle Alternative"
     ],
-    "rating": 0.648,
+    "rating": 0.641,
     "similar": [
       "inkbook-focus",
       "inkbook-calypso-plus",
@@ -4368,7 +4368,7 @@
     "sdCard": false,
     "usbc": true,
     "mobileData": false,
-    "speakers": true,
+    "speakers": false,
     "microphone": false,
     "browser": true,
     "textToSpeech": true,
@@ -4398,7 +4398,7 @@
       "For Reading",
       "Kindle Alternative"
     ],
-    "rating": 0.653,
+    "rating": 0.646,
     "similar": [
       "inkbook-focus-color",
       "bigme-b6",
@@ -4464,7 +4464,7 @@
     "sdCard": false,
     "usbc": true,
     "mobileData": false,
-    "speakers": true,
+    "speakers": false,
     "microphone": false,
     "browser": true,
     "textToSpeech": true,
@@ -4494,7 +4494,7 @@
       "For Reading",
       "Kindle Alternative"
     ],
-    "rating": 0.58,
+    "rating": 0.574,
     "similar": [
       "inkbook-calypso-plus",
       "inkbook-focus",
@@ -4863,7 +4863,7 @@
     "sdCard": false,
     "usbc": true,
     "mobileData": false,
-    "speakers": true,
+    "speakers": false,
     "microphone": true,
     "browser": true,
     "textToSpeech": true,
@@ -4894,7 +4894,7 @@
       "For Note-taking",
       "Kindle Alternative"
     ],
-    "rating": 0.592,
+    "rating": 0.585,
     "similar": [
       "iflytek-ainote-air-2",
       "huion-ink-eb1010",
@@ -5868,7 +5868,7 @@
     "sdCard": false,
     "usbc": true,
     "mobileData": false,
-    "speakers": true,
+    "speakers": false,
     "microphone": false,
     "browser": true,
     "textToSpeech": true,
@@ -5898,7 +5898,7 @@
       "For Reading",
       "Kindle Alternative"
     ],
-    "rating": 0.575,
+    "rating": 0.568,
     "similar": [
       "bemi-cognita-tab-6",
       "bigme-b6-bw",
@@ -6055,7 +6055,7 @@
     "sdCard": true,
     "usbc": true,
     "mobileData": false,
-    "speakers": true,
+    "speakers": false,
     "microphone": false,
     "browser": true,
     "textToSpeech": true,
@@ -6085,7 +6085,7 @@
       "For Reading",
       "Kindle Alternative"
     ],
-    "rating": 0.64,
+    "rating": 0.633,
     "similar": [
       "bemi-cognita-tab-6-plus",
       "bigme-b6",
@@ -6150,7 +6150,7 @@
     "sdCard": true,
     "usbc": true,
     "mobileData": false,
-    "speakers": true,
+    "speakers": false,
     "microphone": false,
     "browser": true,
     "textToSpeech": true,
@@ -6180,7 +6180,7 @@
       "For Reading",
       "Kindle Alternative"
     ],
-    "rating": 0.563,
+    "rating": 0.556,
     "similar": [
       "bemi-cognita-tab-6",
       "bemi-cognita-tab-6-proc",
@@ -6243,7 +6243,7 @@
     "sdCard": true,
     "usbc": true,
     "mobileData": false,
-    "speakers": true,
+    "speakers": false,
     "microphone": false,
     "browser": true,
     "textToSpeech": true,
@@ -6273,7 +6273,7 @@
       "For Reading",
       "Kindle Alternative"
     ],
-    "rating": 0.554,
+    "rating": 0.547,
     "similar": [
       "bemi-cognita-tab-6-plus",
       "boox-go-6",
@@ -6839,7 +6839,7 @@
     "sdCard": false,
     "usbc": true,
     "mobileData": false,
-    "speakers": true,
+    "speakers": false,
     "microphone": false,
     "browser": true,
     "textToSpeech": true,
@@ -6871,7 +6871,7 @@
       "For Reading",
       "For Note-taking"
     ],
-    "rating": 0.686,
+    "rating": 0.679,
     "similar": [
       "kindle-scribe-3",
       "kindle-scribe-3-without-front-light",
@@ -6943,7 +6943,7 @@
     "sdCard": false,
     "usbc": true,
     "mobileData": false,
-    "speakers": true,
+    "speakers": false,
     "microphone": false,
     "browser": true,
     "textToSpeech": true,
@@ -6972,7 +6972,7 @@
       "Medium",
       "For Reading"
     ],
-    "rating": 0.666,
+    "rating": 0.659,
     "similar": [
       "kindle-colorsoft",
       "kindle-oasis-2",
@@ -7038,7 +7038,7 @@
     "sdCard": false,
     "usbc": true,
     "mobileData": false,
-    "speakers": true,
+    "speakers": false,
     "microphone": false,
     "browser": true,
     "textToSpeech": true,
@@ -7069,7 +7069,7 @@
       "Staff Pick",
       "For Reading"
     ],
-    "rating": 0.668,
+    "rating": 0.661,
     "similar": [
       "kindle-paperwhite-6",
       "kindle-2024",
@@ -7132,7 +7132,7 @@
     "sdCard": false,
     "usbc": true,
     "mobileData": false,
-    "speakers": true,
+    "speakers": false,
     "microphone": false,
     "browser": true,
     "textToSpeech": true,
@@ -7163,7 +7163,7 @@
       "Staff Pick",
       "For Reading"
     ],
-    "rating": 0.612,
+    "rating": 0.606,
     "similar": [
       "kindle-paperwhite-6-signature-edition",
       "kindle-2024",
@@ -7226,7 +7226,7 @@
     "sdCard": false,
     "usbc": true,
     "mobileData": false,
-    "speakers": true,
+    "speakers": false,
     "microphone": false,
     "browser": true,
     "textToSpeech": true,
@@ -7257,7 +7257,7 @@
       "Staff Pick",
       "For Reading"
     ],
-    "rating": 0.541,
+    "rating": 0.534,
     "similar": [
       "kindle-paperwhite-6",
       "kindle-paperwhite-6-signature-edition",
@@ -7317,7 +7317,7 @@
     "sdCard": false,
     "usbc": true,
     "mobileData": false,
-    "speakers": true,
+    "speakers": false,
     "microphone": false,
     "browser": true,
     "textToSpeech": true,
@@ -7350,7 +7350,7 @@
       "For Note-taking",
       "Kindle Alternative"
     ],
-    "rating": 0.852,
+    "rating": 0.845,
     "similar": [
       "kobo-clara-colour",
       "kobo-clara-bw",
@@ -7419,7 +7419,7 @@
     "sdCard": false,
     "usbc": true,
     "mobileData": false,
-    "speakers": true,
+    "speakers": false,
     "microphone": false,
     "browser": true,
     "textToSpeech": true,
@@ -7449,7 +7449,7 @@
       "For Reading",
       "Kindle Alternative"
     ],
-    "rating": 0.624,
+    "rating": 0.617,
     "similar": [
       "vivlio-light-hd-color",
       "meebook-m6c",
@@ -7515,7 +7515,7 @@
     "sdCard": false,
     "usbc": true,
     "mobileData": false,
-    "speakers": true,
+    "speakers": false,
     "microphone": false,
     "browser": true,
     "textToSpeech": true,
@@ -7547,7 +7547,7 @@
       "For Reading",
       "Kindle Alternative"
     ],
-    "rating": 0.632,
+    "rating": 0.625,
     "similar": [
       "kobo-libra-2",
       "kobo-clara-2e",
@@ -7807,7 +7807,7 @@
     "sdCard": true,
     "usbc": true,
     "mobileData": false,
-    "speakers": true,
+    "speakers": false,
     "microphone": false,
     "browser": true,
     "textToSpeech": true,
@@ -7837,7 +7837,7 @@
       "For Reading",
       "Kindle Alternative"
     ],
-    "rating": 0.661,
+    "rating": 0.654,
     "similar": [
       "boox-go-color-7",
       "musnap-neo-c",
@@ -8208,7 +8208,7 @@
     "sdCard": true,
     "usbc": true,
     "mobileData": false,
-    "speakers": true,
+    "speakers": false,
     "microphone": true,
     "browser": true,
     "textToSpeech": true,
@@ -8238,7 +8238,7 @@
       "For Reading",
       "Kindle Alternative"
     ],
-    "rating": 0.617,
+    "rating": 0.61,
     "similar": [
       "boox-poke-4-lite",
       "boox-poke-5",
@@ -8920,7 +8920,7 @@
     "sdCard": false,
     "usbc": true,
     "mobileData": false,
-    "speakers": true,
+    "speakers": false,
     "microphone": false,
     "browser": true,
     "textToSpeech": true,
@@ -8952,7 +8952,7 @@
       "For Reading",
       "Kindle Alternative"
     ],
-    "rating": 0.724,
+    "rating": 0.717,
     "similar": [
       "pocketbook-era-color",
       "pocketbook-verse-pro",
@@ -10036,7 +10036,7 @@
     "sdCard": false,
     "usbc": true,
     "mobileData": false,
-    "speakers": true,
+    "speakers": false,
     "microphone": false,
     "browser": true,
     "textToSpeech": true,
@@ -10067,7 +10067,7 @@
       "For Note-taking",
       "Kindle Alternative"
     ],
-    "rating": 0.63,
+    "rating": 0.623,
     "similar": [
       "mobiscribe-wave-color",
       "mobiscribe-wave-bw",
@@ -10348,7 +10348,7 @@
     "sdCard": false,
     "usbc": true,
     "mobileData": false,
-    "speakers": true,
+    "speakers": false,
     "microphone": false,
     "browser": true,
     "textToSpeech": true,
@@ -10379,7 +10379,7 @@
       "For Note-taking",
       "Kindle Alternative"
     ],
-    "rating": 0.745,
+    "rating": 0.738,
     "similar": [
       "tolino-shine-color",
       "bigme-b751c",
@@ -10448,7 +10448,7 @@
     "sdCard": false,
     "usbc": true,
     "mobileData": false,
-    "speakers": true,
+    "speakers": false,
     "microphone": false,
     "browser": true,
     "textToSpeech": true,
@@ -10478,7 +10478,7 @@
       "For Reading",
       "Kindle Alternative"
     ],
-    "rating": 0.614,
+    "rating": 0.607,
     "similar": [
       "vivlio-light-hd-color",
       "tolino-shine-5",
@@ -10544,7 +10544,7 @@
     "sdCard": false,
     "usbc": true,
     "mobileData": false,
-    "speakers": true,
+    "speakers": false,
     "microphone": false,
     "browser": true,
     "textToSpeech": true,
@@ -10574,7 +10574,7 @@
       "For Reading",
       "Kindle Alternative"
     ],
-    "rating": 0.58,
+    "rating": 0.573,
     "similar": [
       "tolino-shine-color",
       "vivlio-light-hd",
@@ -10637,7 +10637,7 @@
     "sdCard": false,
     "usbc": true,
     "mobileData": false,
-    "speakers": true,
+    "speakers": false,
     "microphone": true,
     "browser": true,
     "textToSpeech": true,
@@ -10668,7 +10668,7 @@
       "For Note-taking",
       "Kindle Alternative"
     ],
-    "rating": 0.606,
+    "rating": 0.599,
     "similar": [
       "viwoods-aipaper-mini",
       "musnap-x",
@@ -10743,7 +10743,7 @@
     "sdCard": false,
     "usbc": true,
     "mobileData": false,
-    "speakers": true,
+    "speakers": false,
     "microphone": true,
     "browser": true,
     "textToSpeech": true,
@@ -10774,7 +10774,7 @@
       "For Note-taking",
       "Kindle Alternative"
     ],
-    "rating": 0.612,
+    "rating": 0.605,
     "similar": [
       "viwoods-aipaper",
       "bigme-b1051",
@@ -10840,7 +10840,7 @@
     "sdCard": false,
     "usbc": true,
     "mobileData": false,
-    "speakers": true,
+    "speakers": false,
     "microphone": false,
     "browser": true,
     "textToSpeech": true,
@@ -10870,7 +10870,7 @@
       "For Reading",
       "Kindle Alternative"
     ],
-    "rating": 0.683,
+    "rating": 0.676,
     "similar": [
       "vivlio-light-hd-color",
       "tolino-shine-color",
@@ -10936,7 +10936,7 @@
     "sdCard": false,
     "usbc": true,
     "mobileData": false,
-    "speakers": true,
+    "speakers": false,
     "microphone": false,
     "browser": true,
     "textToSpeech": true,
@@ -10966,7 +10966,7 @@
       "For Reading",
       "Kindle Alternative"
     ],
-    "rating": 0.683,
+    "rating": 0.676,
     "similar": [
       "vivlio-inkpad-color-3",
       "tolino-shine-color",
@@ -11722,7 +11722,7 @@
     "sdCard": true,
     "usbc": true,
     "mobileData": false,
-    "speakers": true,
+    "speakers": false,
     "microphone": false,
     "browser": true,
     "textToSpeech": true,
@@ -11751,7 +11751,7 @@
       "Medium",
       "For Reading"
     ],
-    "rating": 0.495,
+    "rating": 0.488,
     "similar": [
       "bemi-cognita-light-2",
       "nook-simple-touch",
@@ -12015,7 +12015,7 @@
     "sdCard": false,
     "usbc": true,
     "mobileData": false,
-    "speakers": true,
+    "speakers": false,
     "microphone": false,
     "browser": true,
     "textToSpeech": true,
@@ -12046,7 +12046,7 @@
       "For Note-taking",
       "Kindle Alternative"
     ],
-    "rating": 0.672,
+    "rating": 0.665,
     "similar": [
       "kobo-elipsa",
       "boox-note-air-3",
@@ -12115,7 +12115,7 @@
     "sdCard": false,
     "usbc": true,
     "mobileData": false,
-    "speakers": true,
+    "speakers": false,
     "microphone": true,
     "browser": true,
     "textToSpeech": true,
@@ -12146,7 +12146,7 @@
       "For Note-taking",
       "Kindle Alternative"
     ],
-    "rating": 0.64,
+    "rating": 0.633,
     "similar": [
       "bookeen-nota",
       "bigme-inknote-s",
@@ -12218,7 +12218,7 @@
     "sdCard": true,
     "usbc": true,
     "mobileData": false,
-    "speakers": true,
+    "speakers": false,
     "microphone": false,
     "browser": true,
     "textToSpeech": true,
@@ -12248,7 +12248,7 @@
       "For Reading",
       "Kindle Alternative"
     ],
-    "rating": 0.611,
+    "rating": 0.604,
     "similar": [
       "meebook-p6",
       "meebook-m7",
@@ -13014,7 +13014,7 @@
     "sdCard": true,
     "usbc": true,
     "mobileData": false,
-    "speakers": true,
+    "speakers": false,
     "microphone": true,
     "browser": true,
     "textToSpeech": true,
@@ -13044,7 +13044,7 @@
       "For Reading",
       "Kindle Alternative"
     ],
-    "rating": 0.604,
+    "rating": 0.597,
     "similar": [
       "boox-poke-4-lite",
       "boox-leaf",
@@ -13413,7 +13413,7 @@
     "sdCard": false,
     "usbc": true,
     "mobileData": false,
-    "speakers": true,
+    "speakers": false,
     "microphone": false,
     "browser": true,
     "textToSpeech": true,
@@ -13443,7 +13443,7 @@
       "For Reading",
       "Kindle Alternative"
     ],
-    "rating": 0.65,
+    "rating": 0.643,
     "similar": [
       "nook-glowlight-plus-78",
       "obook-6",
@@ -13598,7 +13598,7 @@
     "sdCard": false,
     "usbc": true,
     "mobileData": false,
-    "speakers": true,
+    "speakers": false,
     "microphone": false,
     "browser": true,
     "textToSpeech": true,
@@ -13630,7 +13630,7 @@
       "For Reading",
       "Kindle Alternative"
     ],
-    "rating": 0.647,
+    "rating": 0.64,
     "similar": [
       "pocketbook-verse-pro-color",
       "pocketbook-era",
@@ -13785,7 +13785,7 @@
     "sdCard": false,
     "usbc": true,
     "mobileData": false,
-    "speakers": true,
+    "speakers": false,
     "microphone": false,
     "browser": true,
     "textToSpeech": true,
@@ -13815,7 +13815,7 @@
       "For Reading",
       "Kindle Alternative"
     ],
-    "rating": 0.711,
+    "rating": 0.704,
     "similar": [
       "pocketbook-inkpad-color-2",
       "pocketbook-inkpad-color",
@@ -13977,7 +13977,7 @@
     "sdCard": false,
     "usbc": true,
     "mobileData": false,
-    "speakers": true,
+    "speakers": false,
     "microphone": false,
     "browser": true,
     "textToSpeech": true,
@@ -14008,7 +14008,7 @@
       "For Note-taking",
       "Kindle Alternative"
     ],
-    "rating": 0.664,
+    "rating": 0.657,
     "similar": [
       "boox-note-5",
       "pocketbook-color-note",
@@ -15830,7 +15830,7 @@
     "sdCard": false,
     "usbc": true,
     "mobileData": false,
-    "speakers": true,
+    "speakers": false,
     "microphone": true,
     "browser": true,
     "textToSpeech": true,
@@ -15860,7 +15860,7 @@
       "For Reading",
       "Phone-Like"
     ],
-    "rating": 0.611,
+    "rating": 0.604,
     "similar": [
       "moaan-inkpalm-5-mini-gen-2",
       "moaan-inkpalm-plus",
@@ -16219,7 +16219,7 @@
     "sdCard": false,
     "usbc": true,
     "mobileData": false,
-    "speakers": true,
+    "speakers": false,
     "microphone": false,
     "browser": true,
     "textToSpeech": true,
@@ -16249,7 +16249,7 @@
       "For Reading",
       "Kindle Alternative"
     ],
-    "rating": 0.605,
+    "rating": 0.598,
     "similar": [
       "vivlio-inkpad-4",
       "vivlio-light",
@@ -17102,7 +17102,7 @@
     "sdCard": false,
     "usbc": true,
     "mobileData": false,
-    "speakers": true,
+    "speakers": false,
     "microphone": false,
     "browser": true,
     "textToSpeech": true,
@@ -17132,7 +17132,7 @@
       "For Reading",
       "For Note-taking"
     ],
-    "rating": 0.657,
+    "rating": 0.65,
     "similar": [
       "kindle-paperwhite-5",
       "kindle-paperwhite-5-signature-edition",
@@ -17207,7 +17207,7 @@
     "sdCard": false,
     "usbc": true,
     "mobileData": false,
-    "speakers": true,
+    "speakers": false,
     "microphone": false,
     "browser": true,
     "textToSpeech": true,
@@ -17236,7 +17236,7 @@
       "Medium",
       "For Reading"
     ],
-    "rating": 0.512,
+    "rating": 0.505,
     "similar": [
       "kindle-voyage",
       "kindle-oasis-2",
@@ -17296,7 +17296,7 @@
     "sdCard": false,
     "usbc": true,
     "mobileData": false,
-    "speakers": true,
+    "speakers": false,
     "microphone": false,
     "browser": true,
     "textToSpeech": true,
@@ -17326,7 +17326,7 @@
       "For Reading",
       "Kindle Alternative"
     ],
-    "rating": 0.581,
+    "rating": 0.574,
     "similar": [
       "kobo-clara-bw",
       "kobo-libra-2",
@@ -17389,7 +17389,7 @@
     "sdCard": true,
     "usbc": false,
     "mobileData": false,
-    "speakers": true,
+    "speakers": false,
     "microphone": false,
     "browser": true,
     "textToSpeech": true,
@@ -17419,7 +17419,7 @@
       "For Reading",
       "Kindle Alternative"
     ],
-    "rating": 0.534,
+    "rating": 0.527,
     "similar": [
       "meebook-m6",
       "boox-poke-4-lite",
@@ -18080,7 +18080,7 @@
     "sdCard": false,
     "usbc": true,
     "mobileData": false,
-    "speakers": true,
+    "speakers": false,
     "microphone": false,
     "browser": true,
     "textToSpeech": true,
@@ -18110,7 +18110,7 @@
       "For Reading",
       "Kindle Alternative"
     ],
-    "rating": 0.551,
+    "rating": 0.545,
     "similar": [
       "boox-poke-5",
       "boox-go-6",
@@ -18646,7 +18646,7 @@
     "sdCard": false,
     "usbc": true,
     "mobileData": false,
-    "speakers": true,
+    "speakers": false,
     "microphone": true,
     "browser": true,
     "textToSpeech": true,
@@ -18676,7 +18676,7 @@
       "For Reading",
       "Phone-Like"
     ],
-    "rating": 0.611,
+    "rating": 0.604,
     "similar": [
       "moaan-inkpalm-5-mini-pro",
       "moaan-inkpalm-plus",
@@ -18736,7 +18736,7 @@
     "sdCard": false,
     "usbc": true,
     "mobileData": false,
-    "speakers": true,
+    "speakers": false,
     "microphone": true,
     "browser": true,
     "textToSpeech": true,
@@ -18766,7 +18766,7 @@
       "For Reading",
       "Phone-Like"
     ],
-    "rating": 0.631,
+    "rating": 0.625,
     "similar": [
       "hisense-touch",
       "moaan-inkpalm-5-mini-gen-2",
@@ -18826,7 +18826,7 @@
     "sdCard": false,
     "usbc": true,
     "mobileData": false,
-    "speakers": true,
+    "speakers": false,
     "microphone": false,
     "browser": true,
     "textToSpeech": true,
@@ -18857,7 +18857,7 @@
       "For Note-taking",
       "Kindle Alternative"
     ],
-    "rating": 0.674,
+    "rating": 0.667,
     "similar": [
       "meebook-m103",
       "meebook-p78-pro",
@@ -19021,7 +19021,7 @@
     "sdCard": true,
     "usbc": true,
     "mobileData": false,
-    "speakers": true,
+    "speakers": false,
     "microphone": false,
     "browser": true,
     "textToSpeech": true,
@@ -19051,7 +19051,7 @@
       "For Reading",
       "Kindle Alternative"
     ],
-    "rating": 0.575,
+    "rating": 0.568,
     "similar": [
       "inkbook-focus-plus",
       "inkbook-calypso-plus",
@@ -19205,7 +19205,7 @@
     "sdCard": false,
     "usbc": true,
     "mobileData": false,
-    "speakers": true,
+    "speakers": false,
     "microphone": false,
     "browser": true,
     "textToSpeech": true,
@@ -19234,7 +19234,7 @@
       "Medium",
       "For Reading"
     ],
-    "rating": 0.594,
+    "rating": 0.588,
     "similar": [
       "kindle-paperwhite-5",
       "kindle-11",
@@ -19297,7 +19297,7 @@
     "sdCard": false,
     "usbc": true,
     "mobileData": false,
-    "speakers": true,
+    "speakers": false,
     "microphone": false,
     "browser": true,
     "textToSpeech": true,
@@ -19326,7 +19326,7 @@
       "Medium",
       "For Reading"
     ],
-    "rating": 0.581,
+    "rating": 0.574,
     "similar": [
       "kindle-paperwhite-5-signature-edition",
       "kindle-11",
@@ -19389,7 +19389,7 @@
     "sdCard": false,
     "usbc": true,
     "mobileData": false,
-    "speakers": true,
+    "speakers": false,
     "microphone": false,
     "browser": true,
     "textToSpeech": true,
@@ -19420,7 +19420,7 @@
       "For Note-taking",
       "Kindle Alternative"
     ],
-    "rating": 0.712,
+    "rating": 0.705,
     "similar": [
       "kobo-libra-2",
       "kobo-clara-2e",
@@ -19486,7 +19486,7 @@
     "sdCard": false,
     "usbc": true,
     "mobileData": false,
-    "speakers": true,
+    "speakers": false,
     "microphone": false,
     "browser": true,
     "textToSpeech": true,
@@ -19518,7 +19518,7 @@
       "For Reading",
       "Kindle Alternative"
     ],
-    "rating": 0.663,
+    "rating": 0.657,
     "similar": [
       "kobo-clara-bw",
       "kobo-clara-2e",
@@ -19581,7 +19581,7 @@
     "sdCard": false,
     "usbc": true,
     "mobileData": false,
-    "speakers": true,
+    "speakers": false,
     "microphone": false,
     "browser": true,
     "textToSpeech": true,
@@ -19612,7 +19612,7 @@
       "For Note-taking",
       "Kindle Alternative"
     ],
-    "rating": 0.644,
+    "rating": 0.637,
     "similar": [
       "kobo-elipsa-2e",
       "boox-go-103-gen-ii",
@@ -20772,7 +20772,7 @@
     "sdCard": true,
     "usbc": true,
     "mobileData": false,
-    "speakers": true,
+    "speakers": false,
     "microphone": false,
     "browser": true,
     "textToSpeech": true,
@@ -20802,7 +20802,7 @@
       "For Reading",
       "Kindle Alternative"
     ],
-    "rating": 0.68,
+    "rating": 0.673,
     "similar": [
       "pocketbook-inkpad-color-2",
       "pocketbook-inkpad-color-3",
@@ -21238,7 +21238,7 @@
     "sdCard": true,
     "usbc": false,
     "mobileData": false,
-    "speakers": true,
+    "speakers": false,
     "microphone": false,
     "browser": true,
     "textToSpeech": true,
@@ -21268,7 +21268,7 @@
       "For Reading",
       "Kindle Alternative"
     ],
-    "rating": 0.527,
+    "rating": 0.52,
     "similar": [
       "inkbook-solaris",
       "inkbook-focus",
@@ -21811,7 +21811,7 @@
     "sdCard": false,
     "usbc": false,
     "mobileData": true,
-    "speakers": true,
+    "speakers": false,
     "microphone": false,
     "browser": true,
     "textToSpeech": true,
@@ -21840,7 +21840,7 @@
       "Medium",
       "For Reading"
     ],
-    "rating": 0.609,
+    "rating": 0.602,
     "similar": [
       "kindle-oasis-2",
       "kindle-10",
@@ -21900,7 +21900,7 @@
     "sdCard": false,
     "usbc": false,
     "mobileData": true,
-    "speakers": true,
+    "speakers": false,
     "microphone": false,
     "browser": true,
     "textToSpeech": true,
@@ -21929,7 +21929,7 @@
       "Medium",
       "For Reading"
     ],
-    "rating": 0.465,
+    "rating": 0.458,
     "similar": [
       "kindle-oasis",
       "kindle-paperwhite-2",
@@ -22081,7 +22081,7 @@
     "sdCard": false,
     "usbc": false,
     "mobileData": false,
-    "speakers": true,
+    "speakers": false,
     "microphone": false,
     "browser": true,
     "textToSpeech": true,
@@ -22111,7 +22111,7 @@
       "For Reading",
       "Kindle Alternative"
     ],
-    "rating": 0.583,
+    "rating": 0.576,
     "similar": [
       "nook-glowlight-4-plus",
       "inkbook-focus",
@@ -22171,7 +22171,7 @@
     "sdCard": false,
     "usbc": false,
     "mobileData": true,
-    "speakers": true,
+    "speakers": false,
     "microphone": false,
     "browser": true,
     "textToSpeech": true,
@@ -22200,7 +22200,7 @@
       "Medium",
       "For Reading"
     ],
-    "rating": 0.526,
+    "rating": 0.519,
     "similar": [
       "kindle-voyage",
       "kindle-paperwhite-3",
@@ -22546,7 +22546,7 @@
     "sdCard": false,
     "usbc": false,
     "mobileData": true,
-    "speakers": true,
+    "speakers": false,
     "microphone": false,
     "browser": true,
     "textToSpeech": true,
@@ -22575,7 +22575,7 @@
       "Medium",
       "For Reading"
     ],
-    "rating": 0.581,
+    "rating": 0.574,
     "similar": [
       "kindle-voyage",
       "kindle-oasis-3",
@@ -22816,7 +22816,7 @@
     "sdCard": false,
     "usbc": false,
     "mobileData": true,
-    "speakers": true,
+    "speakers": false,
     "microphone": false,
     "browser": true,
     "textToSpeech": true,
@@ -22845,7 +22845,7 @@
       "Medium",
       "For Reading"
     ],
-    "rating": 0.433,
+    "rating": 0.426,
     "similar": [
       "kindle-5",
       "kindle-7",
@@ -22908,7 +22908,7 @@
     "sdCard": false,
     "usbc": false,
     "mobileData": true,
-    "speakers": true,
+    "speakers": false,
     "microphone": false,
     "browser": true,
     "textToSpeech": true,
@@ -22937,7 +22937,7 @@
       "Medium",
       "For Reading"
     ],
-    "rating": 0.551,
+    "rating": 0.544,
     "similar": [
       "kindle-10",
       "kindle-paperwhite-2",
