@@ -43,7 +43,7 @@ export default function ItemVerticalPreviewCard(props) {
         minH={"18rem"}
         p={0}
         _hover={{ borderColor: "var(--foreground)" }}
-        // h="100%"
+        h="100%"
         maxW="100%"
       >
         <Box
@@ -136,7 +136,7 @@ export default function ItemVerticalPreviewCard(props) {
           {/* {renderCategories()} */}
         </Box>
       </ItemCard>
-      <Box
+      {/* <Box
         onClick={async () =>
           await navigator?.clipboard?.writeText(props?.itemInfo?.name)
         }
@@ -157,7 +157,7 @@ export default function ItemVerticalPreviewCard(props) {
       >
         {" "}
         {props?.itemInfo?.id}
-      </Box>
+      </Box> */}
     </>
   );
 }
