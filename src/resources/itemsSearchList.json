@@ -1,6 +1,50 @@
 {
   "unsorted": [
     {
+      "id": "remarkable-paper-pure",
+      "fullName": "reMarkable Paper Pure"
+    },
+    {
+      "id": "kindle-colorsoft-2-signature-edition",
+      "fullName": "Kindle Colorsoft 2 Signature Edition"
+    },
+    {
+      "id": "kindle-colorsoft-2",
+      "fullName": "Kindle Colorsoft 2"
+    },
+    {
+      "id": "kindle-paperwhite-7-signature-edition",
+      "fullName": "Kindle Paperwhite 7 Signature Edition"
+    },
+    {
+      "id": "kindle-paperwhite-7",
+      "fullName": "Kindle Paperwhite 7"
+    },
+    {
+      "id": "kindle-aluminum-2026",
+      "fullName": "Kindle aluminum 2026"
+    },
+    {
+      "id": "kindle-2026",
+      "fullName": "Kindle 2026"
+    },
+    {
+      "id": "boox-note-air-6-c",
+      "fullName": "Boox Note Air 6 C"
+    },
+    {
+      "id": "boox-note-mini-c",
+      "fullName": "Boox Note Mini C"
+    },
+    {
+      "id": "boox-palma-3",
+      "fullName": "Boox Palma 3"
+    },
+    {
+      "id": "boox-picco",
+      "fullName": "Boox Picco"
+    },
+    {
       "id": "xteink-x4-pro",
       "fullName": "Xteink X4 Pro"
     },
@@ -1057,10 +1101,10 @@
       "fullName": "Kindle 1"
     },
     {
-      "id": "Xteink",
-      "fullName": "Xteink",
+      "id": "reMarkable",
+      "fullName": "reMarkable",
       "specialType": "link",
-      "link": "/e-readers/brands/Xteink",
+      "link": "/e-readers/brands/reMarkable",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -1077,6 +1121,14 @@
       "fullName": "Boox",
       "specialType": "link",
       "link": "/e-readers/brands/Boox",
+      "prefix": "Brand",
+      "icon": "fa-building"
+    },
+    {
+      "id": "Xteink",
+      "fullName": "Xteink",
+      "specialType": "link",
+      "link": "/e-readers/brands/Xteink",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -1117,14 +1169,6 @@
       "fullName": "Bemi",
       "specialType": "link",
       "link": "/e-readers/brands/Bemi",
-      "prefix": "Brand",
-      "icon": "fa-building"
-    },
-    {
-      "id": "reMarkable",
-      "fullName": "reMarkable",
-      "specialType": "link",
-      "link": "/e-readers/brands/reMarkable",
       "prefix": "Brand",
       "icon": "fa-building"
     },
@@ -1679,8 +1723,16 @@
       "fullName": "Boox Note Air 5 C"
     },
     {
+      "id": "boox-note-air-6-c",
+      "fullName": "Boox Note Air 6 C"
+    },
+    {
       "id": "boox-note-max",
       "fullName": "Boox Note Max"
+    },
+    {
+      "id": "boox-note-mini-c",
+      "fullName": "Boox Note Mini C"
     },
     {
       "id": "boox-nova-3-color",
@@ -1713,6 +1765,14 @@
     {
       "id": "boox-palma-2-pro",
       "fullName": "Boox Palma 2 Pro"
+    },
+    {
+      "id": "boox-palma-3",
+      "fullName": "Boox Palma 3"
+    },
+    {
+      "id": "boox-picco",
+      "fullName": "Boox Picco"
     },
     {
       "id": "boox-poke-4-lite",
@@ -2007,6 +2067,10 @@
       "fullName": "Kindle 2024"
     },
     {
+      "id": "kindle-2026",
+      "fullName": "Kindle 2026"
+    },
+    {
       "id": "kindle-4",
       "fullName": "Kindle 4"
     },
@@ -2023,8 +2087,20 @@
       "fullName": "Kindle 8"
     },
     {
+      "id": "kindle-aluminum-2026",
+      "fullName": "Kindle aluminum 2026"
+    },
+    {
       "id": "kindle-colorsoft",
       "fullName": "Kindle Colorsoft"
+    },
+    {
+      "id": "kindle-colorsoft-2",
+      "fullName": "Kindle Colorsoft 2"
+    },
+    {
+      "id": "kindle-colorsoft-2-signature-edition",
+      "fullName": "Kindle Colorsoft 2 Signature Edition"
     },
     {
       "id": "kindle-colorsoft-signature-edition",
@@ -2081,6 +2157,14 @@
     {
       "id": "kindle-paperwhite-6-signature-edition",
       "fullName": "Kindle Paperwhite 6 Signature Edition"
+    },
+    {
+      "id": "kindle-paperwhite-7",
+      "fullName": "Kindle Paperwhite 7"
+    },
+    {
+      "id": "kindle-paperwhite-7-signature-edition",
+      "fullName": "Kindle Paperwhite 7 Signature Edition"
     },
     {
       "id": "kindle-scribe",
@@ -2621,6 +2705,10 @@
     {
       "id": "remarkable-paper-pro-move",
       "fullName": "reMarkable Paper Pro Move"
+    },
+    {
+      "id": "remarkable-paper-pure",
+      "fullName": "reMarkable Paper Pure"
     },
     {
       "id": "Silvergear",

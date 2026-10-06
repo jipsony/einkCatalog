@@ -1,5 +1,1053 @@
 [
   {
+    "id": "remarkable-paper-pure",
+    "brand": "reMarkable",
+    "name": "reMarkable Paper Pure",
+    "fullName": "reMarkable Paper Pure",
+    "releaseDate": "2026 / 05",
+    "price": 399,
+    "screenSize": 10.3,
+    "resolution": "1404 x 1872",
+    "screenType": "E Ink Carta 1300",
+    "operatingSystem": "reMarkable OS",
+    "androidVersion": null,
+    "dimensions": "187.1 x 228.1 x 6",
+    "weight": 360,
+    "cpu": "1.7 GHz | 2 cores",
+    "storage": "32 GB",
+    "ram": "2 GB",
+    "battery": "3820 mAh",
+    "aspectRatio": "3:4",
+    "screenLight": false,
+    "warmLight": false,
+    "colorDisplay": false,
+    "darkMode": false,
+    "wifi": true,
+    "bluetooth": false,
+    "sdCard": false,
+    "usbc": true,
+    "mobileData": false,
+    "speakers": false,
+    "microphone": false,
+    "browser": false,
+    "textToSpeech": false,
+    "waterproof": false,
+    "touchscreen": true,
+    "pageTurnButtons": false,
+    "automaticRotation": "?",
+    "stylusSupport": true,
+    "audioOutput": false,
+    "wirelessCharging": false,
+    "cloudStorage": true,
+    "email": true,
+    "availability": "Available",
+    "bookStore": false,
+    "libby": false,
+    "dimensionsH": 228.1,
+    "dimensionsL": 187.1,
+    "dimensionsW": 6,
+    "pixelDensity": 227,
+    "wifiVersion": "No WiFi",
+    "bluetoothVersion": "No Bluetooth",
+    "priceCategory": "Mid-Range",
+    "sizeCategory": "Medium",
+    "categories": [
+      "Mid-Range",
+      "Medium",
+      "For Reading",
+      "For Note-taking"
+    ],
+    "rating": 0.508,
+    "similar": [
+      "remarkable-2",
+      "remarkable-1",
+      "kindle-scribe",
+      "penstar-enote-2",
+      "penstar-enote",
+      "boox-go-103"
+    ],
+    "pros": [
+      {
+        "text": "Stylus support is great for annotations and note-taking"
+      },
+      {
+        "text": "Big 3820 mAh battery, weeks of reading on a single charge"
+      },
+      {
+        "text": "Slim design at only 6mm thick"
+      },
+      {
+        "text": "Big screen makes reading easier, especially for documents and illustrated content"
+      },
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "No front light, requires external lighting to read in the dark"
+      },
+      {
+        "text": "No physical page turn buttons, all navigation is done via the touchscreen"
+      },
+      {
+        "text": "Heavy device at 360g"
+      },
+      {
+        "text": "No SD card slot, limited to built-in storage"
+      },
+      {
+        "text": "No Bluetooth, can't connect wireless headphones for audiobooks"
+      }
+    ]
+  },
+  {
+    "id": "kindle-colorsoft-2-signature-edition",
+    "brand": "Kindle",
+    "name": "Kindle Colorsoft 2 Signature Edition",
+    "fullName": "Kindle Colorsoft 2 Signature Edition",
+    "releaseDate": "2026 / 10",
+    "price": 319.99,
+    "screenSize": 7,
+    "resolution": "1264 x 1680",
+    "screenType": "E Ink Kaleido 3",
+    "operatingSystem": "Kindle ",
+    "androidVersion": null,
+    "dimensions": "126.8 x 174.7 x 6.8",
+    "weight": 229,
+    "cpu": null,
+    "storage": "32 GB",
+    "ram": null,
+    "battery": "\"up to 8 weeks\"",
+    "aspectRatio": "~3:4",
+    "screenLight": true,
+    "warmLight": true,
+    "colorDisplay": true,
+    "darkMode": "?",
+    "wifi": true,
+    "bluetooth": true,
+    "sdCard": false,
+    "usbc": true,
+    "mobileData": false,
+    "speakers": false,
+    "microphone": false,
+    "browser": true,
+    "textToSpeech": true,
+    "waterproof": true,
+    "touchscreen": true,
+    "pageTurnButtons": true,
+    "automaticRotation": "?",
+    "stylusSupport": false,
+    "audioOutput": false,
+    "wirelessCharging": false,
+    "cloudStorage": false,
+    "email": false,
+    "availability": "Upcoming",
+    "bookStore": true,
+    "libby": true,
+    "dimensionsH": 174.7,
+    "dimensionsL": 126.8,
+    "dimensionsW": 6.8,
+    "pixelDensity": 300,
+    "wifiVersion": "No WiFi",
+    "bluetoothVersion": "No Bluetooth",
+    "priceCategory": "Mid-Range",
+    "sizeCategory": "Medium",
+    "categories": [
+      "Mid-Range",
+      "Medium",
+      "For Reading"
+    ],
+    "rating": 0.638,
+    "similar": [
+      "kindle-colorsoft-2",
+      "kindle-colorsoft-signature-edition",
+      "kindle-paperwhite-7",
+      "kindle-paperwhite-6",
+      "kindle-2024",
+      "bemi-cognita-tab-6-proc"
+    ],
+    "pros": [
+      {
+        "text": "Sharp text thanks to the 300 PPI screen"
+      },
+      {
+        "text": "Color screen is great for comics, magazines, and illustrated books"
+      },
+      {
+        "text": "Physical page turn buttons"
+      },
+      {
+        "text": "Adjustable front light for comfortable reading in any lighting"
+      },
+      {
+        "text": "Bluetooth support enables connecting accessories"
+      },
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "No expandable storage"
+      }
+    ]
+  },
+  {
+    "id": "kindle-colorsoft-2",
+    "brand": "Kindle",
+    "name": "Kindle Colorsoft 2",
+    "fullName": "Kindle Colorsoft 2",
+    "releaseDate": "2026 / 10",
+    "price": 289.99,
+    "screenSize": 7,
+    "resolution": "1264 x 1680",
+    "screenType": "E Ink Kaleido 3",
+    "operatingSystem": "Kindle ",
+    "androidVersion": null,
+    "dimensions": "126.8 x 174.7 x 6.8",
+    "weight": 204,
+    "cpu": null,
+    "storage": "16 GB",
+    "ram": null,
+    "battery": "\"up to 8 weeks\"",
+    "aspectRatio": "~3:4",
+    "screenLight": true,
+    "warmLight": true,
+    "colorDisplay": true,
+    "darkMode": "?",
+    "wifi": true,
+    "bluetooth": true,
+    "sdCard": false,
+    "usbc": true,
+    "mobileData": false,
+    "speakers": false,
+    "microphone": false,
+    "browser": true,
+    "textToSpeech": true,
+    "waterproof": true,
+    "touchscreen": true,
+    "pageTurnButtons": false,
+    "automaticRotation": "?",
+    "stylusSupport": false,
+    "audioOutput": false,
+    "wirelessCharging": false,
+    "cloudStorage": false,
+    "email": false,
+    "availability": "Upcoming",
+    "bookStore": true,
+    "libby": true,
+    "dimensionsH": 174.7,
+    "dimensionsL": 126.8,
+    "dimensionsW": 6.8,
+    "pixelDensity": 300,
+    "wifiVersion": "No WiFi",
+    "bluetoothVersion": "No Bluetooth",
+    "priceCategory": "Mid-Range",
+    "sizeCategory": "Medium",
+    "categories": [
+      "Mid-Range",
+      "Medium",
+      "For Reading"
+    ],
+    "rating": 0.604,
+    "similar": [
+      "kindle-colorsoft-2-signature-edition",
+      "kindle-colorsoft-signature-edition",
+      "kindle-paperwhite-7",
+      "kindle-paperwhite-6",
+      "kindle-2024",
+      "bemi-cognita-tab-6-proc"
+    ],
+    "pros": [
+      {
+        "text": "Sharp text thanks to the 300 PPI screen"
+      },
+      {
+        "text": "Color screen is great for comics, magazines, and illustrated books"
+      },
+      {
+        "text": "Adjustable front light for comfortable reading in any lighting"
+      },
+      {
+        "text": "Bluetooth support enables connecting accessories"
+      },
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "No physical page turn buttons, all navigation is done via the touchscreen"
+      },
+      {
+        "text": "No expandable storage"
+      }
+    ]
+  },
+  {
+    "id": "kindle-paperwhite-7-signature-edition",
+    "brand": "Kindle",
+    "name": "Kindle Paperwhite 7 Signature Edition",
+    "fullName": "Kindle Paperwhite 7 Signature Edition",
+    "releaseDate": "2026 / 10",
+    "price": 249.99,
+    "screenSize": 7,
+    "resolution": "1264 x 1680",
+    "screenType": "E Ink",
+    "operatingSystem": "Kindle ",
+    "androidVersion": null,
+    "dimensions": "126.8 x 174.7 x 6.8",
+    "weight": 229,
+    "cpu": null,
+    "storage": "32 GB",
+    "ram": null,
+    "battery": "\"up to 12 weeks\"",
+    "aspectRatio": "~3:4",
+    "screenLight": true,
+    "warmLight": true,
+    "colorDisplay": false,
+    "darkMode": "?",
+    "wifi": true,
+    "bluetooth": true,
+    "sdCard": false,
+    "usbc": true,
+    "mobileData": false,
+    "speakers": false,
+    "microphone": false,
+    "browser": true,
+    "textToSpeech": true,
+    "waterproof": true,
+    "touchscreen": true,
+    "pageTurnButtons": true,
+    "automaticRotation": "?",
+    "stylusSupport": false,
+    "audioOutput": false,
+    "wirelessCharging": false,
+    "cloudStorage": false,
+    "email": false,
+    "availability": "Upcoming",
+    "bookStore": true,
+    "libby": true,
+    "dimensionsH": 174.7,
+    "dimensionsL": 126.8,
+    "dimensionsW": 6.8,
+    "pixelDensity": 300,
+    "wifiVersion": "No WiFi",
+    "bluetoothVersion": "No Bluetooth",
+    "priceCategory": "Mid-Range",
+    "sizeCategory": "Medium",
+    "categories": [
+      "Mid-Range",
+      "Medium",
+      "For Reading"
+    ],
+    "rating": 0.59,
+    "similar": [
+      "kindle-paperwhite-7",
+      "kindle-2026",
+      "kindle-aluminum-2026",
+      "kindle-paperwhite-6",
+      "kindle-2024",
+      "spc-dickens-light-pro"
+    ],
+    "pros": [
+      {
+        "text": "High resolution display"
+      },
+      {
+        "text": "Physical page turn buttons"
+      },
+      {
+        "text": "Front light lets you read comfortably in the dark"
+      },
+      {
+        "text": "Bluetooth support enables connecting accessories"
+      },
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "No SD card slot, limited to built-in storage"
+      }
+    ]
+  },
+  {
+    "id": "kindle-paperwhite-7",
+    "brand": "Kindle",
+    "name": "Kindle Paperwhite 7",
+    "fullName": "Kindle Paperwhite 7",
+    "releaseDate": "2026 / 10",
+    "price": 219.99,
+    "screenSize": 7,
+    "resolution": "1264 x 1680",
+    "screenType": "E Ink",
+    "operatingSystem": "Kindle ",
+    "androidVersion": null,
+    "dimensions": "126.8 x 174.7 x 6.8",
+    "weight": 204,
+    "cpu": null,
+    "storage": "16 GB",
+    "ram": null,
+    "battery": "\"up to 12 weeks\"",
+    "aspectRatio": "~3:4",
+    "screenLight": true,
+    "warmLight": true,
+    "colorDisplay": false,
+    "darkMode": "?",
+    "wifi": true,
+    "bluetooth": true,
+    "sdCard": false,
+    "usbc": true,
+    "mobileData": false,
+    "speakers": false,
+    "microphone": false,
+    "browser": true,
+    "textToSpeech": true,
+    "waterproof": true,
+    "touchscreen": true,
+    "pageTurnButtons": false,
+    "automaticRotation": "?",
+    "stylusSupport": false,
+    "audioOutput": false,
+    "wirelessCharging": false,
+    "cloudStorage": false,
+    "email": false,
+    "availability": "Upcoming",
+    "bookStore": true,
+    "libby": true,
+    "dimensionsH": 174.7,
+    "dimensionsL": 126.8,
+    "dimensionsW": 6.8,
+    "pixelDensity": 300,
+    "wifiVersion": "No WiFi",
+    "bluetoothVersion": "No Bluetooth",
+    "priceCategory": "Mid-Range",
+    "sizeCategory": "Medium",
+    "categories": [
+      "Mid-Range",
+      "Medium",
+      "For Reading"
+    ],
+    "rating": 0.555,
+    "similar": [
+      "kindle-paperwhite-7-signature-edition",
+      "kindle-2026",
+      "kindle-aluminum-2026",
+      "kindle-paperwhite-6",
+      "kindle-2024",
+      "spc-dickens-light-pro"
+    ],
+    "pros": [
+      {
+        "text": "High resolution display"
+      },
+      {
+        "text": "Front light lets you read comfortably in the dark"
+      },
+      {
+        "text": "Bluetooth support enables connecting accessories"
+      },
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "No physical page turn buttons, all navigation is done via the touchscreen"
+      },
+      {
+        "text": "No SD card slot, limited to built-in storage"
+      }
+    ]
+  },
+  {
+    "id": "kindle-aluminum-2026",
+    "brand": "Kindle",
+    "name": "Kindle aluminum 2026",
+    "fullName": "Kindle aluminum 2026",
+    "releaseDate": "2026 / 10",
+    "price": 189.99,
+    "screenSize": 6,
+    "resolution": "1072 x 1448",
+    "screenType": "E Ink",
+    "operatingSystem": "Kindle ",
+    "androidVersion": null,
+    "dimensions": "108 x 152.8 x 6.9",
+    "weight": 162,
+    "cpu": null,
+    "storage": "32 GB",
+    "ram": null,
+    "battery": "1040 mAh\n\"up to 6 weeks\"",
+    "aspectRatio": "~3:4",
+    "screenLight": true,
+    "warmLight": false,
+    "colorDisplay": false,
+    "darkMode": true,
+    "wifi": true,
+    "bluetooth": true,
+    "sdCard": false,
+    "usbc": true,
+    "mobileData": false,
+    "speakers": false,
+    "microphone": false,
+    "browser": true,
+    "textToSpeech": true,
+    "waterproof": false,
+    "touchscreen": true,
+    "pageTurnButtons": false,
+    "automaticRotation": false,
+    "stylusSupport": false,
+    "audioOutput": false,
+    "wirelessCharging": false,
+    "cloudStorage": false,
+    "email": false,
+    "availability": "Available",
+    "bookStore": true,
+    "libby": true,
+    "dimensionsH": 152.8,
+    "dimensionsL": 108,
+    "dimensionsW": 6.9,
+    "pixelDensity": 300,
+    "wifiVersion": "No WiFi",
+    "bluetoothVersion": "No Bluetooth",
+    "priceCategory": "Mid-Range",
+    "sizeCategory": "Medium",
+    "categories": [
+      "Mid-Range",
+      "Medium",
+      "For Reading"
+    ],
+    "rating": 0.521,
+    "similar": [
+      "kindle-2026",
+      "kindle-paperwhite-7",
+      "kindle-paperwhite-7-signature-edition",
+      "kindle-paperwhite-6",
+      "kindle-2024",
+      "spc-dickens-light-pro"
+    ],
+    "pros": [
+      {
+        "text": "Sharp text thanks to the 300 PPI screen"
+      },
+      {
+        "text": "Adjustable front light for comfortable reading in any lighting"
+      },
+      {
+        "text": "Bluetooth support enables connecting accessories"
+      },
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "No physical page turn buttons, all navigation is done via the touchscreen"
+      },
+      {
+        "text": "No expandable storage"
+      }
+    ]
+  },
+  {
+    "id": "kindle-2026",
+    "brand": "Kindle",
+    "name": "Kindle 2026",
+    "fullName": "Kindle 2026",
+    "releaseDate": "2026 / 10",
+    "price": 169.99,
+    "screenSize": 6,
+    "resolution": "1072 x 1448",
+    "screenType": "E Ink",
+    "operatingSystem": "Kindle ",
+    "androidVersion": null,
+    "dimensions": "108 x 152.8 x 6.9",
+    "weight": 140,
+    "cpu": null,
+    "storage": "16 GB",
+    "ram": null,
+    "battery": "1040 mAh\n\"up to 6 weeks\"",
+    "aspectRatio": "~3:4",
+    "screenLight": true,
+    "warmLight": false,
+    "colorDisplay": false,
+    "darkMode": true,
+    "wifi": true,
+    "bluetooth": true,
+    "sdCard": false,
+    "usbc": true,
+    "mobileData": false,
+    "speakers": false,
+    "microphone": false,
+    "browser": true,
+    "textToSpeech": true,
+    "waterproof": false,
+    "touchscreen": true,
+    "pageTurnButtons": false,
+    "automaticRotation": false,
+    "stylusSupport": false,
+    "audioOutput": false,
+    "wirelessCharging": false,
+    "cloudStorage": false,
+    "email": false,
+    "availability": "Available",
+    "bookStore": true,
+    "libby": true,
+    "dimensionsH": 152.8,
+    "dimensionsL": 108,
+    "dimensionsW": 6.9,
+    "pixelDensity": 300,
+    "wifiVersion": "No WiFi",
+    "bluetoothVersion": "No Bluetooth",
+    "priceCategory": "Mid-Range",
+    "sizeCategory": "Medium",
+    "categories": [
+      "Mid-Range",
+      "Medium",
+      "For Reading"
+    ],
+    "rating": 0.521,
+    "similar": [
+      "kindle-aluminum-2026",
+      "kindle-paperwhite-7",
+      "kindle-paperwhite-7-signature-edition",
+      "kindle-paperwhite-6",
+      "kindle-2024",
+      "spc-dickens-light-pro"
+    ],
+    "pros": [
+      {
+        "text": "High resolution display"
+      },
+      {
+        "text": "Front light lets you read comfortably in the dark"
+      },
+      {
+        "text": "Bluetooth support enables connecting accessories"
+      },
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "No physical page turn buttons, all navigation is done via the touchscreen"
+      },
+      {
+        "text": "No SD card slot, limited to built-in storage"
+      }
+    ]
+  },
+  {
+    "id": "boox-note-air-6-c",
+    "brand": "Boox",
+    "name": "Boox Note Air 6 C",
+    "fullName": "Boox Note Air 6 C",
+    "releaseDate": "2026 / 09",
+    "price": 579.99,
+    "screenSize": 10.3,
+    "resolution": "1860 x 2480",
+    "screenType": "E Ink Kaleido 3",
+    "operatingSystem": "Android",
+    "androidVersion": "16",
+    "dimensions": "192 x 225 x 5.8",
+    "weight": 440,
+    "cpu": "2.9 GHz | 8 cores",
+    "storage": "64 GB",
+    "ram": "6 GB",
+    "battery": "3700 mAh",
+    "aspectRatio": "3:4",
+    "screenLight": true,
+    "warmLight": true,
+    "colorDisplay": true,
+    "darkMode": true,
+    "wifi": true,
+    "bluetooth": true,
+    "sdCard": true,
+    "usbc": true,
+    "mobileData": false,
+    "speakers": true,
+    "microphone": true,
+    "browser": true,
+    "textToSpeech": true,
+    "waterproof": false,
+    "touchscreen": true,
+    "pageTurnButtons": true,
+    "automaticRotation": true,
+    "stylusSupport": true,
+    "audioOutput": false,
+    "wirelessCharging": false,
+    "cloudStorage": true,
+    "email": true,
+    "availability": "Available",
+    "bookStore": true,
+    "libby": true,
+    "dimensionsH": 225,
+    "dimensionsL": 192,
+    "dimensionsW": 5.8,
+    "pixelDensity": 301,
+    "wifiVersion": "No WiFi",
+    "bluetoothVersion": "No Bluetooth",
+    "priceCategory": "High-End",
+    "sizeCategory": "Medium",
+    "categories": [
+      "High-End",
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
+    ],
+    "rating": 0.771,
+    "similar": [
+      "boox-tab-ultra-c",
+      "boox-note-air-3-c",
+      "boox-note-air-5-c",
+      "boox-note-air-4-c",
+      "bigme-b10",
+      "boox-tab-ultra-c-pro"
+    ],
+    "pros": [
+      {
+        "text": "High resolution display"
+      },
+      {
+        "text": "Color screen is great for comics, magazines, and illustrated books"
+      },
+      {
+        "text": "Physical page turn buttons"
+      },
+      {
+        "text": "Stylus support is great for annotations and note-taking"
+      },
+      {
+        "text": "Expandable storage via SD card"
+      },
+      {
+        "text": "Big 3700 mAh battery, weeks of reading on a single charge"
+      },
+      {
+        "text": "Front light lets you read comfortably in the dark"
+      },
+      {
+        "text": "Slim design at only 5.8mm thick"
+      },
+      {
+        "text": "Big screen makes reading easier, especially for documents and illustrated content"
+      },
+      {
+        "text": "Bluetooth support enables connecting accessories"
+      },
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "Heavy device at 440g"
+      }
+    ]
+  },
+  {
+    "id": "boox-note-mini-c",
+    "brand": "Boox",
+    "name": "Boox Note Mini C",
+    "fullName": "Boox Note Mini C",
+    "releaseDate": "2026 / 09",
+    "price": 549.99,
+    "screenSize": 8.52,
+    "resolution": "1536 x 2048",
+    "screenType": "E Ink Kaleido 3",
+    "operatingSystem": "Android",
+    "androidVersion": "16",
+    "dimensions": "156 x 187.7 x 6",
+    "weight": 300,
+    "cpu": "2.9 GHz | 8 cores",
+    "storage": "64 GB",
+    "ram": "6 GB",
+    "battery": "3150 mAh",
+    "aspectRatio": "3:4",
+    "screenLight": true,
+    "warmLight": true,
+    "colorDisplay": true,
+    "darkMode": true,
+    "wifi": true,
+    "bluetooth": true,
+    "sdCard": true,
+    "usbc": true,
+    "mobileData": false,
+    "speakers": true,
+    "microphone": true,
+    "browser": true,
+    "textToSpeech": true,
+    "waterproof": false,
+    "touchscreen": true,
+    "pageTurnButtons": false,
+    "automaticRotation": true,
+    "stylusSupport": true,
+    "audioOutput": false,
+    "wirelessCharging": false,
+    "cloudStorage": true,
+    "email": true,
+    "availability": "Available",
+    "bookStore": true,
+    "libby": true,
+    "dimensionsH": 187.7,
+    "dimensionsL": 156,
+    "dimensionsW": 6,
+    "pixelDensity": 300,
+    "wifiVersion": "No WiFi",
+    "bluetoothVersion": "No Bluetooth",
+    "priceCategory": "High-End",
+    "sizeCategory": "Medium",
+    "categories": [
+      "High-End",
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Kindle Alternative"
+    ],
+    "rating": 0.737,
+    "similar": [
+      "boox-note-air-6-c",
+      "boox-tab-mini-c",
+      "boox-tab-ultra-c",
+      "boox-note-air-4-c",
+      "boox-tab-ultra-c-pro",
+      "bigme-b10"
+    ],
+    "pros": [
+      {
+        "text": "Sharp text thanks to the 300 PPI screen"
+      },
+      {
+        "text": "Color screen is great for comics, magazines, and illustrated books"
+      },
+      {
+        "text": "Stylus support is great for annotations and note-taking"
+      },
+      {
+        "text": "Expandable storage via SD card"
+      },
+      {
+        "text": "Big 3150 mAh battery, weeks of reading on a single charge"
+      },
+      {
+        "text": "Adjustable front light for comfortable reading in any lighting"
+      },
+      {
+        "text": "Slim design at only 6mm thick"
+      },
+      {
+        "text": "Bluetooth support enables connecting accessories"
+      },
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "No physical page turn buttons, all navigation is done via the touchscreen"
+      }
+    ]
+  },
+  {
+    "id": "boox-palma-3",
+    "brand": "Boox",
+    "name": "Boox Palma 3",
+    "fullName": "Boox Palma 3",
+    "releaseDate": "2026 / 09",
+    "price": 319.99,
+    "screenSize": 6.13,
+    "resolution": "824 x 1648",
+    "screenType": "E Ink Carta 1300",
+    "operatingSystem": "Android",
+    "androidVersion": "16",
+    "dimensions": "78 x 159 x 7.8",
+    "weight": 195,
+    "cpu": "2.9 GHz | 8 cores",
+    "storage": "128 GB",
+    "ram": "6 GB",
+    "battery": "3950 mAh",
+    "aspectRatio": "1:2",
+    "screenLight": true,
+    "warmLight": true,
+    "colorDisplay": false,
+    "darkMode": "?",
+    "wifi": true,
+    "bluetooth": true,
+    "sdCard": true,
+    "usbc": true,
+    "mobileData": false,
+    "speakers": true,
+    "microphone": true,
+    "browser": true,
+    "textToSpeech": true,
+    "waterproof": false,
+    "touchscreen": true,
+    "pageTurnButtons": true,
+    "automaticRotation": true,
+    "stylusSupport": true,
+    "audioOutput": false,
+    "wirelessCharging": false,
+    "cloudStorage": true,
+    "email": true,
+    "availability": "Available",
+    "bookStore": true,
+    "libby": true,
+    "dimensionsH": 159,
+    "dimensionsL": 78,
+    "dimensionsW": 7.8,
+    "pixelDensity": 301,
+    "wifiVersion": "No WiFi",
+    "bluetoothVersion": "No Bluetooth",
+    "priceCategory": "Mid-Range",
+    "sizeCategory": "Medium",
+    "categories": [
+      "Mid-Range",
+      "Medium",
+      "For Reading",
+      "For Note-taking",
+      "Phone-Like"
+    ],
+    "rating": 0.723,
+    "similar": [
+      "bigme-hibreak-dual-bw",
+      "viwoods-aipaper-reader",
+      "bigme-hibreak-plus",
+      "boox-palma",
+      "boox-palma-2",
+      "durobo-krono"
+    ],
+    "pros": [
+      {
+        "text": "Sharp text thanks to the 301 PPI screen"
+      },
+      {
+        "text": "Physical page turn buttons"
+      },
+      {
+        "text": "Stylus support is great for annotations and note-taking"
+      },
+      {
+        "text": "Expandable storage via SD card"
+      },
+      {
+        "text": "Big 3950 mAh battery, weeks of reading on a single charge"
+      },
+      {
+        "text": "Adjustable front light for comfortable reading in any lighting"
+      },
+      {
+        "text": "Bluetooth support enables connecting accessories"
+      },
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": []
+  },
+  {
+    "id": "boox-picco",
+    "brand": "Boox",
+    "name": "Boox Picco",
+    "fullName": "Boox Picco",
+    "releaseDate": "2026 / 09",
+    "price": 99.99,
+    "screenSize": 3.97,
+    "resolution": "480 x 800",
+    "screenType": "E Ink",
+    "operatingSystem": "Custom",
+    "androidVersion": null,
+    "dimensions": "62 x 105.5 x 5.5",
+    "weight": 58,
+    "cpu": "0.24 GHz | 2 cores",
+    "storage": "16 GB",
+    "ram": "8.512 MB",
+    "battery": "920 mAh",
+    "aspectRatio": "3:5",
+    "screenLight": true,
+    "warmLight": true,
+    "colorDisplay": false,
+    "darkMode": true,
+    "wifi": true,
+    "bluetooth": true,
+    "sdCard": true,
+    "usbc": true,
+    "mobileData": false,
+    "speakers": false,
+    "microphone": false,
+    "browser": false,
+    "textToSpeech": false,
+    "waterproof": false,
+    "touchscreen": true,
+    "pageTurnButtons": true,
+    "automaticRotation": false,
+    "stylusSupport": false,
+    "audioOutput": false,
+    "wirelessCharging": false,
+    "cloudStorage": false,
+    "email": false,
+    "availability": "Upcoming",
+    "bookStore": false,
+    "libby": false,
+    "dimensionsH": 105.5,
+    "dimensionsL": 62,
+    "dimensionsW": 5.5,
+    "pixelDensity": 235,
+    "wifiVersion": "No WiFi",
+    "bluetoothVersion": "No Bluetooth",
+    "priceCategory": "Budget",
+    "sizeCategory": "Compact",
+    "categories": [
+      "Budget",
+      "Compact",
+      "For Reading"
+    ],
+    "rating": 0.516,
+    "similar": [
+      "xteink-x4-pro",
+      "xteink-x3",
+      "famue-bf01",
+      "xteink-x4",
+      "famue-bf07",
+      "kindle-2024"
+    ],
+    "pros": [
+      {
+        "text": "Physical page turn buttons"
+      },
+      {
+        "text": "Expandable storage via SD card"
+      },
+      {
+        "text": "Compact and pocketable, easy to carry everywhere"
+      },
+      {
+        "text": "Adjustable front light for comfortable reading in any lighting"
+      },
+      {
+        "text": "Slim design at only 5.5mm thick"
+      },
+      {
+        "text": "Bluetooth support enables connecting accessories"
+      },
+      {
+        "text": "WiFi support makes it easier to access your content"
+      }
+    ],
+    "cons": [
+      {
+        "text": "3.97\" screen may be too small for some"
+      },
+      {
+        "text": "Small 920 mAh battery, may require more frequent charging than other e-readers"
+      }
+    ]
+  },
+  {
     "id": "xteink-x4-pro",
     "brand": "Xteink",
     "name": "Xteink X4 Pro",
@@ -60,9 +1108,9 @@
     "similar": [
       "xteink-x3",
       "xteink-x4",
+      "boox-picco",
       "famue-bf01",
       "m5stack-papers3",
-      "famue-bf07",
       "kindle-2024"
     ],
     "pros": [
@@ -767,7 +1815,7 @@
       "bigme-b1051c-pro",
       "boox-note-air-4-c",
       "boox-tab-ultra-c-pro",
-      "musnap-aura-c"
+      "boox-note-air-6-c"
     ],
     "pros": [
       {
@@ -1163,11 +2211,11 @@
     "rating": 0.699,
     "similar": [
       "bigme-hibreak-plus",
+      "boox-palma-3",
       "bigme-hibreak-pro-color",
       "bigme-hibreak-bw",
       "boox-palma",
-      "durobo-krono",
-      "viwoods-aipaper-reader-c"
+      "durobo-krono"
     ],
     "pros": [
       {
@@ -1264,9 +2312,9 @@
     "similar": [
       "bigme-hibreak-dual-bw",
       "bigme-hibreak-pro-color",
+      "boox-palma-3",
       "bigme-hibreak-color",
       "boox-palma",
-      "viwoods-aipaper-reader-c",
       "durobo-krono"
     ],
     "pros": [
@@ -1551,9 +2599,9 @@
     "similar": [
       "xteink-x4-pro",
       "famue-bf01",
+      "boox-picco",
       "xteink-x4",
       "m5stack-papers3",
-      "famue-bf07",
       "kindle-2024"
     ],
     "pros": [
@@ -1659,9 +2707,9 @@
       "boox-palma",
       "boox-palma-2",
       "viwoods-aipaper-reader",
+      "boox-palma-3",
       "moaan-inkpalm-plus",
-      "bigme-hibreak-bw",
-      "bigme-hibreak-dual-bw"
+      "bigme-hibreak-bw"
     ],
     "pros": [
       {
@@ -2242,8 +3290,8 @@
     "rating": 0.645,
     "similar": [
       "kindle-colorsoft-signature-edition",
-      "kindle-oasis-3",
-      "kindle-2",
+      "kindle-colorsoft-2",
+      "kindle-colorsoft-2-signature-edition",
       "kindle-paperwhite-6",
       "kindle-2024",
       "bigme-b6"
@@ -2855,9 +3903,9 @@
     "similar": [
       "boox-note-air-3-c",
       "boox-tab-ultra-c",
+      "boox-note-air-6-c",
       "boox-tab-ultra-c-pro",
       "boox-note-air-4-c",
-      "boox-note-air-2",
       "musnap-aura-c"
     ],
     "pros": [
@@ -4025,11 +5073,11 @@
     "rating": 0.641,
     "similar": [
       "viwoods-aipaper-reader-c",
+      "boox-palma-3",
       "boox-palma-2",
       "boox-palma",
       "bigme-hibreak-pro-color",
-      "durobo-krono",
-      "bigme-hibreak-bw"
+      "durobo-krono"
     ],
     "pros": [
       {
@@ -5691,8 +6739,8 @@
     "similar": [
       "xteink-x4-pro",
       "xteink-x3",
+      "boox-picco",
       "famue-bf01",
-      "m5stack-papers3",
       "ratta-supernote-a5-x2-manta",
       "kindle-2024"
     ],
@@ -5992,10 +7040,10 @@
     "rating": 0.505,
     "similar": [
       "xteink-x4-pro",
+      "boox-picco",
       "xteink-x4",
       "famue-bf01",
       "xteink-x3",
-      "spc-dickens-light-2-pro",
       "kindle-2024"
     ],
     "pros": [
@@ -6469,8 +7517,8 @@
       "famue-bf01",
       "xteink-x3",
       "xteink-x4-pro",
-      "xteink-x4",
-      "boox-palma"
+      "boox-palma",
+      "xteink-x4"
     ],
     "pros": [
       {
@@ -6671,8 +7719,8 @@
       "xteink-x3",
       "famue-bf01",
       "xteink-x4-pro",
-      "xteink-x4",
-      "boox-palma"
+      "boox-palma",
+      "xteink-x4"
     ],
     "pros": [
       {
@@ -6974,11 +8022,11 @@
     ],
     "rating": 0.659,
     "similar": [
+      "kindle-colorsoft-2",
+      "kindle-colorsoft-2-signature-edition",
       "kindle-colorsoft",
-      "kindle-oasis-2",
-      "kindle-11",
-      "kindle-2024",
       "kindle-paperwhite-6",
+      "kindle-2024",
       "kobo-clara-colour"
     ],
     "pros": [
@@ -7075,7 +8123,7 @@
       "kindle-2024",
       "kindle-oasis-2",
       "kindle-11",
-      "kindle-voyage",
+      "kindle-paperwhite-7",
       "kobo-libra-2"
     ],
     "pros": [
@@ -7169,7 +8217,7 @@
       "kindle-2024",
       "kindle-oasis-2",
       "kindle-11",
-      "kindle-voyage",
+      "kindle-paperwhite-7",
       "kobo-libra-2"
     ],
     "pros": [
@@ -7261,9 +8309,9 @@
     "similar": [
       "kindle-paperwhite-6",
       "kindle-paperwhite-6-signature-edition",
+      "kindle-2026",
+      "kindle-aluminum-2026",
       "kindle-11",
-      "kindle-voyage",
-      "kindle-paperwhite",
       "kobo-clara-bw"
     ],
     "pros": [
@@ -8040,9 +9088,9 @@
       "boox-palma",
       "durobo-krono",
       "viwoods-aipaper-reader",
+      "boox-palma-3",
       "bigme-hibreak-s-bw",
-      "bigme-hibreak-bw",
-      "bigme-hibreak-pro-color"
+      "bigme-hibreak-bw"
     ],
     "pros": [
       {
@@ -8136,8 +9184,8 @@
       "boox-note-air-3-c",
       "boox-note-air-5-c",
       "boox-tab-ultra-c",
-      "bigme-b1051c-lite",
-      "kindle-scribe-2024"
+      "kindle-scribe-2024",
+      "bigme-b1051c-lite"
     ],
     "pros": [
       {
@@ -8646,9 +9694,9 @@
     "rating": 0.724,
     "similar": [
       "pocketbook-inkpad-eo",
+      "boox-note-air-6-c",
       "boox-tab-ultra-c",
       "bigme-b1051c-lite",
-      "bigme-b1051c",
       "boox-tab-ultra-c-pro",
       "boox-note-air-4-c"
     ],
@@ -8753,8 +9801,8 @@
     "similar": [
       "pocketbook-color-note",
       "boox-tab-ultra-c",
+      "boox-note-air-6-c",
       "bigme-b1051c-lite",
-      "bigme-b1051c",
       "boox-tab-ultra-c-pro",
       "boox-note-air-4-c"
     ],
@@ -11846,11 +12894,11 @@
     "rating": 0.44,
     "similar": [
       "xteink-x3",
+      "boox-picco",
       "famue-bf07",
       "xteink-x4-pro",
-      "m5stack-papers3",
-      "xteink-x4",
-      "kindle-2024"
+      "kindle-2024",
+      "xteink-x4"
     ],
     "pros": [
       {
@@ -12442,8 +13490,8 @@
       "boox-note-air-3-c",
       "boox-note-air-5-c",
       "boox-tab-ultra-c",
-      "bigme-guoyue-k3-color",
-      "kindle-scribe-2024"
+      "kindle-scribe-2024",
+      "bigme-guoyue-k3-color"
     ],
     "pros": [
       {
@@ -12546,10 +13594,10 @@
     "similar": [
       "boox-note-air-5-c",
       "boox-tab-ultra-c",
+      "boox-note-air-6-c",
       "boox-tab-ultra-c-pro",
       "boox-note-air-4-c",
-      "bigme-guoyue-k3-color",
-      "bigme-inknote-color"
+      "bigme-guoyue-k3-color"
     ],
     "pros": [
       {
@@ -12857,9 +13905,9 @@
       "boox-palma-2",
       "durobo-krono",
       "viwoods-aipaper-reader",
+      "boox-palma-3",
       "boox-page",
-      "bigme-hibreak-pro-color",
-      "moaan-inkpalm-plus"
+      "bigme-hibreak-pro-color"
     ],
     "pros": [
       {
@@ -13141,9 +14189,9 @@
     "rating": 0.73,
     "similar": [
       "boox-note-air-3-c",
+      "boox-note-air-6-c",
       "boox-note-air-5-c",
       "bigme-guoyue-k3-color",
-      "bigme-inknote-color",
       "boox-note-air-4-c",
       "boox-tab-ultra-c-pro"
     ],
@@ -17239,8 +18287,8 @@
     "rating": 0.505,
     "similar": [
       "kindle-voyage",
-      "kindle-oasis-2",
-      "kindle-paperwhite-4",
+      "kindle-2026",
+      "kindle-aluminum-2026",
       "kindle-paperwhite-6",
       "kindle-2024",
       "kobo-nia"
@@ -21559,8 +22607,8 @@
     "similar": [
       "spc-dickens-light-2-pro",
       "silvergear-e-reader",
-      "kindle-11",
-      "nook-glowlight-4",
+      "kindle-2026",
+      "kindle-aluminum-2026",
       "kindle-paperwhite-6",
       "kindle-2024"
     ],
@@ -21652,11 +22700,11 @@
     ],
     "rating": 0.49,
     "similar": [
+      "remarkable-paper-pure",
       "remarkable-1",
       "penstar-enote",
       "boox-go-103",
       "penstar-enote-2",
-      "kindle-scribe",
       "kindle-paperwhite-6"
     ],
     "pros": [
@@ -22479,11 +23527,11 @@
     ],
     "rating": 0.472,
     "similar": [
+      "remarkable-paper-pure",
       "remarkable-2",
       "remarkable-paper-pro",
       "kindle-scribe",
       "penstar-enote",
-      "penstar-enote-2",
       "boox-go-103"
     ],
     "pros": [
@@ -24220,7 +25268,7 @@
     "similar": [
       "kindle-keyboard",
       "kindle-touch",
-      "kindle-11",
+      "kindle-2026",
       "kindle-paperwhite-6",
       "kindle-2024",
       "nook-glowlight"
@@ -25146,7 +26194,7 @@
       "kobo-touch",
       "kobo-libra-2",
       "kindle-2024",
-      "kindle-1"
+      "kindle-2026"
     ],
     "pros": [
       {
@@ -25618,7 +26666,7 @@
     "similar": [
       "kindle-2",
       "kindle-touch",
-      "kindle-4",
+      "kindle-2026",
       "kindle-paperwhite-6",
       "kindle-2024",
       "nook-1st-edition"
