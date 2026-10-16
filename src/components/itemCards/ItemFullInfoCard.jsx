@@ -10,6 +10,7 @@ import {
   Heading,
   Separator,
   Center,
+  Stack,
 } from "@chakra-ui/react";
 import FeatureTag from "../toolsComponents/FeatureTag";
 import sections from "@/resources/sections";
@@ -137,7 +138,7 @@ export default function ItemFullInfoCard(props) {
     const Icon = section.icon;
     return (
       <>
-        <Center
+        <Box
           as="span"
           flex="1"
           textAlign="left"
@@ -165,8 +166,8 @@ export default function ItemFullInfoCard(props) {
               {section.label}
             </Box>
           </HStack>
-        </Center>
-        {/* <Separator borderColor="var(--appBorderColor)" mb="1rem"/> */}
+        </Box>
+        <Separator borderColor="var(--appBorderColor)" mb="1rem"/>
       </>
     );
   };
@@ -181,22 +182,26 @@ export default function ItemFullInfoCard(props) {
           <Separator my="1rem"></Separator>
         </Box>
       )} */}
-      {Object.entries(sections).map(([sectionKey, section]) => (
-        <ItemCard
-          key={sectionKey}
-          borderTop={0}
-          borderBottom={0}
-          p={"2rem"}
-          // pl={"1rem"}
-          // pb=".5rem"
-          pt="1.4rem"
-        >
-          <Box>{renderSectionTitle(section)}</Box>
-          <Box pb={4} pt={1}>
-            {props.itemInfo && renderAttributes(sectionKey, section)}
+      <ItemCard
+        
+        borderTop={0}
+        borderBottom={0}
+        p={"2rem"}
+        // pl={"1rem"}
+        // pb=".5rem"
+        pt="1.4rem"
+      >
+          <Stack rowGap={"2rem"}>
+
+        {Object.entries(sections).map(([sectionKey, section]) => (
+          <Box key={sectionKey}>
+            <Box>{renderSectionTitle(section)}</Box>
+            <Box pb={4} pt={1}>
+              {props.itemInfo && renderAttributes(sectionKey, section)}
+            </Box>
           </Box>
-        </ItemCard>
-      ))}
+        ))}</Stack>
+      </ItemCard>
 
       {props.itemInfo && props.clickable && (
         <Flex alignItems={"stretch"}>
