@@ -37,8 +37,8 @@ function FrontPageHero() {
           sm: "3.2rem",
           md: "4.5rem",
         }}
-        fontFamily="var(--font-lora)"
-        fontStyle="italic"
+        // fontFamily="var(--font-lora)"
+        // fontStyle="italic"
         fontWeight="700"
         lineHeight="1.05"
         letterSpacing="-0.02em"
@@ -50,8 +50,8 @@ function FrontPageHero() {
 
       <Text
         fontSize={{ base: "0.9rem", md: "1.1rem" }}
-        fontFamily="var(--font-lora)"
-        fontStyle="italic"
+        // fontFamily="var(--font-lora)"
+        // fontStyle="italic"
         color="var(--appColorDarkGrey)"
         letterSpacing="0.03em"
         maxW="34rem"
@@ -148,7 +148,7 @@ function GenericFrontPageTitle(props) {
       textUnderlineOffset={".7rem"}
       fontFamily="var(--font-roboto-mono)"
       letterSpacing="0.15em"
-      color="var(--appColorDarkerGrey)"
+      // color="var(--appColorDarkerGrey)"
       textTransform="uppercase"
       {...props}
     >
@@ -237,6 +237,7 @@ function QuickLinksTag(props) {
       textAlign={"center"}
       alignItems={"center"}
       justifyContent={"center"}
+      boxShadow={"sm"}
     >
       <Box as="span" mr="2px">
         {props.category.text}

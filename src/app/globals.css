@@ -2,7 +2,7 @@
 
 :root {
   /* font-family: var(--font-roboto-mono), Arial, sans-serif; */
-  --background: #fefaf1;
+  --background: #fbfbfd;
   --foreground: #171717;
   --appBorderColor: #dfdfdf;
   --appColorAccent: #18519b;
@@ -11,8 +11,8 @@
   --appColorLight: #e0eeff;
   --appColorDarkGrey: #707e91;
   --appColorDarkerGrey: #484f58;
-  --appColorLightGrey: #ededef;
-  --appColorCardBackground: #faf8f1;
+  --appColorLightGrey: #ececf7;
+  --appColorCardBackground: #ffffff;
   --appColorLink: var(--appColorAccent);
     --appColorSuccess: #08ac68;
   --appColorWarning: orange;

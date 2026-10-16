@@ -95,6 +95,8 @@ export const compareOrder = (orderArray, a, b, useIncludes) => {
 };
 
 export const compareWithUnitOrder = (unitOrderArray, a, b) => {
+
+  if (!a || !b) return 0
   const aUnit = unitOrderArray.findLastIndex((unit) => a.includes(unit));
   const bUnit = unitOrderArray.findLastIndex((unit) => b.includes(unit));
 
