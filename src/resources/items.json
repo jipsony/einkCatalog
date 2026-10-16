@@ -118,7 +118,7 @@
     "cpu": null,
     "storage": "32 GB",
     "ram": null,
-    "battery": "\"up to 8 weeks\"",
+    "battery": null,
     "aspectRatio": "~3:4",
     "screenLight": true,
     "warmLight": true,
@@ -210,7 +210,7 @@
     "cpu": null,
     "storage": "16 GB",
     "ram": null,
-    "battery": "\"up to 8 weeks\"",
+    "battery": null,
     "aspectRatio": "~3:4",
     "screenLight": true,
     "warmLight": true,
@@ -302,7 +302,7 @@
     "cpu": null,
     "storage": "32 GB",
     "ram": null,
-    "battery": "\"up to 12 weeks\"",
+    "battery": null,
     "aspectRatio": "~3:4",
     "screenLight": true,
     "warmLight": true,
@@ -391,7 +391,7 @@
     "cpu": null,
     "storage": "16 GB",
     "ram": null,
-    "battery": "\"up to 12 weeks\"",
+    "battery": null,
     "aspectRatio": "~3:4",
     "screenLight": true,
     "warmLight": true,
@@ -480,7 +480,7 @@
     "cpu": null,
     "storage": "32 GB",
     "ram": null,
-    "battery": "1040 mAh\n\"up to 6 weeks\"",
+    "battery": "1040 mAh",
     "aspectRatio": "~3:4",
     "screenLight": true,
     "warmLight": false,
@@ -520,7 +520,7 @@
       "Medium",
       "For Reading"
     ],
-    "rating": 0.521,
+    "rating": 0.517,
     "similar": [
       "kindle-2026",
       "kindle-paperwhite-7",
@@ -569,7 +569,7 @@
     "cpu": null,
     "storage": "16 GB",
     "ram": null,
-    "battery": "1040 mAh\n\"up to 6 weeks\"",
+    "battery": "1040 mAh",
     "aspectRatio": "~3:4",
     "screenLight": true,
     "warmLight": false,
@@ -609,7 +609,7 @@
       "Medium",
       "For Reading"
     ],
-    "rating": 0.521,
+    "rating": 0.517,
     "similar": [
       "kindle-aluminum-2026",
       "kindle-paperwhite-7",
@@ -23945,7 +23945,7 @@
     "cpu": "1 GHz",
     "storage": "4 GB",
     "ram": "512 MB",
-    "battery": "1535 mAh ",
+    "battery": "1535 mAh",
     "aspectRatio": "~3:4",
     "screenLight": true,
     "warmLight": false,
@@ -24002,7 +24002,7 @@
         "text": "Physical page turn buttons"
       },
       {
-        "text": "Good 1535 mAh  battery for everyday use"
+        "text": "Good 1535 mAh battery for everyday use"
       },
       {
         "text": "Adjustable front light for comfortable reading in any lighting"
