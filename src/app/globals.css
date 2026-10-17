@@ -86,6 +86,16 @@ button {
   font-family: var(--font-roboto-mono), Arial, sans-serif;
 }
 
+/* New e-ink page settling in: faint ghost image that gradually sharpens */
+@keyframes einkSettle {
+  0% { opacity: 0.2; }
+  100% { opacity: 1; }
+}
+
+.einkSettle {
+  animation: einkSettle 600ms ease-out both;
+}
+
 .chakra-menu__item {
   cursor: pointer;
 }

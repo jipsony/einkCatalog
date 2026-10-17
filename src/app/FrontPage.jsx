@@ -2,6 +2,7 @@ import ItemCard from "@/components/itemCards/ItemCard";
 import ItemHorizontalPreviewCard from "@/components/itemCards/ItemHorizontalPreviewCard";
 import ItemVerticalPreviewCard from "@/components/itemCards/ItemVerticalPreviewCard";
 import AppLink from "@/components/toolsComponents/AppLink";
+import EinkRefreshWord from "@/components/toolsComponents/EinkRefreshWord";
 import { SearchClickWrapper } from "@/components/toolsComponents/SearchClickWrapper";
 import { appName, itemMainRoute, itemsLabel } from "@/lib/appGlobals";
 import { buildFrontImageUrl } from "@/lib/images";
@@ -58,7 +59,8 @@ function FrontPageHero() {
         mx="auto"
         lineHeight="1.6"
       >
-        Your Database of E-Ink Readers, Tablets&nbsp;&amp;&nbsp;Phones
+        Your Comprehensive Database of {" "}
+        <EinkRefreshWord words={["E-Ink Devices", "E-Readers", "E-Ink Phones","E-Paper Tablets"]} />
       </Text>
     </Box>
   );

@@ -5,7 +5,7 @@ import { React } from "react";
 
 let metadata;
 export default async function Company({ params }) {
-  const brand = params.brand.replace("%20", " ");
+  const brand = params?.brand?.replace("%20", " ");
 
   metadata = {
     title: `${brand} E-Readers List - E-Reader Catalog`,
