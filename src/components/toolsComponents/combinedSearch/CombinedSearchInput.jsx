@@ -14,7 +14,7 @@ export default function CombinedSearchInput(props) {
   const inputRef = useRef();
 
   return (
-    <Box position={"relative"} mb="1rem">
+    <Box position={"relative"}>
       <InputGroup
         endElement={
           <Box
@@ -56,7 +56,8 @@ export default function CombinedSearchInput(props) {
           }}
           position={"relative"}
           size={props?.size ?? "2xl"}
-          height={"3rem"}
+          height={props?.height ?? "3rem"}
+          {...props?.style}
         ></Input>
       </InputGroup>
     </Box>

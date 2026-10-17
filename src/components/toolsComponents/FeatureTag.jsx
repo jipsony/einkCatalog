@@ -27,7 +27,7 @@ export default function FeatureTag({ label, value, detail }) {
       fontSize="12px"
       borderColor={isActive ? "var(--appColorAccent)" : "var(--appBorderColor)"}
       // bg={isActive ? "var(--appColorLight)" : "transparent"}
-      color={isActive ? "var(--appColorAccent)" : "currentColor"}
+      color={isActive ? "var(--appColorAccent)" : "var(--appColorAccentDark)"}
       opacity={isActive ? 1 : 0.6}
       whiteSpace="nowrap"
       justifyContent="center"

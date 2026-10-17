@@ -53,7 +53,7 @@ export const layoutWidth = {
 
 
 
-export const cardHeight = "20em";
+export const cardHeight = "22em";
 export const cardHeightPixels = parseFloat(cardHeight) * 16;
 export const cardPadding = 30;
 export const cardSize = 454;

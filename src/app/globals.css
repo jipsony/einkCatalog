@@ -4,8 +4,9 @@
   /* font-family: var(--font-roboto-mono), Arial, sans-serif; */
   --background: #fbfbfd;
   --foreground: #171717;
-  --appBorderColor: #dfdfdf;
+  --appBorderColor: #e3e3e7;
   --appColorAccent: #18519b;
+  --appColorAccentDark: #0f3163;
   /* --appColorAccent: rgb(88, 80, 230); */
   --appColorAccentLight: #a2c4f1;
   --appColorLight: #e0eeff;
@@ -24,6 +25,7 @@
   --foreground: #ededed;
   --appBorderColor: #666666;
   --appColorAccent: #66a7fc;
+  --appColorAccentDark: var(--appColorAccent);
   --appColorAccentLight:  #356fbb;
   --appColorLight: var(--background);
   --appColorCardBackground: #1e2027;
@@ -48,7 +50,7 @@ body {
   color: var(--foreground);
   /* font-family: Arial, Helvetica, sans-serif; */
   font-family: var(--font-roboto-mono), Arial, sans-serif;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 /* @keyframes app-header-border {

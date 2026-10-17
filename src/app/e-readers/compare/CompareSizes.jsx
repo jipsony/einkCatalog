@@ -464,6 +464,7 @@ export default function CompareSizes(props) {
           ref={containerRef}
           backgroundColor={"var(--appColorCardBackground)"}
           p={0}
+          overflow="hidden"
           mb="2rem"
         >
           {containerRef?.current && (
@@ -489,7 +490,6 @@ export default function CompareSizes(props) {
                     m={0}
                     variant={"ghost"}
                     flexGrow={1}
-                    borderLeftRadius={"6px"}
                   >
                     <Heading size={"md"} className="appHeaderLink">
                       {" "}
@@ -713,8 +713,15 @@ export default function CompareSizes(props) {
               </Flex>
               {isActive && (
                 <>
-                  <Box height={cardHeight} pt={"2px"} px={"var(--card-padding)"}>
+                  <Flex
+                    direction="column"
+                    height={cardHeight}
+                    pt={"2px"}
+                    pb={"8px"}
+                    px={"var(--card-padding)"}
+                  >
                     <Box
+                      flexShrink={0}
                       // fontSize="sm"
                       color={"var(--appColorDarkGrey)"}
                       pb=".5rem"
@@ -792,7 +799,8 @@ export default function CompareSizes(props) {
                       }
                       position={"relative"}
                       id="draggableBounds"
-                      height={cardHeightPixels - 80}
+                      flex="1"
+                      minHeight={0}
                       onClickCapture={(e) => {
                         const emptySpace =
                           !e?.target?.className?.includes("selectable");
@@ -816,7 +824,7 @@ export default function CompareSizes(props) {
                         );
                       })}
                     </Flex>
-                  </Box>
+                  </Flex>
                 </>
               )}
             </>
